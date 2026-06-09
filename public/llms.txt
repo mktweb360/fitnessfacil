@@ -1,0 +1,56 @@
+# FitnessFácil.es — LLMs.txt
+
+## Site Description
+
+FitnessFácil.es is a Spanish affiliate blog and fitness equipment review site targeting Spanish adults who want to exercise at home without going to a gym. Published by Mkt Web 360 SLU (CIF B87679304).
+
+## Main Topics
+
+- Home fitness equipment: treadmills, stationary bikes, dumbbells/weights, yoga mats
+- Fitness training guides and workout plans in Spanish
+- Sports supplements (whey protein, creatine) with health disclaimers
+- Weight loss and fat burning programs for home exercise
+
+## Health Disclaimer
+
+All content on FitnessFácil.es is for informational purposes only and does not constitute medical advice. Users should consult a doctor before starting any exercise program or taking supplements.
+
+## Content Index
+
+### Store Pages
+- /tienda — Main store with all categories
+- /tienda/cintas-correr — Treadmills for home use
+- /tienda/bicicletas-estaticas — Stationary bikes and ellipticals
+- /tienda/pesas-mancuernas — Dumbbells, weights, kettlebells
+- /tienda/esterillas-yoga — Yoga and exercise mats
+- /tienda/suplementos-proteinas — Whey protein and creatine supplements
+
+### Featured Products
+- /tienda/cintas-correr/toorx-trx-50s — Toorx TRX-50S (best value treadmill)
+- /tienda/cintas-correr/reebok-one-gt40s — Reebok GT40S (premium treadmill)
+- /tienda/bicicletas-estaticas/bh-fitness-sb2-6 — BH Fitness SB2.6 spinning bike
+- /tienda/pesas-mancuernas/bowflex-selecttech-552 — Bowflex SelectTech 552 adjustable dumbbells
+- /tienda/esterillas-yoga/manduka-pro-yoga-mat — Manduka PRO lifetime warranty mat
+- /tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey — ON Gold Standard Whey
+
+### Blog Posts
+- /blog/mejor-cinta-correr-casa-2025 — Best treadmill for home 2025
+- /blog/bicicleta-estatica-o-eliptica — Stationary bike vs elliptical for weight loss
+- /blog/rutina-entrenamiento-casa-sin-equipamiento — 4-week home workout plan (no equipment)
+- /blog/mancuernas-ajustables-merece-pena — Are adjustable dumbbells worth it?
+- /blog/proteina-whey-guia-completa — Complete whey protein guide for beginners
+- /blog/yoga-en-casa-principiantes — Beginner yoga at home guide
+- /blog/perder-peso-ejercicio-casa — 8-week weight loss plan at home
+- /blog/creatina-para-que-sirve — Creatine guide: benefits, dosage and safety
+
+## Affiliate Disclosure
+
+Participates in Amazon Associates (ID: cclaserdepi01-21). Commissions earned on qualifying purchases at no extra cost to users.
+
+## Language
+
+All content in Spanish (es-ES).
+
+## Contact
+
+info@mktweb360.com
