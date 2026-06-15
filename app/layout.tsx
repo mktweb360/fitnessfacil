@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: "EGaCM1bqeseSmbkp4j5LngWJBTT8D6P_F4GVevCcFh4",
+  },
 };
 
 const websiteSchema = {
