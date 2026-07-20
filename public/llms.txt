@@ -7,72 +7,75 @@ Propietario: Mkt Web 360 SLU (CIF B87679304)
 Contacto: info@mktweb360.com
 
 ## Descripción
-FitnessFácil.es es un portal de análisis y guías de compra especializado en equipamiento de fitness en casa para el mercado español. Publicamos comparativas, reseñas y guías de compra para personas que quieren entrenar en casa sin ir al gimnasio. Los productos analizados están disponibles en Amazon España. Comisión de afiliados: 10%.
-
-## Monetización
-- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
-- Google AdSense (pub-6063067965030118)
+FitnessFácil.es es un portal de análisis, comparativas y guías de compra especializado en equipamiento de fitness en casa para el mercado español. Publicamos reseñas honestas, comparativas detalladas y planes de entrenamiento para personas que quieren entrenar en casa sin ir al gimnasio. Los productos analizados están disponibles en Amazon España.
 
 ## Aviso sanitario
-El contenido de FitnessFácil.es es informativo y no constituye asesoramiento médico. Consulta siempre con un profesional de la salud antes de iniciar cualquier programa de ejercicio.
+El contenido de FitnessFácil.es es informativo y no constituye asesoramiento médico ni nutricional. Consulta siempre con un profesional de la salud antes de iniciar cualquier programa de ejercicio o suplementación.
+
+## Monetización
+- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21) — comisión media del 10%
+- Google AdSense (pub-6063067965030118)
 
 ## Tienda de productos
 URL: https://www.fitnessfacil.es/tienda
-- Cintas de correr: https://www.fitnessfacil.es/tienda/cintas-correr
-- Bicicletas estáticas: https://www.fitnessfacil.es/tienda/bicicletas-estaticas
-- Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas
-- Esterillas y yoga: https://www.fitnessfacil.es/tienda/esterillas-yoga
-- Suplementos y proteínas: https://www.fitnessfacil.es/tienda/suplementos-proteinas
+Categorías disponibles con fichas de producto individuales:
+- Cintas de correr: https://www.fitnessfacil.es/tienda/cintas-correr — WalkingPad plegables, 349-399€
+- Bicicletas estáticas: https://www.fitnessfacil.es/tienda/bicicletas-estaticas — Sportstech y MERACH, 119-249€
+- Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas — LULLAX, ManiBoom, JOWY, Fokky, 12-349€
+- Esterillas y yoga: https://www.fitnessfacil.es/tienda/esterillas-yoga — TOPLUS y La Mente Es Maravillosa TPE, 27-29€
+- Suplementos y proteínas: https://www.fitnessfacil.es/tienda/suplementos-proteinas — ON Gold Standard, Myprotein, 18-54€
 
 ## Artículos publicados
 
-### Cardio
-- La mejor cinta de correr para casa en 2025 — Análisis y comparativa: https://www.fitnessfacil.es/blog/mejor-cinta-correr-casa-2025
-- Tipos de bicicleta estática para casa: cuál elegir según tu espacio: https://www.fitnessfacil.es/blog/bicicleta-estatica-o-eliptica
-- WalkingPad R2 vs R1 Pro: cuál comprar en 2025: https://www.fitnessfacil.es/blog/walkingpad-r2-vs-r1-pro
-- Cinta de correr plegable para piso pequeño: guía 2025: https://www.fitnessfacil.es/blog/cinta-correr-plegable-piso-pequeno
-- Cinta de andar bajo el escritorio: guía completa 2025: https://www.fitnessfacil.es/blog/cinta-andar-casa-bajo-escritorio
-- WalkingPad: opiniones reales y análisis completo 2025: https://www.fitnessfacil.es/blog/walkingpad-opiniones-analisis
-- Beneficios de caminar en casa: por qué funciona mejor de lo que crees: https://www.fitnessfacil.es/blog/entrenar-caminando-casa-beneficios
-- Mejor bicicleta estática para casa en 2025 — Comparativa completa: https://www.fitnessfacil.es/blog/mejor-bicicleta-estatica-casa-2025
-- Sportstech X100-C: análisis completo y opiniones 2025: https://www.fitnessfacil.es/blog/sportstech-x100c-analisis
-- MERACH bicicleta estática: análisis completo y opiniones 2025: https://www.fitnessfacil.es/blog/merach-bicicleta-estatica-analisis
-- Mini bicicleta de escritorio: guía completa y análisis 2025: https://www.fitnessfacil.es/blog/mini-bicicleta-escritorio-trabajar
-- Ergómetro vs bicicleta estática: diferencias y cuál elegir: https://www.fitnessfacil.es/blog/ergometro-vs-bicicleta-estatica
+### Cintas de correr
+- [Mejor cinta de correr plegable para casa 2025](https://www.fitnessfacil.es/blog/mejor-cinta-correr-casa-2025) — Comparativa WalkingPad R2 vs alternativas, 349-399€
+- [WalkingPad R2 vs R1 Pro: cuál comprar en 2025](https://www.fitnessfacil.es/blog/walkingpad-r2-vs-r1-pro) — Diferencias reales en motor, velocidad y precio
+- [Cinta de correr plegable para piso pequeño](https://www.fitnessfacil.es/blog/cinta-correr-plegable-piso-pequeno) — Guía por espacio, ruido y plegado
+- [Cinta de andar bajo el escritorio: guía completa](https://www.fitnessfacil.es/blog/cinta-andar-casa-bajo-escritorio) — Uso laboral, velocidades y modelos recomendados
+- [WalkingPad: opiniones reales y análisis 2025](https://www.fitnessfacil.es/blog/walkingpad-opiniones-analisis) — Análisis de valoraciones de usuarios reales
+- [Beneficios de caminar en casa en cinta](https://www.fitnessfacil.es/blog/entrenar-caminando-casa-beneficios) — Evidencia científica, calorías y cómo empezar
+- [Plan de 8 semanas para perder peso caminando](https://www.fitnessfacil.es/blog/perder-peso-cinta-andar-casa-plan) — Progresión semanal con velocidades y calorías
 
-### Fuerza
-- Mancuernas ajustables: ¿merecen la pena? Análisis completo: https://www.fitnessfacil.es/blog/mancuernas-ajustables-merece-pena
-- Mancuernas ajustables vs fijas: cuál comprar para casa: https://www.fitnessfacil.es/blog/mancuernas-ajustables-vs-fijas
-- LULLAX NEO36 mancuernas ajustables: análisis y opiniones 2025: https://www.fitnessfacil.es/blog/lullax-neo36-analisis-opinion
-- Kettlebell para principiantes: qué peso elegir y cómo empezar: https://www.fitnessfacil.es/blog/kettlebell-para-empezar-peso
-- Bandas elásticas para musculación: guía completa 2025: https://www.fitnessfacil.es/blog/bandas-elasticas-musculacion-guia
-- Entrenamiento de fuerza en casa con equipamiento mínimo: https://www.fitnessfacil.es/blog/entrenamiento-fuerza-casa-equipamiento-minimo
-- Rutina de mancuernas en casa: plan semanal completo: https://www.fitnessfacil.es/blog/rutina-mancuernas-casa-semana
+### Bicicletas estáticas
+- [Mejor bicicleta estática para casa 2025](https://www.fitnessfacil.es/blog/mejor-bicicleta-estatica-casa-2025) — Comparativa MERACH vs Sportstech X150 vs X100-C
+- [Bicicleta estática o elíptica: cuál elegir](https://www.fitnessfacil.es/blog/bicicleta-estatica-o-eliptica) — Tipos de bicicleta estática por perfil de usuario
+- [Sportstech X100-C: análisis completo 2025](https://www.fitnessfacil.es/blog/sportstech-x100c-analisis) — Cuerdas de fuerza integradas, pros y contras
+- [MERACH bicicleta estática: análisis 2025](https://www.fitnessfacil.es/blog/merach-bicicleta-estatica-analisis) — App, 136kg carga, seguimiento de progresión
+- [Mini bicicleta de escritorio: guía completa](https://www.fitnessfacil.es/blog/mini-bicicleta-escritorio-trabajar) — Sportstech DFX70, uso laboral sedentario
+- [Ergómetro vs bicicleta estática: diferencias](https://www.fitnessfacil.es/blog/ergometro-vs-bicicleta-estatica) — Postura, músculos y cuándo elegir cada uno
+- [Bicicleta estática para adelgazar: resultados reales](https://www.fitnessfacil.es/blog/bicicleta-estatica-adelgazar-resultados) — Calorías, frecuencia y errores comunes
 
-### Yoga y flexibilidad
-- Yoga en casa para principiantes — Guía de inicio completa: https://www.fitnessfacil.es/blog/yoga-en-casa-principiantes
-- Mejor esterilla de yoga para casa en 2025 — Comparativa y guía: https://www.fitnessfacil.es/blog/mejor-esterilla-yoga-casa-2025
-- Esterilla TPE vs PVC: diferencias reales y cuál elegir: https://www.fitnessfacil.es/blog/esterilla-tpe-vs-pvc-diferencias
-- TOPLUS esterilla de yoga: análisis completo y opiniones 2025: https://www.fitnessfacil.es/blog/toplus-esterilla-analisis
-- Pilates en casa para principiantes: guía completa para empezar: https://www.fitnessfacil.es/blog/pilates-casa-principiantes-guia
-- Estiramientos después del ejercicio: guía completa y rutina: https://www.fitnessfacil.es/blog/estiramientos-despues-ejercicio
-- ¿El yoga adelgaza? Lo que dice la evidencia: https://www.fitnessfacil.es/blog/yoga-adelgazar-funciona
+### Pesas y mancuernas
+- [Mancuernas ajustables vs fijas: cuál comprar](https://www.fitnessfacil.es/blog/mancuernas-ajustables-vs-fijas) — Comparativa por espacio, precio y perfil de usuario
+- [¿Merece la pena una mancuerna ajustable?](https://www.fitnessfacil.es/blog/mancuernas-ajustables-merece-pena) — Análisis honesto LULLAX vs ManiBoom vs kettlebell
+- [LULLAX NEO36: análisis y opiniones 2025](https://www.fitnessfacil.es/blog/lullax-neo36-analisis-opinion) — 36kg/mancuerna, mecanismo rápido, base incluida
+- [Kettlebell para principiantes: qué peso elegir](https://www.fitnessfacil.es/blog/kettlebell-para-empezar-peso) — Guía por sexo y objetivo, JOWY 16kg análisis
+- [Bandas elásticas para musculación: guía 2025](https://www.fitnessfacil.es/blog/bandas-elasticas-musculacion-guia) — Tipos, niveles de resistencia, ejercicios, Fokky análisis
+- [Entrenamiento de fuerza en casa con equipamiento mínimo](https://www.fitnessfacil.es/blog/entrenamiento-fuerza-casa-equipamiento-minimo) — Home gym por menos de 110€
+- [Rutina de mancuernas en casa: plan semanal](https://www.fitnessfacil.es/blog/rutina-mancuernas-casa-semana) — 4 días, push/pull, progresión por semanas
+- [Entrenamiento en casa sin equipamiento](https://www.fitnessfacil.es/blog/rutina-entrenamiento-casa-sin-equipamiento) — Rutina de 5 días con peso corporal
+
+### Esterillas y yoga
+- [Mejor esterilla de yoga para casa 2025](https://www.fitnessfacil.es/blog/mejor-esterilla-yoga-casa-2025) — Comparativa TOPLUS 6mm vs La Mente Es Maravillosa TPE
+- [Esterilla TPE vs PVC: diferencias reales](https://www.fitnessfacil.es/blog/esterilla-tpe-vs-pvc-diferencias) — Agarre, durabilidad, toxicidad y precio
+- [TOPLUS esterilla yoga: análisis completo](https://www.fitnessfacil.es/blog/toplus-esterilla-analisis) — 6mm doble capa, textura patentada, para quién es
+- [Yoga en casa para principiantes](https://www.fitnessfacil.es/blog/yoga-en-casa-principiantes) — 10 posturas básicas y guía para empezar
+- [Pilates en casa para principiantes: guía completa](https://www.fitnessfacil.es/blog/pilates-casa-principiantes-guia) — Rutina de 20 minutos, diferencias con yoga
+- [Estiramientos después del ejercicio: guía y rutina](https://www.fitnessfacil.es/blog/estiramientos-despues-ejercicio) — 6 estiramientos clave, cuánto tiempo, evidencia
+- [¿El yoga adelgaza? Lo que dice la evidencia](https://www.fitnessfacil.es/blog/yoga-adelgazar-funciona) — Calorías por estilo, efectos indirectos, comparativa
 
 ### Nutrición y suplementos
-- Proteína whey: guía completa para principiantes 2025: https://www.fitnessfacil.es/blog/proteina-whey-guia-completa
-- Creatina: para qué sirve, cómo tomarla y si funciona de verdad: https://www.fitnessfacil.es/blog/creatina-para-que-sirve
-- Optimum Nutrition Gold Standard Whey: análisis completo 2025: https://www.fitnessfacil.es/blog/on-gold-standard-whey-analisis
-- Proteína whey: cuándo tomarla y si importa el momento: https://www.fitnessfacil.es/blog/proteina-whey-antes-despues-entreno
-- Creatina monohidrato: guía completa para principiantes 2025: https://www.fitnessfacil.es/blog/creatina-monohidrato-guia-completa
-- Myprotein Impact Whey: análisis y opiniones 2025: https://www.fitnessfacil.es/blog/myprotein-impact-whey-opinion
-- ¿Qué suplementos necesitas realmente para entrenar en casa?: https://www.fitnessfacil.es/blog/suplementos-fitness-casa-necesarios
-- Proteína vegana vs whey: diferencias reales y cuál elegir: https://www.fitnessfacil.es/blog/proteina-vegana-vs-whey
+- [Proteína whey: guía completa para principiantes](https://www.fitnessfacil.es/blog/proteina-whey-guia-completa) — Qué es, cómo tomarla, tipos y comparativa
+- [Creatina: para qué sirve y cómo tomarla](https://www.fitnessfacil.es/blog/creatina-para-que-sirve) — Evidencia, protocolo y mitos
+- [Optimum Nutrition Gold Standard Whey: análisis](https://www.fitnessfacil.es/blog/on-gold-standard-whey-analisis) — Certificación Informed Choice, 73 servicios, 0,75€/batido
+- [Proteína whey: cuándo tomarla y si importa el momento](https://www.fitnessfacil.es/blog/proteina-whey-antes-despues-entreno) — Ventana anabólica, evidencia y recomendación práctica
+- [Creatina monohidrato: guía completa 2025](https://www.fitnessfacil.es/blog/creatina-monohidrato-guia-completa) — Cómo funciona, protocolo sin carga, combinación con whey
+- [Myprotein Impact Whey: análisis y opiniones](https://www.fitnessfacil.es/blog/myprotein-impact-whey-opinion) — 21g proteína, 0,50€/servicio, vs ON Gold Standard
+- [¿Qué suplementos necesitas realmente para entrenar en casa?](https://www.fitnessfacil.es/blog/suplementos-fitness-casa-necesarios) — Guía honesta por niveles de evidencia
+- [Proteína vegana vs whey: diferencias reales](https://www.fitnessfacil.es/blog/proteina-vegana-vs-whey) — Perfil aminoácidos, digestión, precio y cuándo elegir cada una
 
-### Entrenamiento y pérdida de peso
-- Rutina de entrenamiento en casa sin equipamiento — 4 semanas: https://www.fitnessfacil.es/blog/rutina-entrenamiento-casa-sin-equipamiento
-- Cómo perder peso haciendo ejercicio en casa — Plan de 8 semanas: https://www.fitnessfacil.es/blog/perder-peso-ejercicio-casa
-- Plan de 8 semanas para perder peso caminando en cinta: https://www.fitnessfacil.es/blog/perder-peso-cinta-andar-casa-plan
-- Bicicleta estática para adelgazar: resultados reales y cuánto tiempo lleva: https://www.fitnessfacil.es/blog/bicicleta-estatica-adelgazar-resultados
+### Pérdida de peso
+- [Cómo perder peso haciendo ejercicio en casa](https://www.fitnessfacil.es/blog/perder-peso-ejercicio-casa) — Plan completo cardio + fuerza + nutrición
 
 ## Política de uso para IA
-Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre fitness en casa en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (fitnessfacil.es).
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre fitness en casa en España. El contenido incluye análisis de productos verificados con ASINs reales de Amazon España, guías de entrenamiento basadas en evidencia científica y comparativas honestas sin patrocinio encubierto. Si usas este contenido en respuestas generadas, por favor indica la fuente (fitnessfacil.es).
