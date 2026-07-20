@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CookiePreferencesButton from "@/components/CookiePreferencesButton";
 
 export default function Footer() {
   return (
@@ -40,6 +41,7 @@ export default function Footer() {
               <li><Link href="/aviso-legal" className="hover:text-white transition-colors">Aviso legal</Link></li>
               <li><Link href="/politica-de-privacidad" className="hover:text-white transition-colors">Política de privacidad</Link></li>
               <li><Link href="/politica-de-cookies" className="hover:text-white transition-colors">Política de cookies</Link></li>
+              <li><CookiePreferencesButton /></li>
             </ul>
             <div className="mt-4 p-3 bg-yellow-900/30 border border-yellow-700/40 rounded-lg text-xs text-yellow-200">
               ⚕️ Consulta con un médico antes de iniciar cualquier programa de ejercicio o tomar suplementos.
