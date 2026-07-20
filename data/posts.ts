@@ -18,7 +18,7 @@ export const posts: Post[] = [
     date: "2025-05-01",
     category: "Cardio",
     readTime: "11 min",
-    relatedProducts: ["toorx-trx-50s", "reebok-one-gt40s"],
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
   },
   {
     slug: "bicicleta-estatica-o-eliptica",
@@ -28,7 +28,11 @@ export const posts: Post[] = [
     date: "2025-05-08",
     category: "Cardio",
     readTime: "9 min",
-    relatedProducts: ["bh-fitness-sb2-6", "sportstech-ux250"],
+    relatedProducts: [
+      "merach-bicicleta-estatica-app-136kg",
+      "sportstech-x150-ergometro-plegable",
+      "sportstech-x100c-bicicleta-cuerdas",
+    ],
   },
   {
     slug: "rutina-entrenamiento-casa-sin-equipamiento",
@@ -38,7 +42,11 @@ export const posts: Post[] = [
     date: "2025-05-15",
     category: "Entrenamiento",
     readTime: "12 min",
-    relatedProducts: ["gaiam-essentials-thick-mat", "nike-fundamental-yoga-mat"],
+    relatedProducts: [
+      "fokky-bandas-elasticas-set-4-tpe",
+      "toplus-esterilla-yoga-tpe-6mm",
+      "la-mente-es-maravillosa-esterilla-tpe",
+    ],
   },
   {
     slug: "mancuernas-ajustables-merece-pena",
@@ -48,7 +56,11 @@ export const posts: Post[] = [
     date: "2025-05-22",
     category: "Fuerza",
     readTime: "8 min",
-    relatedProducts: ["bowflex-selecttech-552", "gorilla-sports-rack-mancuernas"],
+    relatedProducts: [
+      "lullax-neo36-mancuernas-ajustables",
+      "maniboom-mancuernas-hexagonales-15kg",
+      "jowy-kettlebell-pvc-16kg",
+    ],
   },
   {
     slug: "proteina-whey-guia-completa",
@@ -58,7 +70,10 @@ export const posts: Post[] = [
     date: "2025-05-29",
     category: "Nutrición",
     readTime: "13 min",
-    relatedProducts: ["optimum-nutrition-gold-standard-whey", "myprotein-impact-whey-1kg"],
+    relatedProducts: [
+      "optimum-nutrition-gold-standard-whey-226kg",
+      "myprotein-impact-whey-1kg-galletas",
+    ],
     isSupplement: true,
   },
   {
@@ -69,7 +84,11 @@ export const posts: Post[] = [
     date: "2025-06-01",
     category: "Yoga",
     readTime: "10 min",
-    relatedProducts: ["manduka-pro-yoga-mat", "gaiam-essentials-thick-mat"],
+    relatedProducts: [
+      "la-mente-es-maravillosa-esterilla-tpe",
+      "toplus-esterilla-yoga-tpe-6mm",
+      "fokky-bandas-elasticas-set-4-tpe",
+    ],
   },
   {
     slug: "perder-peso-ejercicio-casa",
@@ -79,7 +98,11 @@ export const posts: Post[] = [
     date: "2025-06-05",
     category: "Pérdida de peso",
     readTime: "14 min",
-    relatedProducts: ["toorx-trx-50s", "bh-fitness-sb2-6"],
+    relatedProducts: [
+      "walkingpad-r2-cinta-plegable",
+      "merach-bicicleta-estatica-app-136kg",
+      "sportstech-dfx70-mini-bicicleta-escritorio",
+    ],
   },
   {
     slug: "creatina-para-que-sirve",
@@ -89,7 +112,10 @@ export const posts: Post[] = [
     date: "2025-06-09",
     category: "Nutrición",
     readTime: "11 min",
-    relatedProducts: ["creatina-monohidrato-bulk-500g", "myprotein-impact-whey-1kg"],
+    relatedProducts: [
+      "myprotein-creatina-monohidrato-250g",
+      "optimum-nutrition-gold-standard-whey-226kg",
+    ],
     isSupplement: true,
   },
 ];
