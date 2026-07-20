@@ -4,13 +4,16 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       { userAgent: "*", allow: "/" },
+      { userAgent: "Googlebot", allow: "/" },
       { userAgent: "GPTBot", allow: "/" },
-      { userAgent: "ChatGPT-User", allow: "/" },
-      { userAgent: "CCBot", allow: "/" },
       { userAgent: "anthropic-ai", allow: "/" },
       { userAgent: "Claude-Web", allow: "/" },
-      { userAgent: "Google-Extended", allow: "/" },
+      { userAgent: "ClaudeBot", allow: "/" },
       { userAgent: "PerplexityBot", allow: "/" },
+      { userAgent: "Google-Extended", allow: "/" },
+      { userAgent: "CCBot", allow: "/" },
+      { userAgent: "Applebot-Extended", allow: "/" },
+      { userAgent: "Bytespider", allow: "/" },
     ],
     sitemap: "https://www.fitnessfacil.es/sitemap.xml",
   };

@@ -1,56 +1,38 @@
-# FitnessFácil.es — LLMs.txt
+# FitnessFácil.es — llms.txt
 
-## Site Description
+## Sitio web
+URL: https://www.fitnessfacil.es
+Idioma: Español
+Propietario: Mkt Web 360 SLU (CIF B87679304)
+Contacto: info@mktweb360.com
 
-FitnessFácil.es is a Spanish affiliate blog and fitness equipment review site targeting Spanish adults who want to exercise at home without going to a gym. Published by Mkt Web 360 SLU (CIF B87679304).
+## Descripción
+FitnessFácil.es es un portal de análisis y guías de compra especializado en equipamiento de fitness en casa para el mercado español. Publicamos comparativas, reseñas y guías de compra para personas que quieren entrenar en casa sin ir al gimnasio. Los productos analizados están disponibles en Amazon España. Comisión de afiliados: 10%.
 
-## Main Topics
+## Monetización
+- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
+- Google AdSense (pub-6063067965030118)
 
-- Home fitness equipment: treadmills, stationary bikes, dumbbells/weights, yoga mats
-- Fitness training guides and workout plans in Spanish
-- Sports supplements (whey protein, creatine) with health disclaimers
-- Weight loss and fat burning programs for home exercise
+## Aviso sanitario
+El contenido de FitnessFácil.es es informativo y no constituye asesoramiento médico. Consulta siempre con un profesional de la salud antes de iniciar cualquier programa de ejercicio.
 
-## Health Disclaimer
+## Tienda de productos
+URL: https://www.fitnessfacil.es/tienda
+- Cintas de correr: https://www.fitnessfacil.es/tienda/cintas-correr
+- Bicicletas estáticas: https://www.fitnessfacil.es/tienda/bicicletas-estaticas
+- Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas
+- Esterillas y yoga: https://www.fitnessfacil.es/tienda/esterillas-yoga
+- Suplementos y proteínas: https://www.fitnessfacil.es/tienda/suplementos-proteinas
 
-All content on FitnessFácil.es is for informational purposes only and does not constitute medical advice. Users should consult a doctor before starting any exercise program or taking supplements.
+## Artículos publicados
+- La mejor cinta de correr para casa en 2025 — Análisis y comparativa: https://www.fitnessfacil.es/blog/mejor-cinta-correr-casa-2025
+- Bicicleta estática o elíptica: cuál es mejor para perder peso: https://www.fitnessfacil.es/blog/bicicleta-estatica-o-eliptica
+- Rutina de entrenamiento en casa sin equipamiento — 4 semanas: https://www.fitnessfacil.es/blog/rutina-entrenamiento-casa-sin-equipamiento
+- Mancuernas ajustables: ¿merecen la pena? Análisis completo: https://www.fitnessfacil.es/blog/mancuernas-ajustables-merece-pena
+- Proteína whey: guía completa para principiantes 2025: https://www.fitnessfacil.es/blog/proteina-whey-guia-completa
+- Yoga en casa para principiantes — Guía de inicio completa: https://www.fitnessfacil.es/blog/yoga-en-casa-principiantes
+- Cómo perder peso haciendo ejercicio en casa — Plan de 8 semanas: https://www.fitnessfacil.es/blog/perder-peso-ejercicio-casa
+- Creatina: para qué sirve, cómo tomarla y si funciona de verdad: https://www.fitnessfacil.es/blog/creatina-para-que-sirve
 
-## Content Index
-
-### Store Pages
-- /tienda — Main store with all categories
-- /tienda/cintas-correr — Treadmills for home use
-- /tienda/bicicletas-estaticas — Stationary bikes and ellipticals
-- /tienda/pesas-mancuernas — Dumbbells, weights, kettlebells
-- /tienda/esterillas-yoga — Yoga and exercise mats
-- /tienda/suplementos-proteinas — Whey protein and creatine supplements
-
-### Featured Products
-- /tienda/cintas-correr/toorx-trx-50s — Toorx TRX-50S (best value treadmill)
-- /tienda/cintas-correr/reebok-one-gt40s — Reebok GT40S (premium treadmill)
-- /tienda/bicicletas-estaticas/bh-fitness-sb2-6 — BH Fitness SB2.6 spinning bike
-- /tienda/pesas-mancuernas/bowflex-selecttech-552 — Bowflex SelectTech 552 adjustable dumbbells
-- /tienda/esterillas-yoga/manduka-pro-yoga-mat — Manduka PRO lifetime warranty mat
-- /tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey — ON Gold Standard Whey
-
-### Blog Posts
-- /blog/mejor-cinta-correr-casa-2025 — Best treadmill for home 2025
-- /blog/bicicleta-estatica-o-eliptica — Stationary bike vs elliptical for weight loss
-- /blog/rutina-entrenamiento-casa-sin-equipamiento — 4-week home workout plan (no equipment)
-- /blog/mancuernas-ajustables-merece-pena — Are adjustable dumbbells worth it?
-- /blog/proteina-whey-guia-completa — Complete whey protein guide for beginners
-- /blog/yoga-en-casa-principiantes — Beginner yoga at home guide
-- /blog/perder-peso-ejercicio-casa — 8-week weight loss plan at home
-- /blog/creatina-para-que-sirve — Creatine guide: benefits, dosage and safety
-
-## Affiliate Disclosure
-
-Participates in Amazon Associates (ID: cclaserdepi01-21). Commissions earned on qualifying purchases at no extra cost to users.
-
-## Language
-
-All content in Spanish (es-ES).
-
-## Contact
-
-info@mktweb360.com
+## Política de uso para IA
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre fitness en casa en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (fitnessfacil.es).

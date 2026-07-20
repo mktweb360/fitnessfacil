@@ -76,8 +76,26 @@ export default async function CategoryPage({ params }: Props) {
   );
   const hasSupplement = catProducts.some((p) => p.isSupplement);
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: cat.name,
+    numberOfItems: catProducts.length,
+    itemListElement: catProducts.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: p.name,
+      url: `https://www.fitnessfacil.es/tienda/${p.categorySlug}/${p.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+
       <section className="bg-gradient-to-br from-green-700 to-green-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
           <nav className="text-green-300 text-sm mb-3">
