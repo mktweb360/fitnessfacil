@@ -1227,6 +1227,265 @@ const articleContent: Record<string, {
       { q: "¿Cuándo debo aumentar el peso?", a: "Cuando completas todas las series y repeticiones indicadas con la última repetición limpia pero desafiante, ni fácil ni al fallo. Si terminas las series con claramente más margen, sube el peso. Si no llegas a las repeticiones indicadas con buena técnica, bájalo. Esa autorregulación sesión a sesión es lo que mantiene la progresión sin lesiones." },
     ],
   },
+
+  "mejor-esterilla-yoga-casa-2025": {
+    intro: "Elegir una esterilla de yoga no es complicado si sabes qué criterios importan realmente. Esta guía compara las dos esterillas del catálogo — TOPLUS y La Mente Es Maravillosa — para que elijas según tu práctica, no según el precio.",
+    sections: [
+      {
+        heading: "Los 4 criterios que determinan una buena esterilla",
+        body: "Cuatro factores concentran casi toda la decisión. Grosor: el rango de 4 a 6 mm es el ideal para yoga. Menos de 4 mm es incómodo en las posturas de rodillas; más de 8 mm compromete la estabilidad en los equilibrios. Material: el TPE es ligero, no lleva PVC ni látex y es más ecológico; el PVC dura más y agarra mejor con sudor, pero tiene peor perfil medioambiental. Adherencia: el antideslizante por ambas caras es imprescindible, porque una esterilla que se mueve sobre el parquet arruina cualquier secuencia. Medidas: 183x61 cm es el estándar, y si mides más de 1,80 m conviene verificar que la longitud te cubre.",
+      },
+      {
+        heading: "TOPLUS 6mm — la más gruesa y específica",
+        body: "La TOPLUS ofrece 6 mm confirmados de TPE de doble capa con una textura antideslizante patentada que agarra incluso con sudor, e incluye correa de hombro para el transporte. No lleva PVC, látex, ftalatos ni químicos tóxicos. Es la opción si practicas sobre suelo duro o si tu estilo es dinámico y hace sudar.",
+        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+      },
+      {
+        heading: "La Mente Es Maravillosa — la más completa por precio",
+        body: "La esterilla de La Mente Es Maravillosa está fabricada en TPE con certificación SGS (sin PVC, PER ni tóxicos), es antideslizante por ambas caras y de alta densidad. Incluye bolsa de transporte, correa y un e-book de ejercicios en español. El conjunto completo cuesta 29,99 €, lo que la convierte en la opción llave en mano para empezar.",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "TOPLUS 6mm", "La Mente Es Maravillosa"],
+      rows: [
+        ["Precio", "27,99 €", "29,99 €"],
+        ["Grosor", "6mm confirmados", "No especificado en ficha"],
+        ["Material", "TPE doble capa", "TPE certificado SGS"],
+        ["Antideslizante", "Patentado ambas caras", "Sí ambas caras"],
+        ["Extras", "Correa de hombro", "Bolsa + correa + e-book"],
+        ["Mejor para", "Suelo duro y práctica intensa", "Empezar con todo incluido"],
+      ],
+    },
+    conclusion: "Dos euros de diferencia y ninguna es mala compra. La TOPLUS gana si quieres saber exactamente qué grosor tienes y practicas sobre suelo duro o con estilos que hacen sudar. La Mente Es Maravillosa gana si quieres llevarte el conjunto resuelto — bolsa, correa y guía en español — desde el primer día.",
+    faqs: [
+      { q: "¿Qué grosor de esterilla es mejor para yoga?", a: "Entre 4 y 6 mm es el rango estándar. Con menos de 4 mm las posturas de rodillas son incómodas; con más de 8 mm la esterilla es demasiado blanda para los equilibrios. La TOPLUS de 6 mm está en el límite superior del rango recomendado, lo que la hace especialmente cómoda para trabajo de suelo." },
+      { q: "¿Se puede usar la esterilla de yoga para pilates?", a: "Sí. Las esterillas de yoga y pilates son prácticamente intercambiables para uso doméstico. La diferencia está en que el pilates a veces usa accesorios específicos (foam roller, aro) que se usan sobre la esterilla." },
+      { q: "¿Cuánto dura una esterilla de yoga de TPE?", a: "Con uso regular (3-4 sesiones semanales) y almacenamiento correcto (enrollada, fuera del sol directo), entre 3 y 5 años. El TPE no tiene la durabilidad del PVC puro, pero su menor impacto ambiental y su ausencia de tóxicos son argumentos relevantes para muchas personas." },
+      { q: "¿Cómo se limpia una esterilla de yoga?", a: "Con un paño húmedo y jabón neutro después de cada sesión intensa. Para una limpieza más profunda, agua y vinagre blanco en partes iguales. Deja secar al aire completamente antes de enrollarla — guardarla húmeda favorece el moho y el deterioro del material." },
+    ],
+  },
+
+  "esterilla-tpe-vs-pvc-diferencias": {
+    intro: "TPE y PVC son los dos materiales más comunes en esterillas de yoga domésticas. La diferencia no es solo de precio: afecta al agarre, la durabilidad, el impacto ambiental y la seguridad del material. Esta guía explica cuál conviene según el uso.",
+    sections: [
+      {
+        heading: "PVC: el material clásico",
+        body: "El PVC es un polímero sintético muy duradero, capaz de aguantar más de 10 años con buen cuidado, y ofrece un excelente agarre incluso con sudor, motivo por el que ha sido el estándar durante décadas. Sus desventajas son ambientales y de composición: puede contener ftalatos y otros aditivos, no es biodegradable y suele desprender un olor intenso cuando es nuevo.",
+      },
+      {
+        heading: "TPE: la alternativa moderna",
+        body: "El TPE es un elastómero termoplástico sin PVC, sin látex y sin ftalatos, más ligero que el PVC y con menor impacto ambiental; algunas variantes son incluso reciclables. Su agarre en seco es muy bueno, aunque ligeramente inferior al del PVC cuando hay mucho sudor en práctica intensa. Su vida útil es algo menor que la del PVC de calidad (3-5 años frente a los 8-10 años de un buen PVC).",
+      },
+      {
+        heading: "TOPLUS TPE 6mm — agarre optimizado para práctica intensa",
+        body: "La textura antideslizante patentada de la TOPLUS compensa la desventaja habitual del TPE con sudor. Es la esterilla para quien practica estilos dinámicos como vinyasa o power yoga y no quiere renunciar a los beneficios del TPE: ligereza, ausencia de tóxicos y menor impacto ambiental.",
+        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+      },
+      {
+        heading: "La Mente Es Maravillosa — TPE certificado SGS",
+        body: "La certificación SGS verifica la ausencia de PVC, PER y sustancias tóxicas, un nivel de garantía que muchas esterillas no ofrecen. Para práctica de yoga estático, meditación o pilates, donde el sudor no es el factor crítico, es la opción con mejor ratio precio/valor, y además llega con bolsa, correa y e-book en español.",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "TPE", "PVC"],
+      rows: [
+        ["Toxicidad", "Sin PVC ni ftalatos", "Puede contener aditivos"],
+        ["Agarre en seco", "Muy bueno", "Muy bueno"],
+        ["Agarre con sudor", "Bueno", "Excelente"],
+        ["Durabilidad", "3-5 años", "8-10 años"],
+        ["Peso", "Más ligero", "Más pesado"],
+        ["Impacto ambiental", "Menor", "Mayor"],
+        ["Precio", "Similar", "Similar o menor"],
+      ],
+    },
+    conclusion: "Si practicas estilos dinámicos con mucho sudor y priorizas la durabilidad máxima, el PVC tiene ventajas objetivas. Para todo lo demás — yoga estático, pilates, estiramientos, meditación — el TPE es la opción más recomendable por su perfil de seguridad y su menor impacto ambiental.",
+    faqs: [
+      { q: "¿Es el TPE tóxico?", a: "No. El TPE no contiene PVC, ftalatos ni látex. Las esterillas con certificación SGS, como la de La Mente Es Maravillosa, han sido analizadas por un laboratorio independiente para verificar la ausencia de sustancias tóxicas." },
+      { q: "¿Las esterillas de PVC huelen mucho?", a: "Las nuevas sí suelen tener un olor químico notable que desaparece con el tiempo y la ventilación. Las de TPE generalmente huelen menos. Si eres sensible a los olores, el TPE es más conveniente." },
+      { q: "¿Puedo reciclar una esterilla de yoga de TPE?", a: "Depende de las instalaciones locales y del fabricante. Algunas marcas tienen programas de reciclaje. El TPE es técnicamente reciclable, pero no siempre hay infraestructura local para hacerlo. El PVC es mucho más difícil de reciclar." },
+      { q: "¿Cuál es más barata a largo plazo, la TPE o la PVC?", a: "A igualdad de calidad, el PVC puede durar el doble que el TPE, así que el coste por año de uso puede ser similar o incluso inferior para el PVC. Pero la diferencia de durabilidad solo se produce con esterillas de PVC de buena calidad; las baratas se deterioran igual de rápido que las de TPE medianas." },
+    ],
+  },
+
+  "toplus-esterilla-analisis": {
+    intro: "La TOPLUS es la esterilla de yoga con la especificación técnica más clara del catálogo: 6 mm de TPE doble capa, textura antideslizante patentada y libre de PVC, látex y ftalatos. Esta guía analiza qué significa cada característica en la práctica y para quién es la compra correcta.",
+    sections: [
+      {
+        heading: "6mm de grosor: qué aporta",
+        body: "Los 6 mm sitúan a la TOPLUS en el límite superior del rango recomendado para yoga (4-6 mm). Es más cómoda que una esterilla estándar de 4 mm en las posturas de rodillas y en el trabajo de suelo extenso. Es también el punto en el que algunos practicantes avanzados perciben que pierde algo de estabilidad en equilibrios muy exigentes, aunque para el 95% de las sesiones domésticas eso no supone ninguna diferencia.",
+      },
+      {
+        heading: "La textura antideslizante patentada: en qué se diferencia",
+        body: "La mayoría de esterillas de TPE ofrecen buen agarre en seco pero flojean con sudor en comparación con el PVC. La textura patentada de la TOPLUS busca compensar eso, y los usuarios de estilos dinámicos (vinyasa, flow) son los que más la valoran en comparación con otras esterillas de TPE que no incorporan esa textura.",
+      },
+      {
+        heading: "TPE doble capa: por qué importa",
+        body: "La estructura de doble capa combina una capa superior más blanda para el confort y una inferior más firme para la estabilidad. Aporta mayor densidad y durabilidad que el TPE de capa única, y mejora la resistencia al desgarro con el uso continuado, un factor que influye directamente en cuántos años dura la esterilla.",
+      },
+      {
+        heading: "Para quién es la TOPLUS",
+        body: "La TOPLUS encaja con practicantes de yoga dinámico que buscan agarre con sudor, con personas que entrenan sobre suelo muy duro (baldosa, parquet frío), con quienes tienen rodillas sensibles y necesitan el amortiguamiento extra de 6 mm, y con quien quiere saber exactamente qué grosor está comprando, porque la ficha especifica el dato.",
+        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+      },
+      {
+        heading: "TOPLUS vs La Mente Es Maravillosa",
+        body: "La TOPLUS gana en grosor confirmado y en textura específica para práctica intensa. La Mente Es Maravillosa gana en el paquete completo (bolsa + correa + e-book) y en la certificación SGS del material. A casi el mismo precio, la elección depende de si priorizas la especificación técnica o el conjunto llave en mano.",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
+      },
+    ],
+    comparison: {
+      headers: ["Aspecto", "TOPLUS 6mm", "La Mente Es Maravillosa"],
+      rows: [
+        ["Grosor", "6mm especificado", "No especificado"],
+        ["Textura antideslizante", "Patentada", "Estándar"],
+        ["Material", "TPE doble capa", "TPE cert. SGS"],
+        ["Bolsa incluida", "No", "Sí"],
+        ["E-book ejercicios", "No", "Sí en español"],
+        ["Precio", "27,99 €", "29,99 €"],
+      ],
+    },
+    conclusion: "La TOPLUS es la esterilla para quien tiene claro que va a practicar yoga de forma regular y quiere la mejor especificación técnica posible por menos de 30 €. Si lo que buscas es empezar con todo lo necesario incluido, La Mente Es Maravillosa te da eso por 2 € más.",
+    faqs: [
+      { q: "¿La TOPLUS se desliza sobre el parquet?", a: "La textura antideslizante de la cara inferior está diseñada específicamente para suelos duros. Los usuarios la valoran especialmente en parquet y baldosa, donde las esterillas sin esa textura tienden a resbalar." },
+      { q: "¿La TOPLUS es buena para pilates además de yoga?", a: "Sí. Sus 6 mm de grosor la hacen especialmente cómoda para el trabajo de suelo del pilates, donde muchos ejercicios se ejecutan sobre rodillas y espalda. El agarre es también adecuado para los movimientos de pilates." },
+      { q: "¿Se puede enrollar la TOPLUS con facilidad?", a: "Sí. El TPE doble capa es lo suficientemente flexible para enrollarse con facilidad, aunque algo más rígido que el TPE de capa única. La correa de hombro incluida facilita el transporte una vez enrollada." },
+      { q: "¿Cuánto pesa la TOPLUS?", a: "Las esterillas de TPE de 6 mm suelen pesar entre 1 y 1,5 kg. Consulta la ficha de Amazon para el dato exacto, ya que el peso es relevante si vas a transportarla regularmente." },
+    ],
+  },
+
+  "pilates-casa-principiantes-guia": {
+    intro: "El pilates en casa no requiere reformer ni ninguna máquina. Con una esterilla, 20 minutos y la guía correcta, puedes hacer una sesión completa de pilates de suelo que trabaja el core, la postura y la flexibilidad. Esta guía explica cómo empezar sin conocimientos previos.",
+    sections: [
+      {
+        heading: "Qué es el pilates y en qué se diferencia del yoga",
+        body: "El pilates es un método desarrollado por Joseph Pilates a principios del siglo XX centrado en el fortalecimiento del core (el centro del cuerpo), la alineación postural y el control del movimiento. A diferencia del yoga, no tiene componente filosófico o espiritual: es puro trabajo de cuerpo con énfasis en la precisión y la respiración. Para quien busca mejorar la postura, aliviar el dolor lumbar o fortalecer el centro del cuerpo, el pilates tiene ventajas específicas sobre el yoga.",
+      },
+      {
+        heading: "Los beneficios reales del pilates",
+        body: "El pilates mejora la postura reduciendo la cifosis y la lordosis excesivas, alivia el dolor lumbar porque el fortalecimiento del core descarga la columna, mejora el control corporal y la propiocepción, y aporta flexibilidad sin el componente de estiramiento extremo del yoga. Se usa además mucho en rehabilitación y fisioterapia, precisamente por su bajo impacto y su énfasis en el control.",
+      },
+      {
+        heading: "Equipamiento mínimo para pilates en casa",
+        body: "Una esterilla es todo lo que necesitas para empezar. La de La Mente Es Maravillosa, con su e-book incluido en español, es especialmente adecuada para principiantes porque trae material de referencia desde el primer día, además de bolsa y correa para guardarla y transportarla.",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
+      },
+      {
+        heading: "Rutina de pilates de 20 minutos para principiantes",
+        body: "Empieza con respiración lateral durante 2 minutos y con imprinting (contacto de la zona lumbar con el suelo) otros 2 minutos. Continúa con curl de cabeza en 3 series de 10, el hundred modificado con las piernas en mesa en 3 series de 10 respiraciones, y el roll up modificado en 3 series de 5. Sigue con single leg stretch en 3 series de 10 por pierna, puente de glúteos en 3 series de 12 y natación (Superman) en 3 series de 10. Cierra con el cat stretch durante 2 minutos.",
+      },
+      {
+        heading: "La esterilla en pilates: por qué el grosor importa más que en yoga",
+        body: "Muchos ejercicios de pilates se ejecutan tumbado sobre la columna vertebral o sobre las rodillas. Un grosor mínimo de 6 mm, como el de la TOPLUS, hace que esas posiciones sean cómodas durante los 20-30 minutos de una sesión, donde una esterilla fina acaba siendo molesta sobre la columna.",
+        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+      },
+    ],
+    comparison: {
+      headers: ["Ejercicio", "Músculos", "Series x Reps"],
+      rows: [
+        ["Hundred modificado", "Core, respiración", "3×10 resp."],
+        ["Curl de cabeza", "Abdominales", "3×10"],
+        ["Roll up modificado", "Core y espalda", "3×5"],
+        ["Single leg stretch", "Core + piernas", "3×10 por pierna"],
+        ["Puente de glúteos", "Glúteos + lumbar", "3×12"],
+        ["Natación", "Espalda y glúteos", "3×10"],
+      ],
+    },
+    conclusion: "El pilates en casa es una práctica con beneficios muy concretos para la postura, el dolor lumbar y el control corporal, y no necesita más que una esterilla para empezar. Con 20 minutos tres veces por semana, los beneficios se notan en 3-4 semanas de práctica regular.",
+    faqs: [
+      { q: "¿Cuántas veces por semana hay que hacer pilates para ver resultados?", a: "Con tres sesiones semanales de 20-30 minutos se notan mejoras en postura y fuerza de core en 3-4 semanas. Con dos sesiones ya hay beneficio, aunque la progresión es más lenta. Lo importante es la regularidad." },
+      { q: "¿El pilates ayuda a perder peso?", a: "No es su función principal, aunque sí quema calorías. El pilates está más orientado a la composición corporal (tonificación y postura) que a la pérdida de grasa. Combinado con ejercicio cardiovascular, produce mejores resultados globales que cada uno por separado." },
+      { q: "¿Puedo hacer pilates con dolor de espalda?", a: "El pilates de suelo bien ejecutado suele aliviar el dolor lumbar al fortalecer el core. Pero si el dolor es agudo o tiene una causa diagnosticada, consulta con tu médico o fisioterapeuta antes de empezar." },
+      { q: "¿Necesito un reformer para hacer pilates en casa?", a: "No. El pilates de suelo (mat pilates) no necesita ninguna máquina. El reformer añade variedad y resistencia, pero los ejercicios de suelo son completamente efectivos y son los que practicaba el propio Joseph Pilates originalmente." },
+    ],
+  },
+
+  "estiramientos-despues-ejercicio": {
+    intro: "El estiramiento post-entrenamiento es la parte que más se salta y la que más se agradece a largo plazo. No mejora el rendimiento de forma directa, pero sí la recuperación, la flexibilidad acumulada y la sensación de bienestar posterior a la sesión. Esta guía explica qué hacer, cuánto tiempo y por qué.",
+    sections: [
+      {
+        heading: "Qué dice la evidencia sobre estirar post-entrenamiento",
+        body: "El estiramiento estático post-entrenamiento no previene el dolor muscular tardío (DOMS) de forma significativa: eso es un mito extendido. Lo que sí hace es mantener y mejorar la flexibilidad con el tiempo, porque el músculo cálido es más receptivo al estiramiento, mejorar la amplitud de movimiento articular a largo plazo, y favorecer la recuperación del sistema nervioso al reducir la activación simpática tras el esfuerzo. En resumen: no es magia, pero tiene valor real si se hace con consistencia.",
+      },
+      {
+        heading: "Cuánto tiempo estirar",
+        body: "Entre 10 y 15 minutos es suficiente si los estiramientos están bien elegidos, con 30-60 segundos por postura. No hay que forzar hasta el dolor: la sensación debe ser de tensión tolerable, no de dolor. El dolor en estiramiento es señal de que estás al límite del tejido, no de que estás progresando.",
+      },
+      {
+        heading: "Los 6 estiramientos más importantes post-entrenamiento",
+        body: "Prioriza seis estiramientos que cubren las zonas que más se tensan al entrenar. Estiramiento de isquiotibiales tumbado (con banda o toalla); la paloma para glúteos y piriforme, crucial si haces sentadillas o ciclismo; el flexor de cadera en zancada baja, que trabaja el iliopsoas, lo más tenso en corredores y ciclistas; el pecho en el suelo para el pectoral mayor, tras press y flexiones; el estiramiento de espalda en la postura del niño; y la rotación de columna tumbado.",
+        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+      },
+      {
+        heading: "Usar bandas elásticas para estirar",
+        body: "Las bandas permiten estirar isquiotibiales, cuádriceps y flexores de cadera con mayor control y menor riesgo que forzar el estiramiento sin asistencia. El nivel amarillo o rojo de las Fokky es ideal para este uso, porque aporta la tensión justa para asistir el estiramiento sin tirar en exceso.",
+        productSlug: "fokky-bandas-elasticas-set-4-tpe",
+      },
+    ],
+    comparison: {
+      headers: ["Estiramiento", "Músculo objetivo", "Tiempo"],
+      rows: [
+        ["Isquiotibiales tumbado", "Isquiotibiales", "45s cada pierna"],
+        ["Paloma", "Glúteo y piriforme", "60s cada lado"],
+        ["Flexor de cadera", "Iliopsoas", "45s cada lado"],
+        ["Pecho suelo", "Pectoral mayor", "45s cada lado"],
+        ["Postura del niño", "Espalda y lumbares", "60s"],
+        ["Rotación columna", "Espalda y oblicuos", "30s cada lado"],
+      ],
+    },
+    conclusion: "10 minutos de estiramientos bien elegidos después de cada sesión es una inversión que se nota en semanas, no en días. No elimina el dolor muscular inmediato, pero sí mejora la flexibilidad acumulada y hace que las sesiones siguientes empiecen con el cuerpo más preparado.",
+    faqs: [
+      { q: "¿Se puede estirar antes de entrenar?", a: "Los estiramientos estáticos (mantener la postura) están mejor después. Antes del entrenamiento, el calentamiento dinámico (movilidad articular, activación) es más efectivo y seguro. El estiramiento estático pre-entrenamiento puede reducir temporalmente la fuerza muscular en los ejercicios que siguen." },
+      { q: "¿Cuánto tiempo hay que mantener cada estiramiento?", a: "Entre 30 y 60 segundos por postura es el rango donde la evidencia muestra mejoras en flexibilidad. Menos de 20 segundos tiene poco efecto acumulado; más de 60 no añade beneficio adicional en la mayoría de los casos." },
+      { q: "¿El estiramiento duele?", a: "No debe doler. La sensación correcta es de tensión tolerable. Si hay dolor agudo, has llegado al límite del tejido y hay riesgo de lesión. La flexibilidad mejora con consistencia, no con forzar." },
+      { q: "¿Hay que estirar después de cada entrenamiento?", a: "Idealmente sí, aunque sea 5-10 minutos. Saltárselo una vez no pasa nada, pero saltárselo habitualmente acumula rigidez con el tiempo, especialmente en quienes ya son poco flexibles de base." },
+    ],
+  },
+
+  "yoga-adelgazar-funciona": {
+    intro: "El yoga no es la herramienta más eficiente para perder peso si lo comparamos con el cardio o el entrenamiento de fuerza en términos de calorías quemadas por hora. Pero eso no significa que no contribuya a la pérdida de peso — simplemente lo hace de formas más indirectas y sostenibles que el cardio puro.",
+    sections: [
+      {
+        heading: "Cuántas calorías quema el yoga",
+        body: "El gasto depende mucho del estilo. El hatha yoga, el más estático y meditativo, quema entre 150 y 250 kcal por hora. El vinyasa o power yoga, fluido y dinámico, entre 300 y 450 kcal por hora. El ashtanga, el más intenso, entre 400 y 600 kcal por hora. Para comparar, caminar quema 250-350 kcal por hora y correr a ritmo moderado entre 500 y 700. El yoga no es un quemador de calorías eficiente, pero tampoco es irrelevante.",
+      },
+      {
+        heading: "Cómo contribuye el yoga a perder peso de forma indirecta",
+        body: "El yoga ayuda a perder peso por tres vías indirectas. Reduce el cortisol: el estrés crónico eleva esta hormona, que promueve la acumulación de grasa abdominal, y el yoga la reduce de forma demostrada. Mejora la conciencia corporal: los practicantes tienden a tomar mejores decisiones alimentarias porque la práctica desarrolla la atención plena hacia las señales del cuerpo. Y mejora el sueño: el descanso insuficiente altera las hormonas del apetito (grelina y leptina) y aumenta el hambre, mientras que el yoga mejora la calidad del sueño.",
+      },
+      {
+        heading: "Qué estilo de yoga es más efectivo para perder peso",
+        body: "Para maximizar el gasto calórico, vinyasa, power yoga o ashtanga. Para los efectos indirectos (cortisol, sueño, consciencia corporal), cualquier estilo sirve. Para quien no tiene forma física de base, el hatha yoga o el yin yoga es la entrada sin riesgo de lesión.",
+      },
+      {
+        heading: "La esterilla correcta para una práctica constante",
+        body: "La constancia es el factor más importante en cualquier objetivo de pérdida de peso. Una esterilla que viene con un e-book de ejercicios en español, como la de La Mente Es Maravillosa, reduce la barrera de entrada para mantener la práctica, porque tienes desde el primer día una guía de qué hacer.",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
+      },
+      {
+        heading: "Combinación óptima: yoga + cardio",
+        body: "El yoga funciona como herramienta de recuperación, gestión del estrés y mejora de la consciencia corporal, y combinado con cardio (cinta o bicicleta) para el gasto calórico da lo mejor de ambos mundos. Esta combinación supera a cualquiera de las dos por separado para la pérdida de peso sostenida, y una esterilla como la TOPLUS de 6 mm te cubre la parte de yoga y estiramientos.",
+        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+      },
+    ],
+    comparison: {
+      headers: ["Estilo de yoga", "Calorías/hora aprox.", "Intensidad", "Mejor para"],
+      rows: [
+        ["Hatha", "150-250 kcal", "Baja", "Principiantes y recuperación"],
+        ["Vinyasa", "300-450 kcal", "Media", "Pérdida de peso activa"],
+        ["Power yoga", "350-500 kcal", "Media-alta", "Fuerza + pérdida de peso"],
+        ["Ashtanga", "400-600 kcal", "Alta", "Practicantes avanzados"],
+      ],
+    },
+    conclusion: "El yoga puede contribuir a la pérdida de peso, pero no principalmente por las calorías que quema. Lo hace reduciendo el cortisol, mejorando el sueño y desarrollando la conciencia corporal que lleva a mejores hábitos alimentarios. Combinado con cardio regular, es una herramienta muy eficaz. Como sustituto del cardio para adelgazar, no lo es.",
+    faqs: [
+      { q: "¿Cuánto tiempo hay que hacer yoga para perder peso?", a: "El yoga por sí solo necesita sesiones frecuentes (5-6 días por semana) para contribuir de forma significativa al déficit calórico. Combinado con cardio, con 3 sesiones semanales de yoga ya se obtienen los beneficios indirectos (cortisol, sueño, consciencia corporal) que apoyan la pérdida de peso." },
+      { q: "¿El yoga de YouTube es igual de efectivo que el presencial?", a: "Para los efectos de pérdida de peso, sí. La respiración, el movimiento y la reducción del estrés no dependen de estar en un estudio. La diferencia está en la corrección postural: un profesor puede corregir la técnica en tiempo real, lo que importa más para evitar lesiones que para la pérdida de peso." },
+      { q: "¿El yoga tensa o relaja los músculos?", a: "Ambas cosas: los estira (relaja la tensión crónica) y los fortalece (las posturas de equilibrio y fuerza como el perro boca abajo o el guerrero activan y fortalecen los músculos estabilizadores). El resultado neto es más tono muscular con más flexibilidad." },
+      { q: "¿Es mejor el yoga hot para adelgazar?", a: "El yoga hot (en sala calentada a 38-40 °C) quema algo más de calorías por la mayor temperatura y el sudor. Pero la mayor parte de la diferencia es pérdida de agua, no de grasa. Para personas sanas sin contraindicaciones puede ser una opción válida; no es adecuado para embarazadas, personas con problemas cardiovasculares o hipotensión." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {

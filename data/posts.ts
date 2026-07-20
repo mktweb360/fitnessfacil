@@ -309,6 +309,66 @@ export const posts: Post[] = [
     readTime: "9 min",
     relatedProducts: ["lullax-neo36-mancuernas-ajustables", "maniboom-mancuernas-hexagonales-15kg"],
   },
+  {
+    slug: "mejor-esterilla-yoga-casa-2025",
+    title: "Mejor esterilla de yoga para casa en 2025 — Comparativa y guía",
+    excerpt:
+      "Comparativa de las mejores esterillas de yoga para casa en 2025: TOPLUS vs La Mente Es Maravillosa. Guía de compra por grosor, material y uso.",
+    date: "2025-07-19",
+    category: "Yoga",
+    readTime: "7 min",
+    relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe"],
+  },
+  {
+    slug: "esterilla-tpe-vs-pvc-diferencias",
+    title: "Esterilla TPE vs PVC: diferencias reales y cuál elegir",
+    excerpt:
+      "Diferencias reales entre esterillas de yoga de TPE y PVC: agarre, durabilidad, precio, toxicidad y cuál conviene según tu práctica.",
+    date: "2025-07-20",
+    category: "Yoga",
+    readTime: "6 min",
+    relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe"],
+  },
+  {
+    slug: "toplus-esterilla-analisis",
+    title: "TOPLUS esterilla de yoga: análisis completo y opiniones 2025",
+    excerpt:
+      "Análisis detallado de la TOPLUS esterilla yoga TPE 6mm: qué ofrece, para quién es la mejor opción y cómo se compara con otras esterillas del mercado.",
+    date: "2025-07-21",
+    category: "Yoga",
+    readTime: "7 min",
+    relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe"],
+  },
+  {
+    slug: "pilates-casa-principiantes-guia",
+    title: "Pilates en casa para principiantes: guía completa para empezar",
+    excerpt:
+      "Guía completa de pilates en casa para principiantes: qué es, qué beneficios tiene, qué equipamiento necesitas y una rutina inicial de 20 minutos.",
+    date: "2025-07-22",
+    category: "Yoga",
+    readTime: "8 min",
+    relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "toplus-esterilla-yoga-tpe-6mm"],
+  },
+  {
+    slug: "estiramientos-despues-ejercicio",
+    title: "Estiramientos después del ejercicio: guía completa y rutina",
+    excerpt:
+      "Por qué estirar después de entrenar, cuánto tiempo, qué músculos priorizar y una rutina de 10 minutos para hacer en casa con esterilla.",
+    date: "2025-07-23",
+    category: "Yoga",
+    readTime: "7 min",
+    relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "fokky-bandas-elasticas-set-4-tpe"],
+  },
+  {
+    slug: "yoga-adelgazar-funciona",
+    title: "¿El yoga adelgaza? Lo que dice la evidencia",
+    excerpt:
+      "¿Se puede perder peso haciendo yoga? Lo que dice la evidencia científica sobre yoga y pérdida de peso, cuántas calorías quema y qué estilos son más efectivos.",
+    date: "2025-07-24",
+    category: "Yoga",
+    readTime: "7 min",
+    relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "toplus-esterilla-yoga-tpe-6mm"],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
