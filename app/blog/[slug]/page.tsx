@@ -384,6 +384,307 @@ const articleContent: Record<string, {
       { q: "¿Con qué tomar la creatina para mejor absorción?", a: "Con agua y, si es posible, junto a una comida o bebida que contenga carbohidratos, porque la respuesta de insulina favorece el transporte de creatina al músculo. La opción más cómoda es mezclarla en el batido posterior al entrenamiento o tomarla con una de las comidas principales. Al no tener sabor, el monohidrato se integra en cualquier bebida sin alterarla." },
     ],
   },
+
+  "walkingpad-r2-vs-r1-pro": {
+    intro: "La WalkingPad R2 y la R1 Pro son las dos únicas cintas plegables del mercado español que combinan calidad y precio razonable. La diferencia entre ambas es concreta y decide cuál comprar: 50 euros, 2 km/h y el tipo de motor. Esta guía desmonta cada diferencia para que elijas sin dudas.",
+    sections: [
+      {
+        heading: "Motor brushless frente a motor convencional: qué significa en la práctica",
+        body: "La R2 monta un motor brushless, es decir, sin escobillas. La ausencia de esas piezas de fricción se traduce en tres ventajas concretas: menos ruido de funcionamiento, menos mantenimiento a lo largo del tiempo y una vida útil más larga, porque no hay componentes que se desgasten por rozamiento. La R1 Pro usa un motor convencional de 918 W, perfectamente solvente, pero con las escobillas como punto de desgaste habitual. En una casa unifamiliar la diferencia es menor, pero en un piso, donde el ruido se transmite a los vecinos y a las propias paredes, el motor brushless de la R2 marca una diferencia real que se nota desde el primer uso.",
+      },
+      {
+        heading: "12 km/h frente a 10 km/h: ¿importa la diferencia?",
+        body: "Sobre el papel son solo 2 km/h, pero el matiz importante es otro: a 10 km/h ya vas al límite de la R1 Pro, y trabajar constantemente en el tope de cualquier máquina acelera su desgaste. La R2, con margen hasta 12 km/h, permite trotar a 9-10 km/h sin exprimir el motor. Si tu plan incluye trotar de forma regular, esa holgura es la compra correcta. Si en cambio vas a caminar o, como mucho, a hacer series cortas de mayor ritmo de forma ocasional, la R1 Pro cubre ese uso sin problema y no tiene sentido pagar por una velocidad que no vas a aprovechar.",
+      },
+      {
+        heading: "Instalación y plegado",
+        body: "Aquí la R1 Pro se toma la revancha. La R2 requiere un montaje inicial y, una vez plegada, ocupa unos 0,2 m² gracias a su sistema patentado. La R1 Pro llega lista para usar, sin montaje, se pliega 180° y trae ruedas de transporte incorporadas. Si vas a dejar la cinta fija en un sitio, el montaje de la R2 es un trámite de una sola vez y su plegado compacto gana. Pero si prevés cambiarla de sitio a menudo o guardarla tras cada sesión, la ausencia de montaje y las ruedas de la R1 Pro son una ventaja práctica que se agradece cada día.",
+      },
+      {
+        heading: "Cuándo la R2 es la respuesta correcta",
+        body: "La R2 es la elección si el silencio es una prioridad, algo casi inevitable en un piso, o si vas a trotar con cierta regularidad y quieres un motor con margen por encima de tu ritmo habitual. También si valoras la carga máxima declarada de 110 kg, un dato que la R1 Pro no publica. Es la opción más completa de las dos y su precio de 399 euros se justifica precisamente por el motor brushless y los 12 km/h, que son sus dos argumentos diferenciales frente a la hermana pequeña.",
+        productSlug: "walkingpad-r2-cinta-plegable",
+      },
+      {
+        heading: "Cuándo la R1 Pro es suficiente",
+        body: "La R1 Pro es la respuesta si tu uso principal es caminar, con algún trote suave ocasional, y quieres ahorrarte 50 euros y el montaje inicial. Su doble modo andar/correr, sus ruedas y el plegado 180° sin herramientas la convierten en la opción más cómoda de mover y guardar. Para el perfil mayoritario de comprador de cinta plegable, que la usa para sumar pasos y hacer cardio ligero en casa, la R1 Pro entrega prácticamente la misma experiencia por menos dinero.",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "WalkingPad R2", "WalkingPad R1 Pro"],
+      rows: [
+        ["Precio", "399,00 €", "349,00 €"],
+        ["Velocidad máx.", "12 km/h", "10 km/h"],
+        ["Motor", "Brushless silencioso", "Convencional 918 W"],
+        ["Plegado", "Patentado, 0,2 m²", "180° con ruedas"],
+        ["Montaje", "Requiere montaje", "Lista para usar"],
+        ["Carga máx.", "110 kg", "No publicada"],
+        ["Mejor para", "Trotar regularmente", "Caminar y presupuesto ajustado"],
+      ],
+    },
+    conclusion: "No hay una respuesta universal. La R2 es la compra correcta para quien va a trotar con regularidad o valora el silencio del motor brushless en un piso. La R1 Pro es la respuesta para quien va a usar la cinta principalmente para caminar y quiere ahorrarse 50 euros y el montaje inicial. Identifica cuál de esos dos usos es el tuyo y la elección deja de tener misterio.",
+    faqs: [
+      { q: "¿La WalkingPad R2 hace mucho ruido?", a: "El motor brushless es notablemente más silencioso que un motor convencional. Conviene recordar, además, que el ruido dominante en cualquier cinta son las pisadas, no el motor. Con una alfombrilla de amortiguación bajo la cinta se reduce la transmisión de vibración al suelo y, con ella, el ruido que llega a los vecinos de abajo." },
+      { q: "¿Cuánto pesa la WalkingPad R2?", a: "La R2 pesa aproximadamente 28 kg. Es manejable para una persona, pero conviene tener claro dónde va a quedar instalada antes de desembalarla, porque moverla a menudo de una habitación a otra puede resultar incómodo si no está pensado de antemano." },
+      { q: "¿Se puede usar la WalkingPad R1 Pro bajo el escritorio?", a: "Sí. Con la barandilla plegada funciona en modo andar hasta 6 km/h, lo que la hace compatible con el uso bajo un escritorio elevable o uno estándar de altura suficiente para trabajar de pie. Es una de las razones por las que este modelo es tan popular entre quienes teletrabajan." },
+      { q: "¿Las WalkingPad funcionan en pisos?", a: "Sí, son las cintas más usadas en pisos precisamente por su perfil bajo y su diseño silencioso. Conviene colocar una alfombrilla de amortiguación para reducir la transmisión de vibración a la estructura del edificio, un detalle que marca la diferencia en la convivencia con los vecinos." },
+    ],
+  },
+
+  "cinta-correr-plegable-piso-pequeno": {
+    intro: "Vivir en un piso pequeño no significa renunciar a entrenar en casa. Significa elegir el equipamiento correcto. Una cinta de correr plegable bien elegida ocupa menos de 1 m² guardada y se puede usar en cualquier habitación con 2 metros de largo libre. Esta guía explica qué mirar antes de comprar para no acabar con un aparato que estorba más de lo que se usa.",
+    sections: [
+      {
+        heading: "Los cuatro criterios que importan en un piso pequeño",
+        body: "El primero es el tamaño plegado, que no es lo mismo que el tamaño de uso: lo que decide si la cinta cabe en tu vida es cuánto ocupa guardada, no desplegada. El segundo es el ruido, que llega por dos vías, el motor y las pisadas; las cintas de motor brushless son más silenciosas en la parte que depende del aparato. El tercero es el peso: si vas a moverla con frecuencia, superar los 30 kg se vuelve incómodo rápido. Y el cuarto es el perfil: las WalkingPad tienen un perfil muy bajo que permite guardarlas bajo una cama o un sofá, algo que una cinta convencional plegada, que queda de pie y alta, no ofrece.",
+      },
+      {
+        heading: "Lo que NO hay que mirar",
+        body: "Igual de importante es saber qué ignorar. La velocidad máxima es irrelevante si solo vas a caminar: pagar por una cinta de 18 km/h para andar a 5 es tirar el dinero. El número de programas de entrenamiento preinstalados tampoco importa si controlas la cinta desde la app, que es lo habitual en estos modelos. Y las funciones de inclinación motorizada, que encarecen y añaden volumen, sobran para un uso de caminata o trote suave. En un piso pequeño, cada característica que no vas a usar es espacio y dinero desperdiciados.",
+      },
+      {
+        heading: "WalkingPad R2 para pisos: análisis",
+        body: "La R2 es la opción más silenciosa de las dos, gracias a su motor brushless, lo que la hace especialmente adecuada para pisos con vecinos sensibles al ruido o para entrenar a última hora. Plegada ocupa unos 0,2 m², alcanza 12 km/h por si en algún momento quieres trotar, y declara una carga máxima de 110 kg. Su perfil bajo permite deslizarla bajo un mueble cuando no se usa. Es la elección si el silencio y la holgura de velocidad pesan más que el precio.",
+        productSlug: "walkingpad-r2-cinta-plegable",
+      },
+      {
+        heading: "WalkingPad R1 Pro para pisos: análisis",
+        body: "La R1 Pro es la más fácil de mover y guardar: se pliega 180°, trae ruedas de transporte y llega lista para usar sin montaje, así que desde el minuto uno la puedes recolocar según la necesidad de cada día. Alcanza 10 km/h, suficiente para caminar y trotar de forma ligera, y cuesta 50 euros menos que la R2. Para un piso donde la cinta tiene que aparecer y desaparecer constantemente entre sesiones, esa movilidad es su mayor argumento.",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "WalkingPad R2", "WalkingPad R1 Pro"],
+      rows: [
+        ["Tamaño plegado", "≈0,2 m²", "Plegado 180°"],
+        ["Ruido motor", "Muy bajo — brushless", "Bajo"],
+        ["Peso", "≈28 kg", "Consultar ficha"],
+        ["Perfil bajo", "Sí", "Sí"],
+        ["Precio", "399,00 €", "349,00 €"],
+      ],
+    },
+    conclusion: "Para un piso pequeño, las dos WalkingPad son buenas opciones. La R1 Pro gana en facilidad de movimiento, con sus ruedas integradas y la ausencia de montaje. La R2 gana en silencio, por el motor brushless, y en carga máxima declarada. Si el ruido es tu preocupación principal, la R2. Si lo son la movilidad y el precio, la R1 Pro.",
+    faqs: [
+      { q: "¿Cuánto espacio necesito para usar una WalkingPad?", a: "Para usarla necesitas la superficie de la banda más al menos 1 metro libre por detrás por seguridad. El espacio de almacenamiento es mucho menor, pero el espacio de uso no cambia: es un error frecuente fijarse solo en lo compacta que queda guardada y olvidar el hueco que hace falta para caminar con seguridad." },
+      { q: "¿Se puede usar una cinta de correr en un piso de alquiler?", a: "Sí, siempre que el suelo lo permita y se use con una alfombrilla de amortiguación que proteja el parquet y reduzca la vibración transmitida a los vecinos de abajo. La alfombrilla es, de hecho, el accesorio que más conflictos de convivencia evita." },
+      { q: "¿Las cintas plegables duran menos que las fijas?", a: "No necesariamente. La durabilidad depende más de la calidad del motor y de la banda que del mecanismo de plegado en sí. Las WalkingPad tienen buenas valoraciones de durabilidad en uso doméstico, que es el escenario para el que están diseñadas." },
+      { q: "¿Puedo usar la cinta en el balcón?", a: "Técnicamente sí, si el balcón tiene espacio suficiente y aguanta el peso, pero no es recomendable: la exposición a la humedad y a los cambios de temperatura deteriora la banda y los componentes electrónicos con rapidez. Una cinta es un aparato de interior y conviene tratarla como tal." },
+    ],
+  },
+
+  "cinta-andar-casa-bajo-escritorio": {
+    intro: "Trabajar caminando lentamente no afecta a la concentración ni a la calidad del trabajo en tareas cognitivas; varios estudios lo han medido. Y sumar 5.000 pasos diarios sin salir de casa cambia por completo el balance energético de un trabajador sedentario. La cinta bajo el escritorio es la herramienta más práctica para conseguirlo, y esta guía explica cómo empezar sin que el intento acabe en frustración.",
+    sections: [
+      {
+        heading: "A qué velocidad se trabaja en una cinta",
+        body: "El rango útil está entre 1 y 3 km/h. A esa velocidad se puede escribir, leer, atender videollamadas y concentrarse sin problema, porque el gesto de caminar despacio es lo bastante automático como para no competir por la atención. Por encima de 4 km/h la cosa cambia: la concentración empieza a resentirse en tareas que requieren precisión manual, como la mecanografía rápida o el trabajo de detalle. La regla práctica es sencilla: si notas que tu escritura se degrada, baja la velocidad. El objetivo no es entrenar, es moverse mientras trabajas.",
+      },
+      {
+        heading: "Qué escritorio necesitas",
+        body: "No hace falta un escritorio elevable de 1.000 euros. Cualquier mesa a la altura correcta funciona si la cinta tiene un perfil bajo, y las WalkingPad lo tienen. La clave es la ergonomía: la altura del escritorio debe permitir que tus codos queden a 90 grados mientras caminas, no mientras estás de pie parado, porque al caminar el cuerpo sube unos centímetros con cada paso. Si ya tienes un escritorio elevable, ajústalo a esa posición; si no, una mesa alta o un soporte para el portátil pueden resolver la altura sin una inversión grande.",
+      },
+      {
+        heading: "WalkingPad R1 Pro: el modelo diseñado para esto",
+        body: "La R1 Pro es la opción natural para el uso bajo escritorio. Su modo andar, con la barandilla plegada, llega hasta 6 km/h, y todo el rango bajo de esa escala es exactamente la velocidad ideal para trabajar caminando. Llega lista para usar sin montaje, así que puedes colocarla bajo la mesa el mismo día que llega, y sus ruedas permiten retirarla al terminar la jornada. A 349 euros, es la puerta de entrada más económica al escritorio activo.",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+      {
+        heading: "WalkingPad R2: la opción si también quieres correr",
+        body: "Si además del uso bajo escritorio quieres poder hacer sesiones de trote de verdad, la R2 cubre ambos escenarios. Llega hasta 12 km/h, de modo que sirve tanto para caminar a 2 km/h mientras trabajas como para trotar a 9-10 km/h cuando cierras el portátil. Su motor brushless mantiene el silencio en las velocidades bajas de oficina, que es donde más importa no molestar en una videollamada. Es la elección de quien no quiere dos aparatos, sino uno que valga para las dos cosas.",
+        productSlug: "walkingpad-r2-cinta-plegable",
+      },
+      {
+        heading: "Cómo empezar sin que sea incómodo",
+        body: "El error más común es empezar demasiado deprisa y demasiado tiempo. Arranca con 20-30 minutos al día a 1,5-2 km/h. El cuerpo tarda unos días en acostumbrarse a la coordinación entre caminar y escribir, y forzar ese periodo solo genera frustración. En una semana, para la mayoría de las personas, la sensación pasa a ser completamente natural y dejas de notar que estás caminando. A partir de ahí puedes ir alargando las sesiones según te pida el cuerpo, alternando con ratos sentado para no cargar las piernas.",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "R1 Pro (modo andar)", "R2"],
+      rows: [
+        ["Velocidad modo escritorio", "Hasta 6 km/h", "Hasta 12 km/h"],
+        ["Modo exclusivo andar", "Sí — barandilla plegable", "No diferenciado"],
+        ["Lista para usar", "Sí, sin montaje", "Requiere montaje"],
+        ["Precio", "349,00 €", "399,00 €"],
+        ["Mejor uso combinado", "Escritorio + trote suave", "Escritorio + correr"],
+      ],
+    },
+    conclusion: "Para usar exclusivamente bajo el escritorio, la R1 Pro es la elección más práctica y 50 euros más barata. Si quieres también poder hacer sesiones de trote reales sin comprar un segundo aparato, la R2 cubre ambos usos sin comprometer ninguno. La pregunta que decide es si vas a correr de verdad o solo a caminar mientras trabajas.",
+    faqs: [
+      { q: "¿Afecta caminar a la concentración mientras se trabaja?", a: "Para tareas de lectura, reuniones y trabajo cognitivo general, no. Para tareas que requieren máxima precisión manual, como el diseño de detalle o la edición de vídeo fotograma a fotograma, conviene parar. La mayoría de los trabajos de conocimiento son perfectamente compatibles con caminar a 2 km/h, y la clave es bajar la velocidad en cuanto la tarea lo pida." },
+      { q: "¿Cuántos pasos se hacen en una hora caminando a 2 km/h?", a: "Aproximadamente entre 2.000 y 2.500 pasos por hora. En una jornada laboral de 8 horas con 3 o 4 horas de uso de la cinta, se pueden sumar con facilidad entre 7.000 y 9.000 pasos sin salir de casa ni dedicar tiempo extra al ejercicio." },
+      { q: "¿Se puede usar una cinta de andar con cualquier silla de escritorio?", a: "La cinta reemplaza a la silla, no se usa sentado: se usa de pie, caminando. Por eso el escritorio debe estar a la altura correcta para trabajar de pie, con los codos a 90 grados. No es un accesorio que se combine con la silla, sino una alternativa a estar sentado." },
+      { q: "¿Cuánto tiempo al día es recomendable usar la cinta bajo el escritorio?", a: "Empieza con 30-60 minutos y aumenta progresivamente. Muchas personas llegan a 3 o 4 horas diarias sin molestias, pero lo importante es alternar la caminata con periodos sentado o de pie estático para no sobrecargar las piernas. No se trata de caminar toda la jornada, sino de romper el sedentarismo continuo." },
+    ],
+  },
+
+  "walkingpad-opiniones-analisis": {
+    intro: "WalkingPad es la marca de cintas plegables más vendida en España desde 2022. Sus modelos aparecen constantemente en listas de recomendaciones y acumulan miles de valoraciones en Amazon. Esta guía analiza qué hay detrás de esas valoraciones: qué elogian los usuarios, qué critican y qué expectativas no se cumplen, para que compres sabiendo exactamente lo que vas a recibir.",
+    sections: [
+      {
+        heading: "Lo que más valoran los usuarios de WalkingPad",
+        body: "Cuatro elogios se repiten por encima del resto. El primero, y más frecuente, es el espacio que ahorra: para quien vive en un piso, que la cinta desaparezca bajo un mueble es el argumento decisivo. El segundo es el silencio, especialmente en la R2 con su motor brushless, que permite usarla sin molestar. El tercero es la facilidad de uso: no hay configuración compleja, se enciende y funciona, algo que se agradece frente a las cintas domésticas tradicionales llenas de menús. Y el cuarto es el diseño, estéticamente más cuidado que el de una cinta convencional, lo que ayuda a que no desentone en un salón.",
+      },
+      {
+        heading: "Las críticas más repetidas",
+        body: "Las quejas también son concretas y conviene conocerlas antes de comprar. La primera es el precio: 349-399 euros no es barato para una cinta sin inclinación motorizada ni programas avanzados. La segunda es la superficie de la banda, más estrecha y corta que la de una cinta de gimnasio, lo que puede resultar limitante para zancadas largas a alta velocidad. La tercera es la app, que funciona pero no es de las más pulidas del mercado. Y la cuarta, específica de la R1 Pro, es que no publica la carga máxima, lo que genera incertidumbre en usuarios de mayor peso que no saben si el aparato es adecuado para ellos.",
+      },
+      {
+        heading: "WalkingPad R2: análisis de valoraciones",
+        body: "La R2 recibe valoraciones consistentemente altas, y el patrón es claro: lo que más se elogia es el silencio del motor brushless y la holgura de los 12 km/h. Los usuarios que viven en pisos la destacan de forma especial, precisamente porque el ruido es su mayor preocupación y este modelo lo resuelve mejor que ninguno de su rango. Las críticas que recibe son las generales de la marca, sobre todo el precio, más que defectos propios del modelo.",
+        productSlug: "walkingpad-r2-cinta-plegable",
+      },
+      {
+        heading: "WalkingPad R1 Pro: análisis de valoraciones",
+        body: "La R1 Pro es muy valorada por la facilidad de instalación, al llegar lista para usar, y por el doble uso andar/correr, que la hace versátil. La crítica más frecuente es previsible: el tope de 10 km/h se queda corto para los usuarios que quieren correr a un ritmo real, no solo trotar. Es una queja justa, pero también una cuestión de expectativas: quien compra la R1 Pro para caminar y trotar suave rara vez la menciona como problema.",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+    ],
+    comparison: {
+      headers: ["Aspecto", "WalkingPad R2", "WalkingPad R1 Pro"],
+      rows: [
+        ["Silencio", "★★★★★ Motor brushless", "★★★★ Motor convencional"],
+        ["Facilidad instalación", "★★★★ Requiere montaje", "★★★★★ Lista para usar"],
+        ["Velocidad", "★★★★★ 12 km/h", "★★★★ 10 km/h"],
+        ["Relación calidad-precio", "★★★★ 399 €", "★★★★★ 349 €"],
+        ["App", "★★★★", "★★★★"],
+      ],
+    },
+    conclusion: "Las WalkingPad tienen valoraciones altas por razones concretas, no por marketing. Cumplen lo que prometen: plegarse de verdad, hacer poco ruido y funcionar sin complicaciones. Sus limitaciones son reales pero conocidas: no son cintas de gimnasio y no pretenden serlo. Si tus expectativas están bien calibradas, son una compra que no defrauda.",
+    faqs: [
+      { q: "¿Dónde se compra la WalkingPad en España?", a: "Están disponibles en Amazon España con envío rápido y devolución sin coste durante los primeros 30 días. Es el canal más recomendable por la garantía de compra que ofrece y por la facilidad de gestionar una devolución si el modelo no encaja con lo que esperabas." },
+      { q: "¿La garantía de WalkingPad cubre España?", a: "Sí. Los modelos vendidos en Amazon España incluyen la garantía del fabricante. Conviene guardar el comprobante de compra para cualquier reclamación posterior, ya que es el documento que acredita la fecha de inicio de la cobertura." },
+      { q: "¿Cuánto tarda en llegar una WalkingPad desde Amazon España?", a: "Con Amazon Prime, normalmente 1 o 2 días laborables. Sin Prime, el plazo depende de la disponibilidad del vendedor, aunque en la práctica suele ser rápido al tratarse de un producto con stock habitual." },
+      { q: "¿Merece la pena WalkingPad frente a otras marcas?", a: "Para el segmento de cintas plegables silenciosas para piso, sí. Las alternativas en ese rango de precio suelen tener más ruido o peor calidad de construcción. Para cintas de entrenamiento serio, con inclinación motorizada y programas avanzados, hay opciones más completas, pero también más caras y voluminosas, que juegan en otra categoría." },
+    ],
+  },
+
+  "entrenar-caminando-casa-beneficios": {
+    intro: "Caminar es el ejercicio más infravalorado que existe. A ritmos de 5-6 km/h, el consumo calórico por kilómetro recorrido no es muy diferente al de correr. La diferencia está en el impacto articular, que al caminar es casi nulo, y en la sostenibilidad: casi cualquier persona puede caminar 45 minutos al día indefinidamente, mientras que muy pocas mantienen una rutina de carrera durante años.",
+    sections: [
+      {
+        heading: "Qué dice la evidencia científica sobre caminar",
+        body: "Los beneficios documentados de caminar con regularidad son amplios: mejora la salud cardiovascular, reduce la presión arterial, mejora el perfil lipídico, disminuye el riesgo de diabetes tipo 2 y beneficia tanto el estado de ánimo como la función cognitiva. Y lo más relevante para quien empieza: estos efectos aparecen con tan solo 7.000-8.000 pasos diarios, según la evidencia más reciente. El célebre objetivo de los 10.000 pasos no tiene una base científica sólida; nació de una campaña de marketing japonesa de los años sesenta, no de un estudio. La buena noticia es que la meta real es más accesible de lo que se cree.",
+      },
+      {
+        heading: "Caminar en casa frente a caminar al aire libre: diferencias reales",
+        body: "El gasto calórico es similar en ambos casos. Al aire libre, el viento y el terreno irregular hacen que se active ligeramente más la musculatura estabilizadora, una diferencia menor. A cambio, la cinta elimina variables que en la práctica son las que hacen abandonar: el clima, el tráfico, la oscuridad del invierno, la contaminación. Para la mayoría de las personas, la regularidad importa mucho más que la modalidad, y la cinta gana justamente porque no depende de que las condiciones acompañen. El mejor paseo es el que das, no el que planeabas dar si no lloviera.",
+      },
+      {
+        heading: "Cuántas calorías se queman caminando en cinta",
+        body: "Una persona de 70 kg caminando a 5 km/h durante 45 minutos quema aproximadamente entre 200 y 250 kcal; a 6 km/h, entre 230 y 280 kcal. No es una cifra espectacular por sesión, y ahí está la trampa mental que lleva a menospreciar el caminar. Pero el cálculo interesante es el acumulado: cinco sesiones semanales durante un año suman entre 50.000 y 70.000 kcal, equivalente a quemar entre 6 y 9 kg de grasa, sin cambiar absolutamente nada más. El poder de caminar no está en la sesión, está en la repetición sostenida.",
+      },
+      {
+        heading: "Cómo empezar si llevas tiempo sin hacer ejercicio",
+        body: "La progresión evita las lesiones y, sobre todo, el abandono. Semanas 1 y 2: entre 20 y 30 minutos a 4-5 km/h, con el único objetivo de crear el hábito. Semanas 3 y 4: entre 30 y 40 minutos a 5-6 km/h, cuando el cuerpo ya pide algo más. A partir del segundo mes: 40-45 minutos, o bien introducir intervalos cortos de mayor velocidad para añadir intensidad sin alargar la sesión. La clave es no quemar etapas: empezar suave es lo que garantiza llegar a la semana ocho todavía caminando.",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+      {
+        heading: "El paso siguiente: combinar caminar con trabajo",
+        body: "Si trabajas desde casa, existe una palanca extra que no cuesta tiempo adicional: usar la cinta bajo el escritorio durante 2 o 3 horas al día, caminando a 2 km/h mientras trabajas. Eso suma entre 4.000 y 6.000 pasos adicionales sin dedicar un solo minuto extra al ejercicio, porque el tiempo ya lo estabas gastando trabajando. Es la forma más eficiente de aumentar la actividad diaria para quien tiene una jornada sedentaria, y convierte horas muertas de silla en movimiento.",
+        productSlug: "walkingpad-r2-cinta-plegable",
+      },
+    ],
+    comparison: {
+      headers: ["Beneficio", "Caminar 30 min/día", "Caminar 45 min/día"],
+      rows: [
+        ["Calorías aprox.", "150-180 kcal", "220-260 kcal"],
+        ["Pasos aprox.", "2.500-3.000", "3.500-4.500"],
+        ["Impacto articular", "Mínimo", "Mínimo"],
+        ["Sostenibilidad", "Muy alta", "Alta"],
+        ["Adecuado para principiantes", "Sí", "Sí"],
+      ],
+    },
+    conclusion: "Caminar en casa en cinta no sustituye al entrenamiento de fuerza ni al cardio intenso, pero es el hábito de actividad física con mayor ratio de beneficio sobre esfuerzo percibido. Para alguien que no hace ejercicio regular, pasar de cero a 30-45 minutos de caminata diaria es el cambio más impactante que puede hacer sin riesgo de lesión ni de abandono en las primeras semanas.",
+    faqs: [
+      { q: "¿Es suficiente caminar para perder peso?", a: "Caminar crea un déficit calórico real, especialmente si partes de una actividad muy baja. Combinado con una alimentación razonable, sin necesidad de dieta estricta, es perfectamente suficiente para perder peso de forma gradual. Es más lento que el cardio intenso, pero mucho más sostenible, y la sostenibilidad es lo que determina el resultado a largo plazo." },
+      { q: "¿Cuántos días a la semana hay que caminar para ver beneficios?", a: "La OMS recomienda entre 150 y 300 minutos de actividad moderada a la semana. Cinco días de 30-45 minutos de caminata a paso rápido cumplen esa recomendación con holgura. Los beneficios cardiovasculares empiezan a aparecer incluso con 3 o 4 días semanales, así que no hace falta la perfección para notar mejoras." },
+      { q: "¿Es mejor caminar rápido o despacio?", a: "A mayor velocidad, mayor gasto calórico por minuto, pero la velocidad óptima es la que puedes mantener de forma constante. Para la mayoría de las personas sin forma física de base, caminar a 5-6 km/h durante 40-45 minutos es más efectivo que ir a 7-8 km/h durante 15 minutos, porque permite acumular más volumen sin agotarse ni arriesgar una lesión." },
+      { q: "¿Se puede perder barriga caminando?", a: "La pérdida de grasa abdominal depende del déficit calórico total, no del ejercicio localizado: no existe la quema de grasa por zonas. Caminar contribuye a ese déficit y, con tiempo y constancia, sí produce una reducción de la grasa visceral, que es la que rodea los órganos y la más peligrosa para la salud." },
+    ],
+  },
+
+  "perder-peso-cinta-andar-casa-plan": {
+    intro: "Caminar en cinta de forma estructurada y progresiva durante 8 semanas produce resultados visibles sin lesiones, sin abandono y sin necesidad de cambiar radicalmente la dieta. Este plan está diseñado para personas que llevan tiempo sin hacer ejercicio regular y quieren perder entre 3 y 6 kg en dos meses con un enfoque realista, no con promesas imposibles.",
+    sections: [
+      {
+        heading: "Antes de empezar: lo que necesitas saber",
+        body: "El déficit calórico que crea este plan ronda las 200-300 kcal al día. Conviene tener presente la aritmética real de la pérdida de grasa: para perder 1 kg hace falta un déficit acumulado de unas 7.700 kcal. Con este plan y sin cambiar nada de la dieta, la pérdida realista es de 0,3-0,5 kg por semana. Si además ajustas ligeramente la alimentación, reduciendo unas 200 kcal diarias, puedes llegar a 0,5-0,8 kg semanales. Son cifras modestas por semana, pero sostenidas ocho semanas suponen un cambio claro, y sobre todo son cifras que no se recuperan a la primera de cambio como ocurre con las dietas agresivas.",
+      },
+      {
+        heading: "Alimentación: lo mínimo que necesitas ajustar",
+        body: "No hace falta una dieta. Tres cambios simples producen la mayor parte de la diferencia. El primero: eliminar las bebidas azucaradas, que aportan muchas calorías líquidas sin saciar. El segundo: añadir proteína en cada comida principal, porque sacia, preserva la masa muscular durante el déficit y tiene un coste calórico de digestión mayor. El tercero, y el que más gente pasa por alto: no compensar el ejercicio con comida extra, ese premio mental de \"me lo he ganado\" que borra en cinco minutos el déficit de una sesión entera. Con estos tres ajustes, sin contar calorías, la mayoría de las personas ya nota resultados.",
+      },
+      {
+        heading: "Cómo saber si estás progresando",
+        body: "Usa el contorno de cintura además de la báscula, y no dependas solo del peso. Durante las primeras 2 semanas es normal que la báscula no baje, o incluso que suba ligeramente, por la retención de agua asociada a la adaptación muscular al ejercicio. Eso no significa que no estés perdiendo grasa. Si el contorno de cintura baja mientras el peso se mantiene, estás perdiendo grasa y ganando algo de músculo, que es exactamente el resultado que buscas. Mídete una vez por semana, siempre en las mismas condiciones, y fíate de la tendencia de varias semanas, no del dato de un día.",
+        productSlug: "walkingpad-r2-cinta-plegable",
+      },
+    ],
+    plan: [
+      {
+        week: "Semanas 1-2: Base",
+        description: "3 días/semana, 25 min a 5 km/h. Objetivo: crear el hábito sin sobrecarga.",
+        sessions: [
+          "Lunes: 25 min a 5 km/h",
+          "Miércoles: 25 min a 5 km/h",
+          "Viernes: 25 min a 5 km/h",
+          "Resto: descanso activo (estiramientos o caminata suave)",
+        ],
+      },
+      {
+        week: "Semanas 3-4: Progresión",
+        description: "4 días/semana, 35 min a 5,5 km/h.",
+        sessions: [
+          "Lunes: 35 min a 5,5 km/h",
+          "Martes: descanso",
+          "Miércoles: 35 min a 5,5 km/h",
+          "Jueves: descanso",
+          "Viernes: 35 min a 5,5 km/h",
+          "Sábado: 35 min a 5 km/h (ritmo suave)",
+          "Domingo: descanso",
+        ],
+      },
+      {
+        week: "Semanas 5-6: Intensificación",
+        description: "4 días/semana, 40 min. Añadir 5 min de intervalos.",
+        sessions: [
+          "Lunes: 35 min a 5,5 km/h + 5 min a 7 km/h al final",
+          "Miércoles: 40 min a 5,5 km/h",
+          "Viernes: 35 min a 5,5 km/h + 5 min a 7 km/h",
+          "Sábado: 40 min a 5 km/h",
+        ],
+      },
+      {
+        week: "Semanas 7-8: Consolidación",
+        description: "5 días/semana, 45 min. Intervalos en todas las sesiones.",
+        sessions: [
+          "Lunes: 35 min a 5,5 km/h + 10 min intervalos (1 min a 7-8 km/h / 2 min a 5 km/h)",
+          "Martes: 45 min a 5 km/h",
+          "Miércoles: 35 min a 5,5 km/h + 10 min intervalos",
+          "Jueves: 45 min a 5 km/h",
+          "Viernes: 35 min a 5,5 km/h + 10 min intervalos",
+          "Sábado-domingo: descanso",
+        ],
+      },
+    ],
+    comparison: {
+      headers: ["Semana", "Días/semana", "Duración", "Velocidad", "Calorías aprox./sesión"],
+      rows: [
+        ["1-2", "3", "25 min", "5 km/h", "120-140 kcal"],
+        ["3-4", "4", "35 min", "5,5 km/h", "175-200 kcal"],
+        ["5-6", "4", "40 min", "5,5 + intervalos", "200-240 kcal"],
+        ["7-8", "5", "45 min", "5,5 + intervalos", "230-270 kcal"],
+      ],
+    },
+    conclusion: "Este plan funciona porque es progresivo, no porque sea intenso. El mayor error en la pérdida de peso es empezar demasiado fuerte y abandonar en la tercera semana. Con este enfoque llegarás a la semana 8 con el hábito instalado y los primeros resultados visibles, que es justo lo que hace que la semana 9 no necesite un plan: para entonces, caminar ya forma parte de tu rutina.",
+    faqs: [
+      { q: "¿Cuánto peso puedo perder en 8 semanas caminando?", a: "De forma realista, entre 2 y 5 kg, dependiendo del punto de partida, la consistencia y los ajustes de alimentación. El rango inferior corresponde a hacer solo el ejercicio del plan; el superior, a añadir pequeños ajustes en la dieta. Desconfía de cualquier plan que prometa cifras muy superiores en el mismo tiempo: o son insostenibles o no son solo grasa." },
+      { q: "¿Necesito seguir el plan al pie de la letra?", a: "No. Es una guía de progresión, no un protocolo rígido. Si un día fallas, simplemente retomas donde lo dejaste sin dramatizar. Lo único que conviene no hacer es saltarse semanas enteras, porque la progresión se construye sobre la carga de la semana anterior y saltar tramos rompe esa base." },
+      { q: "¿Se puede hacer este plan sin cinta, caminando al aire libre?", a: "Sí, los principios son exactamente los mismos. La cinta facilita el control preciso de la velocidad y elimina la dependencia del clima, pero el plan es perfectamente válido caminando al aire libre a los mismos ritmos. Si optas por el exterior, un reloj o el móvil te ayudan a controlar el ritmo para respetar las velocidades de cada fase." },
+      { q: "¿Qué pasa después de la semana 8?", a: "El objetivo es que en la semana 8 caminar 45 minutos sea algo completamente normal, no un esfuerzo. A partir de ahí puedes mantener esa base y añadir sesiones de mayor intensidad si buscas seguir progresando, o simplemente mantener el hábito de forma indefinida si tu objetivo es la salud y no el rendimiento deportivo." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {

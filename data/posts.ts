@@ -117,6 +117,66 @@ export const posts: Post[] = [
     ],
     isSupplement: true,
   },
+  {
+    slug: "walkingpad-r2-vs-r1-pro",
+    title: "WalkingPad R2 vs R1 Pro: cuál comprar en 2025",
+    excerpt:
+      "Comparativa directa WalkingPad R2 vs R1 Pro: diferencias reales en velocidad, motor, precio y uso para ayudarte a elegir la tuya.",
+    date: "2025-07-01",
+    category: "Cardio",
+    readTime: "8 min",
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+  },
+  {
+    slug: "cinta-correr-plegable-piso-pequeno",
+    title: "Cinta de correr plegable para piso pequeño: guía 2025",
+    excerpt:
+      "Cómo elegir una cinta de correr plegable si vives en un piso pequeño: espacio, ruido, plegado y las mejores opciones del mercado.",
+    date: "2025-07-02",
+    category: "Cardio",
+    readTime: "7 min",
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+  },
+  {
+    slug: "cinta-andar-casa-bajo-escritorio",
+    title: "Cinta de andar bajo el escritorio: guía completa 2025",
+    excerpt:
+      "Cómo usar una cinta de andar bajo el escritorio para trabajar y moverse al mismo tiempo. Qué modelos funcionan y cómo empezar.",
+    date: "2025-07-03",
+    category: "Cardio",
+    readTime: "8 min",
+    relatedProducts: ["walkingpad-r1-pro-cinta-plegable", "walkingpad-r2-cinta-plegable"],
+  },
+  {
+    slug: "walkingpad-opiniones-analisis",
+    title: "WalkingPad: opiniones reales y análisis completo 2025",
+    excerpt:
+      "Análisis honesto de las WalkingPad en España: qué dicen los usuarios reales, pros y contras de cada modelo y si vale la pena el precio.",
+    date: "2025-07-04",
+    category: "Cardio",
+    readTime: "9 min",
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+  },
+  {
+    slug: "entrenar-caminando-casa-beneficios",
+    title: "Beneficios de caminar en casa: por qué funciona mejor de lo que crees",
+    excerpt:
+      "Los beneficios reales de caminar en casa con una cinta: salud cardiovascular, pérdida de peso, productividad y cómo empezar desde hoy.",
+    date: "2025-07-05",
+    category: "Cardio",
+    readTime: "7 min",
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+  },
+  {
+    slug: "perder-peso-cinta-andar-casa-plan",
+    title: "Plan de 8 semanas para perder peso caminando en cinta",
+    excerpt:
+      "Plan de entrenamiento de 8 semanas para perder peso caminando en cinta en casa. Progresión semana a semana, calorías y consejos prácticos.",
+    date: "2025-07-06",
+    category: "Pérdida de peso",
+    readTime: "10 min",
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
