@@ -1749,6 +1749,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   const content = articleContent[slug];
   const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter(Boolean) ?? [];
+  const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -1916,6 +1917,25 @@ export default async function BlogPostPage({ params }: Props) {
                   <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
                   <p className="text-gray-700 text-sm leading-relaxed">{faq.a}</p>
                 </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {relatedPosts.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-5">Artículos relacionados</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {relatedPosts.map((p) => p && (
+                <Link
+                  key={p.slug}
+                  href={`/blog/${p.slug}`}
+                  className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-green-400 hover:shadow-sm transition-all"
+                >
+                  <span className="inline-block text-xs font-semibold text-green-700 mb-1.5">{p.category}</span>
+                  <h3 className="font-bold text-gray-900 leading-snug mb-1">{p.title}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed line-clamp-2">{p.excerpt}</p>
+                </Link>
               ))}
             </div>
           </section>

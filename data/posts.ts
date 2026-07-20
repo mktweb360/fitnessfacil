@@ -6,6 +6,7 @@ export type Post = {
   category: string;
   readTime: string;
   relatedProducts?: string[];
+  relatedPosts?: string[];
   isSupplement?: boolean;
 };
 
@@ -19,6 +20,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "11 min",
     relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedPosts: [
+      "walkingpad-r2-vs-r1-pro",
+      "cinta-correr-plegable-piso-pequeno",
+      "walkingpad-opiniones-analisis",
+    ],
   },
   {
     slug: "bicicleta-estatica-o-eliptica",
@@ -32,6 +38,11 @@ export const posts: Post[] = [
       "merach-bicicleta-estatica-app-136kg",
       "sportstech-x150-ergometro-plegable",
       "sportstech-x100c-bicicleta-cuerdas",
+    ],
+    relatedPosts: [
+      "mejor-bicicleta-estatica-casa-2025",
+      "ergometro-vs-bicicleta-estatica",
+      "merach-bicicleta-estatica-analisis",
     ],
   },
   {
@@ -47,6 +58,11 @@ export const posts: Post[] = [
       "la-mente-es-maravillosa-esterilla-tpe",
       "fokky-bandas-elasticas-set-4-tpe",
     ],
+    relatedPosts: [
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+      "bandas-elasticas-musculacion-guia",
+      "perder-peso-ejercicio-casa",
+    ],
   },
   {
     slug: "mancuernas-ajustables-merece-pena",
@@ -61,6 +77,11 @@ export const posts: Post[] = [
       "maniboom-mancuernas-hexagonales-15kg",
       "jowy-kettlebell-pvc-16kg",
     ],
+    relatedPosts: [
+      "mancuernas-ajustables-vs-fijas",
+      "lullax-neo36-analisis-opinion",
+      "rutina-mancuernas-casa-semana",
+    ],
   },
   {
     slug: "proteina-whey-guia-completa",
@@ -73,6 +94,11 @@ export const posts: Post[] = [
     relatedProducts: [
       "optimum-nutrition-gold-standard-whey-226kg",
       "myprotein-impact-whey-1kg-galletas",
+    ],
+    relatedPosts: [
+      "on-gold-standard-whey-analisis",
+      "myprotein-impact-whey-opinion",
+      "proteina-whey-antes-despues-entreno",
     ],
     isSupplement: true,
   },
@@ -88,6 +114,11 @@ export const posts: Post[] = [
       "la-mente-es-maravillosa-esterilla-tpe",
       "toplus-esterilla-yoga-tpe-6mm",
     ],
+    relatedPosts: [
+      "mejor-esterilla-yoga-casa-2025",
+      "pilates-casa-principiantes-guia",
+      "yoga-adelgazar-funciona",
+    ],
   },
   {
     slug: "perder-peso-ejercicio-casa",
@@ -102,6 +133,11 @@ export const posts: Post[] = [
       "merach-bicicleta-estatica-app-136kg",
       "sportstech-dfx70-mini-bicicleta-escritorio",
     ],
+    relatedPosts: [
+      "perder-peso-cinta-andar-casa-plan",
+      "bicicleta-estatica-adelgazar-resultados",
+      "yoga-adelgazar-funciona",
+    ],
   },
   {
     slug: "creatina-para-que-sirve",
@@ -115,6 +151,11 @@ export const posts: Post[] = [
       "myprotein-creatina-monohidrato-250g",
       "optimum-nutrition-gold-standard-whey-226kg",
     ],
+    relatedPosts: [
+      "creatina-monohidrato-guia-completa",
+      "suplementos-fitness-casa-necesarios",
+      "proteina-whey-guia-completa",
+    ],
     isSupplement: true,
   },
   {
@@ -126,6 +167,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "8 min",
     relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedPosts: [
+      "mejor-cinta-correr-casa-2025",
+      "walkingpad-opiniones-analisis",
+      "cinta-correr-plegable-piso-pequeno",
+    ],
   },
   {
     slug: "cinta-correr-plegable-piso-pequeno",
@@ -136,6 +182,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "7 min",
     relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedPosts: [
+      "mejor-cinta-correr-casa-2025",
+      "cinta-andar-casa-bajo-escritorio",
+      "walkingpad-r2-vs-r1-pro",
+    ],
   },
   {
     slug: "cinta-andar-casa-bajo-escritorio",
@@ -146,6 +197,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "8 min",
     relatedProducts: ["walkingpad-r1-pro-cinta-plegable", "walkingpad-r2-cinta-plegable"],
+    relatedPosts: [
+      "entrenar-caminando-casa-beneficios",
+      "cinta-correr-plegable-piso-pequeno",
+      "mini-bicicleta-escritorio-trabajar",
+    ],
   },
   {
     slug: "walkingpad-opiniones-analisis",
@@ -156,6 +212,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "9 min",
     relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedPosts: [
+      "walkingpad-r2-vs-r1-pro",
+      "mejor-cinta-correr-casa-2025",
+      "cinta-correr-plegable-piso-pequeno",
+    ],
   },
   {
     slug: "entrenar-caminando-casa-beneficios",
@@ -166,6 +227,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "7 min",
     relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedPosts: [
+      "cinta-andar-casa-bajo-escritorio",
+      "perder-peso-cinta-andar-casa-plan",
+      "walkingpad-opiniones-analisis",
+    ],
   },
   {
     slug: "perder-peso-cinta-andar-casa-plan",
@@ -176,6 +242,11 @@ export const posts: Post[] = [
     category: "Pérdida de peso",
     readTime: "10 min",
     relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedPosts: [
+      "entrenar-caminando-casa-beneficios",
+      "perder-peso-ejercicio-casa",
+      "mejor-cinta-correr-casa-2025",
+    ],
   },
   {
     slug: "mejor-bicicleta-estatica-casa-2025",
@@ -190,6 +261,11 @@ export const posts: Post[] = [
       "sportstech-x150-ergometro-plegable",
       "sportstech-x100c-bicicleta-cuerdas",
     ],
+    relatedPosts: [
+      "bicicleta-estatica-o-eliptica",
+      "merach-bicicleta-estatica-analisis",
+      "sportstech-x100c-analisis",
+    ],
   },
   {
     slug: "sportstech-x100c-analisis",
@@ -200,6 +276,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "8 min",
     relatedProducts: ["sportstech-x100c-bicicleta-cuerdas", "sportstech-x150-ergometro-plegable"],
+    relatedPosts: [
+      "mejor-bicicleta-estatica-casa-2025",
+      "merach-bicicleta-estatica-analisis",
+      "ergometro-vs-bicicleta-estatica",
+    ],
   },
   {
     slug: "merach-bicicleta-estatica-analisis",
@@ -210,6 +291,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "9 min",
     relatedProducts: ["merach-bicicleta-estatica-app-136kg", "sportstech-x150-ergometro-plegable"],
+    relatedPosts: [
+      "mejor-bicicleta-estatica-casa-2025",
+      "bicicleta-estatica-adelgazar-resultados",
+      "ergometro-vs-bicicleta-estatica",
+    ],
   },
   {
     slug: "mini-bicicleta-escritorio-trabajar",
@@ -220,6 +306,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "8 min",
     relatedProducts: ["sportstech-dfx70-mini-bicicleta-escritorio", "sportstech-x100c-bicicleta-cuerdas"],
+    relatedPosts: [
+      "cinta-andar-casa-bajo-escritorio",
+      "ergometro-vs-bicicleta-estatica",
+      "bicicleta-estatica-o-eliptica",
+    ],
   },
   {
     slug: "ergometro-vs-bicicleta-estatica",
@@ -230,6 +321,11 @@ export const posts: Post[] = [
     category: "Cardio",
     readTime: "7 min",
     relatedProducts: ["sportstech-x150-ergometro-plegable", "merach-bicicleta-estatica-app-136kg"],
+    relatedPosts: [
+      "bicicleta-estatica-o-eliptica",
+      "mejor-bicicleta-estatica-casa-2025",
+      "merach-bicicleta-estatica-analisis",
+    ],
   },
   {
     slug: "bicicleta-estatica-adelgazar-resultados",
@@ -240,6 +336,11 @@ export const posts: Post[] = [
     category: "Pérdida de peso",
     readTime: "9 min",
     relatedProducts: ["merach-bicicleta-estatica-app-136kg", "sportstech-x150-ergometro-plegable"],
+    relatedPosts: [
+      "merach-bicicleta-estatica-analisis",
+      "mejor-bicicleta-estatica-casa-2025",
+      "perder-peso-ejercicio-casa",
+    ],
   },
   {
     slug: "mancuernas-ajustables-vs-fijas",
@@ -254,6 +355,11 @@ export const posts: Post[] = [
       "maniboom-mancuernas-hexagonales-15kg",
       "fokky-bandas-elasticas-set-4-tpe",
     ],
+    relatedPosts: [
+      "mancuernas-ajustables-merece-pena",
+      "lullax-neo36-analisis-opinion",
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+    ],
   },
   {
     slug: "lullax-neo36-analisis-opinion",
@@ -264,6 +370,11 @@ export const posts: Post[] = [
     category: "Fuerza",
     readTime: "9 min",
     relatedProducts: ["lullax-neo36-mancuernas-ajustables", "maniboom-mancuernas-hexagonales-15kg"],
+    relatedPosts: [
+      "mancuernas-ajustables-merece-pena",
+      "mancuernas-ajustables-vs-fijas",
+      "rutina-mancuernas-casa-semana",
+    ],
   },
   {
     slug: "kettlebell-para-empezar-peso",
@@ -274,6 +385,11 @@ export const posts: Post[] = [
     category: "Fuerza",
     readTime: "8 min",
     relatedProducts: ["jowy-kettlebell-pvc-16kg", "lullax-neo36-mancuernas-ajustables"],
+    relatedPosts: [
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+      "bandas-elasticas-musculacion-guia",
+      "rutina-mancuernas-casa-semana",
+    ],
   },
   {
     slug: "bandas-elasticas-musculacion-guia",
@@ -284,6 +400,11 @@ export const posts: Post[] = [
     category: "Fuerza",
     readTime: "7 min",
     relatedProducts: ["fokky-bandas-elasticas-set-4-tpe", "jowy-kettlebell-pvc-16kg"],
+    relatedPosts: [
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+      "kettlebell-para-empezar-peso",
+      "rutina-entrenamiento-casa-sin-equipamiento",
+    ],
   },
   {
     slug: "entrenamiento-fuerza-casa-equipamiento-minimo",
@@ -298,6 +419,11 @@ export const posts: Post[] = [
       "fokky-bandas-elasticas-set-4-tpe",
       "jowy-kettlebell-pvc-16kg",
     ],
+    relatedPosts: [
+      "bandas-elasticas-musculacion-guia",
+      "kettlebell-para-empezar-peso",
+      "rutina-mancuernas-casa-semana",
+    ],
   },
   {
     slug: "rutina-mancuernas-casa-semana",
@@ -308,6 +434,11 @@ export const posts: Post[] = [
     category: "Fuerza",
     readTime: "9 min",
     relatedProducts: ["lullax-neo36-mancuernas-ajustables", "maniboom-mancuernas-hexagonales-15kg"],
+    relatedPosts: [
+      "mancuernas-ajustables-merece-pena",
+      "lullax-neo36-analisis-opinion",
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+    ],
   },
   {
     slug: "mejor-esterilla-yoga-casa-2025",
@@ -318,6 +449,11 @@ export const posts: Post[] = [
     category: "Yoga",
     readTime: "7 min",
     relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe"],
+    relatedPosts: [
+      "esterilla-tpe-vs-pvc-diferencias",
+      "toplus-esterilla-analisis",
+      "yoga-en-casa-principiantes",
+    ],
   },
   {
     slug: "esterilla-tpe-vs-pvc-diferencias",
@@ -328,6 +464,11 @@ export const posts: Post[] = [
     category: "Yoga",
     readTime: "6 min",
     relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe"],
+    relatedPosts: [
+      "mejor-esterilla-yoga-casa-2025",
+      "toplus-esterilla-analisis",
+      "yoga-en-casa-principiantes",
+    ],
   },
   {
     slug: "toplus-esterilla-analisis",
@@ -338,6 +479,11 @@ export const posts: Post[] = [
     category: "Yoga",
     readTime: "7 min",
     relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe"],
+    relatedPosts: [
+      "mejor-esterilla-yoga-casa-2025",
+      "esterilla-tpe-vs-pvc-diferencias",
+      "pilates-casa-principiantes-guia",
+    ],
   },
   {
     slug: "pilates-casa-principiantes-guia",
@@ -348,6 +494,11 @@ export const posts: Post[] = [
     category: "Yoga",
     readTime: "8 min",
     relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "toplus-esterilla-yoga-tpe-6mm"],
+    relatedPosts: [
+      "yoga-en-casa-principiantes",
+      "estiramientos-despues-ejercicio",
+      "mejor-esterilla-yoga-casa-2025",
+    ],
   },
   {
     slug: "estiramientos-despues-ejercicio",
@@ -358,6 +509,11 @@ export const posts: Post[] = [
     category: "Yoga",
     readTime: "7 min",
     relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "fokky-bandas-elasticas-set-4-tpe"],
+    relatedPosts: [
+      "pilates-casa-principiantes-guia",
+      "yoga-en-casa-principiantes",
+      "bandas-elasticas-musculacion-guia",
+    ],
   },
   {
     slug: "yoga-adelgazar-funciona",
@@ -368,6 +524,11 @@ export const posts: Post[] = [
     category: "Yoga",
     readTime: "7 min",
     relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "toplus-esterilla-yoga-tpe-6mm"],
+    relatedPosts: [
+      "yoga-en-casa-principiantes",
+      "perder-peso-ejercicio-casa",
+      "pilates-casa-principiantes-guia",
+    ],
   },
   {
     slug: "on-gold-standard-whey-analisis",
@@ -378,6 +539,11 @@ export const posts: Post[] = [
     category: "Nutrición",
     readTime: "8 min",
     relatedProducts: ["optimum-nutrition-gold-standard-whey-226kg", "myprotein-impact-whey-1kg-galletas"],
+    relatedPosts: [
+      "myprotein-impact-whey-opinion",
+      "proteina-whey-guia-completa",
+      "proteina-whey-antes-despues-entreno",
+    ],
     isSupplement: true,
   },
   {
@@ -389,6 +555,11 @@ export const posts: Post[] = [
     category: "Nutrición",
     readTime: "7 min",
     relatedProducts: ["optimum-nutrition-gold-standard-whey-226kg", "myprotein-impact-whey-1kg-galletas"],
+    relatedPosts: [
+      "proteina-whey-guia-completa",
+      "on-gold-standard-whey-analisis",
+      "suplementos-fitness-casa-necesarios",
+    ],
     isSupplement: true,
   },
   {
@@ -400,6 +571,11 @@ export const posts: Post[] = [
     category: "Nutrición",
     readTime: "9 min",
     relatedProducts: ["myprotein-creatina-monohidrato-250g", "optimum-nutrition-gold-standard-whey-226kg"],
+    relatedPosts: [
+      "creatina-para-que-sirve",
+      "suplementos-fitness-casa-necesarios",
+      "proteina-whey-guia-completa",
+    ],
     isSupplement: true,
   },
   {
@@ -411,6 +587,11 @@ export const posts: Post[] = [
     category: "Nutrición",
     readTime: "7 min",
     relatedProducts: ["myprotein-impact-whey-1kg-galletas", "optimum-nutrition-gold-standard-whey-226kg"],
+    relatedPosts: [
+      "on-gold-standard-whey-analisis",
+      "proteina-whey-guia-completa",
+      "proteina-vegana-vs-whey",
+    ],
     isSupplement: true,
   },
   {
@@ -426,6 +607,11 @@ export const posts: Post[] = [
       "optimum-nutrition-gold-standard-whey-226kg",
       "myprotein-impact-whey-1kg-galletas",
     ],
+    relatedPosts: [
+      "creatina-monohidrato-guia-completa",
+      "proteina-whey-guia-completa",
+      "creatina-para-que-sirve",
+    ],
     isSupplement: true,
   },
   {
@@ -437,6 +623,11 @@ export const posts: Post[] = [
     category: "Nutrición",
     readTime: "7 min",
     relatedProducts: ["myprotein-impact-whey-1kg-galletas", "optimum-nutrition-gold-standard-whey-226kg"],
+    relatedPosts: [
+      "proteina-whey-guia-completa",
+      "myprotein-impact-whey-opinion",
+      "suplementos-fitness-casa-necesarios",
+    ],
     isSupplement: true,
   },
 ];
