@@ -20,6 +20,15 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: "/tienda/esterillas-yoga/fokky-bandas-elasticas-set-4-tpe",
+        destination: "/tienda/pesas-mancuernas/fokky-bandas-elasticas-set-4-tpe",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
