@@ -941,6 +941,292 @@ const articleContent: Record<string, {
       { q: "¿Cuánto tiempo al día hay que usar la bicicleta para adelgazar?", a: "Entre 30 y 45 minutos de pedaleo a intensidad moderada, 3 o 4 veces por semana, es suficiente para producir resultados. Más tiempo no es necesariamente mejor: la calidad y la consistencia de las sesiones importan más que la cantidad total de minutos, y alargar en exceso cada sesión suele llevar al abandono." },
     ],
   },
+
+  "mancuernas-ajustables-vs-fijas": {
+    intro: "La decisión entre mancuernas ajustables y fijas es más sencilla de lo que parece si tienes claros dos datos: cuánto espacio tienes y cuánto tiempo llevas o piensas llevar entrenando. Esta guía responde la pregunta de forma honesta, sin empujarte hacia la opción más cara solo porque lo sea.",
+    sections: [
+      {
+        heading: "Cuándo las fijas son la respuesta correcta",
+        body: "Si vas a usar siempre el mismo peso, ya sea para un circuito fijo, para rehabilitación o para ejercicios muy concretos, las fijas son más baratas, más duraderas y más simples. No tienen partes móviles que puedan romperse ni un mecanismo del que fiarse con carga alta sobre la cara. Las ManiBoom hexagonales a 59,99 euros son el ejemplo perfecto: un par de mancuernas sólidas, con forma que evita que rueden por el suelo, que cumplen su función sin complicaciones y sin el sobreprecio de un sistema que quizá no vas a aprovechar.",
+      },
+      {
+        heading: "Cuándo las ajustables justifican el precio",
+        body: "Hay tres escenarios donde la inversión tiene sentido. El primero es la progresión a largo plazo: si vas a entrenar durante años, necesitarás pesos cada vez mayores, y comprar pares fijos sucesivos acaba costando más que un ajustable y llenando la casa de hierro. El segundo es el espacio limitado: un par de ajustables ocupa lo mismo que un par fijo y cubre el rango de quince. El tercero es la variedad de ejercicios: si entrenas cuerpo completo con cargas distintas para cada músculo, el cambio de peso en segundos es lo que permite encadenar ejercicios sin romper el ritmo de la sesión.",
+        productSlug: "lullax-neo36-mancuernas-ajustables",
+      },
+      {
+        heading: "ManiBoom 15 kg — la entrada equilibrada",
+        body: "Las ManiBoom son la puerta de entrada sensata al entrenamiento de fuerza en casa. Su diseño hexagonal evita que rueden, un detalle práctico que se agradece cada sesión, e incluyen una barra que las convierte en barra larga para ampliar el repertorio de ejercicios. A 59,99 euros son la opción para quien empieza y no quiere arriesgar 349 euros en un hábito que todavía no ha consolidado. Cubren la mayoría de los ejercicios de un principiante o intermedio sin que la inversión duela si al final el entrenamiento no cuaja.",
+        productSlug: "maniboom-mancuernas-hexagonales-15kg",
+      },
+      {
+        heading: "La alternativa más económica: bandas elásticas",
+        body: "Si ni siquiera quieres comprometerte con unas mancuernas, las bandas elásticas son el primer paso más barato posible. Por 12,99 euros, un set de bandas cubre press, remo, sentadilla y trabajo de glúteo, ocupa lo que un puño y no daña nada al usarse. No son lo mismo que unas mancuernas (no replican la sensación de peso libre ni su progresión precisa de carga), pero para arrancar y comprobar si el hábito se te queda son una inversión mínima e inteligente. Muchos home gyms empiezan exactamente aquí.",
+        productSlug: "fokky-bandas-elasticas-set-4-tpe",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Ajustables (LULLAX)", "Fijas (ManiBoom)", "Bandas (Fokky)"],
+      rows: [
+        ["Precio", "349,00 €", "59,99 €", "12,99 €"],
+        ["Rango de peso", "2,5-36 kg", "15 kg fijo", "4 niveles de resistencia"],
+        ["Cambio de peso", "Segundos", "Manual", "Segundos"],
+        ["Espacio", "Mínimo", "Mínimo", "Casi nulo"],
+        ["Ideal para", "Progresión a años", "Empezar sin gastar", "Primer equipamiento"],
+      ],
+    },
+    conclusion: "Si llevas menos de seis meses entrenando o no sabes si el hábito se te va a quedar, empieza con las ManiBoom o las Fokky. Si ya tienes el hábito consolidado y la progresión te lo pide, las LULLAX NEO36 son la inversión que no repetirás. La pregunta no es cuál es mejor en abstracto, sino en qué punto de tu camino estás.",
+    faqs: [
+      { q: "¿Qué peso de mancuernas necesito para empezar?", a: "Para el tren superior (curl, press, extensiones), un principiante adulto suele empezar con 4-8 kg. Para el tren inferior y la espalda, entre 8 y 15 kg. Las ManiBoom a 15 kg cubren holgadamente el rango inicial para la mayoría de las personas, y la referencia real no es un número fijo sino la técnica: el peso correcto es el que te permite completar las series con buena forma y algo de margen." },
+      { q: "¿Las mancuernas ajustables se rompen más fácilmente?", a: "El mecanismo de selección es su punto débil, y su enemigo número uno es soltarlas contra el suelo: están diseñadas para posarse, no para dejarse caer. Con ese cuidado, duran muchos años en uso doméstico. Conviene revisar de vez en cuando que el sistema de bloqueo encaja con firmeza antes de cada serie, sobre todo en ejercicios por encima de la cabeza." },
+      { q: "¿Se puede hacer todo el cuerpo con solo mancuernas?", a: "Sí, prácticamente. Curl, press, remo, sentadilla, zancada, peso muerto rumano y press de hombro se hacen todos con mancuernas. La limitación principal aparece en los ejercicios de tirón vertical, como las dominadas, donde necesitas una barra u otro tipo de equipamiento para colgarte. Para el resto de patrones, las mancuernas bastan." },
+      { q: "¿Las bandas elásticas pueden sustituir a las mancuernas?", a: "Parcialmente. Las bandas cubren bien los movimientos de empuje y tracción, pero no replican la sensación del peso libre ni la progresión precisa de carga que ofrecen las mancuernas. Son un complemento excelente y una primera inversión muy sensata, pero para un usuario que progresa acaban quedándose cortas como herramienta única." },
+    ],
+  },
+
+  "lullax-neo36-analisis-opinion": {
+    intro: "Las LULLAX NEO36 son las mancuernas ajustables más completas del catálogo: 36 kg por mancuerna en 14 posiciones, con base de almacenamiento incluida. Esta guía analiza qué significa eso en la práctica, qué las diferencia de otras ajustables del mercado y para quién son realmente la compra correcta.",
+    sections: [
+      {
+        heading: "36 kg por mancuerna: cuánto es eso realmente",
+        body: "36 kg por mancuerna cubren prácticamente cualquier ejercicio de fuerza doméstico durante años. Para poner el dato en contexto: el press de banca con mancuernas de un usuario intermedio masculino ronda los 20-30 kg por mano, y el remo con mancuerna puede superar los 30 kg con experiencia. Para mujeres, el rango de trabajo habitual está entre 8 y 20 kg. En ambos casos, 36 kg dan margen para años de progresión antes de tocar techo, lo que significa que no vas a necesitar comprar nada más por mucho que avances.",
+      },
+      {
+        heading: "El mecanismo de selección rápida: cómo funciona",
+        body: "Girar el dial selecciona solo los discos que se acoplan al mango, de modo que el cambio de peso lleva entre 2 y 5 segundos, frente a los 30-60 segundos de cambiar discos manualmente. Las NEO36 tienen además una particularidad útil: al seleccionar un peso inferior al máximo, la mancuerna se acorta físicamente, lo que mejora la maniobrabilidad en ejercicios donde una mancuerna larga estorba, como el curl de bíceps o las extensiones de tríceps. Es un detalle que las mancuernas ajustables de longitud fija no resuelven.",
+      },
+      {
+        heading: "Lo que más valoran los usuarios",
+        body: "Tres elogios se repiten. El primero es la solidez de la construcción, más robusta que la media de las ajustables económicas, lo que transmite confianza al manejar cargas altas. El segundo es el rango de 36 kg, que da margen real para años y evita la sensación de haber comprado algo que se quedará pequeño pronto. Y el tercero es la base de almacenamiento incluida, que evita tener que buscar por separado una solución para guardarlas ordenadas y accesibles, un problema que muchas ajustables dejan sin resolver.",
+      },
+      {
+        heading: "Lo que hay que saber antes de comprar",
+        body: "Con honestidad, tres advertencias. La primera: no se pueden soltar contra el suelo, porque el mecanismo de selección se daña; hay que posarlas con cuidado. La segunda: son más anchas que las mancuernas fijas del mismo peso, algo que se nota en ejercicios de agarre neutro cercano al cuerpo. Y la tercera, la más importante: 349 euros son una barrera de entrada real, y esta compra solo tiene sentido si ya llevas tiempo entrenando y sabes que vas a seguir haciéndolo. Para un hábito sin consolidar, es mucho dinero en juego.",
+        productSlug: "lullax-neo36-mancuernas-ajustables",
+      },
+      {
+        heading: "LULLAX frente a ManiBoom: para quién es cada una",
+        body: "Si llevas menos de un año entrenando, las ManiBoom a 59,99 euros tienen más sentido: cumplen la misma función básica sin arriesgar 349 euros en algo que quizá no uses. Las LULLAX, en cambio, son para el usuario que ya sabe que el hábito se ha quedado y quiere el equipamiento definitivo, ese que no tendrá que sustituir ni ampliar en años. No compiten en la misma liga: una es la entrada prudente y la otra la inversión de quien ya tiene claro su compromiso.",
+        productSlug: "maniboom-mancuernas-hexagonales-15kg",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "LULLAX NEO36", "ManiBoom 15 kg"],
+      rows: [
+        ["Precio", "349,00 €", "59,99 €"],
+        ["Peso máximo", "36 kg por mancuerna", "15 kg fijo"],
+        ["Cambio de peso", "2-5 segundos", "Manual con discos"],
+        ["Longitud variable", "Sí — se acorta", "No"],
+        ["Base incluida", "Sí", "No"],
+        ["Mejor para", "Usuarios consolidados", "Empezar sin gastar de más"],
+      ],
+    },
+    conclusion: "Las LULLAX NEO36 son la mancuerna definitiva para el home gym, el par que no repetirás en años. Su precio se justifica si llevas tiempo entrenando y la progresión lo pide. Si no estás en ese punto, las ManiBoom son la compra más inteligente: mismo objetivo básico, sin arriesgar de más.",
+    faqs: [
+      { q: "¿Las LULLAX NEO36 son compatibles con cualquier ejercicio?", a: "Sí para la mayoría. La excepción son los ejercicios donde las mancuernas se sueltan al suelo, como los levantamientos olímpicos o el snatch: el mecanismo no está diseñado para ese trato. Para la fuerza clásica y la hipertrofia, que es lo que hace la inmensa mayoría de la gente en casa, cubren absolutamente todo." },
+      { q: "¿Cuánto pesan las LULLAX NEO36 en su configuración mínima?", a: "El mango más los discos mínimos pesa aproximadamente 2,5 kg por mancuerna, que es el punto de partida del rango ajustable. Conviene consultar la ficha de Amazon para el dato exacto actualizado, ya que el peso mínimo determina si sirven también para ejercicios de aislamiento ligeros como las elevaciones laterales." },
+      { q: "¿Las LULLAX NEO36 caben en un piso pequeño?", a: "Con la base incluida, el par ocupa el equivalente a una caja de zapatos grande. Es probablemente el equipamiento de fuerza con mejor relación entre peso útil y espacio ocupado del mercado: 36 kg de carga por mano en el hueco que ocuparía un solo par de mancuernas fijas ligeras." },
+      { q: "¿Merece la pena pagar 349 € por unas mancuernas?", a: "Si las vas a usar durante tres a cinco años, sí. El coste repartido por año es inferior al de la cuota anual de la mayoría de los gimnasios, y el equipamiento es tuyo para siempre, sin desplazamientos ni esperas. Si no tienes claro que el hábito vaya a durar, empieza con algo más económico y da el salto cuando la progresión lo pida." },
+    ],
+  },
+
+  "kettlebell-para-empezar-peso": {
+    intro: "La kettlebell no es una mancuerna con otra forma. Su centro de gravedad, desplazado respecto al asa, activa músculos estabilizadores que las mancuernas no trabajan de la misma manera, y permite movimientos balísticos como los swings o los snatches, que son a la vez ejercicio de fuerza y de cardio. Esta guía explica qué peso elegir para empezar y por qué la kettlebell merece un sitio en tu casa.",
+    sections: [
+      {
+        heading: "Qué peso de kettlebell elegir para empezar",
+        body: "Para hombres adultos sin experiencia, el rango estándar de entrada es de 12 a 16 kg: 12 kg si partes de cero o tienes poca base de fuerza, y 16 kg si ya haces algo de ejercicio con regularidad, aunque no sea con pesas. Para mujeres, el rango es de 8 a 12 kg: 8 kg para empezar desde cero y 12 kg si ya entrenas. Puede sorprender que se recomiende un peso relativamente alto para empezar, pero es lógico: el swing, el ejercicio central, es un movimiento de cadera potente que necesita algo de carga para ejecutarse bien. La JOWY a 16 kg es el peso de entrada estándar masculino.",
+      },
+      {
+        heading: "Por qué la kettlebell es diferente a las mancuernas",
+        body: "Las mancuernas trabajan patrones de fuerza analíticos, aislados músculo a músculo. La kettlebell trabaja patrones de movimiento funcionales: el swing activa a la vez glúteos, isquiotibiales, core y espalda; el turkish get-up implica prácticamente todo el cuerpo en un solo gesto. El resultado es una mayor eficiencia por tiempo de sesión y un trabajo cardiovascular integrado que las mancuernas, por su naturaleza más estática, no ofrecen del mismo modo. No es que una sea mejor que la otra: hacen cosas distintas y se complementan.",
+      },
+      {
+        heading: "Los cuatro ejercicios básicos para empezar",
+        body: "Cuatro movimientos cubren los patrones fundamentales. El swing ruso es el ejercicio insignia de la kettlebell: una bisagra de cadera potente que trabaja glúteos, isquios y core. El goblet squat, sujetando la kettlebell contra el pecho, es una sentadilla frontal ideal para aprender la técnica correcta porque la posición del peso corrige el gesto de forma natural. El press de hombro, vertical y unilateral, trabaja el hombro y el core estabilizador. Y el remo unilateral, un tirón horizontal, trabaja la espalda y el bíceps. Con estos cuatro tienes un entrenamiento de cuerpo completo.",
+      },
+      {
+        heading: "JOWY Kettlebell 16 kg: análisis",
+        body: "La JOWY es de PVC relleno de arena de acero, un detalle que importa más de lo que parece en casa: no daña el suelo al apoyarla, algo determinante si entrenas sobre parquet o baldosa sin una plataforma protectora. Su asa es ergonómica y antideslizante para un agarre seguro incluso con las manos sudadas. A 34,99 euros es la opción más asequible del catálogo y corresponde al peso de entrada masculino estándar, lo que la convierte en una forma económica de empezar con la kettlebell sin renunciar a la calidad de construcción.",
+        productSlug: "jowy-kettlebell-pvc-16kg",
+      },
+      {
+        heading: "Cuándo pasar a mancuernas ajustables",
+        body: "La kettlebell y las mancuernas no compiten: se complementan. La kettlebell brilla en los movimientos funcionales y en el cardio integrado; las mancuernas, en la fuerza y la hipertrofia analítica, donde poder ajustar la carga con precisión para cada ejercicio marca la diferencia. Un home gym completo acaba teniendo las dos cosas. Si empiezas por la kettlebell, el momento de añadir unas mancuernas ajustables llega cuando quieras trabajar músculos concretos con progresión fina, algo que un solo peso fijo no permite.",
+        productSlug: "lullax-neo36-mancuernas-ajustables",
+      },
+    ],
+    comparison: {
+      headers: ["Perfil", "Peso recomendado", "Por qué"],
+      rows: [
+        ["Mujer sin base", "8 kg", "Swing y goblet squat con técnica correcta"],
+        ["Mujer con base", "12 kg", "Permite progresar en press y remo"],
+        ["Hombre sin base", "12 kg", "Rango funcional sin abrumar"],
+        ["Hombre con base", "16 kg", "Estándar de entrada para adulto activo"],
+        ["Avanzado/a", "20-24 kg", "Progresión tras dominar los básicos"],
+      ],
+    },
+    conclusion: "Para la mayoría de los hombres adultos que empiezan, 16 kg es el peso correcto: suficiente para aprender los movimientos con técnica y con margen para progresar durante meses. Para mujeres, entre 8 y 12 kg según el punto de partida. La JOWY a 34,99 euros es la forma más económica de entrar en el mundo de la kettlebell sin comprometer la calidad.",
+    faqs: [
+      { q: "¿Es mejor la kettlebell de hierro o la de PVC?", a: "La de hierro es el formato clásico y el preferido para uso intensivo, pero daña el suelo si se apoya sin cuidado. La de PVC con relleno de arena, como la JOWY, es más suave con las superficies del hogar y perfectamente válida para el entrenamiento doméstico. La diferencia de rendimiento entre ambas es nula; la diferencia práctica en casa, con un parquet de por medio, es importante." },
+      { q: "¿Se puede entrenar solo con kettlebell?", a: "Sí, perfectamente. Muchos programas de fuerza y acondicionamiento se estructuran enteramente alrededor de la kettlebell: sus movimientos balísticos aportan el cardio y los de fuerza trabajan los patrones fundamentales. La única limitación es la variedad de carga: con un solo peso, la progresión tiene un techo que tarde o temprano pide añadir otra kettlebell más pesada o mancuernas." },
+      { q: "¿La kettlebell sirve para perder grasa?", a: "Sí, especialmente los circuitos de swings e intervalos. La densidad de trabajo que permite en poco tiempo genera un gasto calórico similar al de un HIIT, pero con mucho menor impacto articular. Es una de las herramientas más eficientes por minuto de entrenamiento para perder grasa preservando la masa muscular, que es justo lo que interesa en un proceso de definición." },
+      { q: "¿Cuánto tiempo al día hay que entrenar con kettlebell para ver resultados?", a: "Sesiones de 20-30 minutos, 3 o 4 veces por semana, bastan para notar mejoras en fuerza y resistencia en 3-4 semanas. La kettlebell permite sesiones cortas e intensas gracias a su carácter funcional, lo que la hace especialmente adecuada para quienes disponen de poco tiempo y necesitan aprovechar cada minuto de entrenamiento." },
+    ],
+  },
+
+  "bandas-elasticas-musculacion-guia": {
+    intro: "Las bandas elásticas son el equipamiento de fuerza con mejor relación entre precio y versatilidad del mercado. Por menos de 15 euros puedes trabajar prácticamente todos los grupos musculares, añadir resistencia a los ejercicios de peso corporal y hacer movilidad y rehabilitación. Esta guía explica cómo elegirlas y cómo usarlas bien para sacarles todo el partido.",
+    sections: [
+      {
+        heading: "Tipos de bandas elásticas",
+        body: "Hay tres tipos principales y conviene no confundirlos. Las bandas de loop o bucle son un aro cerrado de distintos grosores, que se usan para sentadillas, hip thrusts, dominadas asistidas y trabajo de glúteo. Las bandas de resistencia con asas, del tipo tubo, incluyen mangos y sirven para imitar los movimientos de máquina, como el curl, el press o el remo; las Fokky son de este tipo. Y las minibands son pequeños aros pensados para la activación de glúteo y cadera, habituales en el calentamiento. Elegir el tipo correcto depende de qué ejercicios quieras priorizar.",
+      },
+      {
+        heading: "Niveles de resistencia: cómo elegir",
+        body: "Las Fokky incluyen cuatro niveles diferenciados por color: amarillo (3,6-4,5 kg), rojo (6,8-9 kg), azul (11,3-13,6 kg) y púrpura (13,6-15,9 kg). La lógica de uso es escalonada: el amarillo, para calentamiento y ejercicios de movilidad; el rojo, para curl y press ligero; el azul, para remo y curl pesado; y el púrpura, para añadir resistencia a la sentadilla o al peso muerto. Tener el rango completo permite ajustar la carga a cada ejercicio y a cada grupo muscular, igual que se haría cambiando el peso de una mancuerna.",
+      },
+      {
+        heading: "Fokky bandas elásticas: análisis",
+        body: "Las Fokky son de TPE sin látex, lo que las hace aptas para personas con alergia al látex, un argumento que a menudo se pasa por alto hasta que es un problema. Miden 1,8 metros, incluyen los cuatro niveles de resistencia y una bolsa de transporte, y son top 12 en deportes en Amazon España. Por 12,99 euros son el primer paso de equipamiento más económico y razonable que existe: cubren un espectro de trabajo amplio por el precio de un par de cafés, y su material aguanta bien los ciclos de estiramiento del uso doméstico.",
+        productSlug: "fokky-bandas-elasticas-set-4-tpe",
+      },
+      {
+        heading: "Ejercicios principales con bandas",
+        body: "Cinco ejercicios cubren lo esencial. El curl de bíceps: pisa la banda con un pie y flexiona el brazo. El press de hombro: coloca la banda bajo ambos pies y empuja hacia arriba. El remo de pie: engancha la banda a una superficie fija a la altura del pecho y tira hacia ti. La sentadilla con resistencia: pasa la banda por debajo de los pies y por encima de los hombros para añadir carga al gesto. Y el hip thrust con banda: coloca la banda sobre las caderas con la espalda apoyada en un sofá. Con estos cinco tocas empuje, tracción, pierna y glúteo.",
+      },
+      {
+        heading: "Cuándo añadir kettlebell o mancuernas",
+        body: "Las bandas son el primer paso, no el último. La señal de que has llegado a su límite es concreta: cuando el nivel azul o el púrpura ya no te suponen un desafío en los ejercicios principales, has alcanzado el techo de lo que la banda puede darte en ese movimiento. Ese es el momento de añadir una kettlebell o unas mancuernas, que aportan una resistencia mayor y, en el caso de la kettlebell, el componente balístico y de cardio que las bandas no replican. La base que construiste con las bandas sigue siendo válida; simplemente el cuerpo pide más.",
+        productSlug: "jowy-kettlebell-pvc-16kg",
+      },
+    ],
+    comparison: {
+      headers: ["Nivel banda", "Resistencia aprox.", "Ejercicios ideales"],
+      rows: [
+        ["Amarillo", "3,6-4,5 kg", "Calentamiento, movilidad, hombro ligero"],
+        ["Rojo", "6,8-9 kg", "Curl, press ligero, activación de glúteo"],
+        ["Azul", "11,3-13,6 kg", "Remo, curl pesado, face pull"],
+        ["Púrpura", "13,6-15,9 kg", "Sentadilla, peso muerto y dominadas asistidas"],
+      ],
+    },
+    conclusion: "Las bandas elásticas son la forma más barata de empezar a entrenar con resistencia en casa. Las Fokky por 12,99 euros cubren todo el espectro inicial y pueden acompañarte durante meses. Cuando las superes, el siguiente paso natural son las mancuernas o la kettlebell, pero la base que construyes con las bandas es completamente válida y no tiempo perdido.",
+    faqs: [
+      { q: "¿Las bandas elásticas sirven para ganar músculo?", a: "Sí, especialmente al principio. El músculo responde a la tensión mecánica, y la banda la genera perfectamente en todo el recorrido del movimiento. La limitación aparece en usuarios avanzados, donde la resistencia máxima de la banda puede quedarse corta para seguir imponiendo un estímulo suficiente. Para los primeros meses de entrenamiento, sin embargo, son plenamente eficaces." },
+      { q: "¿Se pueden romper las bandas elásticas?", a: "Sí, si se deterioran. Las de TPE, como las Fokky, tienen mejor resistencia al desgarro que las de látex y aguantan más ciclos de estiramiento. Para alargar su vida conviene no exponerlas al sol directo, no mantenerlas a tensión máxima de forma constante y sustituirlas en cuanto aparezcan grietas en el material, porque una banda que se rompe en tensión puede provocar un golpe." },
+      { q: "¿Las bandas Fokky son aptas para personas con alergia al látex?", a: "Sí. Son de TPE, un elastómero termoplástico sintético que no contiene látex, y ese es precisamente uno de sus argumentos principales frente a las bandas de goma natural. Para quien tiene alergia al látex, es una diferencia que convierte un producto inutilizable en uno perfectamente seguro." },
+      { q: "¿Cuántas bandas necesito para empezar?", a: "Con dos bandas ya puedes hacer un entrenamiento completo: una de resistencia ligera para el calentamiento y los ejercicios de hombro, y una de resistencia media-alta para el trabajo principal. El set de cuatro de las Fokky resulta conveniente porque te da la progresión completa desde el principio, sin tener que comprar niveles adicionales a medida que avanzas." },
+    ],
+  },
+
+  "entrenamiento-fuerza-casa-equipamiento-minimo": {
+    intro: "Un home gym eficaz no requiere mucho espacio ni mucho dinero. Requiere elegir bien. Con tres piezas de equipamiento bien seleccionadas, que no superan los 110 euros en total, puedes cubrir todos los patrones de movimiento fundamentales y entrenar durante años sin necesitar nada más. Esta guía explica qué comprar y por qué esa combinación concreta funciona.",
+    sections: [
+      {
+        heading: "Los cinco patrones de movimiento que necesitas cubrir",
+        body: "Todo el cuerpo se entrena con cinco patrones. La sentadilla trabaja cuádriceps y glúteos. El empuje horizontal (como las flexiones o el press de banca) trabaja pecho, hombro frontal y tríceps. El empuje vertical (el press de hombro) trabaja hombro y tríceps. El tirón horizontal (el remo) trabaja espalda y bíceps. Y la bisagra de cadera (el peso muerto o el swing) trabaja glúteos e isquiotibiales. Si tu equipamiento te permite ejecutar bien estos cinco patrones, tienes cubierto el cuerpo entero; lo demás son variantes y matices.",
+      },
+      {
+        heading: "El equipamiento mínimo eficaz",
+        body: "La combinación que cubre los cinco patrones por menos de 110 euros es concreta: las bandas Fokky (12,99 euros), las mancuernas ManiBoom de 15 kg (59,99 euros) y la kettlebell JOWY de 16 kg (34,99 euros), lo que suma 107,97 euros. Las bandas se encargan de los ejercicios de activación, la movilidad y el trabajo de hombro ligero. Las mancuernas cubren el press, el curl, el remo y todo el trabajo unilateral con progresión. Y la kettlebell aporta los swings, el goblet squat y el cardio integrado. Cada pieza tapa un hueco que las otras dos no cubren bien.",
+        productSlug: "maniboom-mancuernas-hexagonales-15kg",
+      },
+      {
+        heading: "Lo que no necesitas",
+        body: "Igual de importante es saber en qué no gastar. No necesitas una barra con pesas: las mancuernas cubren los mismos patrones con más versatilidad y menos volumen para el hogar. No necesitas un banco de pesas: el suelo sirve para el press (el press de suelo incluso protege el hombro) y un sofá para el remo inclinado. Y no necesitas máquinas de cables: las bandas elásticas las sustituyen para el trabajo de tracción y de aislamiento. Evitar estas tres compras te ahorra cientos de euros y varios metros cuadrados sin perder nada relevante.",
+        productSlug: "fokky-bandas-elasticas-set-4-tpe",
+      },
+      {
+        heading: "Rutina de 3 días con este equipamiento",
+        body: "Con las tres piezas se monta una rutina completa de tres días. Día A, empuje y core: press de hombro con mancuernas, flexiones con banda de resistencia, extensión de tríceps con banda y plancha. Día B, tirón y bisagra: remo con mancuerna, curl de bíceps con banda, swing con kettlebell y peso muerto rumano con mancuernas. Día C, pierna y cuerpo completo: goblet squat con kettlebell, zancada con mancuernas, hip thrust con banda y burpees con kettlebell. Tres sesiones que, alternadas con descanso, cubren todo el cuerpo cada semana.",
+        productSlug: "jowy-kettlebell-pvc-16kg",
+      },
+    ],
+    comparison: {
+      headers: ["Equipamiento", "Coste", "Patrones que cubre", "Imprescindible"],
+      rows: [
+        ["Fokky bandas", "12,99 €", "Empuje ligero, tirón y activación", "Para empezar"],
+        ["ManiBoom 15 kg", "59,99 €", "Empuje, tirón y sentadilla", "Sí"],
+        ["JOWY Kettlebell 16 kg", "34,99 €", "Bisagra, cardio y sentadilla", "Complemento clave"],
+      ],
+    },
+    conclusion: "Por menos de 110 euros tienes equipamiento para cubrir los patrones de movimiento fundamentales durante años. El truco no está en tener mucho, sino en elegir tres piezas que se complementen bien. Cuando ese equipamiento se te quede pequeño, será señal de que has avanzado lo suficiente como para justificar una inversión mayor, como unas mancuernas ajustables.",
+    faqs: [
+      { q: "¿Cuánto espacio necesito para este equipamiento?", a: "Las tres piezas juntas caben en una bolsa mediana y se guardan en cualquier armario. Durante el entrenamiento, con 2 por 2 metros de suelo libre es suficiente para ejecutar todos los ejercicios sin problemas. Es una de las grandes ventajas de esta combinación frente a una máquina o una barra: el espacio de almacenamiento es casi nulo." },
+      { q: "¿Puedo ganar músculo con menos de 100 € de equipamiento?", a: "Sí, especialmente en los primeros 6 a 12 meses, cuando el cuerpo responde de forma notable a cualquier estímulo de resistencia nuevo. Las ganancias iniciales de fuerza y masa muscular no requieren pesos máximos, sino progresión constante y buena técnica, y eso se consigue de sobra con bandas, mancuernas y una kettlebell." },
+      { q: "¿Hay un orden recomendado para comprar el equipamiento?", a: "Sí: primero las bandas, a 12,99 euros, que cubren bastante por muy poco y permiten empezar de inmediato. Luego las mancuernas, que amplían el rango de ejercicios con peso libre y progresión. Y por último la kettlebell, que añade el componente funcional y el cardio integrado. Ese orden reparte el gasto y prioriza lo que más rendimiento da por euro al principio." },
+      { q: "¿Qué pasa cuando este equipamiento se queda pequeño?", a: "Es la señal de que has progresado. El siguiente paso natural son unas mancuernas ajustables, como las LULLAX NEO36, que permiten continuar la progresión de carga sin que el espacio ocupado crezca en proporción al peso disponible. Es la evolución lógica del home gym mínimo hacia uno con más recorrido." },
+    ],
+  },
+
+  "rutina-mancuernas-casa-semana": {
+    intro: "Una rutina bien estructurada con mancuernas puede darte resultados similares a los de un gimnasio, sin desplazamientos y con una inversión mínima en equipamiento. Esta rutina de cuatro días de trabajo cubre todos los grupos musculares con dos días de descanso, y funciona tanto para principiantes como para intermedios ajustando el volumen y la carga.",
+    sections: [
+      {
+        heading: "Principios de la rutina",
+        body: "La rutina se organiza con una división empuje/tirón que optimiza la recuperación: los músculos de empuje descansan mientras trabajan los de tirón, y viceversa. La progresión es semanal: añade una o dos repeticiones, o aumenta el peso, cuando completes todas las series al máximo con buena técnica. El descanso entre series es de 60-90 segundos para principiantes y de 45-60 para intermedios. Estos tres principios (división inteligente, progresión y descanso adecuado) son los que convierten una lista de ejercicios en un programa que de verdad produce adaptaciones.",
+      },
+      {
+        heading: "Día 1 — Pecho y tríceps",
+        body: "El primer día trabaja el empuje horizontal y la extensión de codo. Press de mancuernas tumbado en el suelo, 4 series de 10; apertura de mancuernas, 3 de 12; press de hombro neutro, 3 de 10; extensión de tríceps, 3 de 12; y fondos en silla, 3 de 10. El press de suelo, además de no requerir banco, protege el hombro al limitar el rango en el punto de mayor tensión, lo que lo hace especialmente adecuado para entrenar en casa sin supervisión.",
+        productSlug: "maniboom-mancuernas-hexagonales-15kg",
+      },
+      {
+        heading: "Día 2 — Espalda y bíceps",
+        body: "El segundo día trabaja el tirón horizontal y la flexión de codo. Remo con mancuerna unilateral, 4 series de 10 por lado; remo con ambas mancuernas inclinado, 3 de 12; curl de martillo, 3 de 12; curl de bíceps clásico, 3 de 10; y remo con agarre prono, 3 de 12. El trabajo unilateral del remo a una mano permite corregir descompensaciones entre los dos lados del cuerpo, algo que las máquinas de gimnasio con carga bilateral tienden a enmascarar.",
+      },
+      {
+        heading: "Día 3 — Descanso activo",
+        body: "El tercer día no es de entrenamiento de fuerza, pero tampoco de sofá. Movilidad articular, estiramientos o entre 20 y 30 minutos de caminata suave mantienen el cuerpo activo y favorecen la recuperación entre las sesiones de tren superior de los primeros dos días y las que vienen después. El descanso activo mejora el flujo sanguíneo a los músculos trabajados sin añadir fatiga, lo que ayuda a llegar al día 4 en mejores condiciones.",
+      },
+      {
+        heading: "Día 4 — Hombros y core",
+        body: "El cuarto día se centra en el empuje vertical y el trabajo del centro. Press de hombro bilateral, 4 series de 10; elevaciones laterales, 3 de 15; elevaciones frontales, 3 de 12; press Arnold, 3 de 10; plancha, 3 de 45 segundos; y crunch con mancuerna, 3 de 15. Las elevaciones laterales y frontales, con su alto número de repeticiones y peso ligero, complementan el trabajo pesado de press para desarrollar el hombro de forma completa en sus distintos ángulos.",
+      },
+      {
+        heading: "Día 5 — Piernas y glúteos",
+        body: "El quinto día trabaja el tren inferior al completo. Sentadilla goblet, 4 series de 12; zancada alternada, 3 de 10 por pierna; peso muerto rumano, 4 de 10; sentadilla búlgara, 3 de 8 por pierna; y hip thrust con mancuerna, 3 de 15. El tren inferior es donde antes se queda corta una mancuerna de peso fijo, porque las piernas son fuertes: aquí es donde unas mancuernas ajustables como las LULLAX NEO36 muestran su valor, al permitir cargar lo suficiente para que el estímulo siga siendo efectivo.",
+        productSlug: "lullax-neo36-mancuernas-ajustables",
+      },
+      {
+        heading: "Días 6 y 7 — Descanso",
+        body: "El fin de semana es de recuperación completa. Tras cuatro días de trabajo de fuerza y uno de descanso activo, el cuerpo necesita dos días sin estímulo para completar la adaptación y reponer el sistema nervioso, no solo los músculos. Resistir la tentación de entrenar estos días es parte del programa: el músculo crece durante el descanso, y encadenar sesiones sin pausa produce estancamiento antes que progreso.",
+      },
+    ],
+    plan: [
+      {
+        week: "Semanas 1-2: Adaptación",
+        description: "Aprende la técnica de cada ejercicio. Elige el peso con el que completas las series sin llegar al fallo absoluto.",
+        sessions: [
+          "Día 1: Pecho y tríceps — press suelo 3×10, apertura 3×12, extensión tríceps 3×12, fondos silla 3×10",
+          "Día 2: Espalda y bíceps — remo unilateral 3×10, curl martillo 3×12, curl bíceps 3×10",
+          "Día 3: Descanso activo",
+          "Día 4: Hombros y core — press hombro 3×10, laterales 3×15, plancha 3×40 s",
+          "Día 5: Piernas — goblet squat 3×12, zancada 3×10, peso muerto rumano 3×10",
+          "Días 6-7: Descanso",
+        ],
+      },
+      {
+        week: "Semanas 3-4: Volumen",
+        description: "Añade una serie a cada ejercicio y aumenta el peso si completaste las series de las semanas anteriores.",
+        sessions: [
+          "Día 1: Pecho y tríceps — press suelo 4×10, apertura 4×12, press Arnold 3×10, fondos silla 4×10",
+          "Día 2: Espalda y bíceps — remo unilateral 4×10, remo bilateral 3×12, curl martillo 4×12, curl bíceps 4×10",
+          "Día 3: Descanso activo",
+          "Día 4: Hombros y core — press hombro 4×10, laterales 3×15, frontales 3×12, plancha 3×45 s, crunch 3×15",
+          "Día 5: Piernas — goblet squat 4×12, zancada 4×10, peso muerto rumano 4×10, sentadilla búlgara 3×8, hip thrust 3×15",
+          "Días 6-7: Descanso",
+        ],
+      },
+    ],
+    conclusion: "Con esta rutina y un par de mancuernas tienes un programa de entrenamiento completo que puede acompañarte durante meses. La clave es la progresión: añadir carga o repeticiones semana a semana es lo que produce las adaptaciones. Sin progresión, el cuerpo se estanca por muy bien diseñada que esté la rutina.",
+    faqs: [
+      { q: "¿Puedo hacer esta rutina si solo tengo un par de mancuernas de peso fijo?", a: "Sí, con adaptaciones. Si el peso resulta bajo para algunos ejercicios, sobre todo los de pierna, añade repeticiones o reduce el descanso para mantener el estímulo suficiente. Las mancuernas ajustables, como las LULLAX NEO36, resuelven este problema de raíz al permitir cambiar el peso en segundos según lo que pida cada ejercicio." },
+      { q: "¿Es necesario un banco de pesas para esta rutina?", a: "No. El press de pecho se hace en el suelo, en la variante llamada press de suelo, que además protege el hombro al limitar el rango en el punto de mayor tensión. El remo inclinado se puede hacer apoyado en el sofá o en una silla. La rutina está diseñada precisamente para no depender de un banco, que ocupa espacio y encarece el equipamiento." },
+      { q: "¿Cuánto tiempo dura cada sesión?", a: "Entre 35 y 50 minutos, según los descansos y la velocidad de ejecución. Con descansos de 60 segundos, las sesiones de los días de tren superior rondan los 40 minutos, mientras que las de piernas, con más ejercicios compuestos y descansos algo más largos, pueden llegar a los 50. Es un tiempo perfectamente compatible con una rutina diaria ocupada." },
+      { q: "¿Cuándo debo aumentar el peso?", a: "Cuando completas todas las series y repeticiones indicadas con la última repetición limpia pero desafiante, ni fácil ni al fallo. Si terminas las series con claramente más margen, sube el peso. Si no llegas a las repeticiones indicadas con buena técnica, bájalo. Esa autorregulación sesión a sesión es lo que mantiene la progresión sin lesiones." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {

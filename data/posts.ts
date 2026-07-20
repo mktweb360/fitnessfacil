@@ -241,6 +241,74 @@ export const posts: Post[] = [
     readTime: "9 min",
     relatedProducts: ["merach-bicicleta-estatica-app-136kg", "sportstech-x150-ergometro-plegable"],
   },
+  {
+    slug: "mancuernas-ajustables-vs-fijas",
+    title: "Mancuernas ajustables vs fijas: cuál comprar para casa",
+    excerpt:
+      "Comparativa honesta entre mancuernas ajustables y fijas para entrenar en casa: espacio, precio, durabilidad y para quién conviene cada una.",
+    date: "2025-07-13",
+    category: "Fuerza",
+    readTime: "8 min",
+    relatedProducts: [
+      "lullax-neo36-mancuernas-ajustables",
+      "maniboom-mancuernas-hexagonales-15kg",
+      "fokky-bandas-elasticas-set-4-tpe",
+    ],
+  },
+  {
+    slug: "lullax-neo36-analisis-opinion",
+    title: "LULLAX NEO36 mancuernas ajustables: análisis y opiniones 2025",
+    excerpt:
+      "Análisis completo de las LULLAX NEO36: qué ofrecen, para quién son la compra correcta y cómo se comparan con otras mancuernas ajustables del mercado.",
+    date: "2025-07-14",
+    category: "Fuerza",
+    readTime: "9 min",
+    relatedProducts: ["lullax-neo36-mancuernas-ajustables", "maniboom-mancuernas-hexagonales-15kg"],
+  },
+  {
+    slug: "kettlebell-para-empezar-peso",
+    title: "Kettlebell para principiantes: qué peso elegir y cómo empezar",
+    excerpt:
+      "Guía completa para empezar con kettlebell: qué peso elegir según sexo y objetivo, los ejercicios básicos y por qué la kettlebell es diferente a las mancuernas.",
+    date: "2025-07-15",
+    category: "Fuerza",
+    readTime: "8 min",
+    relatedProducts: ["jowy-kettlebell-pvc-16kg", "lullax-neo36-mancuernas-ajustables"],
+  },
+  {
+    slug: "bandas-elasticas-musculacion-guia",
+    title: "Bandas elásticas para musculación: guía completa 2025",
+    excerpt:
+      "Guía completa sobre bandas elásticas para musculación: tipos, ejercicios, niveles de resistencia y cómo elegir las mejores para entrenar en casa.",
+    date: "2025-07-16",
+    category: "Fuerza",
+    readTime: "7 min",
+    relatedProducts: ["fokky-bandas-elasticas-set-4-tpe", "jowy-kettlebell-pvc-16kg"],
+  },
+  {
+    slug: "entrenamiento-fuerza-casa-equipamiento-minimo",
+    title: "Entrenamiento de fuerza en casa con equipamiento mínimo",
+    excerpt:
+      "Cómo montar un home gym eficaz con menos de 100€: qué equipamiento necesitas realmente, qué es prescindible y cómo estructurar el entrenamiento.",
+    date: "2025-07-17",
+    category: "Fuerza",
+    readTime: "8 min",
+    relatedProducts: [
+      "maniboom-mancuernas-hexagonales-15kg",
+      "fokky-bandas-elasticas-set-4-tpe",
+      "jowy-kettlebell-pvc-16kg",
+    ],
+  },
+  {
+    slug: "rutina-mancuernas-casa-semana",
+    title: "Rutina de mancuernas en casa: plan semanal completo",
+    excerpt:
+      "Plan semanal completo de entrenamiento con mancuernas en casa: rutina de 4 días, ejercicios por grupo muscular, series y repeticiones para principiantes e intermedios.",
+    date: "2025-07-18",
+    category: "Fuerza",
+    readTime: "9 min",
+    relatedProducts: ["lullax-neo36-mancuernas-ajustables", "maniboom-mancuernas-hexagonales-15kg"],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
