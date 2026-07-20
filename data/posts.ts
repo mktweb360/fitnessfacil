@@ -22,9 +22,9 @@ export const posts: Post[] = [
   },
   {
     slug: "bicicleta-estatica-o-eliptica",
-    title: "Bicicleta estática o elíptica: cuál es mejor para perder peso",
+    title: "Tipos de bicicleta estática para casa: cuál elegir según tu espacio",
     excerpt:
-      "Comparativa completa entre bicicleta estática y elíptica. Cuál quema más calorías, cuál es más silenciosa y cuál deberías comprar.",
+      "Bicicleta vertical, ergómetro plegable o mini bici de escritorio: los tres tipos comparados para que aciertes con el que encaja contigo.",
     date: "2025-05-08",
     category: "Cardio",
     readTime: "9 min",
