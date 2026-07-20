@@ -404,7 +404,7 @@ export default async function BlogPostPage({ params }: Props) {
     publisher: {
       "@type": "Organization",
       name: "FitnessFácil.es",
-      logo: { "@type": "ImageObject", url: "https://www.fitnessfacil.es/favicon.ico" },
+      logo: { "@type": "ImageObject", url: "https://www.fitnessfacil.es/logo.png", width: 200, height: 200 },
     },
   };
 
