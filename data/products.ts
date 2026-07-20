@@ -23,35 +23,35 @@ export const categories = [
     name: "Cintas de correr",
     description: "Las mejores cintas de correr para entrenar en casa a cualquier hora",
     icon: "🏃",
-    priceRange: "299€ — 1.299€",
+    priceRange: "349€ — 399€",
   },
   {
     slug: "bicicletas-estaticas",
     name: "Bicicletas estáticas",
     description: "Bicicletas estáticas y de spinning para cardio en casa sin ruido",
     icon: "🚴",
-    priceRange: "199€ — 799€",
+    priceRange: "119€ — 249€",
   },
   {
     slug: "pesas-mancuernas",
     name: "Pesas y mancuernas",
     description: "Mancuernas, kettlebells y pesas para entrenamiento de fuerza",
     icon: "🏋️",
-    priceRange: "29€ — 299€",
+    priceRange: "12€ — 349€",
   },
   {
     slug: "esterillas-yoga",
     name: "Esterillas y yoga",
     description: "Esterillas de yoga y pilates para entrenar cómodo en cualquier superficie",
     icon: "🧘",
-    priceRange: "19€ — 89€",
+    priceRange: "27€ — 29€",
   },
   {
     slug: "suplementos-proteinas",
     name: "Suplementos y proteínas",
     description: "Proteínas, creatina y suplementos deportivos para mejorar resultados",
     icon: "💊",
-    priceRange: "19€ — 59€",
+    priceRange: "18€ — 54€",
   },
 ];
 
@@ -90,6 +90,7 @@ export const products: Product[] = [
     cons: ["Velocidad máxima inferior al R2", "No apta para corredores avanzados"],
     specs: { "Velocidad andar": "0,5-6 km/h", "Velocidad correr": "0,5-10 km/h", "Potencia": "918 W", "Montaje": "Sin montaje", "Plegado": "180°" },
   },
+  // BICICLETAS ESTÁTICAS
   {
     slug: "sportstech-x100c-bicicleta-cuerdas",
     name: "Sportstech X100-C Bicicleta Estática Plegable + LCD + Cuerdas de Fuerza",
@@ -107,7 +108,6 @@ export const products: Product[] = [
     specs: { "Tipo": "Bicicleta estática plegable", "Display": "LCD", "Extras": "Cuerdas de fuerza", "Transporte": "Ruedas incluidas" },
   },
 
-  // BICICLETAS ESTÁTICAS
   {
     slug: "sportstech-x150-ergometro-plegable",
     name: "Sportstech X150 Ergómetro Bicicleta Estática Plegable 8 Niveles",
@@ -209,6 +209,23 @@ export const products: Product[] = [
     cons: ["Más grande que kettlebells de hierro del mismo peso", "No apta para competición"],
     specs: { "Peso": "16 kg", "Material": "PVC + arena de acero", "Mango": "Ergonómico antideslizante", "Marca": "Española JOWY" },
   },
+  {
+    slug: "fokky-bandas-elasticas-set-4-tpe",
+    name: "Fokky Bandas Elásticas Musculación Set 4 piezas TPE 1.8m sin látex",
+    asin: "B0DD7KJXG3",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "€12,99",
+    priceMin: 12,
+    rating: 4.5,
+    reviewCount: 8900,
+    shortDescription: "Set 4 bandas elásticas Fokky de TPE sin látex, 1.8m, 4 niveles de resistencia. Top 12 en deportes en Amazon España.",
+    fullDescription: "Las Fokky son las bandas elásticas más vendidas en Amazon España. Set de 4 bandas de TPE sin látex, ideales para personas con alergia. 4 niveles de resistencia (amarillo 3.6-4.5kg, rojo 6.8-9kg, azul 11.3-13.6kg, púrpura 13.6-15.9kg). Incluye bolsa de transporte. Válidas para yoga, pilates, crossfit, musculación y fisioterapia.",
+    pros: ["Top 12 en deportes en Amazon España", "Sin látex para personas con alergia", "4 niveles de resistencia bien diferenciados", "Incluye bolsa de transporte", "Material TPE muy elástico y resistente al desgarro"],
+    cons: ["No son bandas largas para dominadas", "Resistencia máxima limitada para avanzados"],
+    specs: { "Piezas": "4", "Longitud": "1.8 m", "Material": "TPE sin látex", "Niveles": "4 (amarillo/rojo/azul/púrpura)", "Bolsa": "Incluida" },
+    badge: "Más vendidas",
+  },
 
   // ESTERILLAS Y YOGA
   {
@@ -243,23 +260,6 @@ export const products: Product[] = [
     pros: ["Doble capa TPE con textura antideslizante patentada", "6mm de grosor para máxima comodidad", "Sin PVC, látex ni químicos tóxicos", "Ideal para yoga con sudor intenso", "Correa de hombro incluida"],
     cons: ["Más gruesa puede ser incómoda para algunos estilos de yoga", "Precio ligeramente superior a opciones básicas"],
     specs: { "Medidas": "183 x 61 cm", "Grosor": "6 mm", "Material": "TPE doble capa", "Antideslizante": "Patentada ambos lados", "Sin": "PVC, látex, tóxicos" },
-  },
-  {
-    slug: "fokky-bandas-elasticas-set-4-tpe",
-    name: "Fokky Bandas Elásticas Musculación Set 4 piezas TPE 1.8m sin látex",
-    asin: "B0DD7KJXG3",
-    categorySlug: "esterillas-yoga",
-    categoryName: "Esterillas y yoga",
-    price: "€12,99",
-    priceMin: 12,
-    rating: 4.5,
-    reviewCount: 8900,
-    shortDescription: "Set 4 bandas elásticas Fokky de TPE sin látex, 1.8m, 4 niveles de resistencia. Top 12 en deportes en Amazon España.",
-    fullDescription: "Las Fokky son las bandas elásticas más vendidas en Amazon España. Set de 4 bandas de TPE sin látex, ideales para personas con alergia. 4 niveles de resistencia (amarillo 3.6-4.5kg, rojo 6.8-9kg, azul 11.3-13.6kg, púrpura 13.6-15.9kg). Incluye bolsa de transporte. Válidas para yoga, pilates, crossfit, musculación y fisioterapia.",
-    pros: ["Top 12 en deportes en Amazon España", "Sin látex para personas con alergia", "4 niveles de resistencia bien diferenciados", "Incluye bolsa de transporte", "Material TPE muy elástico y resistente al desgarro"],
-    cons: ["No son bandas largas para dominadas", "Resistencia máxima limitada para avanzados"],
-    specs: { "Piezas": "4", "Longitud": "1.8 m", "Material": "TPE sin látex", "Niveles": "4 (amarillo/rojo/azul/púrpura)", "Bolsa": "Incluida" },
-    badge: "Más vendidas",
   },
 
   // SUPLEMENTOS Y PROTEÍNAS

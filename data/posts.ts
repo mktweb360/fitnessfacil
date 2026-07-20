@@ -43,9 +43,9 @@ export const posts: Post[] = [
     category: "Entrenamiento",
     readTime: "12 min",
     relatedProducts: [
-      "fokky-bandas-elasticas-set-4-tpe",
       "toplus-esterilla-yoga-tpe-6mm",
       "la-mente-es-maravillosa-esterilla-tpe",
+      "fokky-bandas-elasticas-set-4-tpe",
     ],
   },
   {
@@ -87,7 +87,6 @@ export const posts: Post[] = [
     relatedProducts: [
       "la-mente-es-maravillosa-esterilla-tpe",
       "toplus-esterilla-yoga-tpe-6mm",
-      "fokky-bandas-elasticas-set-4-tpe",
     ],
   },
   {
