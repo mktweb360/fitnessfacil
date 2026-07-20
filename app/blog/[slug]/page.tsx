@@ -1486,6 +1486,260 @@ const articleContent: Record<string, {
       { q: "¿Es mejor el yoga hot para adelgazar?", a: "El yoga hot (en sala calentada a 38-40 °C) quema algo más de calorías por la mayor temperatura y el sudor. Pero la mayor parte de la diferencia es pérdida de agua, no de grasa. Para personas sanas sin contraindicaciones puede ser una opción válida; no es adecuado para embarazadas, personas con problemas cardiovasculares o hipotensión." },
     ],
   },
+
+  "on-gold-standard-whey-analisis": {
+    intro: "El Gold Standard Whey de Optimum Nutrition lleva más de tres décadas siendo la proteína de referencia mundial. No es el precio — hay proteínas más baratas. No es la proteína por servicio — hay fórmulas con cifras más altas en el etiquetado. Es la consistencia: sabor que disuelve sin grumos, calidad auditada y certificación antidopaje que justifican su precio a quien tiene criterio.",
+    sections: [
+      {
+        heading: "Qué contiene realmente",
+        body: "El Gold Standard es una mezcla de concentrado y aislado de suero con el aislado como ingrediente principal, lo que sitúa la calidad de la fuente proteica por encima de un concentrado puro. Aporta 24 g de proteína por servicio y 5,5 g de BCAAs naturales. Cuenta además con certificación Informed Choice, un análisis independiente que verifica la ausencia de sustancias prohibidas en el deporte de competición.",
+      },
+      {
+        heading: "Por qué se disuelve sin grumos",
+        body: "La textura es uno de los argumentos más mencionados por los usuarios. El procesado de ON elimina más sólidos no proteicos que la mayoría de concentrados estándar, lo que produce una solución más limpia al mezclarlo con agua. Para quien ha probado proteínas baratas que dejan grumos o textura arenosa, la diferencia es notable.",
+      },
+      {
+        heading: "El bote de 2,26kg: análisis del formato",
+        body: "El formato grande de 2,26 kg equivale a 73 servicios de 30 g. A 54,99 €, el coste por servicio es de unos 0,75 €. El bote grande compensa si el hábito ya está consolidado y se consume de forma regular, porque el coste por servicio baja frente a los formatos pequeños.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+      {
+        heading: "ON Gold Standard vs Myprotein Impact Whey: cuál elegir",
+        body: "El Gold Standard aporta certificación antidopaje (Informed Choice), un bote grande de 2,26 kg y mejor textura al mezclarse. La Myprotein Impact Whey es más barata por kilo y su formato de 1 kg supone menos compromiso si se empieza. Para quien compite en federación o valora la certificación, ON; para quien empieza o prioriza el coste, Myprotein.",
+        productSlug: "myprotein-impact-whey-1kg-galletas",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "ON Gold Standard 2,26kg", "Myprotein Impact 1kg"],
+      rows: [
+        ["Precio", "54,99 €", "20,00 €"],
+        ["Proteína/servicio", "24g", "21g"],
+        ["Servicios", "73", "40"],
+        ["Coste/servicio", "≈0,75 €", "≈0,50 €"],
+        ["Tipo de whey", "Concentrado + aislado", "Concentrado"],
+        ["Certificación antidopaje", "Informed Choice", "No especificada"],
+        ["Mejor para", "Calidad y certificación", "Mejor precio por servicio"],
+      ],
+    },
+    conclusion: "El Gold Standard es la proteína para quien ya tiene claro que va a suplementarse regularmente y quiere la mejor combinación de calidad, textura y certificación del mercado. Si estás empezando o el precio es el criterio principal, Myprotein Impact Whey entrega calidad suficiente por mucho menos.",
+    faqs: [
+      { q: "¿El Gold Standard Whey engorda?", a: "No por sí solo. Es proteína en polvo: 1 g aporta 4 kcal como cualquier otro alimento. Integrada en una dieta equilibrada no engorda; si la añades por encima de las calorías que necesitas, sumará como cualquier otro alimento." },
+      { q: "¿La certificación Informed Choice es importante?", a: "Solo si practicas deporte de competición bajo normas antidopaje. Para uso recreativo, la certificación no cambia el rendimiento ni la calidad de la proteína. Para un atleta federado, puede marcar la diferencia entre una sanción y no tenerla." },
+      { q: "¿El sabor Doble Chocolate es el mejor?", a: "Es el más vendido del mundo en proteínas, lo que da una indicación de que funciona para la mayoría. Pero el gusto es subjetivo. Si puedes, prueba el formato pequeño de otro sabor antes de comprar el bote grande." },
+      { q: "¿Cuántos batidos da el bote de 2,26kg?", a: "73 servicios de 30 g. Con un batido diario, el bote dura aproximadamente 2,5 meses." },
+    ],
+  },
+
+  "proteina-whey-antes-despues-entreno": {
+    intro: "La pregunta de cuándo tomar la proteína whey ha generado más debate del que merece. La evidencia actual es clara: el momento importa mucho menos de lo que el marketing deportivo ha hecho creer. Lo que importa es la ingesta total del día.",
+    sections: [
+      {
+        heading: "El mito de la ventana anabólica de 30 minutos",
+        body: "Durante años se creyó que había una ventana de 30 minutos post-entrenamiento donde la proteína se absorbía de forma óptima. La investigación posterior ha demostrado que esa ventana es mucho más amplia: el efecto dura varias horas. Tomar el batido 2 horas después de entrenar produce prácticamente el mismo resultado que tomarlo inmediatamente.",
+      },
+      {
+        heading: "Lo que sí importa: la distribución proteica del día",
+        body: "La evidencia sí muestra beneficio en distribuir la proteína en 3-4 tomas a lo largo del día en lugar de consumirla toda en una comida. El músculo puede sintetizar proteína de forma más eficiente con aportes distribuidos (20-40 g por toma) que con una única ingesta grande concentrada en un solo momento.",
+      },
+      {
+        heading: "Cuándo tomar el batido: recomendación práctica",
+        body: "El mejor momento para tomar el batido es aquel en el que es más probable que lo hagas de forma consistente. Para la mayoría, eso significa después del entrenamiento (por costumbre y practicidad) o como snack entre comidas si no llegas a tu objetivo proteico con la dieta. Una whey de calidad como el Gold Standard cumple igual de bien en cualquiera de esos momentos.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+      {
+        heading: "Proteína antes de dormir: ¿tiene sentido?",
+        body: "Algunos estudios muestran que tomar proteína antes de dormir puede mejorar la síntesis muscular nocturna. La caseína (proteína de digestión lenta) tiene ventaja teórica aquí sobre el whey. Para uso práctico: si no llegas a tu ingesta proteica diaria, tomar el batido antes de dormir es mejor que no tomarlo, y una opción económica como la Impact Whey lo hace más sostenible.",
+        productSlug: "myprotein-impact-whey-1kg-galletas",
+      },
+    ],
+    comparison: {
+      headers: ["Momento", "Evidencia", "Recomendación práctica"],
+      rows: [
+        ["Inmediatamente post-entreno", "Moderada — ventana más amplia de lo creído", "Práctico y conveniente, no imprescindible"],
+        ["1-2 horas post-entreno", "Igual de efectivo", "Perfectamente válido"],
+        ["Entre comidas", "Ayuda a distribuir la ingesta diaria", "Muy recomendable si no llegas con dieta"],
+        ["Antes de dormir", "Moderada para caseína", "Válido si falta ingesta diaria"],
+      ],
+    },
+    conclusion: "Toma la proteína cuando puedas hacerlo de forma consistente. La ventana anabólica existe pero es amplia. Lo único que demuestra impacto real en la síntesis muscular es llegar a tu objetivo proteico diario (1,6-2,2 g/kg). El momento exacto es un detalle menor comparado con la regularidad.",
+    faqs: [
+      { q: "¿Se puede tomar proteína whey sin entrenar?", a: "Sí. La proteína whey es simplemente proteína en polvo y se puede consumir cualquier día para completar la ingesta proteica diaria, independientemente de si has entrenado. No tiene ningún efecto negativo en días de descanso." },
+      { q: "¿La proteína whey se puede mezclar con leche en lugar de agua?", a: "Sí, y el sabor mejora notablemente con leche. A cambio, añade calorías y lactosa. Para intolerantes, mejor con agua o bebida vegetal sin lactosa." },
+      { q: "¿Cuánto tiempo dura la proteína whey abierta?", a: "La mayoría de fabricantes recomienda consumirla en 3-6 meses tras abrir. Guárdala en un lugar fresco y seco, bien cerrada. La humedad es el mayor enemigo del polvo de proteína." },
+      { q: "¿La proteína whey produce acné?", a: "Algunos estudios sugieren una posible relación entre el consumo de proteína láctea y el acné en personas predispuestas, por el efecto insulinotrópico del suero. Si notas un empeoramiento del acné coincidiendo con el inicio de la suplementación, consulta con un dermatólogo." },
+    ],
+  },
+
+  "creatina-monohidrato-guia-completa": {
+    intro: "La creatina monohidrato es el suplemento deportivo con más respaldo científico de todos los existentes. Centenares de estudios publicados, uso documentado durante décadas, y recomendación sin reservas de la mayoría de organismos científicos del ámbito deportivo. Esta guía explica todo lo que necesitas saber para empezar.",
+    sections: [
+      {
+        heading: "Cómo funciona la creatina en el músculo",
+        body: "La creatina se almacena en el músculo como fosfocreatina, que actúa como reserva rápida de energía (ATP) para esfuerzos máximos de 5 a 30 segundos: una serie de sentadillas, un sprint, un salto. La suplementación satura esas reservas por encima del nivel que se alcanza con la dieta, lo que se traduce en poder hacer 1-2 repeticiones más por serie o mantener más potencia en el último sprint.",
+      },
+      {
+        heading: "Protocolo de toma: con carga vs sin carga",
+        body: "Con carga (20 g al día repartidos en 4 tomas durante 5-7 días, y luego 3-5 g diarios de mantenimiento) se saturan los depósitos en una semana, pero puede causar molestias digestivas. Sin carga (3-5 g al día desde el inicio) se alcanza el mismo nivel de saturación en 3-4 semanas sin efectos digestivos. Para la mayoría, el protocolo sin carga es más cómodo y produce el mismo resultado final.",
+      },
+      {
+        heading: "Myprotein Creatina Monohidrato: análisis",
+        body: "La Myprotein Creatina Monohidrato es monohidrato 100% puro sin sabor, con 83 servicios de 3 g por 18,99 €, lo que supone un coste mensual de unos 7 €. Se mezcla en cualquier bebida sin alterar el sabor. Es la forma de creatina con más estudios detrás y la más eficaz por precio.",
+        productSlug: "myprotein-creatina-monohidrato-250g",
+      },
+      {
+        heading: "Creatina + proteína: cómo combinarlas",
+        body: "La creatina mejora el rendimiento durante el entrenamiento; la proteína aporta el material con el que el músculo se reconstruye. Se complementan sin interferirse. La forma más práctica de tomarlas es mezclar los 3 g de creatina directamente en el batido de proteína post-entrenamiento.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+    ],
+    comparison: {
+      headers: ["Variante de creatina", "Evidencia", "Precio relativo", "Veredicto"],
+      rows: [
+        ["Monohidrato", "Muy alta — centenares de estudios", "Bajo", "La única necesaria"],
+        ["HCL", "Limitada", "Alto", "No justifica el precio"],
+        ["Buffered Kre-Alkalyn", "Limitada", "Alto", "No justifica el precio"],
+        ["Micronizada", "Similar al monohidrato", "Ligeramente mayor", "Se disuelve mejor pero mismo efecto"],
+      ],
+    },
+    conclusion: "La creatina monohidrato pura es todo lo que necesitas. Las variantes más caras (HCL, buffered) no han demostrado ventajas superiores al monohidrato en estudios de calidad. 3-5 g diarios de forma constante, sin ciclar, es el protocolo más efectivo y seguro.",
+    faqs: [
+      { q: "¿La creatina es segura para los riñones?", a: "En personas sanas, los estudios a largo plazo no han encontrado daño renal con la suplementación de creatina. Si tienes una patología renal previa, consulta con tu médico antes de suplementarte." },
+      { q: "¿Hay que ciclar la creatina?", a: "No existe evidencia que respalde la necesidad de hacer ciclos o descansos. Se puede tomar de forma continua. Interrumpirla solo significa perder la saturación muscular y tardar semanas en recuperarla." },
+      { q: "¿La creatina retiene líquidos?", a: "Produce retención de agua intramuscular (dentro del músculo), no subcutánea. Eso puede suponer 1-2 kg de peso en los primeros días, pero el efecto visual es de músculo más lleno, no de hinchazón bajo la piel." },
+      { q: "¿La creatina funciona en mujeres?", a: "Sí, con los mismos beneficios documentados que en hombres. El perfil hormonal diferente hace que las mujeres no experimenten el mismo aumento de volumen muscular, pero los beneficios de rendimiento (más fuerza, mejor recuperación) son equivalentes." },
+    ],
+  },
+
+  "myprotein-impact-whey-opinion": {
+    intro: "La Myprotein Impact Whey democratizó la proteína de calidad en España. Por 20 € el kilo ofrece 21 g de proteína por servicio, baja en grasa y carbohidratos, con una variedad de sabores muy amplia. Esta guía analiza qué hay detrás del precio y si la calidad justifica la popularidad.",
+    sections: [
+      {
+        heading: "21g de proteína por servicio: qué significa",
+        body: "La Impact Whey es un concentrado de suero, lo que significa que ronda el 70-80% de proteína en composición. La diferencia con un aislado (90% o más) es que conserva algo más de lactosa y grasa. Para la mayoría de personas es indiferente; los intolerantes a la lactosa pueden notar algo más la digestión.",
+      },
+      {
+        heading: "El precio: cómo se compara con el mercado",
+        body: "A 20 € el kilo, la Impact Whey es de las proteínas de calidad verificada más económicas disponibles en España. Por ese precio tienes 40 servicios de 21 g. Las marcas premium en el mismo formato suelen costar el doble, lo que explica buena parte de su popularidad entre quienes empiezan.",
+      },
+      {
+        heading: "El sabor galletas y crema: por qué es el más vendido",
+        body: "Entre los usuarios de Myprotein, el sabor galletas y crema es consistentemente uno de los más valorados. Se mezcla bien tanto con agua como con leche. Para quien no tiene mucha experiencia con proteínas, es una entrada fácil sin el sabor artificial que tienen algunas marcas.",
+        productSlug: "myprotein-impact-whey-1kg-galletas",
+      },
+      {
+        heading: "Impact Whey vs ON Gold Standard: cuál elegir",
+        body: "Myprotein gana en precio por servicio (0,50 € frente a 0,75 €) y en variedad de sabores. ON gana en certificación antidopaje (Informed Choice), en un bote de mayor capacidad y en la textura al mezclarse. Para principiantes o quienes priorizan el precio, Myprotein; para uso avanzado o con motivaciones de certificación, ON.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Myprotein Impact 1kg", "ON Gold Standard 2,26kg"],
+      rows: [
+        ["Precio", "20,00 €", "54,99 €"],
+        ["Proteína/servicio", "21g", "24g"],
+        ["Coste/servicio", "≈0,50 €", "≈0,75 €"],
+        ["Tipo", "Concentrado", "Concentrado + aislado"],
+        ["Certificación", "No especificada", "Informed Choice"],
+        ["Variedad sabores", "Muy amplia", "Moderada"],
+        ["Mejor para", "Empezar, máximo ahorro", "Calidad premium y certificación"],
+      ],
+    },
+    conclusion: "La Myprotein Impact Whey es la mejor opción relación calidad-precio del mercado español para quien empieza a suplementarse o prioriza el coste. Si buscas certificación antidopaje o el mejor perfil de textura, el Gold Standard de ON justifica pagar más.",
+    faqs: [
+      { q: "¿La Myprotein Impact Whey tiene lactosa?", a: "Sí, al ser un concentrado conserva algo de lactosa. Si tienes intolerancia significativa, puede causarte molestias digestivas. Myprotein ofrece versiones sin lactosa en su catálogo. La cantidad es menor que en un vaso de leche, así que la tolerancia varía por persona." },
+      { q: "¿Myprotein es una marca de confianza?", a: "Sí. Es una de las marcas de nutrición deportiva más grandes de Europa, con fábricas propias en el Reino Unido y certificaciones de calidad. No tiene la antigüedad de ON pero sí un track record sólido." },
+      { q: "¿Se puede comprar Myprotein en España?", a: "Sí, disponible en Amazon España con entrega rápida, además de su propia web con frecuentes promociones y descuentos." },
+      { q: "¿La Impact Whey sirve si no entreno de forma intensa?", a: "Sí. Es proteína en polvo, no un estimulante ni un quemador de grasa. Si no llegas a tu ingesta proteica diaria con la dieta, la whey la complementa perfectamente independientemente de la intensidad del entrenamiento." },
+    ],
+  },
+
+  "suplementos-fitness-casa-necesarios": {
+    intro: "El mercado de suplementos está lleno de productos que prometen más de lo que pueden cumplir. Esta guía separa lo que tiene respaldo científico de lo que es principalmente marketing, y establece el orden correcto de prioridades para alguien que entrena en casa.",
+    sections: [
+      {
+        heading: "Nivel 0: lo que importa antes que cualquier suplemento",
+        body: "Antes de gastar un euro en suplementos, tres cosas mandan: dormir 7-9 horas, una alimentación equilibrada con suficiente proteína, y constancia en el entrenamiento. Si alguno de estos tres falla, ningún suplemento compensará la diferencia. Los suplementos son el 5% del resultado — el resto es esta base.",
+      },
+      {
+        heading: "Nivel 1 — creatina: el único suplemento con evidencia sólida para fuerza",
+        body: "La creatina es el suplemento con mayor respaldo científico para mejorar el rendimiento en fuerza y potencia. Es barata, segura y efectiva. Si solo vas a tomar un suplemento, que sea este: el retorno por euro invertido no lo iguala ningún otro producto.",
+        productSlug: "myprotein-creatina-monohidrato-250g",
+      },
+      {
+        heading: "Nivel 2 — proteína whey: útil si no llegas con la dieta",
+        body: "La proteína whey no es mágica: es simplemente proteína en polvo. Solo tiene sentido si no llegas a tu objetivo proteico diario (1,6-2,2 g/kg) con la dieta. Si ya lo cubres con la comida, la whey no aporta nada adicional. Como opción de calidad tienes el ON Gold Standard, y como opción económica la Myprotein Impact Whey.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+      {
+        heading: "La whey económica para completar la proteína diaria",
+        body: "Si el objetivo es simplemente llegar a la ingesta proteica sin gastar de más, la Myprotein Impact Whey cumple sobradamente por 20 € el kilo. Cualquier whey de calidad sirve para este propósito; lo que determina el resultado no es la marca, sino llegar al total de proteína del día.",
+        productSlug: "myprotein-impact-whey-1kg-galletas",
+      },
+      {
+        heading: "Nivel 3 — todo lo demás: leer con escepticismo",
+        body: "El resto del mercado exige escepticismo. Los quemadores de grasa tienen evidencia débil y riesgos potenciales; los pre-entrenos funcionan por la cafeína, mientras que el resto de sus ingredientes tiene evidencia débil; los BCAAs son innecesarios si consumes suficiente proteína completa; y la glutamina carece de evidencia para usuarios recreativos. Mucho gasto para muy poco retorno.",
+      },
+    ],
+    comparison: {
+      headers: ["Suplemento", "Evidencia", "Para quién", "Prioridad"],
+      rows: [
+        ["Creatina monohidrato", "Muy alta", "Quien entrena fuerza o potencia", "1ª"],
+        ["Proteína whey", "Alta si déficit proteico", "Quien no llega a 1,6g/kg con dieta", "2ª"],
+        ["Cafeína", "Alta para rendimiento", "Quien tolera bien la cafeína", "Opcional"],
+        ["BCAAs", "Baja si ingesta proteica suficiente", "Generalmente innecesarios", "No recomendado"],
+        ["Quemadores de grasa", "Muy baja", "Nadie sin supervisión médica", "No recomendado"],
+      ],
+    },
+    conclusion: "Para la mayoría de personas que entrenan en casa, creatina + proteína whey (si la dieta no cubre la proteína) es todo lo que necesitan. Empezar por la creatina. Añadir la whey solo si hay un déficit proteico real. Todo lo demás es opcional en el mejor caso e inútil en el peor.",
+    faqs: [
+      { q: "¿Los suplementos son peligrosos?", a: "Los suplementos básicos (creatina, proteína whey) son seguros para personas sanas con las dosis recomendadas y respaldo científico sólido. Otros productos (quemadores de grasa, pre-entrenos complejos) tienen evidencia mucho más débil y potenciales efectos secundarios. Consulta siempre con tu médico si tienes alguna patología." },
+      { q: "¿A qué edad se pueden tomar suplementos?", a: "La proteína whey y la creatina no tienen restricciones de edad formales para adultos. Para menores de 18 años, consulta siempre con un médico o nutricionista antes de suplementarse." },
+      { q: "¿Cuánto me voy a gastar en suplementos al mes?", a: "Con creatina Myprotein (≈7 €/mes) más proteína whey Impact (≈10-15 €/mes si consumes una toma diaria), el coste total es de 17-22 € mensuales. Es un presupuesto muy razonable para los dos suplementos con mayor respaldo científico." },
+      { q: "¿Los suplementos sustituyen a una buena dieta?", a: "No. Los suplementos son complementos, no sustitutos. Una dieta equilibrada con suficiente proteína produce prácticamente los mismos resultados que la misma dieta más suplementos en principiantes. El margen de mejora que añaden los suplementos es real pero modesto." },
+    ],
+  },
+
+  "proteina-vegana-vs-whey": {
+    intro: "La proteína vegana ha mejorado notablemente en los últimos años. Ya no es solo una alternativa para veganos — tiene argumentos propios que la hacen interesante para cualquier persona. Esta guía compara ambas de forma honesta, sin el sesgo de la dieta de moda.",
+    sections: [
+      {
+        heading: "El perfil de aminoácidos: la diferencia clave",
+        body: "La proteína whey tiene un perfil completo de aminoácidos esenciales con alta concentración de leucina, el aminoácido que más activa la síntesis proteica muscular. La mayoría de proteínas vegetales son deficientes en uno o más aminoácidos esenciales. La excepción importante es la mezcla de guisante y arroz, que tiene un perfil bastante completo y es la referencia de la proteína vegana para deportistas.",
+      },
+      {
+        heading: "Digestión y tolerancia",
+        body: "La whey se digiere rápido (absorción en 1-2 horas), lo que la hace ideal post-entrenamiento, aunque puede causar molestias en intolerantes a la lactosa (concentrado) o sensibles a la proteína láctea. Las proteínas vegetales suelen digerirse más despacio y generalmente tienen mejor tolerancia digestiva; algunas personas con sensibilidad a los lácteos notan mejora al cambiar a proteína vegana.",
+      },
+      {
+        heading: "Precio: whey sigue siendo más barata",
+        body: "La proteína vegana de calidad suele costar entre un 20 y un 50% más que la whey de calidad equivalente. La Impact Whey de Myprotein a 20 € el kilo es difícil de igualar en precio para proteínas vegetales de similar calidad, lo que sigue siendo un factor decisivo para muchos.",
+        productSlug: "myprotein-impact-whey-1kg-galletas",
+      },
+      {
+        heading: "¿Cuándo tiene sentido la proteína vegana?",
+        body: "La proteína vegana tiene sentido para veganos y vegetarianos (que no tienen alternativa), para personas con intolerancia a la lactosa o sensibilidad a las proteínas lácteas, y para quienes prefieren reducir el consumo de productos animales por razones éticas o medioambientales. Para el resto, una whey como el Gold Standard sigue siendo más eficiente y económica.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Proteína whey", "Proteína vegana (guisante+arroz)"],
+      rows: [
+        ["Perfil aminoácidos", "Completo, rica en leucina", "Bastante completo en mezcla"],
+        ["Digestión", "Rápida", "Más lenta"],
+        ["Lactosa", "Sí (concentrado)", "No"],
+        ["Precio típico", "Bajo", "Medio-alto"],
+        ["Respaldo científico", "Muy alto", "Alto y creciente"],
+        ["Mejor para", "Mayoría de deportistas", "Veganos, intolerantes, preferencia ética"],
+      ],
+    },
+    conclusion: "La whey sigue siendo la opción más eficiente y económica para la mayoría de personas. La proteína vegana de calidad (mezcla guisante + arroz) es una alternativa completamente válida para veganos, intolerantes a la lactosa o quienes prefieren reducir el consumo animal, aunque a mayor precio. No es la dieta lo que determina los resultados — es la ingesta total de proteína diaria.",
+    faqs: [
+      { q: "¿La proteína de guisante es completa?", a: "El guisante solo es deficiente en metionina. Por eso la proteína vegana de calidad combina guisante con arroz (rico en metionina), obteniendo un perfil más completo. La soja también tiene un perfil bastante completo por sí sola." },
+      { q: "¿La proteína vegana produce los mismos resultados que la whey?", a: "Cuando la ingesta total de proteína y calorías es equivalente, los estudios recientes muestran diferencias mínimas en ganancia muscular entre whey y proteína de guisante. La diferencia práctica es pequeña si se consigue el objetivo proteico diario." },
+      { q: "¿La proteína vegana tiene peor sabor?", a: "Históricamente sí. Las formulaciones actuales han mejorado mucho, pero en general la whey sigue siendo más fácil de hacer palatable. Los sabores de fruta y vainilla suelen funcionar mejor en proteínas vegetales que el chocolate." },
+      { q: "¿Se puede mezclar proteína whey con proteína vegana?", a: "Sí, no hay ninguna incompatibilidad. Algunos deportistas mezclan ambas para diversificar el perfil de aminoácidos y la velocidad de digestión. No es necesario, pero tampoco contraproducente." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {

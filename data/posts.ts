@@ -369,6 +369,76 @@ export const posts: Post[] = [
     readTime: "7 min",
     relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "toplus-esterilla-yoga-tpe-6mm"],
   },
+  {
+    slug: "on-gold-standard-whey-analisis",
+    title: "Optimum Nutrition Gold Standard Whey: análisis completo 2025",
+    excerpt:
+      "Análisis detallado del Gold Standard Whey de Optimum Nutrition: qué lo hace el más vendido del mundo, para quién es ideal y si justifica el precio.",
+    date: "2025-07-25",
+    category: "Nutrición",
+    readTime: "8 min",
+    relatedProducts: ["optimum-nutrition-gold-standard-whey-226kg", "myprotein-impact-whey-1kg-galletas"],
+    isSupplement: true,
+  },
+  {
+    slug: "proteina-whey-antes-despues-entreno",
+    title: "Proteína whey: cuándo tomarla y si importa el momento",
+    excerpt:
+      "Cuándo tomar la proteína whey según la evidencia: antes, durante o después del entrenamiento. Lo que dice la ciencia sobre la ventana anabólica.",
+    date: "2025-07-26",
+    category: "Nutrición",
+    readTime: "7 min",
+    relatedProducts: ["optimum-nutrition-gold-standard-whey-226kg", "myprotein-impact-whey-1kg-galletas"],
+    isSupplement: true,
+  },
+  {
+    slug: "creatina-monohidrato-guia-completa",
+    title: "Creatina monohidrato: guía completa para principiantes 2025",
+    excerpt:
+      "Todo sobre la creatina monohidrato: cómo funciona, cómo tomarla, cuándo se notan los efectos y por qué es el suplemento con más respaldo científico.",
+    date: "2025-07-27",
+    category: "Nutrición",
+    readTime: "9 min",
+    relatedProducts: ["myprotein-creatina-monohidrato-250g", "optimum-nutrition-gold-standard-whey-226kg"],
+    isSupplement: true,
+  },
+  {
+    slug: "myprotein-impact-whey-opinion",
+    title: "Myprotein Impact Whey: análisis y opiniones 2025",
+    excerpt:
+      "Análisis completo de la Myprotein Impact Whey: calidad real, sabores, comparativa con ON Gold Standard y para quién es la mejor opción.",
+    date: "2025-07-28",
+    category: "Nutrición",
+    readTime: "7 min",
+    relatedProducts: ["myprotein-impact-whey-1kg-galletas", "optimum-nutrition-gold-standard-whey-226kg"],
+    isSupplement: true,
+  },
+  {
+    slug: "suplementos-fitness-casa-necesarios",
+    title: "¿Qué suplementos necesitas realmente para entrenar en casa?",
+    excerpt:
+      "Guía honesta sobre suplementos para fitness en casa: cuáles tienen respaldo científico, cuáles son marketing y cuál es el orden correcto de prioridades.",
+    date: "2025-07-29",
+    category: "Nutrición",
+    readTime: "8 min",
+    relatedProducts: [
+      "myprotein-creatina-monohidrato-250g",
+      "optimum-nutrition-gold-standard-whey-226kg",
+      "myprotein-impact-whey-1kg-galletas",
+    ],
+    isSupplement: true,
+  },
+  {
+    slug: "proteina-vegana-vs-whey",
+    title: "Proteína vegana vs whey: diferencias reales y cuál elegir",
+    excerpt:
+      "Comparativa proteína vegana vs whey: perfil de aminoácidos, digestión, precio y cuál es mejor según tus objetivos y preferencias alimentarias.",
+    date: "2025-07-30",
+    category: "Nutrición",
+    readTime: "7 min",
+    relatedProducts: ["myprotein-impact-whey-1kg-galletas", "optimum-nutrition-gold-standard-whey-226kg"],
+    isSupplement: true,
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
