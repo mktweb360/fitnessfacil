@@ -685,6 +685,262 @@ const articleContent: Record<string, {
       { q: "¿Qué pasa después de la semana 8?", a: "El objetivo es que en la semana 8 caminar 45 minutos sea algo completamente normal, no un esfuerzo. A partir de ahí puedes mantener esa base y añadir sesiones de mayor intensidad si buscas seguir progresando, o simplemente mantener el hábito de forma indefinida si tu objetivo es la salud y no el rendimiento deportivo." },
     ],
   },
+
+  "mejor-bicicleta-estatica-casa-2025": {
+    intro: "Elegir la bicicleta estática correcta para casa no es cuestión de buscar la más barata ni la más cara: es cuestión de identificar qué problema resuelve cada modelo. Esta guía compara las tres opciones principales del mercado español en 2025, entre 119 y 249 euros, para que identifiques cuál encaja con tu espacio, tu uso y tu presupuesto.",
+    sections: [
+      {
+        heading: "Qué tipo de bicicleta estática necesitas",
+        body: "Antes de mirar precios conviene identificar tu perfil, porque cada modelo resuelve un problema distinto y comprar el equivocado es la causa más frecuente de que la bicicleta acabe arrinconada. Hay tres perfiles claros. Si quieres entrenar de verdad y registrar tu progresión, la MERACH con app es tu opción. Si tu limitación es el espacio y necesitas guardarla entre sesiones, el Sportstech X150, un ergómetro plegable, resuelve eso. Y si lo que buscas es moverte sin interrumpir el trabajo, el Sportstech DFX70, una mini bicicleta de escritorio, juega en otra categoría por 119 euros. Identifica el tuyo y la comparativa se simplifica sola.",
+      },
+      {
+        heading: "MERACH — para resultados serios",
+        body: "Es la opción más completa del catálogo y la única pensada para entrenar de verdad. Su resistencia magnética es prácticamente silenciosa, lo que permite usarla a cualquier hora, y su app propia registra cada sesión para que veas la progresión semana a semana, uno de los factores que más ayuda a no abandonar en las primeras semanas. El monitor LED muestra velocidad, distancia, tiempo y calorías sin necesidad del teléfono, soporta hasta 136 kg (la carga más alta del catálogo) y el asiento acolchado hace cómodas las sesiones largas. Su única pega frente a las otras es que no se pliega: necesita un sitio fijo.",
+        productSlug: "merach-bicicleta-estatica-app-136kg",
+      },
+      {
+        heading: "Sportstech X150 — para espacios pequeños",
+        body: "El X150 es un ergómetro plegable, y ahí está toda su razón de ser: se guarda cuando no se usa. Ofrece 8 niveles de resistencia magnética, suficientes para progresar durante bastante tiempo en un uso doméstico, funcionamiento silencioso y el respaldo de una marca alemana con recorrido, lo que aporta cierta garantía de repuestos. Cuesta 35 euros menos que la MERACH y su gran ventaja es precisamente la que la MERACH no tiene: si vives en un piso donde una bicicleta fija permanente no es viable, esta es la categoría que necesitas. A cambio renuncias a la conectividad con app.",
+        productSlug: "sportstech-x150-ergometro-plegable",
+      },
+      {
+        heading: "Sportstech X100-C — con cuerdas de fuerza",
+        body: "El X100-C es el más original de los tres y el más económico a 199 euros. Es una bicicleta plegable con display LCD, pero su diferencial son las cuerdas de fuerza incluidas, que permiten trabajar el tren superior mientras pedaleas. No sustituyen a unas mancuernas para un trabajo de fuerza serio, pero añaden activación de brazos y hombros durante el cardio, útil para quien quiere aprovechar una sesión corta al máximo. Es la opción con más accesorios por menos dinero: cardio, algo de fuerza y plegado, todo en un solo aparato.",
+        productSlug: "sportstech-x100c-bicicleta-cuerdas",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "MERACH", "X150 Ergómetro", "X100-C"],
+      rows: [
+        ["Precio", "249,00 €", "214,00 €", "199,00 €"],
+        ["Plegable", "No", "Sí", "Sí"],
+        ["App", "Sí — app propia", "No", "No"],
+        ["Resistencia", "Magnética", "Magnética 8 niveles", "Magnética"],
+        ["Carga máx.", "136 kg", "Consultar ficha", "Consultar ficha"],
+        ["Cuerdas de fuerza", "No", "No", "Sí"],
+        ["Mejor para", "Entrenar con seguimiento", "Espacio limitado", "Cardio + tren superior"],
+      ],
+    },
+    conclusion: "No hay una bicicleta mejor que las demás en absoluto: hay una mejor para cada perfil. Si el espacio no es un problema y vas a entrenar con regularidad, la MERACH es la compra correcta. Si necesitas guardarla, el X150 resuelve eso sin sacrificar demasiado. Y si buscas el precio más bajo con el mayor número de accesorios, el X100-C con cuerdas cubre ambas cosas.",
+    faqs: [
+      { q: "¿Cuántas calorías quema una bicicleta estática en 30 minutos?", a: "A intensidad moderada, una persona de unos 75 kg quema aproximadamente entre 200 y 250 kcal en 30 minutos. A intensidad alta puede superar las 300 kcal. Conviene tomar estas cifras como orientativas: los contadores de la consola suelen sobreestimar, porque no conocen el peso real ni la frecuencia cardíaca del usuario." },
+      { q: "¿Es mejor la bicicleta estática o la cinta de correr para adelgazar?", a: "A igualdad de intensidad, la cinta quema algo más porque implica soportar el peso corporal. Pero la bicicleta tiene menos impacto articular, hace menos ruido y ocupa menos, factores que la hacen más sostenible para mucha gente. El mejor aparato para adelgazar es el que vas a usar de forma constante durante meses, no el que quema más calorías en teoría." },
+      { q: "¿Cuánto ruido hace una bicicleta estática magnética?", a: "Muy poco. La resistencia magnética no genera fricción física entre piezas, así que el sonido dominante es el del pedaleo y el de la transmisión. Permite ver la televisión a volumen normal o mantener una conversación mientras pedaleas, y es notablemente más silenciosa que una cinta de correr." },
+      { q: "¿Merece la pena la conectividad con app en una bicicleta estática?", a: "Depende de si eres del tipo de persona que mira los datos de entrenamiento. Si el seguimiento de la progresión te motiva, la app marca la diferencia en la constancia, sobre todo al principio. Si sabes que no vas a abrirla, no pagues por ella: un modelo sin app entrena exactamente igual." },
+    ],
+  },
+
+  "sportstech-x100c-analisis": {
+    intro: "La Sportstech X100-C es la bicicleta estática más original del catálogo: incluye cuerdas de fuerza para trabajar el tren superior mientras pedaleas, algo que ninguna otra bicicleta doméstica en su rango de precio ofrece. Esta guía analiza si ese diferencial realmente aporta valor o es solo un reclamo de marketing.",
+    sections: [
+      {
+        heading: "Qué incluye y cómo funciona",
+        body: "El X100-C es una bicicleta plegable con resistencia magnética y un display LCD que muestra velocidad, distancia, tiempo y calorías. Incorpora ruedas de transporte para moverla con facilidad y, como elemento diferencial, unas cuerdas de fuerza con asas que permiten trabajar bíceps, hombros y espalda mientras se pedalea. Su propuesta de valor es combinar cardio y algo de trabajo de fuerza en un solo aparato, para quien quiere aprovechar al máximo una sesión corta sin comprar equipamiento adicional.",
+      },
+      {
+        heading: "Las cuerdas de fuerza: ¿realmente funcionan?",
+        body: "Con honestidad: para un entrenamiento de fuerza serio, no. Las cuerdas no ofrecen la resistencia progresiva de unas mancuernas ni el rango de movimiento que exige la hipertrofia, así que quien busque construir músculo no lo conseguirá con ellas. Pero para añadir activación del tren superior durante el cardio, o para personas que quieren tocar varios grupos musculares en una única sesión corta, sí aportan valor real. La clave es entender qué son: un complemento del cardio, no un sustituto de las pesas. Con esa expectativa, cumplen; con la de reemplazar un entrenamiento de fuerza, decepcionan.",
+      },
+      {
+        heading: "Para quién es ideal",
+        body: "El X100-C encaja con tres perfiles concretos. Primero, quien quiere el máximo de accesorios por el menor precio posible: a 199 euros es la bicicleta más equipada de su rango. Segundo, quien busca una solución completa en un único aparato para sesiones de 30-40 minutos, sin llenar la casa de material. Y tercero, quien tiene poco tiempo y quiere combinar cardio con algo de trabajo de brazos en la misma sesión. Si te reconoces en alguno de los tres, es una compra sensata.",
+        productSlug: "sportstech-x100c-bicicleta-cuerdas",
+      },
+      {
+        heading: "Comparativa con el X150 ergómetro",
+        body: "El X150 es 15 euros más caro y no incluye cuerdas de fuerza. A cambio, como ergómetro plegable tiene un diseño más orientado al cardio puro y, probablemente, una experiencia de pedaleo más refinada para ese uso concreto. La decisión es sencilla: si solo quieres cardio y valoras la postura del ergómetro, el X150; si quieres el pack completo con cuerdas y el precio más bajo, el X100-C. No es que uno sea mejor, es que responden a prioridades distintas.",
+        productSlug: "sportstech-x150-ergometro-plegable",
+      },
+    ],
+    comparison: {
+      headers: ["Característica", "Sportstech X100-C", "Sportstech X150"],
+      rows: [
+        ["Precio", "199,00 €", "214,00 €"],
+        ["Tipo", "Bicicleta plegable", "Ergómetro plegable"],
+        ["Cuerdas de fuerza", "Sí", "No"],
+        ["Display", "LCD", "Consola básica"],
+        ["Marca", "Alemana", "Alemana"],
+        ["Mejor para", "Cardio + tren superior", "Cardio puro compacto"],
+      ],
+    },
+    conclusion: "La Sportstech X100-C es una compra interesante si valoras el pack completo: cardio, algo de trabajo de brazos y precio contenido en un aparato plegable. Si buscas la bicicleta más efectiva para cardio puro sin extras, el X150 ergómetro es la opción más específica para eso. Y si quieres conectividad con app y el mejor seguimiento, la MERACH es el siguiente escalón.",
+    faqs: [
+      { q: "¿La Sportstech X100-C aguanta usuarios de mucho peso?", a: "Sportstech no publica la carga máxima del X100-C de forma destacada en su ficha. Conviene consultarlo con el vendedor antes de comprar si superas los 100 kg, ya que usar cualquier bicicleta cerca de su límite de carga acelera el desgaste de la estructura." },
+      { q: "¿Las cuerdas de la X100-C son suficientes para tonificar los brazos?", a: "Para una tonificación básica y activación, sí. Para un trabajo de fuerza progresivo y crecimiento muscular real, no: la resistencia no es ajustable con la precisión necesaria. Su función es complementar el cardio, no sustituir un entrenamiento de fuerza con pesas." },
+      { q: "¿La Sportstech X100-C es silenciosa?", a: "Sí. La resistencia magnética es inherentemente silenciosa, y el único ruido que genera es el del pedaleo y la transmisión, no el del sistema de resistencia. Es perfectamente compatible con ver la televisión o trabajar en la misma habitación mientras alguien pedalea." },
+      { q: "¿Cada cuánto hay que hacer mantenimiento a una bicicleta estática doméstica?", a: "Las bicicletas de resistencia magnética requieren poco mantenimiento: basta con limpiar el sillín y el cuadro con regularidad y verificar que los tornillos estén apretados cada pocas semanas. A diferencia de las de fricción, no tienen cable de tensión ni zapatas que se desgasten con el uso." },
+    ],
+  },
+
+  "merach-bicicleta-estatica-analisis": {
+    intro: "La MERACH es la bicicleta estática más completa del catálogo por precio. Su propuesta es clara: resistencia magnética silenciosa, app con seguimiento de entrenamiento, soporte para tablet y 136 kg de carga máxima. Esta guía analiza qué significa cada característica en la práctica y para quién es la compra correcta.",
+    sections: [
+      {
+        heading: "La app de MERACH: qué ofrece realmente",
+        body: "La app registra velocidad, distancia, tiempo, calorías y cadencia, permite seguir la evolución de cada sesión e incluye modos de entrenamiento preconfigurados. Conviene ser honesto: no es de las apps más pulidas del mercado, con interfaces menos refinadas que las de marcas premium. Pero hace bien su función principal, que es registrar la progresión para que veas cómo mejoras semana a semana. Y ese registro no es un adorno: la evidencia sobre adherencia al ejercicio señala que ver el propio avance es uno de los factores que más sostiene la constancia durante las primeras semanas, que es justo cuando más gente abandona.",
+      },
+      {
+        heading: "136 kg de carga máxima: por qué importa",
+        body: "La mayoría de las bicicletas domésticas declaran entre 100 y 110 kg de carga máxima. Los 136 kg de la MERACH amplían el rango de usuarios que pueden usarla con seguridad, algo relevante para personas de mayor peso que a menudo se quedan fuera de las especificaciones de los modelos económicos. Pero el dato importa incluso si pesas mucho menos: una carga máxima más alta suele ser indicador de una construcción más robusta en general, con un cuadro y unos apoyos dimensionados con más margen, lo que se traduce en mayor estabilidad y durabilidad.",
+      },
+      {
+        heading: "Silencio y uso en piso",
+        body: "La resistencia magnética de la MERACH no genera fricción entre piezas, así que el ruido dominante durante el uso es el de los pedales y el de la transmisión por correa, ambos muy contenidos. En la práctica esto significa que es perfectamente compatible con ver la televisión, atender videollamadas o entrenar a cualquier hora sin molestar a nadie en casa ni a los vecinos. Para quien vive en un piso, este silencio es a menudo la diferencia entre usar la bicicleta con regularidad o dejarla aparcada por no querer generar ruido.",
+        productSlug: "merach-bicicleta-estatica-app-136kg",
+      },
+      {
+        heading: "MERACH frente a Sportstech X150: cuál elegir",
+        body: "La MERACH tiene app con seguimiento, mayor carga máxima declarada y un asiento pensado para sesiones largas. El X150, en cambio, se pliega, que es exactamente lo que la MERACH no hace. La decisión se reduce al espacio: si tienes un sitio donde dejar la bicicleta fija, la MERACH entrega más prestaciones por 35 euros más. Si necesitas guardarla entre sesiones porque el espacio no da para tenerla siempre montada, el X150 resuelve ese problema y la MERACH deja de ser opción por muy completa que sea.",
+        productSlug: "sportstech-x150-ergometro-plegable",
+      },
+    ],
+    comparison: {
+      headers: ["Característica", "MERACH", "Sportstech X150"],
+      rows: [
+        ["Precio", "249,00 €", "214,00 €"],
+        ["Plegable", "No", "Sí"],
+        ["App con seguimiento", "Sí", "No"],
+        ["Carga máxima", "136 kg", "Consultar ficha"],
+        ["Silencio", "Magnética silenciosa", "Magnética silenciosa"],
+        ["Mejor para", "Entrenar con progresión", "Guardar entre sesiones"],
+      ],
+    },
+    conclusion: "La MERACH es la bicicleta correcta si vas a entrenar con regularidad, quieres registrar tu progresión y tienes espacio para dejarla fija. Si el espacio es tu limitación principal, el X150 resuelve ese problema por 35 euros menos. Y si buscas el precio más bajo posible con algún extra, el X100-C es la tercera opción. Cada una resuelve un problema distinto.",
+    faqs: [
+      { q: "¿Cuánto espacio ocupa la MERACH bicicleta estática?", a: "La MERACH no es plegable, así que el espacio que ocupa es su huella real de uso permanente. Conviene consultar las dimensiones exactas en la ficha de Amazon antes de comprar y medirlas en tu espacio, asegurándote de dejar hueco para montar y bajar de la bicicleta con comodidad." },
+      { q: "¿La MERACH funciona sin la app?", a: "Sí. El monitor LED incorporado muestra velocidad, distancia, tiempo y calorías de forma autónoma, sin necesidad de conectar el teléfono. La app añade el seguimiento histórico y los programas de entrenamiento, pero no es imprescindible para usar la bicicleta con normalidad." },
+      { q: "¿Cada cuánto hay que ajustar el sillín de la MERACH?", a: "El sillín se ajusta según el usuario, así que hay que revisarlo antes de cada sesión si la bicicleta la comparten varias personas. La altura correcta es aquella en la que la rodilla queda ligeramente flexionada en el punto más bajo del pedaleo; una altura incorrecta puede generar molestias en las rodillas a medio plazo." },
+      { q: "¿La MERACH aguanta sesiones largas de más de una hora?", a: "Sí. Su asiento acolchado y la robustez de la estructura están pensados para ese uso. Las resistencias magnéticas no se calientan ni se degradan con el uso prolongado como las de fricción, así que no hay ninguna limitación técnica para sesiones largas más allá de tu propia resistencia." },
+    ],
+  },
+
+  "mini-bicicleta-escritorio-trabajar": {
+    intro: "La mini bicicleta de escritorio no es una bicicleta estática y no pretende serlo. Es un pedalier: un bloque de pedales que se coloca bajo la mesa para mover las piernas mientras se trabaja sentado o de pie. Su propuesta de valor es concreta, combatir el sedentarismo de horas sentado, y tiene un límite igual de claro: no sustituye a una sesión de cardio.",
+    sections: [
+      {
+        heading: "Para qué sirve realmente una mini bicicleta de escritorio",
+        body: "Su función principal es romper el sedentarismo continuo, ese que se acumula en jornadas de ocho horas sin apenas levantarse. Aporta una quema calórica modesta durante las horas de trabajo y ayuda a mejorar la circulación en las piernas, contrarrestando la sensación de piernas cargadas al final del día. Lo que no hace, y conviene tenerlo claro antes de comprar, es servir para perder peso de forma significativa ni para mejorar el rendimiento cardiovascular: para eso hace falta una intensidad que un pedalier bajo la mesa, pensado para pasar desapercibido mientras trabajas, no permite alcanzar.",
+      },
+      {
+        heading: "Sportstech DFX70: análisis",
+        body: "El DFX70 ofrece 8 niveles de resistencia magnética, funcionamiento silencioso, asa integrada y ruedas de transporte, con transmisión por correa. Por 119 euros es la opción más económica para empezar a mover las piernas durante la jornada laboral, y su diseño es compatible con una silla estándar y un escritorio normal, sin necesidad de mobiliario especial. Es la puerta de entrada al escritorio activo para quien quiere probar el concepto sin una gran inversión, y su bajo perfil permite guardarlo en cualquier rincón cuando no se usa.",
+        productSlug: "sportstech-dfx70-mini-bicicleta-escritorio",
+      },
+      {
+        heading: "¿Se puede usar de pie con un escritorio elevable?",
+        body: "Sí, pero hay que tener en cuenta el ángulo de pedaleo. Con el escritorio a la altura de pie estándar, el ángulo de la cadera mientras pedaleas puede resultar incómodo, porque el gesto de pedalear de pie es distinto al de hacerlo sentado. Funciona mejor con escritorios ligeramente más altos, o con la persona de pie y las piernas algo separadas para acomodar el movimiento. Antes de asumir que lo usarás de pie, conviene probar la postura, porque para la mayoría de la gente el pedalier rinde mejor en posición sentada.",
+      },
+      {
+        heading: "Mini bicicleta frente a cinta bajo escritorio: cuál elegir",
+        body: "Son dos soluciones al mismo problema con enfoques opuestos. La cinta permite trabajar caminando de pie, lo que es más natural desde el punto de vista ergonómico y más activo, con mayor gasto calórico. El pedalier permite seguir sentado, que para algunas personas y ciertos tipos de trabajo resulta más compatible con la tarea. La cinta genera más actividad pero cuesta más y ocupa más; el pedalier es más discreto, más silencioso y mucho más barato. La elección depende de si tu trabajo y tu cuerpo llevan mejor estar de pie caminando o sentado pedaleando.",
+        productSlug: "sportstech-x100c-bicicleta-cuerdas",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "DFX70 mini bicicleta", "Cinta bajo escritorio"],
+      rows: [
+        ["Precio", "119,00 €", "349-399 €"],
+        ["Posición de uso", "Sentado o de pie", "De pie"],
+        ["Gasto calórico", "Bajo-moderado", "Moderado"],
+        ["Ruido", "Muy bajo", "Bajo"],
+        ["Ergonomía", "Requiere ajuste", "Más natural de pie"],
+        ["Ocupa espacio", "Mínimo", "Más"],
+      ],
+    },
+    conclusion: "La mini bicicleta de escritorio es la solución más económica y discreta para romper el sedentarismo durante la jornada laboral. No es un sustituto del ejercicio real, pero si trabajas ocho horas sentado, añadir 2 o 3 horas de pedaleo suave mejora la circulación y suma calorías de forma pasiva. Si quieres más actividad y puedes trabajar de pie, una cinta bajo el escritorio es más efectiva, aunque más cara y más grande.",
+    faqs: [
+      { q: "¿Sirve realmente la mini bicicleta de escritorio para perder peso?", a: "Contribuye de forma modesta. Pedalear suave durante dos horas quema aproximadamente entre 100 y 150 kcal, según el peso y la resistencia. No es una cifra que cambie la composición corporal por sí sola, pero combinada con una dieta razonable sí suma a lo largo del tiempo, sobre todo si partes de una actividad muy baja." },
+      { q: "¿Molesta la mini bicicleta a los compañeros si trabajo en oficina?", a: "La transmisión por correa y la resistencia magnética hacen que el DFX70 sea muy silencioso. En una oficina abierta, el sonido es prácticamente imperceptible a más de un metro de distancia, así que no debería suponer una molestia para quienes trabajan cerca." },
+      { q: "¿Se puede usar la mini bicicleta con cualquier silla?", a: "Sí, siempre que la altura de la silla permita un ángulo de rodilla cómodo al pedalear. Las sillas muy bajas pueden generar molestias en las rodillas. La posición ideal es con las rodillas a unos 90 grados cuando los pedales están en el punto medio del recorrido." },
+      { q: "¿Cuánto tiempo al día se recomienda usar la mini bicicleta?", a: "No hay un límite establecido. Muchas personas la usan de forma intermitente durante toda la jornada, parando cuando necesitan concentración máxima y reanudando en tareas más rutinarias. Lo razonable es empezar con 30-60 minutos y observar cómo responden tus piernas y caderas antes de aumentar." },
+    ],
+  },
+
+  "ergometro-vs-bicicleta-estatica": {
+    intro: "Ergómetro y bicicleta estática se usan a menudo como sinónimos, pero no son lo mismo. La diferencia no es solo de nombre: afecta a la postura, a los músculos trabajados y a la experiencia de pedaleo. Esta guía explica qué es cada uno y cuándo elegir uno sobre el otro según tu objetivo y tu estado físico.",
+    sections: [
+      {
+        heading: "Qué es un ergómetro",
+        body: "El ergómetro, también llamado bicicleta reclinada o semirreclinada, tiene la postura más tumbada de las dos: el respaldo va más hacia atrás y los pedales quedan más adelantados respecto al cuerpo, en lugar de justo debajo. Esa geometría reduce la carga sobre la zona lumbar y el cuello, lo que lo hace especialmente recomendable para personas con dolores de espalda o que buscan una sesión de cardio más relajada y confortable. En cuanto a la musculatura, la potencia se genera más desde los glúteos y algo menos desde los cuádriceps que en una bicicleta vertical.",
+      },
+      {
+        heading: "Qué es una bicicleta estática vertical",
+        body: "La bicicleta estática clásica tiene una postura más erguida, similar a la de una bicicleta de carretera, con el sillín encima de los pedales. Esa posición activa más los cuádriceps y el core para mantener la estabilidad, y permite alcanzar mayor intensidad por la propia mecánica del gesto. Por eso la vertical es la opción más adecuada para el entrenamiento cardiovascular serio y para quien quiera acercarse a la experiencia del spinning, donde la inclinación hacia adelante es parte del ejercicio.",
+      },
+      {
+        heading: "Sportstech X150: el ergómetro plegable",
+        body: "El X150 es la representación de ergómetro en el catálogo: 8 niveles de resistencia magnética, plegable y con el respaldo de una marca alemana. Es la opción para quien busca hacer cardio con el menor estrés lumbar posible y, además, necesita poder guardar el aparato entre sesiones. Combina las dos ventajas del formato ergómetro (postura cómoda y menor carga en la espalda) con la practicidad del plegado, un conjunto poco habitual en su rango de precio.",
+        productSlug: "sportstech-x150-ergometro-plegable",
+      },
+      {
+        heading: "MERACH: la bicicleta estática vertical con app",
+        body: "La MERACH representa el formato vertical: postura erguida, app con seguimiento de la progresión y 136 kg de carga máxima. Es la elección para quien busca un cardio más intenso y quiere registrar su evolución sesión a sesión, aprovechando que la postura vertical permite exigirse más. A cambio no se pliega, así que requiere un espacio fijo. Para quien prioriza la intensidad y el seguimiento sobre la comodidad postural, es la opción más completa.",
+        productSlug: "merach-bicicleta-estatica-app-136kg",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Ergómetro (X150)", "Bicicleta vertical (MERACH)"],
+      rows: [
+        ["Precio", "214,00 €", "249,00 €"],
+        ["Postura", "Semirreclinada", "Erguida"],
+        ["Músculos principales", "Glúteos y cuádriceps", "Cuádriceps y core"],
+        ["Estrés lumbar", "Bajo", "Moderado"],
+        ["Plegable", "Sí", "No"],
+        ["App", "No", "Sí"],
+        ["Mejor para", "Espalda sensible", "Cardio intenso con seguimiento"],
+      ],
+    },
+    conclusion: "Si tienes la espalda sensible o buscas una sesión de cardio más relajada y confortable, el ergómetro X150 es la elección correcta. Si quieres entrenar con mayor intensidad, registrar tu progresión con app y tienes espacio para una bicicleta fija, la MERACH es la opción más completa.",
+    faqs: [
+      { q: "¿El ergómetro trabaja lo mismo que la bicicleta estática?", a: "Trabaja los mismos músculos principales, pero con un énfasis diferente. El ergómetro activa más los glúteos por la postura reclinada; la bicicleta vertical activa más los cuádriceps por la postura erguida. El gasto calórico es similar a igual intensidad, así que la elección va más por comodidad y objetivo que por eficacia." },
+      { q: "¿Es el ergómetro mejor para personas con problemas de rodilla?", a: "La postura más reclinada reduce algo el ángulo de flexión de la rodilla, lo que puede resultar más cómodo para algunas personas. Pero la recomendación depende del tipo concreto de lesión, así que conviene consultar con tu médico o fisioterapeuta antes de elegir, en lugar de asumir que siempre es la mejor opción." },
+      { q: "¿Se puede hacer spinning en un ergómetro?", a: "No en el sentido clásico. El spinning requiere la postura inclinada hacia adelante y la capacidad de ponerse de pie sobre los pedales, algo que un ergómetro, por su geometría reclinada, no permite. Para hacer spinning en casa necesitas una bicicleta vertical o una específica de spinning." },
+      { q: "¿El ergómetro Sportstech X150 es fácil de montar?", a: "Los ergómetros plegables suelen requerir un montaje inicial de unos 30-45 minutos siguiendo las instrucciones. Una vez montado, el plegado y desplegado del día a día es rápido. Sportstech incluye las instrucciones y el hardware necesario, así que no hace falta comprar nada aparte para el montaje." },
+    ],
+  },
+
+  "bicicleta-estatica-adelgazar-resultados": {
+    intro: "La bicicleta estática puede ser una herramienta eficaz para adelgazar, pero sus resultados dependen de cómo se use. Esta guía explica qué dice la evidencia sobre las calorías que quema, qué frecuencia e intensidad son necesarias para ver resultados reales, y qué errores comunes bloquean el progreso.",
+    sections: [
+      {
+        heading: "Cuántas calorías quema la bicicleta estática",
+        body: "A intensidad moderada, entendida como el 65-75 % de la frecuencia cardíaca máxima, una persona de 75 kg quema entre 400 y 500 kcal por hora. A intensidad alta, en torno al 80-85 %, puede superar las 600 kcal por hora. Traducido a sesiones reales, que rara vez duran una hora completa: en 30 minutos hablamos de 200-300 kcal a intensidad moderada y de 300-400 kcal a intensidad alta. Son cifras que, acumuladas a lo largo de semanas, marcan la diferencia, aunque una sesión aislada no parezca gran cosa.",
+      },
+      {
+        heading: "Cuánto tiempo para ver resultados",
+        body: "Con 3 o 4 sesiones semanales de 30-45 minutos a intensidad moderada, las mejoras cardiovasculares se notan en 2-3 semanas: menos fatiga, mejor recuperación, más resistencia. La pérdida de peso visible, acompañada de una alimentación adecuada, suele aparecer entre la cuarta y la sexta semana. Sin ningún ajuste de la dieta, la bicicleta por sí sola produce una pérdida lenta pero real, del orden de 0,2-0,4 kg por semana en la mayoría de los casos. No es espectacular, pero es sostenible, que es lo que importa a medio plazo.",
+      },
+      {
+        heading: "El error más común: solo cardio",
+        body: "El fallo más extendido es hacer únicamente bicicleta. El entrenamiento de fuerza preserva la masa muscular durante la pérdida de peso y mantiene elevado el metabolismo basal, de modo que quien hace solo cardio puede adelgazar, pero arriesgándose a que parte de lo que pierde sea músculo, no grasa. Y perder músculo hace más difícil mantener el resultado después. La combinación de bicicleta con algo de trabajo de fuerza, aunque sea con bandas elásticas en casa, produce una composición corporal claramente mejor que el cardio aislado.",
+      },
+      {
+        heading: "MERACH para seguimiento de progresión",
+        body: "La app de la MERACH registra calorías, velocidad y distancia sesión a sesión, lo que permite ver la progresión en datos concretos. Esto importa más de lo que parece: ver la evolución reflejada en números es uno de los factores que más impacta en la constancia durante las primeras semanas, que es precisamente cuando se producen la mayoría de los abandonos. Convertir una sensación difusa de \"estoy mejorando\" en un gráfico que lo confirma ayuda a sostener el hábito el tiempo suficiente para que los resultados aparezcan.",
+        productSlug: "merach-bicicleta-estatica-app-136kg",
+      },
+      {
+        heading: "Plan de 4 semanas para empezar",
+        body: "Para arrancar sin lesiones ni abandono, conviene una progresión suave. Semanas 1 y 2: tres sesiones de 25 minutos a intensidad baja-moderada, con el objetivo de crear el hábito más que de exigirse. Semanas 3 y 4: cuatro sesiones de 35 minutos, añadiendo 5 minutos de mayor intensidad al final de cada sesión para empezar a introducir el estímulo que acelera la quema. A partir de la quinta semana, con la base ya construida, se puede subir la duración o la intensidad según cómo responda el cuerpo.",
+        productSlug: "sportstech-x150-ergometro-plegable",
+      },
+    ],
+    comparison: {
+      headers: ["Intensidad", "Calorías/hora aprox. (75 kg)", "Sensación de esfuerzo", "Para quién"],
+      rows: [
+        ["Baja", "250-350 kcal", "Puede mantener una conversación larga", "Principiantes"],
+        ["Moderada", "400-500 kcal", "Puede hablar con frases cortas", "Intermedio"],
+        ["Alta", "550-650 kcal", "Difícil hablar", "Avanzado"],
+      ],
+    },
+    conclusion: "La bicicleta estática funciona para adelgazar si se usa con regularidad, con suficiente intensidad y combinada con una alimentación razonable. No esperes resultados espectaculares en dos semanas, pero sí resultados reales y sostenibles en 4-8 semanas. El factor decisivo no es el modelo de bicicleta sino la constancia: cualquier bicicleta buena usada regularmente supera a la mejor bicicleta usada dos veces al mes.",
+    faqs: [
+      { q: "¿Cuánto tiempo en bicicleta estática para perder 1 kg?", a: "Para perder 1 kg de grasa se necesita un déficit acumulado de unas 7.700 kcal. Con sesiones de unas 400 kcal por hora y 4 sesiones semanales, se alcanza ese déficit solo con el ejercicio en 3-4 semanas. Combinado con un pequeño ajuste de la alimentación, el plazo puede reducirse a 2-3 semanas." },
+      { q: "¿Es mejor pedalear rápido o con mucha resistencia para adelgazar?", a: "Lo que determina el gasto calórico es la intensidad total, es decir, la combinación de velocidad y resistencia, no una de las dos por separado. Lo importante es mantenerse en la zona de esfuerzo adecuada: suficiente para que cueste, pero no tanto como para no poder sostener la sesión completa. Ese equilibrio es el que maximiza las calorías quemadas." },
+      { q: "¿La bicicleta estática adelgaza las piernas?", a: "La pérdida de grasa localizada no existe: el cuerpo pierde grasa de forma general, no en la zona que se trabaja. La bicicleta tonifica la musculatura de las piernas, lo que puede hacer que se vean más definidas, pero la reducción de grasa en esa zona concreta depende del déficit calórico total del cuerpo, no del ejercicio localizado." },
+      { q: "¿Cuánto tiempo al día hay que usar la bicicleta para adelgazar?", a: "Entre 30 y 45 minutos de pedaleo a intensidad moderada, 3 o 4 veces por semana, es suficiente para producir resultados. Más tiempo no es necesariamente mejor: la calidad y la consistencia de las sesiones importan más que la cantidad total de minutos, y alargar en exceso cada sesión suele llevar al abandono." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {

@@ -177,6 +177,70 @@ export const posts: Post[] = [
     readTime: "10 min",
     relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
   },
+  {
+    slug: "mejor-bicicleta-estatica-casa-2025",
+    title: "Mejor bicicleta estática para casa en 2025 — Comparativa completa",
+    excerpt:
+      "Comparativa de las mejores bicicletas estáticas para casa en 2025: MERACH, Sportstech X150 y X100-C. Guía de compra por perfil y presupuesto.",
+    date: "2025-07-07",
+    category: "Cardio",
+    readTime: "10 min",
+    relatedProducts: [
+      "merach-bicicleta-estatica-app-136kg",
+      "sportstech-x150-ergometro-plegable",
+      "sportstech-x100c-bicicleta-cuerdas",
+    ],
+  },
+  {
+    slug: "sportstech-x100c-analisis",
+    title: "Sportstech X100-C: análisis completo y opiniones 2025",
+    excerpt:
+      "Análisis honesto de la Sportstech X100-C: qué ofrece, para quién es ideal y si sus cuerdas de fuerza integradas realmente aportan valor.",
+    date: "2025-07-08",
+    category: "Cardio",
+    readTime: "8 min",
+    relatedProducts: ["sportstech-x100c-bicicleta-cuerdas", "sportstech-x150-ergometro-plegable"],
+  },
+  {
+    slug: "merach-bicicleta-estatica-analisis",
+    title: "MERACH bicicleta estática: análisis completo y opiniones 2025",
+    excerpt:
+      "Análisis detallado de la MERACH bicicleta estática con app: qué ofrece, para quién es la opción correcta y cómo se compara con otras bicis domésticas.",
+    date: "2025-07-09",
+    category: "Cardio",
+    readTime: "9 min",
+    relatedProducts: ["merach-bicicleta-estatica-app-136kg", "sportstech-x150-ergometro-plegable"],
+  },
+  {
+    slug: "mini-bicicleta-escritorio-trabajar",
+    title: "Mini bicicleta de escritorio: guía completa y análisis 2025",
+    excerpt:
+      "Todo sobre la mini bicicleta de escritorio: qué es, cómo funciona, si realmente sirve para algo y cuál comprar en 2025.",
+    date: "2025-07-10",
+    category: "Cardio",
+    readTime: "8 min",
+    relatedProducts: ["sportstech-dfx70-mini-bicicleta-escritorio", "sportstech-x100c-bicicleta-cuerdas"],
+  },
+  {
+    slug: "ergometro-vs-bicicleta-estatica",
+    title: "Ergómetro vs bicicleta estática: diferencias y cuál elegir",
+    excerpt:
+      "Diferencias reales entre ergómetro y bicicleta estática para casa: postura, músculos trabajados, espacio y cuál comprar según tu objetivo.",
+    date: "2025-07-11",
+    category: "Cardio",
+    readTime: "7 min",
+    relatedProducts: ["sportstech-x150-ergometro-plegable", "merach-bicicleta-estatica-app-136kg"],
+  },
+  {
+    slug: "bicicleta-estatica-adelgazar-resultados",
+    title: "Bicicleta estática para adelgazar: resultados reales y cuánto tiempo lleva",
+    excerpt:
+      "Cuánto se puede adelgazar con bicicleta estática, en cuánto tiempo y con qué frecuencia. Guía basada en evidencia para resultados reales.",
+    date: "2025-07-12",
+    category: "Pérdida de peso",
+    readTime: "9 min",
+    relatedProducts: ["merach-bicicleta-estatica-app-136kg", "sportstech-x150-ergometro-plegable"],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
