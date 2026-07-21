@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store
+*.pem
+.build-check.sh
+
+# TypeScript
+next-env.d.ts
+
+# pnpm
+pnpm-workspace.yaml
+pnpm-debug.log*
