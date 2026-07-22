@@ -58,7 +58,7 @@ export default function TiendaPage() {
                 </h3>
                 <p className="text-xs text-gray-500 mb-2">{cat.description}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs text-gray-400">{cat.priceRange}</span>
+                  <span className="text-xs text-gray-400">Ver categoría</span>
                   <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
                     {count} productos
                   </span>

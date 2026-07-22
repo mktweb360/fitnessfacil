@@ -62,7 +62,7 @@ export default function HomePage() {
               <h3 className="font-bold text-gray-900 text-sm group-hover:text-green-700 transition-colors leading-snug mb-1">
                 {cat.name}
               </h3>
-              <p className="text-xs text-gray-500">{cat.priceRange}</p>
+              <p className="text-xs text-gray-500">Ver categoría</p>
             </Link>
           ))}
         </div>

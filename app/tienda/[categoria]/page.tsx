@@ -111,7 +111,7 @@ export default async function CategoryPage({ params }: Props) {
           </h1>
           <p className="text-green-100 text-lg">{cat.description}</p>
           <p className="text-green-300 text-sm mt-2">
-            {catProducts.length} productos analizados · Desde {cat.priceRange.split("—")[0].trim()}
+            {catProducts.length} productos analizados
           </p>
         </div>
       </section>
