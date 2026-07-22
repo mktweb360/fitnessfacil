@@ -630,6 +630,26 @@ export const posts: Post[] = [
     ],
     isSupplement: true,
   },
+  {
+    slug: "mejor-suplemento-pre-entreno",
+    title: "¿Merece la pena el suplemento pre-entreno? Guía completa 2025",
+    excerpt:
+      "Análisis honesto de los suplementos pre-entreno: qué ingredientes funcionan de verdad, cuáles son marketing y si merece la pena gastar dinero en ellos.",
+    date: "2025-08-01",
+    category: "Nutrición",
+    readTime: "8 min",
+    relatedProducts: [
+      "myprotein-creatina-monohidrato-250g",
+      "optimum-nutrition-gold-standard-whey-226kg",
+      "myprotein-impact-whey-1kg-galletas",
+    ],
+    relatedPosts: [
+      "suplementos-fitness-casa-necesarios",
+      "creatina-monohidrato-guia-completa",
+      "proteina-whey-guia-completa",
+    ],
+    isSupplement: true,
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

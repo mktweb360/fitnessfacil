@@ -1740,6 +1740,53 @@ const articleContent: Record<string, {
       { q: "¿Se puede mezclar proteína whey con proteína vegana?", a: "Sí, no hay ninguna incompatibilidad. Algunos deportistas mezclan ambas para diversificar el perfil de aminoácidos y la velocidad de digestión. No es necesario, pero tampoco contraproducente." },
     ],
   },
+
+  "mejor-suplemento-pre-entreno": {
+    intro: "El mercado de pre-entrenos mueve cientos de millones de euros al año. Muchos productos prometen energía explosiva, fuerza sobrehumana y concentración máxima. La realidad es más simple y más barata: hay dos ingredientes con evidencia real, el resto es mezcla de cafeína y marketing. Esta guía separa lo que funciona de lo que no.",
+    sections: [
+      {
+        heading: "Los ingredientes con evidencia real",
+        body: "Solo dos ingredientes de los pre-entrenos tienen respaldo científico sólido para mejorar el rendimiento: (1) Cafeína — el estimulante más estudiado del mundo. 3-6 mg por kg de peso corporal tomados 30-60 minutos antes del entrenamiento mejoran la fuerza, la resistencia y la concentración de forma demostrada. Una taza de café espresso tiene aproximadamente 60-80 mg. Un pre-entreno típico tiene 150-300 mg. (2) Creatina monohidrato — cuando se incluye en el pre-entreno, aporta el mismo beneficio que tomarla en cualquier otro momento. Ya analizamos en detalle la creatina: es el suplemento más respaldado para fuerza y potencia.",
+        productSlug: "myprotein-creatina-monohidrato-250g",
+      },
+      {
+        heading: "Los ingredientes con evidencia débil o nula",
+        body: "Beta-alanina — produce hormigueo (parestesia) que muchos confunden con efecto. La evidencia sobre mejora real del rendimiento es mixta y los estudios positivos son en atletas de resistencia de alta intensidad, no en entrenamiento de fuerza doméstico. L-citrulina y arginina — mejora teórica del flujo sanguíneo ('pump'). Los estudios muestran efectos pequeños y variables. No justifican el precio premium de los pre-entrenos que los incluyen. BCAAs en el pre-entreno — si consumes suficiente proteína completa (whey, carne, huevos), los BCAAs adicionales no aportan nada adicional. Vitaminas del grupo B en megadosis — las vitaminas B tienen funciones esenciales en el metabolismo energético, pero tomar 10 veces la dosis diaria recomendada no produce 10 veces más energía.",
+      },
+      {
+        heading: "El pre-entreno más barato y efectivo del mercado",
+        body: "Un café expreso 30 minutos antes de entrenar + 3-5 g de creatina monohidrato mezclados en agua. Coste aproximado: 0,20 € por sesión. Evidencia: la misma que cualquier pre-entreno premium. La cafeína del café funciona igual que la del bote de pre-entreno. La creatina es creatina independientemente del envase. Lo que pagas en un pre-entreno de 40 € es principalmente el marketing, el envase, los ingredientes secundarios sin evidencia y el sabor.",
+        productSlug: "myprotein-creatina-monohidrato-250g",
+      },
+      {
+        heading: "Cuándo SÍ tiene sentido un pre-entreno comercial",
+        body: "Hay situaciones donde un pre-entreno comercial puede tener sentido: (1) Comodidad — si prefieres tomar un solo producto en lugar de preparar café + creatina por separado. (2) Entrenamiento muy temprano — si entrenas antes de poder tomar café, el pre-entreno en polvo puede ser más práctico. (3) Gusto personal — si el sabor y el ritual de preparación te motiva a entrenar, ese valor psicológico es real aunque no sea farmacológico. Lo que nunca justifica el precio: los ingredientes secundarios (beta-alanina, citrulina, vitaminas B) cuyo efecto adicional sobre cafeína + creatina es mínimo o nulo.",
+      },
+      {
+        heading: "Proteína después del entreno: lo que sí importa",
+        body: "Mientras el pre-entreno tiene impacto marginal en el rendimiento, la proteína post-entrenamiento tiene impacto real en la recuperación y la síntesis muscular. Un batido de proteína después de entrenar, con creatina mezclada, cubre las dos necesidades con evidencia real al menor coste posible.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+    ],
+    comparison: {
+      headers: ["Ingrediente", "Evidencia", "Veredicto"],
+      rows: [
+        ["Cafeína", "Muy alta", "Funciona — tómala en café si puedes"],
+        ["Creatina monohidrato", "Muy alta", "Funciona — tómala siempre, no solo pre-entreno"],
+        ["Beta-alanina", "Mixta", "Efecto marginal en resistencia, innecesario para fuerza"],
+        ["L-citrulina / Arginina", "Baja-media", "Pump cosmético, no justifica el precio"],
+        ["BCAAs", "Baja (si hay suficiente proteína)", "Innecesarios con dieta proteica suficiente"],
+        ["Vitaminas B en megadosis", "Muy baja", "Marketing — no producen más energía"],
+      ],
+    },
+    conclusion: "El mejor pre-entreno para la mayoría de personas que entrenan en casa es el más barato: café + creatina. Si quieres la comodidad de un producto único, busca uno que tenga cafeína y creatina como ingredientes principales y evita pagar de más por los rellenos sin evidencia. Y recuerda: el pre-entreno más efectivo de todos es el que te hace entrenar cuando no tienes ganas — sea cual sea.",
+    faqs: [
+      { q: "¿Es malo tomar pre-entreno todos los días?", a: "La cafeína genera tolerancia con el uso diario — necesitarás más cantidad para el mismo efecto. Se recomienda no superar 400 mg de cafeína al día (límite de seguridad para adultos sanos) y hacer descansos periódicos si consumes pre-entreno a diario. Para quienes ya toman café regularmente, el pre-entreno puede no añadir prácticamente ningún efecto estimulante." },
+      { q: "¿A qué hora es mejor tomar el pre-entreno?", a: "30-60 minutos antes del entrenamiento para la cafeína. Si entrenas por la tarde-noche, ten en cuenta que la cafeína tiene una vida media de 5-7 horas — una dosis de 200 mg tomada a las 18:00 todavía tiene 100 mg activos a las 23:00-00:00, lo que puede afectar al sueño." },
+      { q: "¿Los pre-entrenos son seguros?", a: "Los que contienen solo cafeína y creatina en dosis normales son seguros para adultos sanos. Los que incluyen estimulantes adicionales (sinefrina, DMAA — ya ilegal en Europa, yohimbina) tienen más riesgos cardiovasculares. Lee siempre la composición antes de comprar. Personas con problemas cardíacos, hipertensión o sensibilidad a la cafeína deben consultar con su médico." },
+      { q: "¿Se puede hacer pre-entreno casero?", a: "Sí y es la opción más inteligente económicamente: café espresso (60-80 mg cafeína) + 3-5 g creatina monohidrato en polvo sin sabor mezclada en agua o zumo. Coste por sesión: aproximadamente 0,20-0,30 €. Un pre-entreno comercial cuesta entre 0,80 y 2 € por toma con los mismos ingredientes activos y mucho relleno adicional." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {
