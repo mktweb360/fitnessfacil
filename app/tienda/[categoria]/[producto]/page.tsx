@@ -51,22 +51,6 @@ const categoryFaqs: Record<string, Array<{ q: string; a: string }>> = {
   ],
 };
 
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <div className="flex items-center gap-2">
-      <span className="flex">
-        {[1, 2, 3, 4, 5].map((star) => (
-          <svg key={star} className={`w-5 h-5 ${star <= Math.floor(rating) ? "text-yellow-400" : "text-gray-200"}`} fill="currentColor" viewBox="0 0 20 20">
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-          </svg>
-        ))}
-      </span>
-      <span className="font-bold text-lg">{rating.toFixed(1)}</span>
-      <span className="text-gray-500 text-sm">/ 5.0</span>
-    </div>
-  );
-}
-
 export default async function ProductPage({ params }: Props) {
   const { categoria, producto } = await params;
   const product = getProductBySlug(producto);
@@ -77,25 +61,16 @@ export default async function ProductPage({ params }: Props) {
   const faqs = categoryFaqs[categoria] ?? [];
   const link = amazonLink(product.asin);
 
+  // Product schema sin `offers` (precio) ni `aggregateRating`: el precio y las
+  // opiniones solo pueden mostrarse vía la API oficial de Amazon (Creators API).
+  // Emitir precio estático o ratings de Amazon incumple el Operating Agreement
+  // de Amazon y la política de datos estructurados de Google.
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
     description: product.shortDescription,
-    offers: {
-      "@type": "Offer",
-      price: product.priceMin,
-      priceCurrency: "EUR",
-      availability: "https://schema.org/InStock",
-      url: link,
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating,
-      reviewCount: product.reviewCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
+    sku: product.asin,
   };
 
   const faqSchema = faqs.length > 0 ? {
@@ -152,22 +127,14 @@ export default async function ProductPage({ params }: Props) {
             {product.name} — Análisis y opinión 2025
           </h1>
 
-          <div className="mb-4">
-            <StarRating rating={product.rating} />
-            <p className="text-sm text-gray-500 mt-1">
-              Basado en {product.reviewCount.toLocaleString("es-ES")} opiniones en Amazon
-            </p>
-          </div>
-
-          <p className="text-gray-700 text-lg mb-6">{product.shortDescription}</p>
+          <p className="text-gray-700 text-lg mt-2 mb-6">{product.shortDescription}</p>
 
           {product.isSupplement && <SupplementDisclaimer />}
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 bg-gray-50 rounded-xl mb-6">
             <div>
-              <p className="text-sm text-gray-500">Precio aproximado</p>
-              <p className="text-3xl font-extrabold text-gray-900">{product.price}</p>
-              <p className="text-xs text-gray-400 mt-0.5">Precio orientativo · puede variar en Amazon</p>
+              <p className="text-sm font-semibold text-gray-700">Disponible en Amazon España</p>
+              <p className="text-xs text-gray-400 mt-0.5">Consulta el precio actualizado y las opiniones en la ficha de Amazon</p>
             </div>
             <a
               href={link}
