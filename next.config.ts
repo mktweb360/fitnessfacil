@@ -27,6 +27,26 @@ const nextConfig: NextConfig = {
         destination: "/tienda/pesas-mancuernas/fokky-bandas-elasticas-set-4-tpe",
         permanent: true,
       },
+      {
+        source: "/tienda/pesas-mancuernas/bowflex-selecttech-552",
+        destination: "/tienda/pesas-mancuernas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/suplementos-proteinas/creatina-monohidrato-bulk-500g",
+        destination: "/tienda/suplementos-proteinas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/esterillas-yoga/gaiam-essentials-thick-mat",
+        destination: "/tienda/esterillas-yoga",
+        permanent: true,
+      },
+      {
+        source: "/tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey",
+        destination: "/tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey-226kg",
+        permanent: true,
+      },
     ];
   },
 };
