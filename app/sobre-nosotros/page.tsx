@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sobre nosotros — FitnessFácil.es",
   description: "Quiénes somos, cómo trabajamos y nuestra política de transparencia en afiliados y recomendaciones.",
+  alternates: { canonical: "/sobre-nosotros" },
 };
 
 export default function SobreNosotrosPage() {
