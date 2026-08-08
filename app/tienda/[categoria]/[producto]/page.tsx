@@ -14,12 +14,13 @@ export async function generateStaticParams() {
 type Props = { params: Promise<{ categoria: string; producto: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { producto } = await params;
+  const { categoria, producto } = await params;
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
     title: `${product.name} — Análisis y opinión 2025`,
     description: `${product.shortDescription} Análisis completo con pros, contras, especificaciones y precio actual en Amazon España.`,
+    alternates: { canonical: `/tienda/${categoria}/${producto}` },
   };
 }
 

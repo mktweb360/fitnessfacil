@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Blog — Guías de Fitness y Ejercicio en Casa",
   description:
     "Guías de entrenamiento, planes de pérdida de peso, análisis de equipamiento y consejos de nutrición para ponerte en forma en casa.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogPage() {

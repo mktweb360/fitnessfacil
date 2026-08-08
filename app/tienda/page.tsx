@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Tienda de Fitness — Equipamiento para Entrenar en Casa",
   description:
     "Cintas de correr, bicicletas estáticas, mancuernas, esterillas y suplementos. Todo lo que necesitas para montar tu gym en casa.",
+  alternates: { canonical: "/tienda" },
 };
 
 const collectionSchema = {

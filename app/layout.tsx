@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   description:
     "Análisis honestos de cintas de correr, bicicletas estáticas, mancuernas y suplementos. Guías de fitness para entrenar en casa sin ir al gimnasio.",
   metadataBase: new URL("https://www.fitnessfacil.es"),
-  alternates: { canonical: "https://www.fitnessfacil.es" },
   openGraph: {
     siteName: "FitnessFácil.es",
     locale: "es_ES",

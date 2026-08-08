@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "FitnessFácil — Entrena en Casa sin Salir al Gimnasio",
   description:
     "Análisis honestos de equipamiento fitness: cintas de correr, bicicletas estáticas, mancuernas y más. Guías para ponerse en forma en casa.",
+  alternates: { canonical: "https://www.fitnessfacil.es" },
 };
 
 export default function HomePage() {
