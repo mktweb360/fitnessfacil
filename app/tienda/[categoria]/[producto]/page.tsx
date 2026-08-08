@@ -26,9 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const categoryFaqs: Record<string, Array<{ q: string; a: string }>> = {
   "cintas-correr": [
-    { q: "¿Cuánto espacio necesito para una cinta de correr en casa?", a: "Para la cinta en uso necesitas la superficie de la banda más 1m por detrás (seguridad) y 0.5m por los lados. Una cinta estándar de 40x110cm necesita una zona de 150x200cm mínimo. Las plegables como la Toorx pueden guardarse en la mitad del espacio cuando no se usan." },
+    { q: "¿Cuánto espacio necesito para una cinta de correr en casa?", a: "Para la cinta en uso necesitas la superficie de la banda más 1m por detrás (seguridad) y 0.5m por los lados. Una cinta estándar de 40x110cm necesita una zona de 150x200cm mínimo. Las plegables como la WalkingPad pueden guardarse en la mitad del espacio cuando no se usan." },
     { q: "¿Cuántos CV de motor necesito para correr?", a: "Para caminata y trote suave hasta 8-10 km/h, 1.5 CV es suficiente. Para correr regularmente a 10-14 km/h, necesitas 1.75-2.0 CV. Para corredores habituales o personas de más de 90kg, 2.0+ CV garantiza mayor durabilidad del motor." },
-    { q: "¿Es muy ruidosa una cinta de correr?", a: "Depende del modelo y la velocidad. Las cintas domésticas modernas producen 60-75 dB a velocidades medias, similar a una conversación normal. El mayor ruido suele ser el impacto de las pisadas, no el motor. Las bandas con buena amortiguación (como la Reebok GT40S) reducen significativamente el impacto." },
+    { q: "¿Es muy ruidosa una cinta de correr?", a: "Depende del modelo y la velocidad. Las cintas domésticas modernas producen 60-75 dB a velocidades medias, similar a una conversación normal. El mayor ruido suele ser el impacto de las pisadas, no el motor. Las cintas con buena amortiguación reducen significativamente el impacto de las pisadas, algo especialmente importante si vives en un piso." },
   ],
   "bicicletas-estaticas": [
     { q: "¿Qué diferencia hay entre bicicleta estática y de spinning?", a: "La bicicleta estática clásica tiene volante de inercia más ligero (6-12kg), posición más vertical y suele tener pantalla con programas. La de spinning tiene volante pesado (16-25kg), posición más agresiva similar a ciclismo real y se enfoca en entrenamientos de alta intensidad sin pantalla digital." },
@@ -42,7 +42,7 @@ const categoryFaqs: Record<string, Array<{ q: string; a: string }>> = {
   ],
   "esterillas-yoga": [
     { q: "¿Qué grosor de esterilla necesito para yoga?", a: "Para yoga con muchas posturas de suelo y principiantes: 6-10mm. Para yoga más dinámico y con equilibrios: 3-5mm (mayor estabilidad). Para meditación y ejercicios suaves: 10mm+ para máximo confort. Los profesores de yoga suelen preferir 4-6mm como equilibrio entre confort y estabilidad." },
-    { q: "¿Cuánto dura una esterilla de yoga?", a: "Depende de la frecuencia de uso y el material. Las de PVC de calidad (como Manduka) duran 10+ años con uso diario. Las de NBR y TPE económicas suelen durar 2-4 años. Una buena esterilla que se limpia regularmente puede durar muchos años." },
+    { q: "¿Cuánto dura una esterilla de yoga?", a: "Depende de la frecuencia de uso y el material. Las de TPE de calidad (como la TOPLUS profesional) duran 5-8 años con uso regular. Las de NBR económicas suelen durar 2-3 años. Una buena esterilla que se limpia regularmente puede durar muchos años." },
     { q: "¿Puedo usar una esterilla de yoga para pilates y ejercicios de suelo?", a: "Sí, una esterilla de yoga sirve perfectamente para pilates, estiramientos y ejercicios de suelo. Para pilates intenso con mucho trabajo de rodillas, una esterilla más gruesa (6-10mm) es más cómoda. La diferencia principal es el grosor y la superficie antideslizante." },
   ],
   "suplementos-proteinas": [

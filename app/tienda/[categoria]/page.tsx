@@ -27,41 +27,41 @@ const buyingGuides: Record<string, { intro: string; middle: string; conclusion: 
     intro:
       "Una cinta de correr en casa elimina la excusa del tiempo o el mal tiempo para salir a correr. El mercado español ofrece opciones desde 300€ hasta más de 1.000€, con diferencias significativas en motor, superficie y características. La elección correcta depende de tu peso, velocidad habitual de carrera y el espacio disponible.",
     middle:
-      "Para uso doméstico moderado (30-45 min, 3-4 veces/semana, velocidad hasta 10-12 km/h), una cinta con motor de 1.5-2.0 CV y superficie de 40x110 cm es más que suficiente. Si corres regularmente a más de 12 km/h o pesas más de 90 kg, invierte en motor de 2.0+ CV y superficie de 50x140 cm mínimo. Las cintas plegables como la WalkingPad son perfectas para pisos pequeños pero limitadas en velocidad.",
+      "Para uso doméstico moderado (30-45 min, 3-4 veces/semana, velocidad hasta 10-12 km/h), una cinta con motor de 1.5-2.0 CV y superficie de 40x110 cm es más que suficiente. Si corres regularmente a más de 12 km/h o pesas más de 90 kg, invierte en motor de 2.0+ CV y superficie de 50x140 cm mínimo. Las cintas plegables como la WalkingPad son perfectas para pisos pequeños: se guardan debajo de la cama y pesan menos de 30 kg.",
     conclusion:
-      "Para la mayoría de usuarios, la Toorx TRX-50S ofrece el mejor equilibrio calidad-precio para empezar. Si eres corredor habitual, la Reebok GT40S justifica su precio premium. Para trabajo de pie o caminatas, la Kingsmith WalkingPad es imbatible en compacidad.",
+      "Para caminatas, trabajo de pie y cardio suave, la WalkingPad R2 es imbatible en compacidad y silencio (0.5-12 km/h). Si necesitas más potencia para trote real, la WalkingPad R1 Pro (918W) es el paso natural. Ambas son la opción ideal para pisos pequeños donde el espacio es el factor limitante.",
   },
   "bicicletas-estaticas": {
     intro:
-      "Las bicicletas estáticas son el equipamiento cardio más vendido en España para uso doméstico. Silenciosas, sin impacto y efectivas para quemar calorías, son ideales para pisos donde una cinta sería molesta para los vecinos. La elección entre bicicleta estática clásica, spinning y elíptica depende de tus objetivos y condición física.",
+      "Las bicicletas estáticas son el equipamiento cardio más vendido en España para uso doméstico. Silenciosas, sin impacto y efectivas para quemar calorías, son ideales para pisos donde una cinta sería molesta para los vecinos. La elección entre bicicleta estática clásica, con app o mini-escritorio depende de tus objetivos y del espacio disponible.",
     middle:
-      "Para perder peso con cardio suave: bicicleta estática clásica como la Sportstech UX250. Para entrenamientos de alta intensidad (HIIT) similares a las clases de spinning: BH Fitness SB2.6. Para bajo impacto con trabajo de brazos incluido, especialmente si tienes problemas de rodilla: elíptica como la Domyos EB 900. El volante de inercia es el factor clave en spinning: más kg = más suave y natural la pedaleada.",
+      "Para quemar calorías con cardio suave: la Sportstech X100-C (plegable, con LCD y cuerdas de fuerza integradas) o la MERACH (silenciosa con app y soporte hasta 136 kg). Para entrenamientos progresivos con 8 niveles de resistencia: la Sportstech X150. Si trabajas desde casa y quieres moverte mientras estás sentado sin interrumpir el trabajo, la Sportstech DFX70 mini-escritorio es una categoría aparte. El volante de inercia es el factor clave: más kg = movimiento más suave y natural.",
     conclusion:
-      "Para iniciarse sin gran inversión, la Sportstech UX250 cumple perfectamente. Los entusiastas del ciclismo y quienes quieran clases de spinning en casa apreciarán el volante de 18kg de la BH Fitness. La Domyos EB 900 es la mejor opción si buscas cardio de bajo impacto o tienes dolores articulares.",
+      "Para iniciarse siendo plegable y con el mayor número de extras por precio, la Sportstech X100-C es la opción más completa. Los que buscan silencio máximo y seguimiento por app apreciarán la MERACH. Para teletrabajar activo sin dejar la silla, la DFX70 no tiene competidor en su categoría.",
   },
   "pesas-mancuernas": {
     intro:
       "El entrenamiento de fuerza en casa requiere menos equipamiento del que parece. Con un set de mancuernas y suficiente espacio para moverte, puedes trabajar todos los grupos musculares. La decisión clave es entre mancuernas ajustables (más prácticas, mayor inversión inicial) y sets fijos (más baratos, ocupan más espacio).",
     middle:
-      "Las mancuernas ajustables como las Bowflex SelectTech son perfectas si tienes poco espacio: 15 pares de mancuernas en el espacio de una. La inversión inicial es mayor pero se amortiza si entrenas consistentemente. Los sets fijos como el Gorilla Sports son mejores si siempre entrenas con el mismo peso o compartes el equipamiento. Las kettlebells añaden versatilidad para ejercicios funcionales que las mancuernas no cubren bien.",
+      "Las mancuernas ajustables como las LULLAX NEO36 (hasta 36 kg con base incluida) son perfectas si tienes poco espacio: múltiples pesos en el espacio de una. La inversión inicial es mayor pero se amortiza si entrenas con regularidad. Para cargas fijas sin mecanismos: las ManiBoom hexagonales antideslizantes de 15 kg son sólidas y seguras. Las kettlebells añaden versatilidad para ejercicios funcionales (swing, turkish get-up) que las mancuernas no cubren bien, y las bandas elásticas Fokky TPE complementan el trabajo de resistencia con mínimo espacio.",
     conclusion:
-      "Si tienes espacio limitado y entrenas regularmente, las Bowflex SelectTech son la mejor inversión a largo plazo. Para empezar sin gran desembolso, el set Gorilla Sports 2x20kg cubre la mayoría de ejercicios. Añade una kettlebell de 16kg para ejercicios funcionales y habrás completado un home gym básico efectivo.",
+      "Si tienes espacio limitado y buscas la mayor progresión posible, las LULLAX NEO36 son la mejor inversión a largo plazo. Para empezar sin gran desembolso, las ManiBoom 15 kg cubren la mayoría de ejercicios de tren superior. Completa el set con la kettlebell JOWY de 16 kg y las bandas Fokky para un home gym funcional y completo.",
   },
   "esterillas-yoga": {
     intro:
       "La esterilla es la pieza más básica y esencial del equipamiento fitness casero. Ya sea para yoga, pilates, estiramientos o simplemente proteger el suelo durante ejercicios de suelo, elegir la correcta marca la diferencia en comodidad y seguridad. El grosor, material y adherencia son los factores clave.",
     middle:
-      "Para yoga dinámico (vinyasa, ashtanga): esterilla de 3-4mm con alta adherencia como la Manduka PRO. Para principiantes y pilates en suelo duro: esterilla gruesa de 6-10mm como la Gaiam Essentials. Para llevar a clase o viajar: esterilla ligera de 3mm como la Nike Fundamental. Las esterillas de PVC son más duraderas; las de TPE son más ecológicas pero menos resistentes; las de NBR son las más económicas y acolchadas.",
+      "Para yoga dinámico (vinyasa, ashtanga) o práctica regular: una esterilla de 6 mm con alta adherencia en ambas caras como la TOPLUS TPE profesional ofrece el equilibrio perfecto entre estabilidad y amortiguación. Para iniciarse o para uso mixto (yoga, pilates, estiramientos en casa): la LA MENTE ES MARAVILLOSA TPE incluye bolsa de transporte y e-book de ejercicios guiados, todo en un kit completo. Las esterillas de TPE son más ecológicas que las de PVC, sin sustancias tóxicas y aptas para alérgicos al látex.",
     conclusion:
-      "Para práctica seria de yoga, la Manduka PRO es la inversión que dura toda la vida. Para uso casual y principiantes, la Gaiam Essentials 10mm ofrece comodidad máxima a buen precio. La Nike Fundamental es perfecta si buscas algo ligero y de marca reconocida.",
+      "Para práctica seria de yoga con frecuencia semanal alta, la TOPLUS 6 mm nivel profesional ofrece la adherencia y durabilidad que exige una práctica constante. Para iniciarse o para tener todo lo necesario desde el primer día, la LA MENTE ES MARAVILLOSA es el kit más completo a precio competitivo.",
   },
   "suplementos-proteinas": {
     intro:
       "Los suplementos deportivos pueden ayudarte a alcanzar tus objetivos de fitness, pero no son imprescindibles para la mayoría de personas. La proteína whey es el suplemento con mayor evidencia científica para recuperación muscular, y la creatina es el más estudiado para mejorar la fuerza. Antes de cualquier suplemento, consulta con tu médico.",
     middle:
-      "La proteína whey es útil si no alcanzas tu objetivo proteico solo con la dieta (1.6-2.2g por kg de peso corporal). Los concentrados de whey como Optimum Nutrition ofrecen sabor superior; los isolates tienen menos lactosa para intolerantes. La creatina monohidrato es el suplemento más seguro y eficaz para mejorar rendimiento en ejercicios de alta intensidad de menos de 30 segundos.",
+      "La proteína whey es útil si no alcanzas tu objetivo proteico solo con la dieta (1.6-2.2g por kg de peso corporal). Los concentrados de whey como Optimum Nutrition ofrecen sabor superior y mayor palatabilidad; los de Myprotein ofrecen la mejor relación gramos de proteína por euro. La creatina monohidrato es el suplemento más seguro y eficaz para mejorar rendimiento en ejercicios de alta intensidad de menos de 30 segundos.",
     conclusion:
-      "Para proteína, Optimum Nutrition Gold Standard es la referencia mundial; Myprotein ofrece la mejor relación calidad-precio. Para creatina, cualquier creatina monohidrato pura sirve: Bulk es una de las mejores opciones económicas. Importante: los suplementos solo son útiles sobre una base sólida de entrenamiento y nutrición adecuada.",
+      "Para proteína, Optimum Nutrition Gold Standard 2.26 kg es la referencia mundial en sabor y calidad; Myprotein Impact Whey 1 kg es la mejor relación calidad-precio para consumo diario. Para creatina, Myprotein Creatina Monohidrato en polvo 250 g es una de las opciones más puras del mercado. Recuerda: los suplementos solo aportan valor sobre una base sólida de entrenamiento y nutrición.",
   },
 };
 
