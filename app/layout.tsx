@@ -32,16 +32,28 @@ const websiteSchema = {
   description:
     "Guías de fitness y análisis de equipamiento para entrenar en casa. Cintas de correr, bicicletas estáticas, mancuernas y suplementos deportivos.",
   inLanguage: "es",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://www.fitnessfacil.es/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
 };
 
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Mkt Web 360 SLU",
+  name: "FitnessFácil.es",
   legalName: "Mkt Web 360 SLU",
   url: "https://www.fitnessfacil.es",
+  logo: { "@type": "ImageObject", url: "https://www.fitnessfacil.es/logo.png" },
   taxID: "B87679304",
   email: "info@mktweb360.com",
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer service",
+    email: "info@mktweb360.com",
+    availableLanguage: "Spanish",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
