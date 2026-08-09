@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { categories, products, getProductsByCategory, getProductBySlug } from "@/data/products";
+import { getPostBySlug } from "@/data/posts";
 import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
@@ -222,7 +223,25 @@ export default async function ProductPage({ params }: Props) {
           </section>
         )}
 
-        {related.length > 0 && (
+        {product.relatedPosts && product.relatedPosts.length > 0 && (
+          <div className="mt-10 mb-8">
+            <h2 className="text-xl font-bold text-gray-800 mb-4">Guías relacionadas</h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {product.relatedPosts.map(slug => {
+                const post = getPostBySlug(slug)
+                if (!post) return null
+                return (
+                  <Link key={slug} href={`/blog/${slug}`} className="block rounded-xl border border-emerald-200 bg-emerald-50 p-4 hover:bg-emerald-100 transition-colors">
+                    <p className="font-semibold text-emerald-800">{post.title}</p>
+                    <p className="text-sm text-gray-600 mt-1">{post.excerpt}</p>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        )}
+
+                {related.length > 0 && (
           <section>
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">
               Otros {cat?.name.toLowerCase()} que te pueden interesar

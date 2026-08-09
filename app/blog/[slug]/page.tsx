@@ -1985,6 +1985,7 @@ export default async function BlogPostPage({ params }: Props) {
       name: "FitnessFácil.es",
       logo: { "@type": "ImageObject", url: "https://www.fitnessfacil.es/logo.png", width: 200, height: 200 },
     },
+    image: { "@type": "ImageObject", url: `https://www.fitnessfacil.es/blog/${post.slug}/opengraph-image`, width: 1200, height: 630 },
   };
 
   // NOTA: desde 2023 Google restringe los rich results de FAQPage a webs
@@ -2001,10 +2002,21 @@ export default async function BlogPostPage({ params }: Props) {
     })),
   } : null;
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.fitnessfacil.es" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.fitnessfacil.es/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://www.fitnessfacil.es/blog/${post.slug}` },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <section className="bg-gradient-to-br from-green-700 to-green-900 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto">
@@ -2112,7 +2124,21 @@ export default async function BlogPostPage({ params }: Props) {
           </article>
         )}
 
-        {relatedProducts.length > 0 && (
+        {post.categoryCta && (
+          <div className="my-8 rounded-xl bg-emerald-50 border border-emerald-200 p-6 text-center">
+            <p className="text-emerald-800 font-semibold text-lg mb-3">
+              ¿Buscas el mejor equipo para entrenar en casa?
+            </p>
+            <Link
+              href={post.categoryCta.href}
+              className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+            >
+              {post.categoryCta.text}
+            </Link>
+          </div>
+        )}
+
+                {relatedProducts.length > 0 && (
           <section className="mb-10">
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">Productos mencionados</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

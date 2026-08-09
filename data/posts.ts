@@ -8,6 +8,7 @@ export type Post = {
   relatedProducts?: string[];
   relatedPosts?: string[];
   isSupplement?: boolean;
+  categoryCta?: { href: string; text: string };
 };
 
 export const posts: Post[] = [
@@ -25,6 +26,7 @@ export const posts: Post[] = [
       "cinta-correr-plegable-piso-pequeno",
       "entrenar-caminando-casa-beneficios",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas de correr para casa →" },
   },
   {
     slug: "bicicleta-estatica-o-eliptica",
@@ -44,6 +46,7 @@ export const posts: Post[] = [
       "ergometro-vs-bicicleta-estatica",
       "bicicleta-estatica-adelgazar-resultados",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas para casa →" },
   },
   {
     slug: "rutina-entrenamiento-casa-sin-equipamiento",
@@ -63,6 +66,7 @@ export const posts: Post[] = [
       "bandas-elasticas-musculacion-guia",
       "rutina-mancuernas-casa-semana",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas y material básico →" },
   },
   {
     slug: "mancuernas-ajustables-merece-pena",
@@ -82,6 +86,7 @@ export const posts: Post[] = [
       "mancuernas-ajustables-vs-fijas",
       "kettlebell-para-empezar-peso",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver mancuernas ajustables en tienda →" },
   },
   {
     slug: "proteina-whey-guia-completa",
@@ -101,6 +106,7 @@ export const posts: Post[] = [
       "suplementos-fitness-casa-necesarios",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
   },
   {
     slug: "yoga-en-casa-principiantes",
@@ -119,6 +125,7 @@ export const posts: Post[] = [
       "pilates-casa-principiantes-guia",
       "yoga-adelgazar-funciona",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas de yoga y pilates →" },
   },
   {
     slug: "perder-peso-ejercicio-casa",
@@ -138,6 +145,7 @@ export const posts: Post[] = [
       "bicicleta-estatica-adelgazar-resultados",
       "suplementos-fitness-casa-necesarios",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas y cardio para casa →" },
   },
   {
     slug: "creatina-para-que-sirve",
@@ -157,6 +165,7 @@ export const posts: Post[] = [
       "proteina-whey-guia-completa",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver suplementos y proteínas →" },
   },
   {
     slug: "walkingpad-r2-vs-r1-pro",
@@ -172,6 +181,7 @@ export const posts: Post[] = [
       "cinta-andar-casa-bajo-escritorio",
       "cinta-correr-plegable-piso-pequeno",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas WalkingPad en tienda →" },
   },
   {
     slug: "cinta-correr-plegable-piso-pequeno",
@@ -187,6 +197,7 @@ export const posts: Post[] = [
       "cinta-andar-casa-bajo-escritorio",
       "walkingpad-opiniones-analisis",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas plegables para casa →" },
   },
   {
     slug: "cinta-andar-casa-bajo-escritorio",
@@ -202,6 +213,7 @@ export const posts: Post[] = [
       "cinta-correr-plegable-piso-pequeno",
       "mini-bicicleta-escritorio-trabajar",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas de andar para escritorio →" },
   },
   {
     slug: "walkingpad-opiniones-analisis",
@@ -217,6 +229,7 @@ export const posts: Post[] = [
       "mejor-cinta-correr-casa-2025",
       "entrenar-caminando-casa-beneficios",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas WalkingPad en tienda →" },
   },
   {
     slug: "entrenar-caminando-casa-beneficios",
@@ -232,6 +245,7 @@ export const posts: Post[] = [
       "walkingpad-r2-vs-r1-pro",
       "bicicleta-estatica-adelgazar-resultados",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas de andar para casa →" },
   },
   {
     slug: "perder-peso-cinta-andar-casa-plan",
@@ -247,6 +261,7 @@ export const posts: Post[] = [
       "bicicleta-estatica-adelgazar-resultados",
       "mejor-cinta-correr-casa-2025",
     ],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas de andar para casa →" },
   },
   {
     slug: "mejor-bicicleta-estatica-casa-2025",
@@ -266,6 +281,7 @@ export const posts: Post[] = [
       "merach-bicicleta-estatica-analisis",
       "ergometro-vs-bicicleta-estatica",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
   {
     slug: "sportstech-x100c-analisis",
@@ -281,6 +297,7 @@ export const posts: Post[] = [
       "ergometro-vs-bicicleta-estatica",
       "merach-bicicleta-estatica-analisis",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
   {
     slug: "merach-bicicleta-estatica-analisis",
@@ -296,6 +313,7 @@ export const posts: Post[] = [
       "bicicleta-estatica-adelgazar-resultados",
       "sportstech-x100c-analisis",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
   {
     slug: "mini-bicicleta-escritorio-trabajar",
@@ -311,6 +329,7 @@ export const posts: Post[] = [
       "mejor-bicicleta-estatica-casa-2025",
       "sportstech-x100c-analisis",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver mini bicicletas de escritorio →" },
   },
   {
     slug: "ergometro-vs-bicicleta-estatica",
@@ -326,6 +345,7 @@ export const posts: Post[] = [
       "merach-bicicleta-estatica-analisis",
       "bicicleta-estatica-adelgazar-resultados",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
   {
     slug: "bicicleta-estatica-adelgazar-resultados",
@@ -341,6 +361,7 @@ export const posts: Post[] = [
       "mejor-bicicleta-estatica-casa-2025",
       "suplementos-fitness-casa-necesarios",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
   {
     slug: "mancuernas-ajustables-vs-fijas",
@@ -360,6 +381,7 @@ export const posts: Post[] = [
       "mancuernas-ajustables-merece-pena",
       "entrenamiento-fuerza-casa-equipamiento-minimo",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver mancuernas y pesas en tienda →" },
   },
   {
     slug: "lullax-neo36-analisis-opinion",
@@ -375,6 +397,7 @@ export const posts: Post[] = [
       "rutina-mancuernas-casa-semana",
       "mancuernas-ajustables-merece-pena",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver mancuernas LULLAX en tienda →" },
   },
   {
     slug: "kettlebell-para-empezar-peso",
@@ -390,6 +413,7 @@ export const posts: Post[] = [
       "entrenamiento-fuerza-casa-equipamiento-minimo",
       "bandas-elasticas-musculacion-guia",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver kettlebells y pesas en tienda →" },
   },
   {
     slug: "bandas-elasticas-musculacion-guia",
@@ -405,6 +429,7 @@ export const posts: Post[] = [
       "kettlebell-para-empezar-peso",
       "rutina-entrenamiento-casa-sin-equipamiento",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver bandas elásticas en tienda →" },
   },
   {
     slug: "entrenamiento-fuerza-casa-equipamiento-minimo",
@@ -424,6 +449,7 @@ export const posts: Post[] = [
       "bandas-elasticas-musculacion-guia",
       "kettlebell-para-empezar-peso",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver equipamiento de fuerza →" },
   },
   {
     slug: "rutina-mancuernas-casa-semana",
@@ -439,6 +465,7 @@ export const posts: Post[] = [
       "entrenamiento-fuerza-casa-equipamiento-minimo",
       "mancuernas-ajustables-vs-fijas",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver mancuernas y pesas en tienda →" },
   },
   {
     slug: "mejor-esterilla-yoga-casa-2025",
@@ -454,6 +481,7 @@ export const posts: Post[] = [
       "esterilla-tpe-vs-pvc-diferencias",
       "yoga-en-casa-principiantes",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas de yoga en tienda →" },
   },
   {
     slug: "esterilla-tpe-vs-pvc-diferencias",
@@ -469,6 +497,7 @@ export const posts: Post[] = [
       "toplus-esterilla-analisis",
       "pilates-casa-principiantes-guia",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas de yoga en tienda →" },
   },
   {
     slug: "toplus-esterilla-analisis",
@@ -484,6 +513,7 @@ export const posts: Post[] = [
       "esterilla-tpe-vs-pvc-diferencias",
       "yoga-en-casa-principiantes",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas de yoga en tienda →" },
   },
   {
     slug: "pilates-casa-principiantes-guia",
@@ -499,6 +529,7 @@ export const posts: Post[] = [
       "estiramientos-despues-ejercicio",
       "mejor-esterilla-yoga-casa-2025",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas para pilates en tienda →" },
   },
   {
     slug: "estiramientos-despues-ejercicio",
@@ -514,6 +545,7 @@ export const posts: Post[] = [
       "yoga-en-casa-principiantes",
       "rutina-mancuernas-casa-semana",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas y accesorios →" },
   },
   {
     slug: "yoga-adelgazar-funciona",
@@ -529,6 +561,7 @@ export const posts: Post[] = [
       "bicicleta-estatica-adelgazar-resultados",
       "perder-peso-cinta-andar-casa-plan",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas de yoga en tienda →" },
   },
   {
     slug: "on-gold-standard-whey-analisis",
@@ -545,6 +578,7 @@ export const posts: Post[] = [
       "suplementos-fitness-casa-necesarios",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
   },
   {
     slug: "proteina-whey-antes-despues-entreno",
@@ -561,6 +595,7 @@ export const posts: Post[] = [
       "creatina-monohidrato-guia-completa",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
   },
   {
     slug: "creatina-monohidrato-guia-completa",
@@ -577,6 +612,7 @@ export const posts: Post[] = [
       "proteina-whey-antes-despues-entreno",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver creatina y suplementos →" },
   },
   {
     slug: "myprotein-impact-whey-opinion",
@@ -593,6 +629,7 @@ export const posts: Post[] = [
       "proteina-whey-antes-despues-entreno",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
   },
   {
     slug: "suplementos-fitness-casa-necesarios",
@@ -613,6 +650,7 @@ export const posts: Post[] = [
       "myprotein-impact-whey-opinion",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver suplementos y proteínas →" },
   },
   {
     slug: "proteina-vegana-vs-whey",
@@ -629,6 +667,7 @@ export const posts: Post[] = [
       "suplementos-fitness-casa-necesarios",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
   },
   {
     slug: "mejor-suplemento-pre-entreno",
@@ -649,6 +688,7 @@ export const posts: Post[] = [
       "proteina-whey-guia-completa",
     ],
     isSupplement: true,
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver suplementos y proteínas →" },
   },
 
   {
@@ -664,6 +704,7 @@ export const posts: Post[] = [
       "mejor-bicicleta-estatica-casa-2025",
       "bicicleta-estatica-adelgazar-resultados",
     ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver cardio para casa en tienda →" },
   },
   {
     slug: "hiit-en-casa-principiantes",
@@ -682,6 +723,7 @@ export const posts: Post[] = [
       "perder-peso-ejercicio-casa",
       "mejor-eliptica-casa-2025",
     ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas y material básico →" },
   },
   {
     slug: "ejercicio-mujeres-40-anos-casa",
@@ -701,6 +743,7 @@ export const posts: Post[] = [
       "rutina-entrenamiento-casa-sin-equipamiento",
       "mejor-eliptica-casa-2025",
     ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver equipamiento de fuerza →" },
   },
 ];
 

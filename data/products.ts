@@ -15,6 +15,7 @@ export type Product = {
   specs: Record<string, string>;
   badge?: string;
   isSupplement?: boolean;
+  relatedPosts?: string[];
 };
 
 export const categories = [
@@ -73,6 +74,11 @@ export const products: Product[] = [
     cons: ["Requiere espacio suficiente para uso", "Montaje inicial puede ser complejo"],
     specs: { "Velocidad máx.": "12 km/h", "Carga máx.": "110 kg", "Motor": "Brushless silencioso", "Control": "App + mando a distancia", "Plegada": "0,2 m²" },
     badge: "Más vendida",
+    relatedPosts: [
+    "walkingpad-r2-vs-r1-pro",
+    "mejor-cinta-correr-casa-2025",
+    "entrenar-caminando-casa-beneficios",
+  ],
   },
   {
     slug: "walkingpad-r1-pro-cinta-plegable",
@@ -89,6 +95,11 @@ export const products: Product[] = [
     pros: ["2 en 1: andar + correr", "Sin montaje — lista en minutos", "Plegado 180° ahorra espacio", "Ruedas incluidas para transporte", "Velocidad hasta 10km/h"],
     cons: ["Velocidad máxima inferior al R2", "No apta para corredores avanzados"],
     specs: { "Velocidad andar": "0,5-6 km/h", "Velocidad correr": "0,5-10 km/h", "Potencia": "918 W", "Montaje": "Sin montaje", "Plegado": "180°" },
+    relatedPosts: [
+    "walkingpad-r2-vs-r1-pro",
+    "cinta-andar-casa-bajo-escritorio",
+    "cinta-correr-plegable-piso-pequeno",
+  ],
   },
   // BICICLETAS ESTÁTICAS
   {
@@ -106,6 +117,11 @@ export const products: Product[] = [
     pros: ["Entrena brazos y piernas a la vez", "Consola LCD completa", "Plegable con ruedas de transporte", "Ocupa poco espacio", "Marca alemana de calidad"],
     cons: ["No tiene pantalla táctil", "Resistencia básica"],
     specs: { "Tipo": "Bicicleta estática plegable", "Display": "LCD", "Extras": "Cuerdas de fuerza", "Transporte": "Ruedas incluidas" },
+    relatedPosts: [
+    "sportstech-x100c-analisis",
+    "mejor-bicicleta-estatica-casa-2025",
+    "mini-bicicleta-escritorio-trabajar",
+  ],
   },
 
   {
@@ -123,6 +139,11 @@ export const products: Product[] = [
     pros: ["Totalmente plegable ahorra espacio", "8 niveles resistencia magnética", "Asiento confortable ajustable", "Silenciosa para uso en casa", "Marca alemana Sportstech"],
     cons: ["Sin conectividad app en este modelo", "Solo 8 niveles de resistencia"],
     specs: { "Niveles resistencia": "8", "Sistema": "Magnético silencioso", "Plegable": "Sí", "Asiento": "Ajustable" },
+    relatedPosts: [
+    "ergometro-vs-bicicleta-estatica",
+    "mejor-bicicleta-estatica-casa-2025",
+    "bicicleta-estatica-adelgazar-resultados",
+  ],
   },
   {
     slug: "merach-bicicleta-estatica-app-136kg",
@@ -140,6 +161,11 @@ export const products: Product[] = [
     cons: ["Sin pantalla táctil", "App básica comparada con marcas premium"],
     specs: { "Capacidad": "136 kg", "Sistema": "Magnético silencioso", "Monitor": "LED", "App": "Propia incluida" },
     badge: "Mejor relación calidad-precio",
+    relatedPosts: [
+    "merach-bicicleta-estatica-analisis",
+    "mejor-bicicleta-estatica-casa-2025",
+    "bicicleta-estatica-adelgazar-resultados",
+  ],
   },
   {
     slug: "sportstech-dfx70-mini-bicicleta-escritorio",
@@ -156,6 +182,11 @@ export const products: Product[] = [
     pros: ["Perfecta para trabajar y ejercitarse a la vez", "No requiere mesa especial", "Silenciosa transmisión por correa", "Asa + ruedas para transporte", "Compacta y discreta"],
     cons: ["Solo para piernas (no brazos)", "No apta para entrenamientos intensos"],
     specs: { "Niveles resistencia": "8", "Transmisión": "Correa silenciosa", "Uso": "Bajo escritorio o en casa", "Transporte": "Asa + ruedas" },
+    relatedPosts: [
+    "mini-bicicleta-escritorio-trabajar",
+    "cinta-andar-casa-bajo-escritorio",
+    "bicicleta-estatica-o-eliptica",
+  ],
   },
 
   // PESAS Y MANCUERNAS
@@ -175,6 +206,11 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Peso máximo puede ser bajo para avanzados"],
     specs: { "Rango": "2.5 - 36 kg", "Posiciones": "14", "Par": "Sí (2 mancuernas)", "Base": "Incluida", "Equivalencia": "15 pares mancuernas tradicionales" },
     badge: "Top calidad",
+    relatedPosts: [
+    "lullax-neo36-analisis-opinion",
+    "mancuernas-ajustables-merece-pena",
+    "rutina-mancuernas-casa-semana",
+  ],
   },
   {
     slug: "maniboom-mancuernas-hexagonales-15kg",
@@ -192,6 +228,11 @@ export const products: Product[] = [
     cons: ["Máximo 15kg por mancuerna", "Sistema de discos más básico que ajustables automáticos"],
     specs: { "Peso máx.": "15 kg/mancuerna", "Forma": "Hexagonal anti-rodadura", "Barra": "2 en 1 incluida", "Cierre": "Seguridad antideslizante" },
     badge: "Mejor precio",
+    relatedPosts: [
+    "mancuernas-ajustables-vs-fijas",
+    "entrenamiento-fuerza-casa-equipamiento-minimo",
+    "rutina-mancuernas-casa-semana",
+  ],
   },
   {
     slug: "jowy-kettlebell-pvc-16kg",
@@ -208,6 +249,11 @@ export const products: Product[] = [
     pros: ["Marca española de pequeña empresa", "PVC no daña suelos", "Mango ergonómico antideslizante", "Rellena de arena de acero fina", "Disponible en varios pesos"],
     cons: ["Más grande que kettlebells de hierro del mismo peso", "No apta para competición"],
     specs: { "Peso": "16 kg", "Material": "PVC + arena de acero", "Mango": "Ergonómico antideslizante", "Marca": "Española JOWY" },
+    relatedPosts: [
+    "kettlebell-para-empezar-peso",
+    "bandas-elasticas-musculacion-guia",
+    "entrenamiento-fuerza-casa-equipamiento-minimo",
+  ],
   },
   {
     slug: "fokky-bandas-elasticas-set-4-tpe",
@@ -225,6 +271,11 @@ export const products: Product[] = [
     cons: ["No son bandas largas para dominadas", "Resistencia máxima limitada para avanzados"],
     specs: { "Piezas": "4", "Longitud": "1.8 m", "Material": "TPE sin látex", "Niveles": "4 (amarillo/rojo/azul/púrpura)", "Bolsa": "Incluida" },
     badge: "Más vendidas",
+    relatedPosts: [
+    "bandas-elasticas-musculacion-guia",
+    "rutina-entrenamiento-casa-sin-equipamiento",
+    "hiit-en-casa-principiantes",
+  ],
   },
 
   // ESTERILLAS Y YOGA
@@ -244,6 +295,11 @@ export const products: Product[] = [
     cons: ["No es de caucho natural (es TPE)", "Puede oler ligeramente al principio"],
     specs: { "Medidas": "183 x 61 cm", "Material": "TPE certificado SGS", "Antideslizante": "Ambos lados", "Incluye": "Bolsa + correa + E-Book", "Certificación": "SGS" },
     badge: "Nº1 en ventas",
+    relatedPosts: [
+    "mejor-esterilla-yoga-casa-2025",
+    "yoga-en-casa-principiantes",
+    "pilates-casa-principiantes-guia",
+  ],
   },
   {
     slug: "toplus-esterilla-yoga-tpe-6mm",
@@ -260,6 +316,11 @@ export const products: Product[] = [
     pros: ["Doble capa TPE con textura antideslizante patentada", "6mm de grosor para máxima comodidad", "Sin PVC, látex ni químicos tóxicos", "Ideal para yoga con sudor intenso", "Correa de hombro incluida"],
     cons: ["Más gruesa puede ser incómoda para algunos estilos de yoga", "Precio ligeramente superior a opciones básicas"],
     specs: { "Medidas": "183 x 61 cm", "Grosor": "6 mm", "Material": "TPE doble capa", "Antideslizante": "Patentada ambos lados", "Sin": "PVC, látex, tóxicos" },
+    relatedPosts: [
+    "toplus-esterilla-analisis",
+    "mejor-esterilla-yoga-casa-2025",
+    "estiramientos-despues-ejercicio",
+  ],
   },
 
   // SUPLEMENTOS Y PROTEÍNAS
@@ -280,6 +341,11 @@ export const products: Product[] = [
     specs: { "Proteína/servicio": "24 g", "Servicios": "73 (2.26 kg)", "Tipo": "Whey concentrado + aislado", "Certificación": "Informed Choice", "Azúcar": "Baja" },
     badge: "Más vendida del mundo",
     isSupplement: true,
+    relatedPosts: [
+    "on-gold-standard-whey-analisis",
+    "proteina-whey-guia-completa",
+    "proteina-whey-antes-despues-entreno",
+  ],
   },
   {
     slug: "myprotein-impact-whey-1kg-galletas",
@@ -297,6 +363,11 @@ export const products: Product[] = [
     cons: ["Concentrado no aislado (puede causar digestión pesada en intolerantes)", "Compra en web Myprotein suele ser más económica"],
     specs: { "Proteína/servicio": "21 g", "Raciones": "40 (1 kg)", "Tipo": "Whey concentrado", "Sabor": "Galletas y crema" },
     isSupplement: true,
+    relatedPosts: [
+    "myprotein-impact-whey-opinion",
+    "proteina-whey-guia-completa",
+    "proteina-vegana-vs-whey",
+  ],
   },
   {
     slug: "myprotein-creatina-monohidrato-250g",
@@ -314,6 +385,11 @@ export const products: Product[] = [
     cons: ["Requiere fase de carga inicial opcional", "No apta para menores sin supervisión médica"],
     specs: { "Dosis/servicio": "3 g", "Servicios": "83 (250 g)", "Tipo": "Monohidrato puro 100%", "Sabor": "Sin sabor", "Uso": "Mezclar con agua o batido" },
     isSupplement: true,
+    relatedPosts: [
+    "creatina-monohidrato-guia-completa",
+    "creatina-para-que-sirve",
+    "suplementos-fitness-casa-necesarios",
+  ],
   },
 ];
 
