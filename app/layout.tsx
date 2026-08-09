@@ -69,6 +69,11 @@ const organizationSchema = {
   logo: { "@type": "ImageObject", url: "https://www.fitnessfacil.es/logo.png" },
   taxID: "B87679304",
   email: "info@mktweb360.com",
+  description: "Portal especializado en equipamiento fitness y entrenamiento en casa. Comparativas y análisis de cintas de correr, bicicletas estáticas, pesas y suplementos.",
+  foundingDate: "2024",
+  areaServed: { "@type": "Country", name: "España" },
+  knowsAbout: ["entrenamiento en casa", "equipamiento fitness", "cintas de correr", "bicicletas estáticas", "suplementos deportivos"],
+  sameAs: ["https://www.instagram.com/fitnessfacil.es", "https://www.facebook.com/fitnessfacil.es"],
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer service",

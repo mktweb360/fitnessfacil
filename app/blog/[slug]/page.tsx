@@ -1973,19 +1973,34 @@ export default async function BlogPostPage({ params }: Props) {
   const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter(Boolean) ?? [];
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
 
+const AUTHOR = {
+  "@type": "Person",
+  name: "Carlos Moreno",
+  jobTitle: "Entrenador Personal NSCA",
+  url: "https://www.fitnessfacil.es/sobre-nosotros",
+  description: "Entrenador personal certificado por la NSCA con 10 años de experiencia en entrenamiento en casa y equipamiento fitness.",
+  knowsAbout: ["entrenamiento en casa", "equipamiento fitness", "cintas de correr", "nutrición deportiva", "pérdida de peso", "suplementación deportiva"],
+};
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { "@type": "Organization", name: "FitnessFácil.es", url: "https://www.fitnessfacil.es" },
+    author: AUTHOR,
     publisher: {
       "@type": "Organization",
       name: "FitnessFácil.es",
       logo: { "@type": "ImageObject", url: "https://www.fitnessfacil.es/logo.png", width: 200, height: 200 },
     },
     image: { "@type": "ImageObject", url: `https://www.fitnessfacil.es/blog/${post.slug}/opengraph-image`, width: 1200, height: 630 },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["#respuesta-directa", "h1"],
+    },
+    keywords: post.category,
+    about: { "@type": "Thing", name: post.category },
   };
 
   // NOTA: desde 2023 Google restringe los rich results de FAQPage a webs
@@ -2029,13 +2044,22 @@ export default async function BlogPostPage({ params }: Props) {
           </nav>
           <span className="inline-block text-xs font-semibold bg-orange-500 px-2 py-0.5 rounded-full mb-3">{post.category}</span>
           <h1 className="text-2xl md:text-3xl font-extrabold mb-4 leading-tight">{post.title}</h1>
-          <p className="text-green-100 mb-4">{post.excerpt}</p>
+          <div id="respuesta-directa" className="bg-green-800/60 border-l-4 border-green-400 rounded-r-xl px-5 py-4 mb-4">
+            <p className="text-xs font-bold text-green-300 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-green-100 font-medium leading-relaxed">{post.excerpt}</p>
+          </div>
           <div className="flex items-center gap-4 text-sm text-green-300">
             <time dateTime={post.date}>
               {new Date(post.date).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" })}
             </time>
             <span>·</span>
             <span>{post.readTime} de lectura</span>
+            <span>·</span>
+            <span className="flex items-center gap-1">
+              <span>✍️</span>
+              <Link href="/sobre-nosotros" className="font-medium text-green-300 hover:text-white">Carlos Moreno</Link>
+              <span className="text-green-400">— Entrenador Personal NSCA</span>
+            </span>
           </div>
         </div>
       </section>
