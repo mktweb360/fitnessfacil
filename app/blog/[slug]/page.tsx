@@ -1788,6 +1788,180 @@ const articleContent: Record<string, {
       { q: "¿Se puede hacer pre-entreno casero?", a: "Sí y es la opción más inteligente económicamente: café espresso (60-80 mg cafeína) + 3-5 g creatina monohidrato en polvo sin sabor mezclada en agua o zumo. Coste por sesión: aproximadamente 0,20-0,30 €. Un pre-entreno comercial cuesta entre 0,80 y 2 € por toma con los mismos ingredientes activos y mucho relleno adicional." },
     ],
   },
+
+  "mejor-eliptica-casa-2025": {
+    intro:
+      "La elíptica es la máquina de cardio con la mejor relación entre beneficio y sacrificio articular. Trabaja piernas, glúteos y brazos al mismo tiempo que el cardio, sin que ninguna articulación soporte impacto. Para alguien con problemas de rodilla, cadera o que simplemente no quiere los golpes de la cinta de correr, es el aparato que permite entrenar con intensidad sin pagar ese peaje físico. Esta guía explica qué mirar antes de comprar y compara los cinco modelos más relevantes del mercado para casa en 2025.",
+    sections: [
+      {
+        heading: "Qué buscar en una elíptica para casa",
+        body: "Hay seis variables que determinan si una elíptica encaja contigo o acaba arrinconada. La primera es la zancada: para una persona de estatura media, el mínimo funcional son 40-45 cm; si superas el 1,80 m, busca 50 cm o más. Una zancada corta obliga a un movimiento antinatural que fuerza la rodilla. La segunda es la resistencia: como mínimo 8 niveles, y magnética mejor que mecánica, porque la magnética no genera fricción entre piezas y funciona en silencio. La tercera es la carga máxima: 100 kg es el mínimo para un uso estable; a partir de 120 kg, la máquina tiene el margen estructural que alarga su vida útil. La cuarta es la conectividad: Bluetooth con apps como Kinomap o Zwift convierte una sesión monótona en algo que engacha; si no te importa, ahorra ese extra. La quinta es el ruido: la resistencia magnética ya ayuda, pero en un piso lo decisivo es también el sistema de transmisión y la calidad de los rodamientos. La sexta es la forma: las elípticas plegables sacrifican peso y estabilidad; solo tienen sentido en pisos muy pequeños con uso ocasional.",
+      },
+      {
+        heading: "Los 5 mejores modelos en 2025",
+        body: "Sportstech ESX500 (399-499 €): zancada de 43 cm, 24 niveles de resistencia magnética, compatible con Kinomap y Zwift vía Bluetooth. Es la opción más equilibrada para uso regular: suficiente zancada para la mayoría, rango de resistencia amplio y conectividad real. La mejor elección calidad-precio para alguien que va a usarla 3-5 días por semana.\n\nNordicTrack SpaceSaver SE7i (699-799 €): zancada de 46 cm, inclinación ajustable del stride para variar el grupo muscular trabajado, pantalla integrada de 7 pulgadas con iFit. Para usuarios comprometidos con el entrenamiento que quieren el estímulo de clases guiadas y métricas detalladas. La inclinación ajustable es un diferencial real que la mayoría de elípticas domésticas no tienen.\n\nCecotec E-Mex 3000 (349-399 €): zancada de 40 cm, 16 niveles, plegable. El mejor equilibrio para un piso pequeño con uso moderado. La zancada de 40 cm es justa para personas por encima del 1,75 m, pero quien prioriza que el aparato no ocupe espacio lo tendrá en cuenta.\n\nProForm Carbon EL (449-549 €): zancada de 46 cm, 20 niveles de resistencia, compatible con iFit para clases online integradas. La alternativa a la NordicTrack en el rango medio-alto si quieres acceder al ecosistema de entrenamientos dirigidos sin el precio de la pantalla grande.\n\nSkandika Olymp II (299-349 €): zancada de 43 cm, 12 niveles. La entrada de gama más honesta: sin conectividad, sin extras, pero con una zancada correcta y resistencia suficiente para empezar y mantener un hábito. Para quien no ha tenido elíptica antes y quiere probar el formato sin arriesgar más de 350 euros.",
+      },
+      {
+        heading: "Elíptica vs cinta de correr vs bicicleta estática",
+        body: "Cada aparato responde a un perfil distinto. En impacto articular, la elíptica es la opción de menor impacto de las tres: los pies no se separan de los pedales, por lo que no hay golpe. La cinta implica impacto en cada zancada, y la bici es también sin impacto pero no trabaja el tren superior. En músculos trabajados, la elíptica activa piernas, glúteos, lumbares y brazos simultáneamente; la cinta trabaja sobre todo el tren inferior; la bici principalmente cuádriceps y glúteos. En consumo calórico a intensidad equivalente, la cinta quema ligeramente más porque implica sostener el peso corporal, pero la diferencia es menor de lo que muchos suponen. En ruido, la elíptica magnética es la más silenciosa de las tres en condiciones reales. En precio medio de un modelo doméstico decente, los tres segmentos son similares: 350-500 € para una opción con sentido.",
+      },
+      {
+        heading: "Cuánto espacio necesitas",
+        body: "Una elíptica doméstica típica ocupa entre 150 y 180 cm de longitud y entre 55 y 65 cm de ancho en uso activo. A esas medidas hay que sumar al menos 50 cm por detrás para poder bajar sin tropezar y 30 cm a los lados para los brazos. En la práctica, necesitas una zona libre de unos 200 × 120 cm para usarla con comodidad. Las plegables reducen el espacio en reposo pero casi ninguna reduce el espacio necesario durante el uso: la zancada sigue siendo la misma. Si el salón o la habitación no te permite ese rectángulo, valora la bici estática o el ergómetro plegable, que ocupa bastante menos.",
+      },
+    ],
+    comparison: {
+      headers: ["Modelo", "Precio", "Zancada", "Resistencia", "Conectividad", "Mejor para"],
+      rows: [
+        ["Sportstech ESX500", "399-499 €", "43 cm", "24 niveles magnética", "Bluetooth / apps", "Uso regular equilibrado"],
+        ["NordicTrack SpaceSaver SE7i", "699-799 €", "46 cm", "Ajustable + inclinación", "iFit + pantalla", "Entrenadores comprometidos"],
+        ["Cecotec E-Mex 3000", "349-399 €", "40 cm", "16 niveles magnética", "Sin conectividad", "Pisos pequeños, uso moderado"],
+        ["ProForm Carbon EL", "449-549 €", "46 cm", "20 niveles magnética", "iFit", "Clases online integradas"],
+        ["Skandika Olymp II", "299-349 €", "43 cm", "12 niveles magnética", "Sin conectividad", "Primera elíptica, entrada de gama"],
+      ],
+    },
+    conclusion:
+      "La elíptica doméstica ideal no es la más cara: es la que tiene la zancada correcta para tu altura, la resistencia suficiente para que no te quedes sin retos en seis meses y el nivel de ruido adecuado para tu situación. Para la mayoría de usuarios, la Sportstech ESX500 cubre esos tres requisitos sin pagar extras que no se usan. Si el espacio manda y el uso va a ser moderado, la Cecotec E-Mex 3000 plegable es la respuesta. Y si quieres el empuje de clases guiadas para no desengancharte, la NordicTrack o la ProForm con iFit añaden ese componente. Cualquiera de las cinco es una herramienta seria para entrenar sin impacto articular desde casa.",
+    faqs: [
+      {
+        q: "¿Cuántas calorías quema una elíptica?",
+        a: "A intensidad moderada, una persona de unos 75 kg quema entre 400 y 600 kcal por hora en elíptica. A ritmo suave se sitúa más cerca de las 300-350 kcal/hora. Los contadores de las consolas tienden a sobreestimar porque no conocen tu composición corporal real. Para una estimación más ajustada, usa un pulsómetro y calcula por frecuencia cardíaca media.",
+      },
+      {
+        q: "¿Cuánto tiempo al día recomiendas usar la elíptica?",
+        a: "Para mejorar la condición cardiovascular y gestionar el peso, 30-45 minutos a intensidad moderada-alta entre 3 y 5 días por semana es el rango con mejor respaldo. Empezar con 20 minutos y subir progresivamente es más sostenible que arrancar con 60 minutos y lesionarse o abandonar a las dos semanas.",
+      },
+      {
+        q: "¿La elíptica sirve para adelgazar?",
+        a: "Sí, dentro del contexto correcto: el ejercicio es una herramienta de gasto calórico, pero la pérdida de grasa requiere un déficit calórico total. La elíptica facilita ese gasto con bajo impacto articular, lo que permite mantener el hábito sin lesiones que lo interrumpan. Es especialmente útil para personas que no toleran el impacto de la cinta o el running.",
+      },
+      {
+        q: "¿Se puede usar la elíptica sin experiencia previa?",
+        a: "Sí, y es de hecho uno de los aparatos más recomendados para empezar. El movimiento es guiado, no hay que aprender técnica compleja como en la carrera, y el bajo impacto elimina el riesgo de sobrecarga articular que sí aparece en cinta con técnica deficiente. En las primeras sesiones, mejor empezar con resistencia baja y centrarse en el patrón de movimiento antes de subir la intensidad.",
+      },
+    ],
+  },
+
+  "hiit-en-casa-principiantes": {
+    intro:
+      "HIIT son las siglas de High Intensity Interval Training: entrenamiento que alterna períodos cortos de esfuerzo máximo con períodos de recuperación. La razón por la que funciona tan bien es el efecto EPOC — el cuerpo sigue quemando calorías a mayor ritmo durante horas después de terminar, no solo durante la sesión. En 20-30 minutos consigues el efecto cardiovascular de 45-60 minutos de cardio continuo, sin necesitar ninguna máquina. Pero hay una condición: hacerlo bien. El HIIT mal ejecutado es la forma más rápida de lesionarse en el entrenamiento doméstico.",
+    sections: [
+      {
+        heading: "Beneficios del HIIT frente al cardio tradicional",
+        body: "El argumento más citado es la eficiencia en tiempo, y es real: la misma mejora cardiovascular en la mitad de minutos. Pero hay otros menos conocidos. El primero es el efecto EPOC (Excess Post-exercise Oxygen Consumption): el metabolismo permanece elevado entre 12 y 24 horas después de una sesión de HIIT intensa, algo que no ocurre en cardio continuo a ritmo moderado. El segundo es la preservación muscular: el cardio de larga duración puede degradar masa muscular cuando el cuerpo busca energía; el HIIT, al ser corto, no genera ese efecto en la misma medida. El tercero es la mejora de la sensibilidad a la insulina, con implicaciones directas en la gestión del peso y la energía diaria. Y el cuarto, que no suele aparecer en los estudios pero sí en la práctica: las sesiones cortas tienen mucho menos abandono que las de 60 minutos.",
+      },
+      {
+        heading: "Estructura básica de una sesión HIIT",
+        body: "Toda sesión HIIT tiene tres partes obligatorias. El calentamiento: 5 minutos de movilidad articular y cardio suave (marcha en el sitio, rotaciones de cadera, hombros y tobillos). Saltarse el calentamiento es el error que más lesiones genera en el entrenamiento doméstico. El bloque de trabajo: series de esfuerzo máximo intercaladas con recuperación. Para principiantes, el ratio recomendado es 20 segundos de trabajo / 40 segundos de descanso. Para nivel intermedio, 30 / 30. Para nivel avanzado, 40 / 20. La vuelta a la calma: 5 minutos de estiramientos suaves. No es opcional: reduce la rigidez del día siguiente y ayuda a la recuperación del sistema nervioso, que en el HIIT trabaja tan fuerte como los músculos.",
+      },
+      {
+        heading: "Rutina HIIT de 20 minutos para principiantes (sin material)",
+        body: "Calentamiento 5 min: marcha en el sitio + rotaciones de cadera + círculos de hombros + movilidad de tobillos.\n\nBloque de trabajo — 4 rondas de los siguientes 5 ejercicios (20 s trabajo / 40 s descanso). Descansa 90 segundos entre rondas.\n\n1. Sentadillas: pies a la anchura de los hombros, rodillas en la dirección de los pies, sin que el talón se levante. Baja hasta que los muslos queden paralelos al suelo. No dejes que las rodillas se vayan hacia dentro.\n\n2. Flexiones de rodillas: manos a la anchura de los hombros, cuerpo en línea recta desde rodillas hasta cabeza. Si son demasiado fáciles, pasa a flexiones completas. Si son demasiado difíciles con rodillas, hazlas contra la pared.\n\n3. Mountain climbers: posición de plancha alta, lleva las rodillas alternando al pecho a la máxima velocidad posible manteniendo la cadera baja. El error más frecuente es subir la cadera; mantén el abdomen activo.\n\n4. Jumping jacks: versión de bajo impacto si vives en un piso: pasos laterales alternados en lugar de saltos. Mueve los brazos igual para mantener la intensidad cardiovascular.\n\n5. Plancha: posición de plancha sobre antebrazos, caderas en línea con el cuerpo. Si el tiempo se hace muy largo, aguanta lo que puedas y descansa brevemente sin salir de posición.\n\nVuelta a la calma 5 min: estiramiento de cuádriceps, isquiotibiales, gemelos, pecho y hombros. 30 segundos por posición.",
+        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+      },
+      {
+        heading: "Errores que lesionan a principiantes",
+        body: "Saltarse el calentamiento es el primero y el más costoso. El segundo es sacrificar la técnica por la velocidad: en HIIT se supone que vas al máximo, pero el máximo debe ser el máximo con la técnica correcta, no el caos. Una sentadilla rápida con rodillas hacia dentro o una flexión con la cadera por las nubes no entrena más, lesiona antes. El tercero es hacer HIIT todos los días: el sistema nervioso central necesita entre 48 y 72 horas para recuperarse de una sesión de alta intensidad. Hacer HIIT a diario no acelera los resultados, produce sobreentrenamiento y aumenta el riesgo de lesión. El cuarto es no hidratarse: durante el esfuerzo máximo la sudoración es alta; toma agua antes, durante (si la sesión supera 20 min) y después.",
+      },
+      {
+        heading: "Cuándo tiene sentido añadir material",
+        body: "El HIIT sin material tiene un límite natural: llega un momento en que el cuerpo se adapta y la intensidad no sube más sin añadir resistencia externa. Las bandas elásticas son el primer paso más sensato: añaden resistencia a las sentadillas, flexiones y movimientos de tirón sin ocupar espacio ni costar mucho. Una esterilla de calidad, si aún no tienes una, debería ser la primera compra de cualquier entrenamiento doméstico: protege las muñecas en los apoyos, las rodillas en el suelo y reduce la vibración que se transmite al piso de abajo.",
+        productSlug: "fokky-bandas-elasticas-set-4-tpe",
+      },
+    ],
+    comparison: {
+      headers: ["Nivel", "Ratio trabajo/descanso", "Rondas", "Descanso entre rondas", "Duración total"],
+      rows: [
+        ["Principiante", "20 s / 40 s", "3-4 rondas", "90 segundos", "20-25 min con calentamiento"],
+        ["Intermedio", "30 s / 30 s", "4-5 rondas", "60 segundos", "25-30 min con calentamiento"],
+        ["Avanzado", "40 s / 20 s", "5-6 rondas", "45 segundos", "30-35 min con calentamiento"],
+      ],
+    },
+    conclusion:
+      "El HIIT en casa es probablemente el método de entrenamiento con la mejor relación entre tiempo invertido y resultado cardiovascular. La rutina de este artículo cubre lo fundamental para un principiante: cinco ejercicios básicos, ratio de 20/40 para empezar con margen, y la estructura de calentamiento y vuelta a la calma que marca la diferencia entre progresar sin lesiones o pararte a las tres semanas. No necesitas material. Necesitas consistencia: 2-3 sesiones semanales con al menos 48 horas entre ellas. Cuando el 20/40 se quede corto, pasa a 30/30. Cuando el 30/30 sea cómodo, añade una ronda o incorpora bandas elásticas para subir la dificultad.",
+    faqs: [
+      {
+        q: "¿Cada cuánto se debe hacer HIIT?",
+        a: "El máximo recomendado para la mayoría de personas es 2-3 veces por semana, con al menos 48 horas de separación entre sesiones. El HIIT estresa el sistema nervioso central de forma significativa, y sin recuperación suficiente los resultados se estancan en lugar de mejorar. Si quieres entrenar más días, alterna HIIT con fuerza o con cardio de baja intensidad.",
+      },
+      {
+        q: "¿El HIIT sirve para ganar músculo?",
+        a: "El HIIT mejora la resistencia muscular y puede generar algo de hipertrofia en principiantes absolutos, pero no es la herramienta más eficiente para ganar masa muscular. Para eso, el entrenamiento de fuerza con resistencia progresiva es claramente superior. La combinación más efectiva para la composición corporal es HIIT 2 veces por semana para el cardiovascular y fuerza 2-3 veces para el músculo.",
+      },
+      {
+        q: "¿Puedo hacer HIIT si tengo sobrepeso?",
+        a: "Sí, con la versión de bajo impacto: sustituye los saltos por pasos, los jumping jacks por pasos laterales, y las flexiones por versiones en pared o de rodillas. La intensidad la marca el esfuerzo percibido, no el tipo de ejercicio. Empieza con el ratio 20/40 y solo 2 rondas si es la primera vez. El bajo impacto también protege las articulaciones mientras el peso va disminuyendo.",
+      },
+      {
+        q: "¿Cuándo se ven los resultados del HIIT?",
+        a: "Los primeros cambios en capacidad cardiovascular se notan en 2-3 semanas: el mismo esfuerzo que antes te dejaba sin aire se vuelve manejable. Los cambios visibles en composición corporal, con la alimentación acompañando, suelen empezar a apreciarse entre las semanas 4 y 6. La báscula no es el mejor indicador en las primeras semanas porque el entrenamiento de alta intensidad puede generar retención de agua por inflamación muscular; mide mejor cómo sienta la ropa.",
+      },
+    ],
+  },
+
+  "ejercicio-mujeres-40-anos-casa": {
+    intro:
+      "A partir de los 40, el cuerpo de una mujer cambia de formas concretas y medibles: el metabolismo basal disminuye entre un 1 y un 2 % por año, los niveles de estrógeno empiezan a fluctuar y la masa muscular se pierde más rápido si no se trabaja activamente. No significa que sea más difícil estar en forma después de los 40 — significa que la estrategia tiene que ser distinta. El entrenamiento que funcionaba a los 25 ya no da los mismos resultados, no porque el cuerpo haya capitulado, sino porque sus necesidades han cambiado. Esta guía explica qué cambia, por qué y qué hacer al respecto de forma concreta.",
+    sections: [
+      {
+        heading: "Por qué cambia el cuerpo después de los 40",
+        body: "La sarcopenia, que es la pérdida progresiva de masa muscular relacionada con la edad, empieza antes de lo que la mayoría espera: alrededor de los 30, aunque se acelera notablemente en la cuarta década. Sin músculo suficiente, el metabolismo basal cae, el cuerpo quema menos en reposo y la grasa se redistribuye preferentemente hacia el abdomen. Al mismo tiempo, los cambios hormonales del perimenopausia afectan a la calidad del sueño y a la recuperación: el cuerpo tarda más en repararse después del esfuerzo, y eso cambia cómo hay que planificar la frecuencia y la intensidad del entrenamiento. Los huesos también entran en la ecuación: la densidad ósea empieza a disminuir, y el entrenamiento de fuerza es una de las pocas intervenciones no farmacológicas con evidencia sólida para frenarla. La respuesta a todo esto no es entrenar más, es entrenar mejor.",
+      },
+      {
+        heading: "El error más frecuente: confiar solo en el cardio",
+        body: "El cardio está sobrevalorado como herramienta de pérdida de peso a largo plazo. Una sesión de 45 minutos en elíptica quema calorías durante esos 45 minutos y algunas pocas más en las horas siguientes. El entrenamiento de fuerza, en cambio, aumenta la masa muscular activa, y más músculo significa mayor gasto calórico en reposo las 24 horas del día, incluso durmiendo. Una mujer de 45 años que lleva meses corriendo y no ve resultados en la báscula casi siempre está cometiendo el mismo error: no está perdiendo grasa, está perdiendo músculo junto con la grasa, y el cardio no compensa esa pérdida. La evidencia es consistente: el entrenamiento de fuerza combinado con cardio produce mejores resultados en composición corporal que el cardio solo, especialmente en mujeres a partir de los 40. Añadir fuerza al programa no significa renunciar al cardio: significa que el cardio pasa a ser complementario, no protagonista.",
+      },
+      {
+        heading: "Rutina semanal recomendada",
+        body: "La distribución que mejor funciona para este perfil en la práctica: 3 días de entrenamiento de fuerza, 2 días de cardio de baja o media intensidad y 2 días de descanso o movilidad. Los días de fuerza no necesitan ser días de agotamiento total: la clave es la progresión gradual en carga y en volumen, no la extenuación.\n\nEjemplo de semana tipo:\nLunes — Fuerza (tren inferior + core)\nMartes — Cardio suave 30-40 min (caminata rápida, bicicleta estática o elíptica)\nMiércoles — Fuerza (tren superior + core)\nJueves — Descanso o yoga / movilidad\nViernes — Fuerza (full body con énfasis en cadena posterior)\nSábado — Cardio suave 30-40 min\nDomingo — Descanso completo\n\nEl descanso no es opcional. La recuperación es donde ocurre la adaptación, y a partir de los 40 el sistema nervioso central necesita más tiempo para recuperarse de sesiones intensas. Forzar más días de entreno sin descanso suficiente produce estancamiento y aumenta el riesgo de lesión.",
+      },
+      {
+        heading: "Ejercicios de fuerza más eficaces para esta etapa",
+        body: "Sentadillas y variantes (goblet squat, sentadilla sumo): el ejercicio de tren inferior con mayor retorno. Activa cuádriceps, glúteos e isquiotibiales, trabaja el core de forma estabilizadora y puede cargarse progresivamente con mancuernas o kettlebell. Error más frecuente: dejar que las rodillas vayan hacia dentro en la bajada.\n\nPeso muerto con mancuernas: el mejor ejercicio para la cadena posterior (glúteos, isquiotibiales, lumbares y espalda media). Una de las herramientas más potentes para la prevención de la pérdida de densidad ósea. Error más frecuente: redondear la espalda baja al bajar las mancuernas; mantén la columna neutra durante todo el recorrido.\n\nRemo con banda elástica o mancuerna: trabaja espalda media, romboides y bíceps. Fundamental para compensar la postura de quien trabaja muchas horas sentada. Error más frecuente: tirar con el codo en lugar de retraer el omóplato primero.\n\nPress de hombros con mancuernas: activa deltoides, tríceps y el core estabilizador. Contribuye a la salud del manguito de los rotadores, una zona frecuentemente débil y lesionada en mujeres después de los 40. Error más frecuente: hiperextender la zona lumbar al presionar arriba.\n\nPlancha y variantes (plancha lateral, plancha con extensión de brazo): el trabajo de core más completo para una sola posición. Protege la zona lumbar en todos los demás ejercicios y mejora la estabilidad general. Prefiere la plancha sobre antebrazos si hay molestias en las muñecas.",
+        productSlug: "lullax-neo36-mancuernas-ajustables",
+      },
+      {
+        heading: "Material mínimo y material óptimo",
+        body: "Material mínimo para empezar: una esterilla de calidad (imprescindible para el trabajo de suelo) y un set de bandas elásticas con al menos tres niveles de resistencia. Con eso puedes hacer el 80 % de la rutina descrita. El coste total es inferior a 50 euros y ocupa el espacio de una mochila.\n\nMaterial óptimo para progresar: añade mancuernas ajustables en el rango de 2,5 a 15 kg (o hasta 36 kg si prevés una progresión larga) y, para el cardio, una bicicleta estática o una elíptica. La bicicleta y la elíptica son preferibles a la cinta para este perfil porque eliminan el impacto articular que la rodilla y la cadera empiezan a acusar después de los 40.",
+        productSlug: "fokky-bandas-elasticas-set-4-tpe",
+      },
+      {
+        heading: "Alimentación y recuperación: lo que cambia después de los 40",
+        body: "La proteína es el nutriente más subestimado en mujeres a partir de los 40. La recomendación general de 0,8 g/kg de peso corporal es insuficiente cuando el objetivo es preservar o ganar masa muscular: la evidencia apunta a un rango de 1,6 a 2 g/kg como más efectivo para este objetivo. En la práctica, para una mujer de 65 kg significa entre 104 y 130 g de proteína diaria, distribuidos en 3-4 ingestas para optimizar la síntesis proteica. El calcio y la vitamina D son también prioritarios en esta etapa: la vitamina D mejora la absorción del calcio y tiene un papel directo en la función muscular. Conviene revisar los niveles con una analítica anual. En cuanto al sueño: hay una relación directa entre horas de sueño de calidad y composición corporal. La privación de sueño eleva el cortisol, que promueve el almacenamiento de grasa abdominal y dificulta la recuperación muscular. Ocho horas bien dormidas mejoran la composición corporal más que muchos entrenamientos adicionales.",
+      },
+    ],
+    comparison: {
+      headers: ["", "Solo cardio", "Fuerza + cardio"],
+      rows: [
+        ["Pérdida de grasa", "Sí, durante la sesión", "Sí, durante y hasta 24h después"],
+        ["Masa muscular", "Se mantiene o pierde", "Se preserva o aumenta"],
+        ["Metabolismo en reposo", "Sin cambio significativo", "Aumenta con más músculo activo"],
+        ["Densidad ósea", "Beneficio moderado", "Beneficio alto (fuerza con carga)"],
+        ["Riesgo articular", "Moderado-alto (impacto)", "Bajo si la técnica es correcta"],
+        ["Tiempo semanal necesario", "5-6 h para resultados reales", "4-5 h combinando ambos"],
+      ],
+    },
+    conclusion:
+      "Después de los 40, el entrenamiento de fuerza pasa de ser un extra a ser el eje del programa. No porque el cardio no sirva — sirve, y tiene su lugar — sino porque el músculo es el activo más importante para el metabolismo, la composición corporal y la salud ósea en esta etapa. La buena noticia es que el cuerpo responde bien al entrenamiento a cualquier edad: la sarcopenia no es inevitable, es prevenible. La rutina de este artículo, con tres días de fuerza y dos de cardio suave, más proteína suficiente y sueño de calidad, es el punto de partida más sólido para ver cambios reales en 4-8 semanas.",
+    faqs: [
+      {
+        q: "¿Se puede perder barriga después de los 40?",
+        a: "Sí, pero requiere una combinación de entrenamiento de fuerza, cardio moderado y un déficit calórico sostenible. La grasa abdominal que se acumula en la perimenopausia responde especialmente bien al entrenamiento de fuerza combinado con proteína suficiente. La clave es que el déficit sea moderado: los déficits agresivos en esta etapa aceleran la pérdida de masa muscular, lo que a largo plazo hace más difícil perder grasa.",
+      },
+      {
+        q: "¿Cuándo se empezarán a ver cambios?",
+        a: "Los primeros cambios funcionales, como más fuerza y menos fatiga en las escaleras, se notan en 2-3 semanas. Los cambios visuales en composición corporal suelen empezar a apreciarse entre las semanas 4 y 8, con consistencia en el entrenamiento y la alimentación. La báscula puede no moverse, o incluso subir ligeramente, porque el músculo pesa más que la grasa: el mejor indicador son las medidas y cómo sienta la ropa.",
+      },
+      {
+        q: "¿La menopausia impide perder peso?",
+        a: "No impide, pero sí dificulta y requiere ajustar la estrategia. Los cambios hormonales reducen la respuesta al entrenamiento y pueden aumentar el apetito, pero el cuerpo sigue respondiendo al déficit calórico y al estímulo del ejercicio. Lo que cambia es que el margen de error es menor: la estrategia tiene que ser más precisa en proteína, en recuperación y en la composición del entrenamiento.",
+      },
+      {
+        q: "¿Necesito un entrenador personal?",
+        a: "No es imprescindible, pero acelera el proceso. Un entrenador te ayuda a corregir la técnica antes de que los errores se conviertan en lesiones y a progresar la carga de forma inteligente. Si no es viable económicamente, hay una alternativa: aprende los cinco movimientos básicos descritos en este artículo con vídeos de referencia de calidad, empieza con pesos ligeros y grábate ocasionalmente para revisar la técnica. El tiempo que inviertes en aprender bien al principio es mucho menor que el que pierdes recuperándote de una lesión.",
+      },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {
