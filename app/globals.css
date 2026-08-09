@@ -1,8 +1,15 @@
+/* STAGED FIX — fitnessfacil.es — app/globals.css
+   CWV improvement: wire up the Geist font loaded by next/font in layout.tsx
+   so body text renders in Geist instead of system-ui/Arial.
+   Deploy: cp fitnessfacil-cwv-globals.css ../fitnessfacil/app/globals.css    */
+
 @import "tailwindcss";
 
-:root {
+@theme inline {
   --color-primary: #16a34a;
   --color-accent: #f97316;
+  /* CWV: map Tailwind's font-sans to the Geist variable injected by next/font */
+  --font-sans: var(--font-geist-sans);
 }
 
 html {
@@ -10,5 +17,7 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  /* CWV fix: use the Geist font variable injected by next/font; system-ui is
+     the fallback only before the font is available (display: swap).          */
+  font-family: var(--font-geist-sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
 }

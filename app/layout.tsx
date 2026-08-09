@@ -1,9 +1,30 @@
+// STAGED FIX — fitnessfacil.es — app/layout.tsx
+// CWV improvements applied on top of schema-layout.tsx:
+//   1. Added next/font (Geist, subsets: ["latin"]) — eliminates web-font FOUT,
+//      self-hosts via Next.js CDN, emits preload hint automatically.
+//   2. Added rel="preconnect" + dns-prefetch to AdSense domains — reduces
+//      TCP latency when the user accepts cookies.
+//   3. Added google-adsense-account meta tag — required for AdSense site verification.
+//   4. Wired geistSans.variable onto <html> so --font-geist-sans is available
+//      to globals.css (see fitnessfacil-cwv-globals.css).
+// Deploy: cp fitnessfacil-cwv-layout.tsx ../fitnessfacil/app/layout.tsx
+//         cp fitnessfacil-cwv-globals.css ../fitnessfacil/app/globals.css
+
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+
+/* CWV: next/font self-hosts Geist, subsets to latin, applies display:swap and
+   emits a <link rel="preload"> automatically — eliminates FOUT and the
+   render-blocking Google Fonts network round-trip.                            */
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -58,8 +79,14 @@ const organizationSchema = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es">
+    <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
+        {/* CWV: Preconnect to AdSense — opens TCP early so the script loads
+            faster the moment the user gives consent in the cookie banner.     */}
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+
         {/* Consent Mode v2: todo denegado por defecto hasta que el banner haga 'update'. */}
         <Script id="consent-mode-default" strategy="beforeInteractive">
           {`window.dataLayer = window.dataLayer || [];
@@ -72,6 +99,8 @@ gtag('consent', 'default', {
   wait_for_update: 500
 });`}
         </Script>
+        {/* AdSense site verification — ad script loaded conditionally by CookieBanner */}
+        <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       </head>
