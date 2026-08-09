@@ -1,13 +1,7 @@
 export default function AffiliateDisclosure() {
   return (
-    <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-sm text-amber-900 my-6">
-      <p className="font-semibold mb-1">ℹ️ Aviso de transparencia</p>
-      <p>
-        Este artículo contiene enlaces de afiliado de Amazon. Si realizas una compra a través de
-        estos enlaces, podemos recibir una pequeña comisión{" "}
-        <strong>sin ningún coste adicional para ti</strong>. Nuestras opiniones son siempre
-        honestas e independientes.
-      </p>
-    </div>
+    <p className="text-xs text-gray-400 my-5 pl-3 border-l-2 border-gray-200">
+      Este artículo contiene enlaces de afiliado a Amazon.es. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
+    </p>
   );
 }

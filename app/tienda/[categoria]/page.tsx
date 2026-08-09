@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { categories, getProductsByCategory } from "@/data/products";
+import { categories, getProductsByCategory, products } from "@/data/products";
 import { posts } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
 
@@ -97,78 +97,171 @@ export default async function CategoryPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
 
-      <section className="bg-gradient-to-br from-green-700 to-green-900 text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav className="text-green-300 text-sm mb-3">
-            <Link href="/" className="hover:text-white">Inicio</Link>
-            <span className="mx-2">›</span>
-            <Link href="/tienda" className="hover:text-white">Tienda</Link>
-            <span className="mx-2">›</span>
-            <span className="text-white">{cat.name}</span>
-          </nav>
-          <span className="text-3xl mb-3 block">{cat.icon}</span>
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-3">
-            {cat.name} — Guía de compra y comparativa 2025
-          </h1>
-          <p className="text-green-100 text-lg">{cat.description}</p>
-          <p className="text-green-300 text-sm mt-2">
-            {catProducts.length} productos analizados
-          </p>
-        </div>
-      </section>
-
-      {hasSupplement && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm text-blue-900">
-            <p className="font-semibold mb-1">⚕️ Aviso de salud</p>
-            <p>Este contenido es solo informativo. Consulta con un médico o dietista antes de tomar suplementos.</p>
-          </div>
-        </div>
-      )}
-
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {catProducts.map((p) => (
-            <ProductCard key={p.slug} product={p} />
-          ))}
-        </div>
-      </section>
-
-      {guide && (
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <h2 className="text-2xl font-extrabold text-gray-900 mb-6">
-            Guía de compra: cómo elegir {cat.name.toLowerCase()}
-          </h2>
-          <div className="space-y-4 text-gray-700">
-            <p>{guide.intro}</p>
-            <p>{guide.middle}</p>
-            <p>{guide.conclusion}</p>
-          </div>
-        </section>
-      )}
-
-      {relatedPosts.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-14">
-          <h2 className="text-xl font-extrabold text-gray-900 mb-4">Artículos relacionados</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {relatedPosts.map((post) => (
+      {/* Mobile: category pills with active state */}
+      <div className="md:hidden bg-white border-b border-gray-200 px-4 py-3 overflow-x-auto">
+        <div className="flex gap-2 min-w-max">
+          {categories.map((catItem) => {
+            const isActive = catItem.slug === categoria;
+            return (
               <Link
-                key={post.slug}
-                href={`/blog/${post.slug}`}
-                className="group bg-white border border-gray-200 hover:border-green-300 rounded-xl p-4 transition-all"
+                key={catItem.slug}
+                href={`/tienda/${catItem.slug}`}
+                className={`flex items-center gap-1.5 whitespace-nowrap text-sm font-medium px-3 py-1.5 rounded-full transition-colors ${
+                  isActive
+                    ? "bg-green-700 text-white"
+                    : "bg-gray-100 hover:bg-green-700 hover:text-white text-gray-700"
+                }`}
               >
-                <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
-                  {post.category}
-                </span>
-                <h3 className="font-bold text-gray-900 mt-2 group-hover:text-green-700 transition-colors text-sm leading-snug">
-                  {post.title}
-                </h3>
-                <p className="text-xs text-gray-500 mt-1">{post.readTime} de lectura</p>
+                <span>{catItem.icon}</span>
+                <span>{catItem.name}</span>
               </Link>
-            ))}
-          </div>
-        </section>
-      )}
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex gap-8">
+          {/* Desktop sidebar */}
+          <aside className="hidden md:block w-56 lg:w-64 flex-shrink-0">
+            <div className="sticky top-4">
+              <div className="bg-green-700 text-white px-4 py-3 rounded-t-lg">
+                <h2 className="font-bold text-sm uppercase tracking-wide">Categorías</h2>
+              </div>
+              <nav className="bg-white border border-t-0 border-gray-200 rounded-b-lg overflow-hidden">
+                {categories.map((catItem) => {
+                  const isActive = catItem.slug === categoria;
+                  const count = products.filter((p) => p.categorySlug === catItem.slug).length;
+                  return (
+                    <Link
+                      key={catItem.slug}
+                      href={`/tienda/${catItem.slug}`}
+                      className={`flex items-center justify-between px-4 py-3 border-b border-gray-100 last:border-0 transition-colors group ${
+                        isActive ? "bg-green-700" : "hover:bg-green-50"
+                      }`}
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <span className="text-lg">{catItem.icon}</span>
+                        <span
+                          className={`text-sm font-medium ${
+                            isActive
+                              ? "text-white"
+                              : "text-gray-800 group-hover:text-green-700"
+                          }`}
+                        >
+                          {catItem.name}
+                        </span>
+                      </div>
+                      <span
+                        className={`text-xs px-1.5 py-0.5 rounded-full ${
+                          isActive
+                            ? "bg-green-600 text-white"
+                            : "text-gray-400 bg-gray-100 group-hover:bg-green-100 group-hover:text-green-700"
+                        }`}
+                      >
+                        {count}
+                      </span>
+                    </Link>
+                  );
+                })}
+              </nav>
+            </div>
+          </aside>
+
+          {/* Main content */}
+          <main className="flex-1 min-w-0">
+            {/* Compact header */}
+            <div className="mb-5">
+              <nav className="text-gray-500 text-sm mb-3">
+                <Link href="/" className="hover:text-green-700">
+                  Inicio
+                </Link>
+                <span className="mx-1.5">›</span>
+                <Link href="/tienda" className="hover:text-green-700">
+                  Tienda
+                </Link>
+                <span className="mx-1.5">›</span>
+                <span className="text-gray-800">{cat.name}</span>
+              </nav>
+              <div className="flex items-center gap-3">
+                <span className="text-4xl">{cat.icon}</span>
+                <div>
+                  <h1 className="text-2xl font-extrabold text-gray-900 leading-tight">
+                    {cat.name} — Guía de compra 2025
+                  </h1>
+                  <p className="text-gray-600 text-sm mt-0.5">{cat.description}</p>
+                </div>
+              </div>
+            </div>
+
+            {hasSupplement && (
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm text-blue-900 mb-5">
+                <p className="font-semibold mb-1">⚕️ Aviso de salud</p>
+                <p>
+                  Este contenido es solo informativo. Consulta con un médico o dietista antes de
+                  tomar suplementos.
+                </p>
+              </div>
+            )}
+
+            {/* Product count bar */}
+            <div className="flex items-center mb-4 pb-3 border-b border-gray-200">
+              <p className="text-sm text-gray-600">
+                <span className="text-green-700 font-bold">{catProducts.length}</span> productos
+                analizados
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+              {catProducts.map((p) => (
+                <ProductCard key={p.slug} product={p} />
+              ))}
+            </div>
+
+            {guide && (
+              <div className="mt-10">
+                <h2 className="text-xl font-extrabold text-gray-900 mb-4">
+                  Guía de compra: cómo elegir {cat.name.toLowerCase()}
+                </h2>
+                <div className="space-y-4 text-gray-700 text-sm leading-relaxed">
+                  <p>{guide.intro}</p>
+                  <p>{guide.middle}</p>
+                  <p>{guide.conclusion}</p>
+                </div>
+              </div>
+            )}
+
+            {relatedPosts.length > 0 && (
+              <div className="mt-8 pb-6">
+                <h2 className="text-lg font-extrabold text-gray-900 mb-4">
+                  Artículos relacionados
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {relatedPosts.map((post) => (
+                    <Link
+                      key={post.slug}
+                      href={`/blog/${post.slug}`}
+                      className="group bg-white border border-gray-200 hover:border-green-300 rounded-xl p-4 transition-all"
+                    >
+                      <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
+                        {post.category}
+                      </span>
+                      <h3 className="font-bold text-gray-900 mt-2 group-hover:text-green-700 transition-colors text-sm leading-snug">
+                        {post.title}
+                      </h3>
+                      <p className="text-xs text-gray-500 mt-1">{post.readTime} de lectura</p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <p className="text-xs text-gray-400 mt-8 pl-3 border-l-2 border-gray-200">
+              Enlace de afiliado Amazon Associates. Recibimos una comisión sin coste adicional para ti.
+            </p>
+          </main>
+        </div>
+      </div>
     </>
   );
 }

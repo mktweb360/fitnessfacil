@@ -14,7 +14,8 @@ const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Tienda FitnessFácil — Equipamiento para Casa",
-  description: "Equipamiento fitness para entrenar en casa: cintas, bicicletas, pesas, esterillas y suplementos.",
+  description:
+    "Equipamiento fitness para entrenar en casa: cintas, bicicletas, pesas, esterillas y suplementos.",
   url: "https://www.fitnessfacil.es/tienda",
 };
 
@@ -23,64 +24,95 @@ export default function TiendaPage() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
 
-      <section className="bg-gradient-to-br from-green-700 to-green-900 text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto">
-          <nav className="text-green-300 text-sm mb-3">
-            <Link href="/" className="hover:text-white">Inicio</Link>
-            <span className="mx-2">›</span>
-            <span className="text-white">Tienda</span>
-          </nav>
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-3">
-            Tienda — Equipamiento para Entrenar en Casa
-          </h1>
-          <p className="text-green-100 text-lg">
-            Analizamos y comparamos el mejor equipamiento fitness para que entrenes en casa sin
-            salir al gimnasio. Todos los productos con análisis honestos y precios actualizados.
-          </p>
-        </div>
-      </section>
-
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl font-extrabold text-gray-900 mb-6">Categorías</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      {/* Mobile: category pills */}
+      <div className="md:hidden bg-white border-b border-gray-200 px-4 py-3 overflow-x-auto">
+        <div className="flex gap-2 min-w-max">
           {categories.map((cat) => {
             const count = products.filter((p) => p.categorySlug === cat.slug).length;
             return (
               <Link
                 key={cat.slug}
                 href={`/tienda/${cat.slug}`}
-                className="group bg-white border border-gray-200 hover:border-green-400 hover:shadow-lg rounded-xl p-5 transition-all"
+                className="flex items-center gap-1.5 whitespace-nowrap text-sm font-medium px-3 py-1.5 rounded-full bg-gray-100 hover:bg-green-700 hover:text-white transition-colors text-gray-700"
               >
-                <span className="text-3xl mb-3 block">{cat.icon}</span>
-                <h3 className="font-bold text-gray-900 text-sm group-hover:text-green-700 transition-colors leading-snug mb-1">
-                  {cat.name}
-                </h3>
-                <p className="text-xs text-gray-500 mb-2">{cat.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-gray-400">Ver categoría</span>
-                  <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
-                    {count} productos
-                  </span>
-                </div>
+                <span>{cat.icon}</span>
+                <span>{cat.name}</span>
+                <span className="text-xs opacity-60">({count})</span>
               </Link>
             );
           })}
         </div>
-      </section>
+      </div>
 
-      <section className="bg-gray-50 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-gray-900 mb-2">Productos destacados</h2>
-          <p className="text-gray-600 mb-8">Los mejor valorados de toda nuestra tienda</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {featured.map((p) => (
-              <ProductCard key={p.slug} product={p} />
-            ))}
-          </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex gap-8">
+          {/* Desktop sidebar */}
+          <aside className="hidden md:block w-56 lg:w-64 flex-shrink-0">
+            <div className="sticky top-4">
+              <div className="bg-green-700 text-white px-4 py-3 rounded-t-lg">
+                <h2 className="font-bold text-sm uppercase tracking-wide">Categorías</h2>
+              </div>
+              <nav className="bg-white border border-t-0 border-gray-200 rounded-b-lg overflow-hidden">
+                {categories.map((cat) => {
+                  const count = products.filter((p) => p.categorySlug === cat.slug).length;
+                  return (
+                    <Link
+                      key={cat.slug}
+                      href={`/tienda/${cat.slug}`}
+                      className="flex items-center justify-between px-4 py-3 border-b border-gray-100 last:border-0 hover:bg-green-50 transition-colors group"
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <span className="text-lg">{cat.icon}</span>
+                        <span className="text-sm font-medium text-gray-800 group-hover:text-green-700">
+                          {cat.name}
+                        </span>
+                      </div>
+                      <span className="text-xs text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded-full group-hover:bg-green-100 group-hover:text-green-700">
+                        {count}
+                      </span>
+                    </Link>
+                  );
+                })}
+              </nav>
+            </div>
+          </aside>
+
+          {/* Main content */}
+          <main className="flex-1 min-w-0">
+            <div className="mb-6">
+              <nav className="text-gray-500 text-sm mb-2">
+                <Link href="/" className="hover:text-green-700">
+                  Inicio
+                </Link>
+                <span className="mx-1.5">›</span>
+                <span className="text-gray-800">Tienda</span>
+              </nav>
+              <h1 className="text-2xl font-extrabold text-gray-900 mb-1">
+                Equipamiento para entrenar en casa
+              </h1>
+              <p className="text-gray-600 text-sm">
+                Analizamos y comparamos el mejor equipamiento fitness para tu gym en casa. Precios
+                actualizados y análisis honestos.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+              {featured.map((p) => (
+                <ProductCard key={p.slug} product={p} />
+              ))}
+            </div>
+
+            <p className="text-xs text-gray-400 mt-8 pl-3 border-l-2 border-gray-200">
+              Enlace de afiliado Amazon Associates. Recibimos una comisión sin coste adicional para ti.
+            </p>
+          </main>
         </div>
-      </section>
+      </div>
     </>
   );
 }
