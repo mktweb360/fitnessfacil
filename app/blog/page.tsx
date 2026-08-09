@@ -46,26 +46,38 @@ export default function BlogPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group bg-white border border-gray-200 hover:border-green-300 hover:shadow-md rounded-xl p-6 transition-all"
+              className="group bg-white border border-gray-200 hover:border-green-300 hover:shadow-md rounded-xl overflow-hidden transition-all"
             >
-              <div className="flex items-start justify-between mb-3">
-                <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
-                  {post.category}
-                </span>
-                {post.isSupplement && (
-                  <span className="text-xs text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">⚕️ Suplementos</span>
-                )}
-              </div>
-              <h2 className="font-bold text-gray-900 mb-2 group-hover:text-green-700 transition-colors leading-snug">
-                {post.title}
-              </h2>
-              <p className="text-sm text-gray-600 line-clamp-2 mb-4">{post.excerpt}</p>
-              <div className="flex items-center gap-3 text-xs text-gray-400">
-                <time dateTime={post.date}>
-                  {new Date(post.date).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" })}
-                </time>
-                <span>·</span>
-                <span>{post.readTime} de lectura</span>
+              {post.image && (
+                <div className="overflow-hidden bg-gray-100">
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
+              )}
+              <div className="p-6">
+                <div className="flex items-start justify-between mb-3">
+                  <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
+                    {post.category}
+                  </span>
+                  {post.isSupplement && (
+                    <span className="text-xs text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">⚕️ Suplementos</span>
+                  )}
+                </div>
+                <h2 className="font-bold text-gray-900 mb-2 group-hover:text-green-700 transition-colors leading-snug">
+                  {post.title}
+                </h2>
+                <p className="text-sm text-gray-600 line-clamp-2 mb-4">{post.excerpt}</p>
+                <div className="flex items-center gap-3 text-xs text-gray-400">
+                  <time dateTime={post.date}>
+                    {new Date(post.date).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" })}
+                  </time>
+                  <span>·</span>
+                  <span>{post.readTime} de lectura</span>
+                </div>
               </div>
             </Link>
           ))}
