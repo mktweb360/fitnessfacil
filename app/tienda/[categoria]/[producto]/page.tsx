@@ -129,6 +129,15 @@ export default async function ProductPage({ params }: Props) {
             {product.name} — Análisis y opinión 2025
           </h1>
 
+          <div className="rounded-2xl overflow-hidden bg-gray-100 mb-6">
+            <img
+              src={`/images/products/${product.categorySlug}.jpg`}
+              alt={product.name}
+              className="w-full h-64 object-cover"
+              loading="eager"
+            />
+          </div>
+
           <p className="text-gray-700 text-lg mt-2 mb-6">{product.shortDescription}</p>
 
           {product.isSupplement && <SupplementDisclaimer />}
@@ -138,14 +147,17 @@ export default async function ProductPage({ params }: Props) {
               <p className="text-sm font-semibold text-gray-700">Disponible en Amazon España</p>
               <p className="text-xs text-gray-400 mt-0.5">Consulta el precio actualizado y las opiniones en la ficha de Amazon</p>
             </div>
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer sponsored"
-              className="sm:ml-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-xl text-lg transition-colors shadow-md"
-            >
-              Ver precio en Amazon →
-            </a>
+            <div className="sm:ml-auto text-center">
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-xl text-lg transition-colors shadow-md"
+              >
+                🛒 Comprar en Amazon →
+              </a>
+              <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
+            </div>
           </div>
 
           <AffiliateDisclosure />
@@ -204,9 +216,9 @@ export default async function ProductPage({ params }: Props) {
             rel="noopener noreferrer sponsored"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-10 rounded-xl text-lg transition-colors shadow-md"
           >
-            Ver precio en Amazon →
+            🛒 Comprar en Amazon →
           </a>
-          <p className="text-xs text-gray-400 mt-3">Enlace de afiliado — si compras ganamos una comisión sin coste para ti</p>
+          <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
         </div>
 
         {faqs.length > 0 && (
@@ -241,7 +253,7 @@ export default async function ProductPage({ params }: Props) {
           </div>
         )}
 
-                {related.length > 0 && (
+        {related.length > 0 && (
           <section>
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">
               Otros {cat?.name.toLowerCase()} que te pueden interesar

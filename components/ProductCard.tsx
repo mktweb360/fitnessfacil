@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Product } from "@/data/products";
-import { amazonLink } from "@/lib/amazon";
 
 const CATEGORY_IMAGES: Record<string, string> = {
   "cintas-correr": "/images/products/cintas-correr.jpg",
@@ -15,9 +14,9 @@ export default function ProductCard({ product }: { product: Product }) {
   const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/cintas-correr.jpg";
   return (
     <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-      <a href={amazonLink(product.asin)} target="_blank" rel="noopener noreferrer sponsored" className="block overflow-hidden bg-gray-50">
+      <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">
         <img src={imgSrc} alt={product.name} className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
-      </a>
+      </Link>
       <div className="p-5 flex flex-col flex-1">
         {product.badge && (
           <span className="self-start text-xs font-bold text-white bg-orange-500 px-2 py-0.5 rounded-full mb-3">
@@ -31,22 +30,12 @@ export default function ProductCard({ product }: { product: Product }) {
             ⚕️ Consulta con un médico antes de tomar suplementos
           </p>
         )}
-        <div className="flex gap-2 flex-col sm:flex-row">
-          <a
-            href={amazonLink(product.asin)}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="flex-1 text-center bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2.5 px-3 rounded-lg transition-colors text-sm"
-          >
-            Ver precio en Amazon →
-          </a>
-          <Link
-            href={`/tienda/${product.categorySlug}/${product.slug}`}
-            className="flex-1 text-center border border-green-600 text-green-700 hover:bg-green-50 font-semibold py-2.5 px-3 rounded-lg transition-colors text-sm"
-          >
-            Análisis completo
-          </Link>
-        </div>
+        <Link
+          href={`/tienda/${product.categorySlug}/${product.slug}`}
+          className="block text-center border border-green-600 text-green-700 hover:bg-green-50 font-semibold py-2.5 px-3 rounded-lg transition-colors text-sm"
+        >
+          Ver análisis y precio →
+        </Link>
       </div>
     </div>
   );
