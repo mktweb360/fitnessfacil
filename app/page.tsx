@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { categories, getFeaturedProducts } from "@/data/products";
 import { getLatestPosts } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
+import HeroBackground from "@/components/HeroBackground";
 
 export const metadata: Metadata = {
   title: "FitnessFácil — Entrena en Casa sin Salir al Gimnasio",
@@ -18,8 +19,9 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-gradient-to-br from-green-700 to-green-900 text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative overflow-hidden text-white py-24 px-4" style={{minHeight: "520px"}}>
+        <HeroBackground overlay="from-green-900/90 via-green-800/80 to-green-900/85" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <span className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
             Fitness en casa 🏠
           </span>
