@@ -8,10 +8,11 @@ const CATEGORY_IMAGES: Record<string, string> = {
   "esterillas-yoga": "/images/products/esterillas-yoga.jpg",
   "suplementos-proteinas": "/images/products/suplementos-proteinas.jpg",
   "elipticas": "/images/products/elipticas.jpg",
+  "bandas-resistencia": "/images/products/bandas-resistencia.jpg",
 };
 
 export default function ProductCard({ product }: { product: Product }) {
-  const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/cintas-correr.jpg";
+  const imgSrc = product.image ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/cintas-correr.jpg";
   return (
     <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
       <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">
