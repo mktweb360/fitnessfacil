@@ -392,9 +392,9 @@ export const products: Product[] = [
   ],
   },
   {
-    slug: "domyos-t520b-cinta-correr",
-    name: "Domyos T520B Cinta de Correr Plegable",
-    asin: "TODOASIN-FF01",
+    slug: "toorx-voyager-plus-cinta-correr",
+    name: "Toorx Voyager Plus Cinta de Correr Plegable",
+    asin: "B09MV4DH96",
     price: "€699,99",
     priceMin: 699,
     rating: 4.4,
@@ -429,7 +429,7 @@ export const products: Product[] = [
   {
     slug: "horizon-t101-cinta-correr",
     name: "Horizon Fitness T101 Cinta de Correr",
-    asin: "TODOASIN-FF02",
+    asin: "B07FPRYTSK",
     price: "€999,99",
     priceMin: 999,
     rating: 4.6,
@@ -460,7 +460,7 @@ export const products: Product[] = [
   {
     slug: "nordictrack-t65s-cinta-correr",
     name: "NordicTrack T 6.5 S Cinta de Correr",
-    asin: "TODOASIN-FF03",
+    asin: "B09GRM4STB",
     price: "€1299,99",
     priceMin: 1299,
     rating: 4.7,
@@ -495,9 +495,9 @@ export const products: Product[] = [
 
 // ─── bicicletas-estaticas ────────────────────────────────────
   {
-    slug: "domyos-ve520-bicicleta-estatica",
-    name: "Domyos VE520 Bicicleta Estática",
-    asin: "TODOASIN-FF04",
+    slug: "kettler-avior-m-bicicleta-estatica",
+    name: "Kettler Avior M Bicicleta Estática",
+    asin: "B09S6TL9HP",
     price: "€399,99",
     priceMin: 399,
     rating: 4.3,
@@ -528,7 +528,7 @@ export const products: Product[] = [
   {
     slug: "sportstech-sx400-bicicleta-indoor",
     name: "Sportstech SX400 Bicicleta Indoor",
-    asin: "TODOASIN-FF05",
+    asin: "B01DPT6SJ4",
     categoryName: "Bicicletas estáticas",
     fullDescription: "La Sportstech SX400 cuenta con volante de inercia de 14 kg y 24 niveles de resistencia magnética para simular cualquier tipo de terreno. Conectividad Bluetooth con app dedicada para seguimiento de métricas. Soporte para tablet integrado en el manillar. Pedales antideslizantes con calapies. Peso máximo de usuario: 130 kg. Ruedas de transporte para moverla fácilmente.",
     price: "€599,99",
@@ -561,9 +561,9 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "bowflex-velocore-bicicleta",
-    name: "Bowflex VeloCore 16 Bicicleta Indoor",
-    asin: "TODOASIN-FF06",
+    slug: "sportstech-sx600-bicicleta-indoor",
+    name: "Sportstech SX600 Elite Bicicleta Indoor",
+    asin: "B08RDRYTL6",
     price: "€1799,99",
     priceMin: 1799,
     rating: 4.6,
@@ -632,7 +632,7 @@ export const products: Product[] = [
   {
     slug: "powerblock-sport-24-mancuernas-ajustables",
     name: "PowerBlock Sport 24 Mancuernas Ajustables",
-    asin: "TODOASIN-FF07",
+    asin: "B004IZKPJ4",
     price: "€299,99",
     priceMin: 299,
     rating: 4.8,
@@ -664,7 +664,7 @@ export const products: Product[] = [
   {
     slug: "bowflex-selecttech-552-mancuernas",
     name: "Bowflex SelectTech 552 Mancuernas Ajustables",
-    asin: "TODOASIN-FF08",
+    asin: "B001ARYU58",
     price: "€399,99",
     priceMin: 399,
     rating: 4.7,
@@ -701,7 +701,7 @@ export const products: Product[] = [
   {
     slug: "manduka-pro-yoga-mat-6mm",
     name: "Manduka PRO Yoga Mat 6mm",
-    asin: "TODOASIN-FF09",
+    asin: "B01CSUMUUM",
     price: "€139,99",
     priceMin: 139,
     rating: 4.7,
@@ -771,7 +771,7 @@ export const products: Product[] = [
   {
     slug: "jade-harmony-esterilla-yoga-natural",
     name: "Jade Harmony Esterilla Yoga Caucho Natural",
-    asin: "TODOASIN-FF10",
+    asin: "B000EC9LMM",
     price: "€79,99",
     priceMin: 79,
     rating: 4.6,
@@ -840,7 +840,7 @@ export const products: Product[] = [
   {
     slug: "myprotein-impact-whey-2-5kg",
     name: "MyProtein Impact Whey Protein 2,5 kg",
-    asin: "TODOASIN-FF11",
+    asin: "B00MGN8GUA",
     price: "€44,99",
     priceMin: 44,
     rating: 4.6,
@@ -876,7 +876,7 @@ export const products: Product[] = [
   {
     slug: "hsn-evowhey-protein-2kg",
     name: "HSN EvoWhey Protein 2 kg",
-    asin: "TODOASIN-FF12",
+    asin: "B01L22XMZY",
     price: "€39,99",
     priceMin: 39,
     rating: 4.5,
