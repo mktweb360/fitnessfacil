@@ -36,6 +36,7 @@ const articleContent: Record<string, {
   comparison?: { headers: string[]; rows: string[][] };
   plan?: Array<{ week: string; description: string; sessions: string[] }>;
   conclusion: string;
+  sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
   "mejor-cinta-correr-casa-2025": {
@@ -2153,6 +2154,12 @@ const AUTHOR = {
               <h2 className="text-lg font-extrabold text-gray-900 mb-3">Conclusión</h2>
               <p className="text-gray-700 leading-relaxed">{content.conclusion}</p>
             </section>
+            {content.sources && content.sources.length > 0 && (
+              <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
+                <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
+                <ul className="space-y-0.5">{content.sources.map((src, i) => (<li key={i}><a href={src.url} target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>))}</ul>
+              </div>
+            )}
           </article>
         )}
 
