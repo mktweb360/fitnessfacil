@@ -5,6 +5,7 @@ import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
+import BlogSidebar from "@/components/BlogSidebar";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
 import ProductCard from "@/components/ProductCard";
 
@@ -2064,7 +2065,9 @@ const AUTHOR = {
         </div>
       </section>
 
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
+      <div className="max-w-6xl mx-auto px-4 py-10">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+      <div>
         {post.image && (
           <div className="mb-8 -mx-4 sm:-mx-6 overflow-hidden rounded-xl">
             <img src={post.image} alt={post.title} className="w-full h-56 sm:h-72 object-cover" loading="eager" />
@@ -2230,6 +2233,9 @@ const AUTHOR = {
             ← Volver al blog
           </Link>
         </div>
+      </div>
+        <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
+      </div>
       </div>
     </>
   );
