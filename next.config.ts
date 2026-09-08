@@ -47,6 +47,11 @@ const nextConfig: NextConfig = {
         destination: "/tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey-226kg",
         permanent: true,
       },
+      {
+        source: "/tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey-2kg",
+        destination: "/tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey-226kg",
+        permanent: true,
+      },
     ];
   },
 };

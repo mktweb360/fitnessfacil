@@ -788,6 +788,133 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver equipamiento de fuerza →" },
   },
+  {
+    slug: "primera-dominada-banda-asistencia-progresion",
+    image: "/images/blog/primera-dominada-banda-asistencia-progresion.jpg",
+    title: "Cómo conseguir tu primera dominada: banda de asistencia y plan de progresión (2026)",
+    excerpt:
+      "Guía práctica para llegar a tu primera dominada completa: cómo elegir el nivel de banda de asistencia, plan de progresión semana a semana y errores que frenan el avance.",
+    date: "2026-09-02",
+    category: "Fuerza",
+    readTime: "9 min",
+    relatedProducts: [
+      "pullup-dip-banda-resistencia-elastica-media",
+      "pullup-dip-banda-resistencia-elastica-ligera",
+    ],
+    relatedPosts: [
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+      "bandas-elasticas-musculacion-guia",
+      "rutina-mancuernas-casa-semana",
+    ],
+    categoryCta: { href: "/tienda/bandas-resistencia", text: "Ver bandas de resistencia para dominadas →" },
+  },
+  {
+    slug: "suplementos-recuperacion-muscular-magnesio-omega3-bcaa",
+    image: "/images/blog/suplementos-recuperacion-muscular-magnesio-omega3-bcaa.jpg",
+    title: "Suplementos para la recuperación muscular: magnesio, omega-3 y BCAA, qué funciona de verdad (2026)",
+    excerpt:
+      "Comparativa honesta de los tres suplementos de recuperación más buscados: qué evidencia respalda a cada uno, cuándo tiene sentido tomarlos y cuándo el dinero rinde más en otra cosa.",
+    date: "2026-09-07",
+    category: "Nutrición",
+    readTime: "10 min",
+    isSupplement: true,
+    relatedProducts: [
+      "hsn-evozma-magnesio-zinc-b6-120caps",
+      "amix-super-omega-3-90-capsulas",
+      "best-protein-bcaa-glutamina-500g-sandia",
+    ],
+    relatedPosts: [
+      "suplementos-fitness-casa-necesarios",
+      "creatina-monohidrato-guia-completa",
+      "mejor-suplemento-pre-entreno",
+    ],
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver suplementos de recuperación →" },
+  },
+  {
+    slug: "mobiclinic-extenfit-mancuernas-analisis",
+    image: "/images/blog/mobiclinic-extenfit-mancuernas-analisis.jpg",
+    title: "Mobiclinic ExtenFit: análisis completo de las mancuernas ajustables 2 en 1",
+    excerpt:
+      "Analizamos el kit de mancuernas ajustables más valorado del catálogo: cómo funciona el sistema 2 en 1, para quién tiene sentido y sus limitaciones reales.",
+    date: "2026-09-07",
+    category: "Fuerza",
+    readTime: "8 min",
+    relatedProducts: [
+      "mobiclinic-extenfit-mancuernas-2en1",
+      "yaheetech-kit-mancuernas-16-discos",
+      "jupplies-mancuernas-15-niveles-24kg",
+    ],
+    relatedPosts: [
+      "mancuernas-ajustables-vs-fijas",
+      "mancuernas-ajustables-merece-pena",
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+    ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver mancuernas ajustables en tienda →" },
+  },
+  {
+    slug: "proteina-soja-vegana-hsn-analisis",
+    image: "/images/blog/proteina-soja-vegana-hsn-analisis.jpg",
+    title: "Proteína de soja vegana HSN: análisis completo para quien no toma whey",
+    excerpt:
+      "Aminograma, digestión, sabor y cómo se compara con la whey tradicional: todo lo que hay que saber antes de elegir una proteína vegetal.",
+    date: "2026-09-07",
+    category: "Nutrición",
+    readTime: "8 min",
+    isSupplement: true,
+    relatedProducts: [
+      "hsn-proteina-soja-vegana-2kg",
+      "hsn-evowhey-protein-2kg",
+      "healthy-fusion-whey-colageno-1kg",
+    ],
+    relatedPosts: [
+      "proteina-vegana-vs-whey",
+      "proteina-whey-guia-completa",
+      "suplementos-fitness-casa-necesarios",
+    ],
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
+  },
+  {
+    slug: "toputure-bicicleta-respaldo-analisis",
+    image: "/images/blog/toputure-bicicleta-respaldo-analisis.jpg",
+    title: "Toputure con respaldo: análisis de la bicicleta estática más cómoda del catálogo",
+    excerpt:
+      "Por qué una bicicleta con respaldo (tipo recumbent) puede ser mejor opción que una de spinning vertical si tienes molestias de espalda o buscas más comodidad.",
+    date: "2026-09-07",
+    category: "Cardio",
+    readTime: "7 min",
+    relatedProducts: [
+      "toputure-bicicleta-5en1-respaldo",
+      "merach-bicicleta-plegable-resistencia-magnetica",
+      "cursor-bicicleta-spinning-16-niveles",
+    ],
+    relatedPosts: [
+      "mejor-bicicleta-estatica-casa-2025",
+      "bicicleta-estatica-o-eliptica",
+      "bicicleta-estatica-adelgazar-resultados",
+    ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas para casa →" },
+  },
+  {
+    slug: "portentum-bandas-anclaje-puerta-analisis",
+    image: "/images/blog/portentum-bandas-anclaje-puerta-analisis.jpg",
+    title: "PORTENTUM: análisis del kit de bandas con anclaje de puerta más completo",
+    excerpt:
+      "Cómo simular ejercicios de polea de gimnasio en casa con un kit de bandas, asas y anclaje de puerta. Qué ejercicios puedes hacer y qué esperar del material.",
+    date: "2026-09-07",
+    category: "Entrenamiento",
+    readTime: "7 min",
+    relatedProducts: [
+      "portentum-gomas-set-10-anclaje-puerta",
+      "fokky-gomas-elasticas-set-5-latex",
+      "pleasion-bandas-tela-set-5",
+    ],
+    relatedPosts: [
+      "bandas-elasticas-musculacion-guia",
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+      "rutina-entrenamiento-casa-sin-equipamiento",
+    ],
+    categoryCta: { href: "/tienda/bandas-resistencia", text: "Ver bandas de resistencia en tienda →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

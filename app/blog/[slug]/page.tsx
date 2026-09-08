@@ -1964,6 +1964,287 @@ const articleContent: Record<string, {
       },
     ],
   },
+
+  "primera-dominada-banda-asistencia-progresion": {
+    intro:
+      "La dominada es el ejercicio de tren superior con peor tasa de éxito entre quienes entrenan en casa: requiere mover el 100% del peso corporal contra la gravedad tirando de un solo punto de apoyo, y la mayoría de personas —especialmente mujeres, por diferencias de fuerza relativa de tren superior— no pueden hacer ni una sola repetición sin haber entrenado específicamente para ello antes. La banda de asistencia es la herramienta con más evidencia práctica para resolver ese problema: no sustituye el trabajo, pero permite practicar el patrón de movimiento completo desde el primer día, en lugar de limitarte a ejercicios auxiliares que nunca llegan a parecerse a una dominada real.",
+    sections: [
+      {
+        heading: "Por qué la banda funciona mejor que las alternativas",
+        body: "Las alternativas más comunes para progresar hacia la dominada —jalones en polea, remo con mancuernas, dominadas negativas sueltas— entrenan músculos parecidos pero no el patrón motor completo. La banda de asistencia, en cambio, te permite ejecutar el gesto íntegro (tirar desde el cuelgue hasta la barbilla sobre la barra) con menos peso corporal efectivo. Cuanto más gruesa y ancha es la banda, más se estira al colgarte de ella y más empuje hacia arriba genera en la parte baja del recorrido, que es justo donde la mayoría de personas fallan. La curva de asistencia no es uniforme: ayuda más al principio del tirón y menos cerca de la barra, lo cual coincide con el punto donde el movimiento es objetivamente más difícil.",
+        productSlug: "pullup-dip-banda-resistencia-elastica-media",
+      },
+      {
+        heading: "Cómo elegir el nivel de banda según tu punto de partida",
+        body: "Si hoy no puedes hacer ni una negativa controlada de 5 segundos (bajar despacio desde la posición alta), empieza con el nivel medio: notarás una asistencia clara y podrás acumular varias repeticiones completas por serie. Si ya haces negativas controladas y alguna repetición parcial pero te falta rango, el nivel extra ligero es el paso siguiente: la asistencia es mínima y el estímulo se acerca mucho al de la dominada libre. Un error frecuente es quedarse demasiado tiempo en el nivel más asistido por comodidad: la banda debe sentirse ligeramente incómoda en las últimas repeticiones de cada serie, no fácil. Si completas todas las series con margen de sobra dos entrenamientos seguidos, es la señal de bajar de nivel de asistencia.",
+        productSlug: "pullup-dip-banda-resistencia-elastica-ligera",
+      },
+      {
+        heading: "Plan de progresión de 6 semanas",
+        body: "Semanas 1-2: 4 series de 4-6 repeticiones con banda nivel medio, descanso de 90 segundos, dos sesiones por semana no consecutivas. Semanas 3-4: mismo volumen pero alternando una serie sin banda al fallo (aunque sea una negativa parcial) al final de cada sesión, para acostumbrar al sistema nervioso al peso completo. Semanas 5-6: cambio a banda extra ligera, 4 series de 4-6 repeticiones, y sustitución progresiva de series con banda por series sin banda a medida que el rendimiento lo permita. No es un calendario rígido: si en la semana 4 todavía te cuesta la negativa parcial sin banda, repite las semanas 3-4 una vez más antes de avanzar. La progresión de fuerza en un ejercicio nuevo raramente es lineal, y forzar el calendario suele provocar estancamiento o sobrecarga en hombro y codo.",
+      },
+      {
+        heading: "Errores que frenan el progreso",
+        body: "El más común es entrenar dominadas todos los días esperando acelerar el proceso: el tirón vertical exige mucha recuperación de hombro, codo y antebrazo, y entrenarlo más de 2-3 veces por semana sin experiencia previa suele traducirse en dolor de codo (epicondilitis) antes que en progreso. El segundo error es usar solo la banda sin nunca probar el peso completo: el sistema nervioso necesita exponerse periódicamente a la carga real, aunque sea en forma de negativa parcial, para adaptarse. El tercero es descuidar el agarre y la espalda alta: reforzar dorsal ancho y romboides con remo (con mancuernas o banda) dos veces por semana acelera la progresión más que añadir series de dominadas asistidas.",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Banda nivel medio", "Banda nivel extra ligero"],
+      rows: [
+        ["Asistencia", "Alta — para quien no completa negativas", "Mínima — fase final antes de la dominada libre"],
+        ["Cuándo usarla", "Semanas 1-4 del plan, o hasta dominar la negativa", "Semanas 5-6, cuando el nivel medio se queda corto"],
+        ["También sirve para", "Estiramiento de banda larga, movilidad de hombro", "Movilidad de hombro, rotadores externos"],
+        ["Requiere", "Barra de dominadas o anclaje de puerta", "Barra de dominadas o anclaje de puerta"],
+      ],
+    },
+    conclusion:
+      "La banda de asistencia no es un atajo ni una muleta permanente: es la forma más eficaz de practicar el patrón motor completo de la dominada desde el primer entrenamiento, en lugar de esperar semanas a tener fuerza suficiente para intentarla sin ayuda. Nuestra valoración, tras revisar la evidencia disponible y la lógica de progresión de fuerza aplicada a este ejercicio: es la herramienta más eficiente en relación coste-resultado de todo el catálogo de fuerza para este objetivo concreto, siempre que se combine con paciencia y sin saltarse la fase de negativas sin banda. Seis semanas es una referencia realista para progresar un nivel de asistencia, no para llegar a la dominada libre desde cero: para eso, cuenta con 3-6 meses según tu punto de partida.",
+    sources: [
+      { label: "National Strength and Conditioning Association (NSCA) — Essentials of Strength Training and Conditioning", url: "https://www.nsca.com/" },
+      { label: "American Council on Exercise (ACE) — Guía de progresión de dominadas", url: "https://www.acefitness.org/" },
+    ],
+    faqs: [
+      {
+        q: "¿Cuánto tiempo se tarda en hacer la primera dominada sin ayuda?",
+        a: "Depende mucho del punto de partida y de la fuerza relativa previa (peso corporal frente a fuerza de tirón). Con dos entrenamientos semanales consistentes, un rango realista está entre 2 y 6 meses. Quien ya tiene experiencia en remo o jalones suele estar en el extremo corto de ese rango; alguien sin ningún entrenamiento de tirón previo, en el extremo largo.",
+      },
+      {
+        q: "¿Puedo usar una banda de resistencia normal en vez de una banda específica para dominadas?",
+        a: "Técnicamente sí, pero las bandas cortas tipo loop para glúteos no tienen la longitud necesaria para colgarse de una barra y apoyar el pie o la rodilla con seguridad. Las bandas continuas y largas, como las de este artículo, están dimensionadas específicamente para ese uso.",
+      },
+      {
+        q: "¿La banda de asistencia sirve también para dominadas con agarre supino (chin-ups)?",
+        a: "Sí, el mismo principio de asistencia progresiva aplica igual al agarre supino, que además suele ser algo más accesible al principio por la mayor implicación del bíceps. Es una buena variante para alternar dentro del mismo plan de progresión.",
+      },
+      {
+        q: "¿Es necesario un anclaje de puerta si no tengo barra de dominadas?",
+        a: "Sí, si no dispones de una barra fija o un marco de dominadas, necesitas un anclaje de puerta compatible o cualquier estructura firme por encima de tu altura capaz de soportar tu peso corporal más la tensión de la banda. Nunca uses un soporte no diseñado para carga dinámica: el riesgo de caída es real.",
+      },
+    ],
+  },
+  "suplementos-recuperacion-muscular-magnesio-omega3-bcaa": {
+    intro:
+      "La sección de suplementos de cualquier tienda de nutrición deportiva está llena de productos con promesas de \"recuperación acelerada\". La mayoría no tiene evidencia sólida detrás. Este artículo se centra en tres que sí la tienen en distinto grado —magnesio, omega-3 y BCAA— y en ser honestos sobre qué puede esperarse realmente de cada uno, para qué perfil de persona tiene sentido y en qué orden de prioridad conviene comprarlos si el presupuesto es limitado.",
+    sections: [
+      {
+        heading: "Magnesio: el que más falta cuando entrenas fuerte",
+        body: "El magnesio interviene en más de 300 reacciones enzimáticas, incluida la contracción muscular y la síntesis de proteína, y se pierde en cantidades notables con el sudor en sesiones intensas o en climas cálidos. Un déficit leve —muy común y rara vez diagnosticado— se asocia a calambres nocturnos, peor calidad de sueño y mayor sensación de fatiga acumulada. Las fórmulas ZMA (zinc + magnesio + B6) son las más habituales en el mercado deportivo; el zinc y la B6 aportan un papel de apoyo, pero es el magnesio el ingrediente con la relación evidencia-coste más favorable de los tres suplementos de este artículo, especialmente para quien entrena por la tarde-noche y nota que le cuesta conciliar el sueño.",
+        productSlug: "hsn-evozma-magnesio-zinc-b6-120caps",
+      },
+      {
+        heading: "Omega-3: el suplemento de fondo, no el de resultados inmediatos",
+        body: "El omega-3 (EPA y DHA del aceite de pescado) es de los suplementos con más estudios acumulados en nutrición deportiva general, con un papel documentado en la reducción de marcadores inflamatorios tras el ejercicio intenso y en el mantenimiento de la función cardiovascular. La diferencia clave frente al magnesio o el BCAA es el horizonte temporal: no se nota entrenamiento a entrenamiento, sino en bloques de varias semanas de toma constante. Tiene más sentido para quien entrena de forma regular y sostenida en el tiempo que para quien busca un efecto puntual antes de una competición o evento concreto.",
+        productSlug: "amix-super-omega-3-90-capsulas",
+      },
+      {
+        heading: "BCAA + glutamina: útiles en un escenario concreto, prescindibles en otro",
+        body: "Aquí está el suplemento más sobrevalorado por el marketing del sector de los tres. Si ya consumes suficiente proteína completa a lo largo del día (1,6-2,2 g/kg, el rango que respalda la evidencia para hipertrofia), los BCAA añaden poco: la leucina, isoleucina y valina que aportan ya están presentes en cualquier fuente proteica completa. Donde sí tienen sentido es en entrenamientos en ayunas, sesiones de más de 60-90 minutos, o como forma práctica de tomar algo durante el entrenamiento sin recurrir a una comida sólida. La glutamina añadida no tiene evidencia sólida de mejorar el rendimiento en población entrenada de forma recreativa, aunque no es perjudicial.",
+        productSlug: "best-protein-bcaa-glutamina-500g-sandia",
+      },
+      {
+        heading: "Cómo priorizar si el presupuesto no da para los tres",
+        body: "Si solo puedes permitirte uno, empieza por el magnesio: es el más barato de los tres, el que más gente tiene deficitario sin saberlo, y el que tiene un efecto más perceptible en el día a día (sueño, calambres, sensación de fatiga). El omega-3 es la segunda prioridad razonable si tu dieta no incluye pescado azul al menos dos veces por semana. Los BCAA quedan en tercer lugar salvo que entrenes en ayunas o en sesiones muy largas, en cuyo caso puedes adelantarlos. Ningún suplemento de esta lista sustituye a dormir lo suficiente, comer proteína completa a diario y planificar el descanso entre sesiones: son el 10% que ayuda cuando el 90% de base ya está resuelto.",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Magnesio (ZMA)", "Omega-3", "BCAA + glutamina"],
+      rows: [
+        ["Evidencia científica", "Sólida para déficit y sueño/calambres", "Sólida, efecto acumulativo", "Limitada si la dieta ya cubre proteína"],
+        ["Cuándo se nota", "Días-semanas (sueño, calambres)", "Semanas de toma constante", "Durante la sesión, si aplica el escenario"],
+        ["Mejor para", "Entrenos intensos, sudoración alta, mal descanso", "Entrenamiento regular y sostenido en el tiempo", "Ayunas o sesiones largas (+60-90 min)"],
+        ["Prioridad de compra", "1ª — mejor relación evidencia/coste", "2ª si no comes pescado azul 2x/semana", "3ª, solo en el escenario concreto"],
+      ],
+    },
+    conclusion:
+      "Nuestra valoración editorial, después de revisar la evidencia disponible para los tres: ninguno es imprescindible, pero el magnesio es el que ofrece más probabilidad de beneficio real para más gente al menor coste, seguido del omega-3 como suplemento de fondo si la dieta no lo cubre. Los BCAA son el más prescindible salvo en el escenario concreto de entrenar en ayunas o en sesiones muy largas — no es que no funcionen, es que casi nunca resuelven un problema que la proteína completa de la dieta no resuelva ya. Antes de gastar en los tres a la vez, revisa si duermes lo suficiente y comes proteína completa a diario: sin esa base, ningún suplemento de esta lista compensa la diferencia.",
+    sources: [
+      { label: "International Society of Sports Nutrition (ISSN) — Position Stand: Protein and Exercise", url: "https://jissn.biomedcentral.com/" },
+      { label: "Examine.com — Base de datos de evidencia científica sobre suplementos (Magnesio, Omega-3, BCAA)", url: "https://examine.com/" },
+    ],
+    faqs: [
+      {
+        q: "¿Puedo tomar magnesio, omega-3 y BCAA a la vez sin problema?",
+        a: "En general sí, no hay interacción relevante conocida entre los tres a las dosis habituales de suplementación deportiva. La única precaución real es con el omega-3 si tomas medicación anticoagulante, en cuyo caso conviene consultarlo con tu médico antes de empezar.",
+      },
+      {
+        q: "¿El magnesio en suplemento sustituye a una dieta rica en magnesio?",
+        a: "No debería ser la primera opción. Frutos secos, legumbres, verdura de hoja verde y cereales integrales aportan magnesio de forma natural. El suplemento tiene más sentido como refuerzo cuando la dieta no lo cubre bien o las pérdidas por sudor son altas, no como sustituto de partida.",
+      },
+      {
+        q: "¿Los BCAA engordan o tienen muchas calorías?",
+        a: "El aporte calórico de una dosis de BCAA en polvo es mínimo (unas pocas kcal por servicio), muy por debajo de un batido de proteína completo. No es un factor relevante para el objetivo de perder o ganar peso.",
+      },
+      {
+        q: "¿Cuánto tiempo hay que tomar omega-3 para notar el efecto antiinflamatorio?",
+        a: "La mayoría de estudios que muestran efectos sobre marcadores inflamatorios usan periodos de toma de al menos 4-6 semanas continuadas. No es un suplemento de efecto puntual: si lo tomas de forma irregular, es poco probable que notes ninguna diferencia.",
+      },
+    ],
+  },
+
+  "mobiclinic-extenfit-mancuernas-analisis": {
+    intro: "El catálogo tenía varios kits de mancuernas ajustables, pero ninguno con tanto respaldo de reseñas verificadas como el Mobiclinic ExtenFit: 676 valoraciones con una media de 4,5 estrellas. Analizamos qué hace especial a este kit 2 en 1 y para quién tiene sentido frente a otras alternativas ajustables del catálogo.",
+    sections: [
+      {
+        heading: "El sistema 2 en 1: mancuernas + barra",
+        body: "La particularidad del ExtenFit es la barra de extensión acolchada que conecta las dos mancuernas para convertirlas en una barra corta, ampliando el repertorio de ejercicios (curl con barra, press francés, remo a dos manos) sin comprar equipo adicional. Las tuercas antideslizantes de seguridad evitan que los discos se suelten durante el ejercicio, un fallo habitual en kits más baratos.",
+        productSlug: "mobiclinic-extenfit-mancuernas-2en1",
+      },
+      {
+        heading: "Rango de peso: de 2 a 30 kg",
+        body: "El rango de 2 a 30 kg cubre tanto el inicio (mujeres o principiantes empezando con pesos ligeros) como una progresión de fuerza razonable para ejercicios de tren superior en casa. Para sentadillas o pesos muertos con cargas más altas, sigue siendo insuficiente — ahí conviene mirar un kit de mayor rango o un banco con barra olímpica.",
+      },
+      {
+        heading: "Comparado con el sistema de discos tradicional",
+        body: "Frente al kit Yaheetech de 16 discos y 2 barras (más tradicional, cambio de peso más lento), el ExtenFit prioriza la practicidad del 2 en 1 sobre la personalización fina del peso exacto. Si vas a usar principalmente las mancuernas sueltas y solo ocasionalmente la barra, el ExtenFit es más cómodo del día a día.",
+        productSlug: "yaheetech-kit-mancuernas-16-discos",
+      },
+      {
+        heading: "¿Y si prefieres selector rápido en lugar de discos?",
+        body: "Si lo que buscas es cambiar de peso en segundos sin tocar discos ni tuercas, los sistemas de selector rápido (como el JUPPLIES de 15 niveles) resuelven ese problema, a cambio de un precio bastante más alto. El ExtenFit sigue siendo la opción más razonable en precio para quien no le importa invertir unos segundos más en cada cambio de peso.",
+        productSlug: "jupplies-mancuernas-15-niveles-24kg",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Mobiclinic ExtenFit", "JUPPLIES selector rápido"],
+      rows: [
+        ["Precio", "35,95€ - 44,95€", "219,99€"],
+        ["Rango de peso", "2-30 kg", "2-24 kg por unidad"],
+        ["Cambio de peso", "Manual (discos + tuercas)", "Selector rápido (segundos)"],
+        ["Extra incluido", "Barra de extensión 2 en 1", "Base antideslizante + bloqueo"],
+        ["Mejor para", "Presupuesto ajustado, uso ocasional de barra", "Entrenamiento frecuente, comodidad máxima"],
+      ],
+    },
+    conclusion: "El Mobiclinic ExtenFit es la compra con mejor relación calidad-precio-reseñas del catálogo en mancuernas ajustables: un sistema 2 en 1 sólido, con buena seguridad de sujeción y un precio accesible. Si el presupuesto es la prioridad, esta es la opción correcta. Si el tiempo entrenando es muy frecuente y la comodidad del cambio de peso pesa más que el precio, el JUPPLIES con selector rápido justifica su coste superior.",
+    faqs: [
+      { q: "¿El ExtenFit sirve para hacer sentadillas con barra?", a: "La barra de extensión es corta y pensada para ejercicios de tren superior (curl, press, remo). No es una barra olímpica larga apta para sentadillas o peso muerto con carga alta; para eso necesitas un equipo específico." },
+      { q: "¿Cuánto tarda en cambiarse el peso?", a: "Requiere aflojar y apretar las tuercas antideslizantes en cada mancuerna para añadir o quitar discos, unos 30-60 segundos por cambio, más lento que un sistema de selector rápido pero mucho más económico." },
+      { q: "¿Es ruidoso al usarlo?", a: "Los discos recubiertos reducen el ruido de impacto si se dejan caer, pero como cualquier mancuerna de disco metálico conviene apoyarla con cuidado en pisos con vecinos debajo." },
+      { q: "¿Necesito guantes para usarlo?", a: "No es imprescindible, pero unos guantes o muñequeras de entrenamiento (como los que hay en la categoría de pesas y mancuernas del catálogo) mejoran el agarre y protegen las manos en sesiones largas." },
+    ],
+  },
+
+  "proteina-soja-vegana-hsn-analisis": {
+    intro: "Hasta ahora el catálogo solo tenía proteínas de origen animal (whey). La proteína de soja aislada de HSN cubre un hueco real: es la primera opción 100% vegana, con la ventaja añadida de un aminograma completo, algo que no todas las proteínas vegetales individuales ofrecen. Analizamos si es una alternativa seria a la whey o solo una opción de nicho.",
+    sections: [
+      {
+        heading: "Por qué el aminograma completo importa",
+        body: "La mayoría de proteínas vegetales de una sola fuente (arroz, guisante, cáñamo) son deficientes en algún aminoácido esencial — el arroz en lisina, el guisante en metionina. La soja es una de las pocas proteínas vegetales que aporta los 9 aminoácidos esenciales en proporciones cercanas a las de la proteína animal, lo que la convierte en la opción vegana individual más completa sin necesidad de combinar varias fuentes.",
+        productSlug: "hsn-proteina-soja-vegana-2kg",
+      },
+      {
+        heading: "Digestión y textura: qué esperar frente a la whey",
+        body: "La proteína de soja aislada tiende a tener una textura algo más densa y menos cremosa que la whey al mezclarse, y para algunas personas resulta algo más pesada de digerir en cantidades grandes. Al ser sin sabor, se recomienda combinarla con fruta, cacao en polvo o leche vegetal para mejorar la palatabilidad — sola en agua, el sabor es notablemente más neutro-amargo que una whey aromatizada.",
+      },
+      {
+        heading: "¿Sustituye a la whey en resultados de entrenamiento?",
+        body: "La evidencia científica muestra que la proteína de soja produce una respuesta de síntesis muscular algo menor que la whey en igualdad de gramos, aunque la diferencia se reduce significativamente si se ingiere una cantidad ligeramente mayor por toma. Para quien no puede o no quiere consumir lácteos, es una alternativa funcional, no una opción inferior sin matices.",
+      },
+      {
+        heading: "HSN EvoWhey vs proteína de soja: cuándo elegir cada una",
+        body: "Si no hay restricción dietética, la EvoWhey de la misma marca (ya presente en el catálogo) sigue siendo la opción con mejor perfil de aminoácidos y textura para la mayoría. La proteína de soja tiene sentido concreto para veganos, intolerantes a la lactosa que prefieren evitar aislados de whey, o quien simplemente quiere variar la fuente proteica.",
+        productSlug: "hsn-evowhey-protein-2kg",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Proteína de soja HSN", "HSN EvoWhey (whey)"],
+      rows: [
+        ["Apta vegana", "Sí", "No"],
+        ["Aminograma", "Completo (9 esenciales)", "Completo, mayor biodisponibilidad"],
+        ["Digestión", "Algo más densa", "Rápida absorción"],
+        ["Formato", "2 kg, sin sabor", "2 kg, +15 sabores"],
+        ["Mejor para", "Veganos e intolerantes a lactosa", "Uso general sin restricciones"],
+      ],
+    },
+    conclusion: "La proteína de soja de HSN no pretende ser mejor que la whey en términos absolutos, sino cubrir a quien no puede o no quiere tomarla. Con aminograma completo y precio de entrada accesible, es la opción vegana más razonable del catálogo. Si no tienes ninguna restricción dietética, la whey sigue siendo la opción de referencia por textura y velocidad de absorción.",
+    faqs: [
+      { q: "¿La proteína de soja tiene efectos hormonales por las isoflavonas?", a: "La evidencia científica actual en humanos no respalda que las isoflavonas de la soja en las cantidades de un suplemento deportivo tengan un efecto hormonal relevante ni en hombres ni en mujeres. Es un mito que persiste pese a los estudios que lo han descartado repetidamente." },
+      { q: "¿Puedo mezclar proteína de soja con whey?", a: "Sí, no hay ninguna incompatibilidad. Algunas personas combinan ambas fuentes para variar el perfil de aminoácidos y la textura, especialmente en dietas flexitarianas." },
+      { q: "¿La proteína de soja engorda más que la whey?", a: "No, el aporte calórico por gramo de proteína es prácticamente el mismo entre ambas fuentes. Lo que engorda es el exceso calórico total de la dieta, no el tipo de proteína elegido." },
+      { q: "¿Es apta para personas con alergia a la soja?", a: "No. Si tienes alergia diagnosticada a la soja, esta proteína está completamente contraindicada; en ese caso, busca alternativas como proteína de guisante o de arroz." },
+    ],
+  },
+
+  "toputure-bicicleta-respaldo-analisis": {
+    intro: "Todas las bicicletas estáticas del catálogo, hasta ahora, tenían formato vertical de spinning. La Toputure con respaldo introduce un formato distinto — más cercano a la bicicleta reclinada o recumbent — pensado para quien busca comodidad por encima de la intensidad de entrenamiento tipo spinning. Analizamos cuándo tiene sentido esta elección.",
+    sections: [
+      {
+        heading: "Qué cambia con el respaldo",
+        body: "El respaldo reparte el peso del cuerpo entre el sillín y la espalda, reduciendo la presión sobre la zona lumbar y las muñecas frente a una bici de spinning vertical, donde buena parte del peso recae sobre el manillar y el sillín estrecho. Es una diferencia relevante para personas con molestias de espalda, mayores de 50 años, o quien simplemente prioriza sesiones largas y cómodas sobre entrenamiento de alta intensidad.",
+        productSlug: "toputure-bicicleta-5en1-respaldo",
+      },
+      {
+        heading: "16 niveles de resistencia y app: sigue siendo entrenamiento serio",
+        body: "El respaldo no significa renunciar a intensidad: mantiene 16 niveles de resistencia magnética y conectividad con app, por lo que se puede programar un entrenamiento exigente igualmente, solo que en una postura más protegida. El pulsómetro integrado permite controlar zonas de frecuencia cardíaca sin depender de un dispositivo externo.",
+      },
+      {
+        heading: "El coste de la comodidad: tamaño y precio",
+        body: "El respaldo añade tamaño total al equipo — algo a tener en cuenta si el espacio es limitado — y el precio (189,99€) es superior a las bicicletas plegables de entrada del catálogo. Es una inversión que solo se justifica si el criterio de comodidad realmente pesa en la decisión.",
+      },
+      {
+        heading: "Alternativas si el espacio es la prioridad",
+        body: "Si lo que prima es el espacio y no la comodidad postural, tanto la MERACH plegable como la CURSOR de spinning ocupan menos guardadas y cuestan menos. La Toputure con respaldo tiene sentido específico para quien ha descartado ya el formato vertical por molestias físicas.",
+        productSlug: "merach-bicicleta-plegable-resistencia-magnetica",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "Toputure con respaldo", "CURSOR spinning vertical"],
+      rows: [
+        ["Precio", "189,99€", "99,99€"],
+        ["Postura", "Reclinada con respaldo", "Vertical tipo spinning"],
+        ["Resistencia", "16 niveles + app", "16 niveles magnéticos"],
+        ["Espacio ocupado", "Mayor (por el respaldo)", "Compacta"],
+        ["Mejor para", "Comodidad, espalda sensible", "Entrenamiento intenso, poco espacio"],
+      ],
+    },
+    conclusion: "La Toputure con respaldo no es la bicicleta más barata ni la más compacta del catálogo, pero resuelve un problema real que ninguna otra bici de la tienda aborda: la comodidad postural en sesiones largas. Si tu prioridad es la espalda o simplemente prefieres una postura más relajada, es la elección correcta pese al precio superior.",
+    faqs: [
+      { q: "¿Se puede hacer spinning de alta intensidad en una bici con respaldo?", a: "Sí, mantiene 16 niveles de resistencia que permiten entrenamientos exigentes, pero la postura reclinada reduce ligeramente la capacidad de generar potencia máxima comparado con una posición de spinning vertical erguida." },
+      { q: "¿Ocupa mucho más espacio que una bici normal?", a: "Sí, el respaldo añade longitud y profundidad al conjunto. Si el espacio disponible es muy reducido, conviene medir bien antes de comprar y comparar con las dimensiones de modelos plegables sin respaldo." },
+      { q: "¿Es adecuada para personas mayores?", a: "Es una de las opciones más recomendables del catálogo para personas mayores o con movilidad reducida, precisamente por la postura reclinada y el menor estrés sobre articulaciones y zona lumbar." },
+      { q: "¿Incluye pulsómetro o hay que comprarlo aparte?", a: "Incluye pulsómetro integrado en el propio equipo, no requiere ningún accesorio adicional para controlar la frecuencia cardíaca durante el entrenamiento." },
+    ],
+  },
+
+  "portentum-bandas-anclaje-puerta-analisis": {
+    intro: "El catálogo tenía varios sets de bandas elásticas, pero ninguno pensado para simular ejercicios de polea de gimnasio en casa. El kit PORTENTUM de 10 piezas con asas y anclaje de puerta cubre ese hueco. Analizamos qué se puede entrenar realmente con este kit y sus limitaciones frente a una polea de gimnasio de verdad.",
+    sections: [
+      {
+        heading: "Qué trae el kit y qué ejercicios permite",
+        body: "El set incluye 10 piezas: bandas de distintos niveles de resistencia, asas acolchadas y un anclaje de puerta, además de bolsa de transporte. Con esta combinación se pueden replicar en casa ejercicios que normalmente requieren máquina de polea: remo sentado, jalones, press de pecho horizontal, extensiones de tríceps y curl de bíceps con recorrido controlado.",
+        productSlug: "portentum-gomas-set-10-anclaje-puerta",
+      },
+      {
+        heading: "El anclaje de puerta: la pieza clave y su limitación",
+        body: "El anclaje de puerta es lo que diferencia a este kit de un simple set de bandas loop: permite fijar la resistencia por encima o a la altura de la puerta para simular el ángulo de tiro de una polea. La limitación real es que requiere una puerta lo bastante robusta (marco sólido, no puertas de armario o tabiques ligeros) — antes de comprar conviene comprobar que se dispone de una puerta apta.",
+      },
+      {
+        heading: "Comparado con un set de bandas loop simple",
+        body: "Frente a las bandas Fokky (loop, sin asas ni anclaje), el PORTENTUM ofrece mucha más versatilidad de ejercicios de tren superior tipo polea, a cambio de ser un kit más voluminoso y con más piezas que gestionar. Para quien solo quiere trabajar piernas y glúteos, las bandas loop simples siguen siendo más prácticas.",
+        productSlug: "fokky-gomas-elasticas-set-5-latex",
+      },
+      {
+        heading: "¿Sustituye a una polea de gimnasio de verdad?",
+        body: "No completamente: la resistencia de una banda elástica aumenta progresivamente al estirarla (más difícil al final del recorrido), mientras que una polea con peso mantiene una resistencia más constante en todo el recorrido. Para entrenamiento en casa sin acceso a gimnasio, sigue siendo la alternativa más completa y barata disponible.",
+      },
+    ],
+    comparison: {
+      headers: ["Criterio", "PORTENTUM (10 piezas)", "Fokky (5 bandas loop)"],
+      rows: [
+        ["Precio", "17,69€", "6,99€"],
+        ["Incluye asas", "Sí", "No"],
+        ["Anclaje de puerta", "Sí", "No"],
+        ["Ejercicios tipo polea", "Sí (remo, press, jalones)", "No, solo tren inferior/loop"],
+        ["Mejor para", "Simular gimnasio completo en casa", "Glúteos y piernas, presupuesto mínimo"],
+      ],
+    },
+    conclusion: "El PORTENTUM es el kit de bandas más completo del catálogo para quien quiere entrenar tren superior e inferior en casa con una sensación lo más parecida posible a una máquina de polea. No sustituye a un gimnasio bien equipado, pero para entrenar en casa de forma seria sin comprar máquinas, es la opción más versátil disponible.",
+    faqs: [
+      { q: "¿Cualquier puerta sirve para el anclaje?", a: "No. Necesitas una puerta con marco sólido (madera maciza o metal), no paneles ligeros de aglomerado o mamparas. Prueba siempre con poca resistencia primero para comprobar que el anclaje aguanta antes de tirar con fuerza." },
+      { q: "¿Las bandas pierden elasticidad con el tiempo?", a: "Sí, como cualquier elástico, con el uso continuado y la exposición a la luz solar. La vida útil habitual con uso regular ronda los 1-2 años antes de notar pérdida de tensión, más si se guardan estiradas en lugar de sueltas." },
+      { q: "¿Puedo hacer dominadas asistidas con este kit?", a: "No con este set en concreto — el anclaje de puerta no está pensado para soportar el peso corporal completo. Para dominadas asistidas, el catálogo tiene bandas continuas específicas de mayor grosor pensadas para colgar de una barra." },
+      { q: "¿Cuántos niveles de resistencia trae el set?", a: "4 niveles de resistencia distintos, combinables entre sí (usando varias bandas a la vez) para ajustar la dificultad de cada ejercicio de forma progresiva." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {
