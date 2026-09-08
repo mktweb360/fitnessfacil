@@ -52,7 +52,9 @@ export default function OffersSlider({ slides, intervalMs = 4000 }: Props) {
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url('${slide.image}')` }}
           />
-          {/* Overlay minimo (alpha <= 0.10) solo para legibilidad del texto inferior */}
+          {/* Capa intermedia oscura uniforme (alpha ~0.10) para dar profundidad y contraste general */}
+          <div className="absolute inset-0 bg-black/10" />
+          {/* Overlay adicional en degradado (alpha <= 0.10) para reforzar legibilidad del texto inferior */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
 
           {/* Badge oferta destacada */}
