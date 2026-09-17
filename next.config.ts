@@ -52,6 +52,16 @@ const nextConfig: NextConfig = {
         destination: "/tienda/suplementos-proteinas/optimum-nutrition-gold-standard-whey-226kg",
         permanent: true,
       },
+      {
+        source: "/tienda/cintas-correr/domyos-t520b-cinta-correr",
+        destination: "/tienda/cintas-correr",
+        permanent: true,
+      },
+      {
+        source: "/tienda/cintas-correr/toorx-voyager-plus-cinta-correr",
+        destination: "/tienda/cintas-correr",
+        permanent: true,
+      },
     ];
   },
 };

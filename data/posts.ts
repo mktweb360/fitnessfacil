@@ -915,6 +915,27 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/bandas-resistencia", text: "Ver bandas de resistencia en tienda →" },
   },
+  {
+    slug: "sobreentrenamiento-sintomas-como-recuperarte",
+    image: "/images/blog/sobreentrenamiento-sintomas-como-recuperarte.jpg",
+    title: "Sobreentrenamiento: síntomas reales y cómo recuperarte sin perder semanas",
+    excerpt:
+      "Estancarte o rendir peor pese a entrenar más no es falta de disciplina: puede ser sobreentrenamiento. Señales para detectarlo a tiempo y plan de recuperación en 3 fases.",
+    date: "2026-09-13",
+    category: "Entrenamiento",
+    readTime: "9 min",
+    relatedProducts: [
+      "hsn-evozma-magnesio-zinc-b6-120caps",
+      "amix-super-omega-3-90-capsulas",
+      "best-protein-bcaa-glutamina-500g-sandia",
+    ],
+    relatedPosts: [
+      "suplementos-recuperacion-muscular-magnesio-omega3-bcaa",
+      "estiramientos-despues-ejercicio",
+      "hiit-en-casa-principiantes",
+    ],
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver suplementos de recuperación →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

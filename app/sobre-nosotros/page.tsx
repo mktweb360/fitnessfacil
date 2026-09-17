@@ -4,19 +4,18 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sobre nosotros — FitnessFácil.es",
   description:
-    "Carlos Moreno, entrenador personal certificado por la NSCA, lidera FitnessFácil.es: análisis honestos de equipamiento fitness y guías de entrenamiento en casa.",
+    "El equipo editorial de FitnessFácil.es, parte de Mkt Web 360 SLU: cómo investigamos y comparamos equipamiento fitness, y nuestra política de afiliación.",
   alternates: { canonical: "/sobre-nosotros" },
 };
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Carlos Moreno",
-  jobTitle: "Entrenador Personal NSCA",
+  "@type": "Organization",
+  name: "Equipo Editorial de FitnessFácil.es",
   description:
-    "Entrenador personal certificado por la NSCA con 10 años de experiencia en entrenamiento en casa y equipamiento fitness.",
+    "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones de compradores verificadas en Amazon para recomendar equipamiento fitness, con apoyo de herramientas de IA en el proceso de investigación y redacción, siempre bajo revisión editorial.",
   url: "https://www.fitnessfacil.es/sobre-nosotros",
-  worksFor: {
+  parentOrganization: {
     "@type": "Organization",
     name: "FitnessFácil.es",
     url: "https://www.fitnessfacil.es",
@@ -55,12 +54,6 @@ const orgSchema = {
     "https://www.instagram.com/fitnessfacil.es",
     "https://www.facebook.com/fitnessfacil.es",
   ],
-  employee: {
-    "@type": "Person",
-    name: "Carlos Moreno",
-    jobTitle: "Entrenador Personal NSCA",
-    url: "https://www.fitnessfacil.es/sobre-nosotros",
-  },
 };
 
 export default function SobreNosotrosPage() {
@@ -93,15 +86,15 @@ export default function SobreNosotrosPage() {
         <div className="bg-green-50 border border-green-200 rounded-2xl p-6 mb-10 flex gap-5 items-start">
           {/* Initials avatar */}
           <div className="flex-shrink-0 w-16 h-16 rounded-full bg-green-700 text-white flex items-center justify-center text-xl font-extrabold select-none">
-            CM
+            FF
           </div>
           <div>
-            <p className="text-lg font-extrabold text-gray-900 leading-tight">Carlos Moreno</p>
+            <p className="text-lg font-extrabold text-gray-900 leading-tight">Equipo Editorial de FitnessFácil.es</p>
             <p className="text-sm font-semibold text-green-700 mb-2">
-              Entrenador Personal NSCA · Director editorial de FitnessFácil.es
+              Mkt Web 360 SLU
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-3">
-              Carlos es entrenador personal certificado por la <strong>NSCA (National Strength and Conditioning Association)</strong> con más de 10 años de experiencia ayudando a adultos a entrenar en casa de forma efectiva y segura. Especializado en diseño de rutinas sin equipamiento, selección de equipamiento fitness doméstico y nutrición deportiva aplicada a la pérdida de peso.
+              Nuestro equipo compara especificaciones técnicas, precios y opiniones de compradores verificadas en Amazon.es antes de recomendar cualquier producto. Usamos herramientas de inteligencia artificial como apoyo en la investigación y redacción, siempre con revisión editorial antes de publicar — nunca inventamos datos de producto ni resultados.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">

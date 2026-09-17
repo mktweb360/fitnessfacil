@@ -2245,6 +2245,55 @@ const articleContent: Record<string, {
       { q: "¿Cuántos niveles de resistencia trae el set?", a: "4 niveles de resistencia distintos, combinables entre sí (usando varias bandas a la vez) para ajustar la dificultad de cada ejercicio de forma progresiva." },
     ],
   },
+
+  "sobreentrenamiento-sintomas-como-recuperarte": {
+    intro: "Entrenar más y rendir peor es la contradicción que más confunde a quien se toma el fitness en serio. La respuesta casi automática es \"necesito esforzarme más\", y es precisamente el error que perpetúa el problema. El sobreentrenamiento (overtraining) es un desequilibrio real entre el estrés del ejercicio y la capacidad de recuperación del cuerpo, no una cuestión de fuerza de voluntad. Esta guía explica las señales que lo diferencian de la fatiga normal, por qué ocurre y un plan de recuperación en tres fases para volver a progresar sin perder meses de trabajo.",
+    sections: [
+      {
+        heading: "Las señales que casi nadie relaciona con el entrenamiento",
+        body: "El síntoma que se busca en Google es \"me canso mucho\", pero las señales más fiables del sobreentrenamiento rara vez aparecen dentro del gimnasio. Insomnio o sueño poco reparador pese al cansancio físico, irritabilidad o cambios de ánimo que no encajan con tu carácter habitual, frecuencia cardíaca en reposo elevada varias mañanas seguidas, resfriados o infecciones más frecuentes de lo normal (la inmunidad baja con el estrés físico crónico), y pérdida de apetito o del interés por entrenar que normalmente disfrutas. Ninguna de estas señales por sí sola confirma nada: el patrón que importa es que varias coincidan durante más de una o dos semanas.",
+      },
+      {
+        heading: "La señal que sí ves en el entrenamiento: el estancamiento que empeora",
+        body: "Dentro de la sesión, la señal más objetiva es el rendimiento que retrocede pese a mantener o aumentar el volumen: menos repeticiones con el mismo peso, series que antes completabas con margen y ahora fallas, o sensación de piernas \"vacías\" en ejercicios que dominas. Un mal día aislado no significa nada; tres o cuatro sesiones seguidas con esa misma sensación, sin cambios en sueño o alimentación que lo expliquen, sí es una señal de que el volumen de entrenamiento ha superado la capacidad de recuperación durante un periodo sostenido.",
+      },
+      {
+        heading: "Por qué ocurre: no es solo \"demasiado ejercicio\"",
+        body: "El sobreentrenamiento rara vez tiene una sola causa. Los factores que más se repiten son: aumentar el volumen o la intensidad demasiado rápido sin fase de adaptación, dormir menos de 7 horas de forma sostenida (el sueño es donde ocurre la mayor parte de la reparación muscular y hormonal), déficit calórico agresivo combinado con entrenamiento exigente, estrés no relacionado con el deporte (laboral, personal) que se suma al estrés físico sin que el cuerpo distinga el origen, y ausencia total de días de descanso o de semanas de descarga durante meses. El error de cálculo habitual es tratar el descanso como tiempo perdido, cuando es la fase donde realmente se produce la adaptación al esfuerzo.",
+      },
+      {
+        heading: "Fase 1: cortar el volumen antes que la intensidad",
+        body: "Ante señales claras, la primera medida no es parar por completo (salvo indicación médica), sino reducir el volumen entre un 40 % y 60 % durante 7-10 días manteniendo cierta intensidad y frecuencia. Dejar de moverse del todo puede empeorar el sueño y el ánimo en algunos casos; moverse menos, mejor. En esta fase, priorizar 7-9 horas de sueño y revisar que la ingesta calórica no esté en déficit son las dos palancas con más impacto, muy por delante de cualquier suplemento.",
+      },
+      {
+        heading: "Fase 2: apoyo nutricional específico para la recuperación",
+        body: "El magnesio es uno de los minerales que más se pierde con el sudor en entrenamientos intensos, y su déficit se asocia a peor calidad de sueño y calambres, precisamente los dos frentes que hay que cuidar en esta fase. Una fórmula que combine magnesio, zinc y B6 cubre ese hueco nutricional de forma más específica que un multivitamínico genérico. El omega 3 aporta un efecto antiinflamatorio de fondo, de acción acumulativa (semanas, no días), útil durante todo el bloque de recuperación y no solo en el pico de sobreentrenamiento.",
+        productSlug: "hsn-evozma-magnesio-zinc-b6-120caps",
+      },
+      {
+        heading: "Fase 3: reintroducción progresiva, no vuelta de golpe",
+        body: "El error más común al sentirse mejor es volver directamente al volumen previo. La reintroducción correcta añade aproximadamente un 10 % de volumen por semana durante 2-3 semanas, vigilando que las señales de la fase 1 no reaparezcan. Mantener un aporte proteico y de aminoácidos ramificados (BCAA) adecuado en esta fase ayuda a sostener la síntesis muscular mientras el volumen todavía es menor que antes del episodio, especialmente en entrenamientos de más de una hora donde la proteína de la comida previa ya se ha metabolizado.",
+        productSlug: "best-protein-bcaa-glutamina-500g-sandia",
+      },
+    ],
+    comparison: {
+      headers: ["Señal", "Fatiga normal (post-entreno)", "Sobreentrenamiento (sostenido)"],
+      rows: [
+        ["Duración", "24-48 horas tras la sesión", "Persiste más de 1-2 semanas"],
+        ["Sueño", "Normal o incluso mejor esa noche", "Insomnio pese al cansancio físico"],
+        ["Rendimiento", "Vuelve a la normalidad al día siguiente", "Retrocede sesión tras sesión"],
+        ["Estado de ánimo", "Sin cambios relevantes", "Irritabilidad o apatía inusual"],
+        ["Respuesta correcta", "Un día de descanso basta", "Reducir volumen 7-10 días mínimo"],
+      ],
+    },
+    conclusion: "El sobreentrenamiento no se resuelve entrenando más duro ni se evita solo con \"fuerza de voluntad\": es una señal de que el volumen ha superado, durante un tiempo sostenido, la capacidad real de recuperación. La solución con más evidencia sigue siendo la más aburrida: dormir más, no entrenar en déficit calórico agresivo, y programar semanas de descarga antes de que el cuerpo las imponga por la fuerza. El apoyo nutricional (magnesio, omega 3, proteína y BCAA suficientes) acelera la recuperación, pero no sustituye a corregir la causa de fondo. Detectarlo dos semanas antes es la diferencia entre perder un microciclo o perder un mes entero de progreso.",
+    faqs: [
+      { q: "¿Cuánto tiempo se tarda en recuperarse de un sobreentrenamiento?", a: "Depende de la gravedad y del tiempo que se haya prolongado antes de actuar. Un caso detectado pronto y tratado con reducción de volumen suele resolverse en 1-2 semanas. Un caso ignorado durante meses puede requerir 4-6 semanas de recuperación activa antes de volver al nivel previo. Cuanto antes se actúa sobre las señales, más corta es la recuperación." },
+      { q: "¿Se puede tener sobreentrenamiento entrenando solo 3 veces por semana?", a: "Sí. El volumen semanal de entrenamiento es solo una variable entre varias: dormir mal, comer en déficit agresivo o acumular estrés laboral pueden provocar sobreentrenamiento incluso con una frecuencia moderada, porque lo que cuenta es el balance entre estrés total (físico y no físico) y recuperación, no solo las horas de gimnasio." },
+      { q: "¿La frecuencia cardíaca en reposo elevada es un indicador fiable?", a: "Es uno de los indicadores objetivos más citados en la literatura deportiva, junto con la variabilidad de la frecuencia cardíaca (HRV). Un aumento sostenido de 5-10 pulsaciones por encima de tu valor habitual durante varias mañanas seguidas, sin otra causa aparente (enfermedad, alcohol, mala noche puntual), es una señal temprana razonable de que el sistema nervioso no se está recuperando entre sesiones." },
+      { q: "¿Los suplementos de recuperación curan el sobreentrenamiento por sí solos?", a: "No. El magnesio, el omega 3 o los BCAA apoyan procesos concretos (sueño, inflamación, síntesis proteica) pero no compensan un déficit de sueño sostenido ni un volumen de entrenamiento que sigue siendo excesivo. Son un complemento útil durante la fase de recuperación, nunca un sustituto de reducir el volumen y dormir más." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {
@@ -2257,11 +2306,10 @@ export default async function BlogPostPage({ params }: Props) {
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
 
 const AUTHOR = {
-  "@type": "Person",
-  name: "Carlos Moreno",
-  jobTitle: "Entrenador Personal NSCA",
+  "@type": "Organization",
+  name: "Equipo Editorial de FitnessFácil.es",
   url: "https://www.fitnessfacil.es/sobre-nosotros",
-  description: "Entrenador personal certificado por la NSCA con 10 años de experiencia en entrenamiento en casa y equipamiento fitness.",
+  description: "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas antes de recomendar equipamiento fitness, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: ["entrenamiento en casa", "equipamiento fitness", "cintas de correr", "nutrición deportiva", "pérdida de peso", "suplementación deportiva"],
 };
 
