@@ -252,7 +252,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La Mente Es Maravillosa: la más completa por precio",
-        body: "Es una de las más vendidas de su categoría en Amazon España y su argumento es el conjunto, no una característica aislada. Mide 183 × 61 cm en TPE con certificación SGS, que acredita la ausencia de PVC, PER y sustancias tóxicas, un dato relevante si vas a pasar horas con la cara a centímetros del material. Es antideslizante por ambas caras y de alta densidad, lo que reduce el desgarro con el uso continuado. Lo que la distingue es lo que incluye: bolsa de transporte, correa de hombro y un e-book de ejercicios en español, algo poco habitual a este precio. A favor: el paquete completo por 29,99 euros y la certificación del material. En contra: su ficha no especifica el grosor, así que si buscas una amortiguación concreta es un dato que tendrás que confirmar.",
+        body: "Es una de las más vendidas de su categoría y su argumento es el conjunto, no una característica aislada. Mide 183 × 61 cm en TPE con certificación SGS, que acredita la ausencia de PVC, PER y sustancias tóxicas, un dato relevante si vas a pasar horas con la cara a centímetros del material. Es antideslizante por ambas caras y de alta densidad, lo que reduce el desgarro con el uso continuado. Lo que la distingue es lo que incluye: bolsa de transporte, correa de hombro y un e-book de ejercicios en español, algo poco habitual a este precio. A favor: el paquete completo por 29,99 euros y la certificación del material. En contra: su ficha no especifica el grosor, así que si buscas una amortiguación concreta es un dato que tendrás que confirmar.",
         productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
@@ -522,7 +522,7 @@ const articleContent: Record<string, {
   },
 
   "walkingpad-opiniones-analisis": {
-    intro: "WalkingPad es la marca de cintas plegables más vendida en España desde 2022. Sus modelos aparecen constantemente en listas de recomendaciones y acumulan miles de valoraciones en Amazon. Esta guía analiza qué hay detrás de esas valoraciones: qué elogian los usuarios, qué critican y qué expectativas no se cumplen, para que compres sabiendo exactamente lo que vas a recibir.",
+    intro: "WalkingPad es la marca de cintas plegables más vendida en España desde 2022. Sus modelos aparecen constantemente en listas de recomendaciones y acumulan miles de valoraciones online. Esta guía analiza qué hay detrás de esas valoraciones: qué elogian los usuarios, qué critican y qué expectativas no se cumplen, para que compres sabiendo exactamente lo que vas a recibir.",
     sections: [
       {
         heading: "Lo que más valoran los usuarios de WalkingPad",
@@ -555,9 +555,9 @@ const articleContent: Record<string, {
     },
     conclusion: "Las WalkingPad tienen valoraciones altas por razones concretas, no por marketing. Cumplen lo que prometen: plegarse de verdad, hacer poco ruido y funcionar sin complicaciones. Sus limitaciones son reales pero conocidas: no son cintas de gimnasio y no pretenden serlo. Si tus expectativas están bien calibradas, son una compra que no defrauda.",
     faqs: [
-      { q: "¿Dónde se compra la WalkingPad en España?", a: "Están disponibles en Amazon España con envío rápido y devolución sin coste durante los primeros 30 días. Es el canal más recomendable por la garantía de compra que ofrece y por la facilidad de gestionar una devolución si el modelo no encaja con lo que esperabas." },
-      { q: "¿La garantía de WalkingPad cubre España?", a: "Sí. Los modelos vendidos en Amazon España incluyen la garantía del fabricante. Conviene guardar el comprobante de compra para cualquier reclamación posterior, ya que es el documento que acredita la fecha de inicio de la cobertura." },
-      { q: "¿Cuánto tarda en llegar una WalkingPad desde Amazon España?", a: "Con Amazon Prime, normalmente 1 o 2 días laborables. Sin Prime, el plazo depende de la disponibilidad del vendedor, aunque en la práctica suele ser rápido al tratarse de un producto con stock habitual." },
+      { q: "¿Dónde se compra la WalkingPad en España?", a: "Están disponibles online con envío rápido y devolución sin coste durante los primeros 30 días. Es el canal más recomendable por la garantía de compra que ofrece y por la facilidad de gestionar una devolución si el modelo no encaja con lo que esperabas." },
+      { q: "¿La garantía de WalkingPad cubre España?", a: "Sí. Los modelos vendidos en España incluyen la garantía del fabricante. Conviene guardar el comprobante de compra para cualquier reclamación posterior, ya que es el documento que acredita la fecha de inicio de la cobertura." },
+      { q: "¿Cuánto tarda en llegar una WalkingPad tras comprarla?", a: "Con envío premium, normalmente 1 o 2 días laborables. Sin envío premium, el plazo depende de la disponibilidad del vendedor, aunque en la práctica suele ser rápido al tratarse de un producto con stock habitual." },
       { q: "¿Merece la pena WalkingPad frente a otras marcas?", a: "Para el segmento de cintas plegables silenciosas para piso, sí. Las alternativas en ese rango de precio suelen tener más ruido o peor calidad de construcción. Para cintas de entrenamiento serio, con inclinación motorizada y programas avanzados, hay opciones más completas, pero también más caras y voluminosas, que juegan en otra categoría." },
     ],
   },
@@ -810,7 +810,7 @@ const articleContent: Record<string, {
     },
     conclusion: "La MERACH es la bicicleta correcta si vas a entrenar con regularidad, quieres registrar tu progresión y tienes espacio para dejarla fija. Si el espacio es tu limitación principal, el X150 resuelve ese problema por 35 euros menos. Y si buscas el precio más bajo posible con algún extra, el X100-C es la tercera opción. Cada una resuelve un problema distinto.",
     faqs: [
-      { q: "¿Cuánto espacio ocupa la MERACH bicicleta estática?", a: "La MERACH no es plegable, así que el espacio que ocupa es su huella real de uso permanente. Conviene consultar las dimensiones exactas en la ficha de Amazon antes de comprar y medirlas en tu espacio, asegurándote de dejar hueco para montar y bajar de la bicicleta con comodidad." },
+      { q: "¿Cuánto espacio ocupa la MERACH bicicleta estática?", a: "La MERACH no es plegable, así que el espacio que ocupa es su huella real de uso permanente. Conviene consultar las dimensiones exactas en la ficha del producto antes de comprar y medirlas en tu espacio, asegurándote de dejar hueco para montar y bajar de la bicicleta con comodidad." },
       { q: "¿La MERACH funciona sin la app?", a: "Sí. El monitor LED incorporado muestra velocidad, distancia, tiempo y calorías de forma autónoma, sin necesidad de conectar el teléfono. La app añade el seguimiento histórico y los programas de entrenamiento, pero no es imprescindible para usar la bicicleta con normalidad." },
       { q: "¿Cada cuánto hay que ajustar el sillín de la MERACH?", a: "El sillín se ajusta según el usuario, así que hay que revisarlo antes de cada sesión si la bicicleta la comparten varias personas. La altura correcta es aquella en la que la rodilla queda ligeramente flexionada en el punto más bajo del pedaleo; una altura incorrecta puede generar molestias en las rodillas a medio plazo." },
       { q: "¿La MERACH aguanta sesiones largas de más de una hora?", a: "Sí. Su asiento acolchado y la robustez de la estructura están pensados para ese uso. Las resistencias magnéticas no se calientan ni se degradan con el uso prolongado como las de fricción, así que no hay ninguna limitación técnica para sesiones largas más allá de tu propia resistencia." },
@@ -1027,7 +1027,7 @@ const articleContent: Record<string, {
     conclusion: "Las LULLAX NEO36 son la mancuerna definitiva para el home gym, el par que no repetirás en años. Su precio se justifica si llevas tiempo entrenando y la progresión lo pide. Si no estás en ese punto, las ManiBoom son la compra más inteligente: mismo objetivo básico, sin arriesgar de más.",
     faqs: [
       { q: "¿Las LULLAX NEO36 son compatibles con cualquier ejercicio?", a: "Sí para la mayoría. La excepción son los ejercicios donde las mancuernas se sueltan al suelo, como los levantamientos olímpicos o el snatch: el mecanismo no está diseñado para ese trato. Para la fuerza clásica y la hipertrofia, que es lo que hace la inmensa mayoría de la gente en casa, cubren absolutamente todo." },
-      { q: "¿Cuánto pesan las LULLAX NEO36 en su configuración mínima?", a: "El mango más los discos mínimos pesa aproximadamente 2,5 kg por mancuerna, que es el punto de partida del rango ajustable. Conviene consultar la ficha de Amazon para el dato exacto actualizado, ya que el peso mínimo determina si sirven también para ejercicios de aislamiento ligeros como las elevaciones laterales." },
+      { q: "¿Cuánto pesan las LULLAX NEO36 en su configuración mínima?", a: "El mango más los discos mínimos pesa aproximadamente 2,5 kg por mancuerna, que es el punto de partida del rango ajustable. Conviene consultar la ficha del producto para el dato exacto actualizado, ya que el peso mínimo determina si sirven también para ejercicios de aislamiento ligeros como las elevaciones laterales." },
       { q: "¿Las LULLAX NEO36 caben en un piso pequeño?", a: "Con la base incluida, el par ocupa el equivalente a una caja de zapatos grande. Es probablemente el equipamiento de fuerza con mejor relación entre peso útil y espacio ocupado del mercado: 36 kg de carga por mano en el hueco que ocuparía un solo par de mancuernas fijas ligeras." },
       { q: "¿Merece la pena pagar 349 € por unas mancuernas?", a: "Si las vas a usar durante tres a cinco años, sí. El coste repartido por año es inferior al de la cuota anual de la mayoría de los gimnasios, y el equipamiento es tuyo para siempre, sin desplazamientos ni esperas. Si no tienes claro que el hábito vaya a durar, empieza con algo más económico y da el salto cuando la progresión lo pida." },
     ],
@@ -1091,7 +1091,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Fokky bandas elásticas: análisis",
-        body: "Las Fokky son de TPE sin látex, lo que las hace aptas para personas con alergia al látex, un argumento que a menudo se pasa por alto hasta que es un problema. Miden 1,8 metros, incluyen los cuatro niveles de resistencia y una bolsa de transporte, y son top 12 en deportes en Amazon España. Por 12,99 euros son el primer paso de equipamiento más económico y razonable que existe: cubren un espectro de trabajo amplio por el precio de un par de cafés, y su material aguanta bien los ciclos de estiramiento del uso doméstico.",
+        body: "Las Fokky son de TPE sin látex, lo que las hace aptas para personas con alergia al látex, un argumento que a menudo se pasa por alto hasta que es un problema. Miden 1,8 metros, incluyen los cuatro niveles de resistencia y una bolsa de transporte, y son top 12 en deportes en su categoría. Por 12,99 euros son el primer paso de equipamiento más económico y razonable que existe: cubren un espectro de trabajo amplio por el precio de un par de cafés, y su material aguanta bien los ciclos de estiramiento del uso doméstico.",
         productSlug: "fokky-bandas-elasticas-set-4-tpe",
       },
       {
@@ -1354,7 +1354,7 @@ const articleContent: Record<string, {
       { q: "¿La TOPLUS se desliza sobre el parquet?", a: "La textura antideslizante de la cara inferior está diseñada específicamente para suelos duros. Los usuarios la valoran especialmente en parquet y baldosa, donde las esterillas sin esa textura tienden a resbalar." },
       { q: "¿La TOPLUS es buena para pilates además de yoga?", a: "Sí. Sus 6 mm de grosor la hacen especialmente cómoda para el trabajo de suelo del pilates, donde muchos ejercicios se ejecutan sobre rodillas y espalda. El agarre es también adecuado para los movimientos de pilates." },
       { q: "¿Se puede enrollar la TOPLUS con facilidad?", a: "Sí. El TPE doble capa es lo suficientemente flexible para enrollarse con facilidad, aunque algo más rígido que el TPE de capa única. La correa de hombro incluida facilita el transporte una vez enrollada." },
-      { q: "¿Cuánto pesa la TOPLUS?", a: "Las esterillas de TPE de 6 mm suelen pesar entre 1 y 1,5 kg. Consulta la ficha de Amazon para el dato exacto, ya que el peso es relevante si vas a transportarla regularmente." },
+      { q: "¿Cuánto pesa la TOPLUS?", a: "Las esterillas de TPE de 6 mm suelen pesar entre 1 y 1,5 kg. Consulta la ficha del producto para el dato exacto, ya que el peso es relevante si vas a transportarla regularmente." },
     ],
   },
 
@@ -1651,7 +1651,7 @@ const articleContent: Record<string, {
     faqs: [
       { q: "¿La Myprotein Impact Whey tiene lactosa?", a: "Sí, al ser un concentrado conserva algo de lactosa. Si tienes intolerancia significativa, puede causarte molestias digestivas. Myprotein ofrece versiones sin lactosa en su catálogo. La cantidad es menor que en un vaso de leche, así que la tolerancia varía por persona." },
       { q: "¿Myprotein es una marca de confianza?", a: "Sí. Es una de las marcas de nutrición deportiva más grandes de Europa, con fábricas propias en el Reino Unido y certificaciones de calidad. No tiene la antigüedad de ON pero sí un track record sólido." },
-      { q: "¿Se puede comprar Myprotein en España?", a: "Sí, disponible en Amazon España con entrega rápida, además de su propia web con frecuentes promociones y descuentos." },
+      { q: "¿Se puede comprar Myprotein en España?", a: "Sí, disponible online con entrega rápida, además de su propia web con frecuentes promociones y descuentos." },
       { q: "¿La Impact Whey sirve si no entreno de forma intensa?", a: "Sí. Es proteína en polvo, no un estimulante ni un quemador de grasa. Si no llegas a tu ingesta proteica diaria con la dieta, la whey la complementa perfectamente independientemente de la intensidad del entrenamiento." },
     ],
   },
@@ -2423,7 +2423,7 @@ const AUTHOR = {
                       rel="nofollow sponsored noopener noreferrer"
                       className="inline-block mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
                     >
-                      Ver {ctaProduct.name} en Amazon · {ctaProduct.price}
+                      Ver {ctaProduct.name} · {ctaProduct.price}
                     </a>
                   )}
                 </section>
