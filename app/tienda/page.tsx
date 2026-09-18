@@ -108,7 +108,7 @@ export default function TiendaPage() {
             </div>
 
             <p className="text-xs text-gray-400 mt-8 pl-3 border-l-2 border-gray-200">
-              Enlace de afiliado Amazon Associates. Recibimos una comisión sin coste adicional para ti.
+              Enlace de afiliado. Recibimos una comisión sin coste adicional para ti.
             </p>
           </main>
         </div>

@@ -13,7 +13,7 @@ const personSchema = {
   "@type": "Organization",
   name: "Equipo Editorial de FitnessFácil.es",
   description:
-    "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones de compradores verificadas en Amazon para recomendar equipamiento fitness, con apoyo de herramientas de IA en el proceso de investigación y redacción, siempre bajo revisión editorial.",
+    "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones de compradores verificadas para recomendar equipamiento fitness, con apoyo de herramientas de IA en el proceso de investigación y redacción, siempre bajo revisión editorial.",
   url: "https://www.fitnessfacil.es/sobre-nosotros",
   parentOrganization: {
     "@type": "Organization",
@@ -94,7 +94,7 @@ export default function SobreNosotrosPage() {
               Mkt Web 360 SLU
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-3">
-              Nuestro equipo compara especificaciones técnicas, precios y opiniones de compradores verificadas en Amazon.es antes de recomendar cualquier producto. Usamos herramientas de inteligencia artificial como apoyo en la investigación y redacción, siempre con revisión editorial antes de publicar — nunca inventamos datos de producto ni resultados.
+              Nuestro equipo compara especificaciones técnicas, precios y opiniones de compradores verificadas antes de recomendar cualquier producto. Usamos herramientas de inteligencia artificial como apoyo en la investigación y redacción, siempre con revisión editorial antes de publicar — nunca inventamos datos de producto ni resultados.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">
@@ -171,10 +171,10 @@ export default function SobreNosotrosPage() {
             </p>
             <ul className="space-y-2 text-sm text-amber-800">
               <li>
-                <strong>Amazon Associates (cclaserdepi01-21):</strong> Somos
-                afiliados del programa de Amazon España. Cuando compras a través de
-                nuestros enlaces a Amazon, recibimos una comisión (generalmente
-                3-8%) sin coste adicional para ti.
+                <strong>Programa de afiliación:</strong> Somos
+                afiliados de distintos programas de partners comerciales. Cuando compras a través de
+                nuestros enlaces, recibimos una comisión (generalmente
+                3-8%) sin coste adicional para ti. Más detalle en nuestra política de privacidad.
               </li>
               <li>
                 <strong>Google AdSense (pub-6063067965030118):</strong> Mostramos
@@ -201,7 +201,7 @@ export default function SobreNosotrosPage() {
             <li>✓ Indicamos siempre qué enlaces son de afiliado</li>
             <li>✓ Opiniones honestas e independientes</li>
             <li>✓ No aceptamos pagos por reseñas positivas</li>
-            <li>✓ Precios orientativos, pueden variar en Amazon</li>
+            <li>✓ Precios orientativos, pueden variar en destino</li>
             <li>
               ✓ Avisos de salud en todo contenido sobre suplementos y ejercicio
             </li>

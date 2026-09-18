@@ -43,7 +43,7 @@ export default function AvisoLegalPage() {
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">5. Información sobre afiliados</h2>
-          <p>FitnessFácil.es participa en el Programa de Afiliados de Amazon EU (ID: cclaserdepi01-21). Los enlaces de afiliado pueden generar comisión sin coste adicional para el usuario.</p>
+          <p>FitnessFácil.es participa en programas de afiliación con distintos proveedores. Los enlaces de afiliado pueden generar comisión sin coste adicional para el usuario. Consulta el detalle en nuestra política de privacidad.</p>
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">6. Legislación aplicable</h2>

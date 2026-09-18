@@ -191,7 +191,7 @@ export default function HomePage() {
             <div className="p-6">
               <div className="text-4xl mb-3">🇪🇸</div>
               <h3 className="font-bold text-lg mb-2">Para el mercado español</h3>
-              <p className="text-gray-600 text-sm">Precios en euros, productos disponibles en Amazon España y envío rápido.</p>
+              <p className="text-gray-600 text-sm">Precios en euros, productos disponibles online y envío rápido.</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-3">💯</div>
