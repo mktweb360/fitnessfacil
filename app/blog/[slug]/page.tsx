@@ -234,6 +234,9 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "Para la mayoría de personas, Myprotein Impact Whey ofrece la mejor relación calidad-precio y cumple de sobra el objetivo de completar la ingesta proteica diaria. Si compites en federación y necesitas certificación antidopaje, o simplemente valoras el historial y la disolución sin grumos, Optimum Nutrition Gold Standard justifica su precio superior. Lo esencial no cambia con la marca: ningún suplemento sustituye a una dieta equilibrada, y la proteína en polvo solo tiene sentido si no llegas a tu objetivo diario con comida real.",
+    sources: [
+      { label: "International Society of Sports Nutrition — Position Stand: Protein and Exercise", url: "https://link.springer.com/article/10.1186/s12970-017-0177-8" },
+    ],
     faqs: [
       { q: "¿La proteína whey engorda?", a: "No por sí sola. La proteína whey es proteína en polvo: 1 g aporta 4 kcal, igual que la de cualquier alimento. El peso se gana o se pierde según el balance calórico total del día. Integrada en una dieta equilibrada no engorda; si la añades por encima de las calorías que necesitas, sumará como sumaría cualquier otro alimento." },
       { q: "¿La proteína daña los riñones?", a: "En personas sanas, la evidencia acumulada durante décadas no ha encontrado relación entre una ingesta alta de proteína y daño renal. La situación es distinta en personas con enfermedad renal previa, donde sí suele estar indicado limitar la ingesta proteica bajo control médico. Si tienes cualquier patología renal o dudas sobre tu función renal, consulta con tu médico antes de suplementarte." },
@@ -379,6 +382,9 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La creatina monohidrato pura es todo lo que necesitas: cualquier otra forma es más cara sin ofrecer una ventaja demostrada. De 3 a 5 gramos al día, de forma constante y sin ciclar, con la comida o dentro del batido posterior al entrenamiento. Combinada con un plan de fuerza bien estructurado y una ingesta proteica suficiente, es el suplemento con mejor relación entre evidencia científica, seguridad y precio del mercado.",
+    sources: [
+      { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
+    ],
     faqs: [
       { q: "¿La creatina retiene líquidos y hace parecer hinchado?", a: "La creatina produce retención de agua intramuscular, es decir, dentro de la célula muscular y no bajo la piel. Eso puede suponer uno o dos kilos de peso en agua durante los primeros días, pero el efecto visual es de músculo más lleno, no de hinchazón. La retención subcutánea que da aspecto blando es un efecto de otras causas y no está documentada como consecuencia de la creatina." },
       { q: "¿La creatina es solo para hombres que quieren ganar volumen?", a: "No. Los beneficios están documentados en hombres y mujeres, en jóvenes y en personas mayores. En mujeres, mejora igualmente el rendimiento en esfuerzos de alta intensidad sin producir el aumento de volumen que se teme, porque el perfil hormonal es distinto. En personas mayores, la investigación apunta además a beneficios en el mantenimiento de masa muscular y en función cognitiva." },
@@ -1605,6 +1611,9 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La creatina monohidrato pura es todo lo que necesitas. Las variantes más caras (HCL, buffered) no han demostrado ventajas superiores al monohidrato en estudios de calidad. 3-5 g diarios de forma constante, sin ciclar, es el protocolo más efectivo y seguro.",
+    sources: [
+      { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
+    ],
     faqs: [
       { q: "¿La creatina es segura para los riñones?", a: "En personas sanas, los estudios a largo plazo no han encontrado daño renal con la suplementación de creatina. Si tienes una patología renal previa, consulta con tu médico antes de suplementarte." },
       { q: "¿Hay que ciclar la creatina?", a: "No existe evidencia que respalde la necesidad de hacer ciclos o descansos. Se puede tomar de forma continua. Interrumpirla solo significa perder la saturación muscular y tardar semanas en recuperarla." },
@@ -1694,6 +1703,10 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "Para la mayoría de personas que entrenan en casa, creatina + proteína whey (si la dieta no cubre la proteína) es todo lo que necesitan. Empezar por la creatina. Añadir la whey solo si hay un déficit proteico real. Todo lo demás es opcional en el mejor caso e inútil en el peor.",
+    sources: [
+      { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
+      { label: "International Society of Sports Nutrition — Position Stand: Protein and Exercise", url: "https://link.springer.com/article/10.1186/s12970-017-0177-8" },
+    ],
     faqs: [
       { q: "¿Los suplementos son peligrosos?", a: "Los suplementos básicos (creatina, proteína whey) son seguros para personas sanas con las dosis recomendadas y respaldo científico sólido. Otros productos (quemadores de grasa, pre-entrenos complejos) tienen evidencia mucho más débil y potenciales efectos secundarios. Consulta siempre con tu médico si tienes alguna patología." },
       { q: "¿A qué edad se pueden tomar suplementos?", a: "La proteína whey y la creatina no tienen restricciones de edad formales para adultos. Para menores de 18 años, consulta siempre con un médico o nutricionista antes de suplementarse." },
@@ -1736,6 +1749,9 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La whey sigue siendo la opción más eficiente y económica para la mayoría de personas. La proteína vegana de calidad (mezcla guisante + arroz) es una alternativa completamente válida para veganos, intolerantes a la lactosa o quienes prefieren reducir el consumo animal, aunque a mayor precio. No es la dieta lo que determina los resultados — es la ingesta total de proteína diaria.",
+    sources: [
+      { label: "International Society of Sports Nutrition — Position Stand: Protein and Exercise", url: "https://link.springer.com/article/10.1186/s12970-017-0177-8" },
+    ],
     faqs: [
       { q: "¿La proteína de guisante es completa?", a: "El guisante solo es deficiente en metionina. Por eso la proteína vegana de calidad combina guisante con arroz (rico en metionina), obteniendo un perfil más completo. La soja también tiene un perfil bastante completo por sí sola." },
       { q: "¿La proteína vegana produce los mismos resultados que la whey?", a: "Cuando la ingesta total de proteína y calorías es equivalente, los estudios recientes muestran diferencias mínimas en ganancia muscular entre whey y proteína de guisante. La diferencia práctica es pequeña si se consigue el objetivo proteico diario." },
@@ -1783,6 +1799,10 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "El mejor pre-entreno para la mayoría de personas que entrenan en casa es el más barato: café + creatina. Si quieres la comodidad de un producto único, busca uno que tenga cafeína y creatina como ingredientes principales y evita pagar de más por los rellenos sin evidencia. Y recuerda: el pre-entreno más efectivo de todos es el que te hace entrenar cuando no tienes ganas — sea cual sea.",
+    sources: [
+      { label: "International Society of Sports Nutrition — Position Stand: cafeína y rendimiento deportivo", url: "https://link.springer.com/article/10.1186/s12970-020-00383-4" },
+      { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
+    ],
     faqs: [
       { q: "¿Es malo tomar pre-entreno todos los días?", a: "La cafeína genera tolerancia con el uso diario — necesitarás más cantidad para el mismo efecto. Se recomienda no superar 400 mg de cafeína al día (límite de seguridad para adultos sanos) y hacer descansos periódicos si consumes pre-entreno a diario. Para quienes ya toman café regularmente, el pre-entreno puede no añadir prácticamente ningún efecto estimulante." },
       { q: "¿A qué hora es mejor tomar el pre-entreno?", a: "30-60 minutos antes del entrenamiento para la cafeína. Si entrenas por la tarde-noche, ten en cuenta que la cafeína tiene una vida media de 5-7 horas — una dosis de 200 mg tomada a las 18:00 todavía tiene 100 mg activos a las 23:00-00:00, lo que puede afectar al sueño." },
@@ -2287,6 +2307,9 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "El sobreentrenamiento no se resuelve entrenando más duro ni se evita solo con \"fuerza de voluntad\": es una señal de que el volumen ha superado, durante un tiempo sostenido, la capacidad real de recuperación. La solución con más evidencia sigue siendo la más aburrida: dormir más, no entrenar en déficit calórico agresivo, y programar semanas de descarga antes de que el cuerpo las imponga por la fuerza. El apoyo nutricional (magnesio, omega 3, proteína y BCAA suficientes) acelera la recuperación, pero no sustituye a corregir la causa de fondo. Detectarlo dos semanas antes es la diferencia entre perder un microciclo o perder un mes entero de progreso.",
+    sources: [
+      { label: "European College of Sport Science / American College of Sports Medicine — Consenso conjunto sobre prevención, diagnóstico y tratamiento del síndrome de sobreentrenamiento", url: "https://onlinelibrary.wiley.com/doi/10.1080/17461391.2012.730061" },
+    ],
     faqs: [
       { q: "¿Cuánto tiempo se tarda en recuperarse de un sobreentrenamiento?", a: "Depende de la gravedad y del tiempo que se haya prolongado antes de actuar. Un caso detectado pronto y tratado con reducción de volumen suele resolverse en 1-2 semanas. Un caso ignorado durante meses puede requerir 4-6 semanas de recuperación activa antes de volver al nivel previo. Cuanto antes se actúa sobre las señales, más corta es la recuperación." },
       { q: "¿Se puede tener sobreentrenamiento entrenando solo 3 veces por semana?", a: "Sí. El volumen semanal de entrenamiento es solo una variable entre varias: dormir mal, comer en déficit agresivo o acumular estrés laboral pueden provocar sobreentrenamiento incluso con una frecuencia moderada, porque lo que cuenta es el balance entre estrés total (físico y no físico) y recuperación, no solo las horas de gimnasio." },
