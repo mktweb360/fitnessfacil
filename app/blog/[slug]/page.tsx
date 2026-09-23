@@ -34,8 +34,11 @@ const articleContent: Record<string, {
   intro: string;
   sections: ArticleSection[];
   comparison?: { headers: string[]; rows: string[][] };
+  comparisonHeading?: string;
   plan?: Array<{ week: string; description: string; sessions: string[] }>;
   conclusion: string;
+  conclusionHeading?: string;
+  faqsHeading?: string;
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
@@ -234,6 +237,8 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "Para la mayoría de personas, Myprotein Impact Whey ofrece la mejor relación calidad-precio y cumple de sobra el objetivo de completar la ingesta proteica diaria. Si compites en federación y necesitas certificación antidopaje, o simplemente valoras el historial y la disolución sin grumos, Optimum Nutrition Gold Standard justifica su precio superior. Lo esencial no cambia con la marca: ningún suplemento sustituye a una dieta equilibrada, y la proteína en polvo solo tiene sentido si no llegas a tu objetivo diario con comida real.",
+    conclusionHeading: "¿Qué proteína elegir entonces?",
+    faqsHeading: "Dudas frecuentes sobre la proteína whey",
     sources: [
       { label: "International Society of Sports Nutrition — Position Stand: Protein and Exercise", url: "https://link.springer.com/article/10.1186/s12970-017-0177-8" },
     ],
@@ -382,6 +387,8 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La creatina monohidrato pura es todo lo que necesitas: cualquier otra forma es más cara sin ofrecer una ventaja demostrada. De 3 a 5 gramos al día, de forma constante y sin ciclar, con la comida o dentro del batido posterior al entrenamiento. Combinada con un plan de fuerza bien estructurado y una ingesta proteica suficiente, es el suplemento con mejor relación entre evidencia científica, seguridad y precio del mercado.",
+    conclusionHeading: "Lo que debes recordar sobre la creatina",
+    faqsHeading: "Preguntas sobre la creatina",
     sources: [
       { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
     ],
@@ -1611,6 +1618,8 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La creatina monohidrato pura es todo lo que necesitas. Las variantes más caras (HCL, buffered) no han demostrado ventajas superiores al monohidrato en estudios de calidad. 3-5 g diarios de forma constante, sin ciclar, es el protocolo más efectivo y seguro.",
+    conclusionHeading: "El protocolo que funciona",
+    faqsHeading: "Dudas sobre el protocolo de creatina",
     sources: [
       { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
     ],
@@ -1703,6 +1712,8 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "Para la mayoría de personas que entrenan en casa, creatina + proteína whey (si la dieta no cubre la proteína) es todo lo que necesitan. Empezar por la creatina. Añadir la whey solo si hay un déficit proteico real. Todo lo demás es opcional en el mejor caso e inútil en el peor.",
+    conclusionHeading: "Por dónde empezar de verdad",
+    faqsHeading: "Preguntas sobre suplementación básica",
     sources: [
       { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
       { label: "International Society of Sports Nutrition — Position Stand: Protein and Exercise", url: "https://link.springer.com/article/10.1186/s12970-017-0177-8" },
@@ -1749,6 +1760,8 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "La whey sigue siendo la opción más eficiente y económica para la mayoría de personas. La proteína vegana de calidad (mezcla guisante + arroz) es una alternativa completamente válida para veganos, intolerantes a la lactosa o quienes prefieren reducir el consumo animal, aunque a mayor precio. No es la dieta lo que determina los resultados — es la ingesta total de proteína diaria.",
+    conclusionHeading: "La decisión, resumida",
+    faqsHeading: "Dudas sobre proteína vegana vs whey",
     sources: [
       { label: "International Society of Sports Nutrition — Position Stand: Protein and Exercise", url: "https://link.springer.com/article/10.1186/s12970-017-0177-8" },
     ],
@@ -1799,6 +1812,8 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "El mejor pre-entreno para la mayoría de personas que entrenan en casa es el más barato: café + creatina. Si quieres la comodidad de un producto único, busca uno que tenga cafeína y creatina como ingredientes principales y evita pagar de más por los rellenos sin evidencia. Y recuerda: el pre-entreno más efectivo de todos es el que te hace entrenar cuando no tienes ganas — sea cual sea.",
+    conclusionHeading: "El pre-entreno que de verdad funciona",
+    faqsHeading: "Preguntas sobre pre-entrenos",
     sources: [
       { label: "International Society of Sports Nutrition — Position Stand: cafeína y rendimiento deportivo", url: "https://link.springer.com/article/10.1186/s12970-020-00383-4" },
       { label: "International Society of Sports Nutrition — Position Stand: safety and efficacy of creatine supplementation", url: "https://link.springer.com/article/10.1186/s12970-017-0173-z" },
@@ -2019,6 +2034,8 @@ const articleContent: Record<string, {
     },
     conclusion:
       "La banda de asistencia no es un atajo ni una muleta permanente: es la forma más eficaz de practicar el patrón motor completo de la dominada desde el primer entrenamiento, en lugar de esperar semanas a tener fuerza suficiente para intentarla sin ayuda. Nuestra valoración, tras revisar la evidencia disponible y la lógica de progresión de fuerza aplicada a este ejercicio: es la herramienta más eficiente en relación coste-resultado de todo el catálogo de fuerza para este objetivo concreto, siempre que se combine con paciencia y sin saltarse la fase de negativas sin banda. Seis semanas es una referencia realista para progresar un nivel de asistencia, no para llegar a la dominada libre desde cero: para eso, cuenta con 3-6 meses según tu punto de partida.",
+    conclusionHeading: "Nuestra valoración sobre las bandas de asistencia",
+    faqsHeading: "Dudas sobre la progresión a la dominada",
     sources: [
       { label: "National Strength and Conditioning Association (NSCA) — Essentials of Strength Training and Conditioning", url: "https://www.nsca.com/" },
       { label: "American Council on Exercise (ACE) — Guía de progresión de dominadas", url: "https://www.acefitness.org/" },
@@ -2077,6 +2094,8 @@ const articleContent: Record<string, {
     },
     conclusion:
       "Nuestra valoración editorial, después de revisar la evidencia disponible para los tres: ninguno es imprescindible, pero el magnesio es el que ofrece más probabilidad de beneficio real para más gente al menor coste, seguido del omega-3 como suplemento de fondo si la dieta no lo cubre. Los BCAA son el más prescindible salvo en el escenario concreto de entrenar en ayunas o en sesiones muy largas — no es que no funcionen, es que casi nunca resuelven un problema que la proteína completa de la dieta no resuelva ya. Antes de gastar en los tres a la vez, revisa si duermes lo suficiente y comes proteína completa a diario: sin esa base, ningún suplemento de esta lista compensa la diferencia.",
+    conclusionHeading: "Qué suplementos merecen la pena",
+    faqsHeading: "Preguntas sobre recuperación muscular",
     sources: [
       { label: "International Society of Sports Nutrition (ISSN) — Position Stand: Protein and Exercise", url: "https://jissn.biomedcentral.com/" },
       { label: "Examine.com — Base de datos de evidencia científica sobre suplementos (Magnesio, Omega-3, BCAA)", url: "https://examine.com/" },
@@ -2127,7 +2146,7 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Mobiclinic ExtenFit", "JUPPLIES selector rápido"],
       rows: [
-        ["Precio", "35,95€ - 44,95€", "219,99€"],
+        ["Posicionamiento de precio", "Económico", "Alto"],
         ["Rango de peso", "2-30 kg", "2-24 kg por unidad"],
         ["Cambio de peso", "Manual (discos + tuercas)", "Selector rápido (segundos)"],
         ["Extra incluido", "Barra de extensión 2 en 1", "Base antideslizante + bloqueo"],
@@ -2198,7 +2217,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El coste de la comodidad: tamaño y precio",
-        body: "El respaldo añade tamaño total al equipo — algo a tener en cuenta si el espacio es limitado — y el precio (189,99€) es superior a las bicicletas plegables de entrada del catálogo. Es una inversión que solo se justifica si el criterio de comodidad realmente pesa en la decisión.",
+        body: "El respaldo añade tamaño total al equipo — algo a tener en cuenta si el espacio es limitado — y el precio es sensiblemente superior a las bicicletas plegables de entrada del catálogo. Es una inversión que solo se justifica si el criterio de comodidad realmente pesa en la decisión.",
       },
       {
         heading: "Alternativas si el espacio es la prioridad",
@@ -2209,7 +2228,7 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Toputure con respaldo", "CURSOR spinning vertical"],
       rows: [
-        ["Precio", "189,99€", "99,99€"],
+        ["Posicionamiento de precio", "Alto", "Medio"],
         ["Postura", "Reclinada con respaldo", "Vertical tipo spinning"],
         ["Resistencia", "16 niveles + app", "16 niveles magnéticos"],
         ["Espacio ocupado", "Mayor (por el respaldo)", "Compacta"],
@@ -2250,7 +2269,7 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "PORTENTUM (10 piezas)", "Fokky (5 bandas loop)"],
       rows: [
-        ["Precio", "17,69€", "6,99€"],
+        ["Posicionamiento de precio", "Medio", "Económico"],
         ["Incluye asas", "Sí", "No"],
         ["Anclaje de puerta", "Sí", "No"],
         ["Ejercicios tipo polea", "Sí (remo, press, jalones)", "No, solo tren inferior/loop"],
@@ -2307,6 +2326,8 @@ const articleContent: Record<string, {
       ],
     },
     conclusion: "El sobreentrenamiento no se resuelve entrenando más duro ni se evita solo con \"fuerza de voluntad\": es una señal de que el volumen ha superado, durante un tiempo sostenido, la capacidad real de recuperación. La solución con más evidencia sigue siendo la más aburrida: dormir más, no entrenar en déficit calórico agresivo, y programar semanas de descarga antes de que el cuerpo las imponga por la fuerza. El apoyo nutricional (magnesio, omega 3, proteína y BCAA suficientes) acelera la recuperación, pero no sustituye a corregir la causa de fondo. Detectarlo dos semanas antes es la diferencia entre perder un microciclo o perder un mes entero de progreso.",
+    conclusionHeading: "Cómo salir del sobreentrenamiento",
+    faqsHeading: "Preguntas sobre el sobreentrenamiento",
     sources: [
       { label: "European College of Sport Science / American College of Sports Medicine — Consenso conjunto sobre prevención, diagnóstico y tratamiento del síndrome de sobreentrenamiento", url: "https://onlinelibrary.wiley.com/doi/10.1080/17461391.2012.730061" },
     ],
@@ -2455,7 +2476,7 @@ const AUTHOR = {
 
             {content.comparison && (
               <section className="mb-8">
-                <h2 className="text-xl font-extrabold text-gray-900 mb-4">Comparativa</h2>
+                <h2 className="text-xl font-extrabold text-gray-900 mb-4">{content.comparisonHeading || "Comparativa"}</h2>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm border-collapse">
                     <thead>
@@ -2503,7 +2524,7 @@ const AUTHOR = {
             )}
 
             <section className="mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
-              <h2 className="text-lg font-extrabold text-gray-900 mb-3">Conclusión</h2>
+              <h2 className="text-lg font-extrabold text-gray-900 mb-3">{content.conclusionHeading || "Conclusión"}</h2>
               <p className="text-gray-700 leading-relaxed">{content.conclusion}</p>
             </section>
             {content.sources && content.sources.length > 0 && (
@@ -2549,7 +2570,7 @@ const AUTHOR = {
 
         {content?.faqs && content.faqs.length > 0 && (
           <section className="mb-10">
-            <h2 className="text-xl font-extrabold text-gray-900 mb-5">Preguntas frecuentes</h2>
+            <h2 className="text-xl font-extrabold text-gray-900 mb-5">{content?.faqsHeading || "Preguntas frecuentes"}</h2>
             <div className="space-y-4">
               {content.faqs.map((faq) => (
                 <div key={faq.q} className="bg-white border border-gray-200 rounded-xl p-5">
