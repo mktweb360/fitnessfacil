@@ -2377,6 +2377,10 @@ export default async function BlogPostPage({ params }: Props) {
   const content = articleContent[slug];
   const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter(Boolean) ?? [];
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
+  const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
+  const sameCategoryPosts = posts
+    .filter((p) => p.category === post.category && !relatedSlugs.has(p.slug))
+    .slice(0, 6);
 
 const AUTHOR = {
   "@type": "Organization",
@@ -2633,6 +2637,21 @@ const AUTHOR = {
                 </Link>
               ))}
             </div>
+          </section>
+        )}
+
+        {sameCategoryPosts.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-lg font-extrabold text-gray-900 mb-4">Más guías de {post.category}</h2>
+            <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
+              {sameCategoryPosts.map((p) => (
+                <li key={p.slug}>
+                  <Link href={`/blog/${p.slug}`} className="text-sm text-green-700 hover:text-green-900 hover:underline">
+                    {p.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 
