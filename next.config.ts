@@ -62,6 +62,72 @@ const nextConfig: NextConfig = {
         destination: "/tienda/cintas-correr",
         permanent: true,
       },
+      // 27/09/2026 loop: productos retirados en 2026-06/08 sin redirect (auditoría historial git)
+      {
+        source: "/tienda/pesas-mancuernas/amazon-basics-kettlebell-16kg",
+        destination: "/tienda/pesas-mancuernas/jowy-kettlebell-pvc-16kg",
+        permanent: true,
+      },
+      {
+        source: "/tienda/bicicletas-estaticas/bh-fitness-sb2-6",
+        destination: "/tienda/bicicletas-estaticas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/bicicletas-estaticas/bowflex-velocore-bicicleta",
+        destination: "/tienda/bicicletas-estaticas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/bicicletas-estaticas/decathlon-domyos-eb900",
+        destination: "/tienda/bicicletas-estaticas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/bicicletas-estaticas/domyos-ve520-bicicleta-estatica",
+        destination: "/tienda/bicicletas-estaticas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/pesas-mancuernas/gorilla-sports-rack-mancuernas",
+        destination: "/tienda/pesas-mancuernas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/esterillas-yoga/manduka-pro-yoga-mat",
+        destination: "/tienda/esterillas-yoga/manduka-pro-yoga-mat-6mm",
+        permanent: true,
+      },
+      {
+        source: "/tienda/suplementos-proteinas/myprotein-impact-whey-1kg",
+        destination: "/tienda/suplementos-proteinas/myprotein-impact-whey-1kg-galletas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/esterillas-yoga/nike-fundamental-yoga-mat",
+        destination: "/tienda/esterillas-yoga",
+        permanent: true,
+      },
+      {
+        source: "/tienda/cintas-correr/reebok-one-gt40s",
+        destination: "/tienda/cintas-correr",
+        permanent: true,
+      },
+      {
+        source: "/tienda/bicicletas-estaticas/sportstech-ux250",
+        destination: "/tienda/bicicletas-estaticas",
+        permanent: true,
+      },
+      {
+        source: "/tienda/cintas-correr/toorx-trx-50s",
+        destination: "/tienda/cintas-correr",
+        permanent: true,
+      },
+      {
+        source: "/tienda/cintas-correr/xiaomi-kingsmith-walkingpad",
+        destination: "/tienda/cintas-correr/walkingpad-r2-cinta-plegable",
+        permanent: true,
+      },
     ];
   },
 };

@@ -8,7 +8,7 @@ export interface OfferSlide {
   badge: string;
   title: string;
   subtitle: string;
-  price: string;
+  price?: string; // no se muestra: precios estáticos retirados por cumplimiento (27/09/2026)
   href: string;
 }
 
@@ -74,9 +74,6 @@ export default function OffersSlider({ slides, intervalMs = 4000 }: Props) {
                 {slide.subtitle}
               </p>
               <div className="flex items-center gap-3">
-                <span className="bg-white text-green-700 font-bold text-sm px-3 py-1 rounded-lg shadow-sm">
-                  {slide.price}
-                </span>
                 <Link
                   href={slide.href}
                   className="text-white text-sm font-semibold underline decoration-white/50 underline-offset-4 hover:decoration-white [text-shadow:0_1px_6px_rgba(0,0,0,0.6)]"

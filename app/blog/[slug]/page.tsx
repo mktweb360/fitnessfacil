@@ -2338,6 +2338,60 @@ const articleContent: Record<string, {
       { q: "¿Los suplementos de recuperación curan el sobreentrenamiento por sí solos?", a: "No. El magnesio, el omega 3 o los BCAA apoyan procesos concretos (sueño, inflamación, síntesis proteica) pero no compensan un déficit de sueño sostenido ni un volumen de entrenamiento que sigue siendo excesivo. Son un complemento útil durante la fase de recuperación, nunca un sustituto de reducir el volumen y dormir más." },
     ],
   },
+  "rodillo-espuma-foam-roller-como-usar": {
+    intro: "El rodillo de espuma (foam roller) se ha convertido en el accesorio de recuperación más vendido para entrenar en casa, y también en uno de los más sobrevendidos. Se le atribuye de todo: eliminar toxinas, romper adherencias, deshacer nudos o prevenir lesiones. La investigación dibuja un cuadro más modesto pero útil: el rodillo mejora de forma temporal la movilidad y reduce la sensación de dolor muscular tras entrenar, con efectos pequeños sobre el rendimiento. Esta guía resume qué dicen los metaanálisis, cómo usarlo antes y después de entrenar, los errores más habituales y qué tipo de rodillo encaja con cada perfil.",
+    sections: [
+      {
+        heading: "Qué hace realmente un rodillo de espuma (y qué no)",
+        body: "El foam rolling es una forma de automasaje: apoyas una zona muscular sobre el cilindro y usas tu propio peso para aplicar presión mientras rueda. El mecanismo exacto sigue en estudio y la explicación más citada hoy es neurofisiológica: la presión modifica temporalmente la tolerancia al estiramiento y la percepción del dolor, más que cambiar la estructura del tejido. Lo que no hace, según la evidencia disponible, es «romper» la fascia, eliminar ácido láctico ni desintoxicar el músculo. Tampoco sustituye al entrenamiento de fuerza ni al sueño como pilares de la recuperación. Entendido así, el rodillo es una herramienta de apoyo barata y segura para moverte mejor y sentirte menos cargado, no un tratamiento.",
+      },
+      {
+        heading: "Qué dice la evidencia: efectos pequeños pero reales",
+        body: "El metaanálisis de Wiewelhove y colaboradores (Frontiers in Physiology, 2019) reunió los estudios que medían el rodillo antes y después del ejercicio. Usado como calentamiento, mejoró de media la flexibilidad un 4,0 % y el sprint un 0,7 %, con efecto despreciable sobre salto y fuerza. Usado tras el entrenamiento, redujo la percepción de dolor muscular un 6,0 % y atenuó ligeramente la caída de rendimiento en sprint (3,1 %) y fuerza (3,9 %) en los días siguientes. Los autores concluyen que los efectos son en general menores, aunque relevantes en casos concretos. Otro metaanálisis (Wilke y colaboradores, Sports Medicine, 2020) confirmó que una sola sesión aumenta el rango de movimiento a corto plazo, con una magnitud similar a la del estiramiento estático o dinámico.",
+        productSlug: "triggerpoint-grid-rodillo-espuma-33cm",
+      },
+      {
+        heading: "Cómo usarlo antes de entrenar: movilidad sin perder fuerza",
+        body: "Antes de una sesión, el objetivo es ganar rango de movimiento sin «apagar» el músculo. Una pauta práctica es dedicar entre 30 y 60 segundos por zona a las que vas a trabajar ese día (cuádriceps y glúteos antes de sentadillas, dorsal alto antes de dominadas), con pasadas lentas y presión moderada. A diferencia de los estiramientos estáticos largos, el metaanálisis de 2019 no encontró pérdidas de fuerza o salto tras el rodillo, por lo que encaja bien al inicio del calentamiento. Después, completa con movilidad dinámica y series de aproximación: el rodillo prepara, pero no sustituye al calentamiento específico del ejercicio.",
+      },
+      {
+        heading: "Cómo usarlo después de entrenar: menos agujetas percibidas",
+        body: "Tras el entrenamiento, o el día siguiente a una sesión dura, el rodillo sirve sobre todo para reducir la sensación de dolor muscular de aparición tardía (agujetas). Aquí puedes alargar algo más: entre 60 y 90 segundos por grupo muscular, rodando despacio y deteniéndote unos segundos en los puntos más sensibles sin llegar a un dolor agudo. La presión debe ser tolerable, en torno a un 6-7 sobre 10 de incomodidad; más presión no equivale a más efecto. Combinarlo con un paseo suave o bicicleta a baja intensidad es una forma sencilla de recuperación activa en casa.",
+        productSlug: "bodymate-rodillo-miofascial-45cm-dureza-media",
+      },
+      {
+        heading: "Errores frecuentes y zonas que conviene evitar",
+        body: "El error más común es rodar demasiado rápido: las pasadas veloces apenas generan estímulo. El segundo es buscar el dolor, apretando hasta tensar todo el cuerpo, lo que contradice el objetivo de relajación. Conviene evitar rodar directamente sobre la zona lumbar (sin estructura ósea que reparta la presión, mejor trabajar glúteos y dorsal), sobre articulaciones, prominencias óseas o la cara lateral de la rodilla. Tampoco se debe usar sobre una lesión reciente, hematomas, varices o zonas inflamadas. Si una molestia persiste varios días o aparece dolor punzante, el rodillo no es la respuesta: consulta con un fisioterapeuta o médico.",
+      },
+      {
+        heading: "Qué rodillo elegir: densidad, textura y tamaño",
+        body: "La variable que más importa es la dureza. Un rodillo liso de dureza media es la mejor elección para empezar y para piernas grandes, porque reparte la presión y permite dosificarla. Los rodillos texturizados y más firmes, con núcleo rígido, concentran la presión y suelen preferirlos quienes ya están habituados. El tamaño cuenta: un rodillo largo (unos 45 cm) es más estable para la espalda alta y permite trabajar ambas piernas, mientras que uno corto (unos 30-33 cm) es más fácil de guardar y transportar. Para zonas pequeñas o de difícil acceso, como la planta del pie, el glúteo medio o la zona entre omóplatos, una pelota de masaje llega donde el cilindro no alcanza.",
+        productSlug: "acupoint-pelotas-masaje-miofascial-set-2",
+      },
+    ],
+    comparisonHeading: "Rodillo liso, texturizado o pelota: cuál elegir",
+    comparison: {
+      headers: ["Tipo", "Presión", "Mejor para", "Perfil"],
+      rows: [
+        ["Rodillo liso dureza media (unos 45 cm)", "Moderada y repartida", "Piernas, espalda alta, uso diario", "Principiantes"],
+        ["Rodillo texturizado firme (unos 33 cm)", "Más intensa y localizada", "Cuádriceps, gemelos, glúteos", "Usuarios habituales"],
+        ["Pelota de masaje", "Muy localizada", "Planta del pie, glúteo medio, entre omóplatos", "Complemento para zonas pequeñas"],
+      ],
+    },
+    conclusion: "El rodillo de espuma no hace milagros, pero cumple bien un papel concreto: mejorar la movilidad de forma temporal antes de entrenar y reducir la sensación de agujetas después, sin coste en fuerza y con un precio de entrada bajo. Nuestra valoración: para la mayoría, un rodillo liso de dureza media es la compra más sensata; el texturizado firme tiene sentido cuando ya lo usas a diario y el liso se queda corto, y la pelota de masaje es el complemento ideal para pies y zonas pequeñas. Úsalo 5-10 minutos, con pasadas lentas y presión tolerable, y recuerda que dormir bien y dosificar el volumen de entrenamiento siguen siendo lo que más acelera la recuperación.",
+    conclusionHeading: "Nuestra valoración sobre el rodillo de espuma",
+    faqsHeading: "Preguntas sobre el rodillo de espuma",
+    sources: [
+      { label: "Wiewelhove T. et al. (2019). A Meta-Analysis of the Effects of Foam Rolling on Performance and Recovery. Frontiers in Physiology, 10:376", url: "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00376/full" },
+      { label: "Wilke J. et al. (2020). Acute Effects of Foam Rolling on Range of Motion in Healthy Adults: A Systematic Review with Multilevel Meta-analysis. Sports Medicine, 50:387-402", url: "https://link.springer.com/article/10.1007/s40279-019-01205-7" },
+    ],
+    faqs: [
+      { q: "¿Cuánto tiempo hay que usar el rodillo de espuma por músculo?", a: "No hay una dosis única validada: los estudios usan protocolos muy distintos. Una pauta práctica es 30-60 segundos por zona antes de entrenar y 60-90 segundos después. Una sesión completa de 5 a 10 minutos es suficiente para la mayoría de personas que entrenan en casa." },
+      { q: "¿Es mejor el rodillo de espuma o estirar?", a: "Para ganar rango de movimiento a corto plazo, el metaanálisis de Wilke y colaboradores (2020) encontró efectos de magnitud similar entre rodillo y estiramiento. La ventaja del rodillo antes de entrenar es que no se ha asociado a pérdidas de fuerza, algo que sí ocurre con estiramientos estáticos largos. Pueden combinarse sin problema." },
+      { q: "¿Se puede usar el rodillo en la zona lumbar?", a: "Es preferible no rodar directamente sobre la zona lumbar, porque no hay costillas ni estructura ósea que reparta la presión. Para aliviar la carga en la parte baja de la espalda suele funcionar mejor trabajar glúteos, isquiotibiales y la zona dorsal. Si tienes dolor lumbar persistente, consulta con un profesional sanitario." },
+      { q: "¿El rodillo de espuma previene lesiones?", a: "No hay evidencia sólida de que el rodillo por sí solo reduzca el riesgo de lesión. Sus efectos demostrados son mejorar la movilidad de forma temporal y reducir la percepción de dolor muscular. La prevención de lesiones depende sobre todo de una progresión adecuada de la carga, fuerza y descanso suficientes." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {
@@ -2467,7 +2521,7 @@ const AUTHOR = {
                       rel="nofollow sponsored noopener noreferrer"
                       className="inline-block mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
                     >
-                      Ver {ctaProduct.name} · {ctaProduct.price}
+                      Ver {ctaProduct.name}
                     </a>
                   )}
                 </section>

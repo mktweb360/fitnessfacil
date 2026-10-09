@@ -790,7 +790,6 @@ export const posts: Post[] = [
   },
   {
     slug: "primera-dominada-banda-asistencia-progresion",
-    image: "/images/blog/primera-dominada-banda-asistencia-progresion.jpg",
     title: "Cómo conseguir tu primera dominada: banda de asistencia y plan de progresión (2026)",
     excerpt:
       "Guía práctica para llegar a tu primera dominada completa: cómo elegir el nivel de banda de asistencia, plan de progresión semana a semana y errores que frenan el avance.",
@@ -800,6 +799,7 @@ export const posts: Post[] = [
     relatedProducts: [
       "pullup-dip-banda-resistencia-elastica-media",
       "pullup-dip-banda-resistencia-elastica-ligera",
+      "athleticpro-barra-dominadas-marco-puerta",
     ],
     relatedPosts: [
       "entrenamiento-fuerza-casa-equipamiento-minimo",
@@ -810,7 +810,6 @@ export const posts: Post[] = [
   },
   {
     slug: "suplementos-recuperacion-muscular-magnesio-omega3-bcaa",
-    image: "/images/blog/suplementos-recuperacion-muscular-magnesio-omega3-bcaa.jpg",
     title: "Suplementos para la recuperación muscular: magnesio, omega-3 y BCAA, qué funciona de verdad (2026)",
     excerpt:
       "Comparativa honesta de los tres suplementos de recuperación más buscados: qué evidencia respalda a cada uno, cuándo tiene sentido tomarlos y cuándo el dinero rinde más en otra cosa.",
@@ -832,7 +831,6 @@ export const posts: Post[] = [
   },
   {
     slug: "mobiclinic-extenfit-mancuernas-analisis",
-    image: "/images/blog/mobiclinic-extenfit-mancuernas-analisis.jpg",
     title: "Mobiclinic ExtenFit: análisis completo de las mancuernas ajustables 2 en 1",
     excerpt:
       "Analizamos el kit de mancuernas ajustables más valorado del catálogo: cómo funciona el sistema 2 en 1, para quién tiene sentido y sus limitaciones reales.",
@@ -853,7 +851,6 @@ export const posts: Post[] = [
   },
   {
     slug: "proteina-soja-vegana-hsn-analisis",
-    image: "/images/blog/proteina-soja-vegana-hsn-analisis.jpg",
     title: "Proteína de soja vegana HSN: análisis completo para quien no toma whey",
     excerpt:
       "Aminograma, digestión, sabor y cómo se compara con la whey tradicional: todo lo que hay que saber antes de elegir una proteína vegetal.",
@@ -875,7 +872,6 @@ export const posts: Post[] = [
   },
   {
     slug: "toputure-bicicleta-respaldo-analisis",
-    image: "/images/blog/toputure-bicicleta-respaldo-analisis.jpg",
     title: "Toputure con respaldo: análisis de la bicicleta estática más cómoda del catálogo",
     excerpt:
       "Por qué una bicicleta con respaldo (tipo recumbent) puede ser mejor opción que una de spinning vertical si tienes molestias de espalda o buscas más comodidad.",
@@ -896,7 +892,6 @@ export const posts: Post[] = [
   },
   {
     slug: "portentum-bandas-anclaje-puerta-analisis",
-    image: "/images/blog/portentum-bandas-anclaje-puerta-analisis.jpg",
     title: "PORTENTUM: análisis del kit de bandas con anclaje de puerta más completo",
     excerpt:
       "Cómo simular ejercicios de polea de gimnasio en casa con un kit de bandas, asas y anclaje de puerta. Qué ejercicios puedes hacer y qué esperar del material.",
@@ -917,7 +912,6 @@ export const posts: Post[] = [
   },
   {
     slug: "sobreentrenamiento-sintomas-como-recuperarte",
-    image: "/images/blog/sobreentrenamiento-sintomas-como-recuperarte.jpg",
     title: "Sobreentrenamiento: síntomas reales y cómo recuperarte sin perder semanas",
     excerpt:
       "Estancarte o rendir peor pese a entrenar más no es falta de disciplina: puede ser sobreentrenamiento. Señales para detectarlo a tiempo y plan de recuperación en 3 fases.",
@@ -935,6 +929,27 @@ export const posts: Post[] = [
       "hiit-en-casa-principiantes",
     ],
     categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver suplementos de recuperación →" },
+  },
+  {
+    slug: "rodillo-espuma-foam-roller-como-usar",
+    image: "/images/blog/rodillo-espuma-foam-roller-como-usar.jpg",
+    title: "Rodillo de espuma (foam roller): qué dice la evidencia, cómo usarlo y cuál elegir (2026)",
+    excerpt:
+      "El rodillo de espuma mejora la movilidad de forma temporal y reduce la sensación de agujetas, con poco efecto sobre el rendimiento. Úsalo 30-60 s por zona antes de entrenar y 60-90 s después, con pasadas lentas.",
+    date: "2026-09-27",
+    category: "Entrenamiento",
+    readTime: "8 min",
+    relatedProducts: [
+      "bodymate-rodillo-miofascial-45cm-dureza-media",
+      "triggerpoint-grid-rodillo-espuma-33cm",
+      "acupoint-pelotas-masaje-miofascial-set-2",
+    ],
+    relatedPosts: [
+      "estiramientos-despues-ejercicio",
+      "sobreentrenamiento-sintomas-como-recuperarte",
+      "suplementos-recuperacion-muscular-magnesio-omega3-bcaa",
+    ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver rodillos, esterillas y material de movilidad →" },
   },
 ];
 

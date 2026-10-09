@@ -13,7 +13,7 @@ FitnessFácil.es es un portal de análisis, comparativas y guías de compra espe
 El contenido de FitnessFácil.es es informativo y no constituye asesoramiento médico ni nutricional. Consulta siempre con un profesional de la salud antes de iniciar cualquier programa de ejercicio o suplementación.
 
 ## Monetización
-- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21) — comisión media del 10%
+- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
 - Google AdSense (pub-6063067965030118)
 
 ## Tienda de productos
@@ -21,8 +21,8 @@ URL: https://www.fitnessfacil.es/tienda
 Categorías disponibles con fichas de producto individuales:
 - Cintas de correr: https://www.fitnessfacil.es/tienda/cintas-correr — WalkingPad, Neezee, RUNIMON, Cecotec y más, 90-560€
 - Bicicletas estáticas: https://www.fitnessfacil.es/tienda/bicicletas-estaticas — Sportstech, MERACH, Cecotec, CURSOR y Toputure, 77-190€
-- Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas — LULLAX, ManiBoom, JOWY, Mobiclinic, Yaheetech y JUPPLIES, 12-350€
-- Esterillas y yoga: https://www.fitnessfacil.es/tienda/esterillas-yoga — TOPLUS, La Mente Es Maravillosa, Gaiam, YOGATI y DIVASYA/LAAR corcho, 15-80€
+- Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas — LULLAX, ManiBoom, JOWY, Mobiclinic, Yaheetech y JUPPLIES; barra de dominadas de puerta AthleticPro, 12-350€
+- Esterillas y yoga: https://www.fitnessfacil.es/tienda/esterillas-yoga — TOPLUS, La Mente Es Maravillosa, Gaiam, YOGATI y DIVASYA/LAAR corcho; rodillos de espuma (TriggerPoint GRID, BODYMATE) y pelotas de masaje, 15-80€
 - Suplementos y proteínas: https://www.fitnessfacil.es/tienda/suplementos-proteinas — ON Gold Standard, Myprotein, HSN (whey y vegana), Bulk, BIG, BCAA, ZMA y omega-3, 11-55€
 - Bandas de resistencia: https://www.fitnessfacil.es/tienda/bandas-resistencia — Thera-Band, Fokky, GRIFEMA, PORTENTUM (anclaje puerta) y PULLUP & DIP, 7-25€
 
@@ -67,6 +67,7 @@ Categorías disponibles con fichas de producto individuales:
 - [Pilates en casa para principiantes: guía completa](https://www.fitnessfacil.es/blog/pilates-casa-principiantes-guia) — Rutina de 20 minutos, diferencias con yoga
 - [Estiramientos después del ejercicio: guía y rutina](https://www.fitnessfacil.es/blog/estiramientos-despues-ejercicio) — 6 estiramientos clave, cuánto tiempo, evidencia
 - [¿El yoga adelgaza? Lo que dice la evidencia](https://www.fitnessfacil.es/blog/yoga-adelgazar-funciona) — Calorías por estilo, efectos indirectos, comparativa
+- [Rodillo de espuma (foam roller): qué dice la evidencia, cómo usarlo y cuál elegir (2026)](https://www.fitnessfacil.es/blog/rodillo-espuma-foam-roller-como-usar) — Metaanálisis 2019-2020, pauta antes/después de entrenar, errores y comparativa liso vs texturizado vs pelota
 
 ### Nutrición y suplementos
 - [Proteína de soja vegana HSN: análisis completo](https://www.fitnessfacil.es/blog/proteina-soja-vegana-hsn-analisis) — Aminograma completo, digestión y comparativa con whey
