@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso legal — FitnessFácil.es",
+  title: "Aviso legal",
   description: "Información legal de FitnessFácil.es — Mkt Web 360 SLU, CIF B87679304.",
   alternates: { canonical: "/aviso-legal" },
 };

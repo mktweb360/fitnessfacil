@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre nosotros — FitnessFácil.es",
+  title: "Sobre nosotros",
   description:
     "El equipo editorial de FitnessFácil.es, parte de Mkt Web 360 SLU: cómo investigamos y comparamos equipamiento fitness, y nuestra política de afiliación.",
   alternates: { canonical: "/sobre-nosotros" },
