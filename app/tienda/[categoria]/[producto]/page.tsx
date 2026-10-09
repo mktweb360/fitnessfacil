@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: `${product.name} — Análisis y opinión`,
+    title: { absolute: `${product.name}: análisis y opinión` },
     description: `${product.shortDescription} Análisis con pros, contras, especificaciones y enlace para consultar el precio actual.`,
     alternates: { canonical: `https://www.fitnessfacil.es/tienda/${categoria}/${producto}` },
     openGraph: {
