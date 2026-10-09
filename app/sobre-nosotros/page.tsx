@@ -128,17 +128,17 @@ export default function SobreNosotrosPage() {
           {/* Methodology */}
           <h2 className="text-xl font-extrabold text-gray-900">Nuestra metodología</h2>
           <p>
-            Cada análisis parte de los criterios técnicos que aplica Carlos en su
-            práctica como entrenador: eficacia demostrada, relación calidad-precio,
-            durabilidad y experiencia de uso real. Combinamos su experiencia de campo
-            con datos de fabricante verificados, reseñas de usuarios contrastadas y,
-            cuando es posible, pruebas directas del equipamiento.
+            Cada análisis parte de criterios técnicos concretos: eficacia
+            respaldada por la evidencia, relación calidad-precio, durabilidad y
+            experiencia de uso. Combinamos datos de fabricante verificados, opiniones
+            de compradores contrastadas y fuentes científicas y profesionales
+            (ACSM, ISSN, OMS) que citamos en cada guía.
           </p>
           <ul className="space-y-2">
-            <li>✓ Criterios técnicos basados en certificación NSCA</li>
+            <li>✓ Recomendaciones de entrenamiento basadas en fuentes citadas</li>
             <li>✓ Comparativas con datos de fabricante verificados</li>
-            <li>✓ Reseñas de usuarios contrastadas antes de publicar</li>
-            <li>✓ Actualización de precios y disponibilidad periódica</li>
+            <li>✓ Opiniones de compradores contrastadas antes de publicar</li>
+            <li>✓ Revisión periódica de disponibilidad de los productos</li>
             <li>✓ Sin recomendaciones de productos que no superen el estándar mínimo</li>
           </ul>
 
@@ -201,7 +201,7 @@ export default function SobreNosotrosPage() {
             <li>✓ Indicamos siempre qué enlaces son de afiliado</li>
             <li>✓ Opiniones honestas e independientes</li>
             <li>✓ No aceptamos pagos por reseñas positivas</li>
-            <li>✓ Precios orientativos, pueden variar en destino</li>
+            <li>✓ No mostramos precios fijos: consulta siempre el precio actual en la tienda</li>
             <li>
               ✓ Avisos de salud en todo contenido sobre suplementos y ejercicio
             </li>

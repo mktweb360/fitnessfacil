@@ -16,7 +16,7 @@ export const posts: Post[] = [
   {
     slug: "mejor-cinta-correr-casa-2025",
     image: "/images/blog/mejor-cinta-correr-casa-2025.jpg",
-    title: "La mejor cinta de correr para casa en 2025 — Análisis y comparativa",
+    title: "La mejor cinta de correr para casa — Análisis y comparativa",
     excerpt:
       "Analizamos las mejores cintas de correr para usar en casa: desde opciones económicas hasta premium. Guía completa con comparativa.",
     date: "2025-05-01",
@@ -96,7 +96,7 @@ export const posts: Post[] = [
   {
     slug: "proteina-whey-guia-completa",
     image: "/images/blog/proteina-whey-guia-completa.jpg",
-    title: "Proteína whey: guía completa para principiantes 2025",
+    title: "Proteína whey: guía completa para principiantes",
     excerpt:
       "Todo lo que necesitas saber sobre la proteína whey: para qué sirve, cuándo tomarla, cuánta necesitas y cuál comprar.",
     date: "2025-05-29",
@@ -179,7 +179,7 @@ export const posts: Post[] = [
   {
     slug: "walkingpad-r2-vs-r1-pro",
     image: "/images/blog/walkingpad-r2-vs-r1-pro.jpg",
-    title: "WalkingPad R2 vs R1 Pro: cuál comprar en 2025",
+    title: "WalkingPad R2 vs R1 Pro: cuál comprar",
     excerpt:
       "Comparativa directa WalkingPad R2 vs R1 Pro: diferencias reales en velocidad, motor, precio y uso para ayudarte a elegir la tuya.",
     date: "2025-07-01",
@@ -196,7 +196,7 @@ export const posts: Post[] = [
   {
     slug: "cinta-correr-plegable-piso-pequeno",
     image: "/images/blog/cinta-correr-plegable-piso-pequeno.jpg",
-    title: "Cinta de correr plegable para piso pequeño: guía 2025",
+    title: "Cinta de correr plegable para piso pequeño: guía",
     excerpt:
       "Cómo elegir una cinta de correr plegable si vives en un piso pequeño: espacio, ruido, plegado y las mejores opciones del mercado.",
     date: "2025-07-02",
@@ -213,7 +213,7 @@ export const posts: Post[] = [
   {
     slug: "cinta-andar-casa-bajo-escritorio",
     image: "/images/blog/cinta-andar-casa-bajo-escritorio.jpg",
-    title: "Cinta de andar bajo el escritorio: guía completa 2025",
+    title: "Cinta de andar bajo el escritorio: guía completa",
     excerpt:
       "Cómo usar una cinta de andar bajo el escritorio para trabajar y moverse al mismo tiempo. Qué modelos funcionan y cómo empezar.",
     date: "2025-07-03",
@@ -230,7 +230,7 @@ export const posts: Post[] = [
   {
     slug: "walkingpad-opiniones-analisis",
     image: "/images/blog/walkingpad-opiniones-analisis.jpg",
-    title: "WalkingPad: opiniones reales y análisis completo 2025",
+    title: "WalkingPad: opiniones reales y análisis completo",
     excerpt:
       "Análisis honesto de las WalkingPad en España: qué dicen los usuarios reales, pros y contras de cada modelo y si vale la pena el precio.",
     date: "2025-07-04",
@@ -281,9 +281,9 @@ export const posts: Post[] = [
   {
     slug: "mejor-bicicleta-estatica-casa-2025",
     image: "/images/blog/mejor-bicicleta-estatica-casa-2025.jpg",
-    title: "Mejor bicicleta estática para casa en 2025 — Comparativa completa",
+    title: "Mejor bicicleta estática para casa — Comparativa completa",
     excerpt:
-      "Comparativa de las mejores bicicletas estáticas para casa en 2025: MERACH, Sportstech X150 y X100-C. Guía de compra por perfil y presupuesto.",
+      "Comparativa de las mejores bicicletas estáticas para casa: MERACH, Sportstech X150 y X100-C. Guía de compra por perfil y presupuesto.",
     date: "2025-07-07",
     category: "Cardio",
     readTime: "10 min",
@@ -302,7 +302,7 @@ export const posts: Post[] = [
   {
     slug: "sportstech-x100c-analisis",
     image: "/images/blog/sportstech-x100c-analisis.jpg",
-    title: "Sportstech X100-C: análisis completo y opiniones 2025",
+    title: "Sportstech X100-C: análisis completo y opiniones",
     excerpt:
       "Análisis honesto de la Sportstech X100-C: qué ofrece, para quién es ideal y si sus cuerdas de fuerza integradas realmente aportan valor.",
     date: "2025-07-08",
@@ -319,7 +319,7 @@ export const posts: Post[] = [
   {
     slug: "merach-bicicleta-estatica-analisis",
     image: "/images/blog/merach-bicicleta-estatica-analisis.jpg",
-    title: "MERACH bicicleta estática: análisis completo y opiniones 2025",
+    title: "MERACH bicicleta estática: análisis completo y opiniones",
     excerpt:
       "Análisis detallado de la MERACH bicicleta estática con app: qué ofrece, para quién es la opción correcta y cómo se compara con otras bicis domésticas.",
     date: "2025-07-09",
@@ -336,9 +336,9 @@ export const posts: Post[] = [
   {
     slug: "mini-bicicleta-escritorio-trabajar",
     image: "/images/blog/mini-bicicleta-escritorio-trabajar.jpg",
-    title: "Mini bicicleta de escritorio: guía completa y análisis 2025",
+    title: "Mini bicicleta de escritorio: guía completa y análisis",
     excerpt:
-      "Todo sobre la mini bicicleta de escritorio: qué es, cómo funciona, si realmente sirve para algo y cuál comprar en 2025.",
+      "Todo sobre la mini bicicleta de escritorio: qué es, cómo funciona, si realmente sirve para algo y cuál comprar.",
     date: "2025-07-10",
     category: "Cardio",
     readTime: "8 min",
@@ -408,7 +408,7 @@ export const posts: Post[] = [
   {
     slug: "lullax-neo36-analisis-opinion",
     image: "/images/blog/lullax-neo36-analisis-opinion.jpg",
-    title: "LULLAX NEO36 mancuernas ajustables: análisis y opiniones 2025",
+    title: "LULLAX NEO36 mancuernas ajustables: análisis y opiniones",
     excerpt:
       "Análisis completo de las LULLAX NEO36: qué ofrecen, para quién son la compra correcta y cómo se comparan con otras mancuernas ajustables del mercado.",
     date: "2025-07-14",
@@ -442,7 +442,7 @@ export const posts: Post[] = [
   {
     slug: "bandas-elasticas-musculacion-guia",
     image: "/images/blog/bandas-elasticas-musculacion-guia.jpg",
-    title: "Bandas elásticas para musculación: guía completa 2025",
+    title: "Bandas elásticas para musculación: guía completa",
     excerpt:
       "Guía completa sobre bandas elásticas para musculación: tipos, ejercicios, niveles de resistencia y cómo elegir las mejores para entrenar en casa.",
     date: "2025-07-16",
@@ -497,9 +497,9 @@ export const posts: Post[] = [
   {
     slug: "mejor-esterilla-yoga-casa-2025",
     image: "/images/blog/mejor-esterilla-yoga-casa-2025.jpg",
-    title: "Mejor esterilla de yoga para casa en 2025 — Comparativa y guía",
+    title: "Mejor esterilla de yoga para casa — Comparativa y guía",
     excerpt:
-      "Comparativa de las mejores esterillas de yoga para casa en 2025: TOPLUS vs La Mente Es Maravillosa. Guía de compra por grosor, material y uso.",
+      "Comparativa de las mejores esterillas de yoga para casa: TOPLUS vs La Mente Es Maravillosa. Guía de compra por grosor, material y uso.",
     date: "2025-07-19",
     category: "Yoga",
     readTime: "7 min",
@@ -531,7 +531,7 @@ export const posts: Post[] = [
   {
     slug: "toplus-esterilla-analisis",
     image: "/images/blog/toplus-esterilla-analisis.jpg",
-    title: "TOPLUS esterilla de yoga: análisis completo y opiniones 2025",
+    title: "TOPLUS esterilla de yoga: análisis completo y opiniones",
     excerpt:
       "Análisis detallado de la TOPLUS esterilla yoga TPE 6mm: qué ofrece, para quién es la mejor opción y cómo se compara con otras esterillas del mercado.",
     date: "2025-07-21",
@@ -599,7 +599,7 @@ export const posts: Post[] = [
   {
     slug: "on-gold-standard-whey-analisis",
     image: "/images/blog/on-gold-standard-whey-analisis.jpg",
-    title: "Optimum Nutrition Gold Standard Whey: análisis completo 2025",
+    title: "Optimum Nutrition Gold Standard Whey: análisis completo",
     excerpt:
       "Análisis detallado del Gold Standard Whey de Optimum Nutrition: qué lo hace el más vendido del mundo, para quién es ideal y si justifica el precio.",
     date: "2025-07-25",
@@ -635,7 +635,7 @@ export const posts: Post[] = [
   {
     slug: "creatina-monohidrato-guia-completa",
     image: "/images/blog/creatina-monohidrato-guia-completa.jpg",
-    title: "Creatina monohidrato: guía completa para principiantes 2025",
+    title: "Creatina monohidrato: guía completa para principiantes",
     excerpt:
       "Todo sobre la creatina monohidrato: cómo funciona, cómo tomarla, cuándo se notan los efectos y por qué es el suplemento con más respaldo científico.",
     date: "2025-07-27",
@@ -653,7 +653,7 @@ export const posts: Post[] = [
   {
     slug: "myprotein-impact-whey-opinion",
     image: "/images/blog/myprotein-impact-whey-opinion.jpg",
-    title: "Myprotein Impact Whey: análisis y opiniones 2025",
+    title: "Myprotein Impact Whey: análisis y opiniones",
     excerpt:
       "Análisis completo de la Myprotein Impact Whey: calidad real, sabores, comparativa con ON Gold Standard y para quién es la mejor opción.",
     date: "2025-07-28",
@@ -711,7 +711,7 @@ export const posts: Post[] = [
   {
     slug: "mejor-suplemento-pre-entreno",
     image: "/images/blog/mejor-suplemento-pre-entreno.jpg",
-    title: "¿Merece la pena el suplemento pre-entreno? Guía completa 2025",
+    title: "¿Merece la pena el suplemento pre-entreno? Guía completa",
     excerpt:
       "Análisis honesto de los suplementos pre-entreno: qué ingredientes funcionan de verdad, cuáles son marketing y si merece la pena gastar dinero en ellos.",
     date: "2025-08-01",
@@ -734,9 +734,9 @@ export const posts: Post[] = [
   {
     slug: "mejor-eliptica-casa-2025",
     image: "/images/blog/mejor-eliptica-casa-2025.jpg",
-    title: "Mejor elíptica para casa 2025: comparativa y guía de compra",
+    title: "Mejor elíptica para casa: comparativa y guía de compra",
     excerpt:
-      "Comparativa de las mejores elípticas para casa en 2025: zancada, resistencia, ruido y espacio. Guía de compra por perfil y presupuesto para acertar a la primera.",
+      "Comparativa de las mejores elípticas para casa: zancada, resistencia, ruido y espacio. Guía de compra por perfil y presupuesto para acertar a la primera.",
     date: "2025-08-09",
     category: "Cardio",
     readTime: "12 min",

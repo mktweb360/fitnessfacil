@@ -63,7 +63,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "WalkingPad R2", "WalkingPad R1 Pro"],
       rows: [
-        ["Precio", "399,00 €", "349,00 €"],
         ["Velocidad máx.", "12 km/h", "10 km/h (6 km/h en modo andar)"],
         ["Potencia", "Motor brushless silencioso", "918 W"],
         ["Plegado", "Patentado, 0,2 m² guardada", "180°, sin montaje, con ruedas"],
@@ -105,7 +104,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "MERACH", "Sportstech X150", "Sportstech DFX70"],
       rows: [
-        ["Precio", "249,99 €", "214,00 €", "119,00 €"],
         ["Tipo", "Estática vertical", "Ergómetro plegable", "Mini bici de escritorio"],
         ["Plegable", "No, es fija", "Sí", "Compacta, con asa y ruedas"],
         ["App / conectividad", "App propia + monitor LED", "Sin app, consola básica", "Sin app"],
@@ -189,7 +187,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "LULLAX NEO36", "ManiBoom 15 kg", "JOWY Kettlebell 16 kg"],
       rows: [
-        ["Precio", "349,00 €", "59,99 €", "34,99 €"],
         ["Peso máximo", "36 kg por mancuerna (14 posiciones)", "15 kg por mancuerna", "16 kg fijo"],
         ["Tipo", "Ajustable de selección rápida", "Ajustable por discos, hexagonal", "Kettlebell de PVC"],
         ["Mejor ejercicio", "Press y remo con progresión", "Curl, press y remo con barra 2 en 1", "Swing, goblet squat, turkish get-up"],
@@ -226,8 +223,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Característica", "ON Gold Standard", "Myprotein Impact Whey"],
       rows: [
-        ["Precio", "54,99 € (2,26 kg)", "20,00 € (1 kg)"],
-        ["Precio por kilo", "~24 €/kg", "~20 €/kg"],
         ["Proteína por servicio", "24 g", "21 g"],
         ["Servicios por envase", "73", "40"],
         ["Tipo de whey", "Concentrado + aislado", "Concentrado"],
@@ -276,7 +271,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "La Mente Es Maravillosa", "TOPLUS 6 mm", "Qué valorar"],
       rows: [
-        ["Precio", "29,99 €", "27,99 €", "Entre 25 y 35 € hay opciones solventes"],
         ["Grosor", "No especificado en ficha", "6 mm", "4-6 mm para yoga; más de 8 resta estabilidad"],
         ["Material", "TPE certificado SGS", "TPE de doble capa", "TPE: ligero, sin PVC ni látex"],
         ["Extras", "Bolsa + correa + e-book", "Correa de hombro", "La bolsa importa si la transportas"],
@@ -378,7 +372,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Característica", "Monohidrato", "Creatina HCL", "Buffered (Kre-Alkalyn)"],
       rows: [
-        ["Coste mensual aproximado", "~7 € (250 g)", "15-25 €", "15-20 €"],
         ["Evidencia científica", "Muy alta, centenares de estudios", "Limitada", "Limitada"],
         ["Eficacia demostrada", "Sí", "Similar o inferior", "Similar"],
         ["Retención de agua", "Ligera e intramuscular", "Menor", "Menor"],
@@ -430,7 +423,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "WalkingPad R2", "WalkingPad R1 Pro"],
       rows: [
-        ["Precio", "399,00 €", "349,00 €"],
         ["Velocidad máx.", "12 km/h", "10 km/h"],
         ["Motor", "Brushless silencioso", "Convencional 918 W"],
         ["Plegado", "Patentado, 0,2 m²", "180° con ruedas"],
@@ -477,7 +469,6 @@ const articleContent: Record<string, {
         ["Ruido motor", "Muy bajo — brushless", "Bajo"],
         ["Peso", "≈28 kg", "Consultar ficha"],
         ["Perfil bajo", "Sí", "Sí"],
-        ["Precio", "399,00 €", "349,00 €"],
       ],
     },
     conclusion: "Para un piso pequeño, las dos WalkingPad son buenas opciones. La R1 Pro gana en facilidad de movimiento, con sus ruedas integradas y la ausencia de montaje. La R2 gana en silencio, por el motor brushless, y en carga máxima declarada. Si el ruido es tu preocupación principal, la R2. Si lo son la movilidad y el precio, la R1 Pro.",
@@ -521,7 +512,6 @@ const articleContent: Record<string, {
         ["Velocidad modo escritorio", "Hasta 6 km/h", "Hasta 12 km/h"],
         ["Modo exclusivo andar", "Sí — barandilla plegable", "No diferenciado"],
         ["Lista para usar", "Sí, sin montaje", "Requiere montaje"],
-        ["Precio", "349,00 €", "399,00 €"],
         ["Mejor uso combinado", "Escritorio + trote suave", "Escritorio + correr"],
       ],
     },
@@ -562,7 +552,6 @@ const articleContent: Record<string, {
         ["Silencio", "★★★★★ Motor brushless", "★★★★ Motor convencional"],
         ["Facilidad instalación", "★★★★ Requiere montaje", "★★★★★ Lista para usar"],
         ["Velocidad", "★★★★★ 12 km/h", "★★★★ 10 km/h"],
-        ["Relación calidad-precio", "★★★★ 399 €", "★★★★★ 349 €"],
         ["App", "★★★★", "★★★★"],
       ],
     },
@@ -703,7 +692,7 @@ const articleContent: Record<string, {
   },
 
   "mejor-bicicleta-estatica-casa-2025": {
-    intro: "Elegir la bicicleta estática correcta para casa no es cuestión de buscar la más barata ni la más cara: es cuestión de identificar qué problema resuelve cada modelo. Esta guía compara las tres opciones principales del mercado español en 2025, entre 119 y 249 euros, para que identifiques cuál encaja con tu espacio, tu uso y tu presupuesto.",
+    intro: "Elegir la bicicleta estática correcta para casa no es cuestión de buscar la más barata ni la más cara: es cuestión de identificar qué problema resuelve cada modelo. Esta guía compara las tres opciones principales del mercado español, de gama de entrada a gama media, para que identifiques cuál encaja con tu espacio, tu uso y tu presupuesto.",
     sections: [
       {
         heading: "Qué tipo de bicicleta estática necesitas",
@@ -728,7 +717,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "MERACH", "X150 Ergómetro", "X100-C"],
       rows: [
-        ["Precio", "249,00 €", "214,00 €", "199,00 €"],
         ["Plegable", "No", "Sí", "Sí"],
         ["App", "Sí — app propia", "No", "No"],
         ["Resistencia", "Magnética", "Magnética 8 niveles", "Magnética"],
@@ -771,7 +759,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Característica", "Sportstech X100-C", "Sportstech X150"],
       rows: [
-        ["Precio", "199,00 €", "214,00 €"],
         ["Tipo", "Bicicleta plegable", "Ergómetro plegable"],
         ["Cuerdas de fuerza", "Sí", "No"],
         ["Display", "LCD", "Consola básica"],
@@ -813,7 +800,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Característica", "MERACH", "Sportstech X150"],
       rows: [
-        ["Precio", "249,00 €", "214,00 €"],
         ["Plegable", "No", "Sí"],
         ["App con seguimiento", "Sí", "No"],
         ["Carga máxima", "136 kg", "Consultar ficha"],
@@ -855,7 +841,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "DFX70 mini bicicleta", "Cinta bajo escritorio"],
       rows: [
-        ["Precio", "119,00 €", "349-399 €"],
         ["Posición de uso", "Sentado o de pie", "De pie"],
         ["Gasto calórico", "Bajo-moderado", "Moderado"],
         ["Ruido", "Muy bajo", "Bajo"],
@@ -897,7 +882,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Ergómetro (X150)", "Bicicleta vertical (MERACH)"],
       rows: [
-        ["Precio", "214,00 €", "249,00 €"],
         ["Postura", "Semirreclinada", "Erguida"],
         ["Músculos principales", "Glúteos y cuádriceps", "Cuádriceps y core"],
         ["Estrés lumbar", "Bajo", "Moderado"],
@@ -984,7 +968,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "Ajustables (LULLAX)", "Fijas (ManiBoom)", "Bandas (Fokky)"],
       rows: [
-        ["Precio", "349,00 €", "59,99 €", "12,99 €"],
         ["Rango de peso", "2,5-36 kg", "15 kg fijo", "4 niveles de resistencia"],
         ["Cambio de peso", "Segundos", "Manual", "Segundos"],
         ["Espacio", "Mínimo", "Mínimo", "Casi nulo"],
@@ -1029,7 +1012,6 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "LULLAX NEO36", "ManiBoom 15 kg"],
       rows: [
-        ["Precio", "349,00 €", "59,99 €"],
         ["Peso máximo", "36 kg por mancuerna", "15 kg fijo"],
         ["Cambio de peso", "2-5 segundos", "Manual con discos"],
         ["Longitud variable", "Sí — se acorta", "No"],
@@ -1042,7 +1024,7 @@ const articleContent: Record<string, {
       { q: "¿Las LULLAX NEO36 son compatibles con cualquier ejercicio?", a: "Sí para la mayoría. La excepción son los ejercicios donde las mancuernas se sueltan al suelo, como los levantamientos olímpicos o el snatch: el mecanismo no está diseñado para ese trato. Para la fuerza clásica y la hipertrofia, que es lo que hace la inmensa mayoría de la gente en casa, cubren absolutamente todo." },
       { q: "¿Cuánto pesan las LULLAX NEO36 en su configuración mínima?", a: "El mango más los discos mínimos pesa aproximadamente 2,5 kg por mancuerna, que es el punto de partida del rango ajustable. Conviene consultar la ficha del producto para el dato exacto actualizado, ya que el peso mínimo determina si sirven también para ejercicios de aislamiento ligeros como las elevaciones laterales." },
       { q: "¿Las LULLAX NEO36 caben en un piso pequeño?", a: "Con la base incluida, el par ocupa el equivalente a una caja de zapatos grande. Es probablemente el equipamiento de fuerza con mejor relación entre peso útil y espacio ocupado del mercado: 36 kg de carga por mano en el hueco que ocuparía un solo par de mancuernas fijas ligeras." },
-      { q: "¿Merece la pena pagar 349 € por unas mancuernas?", a: "Si las vas a usar durante tres a cinco años, sí. El coste repartido por año es inferior al de la cuota anual de la mayoría de los gimnasios, y el equipamiento es tuyo para siempre, sin desplazamientos ni esperas. Si no tienes claro que el hábito vaya a durar, empieza con algo más económico y da el salto cuando la progresión lo pida." },
+      { q: "¿Merecen la pena unas mancuernas ajustables de gama alta?", a: "Si las vas a usar durante tres a cinco años, sí. El coste repartido por año es inferior al de la cuota anual de la mayoría de los gimnasios, y el equipamiento es tuyo para siempre, sin desplazamientos ni esperas. Si no tienes claro que el hábito vaya a durar, empieza con algo más económico y da el salto cuando la progresión lo pida." },
     ],
   },
 
@@ -1159,11 +1141,11 @@ const articleContent: Record<string, {
       },
     ],
     comparison: {
-      headers: ["Equipamiento", "Coste", "Patrones que cubre", "Imprescindible"],
+      headers: ["Equipamiento", "Patrones que cubre", "Imprescindible"],
       rows: [
-        ["Fokky bandas", "12,99 €", "Empuje ligero, tirón y activación", "Para empezar"],
-        ["ManiBoom 15 kg", "59,99 €", "Empuje, tirón y sentadilla", "Sí"],
-        ["JOWY Kettlebell 16 kg", "34,99 €", "Bisagra, cardio y sentadilla", "Complemento clave"],
+        ["Fokky bandas", "Empuje ligero, tirón y activación", "Para empezar"],
+        ["ManiBoom 15 kg", "Empuje, tirón y sentadilla", "Sí"],
+        ["JOWY Kettlebell 16 kg", "Bisagra, cardio y sentadilla", "Complemento clave"],
       ],
     },
     conclusion: "Por menos de 110 euros tienes equipamiento para cubrir los patrones de movimiento fundamentales durante años. El truco no está en tener mucho, sino en elegir tres piezas que se complementen bien. Cuando ese equipamiento se te quede pequeño, será señal de que has avanzado lo suficiente como para justificar una inversión mayor, como unas mancuernas ajustables.",
@@ -1258,14 +1240,13 @@ const articleContent: Record<string, {
       },
       {
         heading: "La Mente Es Maravillosa — la más completa por precio",
-        body: "La esterilla de La Mente Es Maravillosa está fabricada en TPE con certificación SGS (sin PVC, PER ni tóxicos), es antideslizante por ambas caras y de alta densidad. Incluye bolsa de transporte, correa y un e-book de ejercicios en español. El conjunto completo cuesta 29,99 €, lo que la convierte en la opción llave en mano para empezar.",
+        body: "La esterilla de La Mente Es Maravillosa está fabricada en TPE con certificación SGS (sin PVC, PER ni tóxicos), es antideslizante por ambas caras y de alta densidad. Incluye bolsa de transporte, correa y un e-book de ejercicios en español. El conjunto completo la convierte en la opción llave en mano para empezar.",
         productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
     ],
     comparison: {
       headers: ["Criterio", "TOPLUS 6mm", "La Mente Es Maravillosa"],
       rows: [
-        ["Precio", "27,99 €", "29,99 €"],
         ["Grosor", "6mm confirmados", "No especificado en ficha"],
         ["Material", "TPE doble capa", "TPE certificado SGS"],
         ["Antideslizante", "Patentado ambas caras", "Sí ambas caras"],
@@ -1313,7 +1294,6 @@ const articleContent: Record<string, {
         ["Durabilidad", "3-5 años", "8-10 años"],
         ["Peso", "Más ligero", "Más pesado"],
         ["Impacto ambiental", "Menor", "Mayor"],
-        ["Precio", "Similar", "Similar o menor"],
       ],
     },
     conclusion: "Si practicas estilos dinámicos con mucho sudor y priorizas la durabilidad máxima, el PVC tiene ventajas objetivas. Para todo lo demás — yoga estático, pilates, estiramientos, meditación — el TPE es la opción más recomendable por su perfil de seguridad y su menor impacto ambiental.",
@@ -1359,10 +1339,9 @@ const articleContent: Record<string, {
         ["Material", "TPE doble capa", "TPE cert. SGS"],
         ["Bolsa incluida", "No", "Sí"],
         ["E-book ejercicios", "No", "Sí en español"],
-        ["Precio", "27,99 €", "29,99 €"],
       ],
     },
-    conclusion: "La TOPLUS es la esterilla para quien tiene claro que va a practicar yoga de forma regular y quiere la mejor especificación técnica posible por menos de 30 €. Si lo que buscas es empezar con todo lo necesario incluido, La Mente Es Maravillosa te da eso por 2 € más.",
+    conclusion: "La TOPLUS es la esterilla para quien tiene claro que va a practicar yoga de forma regular y quiere la mejor especificación técnica posible en la gama de entrada. Si lo que buscas es empezar con todo lo necesario incluido, La Mente Es Maravillosa te da eso en un rango de precio muy parecido.",
     faqs: [
       { q: "¿La TOPLUS se desliza sobre el parquet?", a: "La textura antideslizante de la cara inferior está diseñada específicamente para suelos duros. Los usuarios la valoran especialmente en parquet y baldosa, donde las esterillas sin esa textura tienden a resbalar." },
       { q: "¿La TOPLUS es buena para pilates además de yoga?", a: "Sí. Sus 6 mm de grosor la hacen especialmente cómoda para el trabajo de suelo del pilates, donde muchos ejercicios se ejecutan sobre rodillas y espalda. El agarre es también adecuado para los movimientos de pilates." },
@@ -1516,7 +1495,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El bote de 2,26kg: análisis del formato",
-        body: "El formato grande de 2,26 kg equivale a 73 servicios de 30 g. A 54,99 €, el coste por servicio es de unos 0,75 €. El bote grande compensa si el hábito ya está consolidado y se consume de forma regular, porque el coste por servicio baja frente a los formatos pequeños.",
+        body: "El formato grande de 2,26 kg equivale a 73 servicios de 30 g. El bote grande compensa si el hábito ya está consolidado y se consume de forma regular, porque el coste por servicio baja frente a los formatos pequeños.",
         productSlug: "optimum-nutrition-gold-standard-whey-226kg",
       },
       {
@@ -1528,10 +1507,8 @@ const articleContent: Record<string, {
     comparison: {
       headers: ["Criterio", "ON Gold Standard 2,26kg", "Myprotein Impact 1kg"],
       rows: [
-        ["Precio", "54,99 €", "20,00 €"],
         ["Proteína/servicio", "24g", "21g"],
         ["Servicios", "73", "40"],
-        ["Coste/servicio", "≈0,75 €", "≈0,50 €"],
         ["Tipo de whey", "Concentrado + aislado", "Concentrado"],
         ["Certificación antidopaje", "Informed Choice", "No especificada"],
         ["Mejor para", "Calidad y certificación", "Mejor precio por servicio"],
@@ -1599,7 +1576,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Myprotein Creatina Monohidrato: análisis",
-        body: "La Myprotein Creatina Monohidrato es monohidrato 100% puro sin sabor, con 83 servicios de 3 g por 18,99 €, lo que supone un coste mensual de unos 7 €. Se mezcla en cualquier bebida sin alterar el sabor. Es la forma de creatina con más estudios detrás y la más eficaz por precio.",
+        body: "La Myprotein Creatina Monohidrato es monohidrato 100% puro sin sabor, con 83 servicios de 3 g, suficiente para casi tres meses a la dosis de mantenimiento habitual. Se mezcla en cualquier bebida sin alterar el sabor. Es la forma de creatina con más estudios detrás y la más eficaz por precio.",
         productSlug: "myprotein-creatina-monohidrato-250g",
       },
       {
@@ -1632,7 +1609,7 @@ const articleContent: Record<string, {
   },
 
   "myprotein-impact-whey-opinion": {
-    intro: "La Myprotein Impact Whey democratizó la proteína de calidad en España. Por 20 € el kilo ofrece 21 g de proteína por servicio, baja en grasa y carbohidratos, con una variedad de sabores muy amplia. Esta guía analiza qué hay detrás del precio y si la calidad justifica la popularidad.",
+    intro: "La Myprotein Impact Whey democratizó la proteína de calidad en España. Ofrece 21 g de proteína por servicio, baja en grasa y carbohidratos, con una variedad de sabores muy amplia. Esta guía analiza qué hay detrás del precio y si la calidad justifica la popularidad.",
     sections: [
       {
         heading: "21g de proteína por servicio: qué significa",
@@ -1640,7 +1617,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El precio: cómo se compara con el mercado",
-        body: "A 20 € el kilo, la Impact Whey es de las proteínas de calidad verificada más económicas disponibles en España. Por ese precio tienes 40 servicios de 21 g. Las marcas premium en el mismo formato suelen costar el doble, lo que explica buena parte de su popularidad entre quienes empiezan.",
+        body: "La Impact Whey es de las proteínas de calidad verificada más económicas por servicio disponibles en España: el bote de 1 kg da para unos 40 servicios de 21 g. Las marcas premium en el mismo formato suelen costar bastante más, lo que explica buena parte de su popularidad entre quienes empiezan.",
       },
       {
         heading: "El sabor galletas y crema: por qué es el más vendido",
@@ -1649,16 +1626,14 @@ const articleContent: Record<string, {
       },
       {
         heading: "Impact Whey vs ON Gold Standard: cuál elegir",
-        body: "Myprotein gana en precio por servicio (0,50 € frente a 0,75 €) y en variedad de sabores. ON gana en certificación antidopaje (Informed Choice), en un bote de mayor capacidad y en la textura al mezclarse. Para principiantes o quienes priorizan el precio, Myprotein; para uso avanzado o con motivaciones de certificación, ON.",
+        body: "Myprotein gana en precio por servicio y en variedad de sabores. ON gana en certificación antidopaje (Informed Choice), en un bote de mayor capacidad y en la textura al mezclarse. Para principiantes o quienes priorizan el precio, Myprotein; para uso avanzado o con motivaciones de certificación, ON.",
         productSlug: "optimum-nutrition-gold-standard-whey-226kg",
       },
     ],
     comparison: {
       headers: ["Criterio", "Myprotein Impact 1kg", "ON Gold Standard 2,26kg"],
       rows: [
-        ["Precio", "20,00 €", "54,99 €"],
         ["Proteína/servicio", "21g", "24g"],
-        ["Coste/servicio", "≈0,50 €", "≈0,75 €"],
         ["Tipo", "Concentrado", "Concentrado + aislado"],
         ["Certificación", "No especificada", "Informed Choice"],
         ["Variedad sabores", "Muy amplia", "Moderada"],
@@ -1693,7 +1668,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La whey económica para completar la proteína diaria",
-        body: "Si el objetivo es simplemente llegar a la ingesta proteica sin gastar de más, la Myprotein Impact Whey cumple sobradamente por 20 € el kilo. Cualquier whey de calidad sirve para este propósito; lo que determina el resultado no es la marca, sino llegar al total de proteína del día.",
+        body: "Si el objetivo es simplemente llegar a la ingesta proteica sin gastar de más, la Myprotein Impact Whey cumple sobradamente con un coste por servicio contenido. Cualquier whey de calidad sirve para este propósito; lo que determina el resultado no es la marca, sino llegar al total de proteína del día.",
         productSlug: "myprotein-impact-whey-1kg-galletas",
       },
       {
@@ -1721,7 +1696,7 @@ const articleContent: Record<string, {
     faqs: [
       { q: "¿Los suplementos son peligrosos?", a: "Los suplementos básicos (creatina, proteína whey) son seguros para personas sanas con las dosis recomendadas y respaldo científico sólido. Otros productos (quemadores de grasa, pre-entrenos complejos) tienen evidencia mucho más débil y potenciales efectos secundarios. Consulta siempre con tu médico si tienes alguna patología." },
       { q: "¿A qué edad se pueden tomar suplementos?", a: "La proteína whey y la creatina no tienen restricciones de edad formales para adultos. Para menores de 18 años, consulta siempre con un médico o nutricionista antes de suplementarse." },
-      { q: "¿Cuánto me voy a gastar en suplementos al mes?", a: "Con creatina Myprotein (≈7 €/mes) más proteína whey Impact (≈10-15 €/mes si consumes una toma diaria), el coste total es de 17-22 € mensuales. Es un presupuesto muy razonable para los dos suplementos con mayor respaldo científico." },
+      { q: "¿Cuánto me voy a gastar en suplementos al mes?", a: "Depende del formato y de las ofertas del momento, así que consulta siempre el precio actual. Como referencia, la creatina monohidrato es de los suplementos más baratos por dosis (3-5 g al día) y la proteína whey es el mayor gasto si tomas una ración diaria. Juntos siguen siendo un presupuesto razonable para los dos suplementos con mayor respaldo científico." },
       { q: "¿Los suplementos sustituyen a una buena dieta?", a: "No. Los suplementos son complementos, no sustitutos. Una dieta equilibrada con suficiente proteína produce prácticamente los mismos resultados que la misma dieta más suplementos en principiantes. El margen de mejora que añaden los suplementos es real pero modesto." },
     ],
   },
@@ -1739,7 +1714,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Precio: whey sigue siendo más barata",
-        body: "La proteína vegana de calidad suele costar entre un 20 y un 50% más que la whey de calidad equivalente. La Impact Whey de Myprotein a 20 € el kilo es difícil de igualar en precio para proteínas vegetales de similar calidad, lo que sigue siendo un factor decisivo para muchos.",
+        body: "La proteína vegana de calidad suele costar entre un 20 y un 50% más que la whey de calidad equivalente. La Impact Whey de Myprotein es difícil de igualar en precio para proteínas vegetales de similar calidad, lo que sigue siendo un factor decisivo para muchos.",
         productSlug: "myprotein-impact-whey-1kg-galletas",
       },
       {
@@ -1828,15 +1803,15 @@ const articleContent: Record<string, {
 
   "mejor-eliptica-casa-2025": {
     intro:
-      "La elíptica es la máquina de cardio con la mejor relación entre beneficio y sacrificio articular. Trabaja piernas, glúteos y brazos al mismo tiempo que el cardio, sin que ninguna articulación soporte impacto. Para alguien con problemas de rodilla, cadera o que simplemente no quiere los golpes de la cinta de correr, es el aparato que permite entrenar con intensidad sin pagar ese peaje físico. Esta guía explica qué mirar antes de comprar y compara los cinco modelos más relevantes del mercado para casa en 2025.",
+      "La elíptica es la máquina de cardio con la mejor relación entre beneficio y sacrificio articular. Trabaja piernas, glúteos y brazos al mismo tiempo que el cardio, sin que ninguna articulación soporte impacto. Para alguien con problemas de rodilla, cadera o que simplemente no quiere los golpes de la cinta de correr, es el aparato que permite entrenar con intensidad sin pagar ese peaje físico. Esta guía explica qué mirar antes de comprar y compara los cinco modelos más relevantes del mercado para casa.",
     sections: [
       {
         heading: "Qué buscar en una elíptica para casa",
         body: "Hay seis variables que determinan si una elíptica encaja contigo o acaba arrinconada. La primera es la zancada: para una persona de estatura media, el mínimo funcional son 40-45 cm; si superas el 1,80 m, busca 50 cm o más. Una zancada corta obliga a un movimiento antinatural que fuerza la rodilla. La segunda es la resistencia: como mínimo 8 niveles, y magnética mejor que mecánica, porque la magnética no genera fricción entre piezas y funciona en silencio. La tercera es la carga máxima: 100 kg es el mínimo para un uso estable; a partir de 120 kg, la máquina tiene el margen estructural que alarga su vida útil. La cuarta es la conectividad: Bluetooth con apps como Kinomap o Zwift convierte una sesión monótona en algo que engacha; si no te importa, ahorra ese extra. La quinta es el ruido: la resistencia magnética ya ayuda, pero en un piso lo decisivo es también el sistema de transmisión y la calidad de los rodamientos. La sexta es la forma: las elípticas plegables sacrifican peso y estabilidad; solo tienen sentido en pisos muy pequeños con uso ocasional.",
       },
       {
-        heading: "Los 5 mejores modelos en 2025",
-        body: "Sportstech ESX500 (399-499 €): zancada de 43 cm, 24 niveles de resistencia magnética, compatible con Kinomap y Zwift vía Bluetooth. Es la opción más equilibrada para uso regular: suficiente zancada para la mayoría, rango de resistencia amplio y conectividad real. La mejor elección calidad-precio para alguien que va a usarla 3-5 días por semana.\n\nNordicTrack SpaceSaver SE7i (699-799 €): zancada de 46 cm, inclinación ajustable del stride para variar el grupo muscular trabajado, pantalla integrada de 7 pulgadas con iFit. Para usuarios comprometidos con el entrenamiento que quieren el estímulo de clases guiadas y métricas detalladas. La inclinación ajustable es un diferencial real que la mayoría de elípticas domésticas no tienen.\n\nCecotec E-Mex 3000 (349-399 €): zancada de 40 cm, 16 niveles, plegable. El mejor equilibrio para un piso pequeño con uso moderado. La zancada de 40 cm es justa para personas por encima del 1,75 m, pero quien prioriza que el aparato no ocupe espacio lo tendrá en cuenta.\n\nProForm Carbon EL (449-549 €): zancada de 46 cm, 20 niveles de resistencia, compatible con iFit para clases online integradas. La alternativa a la NordicTrack en el rango medio-alto si quieres acceder al ecosistema de entrenamientos dirigidos sin el precio de la pantalla grande.\n\nSkandika Olymp II (299-349 €): zancada de 43 cm, 12 niveles. La entrada de gama más honesta: sin conectividad, sin extras, pero con una zancada correcta y resistencia suficiente para empezar y mantener un hábito. Para quien no ha tenido elíptica antes y quiere probar el formato sin arriesgar más de 350 euros.",
+        heading: "Los 5 modelos más relevantes",
+        body: "Sportstech ESX500: zancada de 43 cm, 24 niveles de resistencia magnética, compatible con Kinomap y Zwift vía Bluetooth. Es la opción más equilibrada para uso regular: suficiente zancada para la mayoría, rango de resistencia amplio y conectividad real. La mejor elección calidad-precio para alguien que va a usarla 3-5 días por semana.\n\nNordicTrack SpaceSaver SE7i: zancada de 46 cm, inclinación ajustable del stride para variar el grupo muscular trabajado, pantalla integrada de 7 pulgadas con iFit. Para usuarios comprometidos con el entrenamiento que quieren el estímulo de clases guiadas y métricas detalladas. La inclinación ajustable es un diferencial real que la mayoría de elípticas domésticas no tienen.\n\nCecotec E-Mex 3000: zancada de 40 cm, 16 niveles, plegable. El mejor equilibrio para un piso pequeño con uso moderado. La zancada de 40 cm es justa para personas por encima del 1,75 m, pero quien prioriza que el aparato no ocupe espacio lo tendrá en cuenta.\n\nProForm Carbon EL: zancada de 46 cm, 20 niveles de resistencia, compatible con iFit para clases online integradas. La alternativa a la NordicTrack en el rango medio-alto si quieres acceder al ecosistema de entrenamientos dirigidos sin el precio de la pantalla grande.\n\nSkandika Olymp II: zancada de 43 cm, 12 niveles. La entrada de gama más honesta: sin conectividad, sin extras, pero con una zancada correcta y resistencia suficiente para empezar y mantener un hábito. Para quien no ha tenido elíptica antes y quiere probar el formato sin una gran inversión.",
       },
       {
         heading: "Elíptica vs cinta de correr vs bicicleta estática",
@@ -1848,13 +1823,13 @@ const articleContent: Record<string, {
       },
     ],
     comparison: {
-      headers: ["Modelo", "Precio", "Zancada", "Resistencia", "Conectividad", "Mejor para"],
+      headers: ["Modelo", "Zancada", "Resistencia", "Conectividad", "Mejor para"],
       rows: [
-        ["Sportstech ESX500", "399-499 €", "43 cm", "24 niveles magnética", "Bluetooth / apps", "Uso regular equilibrado"],
-        ["NordicTrack SpaceSaver SE7i", "699-799 €", "46 cm", "Ajustable + inclinación", "iFit + pantalla", "Entrenadores comprometidos"],
-        ["Cecotec E-Mex 3000", "349-399 €", "40 cm", "16 niveles magnética", "Sin conectividad", "Pisos pequeños, uso moderado"],
-        ["ProForm Carbon EL", "449-549 €", "46 cm", "20 niveles magnética", "iFit", "Clases online integradas"],
-        ["Skandika Olymp II", "299-349 €", "43 cm", "12 niveles magnética", "Sin conectividad", "Primera elíptica, entrada de gama"],
+        ["Sportstech ESX500", "43 cm", "24 niveles magnética", "Bluetooth / apps", "Uso regular equilibrado"],
+        ["NordicTrack SpaceSaver SE7i", "46 cm", "Ajustable + inclinación", "iFit + pantalla", "Entrenadores comprometidos"],
+        ["Cecotec E-Mex 3000", "40 cm", "16 niveles magnética", "Sin conectividad", "Pisos pequeños, uso moderado"],
+        ["ProForm Carbon EL", "46 cm", "20 niveles magnética", "iFit", "Clases online integradas"],
+        ["Skandika Olymp II", "43 cm", "12 niveles magnética", "Sin conectividad", "Primera elíptica, entrada de gama"],
       ],
     },
     conclusion:
@@ -2486,8 +2461,7 @@ const AUTHOR = {
             <span>·</span>
             <span className="flex items-center gap-1">
               <span>✍️</span>
-              <Link href="/sobre-nosotros" className="font-medium text-green-300 hover:text-white">Carlos Moreno</Link>
-              <span className="text-green-400">— Entrenador Personal NSCA</span>
+              <Link href="/sobre-nosotros" className="font-medium text-green-300 hover:text-white">Equipo Editorial de FitnessFácil.es</Link>
             </span>
           </div>
         </div>
