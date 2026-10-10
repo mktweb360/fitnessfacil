@@ -1,15 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
-
-// Bloques de anuncios que existen de verdad en la cuenta de AdSense (pub-6063067965030118).
-// Los identificadores que no estén aquí no se pintan: hasta tener bloques creados, los anuncios
-// los coloca Auto ads con el script del layout. Para activar un bloque manual, añade su ID.
-export const ACTIVE_SLOTS: string[] = [];
-
-export function isActiveSlot(slot: string): boolean {
-  return ACTIVE_SLOTS.includes(slot);
-}
+import { useEffect, useRef } from "react";
+import { ADS_ENABLED, AD_CLIENT, AD_UNITS, type AdPlacement } from "@/lib/adsense";
 
 declare global {
   interface Window {
@@ -17,40 +9,32 @@ declare global {
   }
 }
 
-export default function AdSenseAd({
-  slot,
-  format = "auto",
-  responsive = true,
-  className = "",
-}: {
-  slot: string;
-  format?: string;
-  responsive?: boolean;
-  className?: string;
-}) {
-  const active = isActiveSlot(slot);
+// Un hueco de anuncio de tamaño fijo. Máximo recomendado por página: uno "contenido" y uno "lateral".
+export default function AdSenseAd({ placement, className = "" }: { placement: AdPlacement; className?: string }) {
+  const unit = AD_UNITS[placement];
+  const pushed = useRef(false);
 
   useEffect(() => {
-    if (!active) return;
+    if (!ADS_ENABLED || pushed.current) return;
+    pushed.current = true;
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch {
-      // AdSense not loaded yet
+      // El script de AdSense aún no ha cargado: se procesará al cargar.
     }
-  }, [active]);
+  }, []);
 
-  if (!active) return null;
+  if (!ADS_ENABLED) return null;
 
   return (
-    <div className={`my-6 flex justify-center ${className}`}>
+    <aside aria-label="Publicidad" className={`mx-auto my-8 ${className}`} style={{ width: unit.width }}>
+      <p className="mb-1 text-center text-[11px] uppercase tracking-wide text-gray-400">Publicidad</p>
       <ins
         className="adsbygoogle"
-        style={{ display: "block" }}
-        data-ad-client="ca-pub-6063067965030118"
-        data-ad-slot={slot}
-        data-ad-format={format}
-        data-full-width-responsive={responsive ? "true" : "false"}
+        style={{ display: "inline-block", width: unit.width, height: unit.height }}
+        data-ad-client={AD_CLIENT}
+        data-ad-slot={unit.slot}
       />
-    </div>
+    </aside>
   );
 }
