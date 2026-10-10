@@ -35,10 +35,10 @@ export default function PoliticaCookiesPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-3 py-2 border border-gray-200">fitnessfacil_consent</td>
-                  <td className="px-3 py-2 border border-gray-200">Técnica propia</td>
-                  <td className="px-3 py-2 border border-gray-200">Guardar preferencia de consentimiento</td>
-                  <td className="px-3 py-2 border border-gray-200">Permanente (localStorage)</td>
+                  <td className="px-3 py-2 border border-gray-200">FCCDCF</td>
+                  <td className="px-3 py-2 border border-gray-200">Técnica (Google, plataforma de consentimiento)</td>
+                  <td className="px-3 py-2 border border-gray-200">Guardar tu decisión de consentimiento (estándar TCF del IAB)</td>
+                  <td className="px-3 py-2 border border-gray-200">13 meses</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-3 py-2 border border-gray-200">Cookies Google AdSense</td>
@@ -60,7 +60,7 @@ export default function PoliticaCookiesPage() {
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">Gestión de cookies</h2>
           <ul className="space-y-1">
-            <li>Acepta o rechaza cookies desde el banner al entrar al sitio</li>
+            <li>Acepta, rechaza o personaliza las cookies en el mensaje de consentimiento de Google que aparece al entrar; puedes cambiar tu decisión cuando quieras con el enlace «Preferencias de cookies» del pie de página</li>
             <li>Borra cookies desde la configuración de tu navegador</li>
             <li>Gestiona publicidad de Google en <a href="https://www.google.com/settings/ads" className="text-green-700 hover:underline" target="_blank" rel="noopener noreferrer">google.com/settings/ads</a></li>
           </ul>
