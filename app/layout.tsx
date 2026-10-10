@@ -16,7 +16,6 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CookieBanner from "@/components/CookieBanner";
 
 /* CWV: next/font self-hosts Geist, subsets to latin, applies display:swap and
    emits a <link rel="preload"> automatically — eliminates FOUT and the
@@ -86,25 +85,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
-        {/* CWV: Preconnect to AdSense — opens TCP early so the script loads
-            faster the moment the user gives consent in the cookie banner.     */}
+        {/* CWV: preconexión a los dominios de AdSense */}
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
 
-        {/* Consent Mode v2: todo denegado por defecto hasta que el banner haga 'update'. */}
-        <Script id="consent-mode-default" strategy="beforeInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('consent', 'default', {
-  ad_storage: 'denied',
-  ad_user_data: 'denied',
-  ad_personalization: 'denied',
-  analytics_storage: 'denied',
-  wait_for_update: 500
-});`}
-        </Script>
-        {/* AdSense site verification — ad script loaded conditionally by CookieBanner */}
+        {/* AdSense: el script se carga siempre; el consentimiento (RGPD / TCF v2.2) lo gestiona el
+            mensaje certificado de Google configurado en AdSense > Privacidad y mensajes. */}
+        <Script
+          id="adsense"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6063067965030118"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        {/* AdSense: verificación de la propiedad del sitio */}
         <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
@@ -113,7 +108,6 @@ gtag('consent', 'default', {
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <CookieBanner />
       </body>
     </html>
   );
