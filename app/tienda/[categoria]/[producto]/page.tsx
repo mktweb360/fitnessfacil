@@ -6,6 +6,7 @@ import { getPostBySlug } from "@/data/posts";
 import { amazonLink } from "@/lib/amazon";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
 import ProductCard from "@/components/ProductCard";
+import { productTitle, relatedInCategory } from "@/lib/seo";
 
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: `${product.name}: análisis y opinión` },
+    title: { absolute: productTitle(product.name, "análisis y opinión") },
     description: `${product.shortDescription} Análisis con pros, contras, especificaciones y enlace para consultar el precio actual.`,
     alternates: { canonical: `https://www.fitnessfacil.es/tienda/${categoria}/${producto}` },
     openGraph: {
@@ -68,7 +69,7 @@ export default async function ProductPage({ params }: Props) {
   if (!product || product.categorySlug !== categoria) notFound();
 
   const cat = categories.find((c) => c.slug === categoria);
-  const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 3);
+  const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
   const faqs = categoryFaqs[categoria] ?? [];
   const link = amazonLink(product.asin);

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
   return {
-    title: `${cat.name} — Guía de compra y comparativa 2025`,
+    title: `${cat.name}: guía de compra y comparativa`,
     description: `${cat.description}. Análisis completo con los mejores modelos, comparativa de precios y guía de compra para elegir el equipamiento perfecto.`,
     alternates: { canonical: `/tienda/${categoria}` },
   };
