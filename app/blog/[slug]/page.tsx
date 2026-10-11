@@ -2368,6 +2368,62 @@ const articleContent: Record<string, {
       { q: "¿El rodillo de espuma previene lesiones?", a: "No hay evidencia sólida de que el rodillo por sí solo reduzca el riesgo de lesión. Sus efectos demostrados son mejorar la movilidad de forma temporal y reducir la percepción de dolor muscular. La prevención de lesiones depende sobre todo de una progresión adecuada de la carga, fuerza y descanso suficientes." },
     ],
   },
+  "cuanta-proteina-al-dia-segun-objetivo": {
+    intro: "«¿Cuánta proteína tengo que tomar?» es la duda nutricional más frecuente entre quienes entrenan en casa, y las respuestas que circulan van desde 0,8 g por kilo hasta 3 g o más. La evidencia es bastante más concreta de lo que parece: para ganar músculo, el beneficio de aumentar la proteína deja de crecer de forma apreciable a partir de aproximadamente 1,6 g por kilo de peso y día, y el consenso de la Sociedad Internacional de Nutrición Deportiva sitúa el rango práctico para personas que entrenan entre 1,4 y 2,0 g/kg. Esta guía te explica cómo calcular tu cifra según tu objetivo, cómo repartirla durante el día, cuánta proteína aportan los alimentos habituales y cuándo tiene sentido (o no) añadir un batido.",
+    sections: [
+      {
+        heading: "La respuesta corta: cuánta proteína al día",
+        body: "Para una persona sana que entrena fuerza con regularidad, la cifra de referencia es 1,6 g de proteína por kg de peso corporal y día, con un margen razonable de 1,4 a 2,0 g/kg. Ese número procede del metaanálisis de Morton y colaboradores (British Journal of Sports Medicine, 2018), que reunió 49 estudios con 1.863 participantes: la suplementación con proteína mejoró la ganancia de masa magra y de fuerza en entrenamiento de resistencia, y el beneficio se estabilizaba alrededor de 1,6 g/kg/día, con un límite superior del intervalo de confianza en 2,2 g/kg. Por debajo de esa cifra puedes progresar igualmente, pero más despacio; por encima, la evidencia no muestra ventajas medias claras. Como referencia de población general sedentaria, la Autoridad Europea de Seguridad Alimentaria fija la ingesta de referencia en 0,83 g/kg/día: es un mínimo para cubrir necesidades, no un objetivo para quien entrena.",
+      },
+      {
+        heading: "Cómo calcular tu cifra según el objetivo",
+        body: "La fórmula es sencilla: peso corporal en kilos multiplicado por los gramos por kilo de tu objetivo. Una persona de 70 kg que busca ganar músculo apuntaría a unos 112 g diarios (1,6 g/kg), con un rango cómodo de 98 a 140 g (1,4-2,0 g/kg). Si el objetivo es perder grasa conservando músculo, conviene situarse en la mitad alta del rango: la proteína sacia más y ayuda a mantener la masa magra durante el déficit calórico. Si entrenas poco y tu objetivo es simplemente mantenerte sano, 1,0-1,2 g/kg ya queda por encima del mínimo. En personas con mucho sobrepeso, usar el peso total puede sobreestimar la cifra; una referencia práctica es calcularla sobre un peso objetivo razonable.",
+      },
+      {
+        heading: "Cómo repartirla: 3-4 tomas de 20-40 g",
+        body: "La ingesta total del día es lo primero; el reparto es un ajuste fino. La postura oficial de la ISSN (Jäger y colaboradores, Journal of the International Society of Sports Nutrition, 2017) apunta a dosis de unos 0,25 g/kg por comida, o 20-40 g de proteína de calidad por toma, repetidas cada 3-4 horas. En la práctica, con 112 g diarios basta con 3 o 4 tomas de 25-35 g: desayuno, comida, merienda o post-entreno, y cena. No hace falta cronometrar una «ventana anabólica» de 30 minutos tras entrenar; lo que más importa es llegar a la cifra diaria con regularidad.",
+        productSlug: "optimum-nutrition-gold-standard-whey-226kg",
+      },
+      {
+        heading: "Cuánta proteína aportan los alimentos de siempre",
+        body: "Antes de pensar en suplementos, conviene medir cuánta proteína aporta tu dieta. Como valores orientativos (varían según marca y cocinado): 100 g de pechuga de pollo cruda aportan unos 22 g, una lata de atún al natural (unos 80 g escurridos) cerca de 20 g, un huevo grande unos 7 g, 100 g de lentejas cocidas unos 8-9 g, y un yogur de 125 g entre 4 y 12 g (el «estilo griego» habitual se queda en la parte baja; el griego colado o tipo skyr, en la alta). Con tres comidas principales que incluyan una ración proteica de 100-150 g de carne, pescado o legumbres más lácteos y huevos, muchas personas se acercan a 90-110 g sin esfuerzo. Si tu cifra objetivo supera con claridad lo que consigues comiendo, ahí es donde entra el batido.",
+      },
+      {
+        heading: "¿Necesito batido de proteínas? Cuándo sí y cuándo no",
+        body: "El batido no es obligatorio: es un alimento más, cómodo y de digestión rápida, que sirve para completar lo que la dieta no cubre. Tiene sentido si tu cifra diaria queda lejos de lo que comes, si tienes poco apetito tras entrenar o si necesitas una opción rápida fuera de casa. Una medida de whey suele aportar entre 20 y 25 g de proteína. Si no tomas lácteos o sigues una dieta vegetal, la proteína de soja aislada es una alternativa con buen perfil de aminoácidos, y puede alcanzar los mismos objetivos si se ajusta la cantidad. Si ya llegas a tu cifra con comida real, añadir batido no aporta ventaja adicional demostrada.",
+        productSlug: "hsn-proteina-soja-vegana-2kg",
+      },
+      {
+        heading: "Seguridad: ¿demasiada proteína daña los riñones?",
+        body: "En personas sanas, las ingestas de hasta 2 g/kg/día no se han asociado a daño renal en los estudios disponibles, y la ISSN lo recoge en su postura oficial. La precaución es distinta si tienes enfermedad renal diagnosticada, diabetes con afectación renal u otra condición que obligue a controlar la proteína: en ese caso, consulta con tu médico o un dietista-nutricionista antes de aumentar la ingesta. Tampoco conviene aumentar la proteína a costa de la fibra, la fruta y la verdura. Ten en cuenta también que estas cifras son orientativas y no sustituyen el consejo individualizado de un profesional sanitario.",
+      },
+    ],
+    comparisonHeading: "Cuánta proteína al día según tu perfil (g por kg de peso)",
+    comparison: {
+      headers: ["Perfil", "Rango orientativo", "Ejemplo con 70 kg", "Base"],
+      rows: [
+        ["Adulto sedentario sano", "0,83 g/kg", "Unos 58 g", "Referencia EFSA (mínimo, no objetivo)"],
+        ["Entrena de forma regular", "1,4-2,0 g/kg", "98-140 g", "Postura ISSN 2017"],
+        ["Ganar músculo (fuerza)", "Alrededor de 1,6 g/kg", "Unos 112 g", "Morton et al. 2018 (hasta 2,2 g/kg en el límite superior)"],
+        ["Perder grasa conservando músculo", "Mitad alta del rango (1,6-2,0 g/kg)", "112-140 g", "Recomendación práctica a partir de ISSN 2017"],
+      ],
+    },
+    conclusion: "Para la mayoría de personas que entrenan en casa, la regla es clara: calcula 1,6 g de proteína por kilo de peso, muévete entre 1,4 y 2,0 g/kg según tu objetivo, reparte la ingesta en 3-4 tomas de 20-40 g y usa el batido solo para cubrir lo que la comida no alcanza. Nuestra valoración: lo más rentable no es subir la cifra por encima de 2 g/kg, sino ser constante cada día, entrenar con progresión y dormir bien. Si decides añadir batido, un whey de calidad contrastada o una proteína de soja aislada si evitas lácteos cubren perfectamente la necesidad, sin pagar de más por mezclas con ingredientes superfluos.",
+    conclusionHeading: "Nuestra valoración: cuánta proteína tomar",
+    faqsHeading: "Preguntas sobre cuánta proteína tomar al día",
+    sources: [
+      { label: "Morton R.W. et al. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. British Journal of Sports Medicine, 52:376-384", url: "https://bjsm.bmj.com/content/52/6/376" },
+      { label: "Jäger R. et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise. Journal of the International Society of Sports Nutrition, 14:20", url: "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8" },
+      { label: "EFSA Panel on Dietetic Products, Nutrition and Allergies (2012). Scientific Opinion on Dietary Reference Values for protein. EFSA Journal, 10(2):2557", url: "https://www.efsa.europa.eu/en/efsajournal/pub/2557" },
+    ],
+    faqs: [
+      { q: "¿Cuánta proteína necesito para ganar músculo?", a: "La referencia es de unos 1,6 g por kg de peso y día, con un margen práctico de 1,4 a 2,0 g/kg. Para una persona de 70 kg son unos 112 g diarios, con un rango de 98 a 140 g. Más allá de 2,0-2,2 g/kg la evidencia no muestra ventajas medias claras." },
+      { q: "¿Cuánta proteína puedo absorber en una sola comida?", a: "No existe un tope de absorción: el organismo digiere y absorbe prácticamente toda la proteína que ingieres. Lo que sí se ha observado es que dosis de unos 20-40 g por toma estimulan bien la síntesis muscular, por lo que repartir la ingesta en 3-4 tomas es una pauta práctica." },
+      { q: "¿Se puede llegar a la cifra sin batido de proteínas?", a: "Sí. Con raciones de carne, pescado, huevos, lácteos y legumbres en las comidas principales, muchas personas alcanzan 90-110 g diarios. El batido es una comodidad para cubrir lo que falta, no una necesidad." },
+      { q: "¿Necesito más proteína si quiero perder peso?", a: "Durante un déficit calórico conviene situarse en la mitad alta del rango (1,6-2,0 g/kg), porque la proteína sacia más y ayuda a conservar la masa magra. Es una pauta práctica basada en el consenso ISSN, no una cifra individualizada." },
+      { q: "¿Es peligroso tomar mucha proteína?", a: "En personas sanas, ingestas de hasta unos 2 g/kg/día no se han asociado a daño renal en los estudios disponibles. Si tienes enfermedad renal u otra condición que requiera controlar la proteína, consulta con tu médico o un dietista-nutricionista antes de aumentarla." },
+    ],
+  },
 };
 
 export default async function BlogPostPage({ params }: Props) {

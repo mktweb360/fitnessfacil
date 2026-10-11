@@ -951,6 +951,28 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver rodillos, esterillas y material de movilidad →" },
   },
+  {
+    slug: "cuanta-proteina-al-dia-segun-objetivo",
+    title: "¿Cuánta proteína necesitas al día? Cálculo según tu objetivo y peso (2026)",
+    excerpt:
+      "Para ganar músculo, la evidencia sitúa el rendimiento máximo en torno a 1,6 g de proteína por kg de peso y día; en la práctica, entre 1,4 y 2,0 g/kg. Calcula tu cifra, repártela en 3-4 tomas y comprueba si necesitas batido.",
+    date: "2026-10-11",
+    category: "Nutrición",
+    readTime: "9 min",
+    isSupplement: true,
+    relatedProducts: [
+      "hsn-evowhey-protein-2kg",
+      "optimum-nutrition-gold-standard-whey-226kg",
+      "hsn-proteina-soja-vegana-2kg",
+    ],
+    relatedPosts: [
+      "proteina-whey-antes-despues-entreno",
+      "proteina-vegana-vs-whey",
+      "proteina-whey-guia-completa",
+      "suplementos-fitness-casa-necesarios",
+    ],
+    categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
