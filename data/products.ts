@@ -2099,6 +2099,26 @@ export const products: Product[] = [
       "mejor-esterilla-yoga-casa-2025",
     ],
   },
+  {
+    slug: "toputure-cinta-correr-plegable-12-inclinacion-16kmh",
+    name: "TOPUTURE Cinta de Correr Plegable 6 en 1 con 12 % de Inclinación y 16 km/h",
+    asin: "B0GGGPQ9KR",
+    categorySlug: "cintas-correr",
+    categoryName: "Cintas de correr",
+    price: "Consultar precio",
+    priceMin: 390,
+    rating: 4.7,
+    reviewCount: 561,
+    shortDescription: "Cinta plegable para andar y correr de 1 a 16 km/h, con 12 % de inclinación, motor de 2,5 CV, banda de 104 × 42 cm y 130 kg de carga.",
+    fullDescription: "Verificado en vivo en Amazon.es el 12/10/2026 (ASIN B0GGGPQ9KR, vendida y enviada por Meilan Jinpeng; dato interno, no se muestra). Cinta plegable que sirve tanto para caminar bajo el escritorio como para correr: la velocidad va de 1 a 16 km/h y la inclinación llega al 12 %, que multiplica el trabajo al caminar. Motor de 2,5 CV, carga máxima de 130 kg y banda de 104 × 42 cm con amortiguación. Tiene doble pantalla LED, medición de pulso, control por app y altavoz Bluetooth. Llega montada y se pliega para guardarla. El fabricante ofrece 2 años de garantía.",
+    pros: ["Hasta 16 km/h: sirve para correr de verdad","Inclinación del 12 %","Llega montada","130 kg de carga","2 años de garantía según el fabricante"],
+    cons: ["Pesa unos 35 kg","Banda de 104 cm: corta para zancadas largas a alta velocidad","Vendida y enviada por un vendedor externo"],
+    specs: { "Velocidad": "1-16 km/h", "Inclinación": "Hasta 12 %", "Motor": "2,5 CV", "Banda": "104 × 42 cm", "Carga máx.": "130 kg" },
+    relatedPosts: [
+      "mejor-cinta-correr-casa-2025",
+      "cinta-correr-plegable-piso-pequeno",
+    ],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
