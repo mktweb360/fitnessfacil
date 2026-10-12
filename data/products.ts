@@ -17,6 +17,8 @@ export type Product = {
   badge?: string;
   isSupplement?: boolean;
   relatedPosts?: string[];
+  /** Fecha en que se comprobó que no se puede comprar en Amazon.es: se oculta de la web. */
+  unavailable?: string;
 };
 
 export const categories = [
@@ -68,6 +70,7 @@ export const products: Product[] = [
   // CINTAS DE CORRER
   {
     slug: "walkingpad-r2-cinta-plegable",
+    unavailable: "2026-10-12",
     name: "WalkingPad R2 Cinta de Correr Plegable 0.5-12km/h Silenciosa",
     asin: "B097Y9LH1L",
     image: "/images/products/walkingpad-r2-cinta-plegable.jpg",
@@ -114,6 +117,7 @@ export const products: Product[] = [
   // BICICLETAS ESTÁTICAS
   {
     slug: "sportstech-x100c-bicicleta-cuerdas",
+    unavailable: "2026-10-12",
     name: "Sportstech X100-C Bicicleta Estática Plegable + LCD + Cuerdas de Fuerza",
     asin: "B09N9TCS44",
     image: "/images/products/sportstech-x100c-bicicleta-cuerdas.jpg",
@@ -159,6 +163,7 @@ export const products: Product[] = [
   },
   {
     slug: "merach-bicicleta-estatica-app-136kg",
+    unavailable: "2026-10-12",
     name: "Sportstech Cyclette Professional SX200 Bicicleta Estática",
     asin: "B0CH8DZGLQ",
     image: "/images/products/merach-bicicleta-estatica-app-136kg.jpg",
@@ -182,6 +187,7 @@ export const products: Product[] = [
   },
   {
     slug: "sportstech-dfx70-mini-bicicleta-escritorio",
+    unavailable: "2026-10-12",
     name: "Sportstech DFX70 Mini Bicicleta Estática para Escritorio y Casa",
     asin: "B08P5RYCNN",
     image: "/images/products/sportstech-dfx70-mini-bicicleta-escritorio.jpg",
@@ -206,6 +212,7 @@ export const products: Product[] = [
   // PESAS Y MANCUERNAS
   {
     slug: "lullax-neo36-mancuernas-ajustables",
+    unavailable: "2026-10-12",
     name: "LULLAX NEO36 Mancuernas Ajustables Par hasta 36kg con Base",
     asin: "B0B34VV7JJ",
     image: "/images/products/lullax-neo36-mancuernas-ajustables.jpg",
@@ -322,6 +329,7 @@ export const products: Product[] = [
   },
   {
     slug: "toplus-esterilla-yoga-tpe-6mm",
+    unavailable: "2026-10-12",
     name: "TOPLUS Esterilla Yoga Antideslizante TPE 6mm Nivel Profesional 183x61cm",
     asin: "B07RL2N3YN",
     image: "/images/products/toplus-esterilla-yoga-tpe-6mm.jpg",
@@ -370,6 +378,7 @@ export const products: Product[] = [
   },
   {
     slug: "myprotein-impact-whey-1kg-galletas",
+    unavailable: "2026-10-12",
     name: "Myprotein Impact Whey Protein 1kg Galletas y Crema",
     asin: "B00J2ULAF8",
     image: "/images/products/myprotein-impact-whey-1kg-galletas.jpg",
@@ -416,6 +425,7 @@ export const products: Product[] = [
   },
   {
     slug: "horizon-t101-cinta-correr",
+    unavailable: "2026-10-12",
     name: "Horizon Fitness T101 Cinta de Correr",
     asin: "B07FPRYTSK",
     image: "/images/products/horizon-t101-cinta-correr.jpg",
@@ -486,6 +496,7 @@ export const products: Product[] = [
 // ─── bicicletas-estaticas ────────────────────────────────────
   {
     slug: "kettler-avior-m-bicicleta-estatica",
+    unavailable: "2026-10-12",
     name: "Kettler Avior M Bicicleta Estática",
     asin: "B09S6TL9HP",
     image: "/images/products/kettler-avior-m-bicicleta-estatica.jpg",
@@ -519,6 +530,7 @@ export const products: Product[] = [
   },
   {
     slug: "sportstech-sx400-bicicleta-indoor",
+    unavailable: "2026-10-12",
     name: "Sportstech SX400 Bicicleta Indoor",
     asin: "B01DPT6SJ4",
     image: "/images/products/sportstech-sx400-bicicleta-indoor.jpg",
@@ -555,6 +567,7 @@ export const products: Product[] = [
   },
   {
     slug: "sportstech-sx600-bicicleta-indoor",
+    unavailable: "2026-10-12",
     name: "Sportstech SX600 Elite Bicicleta Indoor",
     asin: "B08RDRYTL6",
     image: "/images/products/sportstech-sx600-bicicleta-indoor.jpg",
@@ -660,6 +673,7 @@ export const products: Product[] = [
   },
   {
     slug: "bowflex-selecttech-552-mancuernas",
+    unavailable: "2026-10-12",
     name: "Bowflex SelectTech 552 Mancuernas Ajustables",
     asin: "B001ARYU58",
     image: "/images/products/bowflex-selecttech-552-mancuernas.jpg",
@@ -914,6 +928,7 @@ export const products: Product[] = [
   },
   {
     slug: "bandas-elasticas-loop-set-5-niveles",
+    unavailable: "2026-10-12",
     name: "Bandas Elásticas Loop Set 5 Niveles de Resistencia — Fitness y Yoga",
     asin: "B08XBF3HFF",
     image: "/images/products/bandas-elasticas-loop-set-5-niveles.jpg",
@@ -933,6 +948,7 @@ export const products: Product[] = [
   },
   {
     slug: "bandas-resistencia-piernas-gluteos-set",
+    unavailable: "2026-10-12",
     name: "Bandas de Resistencia Elásticas Set Piernas y Glúteos — 5 Cintas Loop",
     asin: "B07QK6QBF9",
     image: "/images/products/bandas-resistencia-piernas-gluteos-set.jpg",
@@ -996,6 +1012,7 @@ export const products: Product[] = [
   },
   {
     slug: "myprotein-alpha-pre-workout-manzana-acida",
+    unavailable: "2026-10-12",
     name: "Myprotein Alpha Pre-Workout Polvo con Beta-Alanina y Cafeína — Manzana Ácida 600g",
     asin: "B0CK5VXLMJ",
     categorySlug: "suplementos-proteinas",
@@ -1039,6 +1056,7 @@ export const products: Product[] = [
   },
   {
     slug: "charonfit-cinta-correr-inclinacion-automatica-18",
+    unavailable: "2026-10-12",
     name: "Neezee Cinta de Correr Plegable con Inclinación Automática 20%, 4.5CV",
     asin: "B0H2HHKF7G",
     categorySlug: "cintas-correr",
@@ -1127,6 +1145,7 @@ export const products: Product[] = [
   },
   {
     slug: "activeweight-banco-pesas-ajustable-plegable",
+    unavailable: "2026-10-12",
     name: "ACTIVEWEIGHT Banco de Pesas Ajustable Plegable 11 Posiciones Premontado",
     asin: "B09Q3BRQLT",
     categorySlug: "pesas-mancuernas",
@@ -1207,6 +1226,7 @@ export const products: Product[] = [
   },
   {
     slug: "superun-cinta-correr-app-pitpat",
+    unavailable: "2026-10-12",
     name: "Superun Cinta de Correr con Inclinación 6%, App PitPat",
     asin: "B0H71BHPLW",
     categorySlug: "cintas-correr",
@@ -1383,6 +1403,7 @@ export const products: Product[] = [
   },
   {
     slug: "miko-mika-mancuernas-goma-ajustable",
+    unavailable: "2026-10-12",
     name: "Mi Ko Mi Ka Par de Mancuernas Recubiertas de Goma Ajustables",
     asin: "B0DQK1KB18",
     categorySlug: "pesas-mancuernas",
@@ -1856,7 +1877,7 @@ export const products: Product[] = [
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
-  return products.filter((p) => p.categorySlug === categorySlug);
+  return products.filter((p) => p.categorySlug === categorySlug && !p.unavailable);
 }
 
 export function getProductBySlug(slug: string): Product | undefined {
@@ -1864,5 +1885,5 @@ export function getProductBySlug(slug: string): Product | undefined {
 }
 
 export function getFeaturedProducts(n: number): Product[] {
-  return [...products].sort((a, b) => b.rating - a.rating).slice(0, n);
+  return products.filter((p) => !p.unavailable).sort((a, b) => b.rating - a.rating).slice(0, n);
 }

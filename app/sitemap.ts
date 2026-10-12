@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const productPages: MetadataRoute.Sitemap = products.map((p) => ({
+  const productPages: MetadataRoute.Sitemap = products.filter((p) => !p.unavailable).map((p) => ({
     url: `${BASE}/tienda/${p.categorySlug}/${p.slug}`,
     changeFrequency: "weekly",
     priority: 0.7,

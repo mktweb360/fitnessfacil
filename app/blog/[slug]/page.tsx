@@ -2489,7 +2489,7 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   const content = articleContent[slug];
-  const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter(Boolean) ?? [];
+  const relatedProducts = post.relatedProducts?.map((s) => getProductBySlug(s)).filter((p) => p && !p.unavailable) ?? [];
   const relatedPosts = post.relatedPosts?.map((s) => getPostBySlug(s)).filter(Boolean) ?? [];
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   const sameCategoryPosts = posts
@@ -2601,7 +2601,8 @@ const AUTHOR = {
             <p className="text-lg text-gray-700 leading-relaxed mb-8">{content.intro}</p>
 
             {content.sections.map((section) => {
-              const ctaProduct = section.productSlug ? getProductBySlug(section.productSlug) : undefined;
+              const found = section.productSlug ? getProductBySlug(section.productSlug) : undefined;
+              const ctaProduct = found && !found.unavailable ? found : undefined;
               return (
                 <section key={section.heading} className="mb-8">
                   <h2 className="text-xl font-extrabold text-gray-900 mb-3">{section.heading}</h2>
