@@ -43,6 +43,63 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "tipos-de-pesas-cual-elegir-casa-gimnasio": {
+    intro: "Cuando alguien busca «tipos de pesas» suele estar a punto de comprar su primer material o de montar un rincón de fuerza en casa. Hay muchas opciones y no todas encajan en un piso: unas ocupan poco y sirven para casi todo, otras exigen espacio o un banco. Esta guía repasa los tipos principales, qué permite cada uno y cuál tiene más sentido según tu objetivo, tu espacio y tu presupuesto.",
+    sections: [
+      {
+        heading: "Mancuernas fijas: hexagonales, recubiertas y cromadas",
+        body: "Son pesas de un solo peso, listas para usar sin montar nada. Las hexagonales no ruedan por el suelo y suelen ir recubiertas de goma o neopreno, lo que protege el suelo y reduce el ruido; las cromadas o de hierro son más compactas pero más ruidosas. Su ventaja es la rapidez: cambias de peso cogiendo otra pareja. Su inconveniente es que para progresar necesitas varias parejas, y eso ocupa espacio y dinero. Para empezar en casa, una o dos parejas ligeras cubren muchos ejercicios de brazos, hombros y piernas.",
+      },
+      {
+        heading: "Mancuernas ajustables de discos",
+        body: "Una barra corta con discos que se fijan con cierres de rosca o de estrella. Con un solo kit puedes montar distintos pesos, y muchos kits incluyen una barra de unión para usarlas como barra larga. Son la opción más económica para tener mucho rango de peso en poco espacio. El precio es la comodidad: cambiar de peso lleva un minuto, así que encajan mejor en rutinas con pocos cambios por sesión.",
+        productSlug: "yaheetech-kit-mancuernas-16-discos",
+      },
+      {
+        heading: "Mancuernas ajustables de selector",
+        body: "El peso se elige girando un dial o moviendo un pasador, y la mancuerna coge solo los discos necesarios de su base. Sustituyen a muchas parejas de mancuernas fijas en el espacio de una sola, y el cambio de peso es inmediato. Son las más caras y algo más voluminosas en la mano que una fija del mismo peso, y conviene no dejarlas caer. Si entrenas a menudo en casa y vas a progresar, son la opción más cómoda.",
+      },
+      {
+        heading: "Barras y discos",
+        body: "La barra larga permite mover más peso en ejercicios como sentadilla, peso muerto o press de banca. Hay dos sistemas que no son compatibles entre sí: las barras olímpicas, las de los gimnasios (la masculina pesa normalmente 20 kg), que usan discos con agujero de unos 50 mm, y las barras «estándar» para casa, que usan discos de agujero más pequeño. Antes de comprar discos sueltos, comprueba el diámetro de tu barra. Para entrenar con barra en casa con seguridad hace falta además espacio, un banco y, para sentadilla o press pesado, soportes o un rack.",
+      },
+      {
+        heading: "Kettlebells o pesas rusas",
+        body: "Una bola con asa en la que el peso queda descentrado respecto a la mano. Eso las hace ideales para ejercicios balísticos como el swing, el clean o el snatch, y para trabajar agarre, cadera y core. Con una o dos kettlebells se puede hacer un entrenamiento completo en muy poco espacio. Elegir bien el primer peso es clave; lo explicamos en nuestra guía de qué kettlebell elegir para empezar.",
+      },
+      {
+        heading: "Mazas (clubbells) y macebells",
+        body: "Son pesas alargadas con el peso concentrado en un extremo. Se usan sobre todo en movimientos circulares y de rotación que trabajan hombros, agarre y estabilidad del tronco. Requieren técnica y espacio a tu alrededor, así que no son la primera compra para quien empieza, pero sí un buen complemento cuando ya entrenas con mancuernas o kettlebells.",
+      },
+      {
+        heading: "Lastres: tobilleras, muñequeras y chalecos",
+        body: "Añaden peso al propio cuerpo. Las tobilleras y muñequeras lastradas, de poco peso, sirven para ejercicios de glúteo, pierna y movilidad, y son habituales en rutinas de tonificación. El chaleco lastrado aumenta la dificultad de dominadas, flexiones, sentadillas o caminatas sin ocupar las manos. No sustituyen a las mancuernas para ganar fuerza, pero aportan variedad.",
+      },
+    ],
+    comparisonHeading: "Qué tipo de pesa elegir según tu caso",
+    comparison: {
+      headers: ["Tipo", "Espacio", "Rango de peso", "Ideal para"],
+      rows: [
+        ["Mancuernas fijas", "Medio (crece con cada pareja)", "Uno por pareja", "Empezar, circuitos rápidos"],
+        ["Ajustables de discos", "Poco", "Amplio", "Presupuesto ajustado y mucho rango"],
+        ["Ajustables de selector", "Poco", "Amplio, cambio inmediato", "Entrenar a menudo en casa"],
+        ["Barra y discos", "Mucho (con banco o rack)", "Muy amplio", "Fuerza máxima, básicos con barra"],
+        ["Kettlebell", "Muy poco", "Uno por pesa", "Ejercicios balísticos, cuerpo completo"],
+        ["Mazas", "Espacio libre alrededor", "Uno por maza", "Hombros, agarre y rotaciones"],
+        ["Lastres", "Muy poco", "Bajo", "Complemento y variedad"],
+      ],
+    },
+    conclusion: "Para la mayoría de personas que empiezan en casa, la mejor primera compra es un juego de mancuernas: ajustables si quieres progresar sin llenar la casa de pesas, o una o dos parejas fijas si prefieres sencillez. Una kettlebell es el mejor complemento por lo poco que ocupa. La barra con discos tiene sentido cuando ya tienes espacio, banco y técnica. Nuestra valoración: compra pensando en el entrenamiento que vas a hacer de verdad, no en el que harás algún día.",
+    conclusionHeading: "Nuestra valoración: por dónde empezar",
+    faqsHeading: "Preguntas sobre los tipos de pesas",
+    faqs: [
+      { q: "¿Qué tipo de pesas es mejor para entrenar en casa?", a: "Las mancuernas, porque permiten trabajar todo el cuerpo con poco espacio. Las ajustables ofrecen mucho rango de peso en el espacio de una sola pareja; las fijas son más rápidas de usar." },
+      { q: "¿Son compatibles los discos de cualquier barra?", a: "No. Las barras olímpicas usan discos con agujero de unos 50 mm y las barras estándar para casa, discos con agujero más pequeño. Comprueba el diámetro de tu barra antes de comprar discos sueltos." },
+      { q: "¿Mancuernas o kettlebell para empezar?", a: "Para la mayoría, mancuernas: sirven para más ejercicios y la técnica es más sencilla. La kettlebell es un gran complemento para ejercicios balísticos como el swing." },
+      { q: "¿Para qué sirven las mazas o clubbells?", a: "Para movimientos circulares y de rotación que trabajan hombros, agarre y estabilidad del tronco. Requieren técnica y espacio, por lo que suelen añadirse cuando ya se entrena con otro material." },
+      { q: "¿Las tobilleras lastradas sirven para ganar músculo?", a: "Aportan poca carga, así que sirven más para variedad, tonificación y ejercicios de glúteo o movilidad que para ganar fuerza. Para progresar en fuerza necesitas mancuernas, kettlebells o barra." },
+    ],
+  },
   "mejor-cinta-correr-casa-2025": {
     intro: "Una cinta de correr plegable resuelve el problema real de entrenar en casa en España: el espacio. Antes de mirar marcas conviene tener claros cuatro criterios: cuánto ocupa plegada, cuánto ruido transmite al suelo (decisivo en un piso), qué velocidad máxima alcanza y qué peso máximo soporta. Esta guía compara las dos cintas plegables del catálogo, ambas de la gama WalkingPad, para que elijas según tu perfil y no según el marketing.",
     sections: [

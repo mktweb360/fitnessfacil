@@ -973,6 +973,26 @@ export const posts: Post[] = [
     ],
     categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
   },
+  {
+    slug: "tipos-de-pesas-cual-elegir-casa-gimnasio",
+    title: "Tipos de pesas: cuál elegir para entrenar en casa o en el gimnasio",
+    excerpt: "Mancuernas fijas y ajustables, barras y discos, kettlebells, mazas y lastres: qué es cada tipo de pesa, para qué sirve y cuál conviene según tu espacio, tu nivel y tu presupuesto.",
+    date: "2026-10-12",
+    category: "Fuerza",
+    readTime: "8 min",
+    relatedProducts: [
+      "yaheetech-kit-mancuernas-16-discos",
+      "amazonbasics-mancuernas-hexagonales-10kg",
+      "maniboom-mancuernas-hexagonales-15kg",
+    ],
+    relatedPosts: [
+      "mancuernas-ajustables-vs-fijas",
+      "mancuernas-ajustables-merece-pena",
+      "kettlebell-para-empezar-peso",
+      "rutina-mancuernas-casa-semana",
+    ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver pesas y mancuernas →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
