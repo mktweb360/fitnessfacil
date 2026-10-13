@@ -759,9 +759,9 @@ const articleContent: Record<string, {
     },
     conclusion: "Las opiniones positivas sobre las WalkingPad responden a razones concretas, no al marketing. Cumplen lo que prometen: plegarse de verdad, hacer poco ruido y funcionar sin complicaciones. Sus limitaciones son reales pero conocidas: no son cintas de gimnasio y no pretenden serlo. Si tus expectativas están bien calibradas, son una compra que no defrauda.",
     faqs: [
-      { q: "¿Dónde se compra la WalkingPad en España?", a: "Están disponibles online con envío rápido y devolución sin coste durante los primeros 30 días. Es el canal más recomendable por la garantía de compra que ofrece y por la facilidad de gestionar una devolución si el modelo no encaja con lo que esperabas." },
+      { q: "¿Dónde se compra la WalkingPad en España?", a: "Los modelos que analizamos se venden en Amazon.es. Antes de comprar, revisa en la ficha de cada producto quién lo vende y lo envía, el plazo de entrega y las condiciones de devolución que indica Amazon, porque pueden variar según el vendedor y el momento." },
       { q: "¿La garantía de WalkingPad cubre España?", a: "Sí. Los modelos vendidos en España incluyen la garantía del fabricante. Conviene guardar el comprobante de compra para cualquier reclamación posterior, ya que es el documento que acredita la fecha de inicio de la cobertura." },
-      { q: "¿Cuánto tarda en llegar una WalkingPad tras comprarla?", a: "Con envío premium, normalmente 1 o 2 días laborables. Sin envío premium, el plazo depende de la disponibilidad del vendedor, aunque en la práctica suele ser rápido al tratarse de un producto con stock habitual." },
+      { q: "¿Cuánto tarda en llegar una WalkingPad tras comprarla?", a: "Depende del vendedor, de la disponibilidad y de tu dirección de entrega. El plazo estimado aparece en la ficha de Amazon antes de confirmar el pedido; consúltalo allí, porque es el único dato fiable en cada momento." },
       { q: "¿Merece la pena WalkingPad frente a otras marcas?", a: "Para el segmento de cintas plegables silenciosas para piso, sí. Las alternativas en ese rango de precio suelen tener más ruido o peor calidad de construcción. Para cintas de entrenamiento serio, con inclinación motorizada y programas avanzados, hay opciones más completas, pero también más caras y voluminosas, que juegan en otra categoría." },
     ],
   },

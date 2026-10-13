@@ -10,18 +10,18 @@ import OffersSlider, { type OfferSlide } from "@/components/OffersSlider";
 // Ofertas destacadas del slider — productos reales del catálogo con imagen y badge verificados
 const offerSlides: OfferSlide[] = [
   {
-    image: "/images/products/walkingpad-r2-cinta-plegable.jpg",
-    badge: "Plegable",
-    title: "WalkingPad R2 Cinta Plegable",
-    subtitle: "Cinta de andar plegable ideal para entrenar en casa",
-    href: "/tienda/cintas-correr/walkingpad-r2-cinta-plegable",
+    image: "/images/products/walkingpad-r1-pro-cinta-plegable.jpg",
+    badge: "Bajo escritorio",
+    title: "WalkingPad C2(S1) Cinta de Andar Plegable",
+    subtitle: "Cinta plegable para andar bajo el escritorio, hasta 6 km/h",
+    href: "/tienda/cintas-correr/walkingpad-r1-pro-cinta-plegable",
   },
   {
-    image: "/images/products/lullax-neo36-mancuernas-ajustables.jpg",
+    image: "/images/products/powerblock-sport-24-mancuernas-ajustables.jpg",
     badge: "Ajustables",
-    title: "Lullax Neo36 Mancuernas Ajustables",
-    subtitle: "Set de mancuernas ajustables para entrenar con múltiples pesos",
-    href: "/tienda/pesas-mancuernas/lullax-neo36-mancuernas-ajustables",
+    title: "PowerBlock Sport 24 Mancuernas Ajustables",
+    subtitle: "De 2,3 a 11 kg por unidad: 9 pesos en el espacio de un par",
+    href: "/tienda/pesas-mancuernas/powerblock-sport-24-mancuernas-ajustables",
   },
   {
     image: "/images/products/la-mente-es-maravillosa-esterilla-tpe.jpg",

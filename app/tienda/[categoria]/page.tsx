@@ -131,7 +131,7 @@ export default async function CategoryPage({ params }: Props) {
               <nav className="bg-white border border-t-0 border-gray-200 rounded-b-lg overflow-hidden">
                 {categories.map((catItem) => {
                   const isActive = catItem.slug === categoria;
-                  const count = products.filter((p) => p.categorySlug === catItem.slug).length;
+                  const count = products.filter((p) => p.categorySlug === catItem.slug && !p.unavailable).length;
                   return (
                     <Link
                       key={catItem.slug}

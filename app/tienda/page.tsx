@@ -33,7 +33,7 @@ export default function TiendaPage() {
       <div className="md:hidden bg-white border-b border-gray-200 px-4 py-3 overflow-x-auto">
         <div className="flex gap-2 min-w-max">
           {categories.map((cat) => {
-            const count = products.filter((p) => p.categorySlug === cat.slug).length;
+            const count = products.filter((p) => p.categorySlug === cat.slug && !p.unavailable).length;
             return (
               <Link
                 key={cat.slug}
@@ -59,7 +59,7 @@ export default function TiendaPage() {
               </div>
               <nav className="bg-white border border-t-0 border-gray-200 rounded-b-lg overflow-hidden">
                 {categories.map((cat) => {
-                  const count = products.filter((p) => p.categorySlug === cat.slug).length;
+                  const count = products.filter((p) => p.categorySlug === cat.slug && !p.unavailable).length;
                   return (
                     <Link
                       key={cat.slug}
