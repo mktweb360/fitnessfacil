@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug } from "@/data/products";
@@ -28,6 +29,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Enlaces internos en bloques de texto: la sintaxis [texto](/ruta) se convierte en <Link>.
+// Solo rutas internas (empiezan por "/"); los artículos que no la usan se pintan igual que antes.
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+function richText(text: string): ReactNode {
+  const out: ReactNode[] = [];
+  let last = 0;
+  for (const m of text.matchAll(INTERNAL_LINK)) {
+    const i = m.index ?? 0;
+    if (i > last) out.push(text.slice(last, i));
+    out.push(
+      <Link key={i} href={m[2]} className="text-green-700 hover:text-green-900 underline underline-offset-2">
+        {m[1]}
+      </Link>,
+    );
+    last = i + m[0].length;
+  }
+  if (out.length === 0) return text;
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
 // productSlug (opcional) engancha un CTA de afiliado al final de la sección.
 type ArticleSection = { heading: string; body: string; productSlug?: string };
 
@@ -43,6 +65,128 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "black-friday-fitness-en-casa": {
+    intro: "El Black Friday cae este año el viernes 27 de noviembre de 2026 y el Cyber Monday, el lunes 30. Para quien entrena en casa es un buen momento para hacer la compra grande que lleva meses posponiendo (una cinta, una bicicleta, unas mancuernas ajustables) o para reponer los suplementos que ya toma. También es el momento en que más fácil resulta comprar algo que acaba sin usarse. En esta guía no vas a encontrar porcentajes ni precios: cambian cada día y lo que cuenta es el que veas en Amazon al comprar. Lo que sí encontrarás es qué material merece la pena, qué datos revisar en cada ficha y qué compras conviene evitar.",
+    sections: [
+      {
+        heading: "Cómo aprovechar el Black Friday sin comprar de más",
+        body: "Haz la lista antes de que empiecen las ofertas, no durante. Decide qué necesitas según cómo entrenas y cuánto espacio tienes, y busca en la ficha los datos que importan: carga máxima, velocidad, rango de peso, medidas plegado. Un descuento alto no convierte en buena compra un producto que no encaja contigo, y un porcentaje llamativo no siempre significa un buen precio: si puedes, sigue el producto unas semanas antes para saber en qué rango se mueve. Revisa también quién lo vende y lo envía y las condiciones de devolución, sobre todo en material voluminoso. Si dudas entre categorías, empieza por [nuestro catálogo de material para entrenar en casa](/tienda), ordenado por tipo.",
+      },
+      {
+        heading: "Cintas de correr y de andar: primero decide si vas a correr",
+        body: "Es la compra en la que más se acierta o se falla, porque una cinta de andar y una de correr no son intercambiables. Si quieres caminar mientras trabajas o sumar pasos en casa, una cinta de andar como la WalkingPad Z1 (de 1 a 6 km/h, plegado de 180°, menos de 45 dB y llega montada) o la MERACH T21 (de 2 a 6 km/h, 13 kg de peso y hasta 120 kg de usuario) cubren ese uso y ocupan poco. Si vas a correr de verdad, necesitas más velocidad y más banda: la TOPUTURE plegable llega a 16 km/h, tiene inclinación de hasta el 12 %, motor de 2,5 CV, banda de 104 × 42 cm y soporta 130 kg. Antes de comprar, compara la carga máxima con tu peso dejando margen y mide el sitio donde la vas a usar y donde la vas a guardar. Tienes más detalle en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025) y en [la de cintas de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio).",
+        productSlug: "toputure-cinta-correr-plegable-12-inclinacion-16kmh",
+      },
+      {
+        heading: "Bicicletas estáticas: plegable o con volante pesado",
+        body: "Aquí la decisión es entre espacio y sensación de pedaleo. Una bicicleta plegable tipo X-Bike como la VANNECT (16 niveles de resistencia magnética, pantalla LCD con pulso y soporte para tablet) se guarda en un rincón y es suficiente para cardio suave o moderado. Si vas a hacer sesiones largas o clases tipo spinning, una bicicleta con volante pesado da un pedaleo más continuo: la Toputure con volante de 15 kg, transmisión por correa y compatibilidad con Zwift, Kinomap y FitShow, o la MERACH con volante de hierro fundido, app propia gratuita y ajuste para alturas de 1,50 a 1,95 m. Comprueba siempre el rango de altura de usuario y si llega montada o hay que montarla. Más criterios en [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025) y en [ergómetro frente a bicicleta estática](/blog/ergometro-vs-bicicleta-estatica).",
+        productSlug: "toputure-bicicleta-estatica-volante-15kg-app",
+      },
+      {
+        heading: "Mancuernas ajustables y banco: la compra de fuerza con más recorrido",
+        body: "Unas mancuernas ajustables sustituyen a varios pares fijos y son de lo que más uso da en casa, por eso suelen ser una compra sensata en estas fechas. Fíjate en el rango por unidad y en cómo se cambia el peso: las JUPPLIES van de 2 a 24 kg por unidad en 15 niveles con selector rápido y bloqueo de seguridad; las PowerBlock Sport 24, de 2,3 a 11 kg por unidad en 9 ajustes y estructura de acero; y el kit Yaheetech, con 16 discos y 2 barras cortas, llega a 30 kg en total con el formato clásico de rosca. Si ya tienes mancuernas, el siguiente paso lógico es un banco: el PASYOU es plegable, tiene 10 posiciones de respaldo y pesa 11 kg. Para elegir bien, consulta [mancuernas ajustables o fijas](/blog/mancuernas-ajustables-vs-fijas), [los tipos de pesas](/blog/tipos-de-pesas-cual-elegir-casa-gimnasio) y [el equipamiento mínimo para fuerza en casa](/blog/entrenamiento-fuerza-casa-equipamiento-minimo).",
+        productSlug: "jupplies-mancuernas-15-niveles-24kg",
+      },
+      {
+        heading: "Suplementos: reponer lo que ya tomas, no probar a lo grande",
+        body: "Si ya tomas creatina o proteína y te sienta bien, el Black Friday es buen momento para reponer en formato grande. Si nunca la has probado, empieza por un formato pequeño. En creatina, busca monohidrato y mira la dosis por servicio: la HSN 200 mesh (500 g, 3 g de dosis diaria, sin aditivos y fabricada en España) o la Optimum Nutrition micronizada (634 g, 3,4 g por cacito, sin sabor). En proteína, la HSN Whey Protein Isolate de 2 kg es una aislada sin sabor con un 93 % de proteína y menos lactosa que una concentrada. Antes de comprar en cantidad, revisa la fecha de consumo preferente al recibirlo. Si tienes dudas sobre cuánto necesitas, lee [cuánta proteína tomar al día](/blog/cuanta-proteina-al-dia-segun-objetivo) y [la guía de creatina monohidrato](/blog/creatina-monohidrato-guia-completa), y consulta con un profesional sanitario si tienes alguna condición médica.",
+        productSlug: "hsn-creatina-monohidrato-200-mesh-500g",
+      },
+      {
+        heading: "Qué conviene evitar estos días",
+        body: "Cintas y bicicletas sin carga máxima ni medidas claras en la ficha. Packs con decenas de accesorios que no vas a usar, cuando lo que necesitas es una sola pieza buena. Máquinas grandes compradas sin medir el espacio ni pensar dónde se guardarán. Suplementos con mezclas de muchos ingredientes comprados por impulso, en lugar de productos de un solo ingrediente que ya conoces. Y, en general, cualquier compra cuyo único argumento sea el porcentaje de descuento. Si lo que quieres es empezar con poco, unas [bandas de resistencia](/tienda/bandas-resistencia) y una [esterilla](/tienda/esterillas-yoga) dan para mucho antes de pensar en máquinas.",
+      },
+      {
+        heading: "Del Cyber Monday a Navidad y Reyes",
+        body: "El Cyber Monday cierra la semana el 30 de noviembre, y a partir de ahí empieza la carrera de los regalos. Si vas a comprar material para regalar, adelantarlo a estas fechas te deja margen de envío y de cambio. Hemos preparado [una guía de regalos para quien entrena en casa](/blog/regalos-fitness-navidad) ordenada por presupuesto y por nivel, con ideas desde pequeños accesorios de recuperación hasta cintas y bicicletas.",
+      },
+    ],
+    comparisonHeading: "Qué revisar en la ficha antes de comprar",
+    comparison: {
+      headers: ["Material", "Dato clave", "Por qué importa", "Ejemplo del catálogo"],
+      rows: [
+        ["Cinta de andar", "Velocidad máxima y carga máxima", "Una cinta de 6 km/h no sirve para correr", "WalkingPad Z1 (1-6 km/h, llega montada)"],
+        ["Cinta de correr", "Velocidad, medidas de la banda y motor", "Determinan si podrás correr con comodidad", "TOPUTURE plegable (hasta 16 km/h, banda de 104 × 42 cm)"],
+        ["Bicicleta estática", "Rango de altura de usuario y tipo de volante", "Una mala postura acaba con las ganas de pedalear", "Toputure con volante de 15 kg (158-195 cm)"],
+        ["Mancuernas ajustables", "Rango por unidad y sistema de cambio", "Marcan cuánto tiempo te servirán al progresar", "JUPPLIES (2-24 kg por unidad, 15 niveles)"],
+        ["Banco", "Posiciones del respaldo y si se pliega", "Más posiciones, más ejercicios posibles", "PASYOU (10 posiciones, plegable)"],
+        ["Creatina", "Tipo (monohidrato) y dosis por servicio", "Permite saber cuánto dura el envase", "HSN 200 mesh (500 g, 3 g diarios)"],
+      ],
+    },
+    conclusion: "La mejor compra de Black Friday para entrenar en casa es la que ya tenías decidida antes de ver la oferta: una cinta o una bicicleta elegidas por tus medidas y tu uso, unas mancuernas ajustables con un rango que te dure, o la reposición de un suplemento que ya tomas. Revisa la ficha, comprueba el precio actual en Amazon y no te dejes llevar por el porcentaje. Si buscas algo para regalar, sigue con [nuestra guía de regalos de Navidad y Reyes](/blog/regalos-fitness-navidad).",
+    conclusionHeading: "Nuestra recomendación para este Black Friday",
+    faqsHeading: "Preguntas frecuentes sobre el Black Friday de material fitness",
+    faqs: [
+      { q: "¿Cuándo es el Black Friday 2026?", a: "El Black Friday es el viernes 27 de noviembre de 2026 y el Cyber Monday, el lunes 30 de noviembre. Conviene revisar también los días previos, porque muchas tiendas no limitan sus promociones a un solo día." },
+      { q: "¿Por qué no indicáis precios ni descuentos?", a: "Porque cambian constantemente y cualquier cifra que publiquemos podría estar desactualizada al leerla. El precio válido es el que aparece en Amazon en el momento de la compra." },
+      { q: "¿Compro la cinta de correr ahora o espero a enero?", a: "Si ya sabes qué modelo encaja con tu espacio y tu uso, y el precio te parece razonable, no hay motivo para esperar. Lo importante es que la cinta tenga la velocidad y la carga máxima que necesitas, no la fecha en que la compras." },
+      { q: "¿Merece la pena comprar creatina en formato grande?", a: "Solo si ya la tomas y te sienta bien. Si es la primera vez, empieza con un envase pequeño. Ante cualquier duda de salud, consulta con un profesional sanitario." },
+      { q: "¿Qué hago si el producto que quería no está disponible?", a: "Revisa la categoría correspondiente de nuestra tienda: en cada una hay varias alternativas con datos comparables, como la carga máxima, el rango de peso o las medidas." },
+    ],
+  },
+  "regalos-fitness-navidad": {
+    intro: "Regalar material de deporte a alguien que entrena en casa parece fácil hasta que toca elegir: no sabes qué tiene, cuánto espacio le queda ni si de verdad lo va a usar. Esta guía reúne ideas para Navidad (25 de diciembre) y Reyes (6 de enero) ordenadas de dos formas: por presupuesto, del detalle pequeño al regalo grande, y por perfil, según la persona empiece, entrene fuerza, practique yoga o pilates o haga cardio. Todos los productos están en nuestro catálogo con su ficha y su enlace a Amazon.",
+    sections: [
+      {
+        heading: "Antes de elegir: tres preguntas que evitan un regalo inútil",
+        body: "Primero, el espacio: una cinta o un banco necesitan sitio para usarse y para guardarse; una banda elástica, no. Segundo, qué entrena: quien hace yoga no necesita mancuernas, y quien entrena fuerza ya suele tener esterilla. Tercero, su nivel: a quien empieza le conviene material versátil y ligero; a quien lleva tiempo, algo que le permita progresar. Si tienes dudas, los accesorios de recuperación y las bandas casi nunca sobran. Para orientarte por tipo de material, echa un vistazo a [la tienda por categorías](/tienda) o a [la guía de tipos de pesas](/blog/tipos-de-pesas-cual-elegir-casa-gimnasio).",
+      },
+      {
+        heading: "Detalles pequeños que sí se usan",
+        body: "Para un amigo invisible o un detalle, lo más seguro es material de recuperación y accesorios. El set de 2 pelotas de masaje Acupoint, del tamaño de una pelota de lacrosse, llega a zonas donde un rodillo no es práctico: planta del pie, glúteo medio y la zona entre los omóplatos. Los guantes flintronic tienen muñequera ajustable con velcro y se venden en varias tallas (M, L, NEW L y XL), así que conviene saber la talla. Y las mini bandas de tela PORTENTUM, un set de 3 niveles de resistencia, sirven para activar cadera y glúteo antes de entrenar. Si quieres saber cómo se usan, tienes [la guía del rodillo de espuma](/blog/rodillo-espuma-foam-roller-como-usar) y [las bandas de resistencia del catálogo](/tienda/bandas-resistencia).",
+        productSlug: "acupoint-pelotas-masaje-miofascial-set-2",
+      },
+      {
+        heading: "Para quien empieza: material versátil que ocupa poco",
+        body: "Quien está empezando a entrenar en casa agradece material que sirva para muchos ejercicios. El set de 10 gomas PORTENTUM incluye asas, anclaje de puerta y bolsa, con 4 niveles de resistencia, y permite imitar ejercicios de polea de gimnasio. La esterilla YOGATI, de 6 mm, lleva líneas de alineación impresas que ayudan a colocar bien el cuerpo y se guarda con su correa. Y una kettlebell de 8 kg como la de Amazon Basics, de hierro fundido de una pieza con asa ancha, es un buen punto de partida. Para sacarles partido, lee [la guía de bandas elásticas para musculación](/blog/bandas-elasticas-musculacion-guia) y [qué peso de kettlebell elegir para empezar](/blog/kettlebell-para-empezar-peso).",
+        productSlug: "portentum-gomas-set-10-anclaje-puerta",
+      },
+      {
+        heading: "Para quien entrena fuerza",
+        body: "Si ya entrena con pesas, el regalo con más recorrido son unas mancuernas ajustables: las JUPPLIES van de 2 a 24 kg por unidad en 15 niveles, con selector rápido y bloqueo de seguridad. Si ya tiene mancuernas, el banco PASYOU, plegable y con 10 posiciones de respaldo, multiplica los ejercicios posibles. Para quien quiere hacer dominadas, la barra AthleticPro se cuelga del marco de la puerta sin taladrar, pero solo sirve para marcos de 70 a 92 cm: mídelo antes. Como regalo medio, la kettlebell PROIRON de 12 kg está forrada de neopreno, hace menos ruido y protege el suelo; y el chaleco lastrado PROIRON permite añadir hasta 10 kg con bolsitas extraíbles. Más contexto en [si merecen la pena las mancuernas ajustables](/blog/mancuernas-ajustables-merece-pena) y en [cómo conseguir la primera dominada](/blog/primera-dominada-banda-asistencia-progresion).",
+        productSlug: "jupplies-mancuernas-15-niveles-24kg",
+      },
+      {
+        heading: "Para yoga, pilates y movilidad",
+        body: "Una buena esterilla es el regalo clásico, pero conviene elegir según el uso. Para pilates y ejercicios de suelo, la ProsourceFit de 13 mm de espuma NBR protege rodillas y columna. Para yoga, la DIVASYA de corcho natural y caucho, sin PVC ni TPE, tiene formato extra ancho de 183 × 66 cm y un agarre que mejora con el sudor. Y para completar, el rodillo BODYMATE de 45 × 15 cm y dureza media es una opción cómoda para iniciarse en el automasaje e incluye una guía de ejercicios en PDF. Compara modelos en [la guía de la mejor esterilla de yoga](/blog/mejor-esterilla-yoga-casa-2025) y en [la guía de pilates en casa para principiantes](/blog/pilates-casa-principiantes-guia).",
+        productSlug: "divasya-esterilla-yoga-corcho-caucho-natural",
+      },
+      {
+        heading: "Regalos grandes para hacer cardio en casa",
+        body: "Una cinta o una bicicleta son regalos para hacer en común o con la persona al tanto, nunca por sorpresa: ocupan espacio y hay que elegirlas por medidas. Para caminar en casa o bajo el escritorio, la WalkingPad Z1 (de 1 a 6 km/h, plegado de 180°, menos de 45 dB y mando a distancia) o la MERACH T21, más ligera (13 kg) y con hasta 120 kg de usuario. Para pedalear, la VANNECT plegable con 16 niveles de resistencia magnética ocupa muy poco guardada, y la Toputure con volante de 15 kg y compatibilidad con Zwift y Kinomap está pensada para sesiones más exigentes. Antes de decidir, revisa [las cintas de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio), [la guía de bicicletas estáticas](/blog/mejor-bicicleta-estatica-casa-2025) y las categorías de [cintas](/tienda/cintas-correr) y [bicicletas](/tienda/bicicletas-estaticas).",
+        productSlug: "walkingpad-z1-cinta-andar-plegable",
+      },
+      {
+        heading: "Suplementos: mejor no como regalo sorpresa",
+        body: "Proteínas y creatina pueden parecer un buen regalo para quien entrena, pero cada persona tiene sus preferencias, sus intolerancias y, a veces, indicaciones de su médico. Regálalos solo si sabes exactamente qué toma y en qué formato. Si es el caso, en [la sección de suplementos y proteínas](/tienda/suplementos-proteinas) encontrarás las referencias del catálogo, y en [la guía de creatina](/blog/creatina-monohidrato-guia-completa) cómo se diferencia cada formato.",
+      },
+      {
+        heading: "Cuándo comprar para Navidad y Reyes",
+        body: "Cuanto antes, mejor: el material voluminoso tarda más en llegar y, si hay que cambiar una talla o un peso, necesitas margen antes del 25 de diciembre o del 6 de enero. El Black Friday (27 de noviembre) y el Cyber Monday (30 de noviembre) son buenas fechas para adelantar los regalos; te contamos qué revisar en [nuestra guía de Black Friday para entrenar en casa](/blog/black-friday-fitness-en-casa). Comprueba el plazo de entrega y las condiciones de devolución en la página de cada producto antes de comprar.",
+      },
+    ],
+    comparisonHeading: "Ideas de regalo según el perfil y el presupuesto",
+    comparison: {
+      headers: ["Perfil", "Detalle", "Regalo medio", "Regalo grande"],
+      rows: [
+        ["Empieza desde cero", "Mini bandas de tela PORTENTUM", "Esterilla YOGATI o kettlebell Amazon Basics de 8 kg", "Set de 10 gomas PORTENTUM con anclaje de puerta"],
+        ["Entrena fuerza", "Guantes flintronic con muñequera", "Kettlebell PROIRON de 12 kg o chaleco lastrado", "Mancuernas JUPPLIES 2-24 kg o banco PASYOU"],
+        ["Quiere hacer dominadas", "Banda PULLUP & DIP de nivel medio", "Barra AthleticPro para marco de puerta", "Chaleco lastrado PROIRON, para cuando ya las hace"],
+        ["Yoga y pilates", "Pelotas de masaje Acupoint", "Rodillo BODYMATE de dureza media", "Esterilla DIVASYA de corcho o ProsourceFit de 13 mm"],
+        ["Cardio en casa", "Rodillo TriggerPoint GRID de 33 cm", "Bicicleta plegable VANNECT", "WalkingPad Z1 o bicicleta Toputure con volante de 15 kg"],
+      ],
+    },
+    conclusion: "Si no sabes qué material tiene, acierta con algo de recuperación o unas bandas. Si conoces su forma de entrenar, elige por perfil: mancuernas ajustables o banco para fuerza, una buena esterilla para yoga y pilates, y deja las cintas y bicicletas para decidirlas con la persona. Compra con margen, revisa la talla, el peso o las medidas, y consulta el precio actual en Amazon. Si quieres adelantar las compras, empieza por [la guía de Black Friday](/blog/black-friday-fitness-en-casa) o recorre [la tienda por categorías](/tienda).",
+    conclusionHeading: "Nuestra recomendación para acertar con el regalo",
+    faqsHeading: "Preguntas frecuentes sobre regalos para quien entrena en casa",
+    faqs: [
+      { q: "¿Qué regalar a alguien que entrena en casa si no sé qué material tiene?", a: "Material de recuperación, como unas pelotas de masaje o un rodillo de espuma, o un set de bandas elásticas. Ocupan poco, sirven para casi cualquier forma de entrenar y es poco probable que los tenga repetidos." },
+      { q: "¿Es buena idea regalar una cinta o una bicicleta estática por sorpresa?", a: "Mejor no. Necesitan espacio para usarse y guardarse, y hay que elegirlas por la carga máxima, la velocidad o el rango de altura de usuario. Si quieres regalar una, decide el modelo con la persona." },
+      { q: "¿Qué peso de kettlebell regalar?", a: "Como orientación general, 8 kg es un peso habitual para empezar y 12 kg para quien ya entrena con regularidad. Si conoces su nivel, ajústalo a lo que ya mueve." },
+      { q: "¿Cuándo conviene comprar los regalos de Reyes?", a: "Con margen suficiente para el envío y un posible cambio antes del 6 de enero. Adelantarlos al Black Friday (27 de noviembre) o al Cyber Monday (30 de noviembre) es una buena opción." },
+      { q: "¿Se pueden regalar suplementos?", a: "Solo si sabes exactamente qué toma y en qué formato. Cada persona tiene preferencias e intolerancias distintas, y ante cualquier condición de salud debe consultarlo con un profesional sanitario." },
+    ],
+  },
   "tipos-de-pesas-cual-elegir-casa-gimnasio": {
     intro: "Cuando alguien busca «tipos de pesas» suele estar a punto de comprar su primer material o de montar un rincón de fuerza en casa. Hay muchas opciones y no todas encajan en un piso: unas ocupan poco y sirven para casi todo, otras exigen espacio o un banco. Esta guía repasa los tipos principales, qué permite cada uno y cuál tiene más sentido según tu objetivo, tu espacio y tu presupuesto.",
     sections: [
@@ -110,12 +254,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "WalkingPad R1 Pro: la más asequible",
-        body: "La R1 Pro plantea un enfoque 2 en 1: con la barandilla plegada funciona como cinta de andar bajo el escritorio hasta 6 km/h, y desplegada como cinta de correr hasta 10 km/h. Su motor de 918 W mueve bien ambos modos. La diferencia práctica más útil frente a la R2 es que no requiere montaje: llega lista para usar, se pliega 180° y trae ruedas para moverla. A favor: 50 euros menos, el doble uso andar/correr y la ausencia de montaje. En contra: el tope de 10 km/h la deja corta si tu plan es correr series de velocidad, y su ficha no publica el dato de carga máxima, así que conviene consultarlo antes de comprar si superas los 100 kg.",
+        body: "La R1 Pro plantea un enfoque 2 en 1: con la barandilla plegada funciona como cinta de andar bajo el escritorio hasta 6 km/h, y desplegada como cinta de correr hasta 10 km/h. Su motor de 918 W mueve bien ambos modos. La diferencia práctica más útil frente a la R2 es que no requiere montaje: llega lista para usar, se pliega 180° y trae ruedas para moverla. A favor: un precio más contenido, el doble uso andar/correr y la ausencia de montaje. En contra: el tope de 10 km/h la deja corta si tu plan es correr series de velocidad, y su ficha no publica el dato de carga máxima, así que conviene consultarlo antes de comprar si superas los 100 kg.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si tu objetivo es caminar: sumar pasos mientras teletrabajas o hacer 30-40 minutos a ritmo tranquilo, la R1 Pro cubre todo lo que necesitas y ahorra 50 euros. Si tu objetivo es correr, aunque sea de forma suave, la diferencia entre 10 y 12 km/h es más relevante de lo que parece: a 10 km/h ya vas al límite del aparato, y trabajar constantemente en el tope de una máquina acorta su vida útil. En ese caso, la R2 es la compra correcta. Si el factor decisivo es el espacio o el ruido, ambas cumplen, pero el motor brushless de la R2 tiene ventaja objetiva. Y si nunca has usado una cinta, empieza por la R1 Pro: sin montaje y con menos inversión, es la forma más barata de comprobar si el hábito se te queda.",
+        body: "Si tu objetivo es caminar: sumar pasos mientras teletrabajas o hacer 30-40 minutos a ritmo tranquilo, la R1 Pro cubre todo lo que necesitas y cuesta menos. Si tu objetivo es correr, aunque sea de forma suave, la diferencia entre 10 y 12 km/h es más relevante de lo que parece: a 10 km/h ya vas al límite del aparato, y trabajar constantemente en el tope de una máquina acorta su vida útil. En ese caso, la R2 es la compra correcta. Si el factor decisivo es el espacio o el ruido, ambas cumplen, pero el motor brushless de la R2 tiene ventaja objetiva. Y si nunca has usado una cinta, empieza por la R1 Pro: sin montaje y con menos inversión, es la forma más barata de comprobar si el hábito se te queda.",
       },
     ],
     comparison: {
@@ -127,12 +271,12 @@ const articleContent: Record<string, {
         ["Mejor para", "Correr suave y caminar", "Caminar y trotar con presupuesto ajustado"],
       ],
     },
-    conclusion: "Las dos son buenas cintas plegables y la elección se reduce a una pregunta: ¿vas a correr o vas a caminar? Para caminar y trotar ocasionalmente, la WalkingPad R1 Pro ofrece lo mismo por 50 euros menos y sin montaje. Para correr con regularidad, los 12 km/h y el motor brushless de la R2 justifican la diferencia. Ninguna de las dos sustituye a una cinta de gimnasio para entrenamientos exigentes, pero ambas cumplen de sobra el objetivo de moverse más en casa.",
+    conclusion: "Las dos son buenas cintas plegables y la elección se reduce a una pregunta: ¿vas a correr o vas a caminar? Para caminar y trotar ocasionalmente, la WalkingPad R1 Pro ofrece lo mismo por menos dinero y sin montaje. Para correr con regularidad, los 12 km/h y el motor brushless de la R2 justifican la diferencia. Ninguna de las dos sustituye a una cinta de gimnasio para entrenamientos exigentes, pero ambas cumplen de sobra el objetivo de moverse más en casa.",
     faqs: [
       { q: "¿Cuánto ocupa plegada una WalkingPad?", a: "La R2 declara unos 0,2 m² en posición guardada gracias a su sistema de plegado patentado, lo que permite apoyarla contra una pared o deslizarla bajo un mueble. La R1 Pro se pliega 180° y trae ruedas de transporte. En ambos casos, ten en cuenta que el espacio de almacenamiento no es el mismo que el espacio de uso: para entrenar con seguridad necesitas al menos un metro libre por detrás." },
       { q: "¿Aguantan personas de más de 100 kg?", a: "La WalkingPad R2 declara una carga máxima de 110 kg, así que sí dentro de ese límite. La ficha de la R1 Pro no publica el dato de carga máxima, por lo que conviene consultarlo con el fabricante antes de comprar si ese es tu caso. Como norma general, usar una cinta cerca de su límite de carga acelera el desgaste del motor y de la banda." },
       { q: "¿Se puede usar en un piso de madera?", a: "Sí, pero conviene poner una alfombrilla de amortiguación debajo. Protege el parquet de las marcas de apoyo y, sobre todo, reduce la vibración que se transmite a la estructura del edificio. El ruido que molesta a los vecinos de abajo casi nunca es el motor: son las pisadas. Una alfombrilla de 6-8 mm reduce notablemente esa transmisión." },
-      { q: "¿Cuánto consume en electricidad?", a: "Depende de la velocidad y del peso del usuario, porque el motor solo consume la potencia que necesita. La R1 Pro tiene un motor de 918 W, que es su consumo máximo teórico: en uso real, caminando a ritmo suave, el consumo es bastante menor. A modo orientativo, incluso funcionando cerca de su máximo durante una hora diaria, el coste mensual queda en el entorno de unos pocos euros con las tarifas domésticas habituales." },
+      { q: "¿Cuánto consume en electricidad?", a: "Depende de la velocidad y del peso del usuario, porque el motor solo consume la potencia que necesita. La R1 Pro tiene un motor de 918 W, que es su consumo máximo teórico: en uso real, caminando a ritmo suave, el consumo es bastante menor. A modo orientativo, incluso funcionando cerca de su máximo durante una hora diaria, el gasto eléctrico mensual es pequeño con las tarifas domésticas habituales." },
     ],
   },
 
@@ -146,17 +290,17 @@ const articleContent: Record<string, {
       },
       {
         heading: "Sportstech X150: para espacios pequeños",
-        body: "El X150 es un ergómetro plegable, y ahí está toda su razón de ser: se guarda cuando no se usa. Si vives en un piso donde una bicicleta fija permanente no es viable, esta es la categoría que necesitas. Ofrece 8 niveles de resistencia magnética, suficientes para progresar durante bastante tiempo en un uso doméstico, con asiento ajustable y funcionamiento silencioso. Sportstech es una marca alemana con recorrido en equipamiento doméstico, lo que aporta cierta garantía de repuestos y soporte. A favor: se pliega, es silenciosa y cuesta 35 euros menos que la MERACH. En contra: no tiene conectividad con app y los 8 niveles de resistencia pueden quedarse cortos si progresas mucho.",
+        body: "El X150 es un ergómetro plegable, y ahí está toda su razón de ser: se guarda cuando no se usa. Si vives en un piso donde una bicicleta fija permanente no es viable, esta es la categoría que necesitas. Ofrece 8 niveles de resistencia magnética, suficientes para progresar durante bastante tiempo en un uso doméstico, con asiento ajustable y funcionamiento silencioso. Sportstech es una marca alemana con recorrido en equipamiento doméstico, lo que aporta cierta garantía de repuestos y soporte. A favor: se pliega, es silenciosa y es algo más económica que la MERACH. En contra: no tiene conectividad con app y los 8 niveles de resistencia pueden quedarse cortos si progresas mucho.",
         productSlug: "sportstech-x150-ergometro-plegable",
       },
       {
         heading: "Sportstech DFX70: para trabajar y pedalear",
-        body: "La DFX70 no es una bicicleta estática en sentido estricto: es un pedalier, un bloque de pedales que se coloca bajo el escritorio o delante de cualquier silla. Su propósito no es sustituir a una sesión de cardio, sino combatir el sedentarismo de ocho horas sentado. Su ángulo de pedaleo permite usarla con una mesa normal, sin necesidad de escritorio elevable, y la transmisión por correa es muy silenciosa, lo que la hace viable incluso en videollamada. Trae 8 niveles de resistencia magnética, asa integrada y ruedas. A favor: 119 euros, ocupa nada y se usa mientras haces otra cosa. En contra: solo trabaja el tren inferior y no permite entrenamientos de intensidad real.",
+        body: "La DFX70 no es una bicicleta estática en sentido estricto: es un pedalier, un bloque de pedales que se coloca bajo el escritorio o delante de cualquier silla. Su propósito no es sustituir a una sesión de cardio, sino combatir el sedentarismo de ocho horas sentado. Su ángulo de pedaleo permite usarla con una mesa normal, sin necesidad de escritorio elevable, y la transmisión por correa es muy silenciosa, lo que la hace viable incluso en videollamada. Trae 8 niveles de resistencia magnética, asa integrada y ruedas. A favor: es de gama de entrada, ocupa muy poco y se usa mientras haces otra cosa. En contra: solo trabaja el tren inferior y no permite entrenamientos de intensidad real.",
         productSlug: "sportstech-dfx70-mini-bicicleta-escritorio",
       },
       {
         heading: "¿Cuál es la tuya?",
-        body: "Si eres principiante y tu objetivo es perder grasa o mejorar el fondo con sesiones de 30-45 minutos varias veces por semana, la MERACH es la elección: es la única de las tres que permite entrenar con intensidad progresiva y registrar la evolución. Si tu limitación principal es el espacio, y guardar el aparato entre sesión y sesión es condición para que el plan funcione, el ergómetro plegable X150 es la respuesta, aceptando que renuncias a la conectividad. Y si tu problema no es entrenar sino pasar demasiadas horas sentado, la DFX70 resuelve un problema distinto y no compite con las otras dos: por 119 euros añade movimiento a la jornada laboral, pero no esperes de ella una sesión de cardio. Un error frecuente es comprar el pedalier esperando resultados de bicicleta estática; son categorías diferentes.",
+        body: "Si eres principiante y tu objetivo es perder grasa o mejorar el fondo con sesiones de 30-45 minutos varias veces por semana, la MERACH es la elección: es la única de las tres que permite entrenar con intensidad progresiva y registrar la evolución. Si tu limitación principal es el espacio, y guardar el aparato entre sesión y sesión es condición para que el plan funcione, el ergómetro plegable X150 es la respuesta, aceptando que renuncias a la conectividad. Y si tu problema no es entrenar sino pasar demasiadas horas sentado, la DFX70 resuelve un problema distinto y no compite con las otras dos: con una inversión pequeña añade movimiento a la jornada laboral, pero no esperes de ella una sesión de cardio. Un error frecuente es comprar el pedalier esperando resultados de bicicleta estática; son categorías diferentes.",
       },
     ],
     comparison: {
@@ -191,7 +335,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La esterilla: el único extra que notarás desde el primer día",
-        body: "Si vas a comprar una sola cosa antes que ninguna otra, que sea una esterilla. Las planchas, los abdominales, el puente de glúteo y cualquier trabajo de suelo sobre parquet o baldosa son incómodos hasta el punto de que se acaban evitando, y un ejercicio que se evita es un ejercicio que no existe en tu rutina. Una esterilla de TPE de 6 mm resuelve el problema por menos de 30 euros, y el TPE tiene la ventaja de no llevar PVC ni látex y pesar poco. Si además la vas a mover por casa o llevarla fuera, valora que incluya bolsa y correa de transporte: parece un detalle menor y determina si acaba guardada en un armario o siempre a mano.",
+        body: "Si vas a comprar una sola cosa antes que ninguna otra, que sea una esterilla. Las planchas, los abdominales, el puente de glúteo y cualquier trabajo de suelo sobre parquet o baldosa son incómodos hasta el punto de que se acaban evitando, y un ejercicio que se evita es un ejercicio que no existe en tu rutina. Una esterilla de TPE de 6 mm resuelve el problema con una inversión pequeña, y el TPE tiene la ventaja de no llevar PVC ni látex y pesar poco. Si además la vas a mover por casa o llevarla fuera, valora que incluya bolsa y correa de transporte: parece un detalle menor y determina si acaba guardada en un armario o siempre a mano.",
         productSlug: "toplus-esterilla-yoga-tpe-6mm",
       },
     ],
@@ -206,7 +350,7 @@ const articleContent: Record<string, {
         ["Días 6 y 7 — Descanso", "Recuperación completa", "—"],
       ],
     },
-    conclusion: "Esta rutina cubre los cinco patrones de movimiento fundamentales (sentadilla, empuje, tirón, bisagra de cadera y core) sin necesitar nada más que suelo y una silla. Mantenla cuatro u ocho semanas aplicando progresión real y notarás cambios claros en fuerza y resistencia. Cuando el peso corporal deje de suponer un reto, unas bandas elásticas por poco más de 12 euros multiplican las posibilidades sin ocupar espacio. Y si vas a entrenar en suelo duro, la esterilla es la primera compra, no la última.",
+    conclusion: "Esta rutina cubre los cinco patrones de movimiento fundamentales (sentadilla, empuje, tirón, bisagra de cadera y core) sin necesitar nada más que suelo y una silla. Mantenla cuatro u ocho semanas aplicando progresión real y notarás cambios claros en fuerza y resistencia. Cuando el peso corporal deje de suponer un reto, unas bandas elásticas, una de las compras más económicas, multiplican las posibilidades sin ocupar espacio. Y si vas a entrenar en suelo duro, la esterilla es la primera compra, no la última.",
     faqs: [
       { q: "¿Cuántas veces a la semana entrenar en casa sin equipamiento?", a: "Entre tres y cinco sesiones semanales es el rango donde está el equilibrio para la mayoría de personas. Menos de tres hace difícil consolidar el hábito y el estímulo se diluye; más de cinco sin experiencia previa suele llevar a fatiga acumulada y abandono. La rutina de este artículo propone cuatro días de trabajo, uno de descanso activo y dos de descanso completo, que es una distribución sostenible para empezar." },
       { q: "¿Se puede ganar músculo sin pesas?", a: "Sí, sobre todo en los primeros meses, cuando el cuerpo responde con rapidez a cualquier estímulo nuevo. La hipertrofia depende de tensión mecánica, volumen y progresión, y el peso corporal puede aportar los tres si se manejan bien las variantes y las repeticiones. El límite aparece más adelante: llega un punto en el que resulta difícil seguir aumentando la dificultad solo con el propio cuerpo, y ahí la resistencia externa (bandas o mancuernas) pasa de opcional a necesaria." },
@@ -224,21 +368,21 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cuándo NO merece la pena",
-        body: "También hay casos claros en contra. Si vas a usar siempre el mismo peso, para un circuito fijo o para rehabilitación, estás pagando un mecanismo que no aprovechas: un par fijo cuesta una fracción. Si tu entrenamiento es funcional, con swings, cargadas o movimientos balísticos, las ajustables no son la herramienta: no se pueden soltar contra el suelo sin dañar el mecanismo y su forma no acompaña esos gestos; ahí la kettlebell es superior. Y si tu presupuesto está por debajo de los 60 euros, la comparación ni siquiera se plantea: es mejor un par de mancuernas fijas de calidad que un ajustable barato con un sistema de bloqueo en el que no confiarías con carga alta sobre la cara.",
+        body: "También hay casos claros en contra. Si vas a usar siempre el mismo peso, para un circuito fijo o para rehabilitación, estás pagando un mecanismo que no aprovechas: un par fijo cuesta una fracción. Si tu entrenamiento es funcional, con swings, cargadas o movimientos balísticos, las ajustables no son la herramienta: no se pueden soltar contra el suelo sin dañar el mecanismo y su forma no acompaña esos gestos; ahí la kettlebell es superior. Y si tu presupuesto es ajustado, la comparación ni siquiera se plantea: es mejor un par de mancuernas fijas de calidad que un ajustable barato con un sistema de bloqueo en el que no confiarías con carga alta sobre la cara.",
       },
       {
         heading: "LULLAX NEO36: para quien quiere crecer a largo plazo",
-        body: "Son las ajustables premium del catálogo y su planteamiento va más allá del rango de peso. Cubren de 2,5 a 36 kg por mancuerna en 14 posiciones, de modo que el par equivale a quince juegos de mancuernas tradicionales. El detalle que las diferencia del resto: al seleccionar un peso inferior al máximo, la mancuerna reduce su longitud física, lo que mejora la maniobrabilidad en ejercicios de brazo donde una mancuerna larga estorba. Incluyen base de almacenamiento. A favor: 36 kg por mano dan margen de progresión para años, el cambio de peso es rápido y la construcción es sólida. En contra: 349 euros son una barrera de entrada real, y para un usuario avanzado con años de fuerza acumulados, 36 kg pueden acabar quedándose cortos en tirón.",
+        body: "Son las ajustables premium del catálogo y su planteamiento va más allá del rango de peso. Cubren de 2,5 a 36 kg por mancuerna en 14 posiciones, de modo que el par equivale a quince juegos de mancuernas tradicionales. El detalle que las diferencia del resto: al seleccionar un peso inferior al máximo, la mancuerna reduce su longitud física, lo que mejora la maniobrabilidad en ejercicios de brazo donde una mancuerna larga estorba. Incluyen base de almacenamiento. A favor: 36 kg por mano dan margen de progresión para años, el cambio de peso es rápido y la construcción es sólida. En contra: su precio, de gama alta, es una barrera de entrada real, y para un usuario avanzado con años de fuerza acumulados, 36 kg pueden acabar quedándose cortos en tirón.",
         productSlug: "lullax-neo36-mancuernas-ajustables",
       },
       {
         heading: "ManiBoom 15 kg: la entrada equilibrada",
-        body: "Si las NEO36 son la inversión a largo plazo, las ManiBoom son la puerta de entrada sensata. Su diseño hexagonal evita que rueden por el suelo, un detalle práctico que se agradece cada sesión y que las mancuernas cilíndricas no resuelven. El sistema es de discos con cierre de seguridad, e incluyen una barra que permite unir ambas mancuernas y convertirlas en barra larga, ampliando el repertorio a press de banca, remo con barra o sentadilla frontal. Las empuñaduras son antideslizantes. A favor: por 59,99 euros cubren la mayoría de ejercicios de un principiante o intermedio, y el 2 en 1 con barra multiplica opciones. En contra: 15 kg por mancuerna es un techo que se alcanza antes de lo que parece en ejercicios de pierna y espalda, y cambiar discos manualmente lleva su tiempo.",
+        body: "Si las NEO36 son la inversión a largo plazo, las ManiBoom son la puerta de entrada sensata. Su diseño hexagonal evita que rueden por el suelo, un detalle práctico que se agradece cada sesión y que las mancuernas cilíndricas no resuelven. El sistema es de discos con cierre de seguridad, e incluyen una barra que permite unir ambas mancuernas y convertirlas en barra larga, ampliando el repertorio a press de banca, remo con barra o sentadilla frontal. Las empuñaduras son antideslizantes. A favor: con un precio de gama de entrada cubren la mayoría de ejercicios de un principiante o intermedio, y el 2 en 1 con barra multiplica opciones. En contra: 15 kg por mancuerna es un techo que se alcanza antes de lo que parece en ejercicios de pierna y espalda, y cambiar discos manualmente lleva su tiempo.",
         productSlug: "maniboom-mancuernas-hexagonales-15kg",
       },
       {
         heading: "JOWY Kettlebell 16 kg: para entrenamiento funcional",
-        body: "La kettlebell no compite con las mancuernas: hace otra cosa. Su centro de gravedad desplazado respecto al asa es justo lo que permite los movimientos balísticos (swing, snatch, clean) que ninguna mancuerna reproduce bien, y esos gestos trabajan la cadena posterior y el sistema cardiovascular a la vez. Los 16 kg son el peso de entrada estándar para hombres adultos y un peso de trabajo sólido para mujeres con algo de experiencia. Esta es de PVC relleno de arena de acero, lo que significa que no daña el suelo al apoyarla, una diferencia importante frente al hierro fundido si entrenas en casa sin plataforma. A favor: 34,99 euros, no marca el parquet y abre toda la familia de ejercicios funcionales. En contra: un solo peso fijo, y su volumen es mayor que el de una kettlebell de hierro equivalente.",
+        body: "La kettlebell no compite con las mancuernas: hace otra cosa. Su centro de gravedad desplazado respecto al asa es justo lo que permite los movimientos balísticos (swing, snatch, clean) que ninguna mancuerna reproduce bien, y esos gestos trabajan la cadena posterior y el sistema cardiovascular a la vez. Los 16 kg son el peso de entrada estándar para hombres adultos y un peso de trabajo sólido para mujeres con algo de experiencia. Esta es de PVC relleno de arena de acero, lo que significa que no daña el suelo al apoyarla, una diferencia importante frente al hierro fundido si entrenas en casa sin plataforma. A favor: precio de gama de entrada, no marca el parquet y abre toda la familia de ejercicios funcionales. En contra: un solo peso fijo, y su volumen es mayor que el de una kettlebell de hierro equivalente.",
         productSlug: "jowy-kettlebell-pvc-16kg",
       },
     ],
@@ -251,7 +395,7 @@ const articleContent: Record<string, {
         ["Para quién", "Progresión a años vista", "Empezar sin gastar de más", "Entrenamiento funcional y cardio"],
       ],
     },
-    conclusion: "Si vas a entrenar de forma sostenida durante años y el espacio manda, las LULLAX NEO36 son la compra que no repetirás: 36 kg por mano cubren prácticamente cualquier progresión doméstica. Si estás empezando y no quieres arriesgar 349 euros en un hábito sin consolidar, las ManiBoom por 59,99 euros hacen el trabajo y la barra 2 en 1 añade recorrido. Y si lo que buscas es entrenamiento funcional y acondicionamiento, la kettlebell JOWY no es una alternativa a las anteriores sino un complemento: muchos home gyms acaban teniendo ambas cosas.",
+    conclusion: "Si vas a entrenar de forma sostenida durante años y el espacio manda, las LULLAX NEO36 son la compra que no repetirás: 36 kg por mano cubren prácticamente cualquier progresión doméstica. Si estás empezando y no quieres hacer una inversión de gama alta en un hábito sin consolidar, las ManiBoom, de gama de entrada, hacen el trabajo y la barra 2 en 1 añade recorrido. Y si lo que buscas es entrenamiento funcional y acondicionamiento, la kettlebell JOWY no es una alternativa a las anteriores sino un complemento: muchos home gyms acaban teniendo ambas cosas.",
     faqs: [
       { q: "¿Qué peso de mancuernas es bueno para empezar?", a: "Para una persona adulta sin experiencia previa, un rango de 5 a 10 kg por mancuerna cubre la mayoría de ejercicios de tren superior las primeras semanas, y de 10 a 15 kg para tren inferior y espalda. La referencia práctica no es un número absoluto sino la técnica: el peso correcto es el que te permite completar todas las repeticiones de la última serie con buena forma y algo de margen. Si la técnica se rompe antes de terminar, sobra peso." },
       { q: "¿Es mejor kettlebell o mancuernas para quemar grasa?", a: "La kettlebell tiene ventaja en gasto calórico por sesión porque sus movimientos balísticos implican todo el cuerpo y elevan la frecuencia cardíaca de forma sostenida: un circuito de swings se parece más a un HIIT que a una serie de fuerza. Las mancuernas son superiores para construir y mantener masa muscular con trabajo analítico. Como la masa muscular es lo que sostiene el metabolismo a largo plazo, la respuesta útil vuelve a ser la combinación de ambas." },
@@ -261,7 +405,7 @@ const articleContent: Record<string, {
   },
 
   "proteina-whey-guia-completa": {
-    intro: "La proteína whey es el suplemento deportivo más vendido del mundo y también el más rodeado de mitos, desde el supuesto daño renal hasta la obsesión con la ventana anabólica. Esta guía reúne lo que respalda la evidencia científica actual para que decidas con criterio si la necesitas y cuál comprar. Como con cualquier suplemento, consulta con tu médico o con un dietista-nutricionista antes de incorporarla, especialmente si tienes alguna patología previa.",
+    intro: "La proteína whey es uno de los suplementos deportivos más conocidos y también de los más rodeados de mitos, desde el supuesto daño renal hasta la obsesión con la ventana anabólica. Esta guía reúne lo que respalda la evidencia científica actual para que decidas con criterio si la necesitas y cuál comprar. Como con cualquier suplemento, consulta con tu médico o con un dietista-nutricionista antes de incorporarla, especialmente si tienes alguna patología previa.",
     sections: [
       {
         heading: "Qué es la proteína whey y de dónde viene",
@@ -313,7 +457,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La Mente Es Maravillosa: la más completa por precio",
-        body: "Es una de las más vendidas de su categoría y su argumento es el conjunto, no una característica aislada. Mide 183 × 61 cm en TPE con certificación SGS, que acredita la ausencia de PVC, PER y sustancias tóxicas, un dato relevante si vas a pasar horas con la cara a centímetros del material. Es antideslizante por ambas caras y de alta densidad, lo que reduce el desgarro con el uso continuado. Lo que la distingue es lo que incluye: bolsa de transporte, correa de hombro y un e-book de ejercicios en español, algo poco habitual a este precio. A favor: el paquete completo por 29,99 euros y la certificación del material. En contra: su ficha no especifica el grosor, así que si buscas una amortiguación concreta es un dato que tendrás que confirmar.",
+        body: "Es una esterilla muy conocida en su categoría y su argumento es el conjunto, no una característica aislada. Mide 183 × 61 cm en TPE con certificación SGS, que acredita la ausencia de PVC, PER y sustancias tóxicas, un dato relevante si vas a pasar horas con la cara a centímetros del material. Es antideslizante por ambas caras y de alta densidad, lo que reduce el desgarro con el uso continuado. Lo que la distingue es lo que incluye: bolsa de transporte, correa de hombro y un e-book de ejercicios en español, algo poco habitual en su gama. A favor: el paquete completo y la certificación del material. En contra: su ficha no especifica el grosor, así que si buscas una amortiguación concreta es un dato que tendrás que confirmar.",
         productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
@@ -335,7 +479,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Empezar con todo incluido", "Suelo duro y práctica dinámica", "—"],
       ],
     },
-    conclusion: "Entre las dos hay dos euros de diferencia y ninguna es mala compra. La de La Mente Es Maravillosa gana si valoras llevarte el conjunto resuelto: bolsa, correa y guía de ejercicios en español por 29,99 euros. La TOPLUS gana si te importa saber exactamente qué grosor estás comprando y vas a practicar sobre suelo duro o con estilos que hacen sudar. Lo que no conviene es empezar sin esterilla: practicar sobre parquet o baldosa hace incómodas justo las posturas de suelo que más benefician a un principiante.",
+    conclusion: "Están en la misma gama de precio y ninguna es mala compra. La de La Mente Es Maravillosa gana si valoras llevarte el conjunto resuelto: bolsa, correa y guía de ejercicios en español. La TOPLUS gana si te importa saber exactamente qué grosor estás comprando y vas a practicar sobre suelo duro o con estilos que hacen sudar. Lo que no conviene es empezar sin esterilla: practicar sobre parquet o baldosa hace incómodas justo las posturas de suelo que más benefician a un principiante.",
     faqs: [
       { q: "¿Cuánto dura una sesión de yoga para principiantes?", a: "Entre 20 y 30 minutos es un buen punto de partida: suficiente para trabajar de verdad y lo bastante corto como para no convertirse en una barrera los días de poca motivación. Una estructura que funciona: cinco minutos de respiración y movilidad, quince o veinte de secuencia con las posturas básicas y cinco de savasana. Con el tiempo, las sesiones de 45 a 60 minutos llegan solas." },
       { q: "¿Necesito ser flexible para hacer yoga?", a: "No, y es probablemente el malentendido más extendido. La flexibilidad es un resultado de la práctica, no un requisito para empezar; esperar a ser flexible para hacer yoga es como esperar a estar en forma para empezar a entrenar. Todas las posturas admiten variantes adaptadas, y elementos como un bloque o una correa permiten ejecutar correctamente cualquier postura desde el primer día." },
@@ -395,7 +539,7 @@ const articleContent: Record<string, {
         ],
       },
     ],
-    conclusion: "Ocho semanas con este plan producen resultados visibles si el déficit calórico acompaña, y la clave está en no abandonar la fuerza para hacer solo cardio: es el error más común y el que explica que mucha gente pierda peso y siga viéndose igual. Una cinta plegable o una bicicleta estática resuelven el cardio en casa sin depender del tiempo ni del horario, y unas bandas elásticas cubren la parte de resistencia por poco más de doce euros. El ejercicio, en cualquier caso, solo funciona acompañado de una alimentación adecuada.",
+    conclusion: "Ocho semanas con este plan producen resultados visibles si el déficit calórico acompaña, y la clave está en no abandonar la fuerza para hacer solo cardio: es el error más común y el que explica que mucha gente pierda peso y siga viéndose igual. Una cinta plegable o una bicicleta estática resuelven el cardio en casa sin depender del tiempo ni del horario, y unas bandas elásticas cubren la parte de resistencia con una inversión mínima. El ejercicio, en cualquier caso, solo funciona acompañado de una alimentación adecuada.",
     faqs: [
       { q: "¿Es mejor hacer cardio o pesas para perder peso?", a: "La combinación supera a cualquiera de los dos por separado, y la evidencia es bastante consistente en esto. El cardio quema más calorías durante la sesión; la fuerza aumenta el gasto en reposo al construir músculo y, sobre todo, evita que pierdas masa muscular junto con la grasa. Si haces solo cardio en déficit, una parte de lo que pierdes será músculo, y eso hace más difícil mantener el resultado después." },
       { q: "¿Cuánto tiempo lleva perder 10 kg haciendo ejercicio en casa?", a: "Con un déficit de 400 a 500 kcal diarias combinando ejercicio y ajuste de la dieta, la pérdida sostenible ronda los 0,5-1 kg por semana, de modo que 10 kg suponen entre diez y veinte semanas. El ritmo varía según el punto de partida: quien parte de un peso más alto suele perder más rápido al principio. Desconfía de cualquier plan que prometa esa cifra en cuatro semanas." },
@@ -414,7 +558,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Myprotein Creatina Monohidrato: monohidrato puro sin adornos",
-        body: "El monohidrato es la forma más estudiada, la más barata y la más eficaz, y ninguna de las variantes que se venden como avanzadas ha demostrado superarlo. La opción de Myprotein es monohidrato 100 % puro sin sabor, lo que permite mezclarla con agua, leche o el batido de proteína sin alterarlo. El envase de 250 gramos rinde unos 83 servicios de 3 gramos, es decir, cerca de tres meses de uso continuado por 18,99 euros, lo que sitúa el coste mensual en torno a los siete euros. A favor: pureza, precio y que no hay que confiar en ninguna promesa de formulación exótica. En contra: al no tener sabor requiere mezclarla con algo, y conviene remover bien porque no se disuelve del todo en agua fría.",
+        body: "El monohidrato es la forma más estudiada, la más barata y la más eficaz, y ninguna de las variantes que se venden como avanzadas ha demostrado superarlo. La opción de Myprotein es monohidrato 100 % puro sin sabor, lo que permite mezclarla con agua, leche o el batido de proteína sin alterarlo. El envase de 250 gramos rinde unos 83 servicios de 3 gramos, es decir, cerca de tres meses de uso continuado, lo que la convierte en uno de los suplementos con menor coste por uso. A favor: pureza, precio y que no hay que confiar en ninguna promesa de formulación exótica. En contra: al no tener sabor requiere mezclarla con algo, y conviene remover bien porque no se disuelve del todo en agua fría.",
         productSlug: "myprotein-creatina-monohidrato-250g",
       },
       {
@@ -423,7 +567,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Creatina y proteína: cómo se complementan",
-        body: "Son suplementos con funciones distintas que se llevan bien. La creatina mejora el rendimiento durante el entrenamiento, permitiendo un estímulo mayor; la proteína aporta el material con el que el músculo se reconstruye después. Ninguna sustituye a la otra y ninguna sustituye a la comida. En la práctica, mezclar los 3 gramos de creatina en el batido de proteína posterior al entrenamiento resuelve las dos tomas de una vez, y la presencia de carbohidratos y proteína favorece ligeramente el transporte de creatina al músculo por la respuesta de insulina. Si solo vas a tomar uno de los dos y tu dieta ya cubre la proteína, la creatina es el que más rendimiento aporta por euro.",
+        body: "Son suplementos con funciones distintas que se llevan bien. La creatina mejora el rendimiento durante el entrenamiento, permitiendo un estímulo mayor; la proteína aporta el material con el que el músculo se reconstruye después. Ninguna sustituye a la otra y ninguna sustituye a la comida. En la práctica, mezclar los 3 gramos de creatina en el batido de proteína posterior al entrenamiento resuelve las dos tomas de una vez, y la presencia de carbohidratos y proteína favorece ligeramente el transporte de creatina al músculo por la respuesta de insulina. Si solo vas a tomar uno de los dos y tu dieta ya cubre la proteína, la creatina es el que más rendimiento aporta en relación con lo que cuesta.",
         productSlug: "optimum-nutrition-gold-standard-whey-226kg",
       },
     ],
@@ -453,7 +597,7 @@ const articleContent: Record<string, {
   },
 
   "walkingpad-r2-vs-r1-pro": {
-    intro: "La WalkingPad R2 y la R1 Pro son las dos únicas cintas plegables del mercado español que combinan calidad y precio razonable. La diferencia entre ambas es concreta y decide cuál comprar: 50 euros, 2 km/h y el tipo de motor. Esta guía desmonta cada diferencia para que elijas sin dudas.",
+    intro: "La WalkingPad R2 y la R1 Pro son las dos únicas cintas plegables del mercado español que combinan calidad y precio razonable. La diferencia entre ambas es concreta y decide cuál comprar: el precio, 2 km/h y el tipo de motor. Esta guía desmonta cada diferencia para que elijas sin dudas.",
     sections: [
       {
         heading: "Motor brushless frente a motor convencional: qué significa en la práctica",
@@ -469,12 +613,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cuándo la R2 es la respuesta correcta",
-        body: "La R2 es la elección si el silencio es una prioridad, algo casi inevitable en un piso, o si vas a trotar con cierta regularidad y quieres un motor con margen por encima de tu ritmo habitual. También si valoras la carga máxima declarada de 110 kg, un dato que la R1 Pro no publica. Es la opción más completa de las dos y su precio de 399 euros se justifica precisamente por el motor brushless y los 12 km/h, que son sus dos argumentos diferenciales frente a la hermana pequeña.",
+        body: "La R2 es la elección si el silencio es una prioridad, algo casi inevitable en un piso, o si vas a trotar con cierta regularidad y quieres un motor con margen por encima de tu ritmo habitual. También si valoras la carga máxima declarada de 110 kg, un dato que la R1 Pro no publica. Es la opción más completa de las dos y su precio, más alto, se justifica precisamente por el motor brushless y los 12 km/h, que son sus dos argumentos diferenciales frente a la hermana pequeña.",
         productSlug: "walkingpad-r2-cinta-plegable",
       },
       {
         heading: "Cuándo la R1 Pro es suficiente",
-        body: "La R1 Pro es la respuesta si tu uso principal es caminar, con algún trote suave ocasional, y quieres ahorrarte 50 euros y el montaje inicial. Su doble modo andar/correr, sus ruedas y el plegado 180° sin herramientas la convierten en la opción más cómoda de mover y guardar. Para el perfil mayoritario de comprador de cinta plegable, que la usa para sumar pasos y hacer cardio ligero en casa, la R1 Pro entrega prácticamente la misma experiencia por menos dinero.",
+        body: "La R1 Pro es la respuesta si tu uso principal es caminar, con algún trote suave ocasional, y quieres gastar algo menos y ahorrarte el montaje inicial. Su doble modo andar/correr, sus ruedas y el plegado 180° sin herramientas la convierten en la opción más cómoda de mover y guardar. Para el perfil mayoritario de comprador de cinta plegable, que la usa para sumar pasos y hacer cardio ligero en casa, la R1 Pro entrega prácticamente la misma experiencia por menos dinero.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
     ],
@@ -489,7 +633,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Trotar regularmente", "Caminar y presupuesto ajustado"],
       ],
     },
-    conclusion: "No hay una respuesta universal. La R2 es la compra correcta para quien va a trotar con regularidad o valora el silencio del motor brushless en un piso. La R1 Pro es la respuesta para quien va a usar la cinta principalmente para caminar y quiere ahorrarse 50 euros y el montaje inicial. Identifica cuál de esos dos usos es el tuyo y la elección deja de tener misterio.",
+    conclusion: "No hay una respuesta universal. La R2 es la compra correcta para quien va a trotar con regularidad o valora el silencio del motor brushless en un piso. La R1 Pro es la respuesta para quien va a usar la cinta principalmente para caminar y quiere gastar algo menos y ahorrarse el montaje inicial. Identifica cuál de esos dos usos es el tuyo y la elección deja de tener misterio.",
     faqs: [
       { q: "¿La WalkingPad R2 hace mucho ruido?", a: "El motor brushless es notablemente más silencioso que un motor convencional. Conviene recordar, además, que el ruido dominante en cualquier cinta son las pisadas, no el motor. Con una alfombrilla de amortiguación bajo la cinta se reduce la transmisión de vibración al suelo y, con ella, el ruido que llega a los vecinos de abajo." },
       { q: "¿Cuánto pesa la WalkingPad R2?", a: "La R2 pesa aproximadamente 28 kg. Es manejable para una persona, pero conviene tener claro dónde va a quedar instalada antes de desembalarla, porque moverla a menudo de una habitación a otra puede resultar incómodo si no está pensado de antemano." },
@@ -516,7 +660,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "WalkingPad R1 Pro para pisos: análisis",
-        body: "La R1 Pro es la más fácil de mover y guardar: se pliega 180°, trae ruedas de transporte y llega lista para usar sin montaje, así que desde el minuto uno la puedes recolocar según la necesidad de cada día. Alcanza 10 km/h, suficiente para caminar y trotar de forma ligera, y cuesta 50 euros menos que la R2. Para un piso donde la cinta tiene que aparecer y desaparecer constantemente entre sesiones, esa movilidad es su mayor argumento.",
+        body: "La R1 Pro es la más fácil de mover y guardar: se pliega 180°, trae ruedas de transporte y llega lista para usar sin montaje, así que desde el minuto uno la puedes recolocar según la necesidad de cada día. Alcanza 10 km/h, suficiente para caminar y trotar de forma ligera, y es más económica que la R2. Para un piso donde la cinta tiene que aparecer y desaparecer constantemente entre sesiones, esa movilidad es su mayor argumento.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
     ],
@@ -533,7 +677,7 @@ const articleContent: Record<string, {
     faqs: [
       { q: "¿Cuánto espacio necesito para usar una WalkingPad?", a: "Para usarla necesitas la superficie de la banda más al menos 1 metro libre por detrás por seguridad. El espacio de almacenamiento es mucho menor, pero el espacio de uso no cambia: es un error frecuente fijarse solo en lo compacta que queda guardada y olvidar el hueco que hace falta para caminar con seguridad." },
       { q: "¿Se puede usar una cinta de correr en un piso de alquiler?", a: "Sí, siempre que el suelo lo permita y se use con una alfombrilla de amortiguación que proteja el parquet y reduzca la vibración transmitida a los vecinos de abajo. La alfombrilla es, de hecho, el accesorio que más conflictos de convivencia evita." },
-      { q: "¿Las cintas plegables duran menos que las fijas?", a: "No necesariamente. La durabilidad depende más de la calidad del motor y de la banda que del mecanismo de plegado en sí. Las WalkingPad tienen buenas valoraciones de durabilidad en uso doméstico, que es el escenario para el que están diseñadas." },
+      { q: "¿Las cintas plegables duran menos que las fijas?", a: "No necesariamente. La durabilidad depende más de la calidad del motor y de la banda que del mecanismo de plegado en sí. Las WalkingPad tienen buena reputación de durabilidad en uso doméstico, que es el escenario para el que están diseñadas." },
       { q: "¿Puedo usar la cinta en el balcón?", a: "Técnicamente sí, si el balcón tiene espacio suficiente y aguanta el peso, pero no es recomendable: la exposición a la humedad y a los cambios de temperatura deteriora la banda y los componentes electrónicos con rapidez. Una cinta es un aparato de interior y conviene tratarla como tal." },
     ],
   },
@@ -547,11 +691,11 @@ const articleContent: Record<string, {
       },
       {
         heading: "Qué escritorio necesitas",
-        body: "No hace falta un escritorio elevable de 1.000 euros. Cualquier mesa a la altura correcta funciona si la cinta tiene un perfil bajo, y las WalkingPad lo tienen. La clave es la ergonomía: la altura del escritorio debe permitir que tus codos queden a 90 grados mientras caminas, no mientras estás de pie parado, porque al caminar el cuerpo sube unos centímetros con cada paso. Si ya tienes un escritorio elevable, ajústalo a esa posición; si no, una mesa alta o un soporte para el portátil pueden resolver la altura sin una inversión grande.",
+        body: "No hace falta un escritorio elevable de gama alta. Cualquier mesa a la altura correcta funciona si la cinta tiene un perfil bajo, y las WalkingPad lo tienen. La clave es la ergonomía: la altura del escritorio debe permitir que tus codos queden a 90 grados mientras caminas, no mientras estás de pie parado, porque al caminar el cuerpo sube unos centímetros con cada paso. Si ya tienes un escritorio elevable, ajústalo a esa posición; si no, una mesa alta o un soporte para el portátil pueden resolver la altura sin una inversión grande.",
       },
       {
         heading: "WalkingPad R1 Pro: el modelo diseñado para esto",
-        body: "La R1 Pro es la opción natural para el uso bajo escritorio. Su modo andar, con la barandilla plegada, llega hasta 6 km/h, y todo el rango bajo de esa escala es exactamente la velocidad ideal para trabajar caminando. Llega lista para usar sin montaje, así que puedes colocarla bajo la mesa el mismo día que llega, y sus ruedas permiten retirarla al terminar la jornada. A 349 euros, es la puerta de entrada más económica al escritorio activo.",
+        body: "La R1 Pro es la opción natural para el uso bajo escritorio. Su modo andar, con la barandilla plegada, llega hasta 6 km/h, y todo el rango bajo de esa escala es exactamente la velocidad ideal para trabajar caminando. Llega lista para usar sin montaje, así que puedes colocarla bajo la mesa el mismo día que llega, y sus ruedas permiten retirarla al terminar la jornada. Es una forma sencilla de empezar con el escritorio activo.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
@@ -573,7 +717,7 @@ const articleContent: Record<string, {
         ["Mejor uso combinado", "Escritorio + trote suave", "Escritorio + correr"],
       ],
     },
-    conclusion: "Para usar exclusivamente bajo el escritorio, la R1 Pro es la elección más práctica y 50 euros más barata. Si quieres también poder hacer sesiones de trote reales sin comprar un segundo aparato, la R2 cubre ambos usos sin comprometer ninguno. La pregunta que decide es si vas a correr de verdad o solo a caminar mientras trabajas.",
+    conclusion: "Para usar exclusivamente bajo el escritorio, la R1 Pro es la elección más práctica y también la más económica de las dos. Si quieres también poder hacer sesiones de trote reales sin comprar un segundo aparato, la R2 cubre ambos usos sin comprometer ninguno. La pregunta que decide es si vas a correr de verdad o solo a caminar mientras trabajas.",
     faqs: [
       { q: "¿Afecta caminar a la concentración mientras se trabaja?", a: "Para tareas de lectura, reuniones y trabajo cognitivo general, no. Para tareas que requieren máxima precisión manual, como el diseño de detalle o la edición de vídeo fotograma a fotograma, conviene parar. La mayoría de los trabajos de conocimiento son perfectamente compatibles con caminar a 2 km/h, y la clave es bajar la velocidad en cuanto la tarea lo pida." },
       { q: "¿Cuántos pasos se hacen en una hora caminando a 2 km/h?", a: "Aproximadamente entre 2.000 y 2.500 pasos por hora. En una jornada laboral de 8 horas con 3 o 4 horas de uso de la cinta, se pueden sumar con facilidad entre 7.000 y 9.000 pasos sin salir de casa ni dedicar tiempo extra al ejercicio." },
@@ -583,7 +727,7 @@ const articleContent: Record<string, {
   },
 
   "walkingpad-opiniones-analisis": {
-    intro: "WalkingPad es la marca de cintas plegables más vendida en España desde 2022. Sus modelos aparecen constantemente en listas de recomendaciones y acumulan miles de valoraciones online. Esta guía analiza qué hay detrás de esas valoraciones: qué elogian los usuarios, qué critican y qué expectativas no se cumplen, para que compres sabiendo exactamente lo que vas a recibir.",
+    intro: "WalkingPad es una de las marcas de cintas plegables más conocidas en España y sus modelos aparecen con frecuencia en listas de recomendaciones. Esta guía analiza las opiniones de los usuarios: qué elogian, qué critican y qué expectativas no se cumplen, para que compres sabiendo exactamente lo que vas a recibir.",
     sections: [
       {
         heading: "Lo que más valoran los usuarios de WalkingPad",
@@ -591,33 +735,33 @@ const articleContent: Record<string, {
       },
       {
         heading: "Las críticas más repetidas",
-        body: "Las quejas también son concretas y conviene conocerlas antes de comprar. La primera es el precio: 349-399 euros no es barato para una cinta sin inclinación motorizada ni programas avanzados. La segunda es la superficie de la banda, más estrecha y corta que la de una cinta de gimnasio, lo que puede resultar limitante para zancadas largas a alta velocidad. La tercera es la app, que funciona pero no es de las más pulidas del mercado. Y la cuarta, específica de la R1 Pro, es que no publica la carga máxima, lo que genera incertidumbre en usuarios de mayor peso que no saben si el aparato es adecuado para ellos.",
+        body: "Las quejas también son concretas y conviene conocerlas antes de comprar. La primera es el precio, de gama media-alta para una cinta sin inclinación motorizada ni programas avanzados. La segunda es la superficie de la banda, más estrecha y corta que la de una cinta de gimnasio, lo que puede resultar limitante para zancadas largas a alta velocidad. La tercera es la app, que funciona pero no es de las más pulidas del mercado. Y la cuarta, específica de la R1 Pro, es que no publica la carga máxima, lo que genera incertidumbre en usuarios de mayor peso que no saben si el aparato es adecuado para ellos.",
       },
       {
-        heading: "WalkingPad R2: análisis de valoraciones",
-        body: "La R2 recibe valoraciones consistentemente altas, y el patrón es claro: lo que más se elogia es el silencio del motor brushless y la holgura de los 12 km/h. Los usuarios que viven en pisos la destacan de forma especial, precisamente porque el ruido es su mayor preocupación y este modelo lo resuelve mejor que ninguno de su rango. Las críticas que recibe son las generales de la marca, sobre todo el precio, más que defectos propios del modelo.",
+        heading: "WalkingPad R2: qué destacan los usuarios",
+        body: "En la R2 el patrón es claro: lo que más se elogia es el silencio del motor brushless y la holgura de los 12 km/h. Los usuarios que viven en pisos la destacan de forma especial, precisamente porque el ruido es su mayor preocupación y este modelo lo resuelve mejor que ninguno de su rango. Las críticas que recibe son las generales de la marca, sobre todo el precio, más que defectos propios del modelo.",
         productSlug: "walkingpad-r2-cinta-plegable",
       },
       {
-        heading: "WalkingPad R1 Pro: análisis de valoraciones",
-        body: "La R1 Pro es muy valorada por la facilidad de instalación, al llegar lista para usar, y por el doble uso andar/correr, que la hace versátil. La crítica más frecuente es previsible: el tope de 10 km/h se queda corto para los usuarios que quieren correr a un ritmo real, no solo trotar. Es una queja justa, pero también una cuestión de expectativas: quien compra la R1 Pro para caminar y trotar suave rara vez la menciona como problema.",
+        heading: "WalkingPad R1 Pro: qué destacan los usuarios",
+        body: "De la R1 Pro se destaca sobre todo la facilidad de instalación, al llegar lista para usar, y por el doble uso andar/correr, que la hace versátil. La crítica más frecuente es previsible: el tope de 10 km/h se queda corto para los usuarios que quieren correr a un ritmo real, no solo trotar. Es una queja justa, pero también una cuestión de expectativas: quien compra la R1 Pro para caminar y trotar suave rara vez la menciona como problema.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
     ],
     comparison: {
       headers: ["Aspecto", "WalkingPad R2", "WalkingPad R1 Pro"],
       rows: [
-        ["Silencio", "★★★★★ Motor brushless", "★★★★ Motor convencional"],
-        ["Facilidad instalación", "★★★★ Requiere montaje", "★★★★★ Lista para usar"],
-        ["Velocidad", "★★★★★ 12 km/h", "★★★★ 10 km/h"],
-        ["App", "★★★★", "★★★★"],
+        ["Silencio", "Muy silenciosa (motor brushless)", "Silenciosa (motor convencional)"],
+        ["Facilidad instalación", "Requiere montaje", "Lista para usar"],
+        ["Velocidad", "12 km/h", "10 km/h"],
+        ["App", "Sí (KS Fit)", "Sí (KS Fit)"],
       ],
     },
-    conclusion: "Las WalkingPad tienen valoraciones altas por razones concretas, no por marketing. Cumplen lo que prometen: plegarse de verdad, hacer poco ruido y funcionar sin complicaciones. Sus limitaciones son reales pero conocidas: no son cintas de gimnasio y no pretenden serlo. Si tus expectativas están bien calibradas, son una compra que no defrauda.",
+    conclusion: "Las opiniones positivas sobre las WalkingPad responden a razones concretas, no al marketing. Cumplen lo que prometen: plegarse de verdad, hacer poco ruido y funcionar sin complicaciones. Sus limitaciones son reales pero conocidas: no son cintas de gimnasio y no pretenden serlo. Si tus expectativas están bien calibradas, son una compra que no defrauda.",
     faqs: [
-      { q: "¿Dónde se compra la WalkingPad en España?", a: "Están disponibles online con envío rápido y devolución sin coste durante los primeros 30 días. Es el canal más recomendable por la garantía de compra que ofrece y por la facilidad de gestionar una devolución si el modelo no encaja con lo que esperabas." },
+      { q: "¿Dónde se compra la WalkingPad en España?", a: "Los modelos que analizamos se venden en Amazon.es. Antes de comprar, revisa en la ficha de cada producto quién lo vende y lo envía, el plazo de entrega y las condiciones de devolución que indica Amazon, porque pueden variar según el vendedor y el momento." },
       { q: "¿La garantía de WalkingPad cubre España?", a: "Sí. Los modelos vendidos en España incluyen la garantía del fabricante. Conviene guardar el comprobante de compra para cualquier reclamación posterior, ya que es el documento que acredita la fecha de inicio de la cobertura." },
-      { q: "¿Cuánto tarda en llegar una WalkingPad tras comprarla?", a: "Con envío premium, normalmente 1 o 2 días laborables. Sin envío premium, el plazo depende de la disponibilidad del vendedor, aunque en la práctica suele ser rápido al tratarse de un producto con stock habitual." },
+      { q: "¿Cuánto tarda en llegar una WalkingPad tras comprarla?", a: "Depende del vendedor, de la disponibilidad y de tu dirección de entrega. El plazo estimado aparece en la ficha de Amazon antes de confirmar el pedido; consúltalo allí, porque es el único dato fiable en cada momento." },
       { q: "¿Merece la pena WalkingPad frente a otras marcas?", a: "Para el segmento de cintas plegables silenciosas para piso, sí. Las alternativas en ese rango de precio suelen tener más ruido o peor calidad de construcción. Para cintas de entrenamiento serio, con inclinación motorizada y programas avanzados, hay opciones más completas, pero también más caras y voluminosas, que juegan en otra categoría." },
     ],
   },
@@ -754,7 +898,7 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "Qué tipo de bicicleta estática necesitas",
-        body: "Antes de mirar precios conviene identificar tu perfil, porque cada modelo resuelve un problema distinto y comprar el equivocado es la causa más frecuente de que la bicicleta acabe arrinconada. Hay tres perfiles claros. Si quieres entrenar de verdad y registrar tu progresión, la MERACH con app es tu opción. Si tu limitación es el espacio y necesitas guardarla entre sesiones, el Sportstech X150, un ergómetro plegable, resuelve eso. Y si lo que buscas es moverte sin interrumpir el trabajo, el Sportstech DFX70, una mini bicicleta de escritorio, juega en otra categoría por 119 euros. Identifica el tuyo y la comparativa se simplifica sola.",
+        body: "Antes de mirar precios conviene identificar tu perfil, porque cada modelo resuelve un problema distinto y comprar el equivocado es la causa más frecuente de que la bicicleta acabe arrinconada. Hay tres perfiles claros. Si quieres entrenar de verdad y registrar tu progresión, la MERACH con app es tu opción. Si tu limitación es el espacio y necesitas guardarla entre sesiones, el Sportstech X150, un ergómetro plegable, resuelve eso. Y si lo que buscas es moverte sin interrumpir el trabajo, el Sportstech DFX70, una mini bicicleta de escritorio, juega en otra categoría y en una gama de precio más baja. Identifica el tuyo y la comparativa se simplifica sola.",
       },
       {
         heading: "MERACH — para resultados serios",
@@ -763,12 +907,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "Sportstech X150 — para espacios pequeños",
-        body: "El X150 es un ergómetro plegable, y ahí está toda su razón de ser: se guarda cuando no se usa. Ofrece 8 niveles de resistencia magnética, suficientes para progresar durante bastante tiempo en un uso doméstico, funcionamiento silencioso y el respaldo de una marca alemana con recorrido, lo que aporta cierta garantía de repuestos. Cuesta 35 euros menos que la MERACH y su gran ventaja es precisamente la que la MERACH no tiene: si vives en un piso donde una bicicleta fija permanente no es viable, esta es la categoría que necesitas. A cambio renuncias a la conectividad con app.",
+        body: "El X150 es un ergómetro plegable, y ahí está toda su razón de ser: se guarda cuando no se usa. Ofrece 8 niveles de resistencia magnética, suficientes para progresar durante bastante tiempo en un uso doméstico, funcionamiento silencioso y el respaldo de una marca alemana con recorrido, lo que aporta cierta garantía de repuestos. Es algo más económica que la MERACH y su gran ventaja es precisamente la que la MERACH no tiene: si vives en un piso donde una bicicleta fija permanente no es viable, esta es la categoría que necesitas. A cambio renuncias a la conectividad con app.",
         productSlug: "sportstech-x150-ergometro-plegable",
       },
       {
         heading: "Sportstech X100-C — con cuerdas de fuerza",
-        body: "El X100-C es el más original de los tres y el más económico a 199 euros. Es una bicicleta plegable con display LCD, pero su diferencial son las cuerdas de fuerza incluidas, que permiten trabajar el tren superior mientras pedaleas. No sustituyen a unas mancuernas para un trabajo de fuerza serio, pero añaden activación de brazos y hombros durante el cardio, útil para quien quiere aprovechar una sesión corta al máximo. Es la opción con más accesorios por menos dinero: cardio, algo de fuerza y plegado, todo en un solo aparato.",
+        body: "El X100-C es el más original de los tres y uno de los más asequibles. Es una bicicleta plegable con display LCD, pero su diferencial son las cuerdas de fuerza incluidas, que permiten trabajar el tren superior mientras pedaleas. No sustituyen a unas mancuernas para un trabajo de fuerza serio, pero añaden activación de brazos y hombros durante el cardio, útil para quien quiere aprovechar una sesión corta al máximo. Es la opción con más accesorios por menos dinero: cardio, algo de fuerza y plegado, todo en un solo aparato.",
         productSlug: "sportstech-x100c-bicicleta-cuerdas",
       },
     ],
@@ -783,7 +927,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Entrenar con seguimiento", "Espacio limitado", "Cardio + tren superior"],
       ],
     },
-    conclusion: "No hay una bicicleta mejor que las demás en absoluto: hay una mejor para cada perfil. Si el espacio no es un problema y vas a entrenar con regularidad, la MERACH es la compra correcta. Si necesitas guardarla, el X150 resuelve eso sin sacrificar demasiado. Y si buscas el precio más bajo con el mayor número de accesorios, el X100-C con cuerdas cubre ambas cosas.",
+    conclusion: "No hay una bicicleta mejor que las demás en absoluto: hay una mejor para cada perfil. Si el espacio no es un problema y vas a entrenar con regularidad, la MERACH es la compra correcta. Si necesitas guardarla, el X150 resuelve eso sin sacrificar demasiado. Y si buscas una opción de gama de entrada con el mayor número de accesorios, el X100-C con cuerdas cubre ambas cosas.",
     faqs: [
       { q: "¿Cuántas calorías quema una bicicleta estática en 30 minutos?", a: "A intensidad moderada, una persona de unos 75 kg quema aproximadamente entre 200 y 250 kcal en 30 minutos. A intensidad alta puede superar las 300 kcal. Conviene tomar estas cifras como orientativas: los contadores de la consola suelen sobreestimar, porque no conocen el peso real ni la frecuencia cardíaca del usuario." },
       { q: "¿Es mejor la bicicleta estática o la cinta de correr para adelgazar?", a: "A igualdad de intensidad, la cinta quema algo más porque implica soportar el peso corporal. Pero la bicicleta tiene menos impacto articular, hace menos ruido y ocupa menos, factores que la hacen más sostenible para mucha gente. El mejor aparato para adelgazar es el que vas a usar de forma constante durante meses, no el que quema más calorías en teoría." },
@@ -805,12 +949,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "Para quién es ideal",
-        body: "El X100-C encaja con tres perfiles concretos. Primero, quien quiere el máximo de accesorios por el menor precio posible: a 199 euros es la bicicleta más equipada de su rango. Segundo, quien busca una solución completa en un único aparato para sesiones de 30-40 minutos, sin llenar la casa de material. Y tercero, quien tiene poco tiempo y quiere combinar cardio con algo de trabajo de brazos en la misma sesión. Si te reconoces en alguno de los tres, es una compra sensata.",
+        body: "El X100-C encaja con tres perfiles concretos. Primero, quien quiere muchos accesorios en una bicicleta de gama de entrada: es la más equipada de su rango. Segundo, quien busca una solución completa en un único aparato para sesiones de 30-40 minutos, sin llenar la casa de material. Y tercero, quien tiene poco tiempo y quiere combinar cardio con algo de trabajo de brazos en la misma sesión. Si te reconoces en alguno de los tres, es una compra sensata.",
         productSlug: "sportstech-x100c-bicicleta-cuerdas",
       },
       {
         heading: "Comparativa con el X150 ergómetro",
-        body: "El X150 es 15 euros más caro y no incluye cuerdas de fuerza. A cambio, como ergómetro plegable tiene un diseño más orientado al cardio puro y, probablemente, una experiencia de pedaleo más refinada para ese uso concreto. La decisión es sencilla: si solo quieres cardio y valoras la postura del ergómetro, el X150; si quieres el pack completo con cuerdas y el precio más bajo, el X100-C. No es que uno sea mejor, es que responden a prioridades distintas.",
+        body: "El X150 es algo más caro y no incluye cuerdas de fuerza. A cambio, como ergómetro plegable tiene un diseño más orientado al cardio puro y, probablemente, una experiencia de pedaleo más refinada para ese uso concreto. La decisión es sencilla: si solo quieres cardio y valoras la postura del ergómetro, el X150; si quieres el pack completo con cuerdas en una gama de entrada, el X100-C. No es que uno sea mejor, es que responden a prioridades distintas.",
         productSlug: "sportstech-x150-ergometro-plegable",
       },
     ],
@@ -851,7 +995,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "MERACH frente a Sportstech X150: cuál elegir",
-        body: "La MERACH tiene app con seguimiento, mayor carga máxima declarada y un asiento pensado para sesiones largas. El X150, en cambio, se pliega, que es exactamente lo que la MERACH no hace. La decisión se reduce al espacio: si tienes un sitio donde dejar la bicicleta fija, la MERACH entrega más prestaciones por 35 euros más. Si necesitas guardarla entre sesiones porque el espacio no da para tenerla siempre montada, el X150 resuelve ese problema y la MERACH deja de ser opción por muy completa que sea.",
+        body: "La MERACH tiene app con seguimiento, mayor carga máxima declarada y un asiento pensado para sesiones largas. El X150, en cambio, se pliega, que es exactamente lo que la MERACH no hace. La decisión se reduce al espacio: si tienes un sitio donde dejar la bicicleta fija, la MERACH entrega más prestaciones por algo más de dinero. Si necesitas guardarla entre sesiones porque el espacio no da para tenerla siempre montada, el X150 resuelve ese problema y la MERACH deja de ser opción por muy completa que sea.",
         productSlug: "sportstech-x150-ergometro-plegable",
       },
     ],
@@ -865,7 +1009,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Entrenar con progresión", "Guardar entre sesiones"],
       ],
     },
-    conclusion: "La MERACH es la bicicleta correcta si vas a entrenar con regularidad, quieres registrar tu progresión y tienes espacio para dejarla fija. Si el espacio es tu limitación principal, el X150 resuelve ese problema por 35 euros menos. Y si buscas el precio más bajo posible con algún extra, el X100-C es la tercera opción. Cada una resuelve un problema distinto.",
+    conclusion: "La MERACH es la bicicleta correcta si vas a entrenar con regularidad, quieres registrar tu progresión y tienes espacio para dejarla fija. Si el espacio es tu limitación principal, el X150 resuelve ese problema por algo menos de dinero. Y si buscas una opción de gama de entrada con algún extra, el X100-C es la tercera opción. Cada una resuelve un problema distinto.",
     faqs: [
       { q: "¿Cuánto espacio ocupa la MERACH bicicleta estática?", a: "La MERACH no es plegable, así que el espacio que ocupa es su huella real de uso permanente. Conviene consultar las dimensiones exactas en la ficha del producto antes de comprar y medirlas en tu espacio, asegurándote de dejar hueco para montar y bajar de la bicicleta con comodidad." },
       { q: "¿La MERACH funciona sin la app?", a: "Sí. El monitor LED incorporado muestra velocidad, distancia, tiempo y calorías de forma autónoma, sin necesidad de conectar el teléfono. La app añade el seguimiento histórico y los programas de entrenamiento, pero no es imprescindible para usar la bicicleta con normalidad." },
@@ -883,7 +1027,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Sportstech DFX70: análisis",
-        body: "El DFX70 ofrece 8 niveles de resistencia magnética, funcionamiento silencioso, asa integrada y ruedas de transporte, con transmisión por correa. Por 119 euros es la opción más económica para empezar a mover las piernas durante la jornada laboral, y su diseño es compatible con una silla estándar y un escritorio normal, sin necesidad de mobiliario especial. Es la puerta de entrada al escritorio activo para quien quiere probar el concepto sin una gran inversión, y su bajo perfil permite guardarlo en cualquier rincón cuando no se usa.",
+        body: "El DFX70 ofrece 8 niveles de resistencia magnética, funcionamiento silencioso, asa integrada y ruedas de transporte, con transmisión por correa. Es una opción de gama de entrada para empezar a mover las piernas durante la jornada laboral, y su diseño es compatible con una silla estándar y un escritorio normal, sin necesidad de mobiliario especial. Es la puerta de entrada al escritorio activo para quien quiere probar el concepto sin una gran inversión, y su bajo perfil permite guardarlo en cualquier rincón cuando no se usa.",
         productSlug: "sportstech-dfx70-mini-bicicleta-escritorio",
       },
       {
@@ -1005,7 +1149,7 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "Cuándo las fijas son la respuesta correcta",
-        body: "Si vas a usar siempre el mismo peso, ya sea para un circuito fijo, para rehabilitación o para ejercicios muy concretos, las fijas son más baratas, más duraderas y más simples. No tienen partes móviles que puedan romperse ni un mecanismo del que fiarse con carga alta sobre la cara. Las ManiBoom hexagonales a 59,99 euros son el ejemplo perfecto: un par de mancuernas sólidas, con forma que evita que rueden por el suelo, que cumplen su función sin complicaciones y sin el sobreprecio de un sistema que quizá no vas a aprovechar.",
+        body: "Si vas a usar siempre el mismo peso, ya sea para un circuito fijo, para rehabilitación o para ejercicios muy concretos, las fijas son más baratas, más duraderas y más simples. No tienen partes móviles que puedan romperse ni un mecanismo del que fiarse con carga alta sobre la cara. Las ManiBoom hexagonales son el ejemplo perfecto: un par de mancuernas sólidas, con forma que evita que rueden por el suelo, que cumplen su función sin complicaciones y sin el sobreprecio de un sistema que quizá no vas a aprovechar.",
       },
       {
         heading: "Cuándo las ajustables justifican el precio",
@@ -1014,12 +1158,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "ManiBoom 15 kg — la entrada equilibrada",
-        body: "Las ManiBoom son la puerta de entrada sensata al entrenamiento de fuerza en casa. Su diseño hexagonal evita que rueden, un detalle práctico que se agradece cada sesión, e incluyen una barra que las convierte en barra larga para ampliar el repertorio de ejercicios. A 59,99 euros son la opción para quien empieza y no quiere arriesgar 349 euros en un hábito que todavía no ha consolidado. Cubren la mayoría de los ejercicios de un principiante o intermedio sin que la inversión duela si al final el entrenamiento no cuaja.",
+        body: "Las ManiBoom son la puerta de entrada sensata al entrenamiento de fuerza en casa. Su diseño hexagonal evita que rueden, un detalle práctico que se agradece cada sesión, e incluyen una barra que las convierte en barra larga para ampliar el repertorio de ejercicios. Con un precio de gama de entrada, son la opción para quien empieza y no quiere hacer una inversión de gama alta en un hábito que todavía no ha consolidado. Cubren la mayoría de los ejercicios de un principiante o intermedio sin que la inversión duela si al final el entrenamiento no cuaja.",
         productSlug: "maniboom-mancuernas-hexagonales-15kg",
       },
       {
         heading: "La alternativa más económica: bandas elásticas",
-        body: "Si ni siquiera quieres comprometerte con unas mancuernas, las bandas elásticas son el primer paso más barato posible. Por 12,99 euros, un set de bandas cubre press, remo, sentadilla y trabajo de glúteo, ocupa lo que un puño y no daña nada al usarse. No son lo mismo que unas mancuernas (no replican la sensación de peso libre ni su progresión precisa de carga), pero para arrancar y comprobar si el hábito se te queda son una inversión mínima e inteligente. Muchos home gyms empiezan exactamente aquí.",
+        body: "Si ni siquiera quieres comprometerte con unas mancuernas, las bandas elásticas son el primer paso más barato posible. Con una inversión mínima, un set de bandas cubre press, remo, sentadilla y trabajo de glúteo, ocupa lo que un puño y no daña nada al usarse. No son lo mismo que unas mancuernas (no replican la sensación de peso libre ni su progresión precisa de carga), pero para arrancar y comprobar si el hábito se te queda son una inversión mínima e inteligente. Muchos home gyms empiezan exactamente aquí.",
         productSlug: "fokky-bandas-elasticas-set-4-tpe",
       },
     ],
@@ -1058,12 +1202,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "Lo que hay que saber antes de comprar",
-        body: "Con honestidad, tres advertencias. La primera: no se pueden soltar contra el suelo, porque el mecanismo de selección se daña; hay que posarlas con cuidado. La segunda: son más anchas que las mancuernas fijas del mismo peso, algo que se nota en ejercicios de agarre neutro cercano al cuerpo. Y la tercera, la más importante: 349 euros son una barrera de entrada real, y esta compra solo tiene sentido si ya llevas tiempo entrenando y sabes que vas a seguir haciéndolo. Para un hábito sin consolidar, es mucho dinero en juego.",
+        body: "Con honestidad, tres advertencias. La primera: no se pueden soltar contra el suelo, porque el mecanismo de selección se daña; hay que posarlas con cuidado. La segunda: son más anchas que las mancuernas fijas del mismo peso, algo que se nota en ejercicios de agarre neutro cercano al cuerpo. Y la tercera, la más importante: su precio, de gama alta, es una barrera de entrada real, y esta compra solo tiene sentido si ya llevas tiempo entrenando y sabes que vas a seguir haciéndolo. Para un hábito sin consolidar, es mucho dinero en juego.",
         productSlug: "lullax-neo36-mancuernas-ajustables",
       },
       {
         heading: "LULLAX frente a ManiBoom: para quién es cada una",
-        body: "Si llevas menos de un año entrenando, las ManiBoom a 59,99 euros tienen más sentido: cumplen la misma función básica sin arriesgar 349 euros en algo que quizá no uses. Las LULLAX, en cambio, son para el usuario que ya sabe que el hábito se ha quedado y quiere el equipamiento definitivo, ese que no tendrá que sustituir ni ampliar en años. No compiten en la misma liga: una es la entrada prudente y la otra la inversión de quien ya tiene claro su compromiso.",
+        body: "Si llevas menos de un año entrenando, las ManiBoom, de gama de entrada, tienen más sentido: cumplen la misma función básica sin una inversión de gama alta en algo que quizá no uses. Las LULLAX, en cambio, son para el usuario que ya sabe que el hábito se ha quedado y quiere el equipamiento definitivo, ese que no tendrá que sustituir ni ampliar en años. No compiten en la misma liga: una es la entrada prudente y la otra la inversión de quien ya tiene claro su compromiso.",
         productSlug: "maniboom-mancuernas-hexagonales-15kg",
       },
     ],
@@ -1103,7 +1247,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "JOWY Kettlebell 16 kg: análisis",
-        body: "La JOWY es de PVC relleno de arena de acero, un detalle que importa más de lo que parece en casa: no daña el suelo al apoyarla, algo determinante si entrenas sobre parquet o baldosa sin una plataforma protectora. Su asa es ergonómica y antideslizante para un agarre seguro incluso con las manos sudadas. A 34,99 euros es la opción más asequible del catálogo y corresponde al peso de entrada masculino estándar, lo que la convierte en una forma económica de empezar con la kettlebell sin renunciar a la calidad de construcción.",
+        body: "La JOWY es de PVC relleno de arena de acero, un detalle que importa más de lo que parece en casa: no daña el suelo al apoyarla, algo determinante si entrenas sobre parquet o baldosa sin una plataforma protectora. Su asa es ergonómica y antideslizante para un agarre seguro incluso con las manos sudadas. Es una de las opciones más asequibles del catálogo y corresponde al peso de entrada masculino estándar, lo que la convierte en una forma económica de empezar con la kettlebell sin renunciar a la calidad de construcción.",
         productSlug: "jowy-kettlebell-pvc-16kg",
       },
       {
@@ -1122,7 +1266,7 @@ const articleContent: Record<string, {
         ["Avanzado/a", "20-24 kg", "Progresión tras dominar los básicos"],
       ],
     },
-    conclusion: "Para la mayoría de los hombres adultos que empiezan, 16 kg es el peso correcto: suficiente para aprender los movimientos con técnica y con margen para progresar durante meses. Para mujeres, entre 8 y 12 kg según el punto de partida. La JOWY a 34,99 euros es la forma más económica de entrar en el mundo de la kettlebell sin comprometer la calidad.",
+    conclusion: "Para la mayoría de los hombres adultos que empiezan, 16 kg es el peso correcto: suficiente para aprender los movimientos con técnica y con margen para progresar durante meses. Para mujeres, entre 8 y 12 kg según el punto de partida. La JOWY es una forma económica de entrar en el mundo de la kettlebell sin comprometer la calidad.",
     faqs: [
       { q: "¿Es mejor la kettlebell de hierro o la de PVC?", a: "La de hierro es el formato clásico y el preferido para uso intensivo, pero daña el suelo si se apoya sin cuidado. La de PVC con relleno de arena, como la JOWY, es más suave con las superficies del hogar y perfectamente válida para el entrenamiento doméstico. La diferencia de rendimiento entre ambas es nula; la diferencia práctica en casa, con un parquet de por medio, es importante." },
       { q: "¿Se puede entrenar solo con kettlebell?", a: "Sí, perfectamente. Muchos programas de fuerza y acondicionamiento se estructuran enteramente alrededor de la kettlebell: sus movimientos balísticos aportan el cardio y los de fuerza trabajan los patrones fundamentales. La única limitación es la variedad de carga: con un solo peso, la progresión tiene un techo que tarde o temprano pide añadir otra kettlebell más pesada o mancuernas." },
@@ -1132,7 +1276,7 @@ const articleContent: Record<string, {
   },
 
   "bandas-elasticas-musculacion-guia": {
-    intro: "Las bandas elásticas son el equipamiento de fuerza con mejor relación entre precio y versatilidad del mercado. Por menos de 15 euros puedes trabajar prácticamente todos los grupos musculares, añadir resistencia a los ejercicios de peso corporal y hacer movilidad y rehabilitación. Esta guía explica cómo elegirlas y cómo usarlas bien para sacarles todo el partido.",
+    intro: "Las bandas elásticas son el equipamiento de fuerza con mejor relación entre precio y versatilidad del mercado. Con una inversión mínima puedes trabajar prácticamente todos los grupos musculares, añadir resistencia a los ejercicios de peso corporal y hacer movilidad y rehabilitación. Esta guía explica cómo elegirlas y cómo usarlas bien para sacarles todo el partido.",
     sections: [
       {
         heading: "Tipos de bandas elásticas",
@@ -1144,7 +1288,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Fokky bandas elásticas: análisis",
-        body: "Las Fokky son de TPE sin látex, lo que las hace aptas para personas con alergia al látex, un argumento que a menudo se pasa por alto hasta que es un problema. Miden 1,8 metros, incluyen los cuatro niveles de resistencia y una bolsa de transporte, y son top 12 en deportes en su categoría. Por 12,99 euros son el primer paso de equipamiento más económico y razonable que existe: cubren un espectro de trabajo amplio por el precio de un par de cafés, y su material aguanta bien los ciclos de estiramiento del uso doméstico.",
+        body: "Las Fokky son de TPE sin látex, lo que las hace aptas para personas con alergia al látex, un argumento que a menudo se pasa por alto hasta que es un problema. Miden 1,8 metros, incluyen los cuatro niveles de resistencia y una bolsa de transporte. Son el primer paso de equipamiento más económico y razonable que existe: cubren un espectro de trabajo amplio por el precio de un par de cafés, y su material aguanta bien los ciclos de estiramiento del uso doméstico.",
         productSlug: "fokky-bandas-elasticas-set-4-tpe",
       },
       {
@@ -1166,7 +1310,7 @@ const articleContent: Record<string, {
         ["Púrpura", "13,6-15,9 kg", "Sentadilla, peso muerto y dominadas asistidas"],
       ],
     },
-    conclusion: "Las bandas elásticas son la forma más barata de empezar a entrenar con resistencia en casa. Las Fokky por 12,99 euros cubren todo el espectro inicial y pueden acompañarte durante meses. Cuando las superes, el siguiente paso natural son las mancuernas o la kettlebell, pero la base que construyes con las bandas es completamente válida y no tiempo perdido.",
+    conclusion: "Las bandas elásticas son la forma más barata de empezar a entrenar con resistencia en casa. Las Fokky cubren todo el espectro inicial y pueden acompañarte durante meses. Cuando las superes, el siguiente paso natural son las mancuernas o la kettlebell, pero la base que construyes con las bandas es completamente válida y no tiempo perdido.",
     faqs: [
       { q: "¿Las bandas elásticas sirven para ganar músculo?", a: "Sí, especialmente al principio. El músculo responde a la tensión mecánica, y la banda la genera perfectamente en todo el recorrido del movimiento. La limitación aparece en usuarios avanzados, donde la resistencia máxima de la banda puede quedarse corta para seguir imponiendo un estímulo suficiente. Para los primeros meses de entrenamiento, sin embargo, son plenamente eficaces." },
       { q: "¿Se pueden romper las bandas elásticas?", a: "Sí, si se deterioran. Las de TPE, como las Fokky, tienen mejor resistencia al desgarro que las de látex y aguantan más ciclos de estiramiento. Para alargar su vida conviene no exponerlas al sol directo, no mantenerlas a tensión máxima de forma constante y sustituirlas en cuanto aparezcan grietas en el material, porque una banda que se rompe en tensión puede provocar un golpe." },
@@ -1176,7 +1320,7 @@ const articleContent: Record<string, {
   },
 
   "entrenamiento-fuerza-casa-equipamiento-minimo": {
-    intro: "Un home gym eficaz no requiere mucho espacio ni mucho dinero. Requiere elegir bien. Con tres piezas de equipamiento bien seleccionadas, que no superan los 110 euros en total, puedes cubrir todos los patrones de movimiento fundamentales y entrenar durante años sin necesitar nada más. Esta guía explica qué comprar y por qué esa combinación concreta funciona.",
+    intro: "Un home gym eficaz no requiere mucho espacio ni mucho dinero. Requiere elegir bien. Con tres piezas de equipamiento bien seleccionadas, con un presupuesto total contenido, puedes cubrir todos los patrones de movimiento fundamentales y entrenar durante años sin necesitar nada más. Esta guía explica qué comprar y por qué esa combinación concreta funciona.",
     sections: [
       {
         heading: "Los cinco patrones de movimiento que necesitas cubrir",
@@ -1184,12 +1328,12 @@ const articleContent: Record<string, {
       },
       {
         heading: "El equipamiento mínimo eficaz",
-        body: "La combinación que cubre los cinco patrones por menos de 110 euros es concreta: las bandas Fokky (12,99 euros), las mancuernas ManiBoom de 15 kg (59,99 euros) y la kettlebell JOWY de 16 kg (34,99 euros), lo que suma 107,97 euros. Las bandas se encargan de los ejercicios de activación, la movilidad y el trabajo de hombro ligero. Las mancuernas cubren el press, el curl, el remo y todo el trabajo unilateral con progresión. Y la kettlebell aporta los swings, el goblet squat y el cardio integrado. Cada pieza tapa un hueco que las otras dos no cubren bien.",
+        body: "La combinación que cubre los cinco patrones con un presupuesto contenido es concreta: las bandas Fokky, las mancuernas ManiBoom de 15 kg y la kettlebell JOWY de 16 kg, tres compras de gama de entrada. Las bandas se encargan de los ejercicios de activación, la movilidad y el trabajo de hombro ligero. Las mancuernas cubren el press, el curl, el remo y todo el trabajo unilateral con progresión. Y la kettlebell aporta los swings, el goblet squat y el cardio integrado. Cada pieza tapa un hueco que las otras dos no cubren bien.",
         productSlug: "maniboom-mancuernas-hexagonales-15kg",
       },
       {
         heading: "Lo que no necesitas",
-        body: "Igual de importante es saber en qué no gastar. No necesitas una barra con pesas: las mancuernas cubren los mismos patrones con más versatilidad y menos volumen para el hogar. No necesitas un banco de pesas: el suelo sirve para el press (el press de suelo incluso protege el hombro) y un sofá para el remo inclinado. Y no necesitas máquinas de cables: las bandas elásticas las sustituyen para el trabajo de tracción y de aislamiento. Evitar estas tres compras te ahorra cientos de euros y varios metros cuadrados sin perder nada relevante.",
+        body: "Igual de importante es saber en qué no gastar. No necesitas una barra con pesas: las mancuernas cubren los mismos patrones con más versatilidad y menos volumen para el hogar. No necesitas un banco de pesas: el suelo sirve para el press (el press de suelo incluso protege el hombro) y un sofá para el remo inclinado. Y no necesitas máquinas de cables: las bandas elásticas las sustituyen para el trabajo de tracción y de aislamiento. Evitar estas tres compras te ahorra mucho dinero y varios metros cuadrados sin perder nada relevante.",
         productSlug: "fokky-bandas-elasticas-set-4-tpe",
       },
       {
@@ -1206,11 +1350,11 @@ const articleContent: Record<string, {
         ["JOWY Kettlebell 16 kg", "Bisagra, cardio y sentadilla", "Complemento clave"],
       ],
     },
-    conclusion: "Por menos de 110 euros tienes equipamiento para cubrir los patrones de movimiento fundamentales durante años. El truco no está en tener mucho, sino en elegir tres piezas que se complementen bien. Cuando ese equipamiento se te quede pequeño, será señal de que has avanzado lo suficiente como para justificar una inversión mayor, como unas mancuernas ajustables.",
+    conclusion: "Con un presupuesto contenido tienes equipamiento para cubrir los patrones de movimiento fundamentales durante años. El truco no está en tener mucho, sino en elegir tres piezas que se complementen bien. Cuando ese equipamiento se te quede pequeño, será señal de que has avanzado lo suficiente como para justificar una inversión mayor, como unas mancuernas ajustables.",
     faqs: [
       { q: "¿Cuánto espacio necesito para este equipamiento?", a: "Las tres piezas juntas caben en una bolsa mediana y se guardan en cualquier armario. Durante el entrenamiento, con 2 por 2 metros de suelo libre es suficiente para ejecutar todos los ejercicios sin problemas. Es una de las grandes ventajas de esta combinación frente a una máquina o una barra: el espacio de almacenamiento es casi nulo." },
-      { q: "¿Puedo ganar músculo con menos de 100 € de equipamiento?", a: "Sí, especialmente en los primeros 6 a 12 meses, cuando el cuerpo responde de forma notable a cualquier estímulo de resistencia nuevo. Las ganancias iniciales de fuerza y masa muscular no requieren pesos máximos, sino progresión constante y buena técnica, y eso se consigue de sobra con bandas, mancuernas y una kettlebell." },
-      { q: "¿Hay un orden recomendado para comprar el equipamiento?", a: "Sí: primero las bandas, a 12,99 euros, que cubren bastante por muy poco y permiten empezar de inmediato. Luego las mancuernas, que amplían el rango de ejercicios con peso libre y progresión. Y por último la kettlebell, que añade el componente funcional y el cardio integrado. Ese orden reparte el gasto y prioriza lo que más rendimiento da por euro al principio." },
+      { q: "¿Puedo ganar músculo con poco equipamiento y poco presupuesto?", a: "Sí, especialmente en los primeros 6 a 12 meses, cuando el cuerpo responde de forma notable a cualquier estímulo de resistencia nuevo. Las ganancias iniciales de fuerza y masa muscular no requieren pesos máximos, sino progresión constante y buena técnica, y eso se consigue de sobra con bandas, mancuernas y una kettlebell." },
+      { q: "¿Hay un orden recomendado para comprar el equipamiento?", a: "Sí: primero las bandas, que cubren bastante por muy poco y permiten empezar de inmediato. Luego las mancuernas, que amplían el rango de ejercicios con peso libre y progresión. Y por último la kettlebell, que añade el componente funcional y el cardio integrado. Ese orden reparte el gasto y prioriza lo que más rendimiento da por lo que cuesta al principio." },
       { q: "¿Qué pasa cuando este equipamiento se queda pequeño?", a: "Es la señal de que has progresado. El siguiente paso natural son unas mancuernas ajustables, como las LULLAX NEO36, que permiten continuar la progresión de carga sin que el espacio ocupado crezca en proporción al peso disponible. Es la evolución lógica del home gym mínimo hacia uno con más recorrido." },
     ],
   },
@@ -1312,7 +1456,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Suelo duro y práctica intensa", "Empezar con todo incluido"],
       ],
     },
-    conclusion: "Dos euros de diferencia y ninguna es mala compra. La TOPLUS gana si quieres saber exactamente qué grosor tienes y practicas sobre suelo duro o con estilos que hacen sudar. La Mente Es Maravillosa gana si quieres llevarte el conjunto resuelto — bolsa, correa y guía en español — desde el primer día.",
+    conclusion: "Misma gama de precio y ninguna es mala compra. La TOPLUS gana si quieres saber exactamente qué grosor tienes y practicas sobre suelo duro o con estilos que hacen sudar. La Mente Es Maravillosa gana si quieres llevarte el conjunto resuelto — bolsa, correa y guía en español — desde el primer día.",
     faqs: [
       { q: "¿Qué grosor de esterilla es mejor para yoga?", a: "Entre 4 y 6 mm es el rango estándar. Con menos de 4 mm las posturas de rodillas son incómodas; con más de 8 mm la esterilla es demasiado blanda para los equilibrios. La TOPLUS de 6 mm está en el límite superior del rango recomendado, lo que la hace especialmente cómoda para trabajo de suelo." },
       { q: "¿Se puede usar la esterilla de yoga para pilates?", a: "Sí. Las esterillas de yoga y pilates son prácticamente intercambiables para uso doméstico. La diferencia está en que el pilates a veces usa accesorios específicos (foam roller, aro) que se usan sobre la esterilla." },
@@ -1569,14 +1713,14 @@ const articleContent: Record<string, {
         ["Servicios", "73", "40"],
         ["Tipo de whey", "Concentrado + aislado", "Concentrado"],
         ["Certificación antidopaje", "Informed Choice", "No especificada"],
-        ["Mejor para", "Calidad y certificación", "Mejor precio por servicio"],
+        ["Mejor para", "Calidad y certificación", "Ajustar el coste por servicio"],
       ],
     },
     conclusion: "El Gold Standard es la proteína para quien ya tiene claro que va a suplementarse regularmente y quiere la mejor combinación de calidad, textura y certificación del mercado. Si estás empezando o el precio es el criterio principal, Myprotein Impact Whey entrega calidad suficiente por mucho menos.",
     faqs: [
       { q: "¿El Gold Standard Whey engorda?", a: "No por sí solo. Es proteína en polvo: 1 g aporta 4 kcal como cualquier otro alimento. Integrada en una dieta equilibrada no engorda; si la añades por encima de las calorías que necesitas, sumará como cualquier otro alimento." },
       { q: "¿La certificación Informed Choice es importante?", a: "Solo si practicas deporte de competición bajo normas antidopaje. Para uso recreativo, la certificación no cambia el rendimiento ni la calidad de la proteína. Para un atleta federado, puede marcar la diferencia entre una sanción y no tenerla." },
-      { q: "¿El sabor Doble Chocolate es el mejor?", a: "Es el más vendido del mundo en proteínas, lo que da una indicación de que funciona para la mayoría. Pero el gusto es subjetivo. Si puedes, prueba el formato pequeño de otro sabor antes de comprar el bote grande." },
+      { q: "¿El sabor Doble Chocolate es el mejor?", a: "Es uno de los sabores más habituales y suele gustar a la mayoría. Pero el gusto es subjetivo. Si puedes, prueba el formato pequeño de otro sabor antes de comprar el bote grande." },
       { q: "¿Cuántos batidos da el bote de 2,26kg?", a: "73 servicios de 30 g. Con un batido diario, el bote dura aproximadamente 2,5 meses." },
     ],
   },
@@ -1678,8 +1822,8 @@ const articleContent: Record<string, {
         body: "La Impact Whey es de las proteínas de calidad verificada más económicas por servicio disponibles en España: el bote de 1 kg da para unos 40 servicios de 21 g. Las marcas premium en el mismo formato suelen costar bastante más, lo que explica buena parte de su popularidad entre quienes empiezan.",
       },
       {
-        heading: "El sabor galletas y crema: por qué es el más vendido",
-        body: "Entre los usuarios de Myprotein, el sabor galletas y crema es consistentemente uno de los más valorados. Se mezcla bien tanto con agua como con leche. Para quien no tiene mucha experiencia con proteínas, es una entrada fácil sin el sabor artificial que tienen algunas marcas.",
+        heading: "El sabor galletas y crema: por qué gusta tanto",
+        body: "Entre los usuarios de Myprotein, el sabor galletas y crema es uno de los que más se repiten. Se mezcla bien tanto con agua como con leche. Para quien no tiene mucha experiencia con proteínas, es una entrada fácil sin el sabor artificial que tienen algunas marcas.",
         productSlug: "myprotein-impact-whey-1kg-galletas",
       },
       {
@@ -1712,11 +1856,11 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "Nivel 0: lo que importa antes que cualquier suplemento",
-        body: "Antes de gastar un euro en suplementos, tres cosas mandan: dormir 7-9 horas, una alimentación equilibrada con suficiente proteína, y constancia en el entrenamiento. Si alguno de estos tres falla, ningún suplemento compensará la diferencia. Los suplementos son el 5% del resultado — el resto es esta base.",
+        body: "Antes de gastar dinero en suplementos, tres cosas mandan: dormir 7-9 horas, una alimentación equilibrada con suficiente proteína, y constancia en el entrenamiento. Si alguno de estos tres falla, ningún suplemento compensará la diferencia. Los suplementos son el 5% del resultado — el resto es esta base.",
       },
       {
         heading: "Nivel 1 — creatina: el único suplemento con evidencia sólida para fuerza",
-        body: "La creatina es el suplemento con mayor respaldo científico para mejorar el rendimiento en fuerza y potencia. Es barata, segura y efectiva. Si solo vas a tomar un suplemento, que sea este: el retorno por euro invertido no lo iguala ningún otro producto.",
+        body: "La creatina es el suplemento con mayor respaldo científico para mejorar el rendimiento en fuerza y potencia. Es barata, segura y efectiva. Si solo vas a tomar un suplemento, que sea este: su relación entre coste y beneficio no la iguala ningún otro producto.",
         productSlug: "myprotein-creatina-monohidrato-250g",
       },
       {
@@ -1807,7 +1951,7 @@ const articleContent: Record<string, {
   },
 
   "mejor-suplemento-pre-entreno": {
-    intro: "El mercado de pre-entrenos mueve cientos de millones de euros al año. Muchos productos prometen energía explosiva, fuerza sobrehumana y concentración máxima. La realidad es más simple y más barata: hay dos ingredientes con evidencia real, el resto es mezcla de cafeína y marketing. Esta guía separa lo que funciona de lo que no.",
+    intro: "El mercado de pre-entrenos mueve muchísimo dinero cada año. Muchos productos prometen energía explosiva, fuerza sobrehumana y concentración máxima. La realidad es más simple y más barata: hay dos ingredientes con evidencia real, el resto es mezcla de cafeína y marketing. Esta guía separa lo que funciona de lo que no.",
     sections: [
       {
         heading: "Los ingredientes con evidencia real",
@@ -1820,7 +1964,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "El pre-entreno más barato y efectivo del mercado",
-        body: "Un café expreso 30 minutos antes de entrenar + 3-5 g de creatina monohidrato mezclados en agua. Coste aproximado: 0,20 € por sesión. Evidencia: la misma que cualquier pre-entreno premium. La cafeína del café funciona igual que la del bote de pre-entreno. La creatina es creatina independientemente del envase. Lo que pagas en un pre-entreno de 40 € es principalmente el marketing, el envase, los ingredientes secundarios sin evidencia y el sabor.",
+        body: "Un café expreso 30 minutos antes de entrenar + 3-5 g de creatina monohidrato mezclados en agua. Coste por sesión: muy bajo. Evidencia: la misma que cualquier pre-entreno premium. La cafeína del café funciona igual que la del bote de pre-entreno. La creatina es creatina independientemente del envase. Lo que pagas de más en un pre-entreno comercial es principalmente el marketing, el envase, los ingredientes secundarios sin evidencia y el sabor.",
         productSlug: "myprotein-creatina-monohidrato-250g",
       },
       {
@@ -1855,7 +1999,7 @@ const articleContent: Record<string, {
       { q: "¿Es malo tomar pre-entreno todos los días?", a: "La cafeína genera tolerancia con el uso diario — necesitarás más cantidad para el mismo efecto. Se recomienda no superar 400 mg de cafeína al día (límite de seguridad para adultos sanos) y hacer descansos periódicos si consumes pre-entreno a diario. Para quienes ya toman café regularmente, el pre-entreno puede no añadir prácticamente ningún efecto estimulante." },
       { q: "¿A qué hora es mejor tomar el pre-entreno?", a: "30-60 minutos antes del entrenamiento para la cafeína. Si entrenas por la tarde-noche, ten en cuenta que la cafeína tiene una vida media de 5-7 horas — una dosis de 200 mg tomada a las 18:00 todavía tiene 100 mg activos a las 23:00-00:00, lo que puede afectar al sueño." },
       { q: "¿Los pre-entrenos son seguros?", a: "Los que contienen solo cafeína y creatina en dosis normales son seguros para adultos sanos. Los que incluyen estimulantes adicionales (sinefrina, DMAA — ya ilegal en Europa, yohimbina) tienen más riesgos cardiovasculares. Lee siempre la composición antes de comprar. Personas con problemas cardíacos, hipertensión o sensibilidad a la cafeína deben consultar con su médico." },
-      { q: "¿Se puede hacer pre-entreno casero?", a: "Sí y es la opción más inteligente económicamente: café espresso (60-80 mg cafeína) + 3-5 g creatina monohidrato en polvo sin sabor mezclada en agua o zumo. Coste por sesión: aproximadamente 0,20-0,30 €. Un pre-entreno comercial cuesta entre 0,80 y 2 € por toma con los mismos ingredientes activos y mucho relleno adicional." },
+      { q: "¿Se puede hacer pre-entreno casero?", a: "Sí y es la opción más inteligente económicamente: café espresso (60-80 mg cafeína) + 3-5 g creatina monohidrato en polvo sin sabor mezclada en agua o zumo. El coste por sesión es mucho menor que el de un pre-entreno comercial, que lleva los mismos ingredientes activos y mucho relleno adicional." },
     ],
   },
 
@@ -1873,7 +2017,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Elíptica vs cinta de correr vs bicicleta estática",
-        body: "Cada aparato responde a un perfil distinto. En impacto articular, la elíptica es la opción de menor impacto de las tres: los pies no se separan de los pedales, por lo que no hay golpe. La cinta implica impacto en cada zancada, y la bici es también sin impacto pero no trabaja el tren superior. En músculos trabajados, la elíptica activa piernas, glúteos, lumbares y brazos simultáneamente; la cinta trabaja sobre todo el tren inferior; la bici principalmente cuádriceps y glúteos. En consumo calórico a intensidad equivalente, la cinta quema ligeramente más porque implica sostener el peso corporal, pero la diferencia es menor de lo que muchos suponen. En ruido, la elíptica magnética es la más silenciosa de las tres en condiciones reales. En precio medio de un modelo doméstico decente, los tres segmentos son similares: 350-500 € para una opción con sentido.",
+        body: "Cada aparato responde a un perfil distinto. En impacto articular, la elíptica es la opción de menor impacto de las tres: los pies no se separan de los pedales, por lo que no hay golpe. La cinta implica impacto en cada zancada, y la bici es también sin impacto pero no trabaja el tren superior. En músculos trabajados, la elíptica activa piernas, glúteos, lumbares y brazos simultáneamente; la cinta trabaja sobre todo el tren inferior; la bici principalmente cuádriceps y glúteos. En consumo calórico a intensidad equivalente, la cinta quema ligeramente más porque implica sostener el peso corporal, pero la diferencia es menor de lo que muchos suponen. En ruido, la elíptica magnética es la más silenciosa de las tres en condiciones reales. En precio medio de un modelo doméstico decente, los tres segmentos son similares: una opción con sentido está en la gama media.",
       },
       {
         heading: "Cuánto espacio necesitas",
@@ -1992,7 +2136,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Material mínimo y material óptimo",
-        body: "Material mínimo para empezar: una esterilla de calidad (imprescindible para el trabajo de suelo) y un set de bandas elásticas con al menos tres niveles de resistencia. Con eso puedes hacer el 80 % de la rutina descrita. El coste total es inferior a 50 euros y ocupa el espacio de una mochila.\n\nMaterial óptimo para progresar: añade mancuernas ajustables en el rango de 2,5 a 15 kg (o hasta 36 kg si prevés una progresión larga) y, para el cardio, una bicicleta estática o una elíptica. La bicicleta y la elíptica son preferibles a la cinta para este perfil porque eliminan el impacto articular que la rodilla y la cadera empiezan a acusar después de los 40.",
+        body: "Material mínimo para empezar: una esterilla de calidad (imprescindible para el trabajo de suelo) y un set de bandas elásticas con al menos tres niveles de resistencia. Con eso puedes hacer el 80 % de la rutina descrita. Es una inversión pequeña y ocupa el espacio de una mochila.\n\nMaterial óptimo para progresar: añade mancuernas ajustables en el rango de 2,5 a 15 kg (o hasta 36 kg si prevés una progresión larga) y, para el cardio, una bicicleta estática o una elíptica. La bicicleta y la elíptica son preferibles a la cinta para este perfil porque eliminan el impacto articular que la rodilla y la cadera empiezan a acusar después de los 40.",
         productSlug: "fokky-bandas-elasticas-set-4-tpe",
       },
       {
@@ -2186,7 +2330,7 @@ const articleContent: Record<string, {
         ["Mejor para", "Presupuesto ajustado, uso ocasional de barra", "Entrenamiento frecuente, comodidad máxima"],
       ],
     },
-    conclusion: "El Mobiclinic ExtenFit es la compra con mejor relación calidad-precio-reseñas del catálogo en mancuernas ajustables: un sistema 2 en 1 sólido, con buena seguridad de sujeción y un precio accesible. Si el presupuesto es la prioridad, esta es la opción correcta. Si el tiempo entrenando es muy frecuente y la comodidad del cambio de peso pesa más que el precio, el JUPPLIES con selector rápido justifica su coste superior.",
+    conclusion: "El Mobiclinic ExtenFit es una compra muy equilibrada dentro de las mancuernas ajustables del catálogo: un sistema 2 en 1 sólido, con buena seguridad de sujeción y un precio accesible. Si el presupuesto es la prioridad, esta es la opción correcta. Si el tiempo entrenando es muy frecuente y la comodidad del cambio de peso pesa más que el precio, el JUPPLIES con selector rápido justifica su coste superior.",
     faqs: [
       { q: "¿El ExtenFit sirve para hacer sentadillas con barra?", a: "La barra de extensión es corta y pensada para ejercicios de tren superior (curl, press, remo). No es una barra olímpica larga apta para sentadillas o peso muerto con carga alta; para eso necesitas un equipo específico." },
       { q: "¿Cuánto tarda en cambiarse el peso?", a: "Requiere aflojar y apretar las tuercas antideslizantes en cada mancuerna para añadir o quitar discos, unos 30-60 segundos por cambio, más lento que un sistema de selector rápido pero mucho más económico." },
@@ -2372,7 +2516,7 @@ const articleContent: Record<string, {
     ],
   },
   "rodillo-espuma-foam-roller-como-usar": {
-    intro: "El rodillo de espuma (foam roller) se ha convertido en el accesorio de recuperación más vendido para entrenar en casa, y también en uno de los más sobrevendidos. Se le atribuye de todo: eliminar toxinas, romper adherencias, deshacer nudos o prevenir lesiones. La investigación dibuja un cuadro más modesto pero útil: el rodillo mejora de forma temporal la movilidad y reduce la sensación de dolor muscular tras entrenar, con efectos pequeños sobre el rendimiento. Esta guía resume qué dicen los metaanálisis, cómo usarlo antes y después de entrenar, los errores más habituales y qué tipo de rodillo encaja con cada perfil.",
+    intro: "El rodillo de espuma (foam roller) se ha convertido en uno de los accesorios de recuperación más populares para entrenar en casa, y también en uno de los más sobrevendidos. Se le atribuye de todo: eliminar toxinas, romper adherencias, deshacer nudos o prevenir lesiones. La investigación dibuja un cuadro más modesto pero útil: el rodillo mejora de forma temporal la movilidad y reduce la sensación de dolor muscular tras entrenar, con efectos pequeños sobre el rendimiento. Esta guía resume qué dicen los metaanálisis, cómo usarlo antes y después de entrenar, los errores más habituales y qué tipo de rodillo encaja con cada perfil.",
     sections: [
       {
         heading: "Qué hace realmente un rodillo de espuma (y qué no)",
@@ -2500,7 +2644,7 @@ const AUTHOR = {
   "@type": "Organization",
   name: "Equipo Editorial de FitnessFácil.es",
   url: "https://www.fitnessfacil.es/sobre-nosotros",
-  description: "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas antes de recomendar equipamiento fitness, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+  description: "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas y características antes de recomendar equipamiento fitness, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: ["entrenamiento en casa", "equipamiento fitness", "cintas de correr", "nutrición deportiva", "pérdida de peso", "suplementación deportiva"],
 };
 
@@ -2598,7 +2742,7 @@ const AUTHOR = {
 
         {content && (
           <article>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">{content.intro}</p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">{richText(content.intro)}</p>
 
             {content.sections.map((section) => {
               const found = section.productSlug ? getProductBySlug(section.productSlug) : undefined;
@@ -2606,7 +2750,7 @@ const AUTHOR = {
               return (
                 <section key={section.heading} className="mb-8">
                   <h2 className="text-xl font-extrabold text-gray-900 mb-3">{section.heading}</h2>
-                  <p className="text-gray-700 leading-relaxed">{section.body}</p>
+                  <p className="text-gray-700 leading-relaxed">{richText(section.body)}</p>
                   {ctaProduct && (
                     <a
                       href={amazonLink(ctaProduct.asin)}
@@ -2672,7 +2816,7 @@ const AUTHOR = {
 
             <section className="mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5">
               <h2 className="text-lg font-extrabold text-gray-900 mb-3">{content.conclusionHeading || "Conclusión"}</h2>
-              <p className="text-gray-700 leading-relaxed">{content.conclusion}</p>
+              <p className="text-gray-700 leading-relaxed">{richText(content.conclusion)}</p>
             </section>
             {content.sources && content.sources.length > 0 && (
               <div className="mt-2 mb-6 pt-3 border-t border-gray-100">

@@ -35,7 +35,7 @@ export default function ProductCard({ product }: { product: Product }) {
           href={`/tienda/${product.categorySlug}/${product.slug}`}
           className="block text-center border border-green-600 text-green-700 hover:bg-green-50 font-semibold py-2.5 px-3 rounded-lg transition-colors text-sm"
         >
-          Ver análisis y precio →
+          Ver análisis →
         </Link>
       </div>
     </div>
