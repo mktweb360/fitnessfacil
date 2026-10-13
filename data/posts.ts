@@ -13,6 +13,60 @@ export type Post = {
 };
 
 export const posts: Post[] = [
+  // Temporada 2026: Black Friday (27/11), Cyber Monday (30/11), Navidad y Reyes.
+  {
+    slug: "black-friday-fitness-en-casa",
+    title: "Black Friday 2026 para entrenar en casa: qué comprar y qué evitar",
+    excerpt:
+      "Qué material de fitness en casa merece la pena comprar en el Black Friday del 27 de noviembre y el Cyber Monday del 30: cintas, bicicletas, mancuernas ajustables y suplementos que ya tomas, qué datos revisar en cada ficha y qué compras evitar.",
+    date: "2026-10-13",
+    category: "Guías de compra",
+    readTime: "8 min",
+    isSupplement: true,
+    relatedProducts: [
+      "toputure-cinta-correr-plegable-12-inclinacion-16kmh",
+      "walkingpad-z1-cinta-andar-plegable",
+      "toputure-bicicleta-estatica-volante-15kg-app",
+      "vannect-bicicleta-estatica-plegable-16-niveles",
+      "jupplies-mancuernas-15-niveles-24kg",
+      "pasyou-banco-pesas-plegable-10-posiciones",
+      "hsn-creatina-monohidrato-200-mesh-500g",
+      "hsn-whey-protein-isolate-sin-sabor-2kg",
+    ],
+    relatedPosts: [
+      "regalos-fitness-navidad",
+      "mejor-cinta-correr-casa-2025",
+      "mejor-bicicleta-estatica-casa-2025",
+      "mancuernas-ajustables-vs-fijas",
+    ],
+    categoryCta: { href: "/tienda", text: "Ver todo el material para entrenar en casa →" },
+  },
+  {
+    slug: "regalos-fitness-navidad",
+    title: "Regalos para quien entrena en casa: ideas para Navidad y Reyes 2026",
+    excerpt:
+      "Ideas de regalo para Navidad y Reyes para quien entrena en casa, ordenadas por presupuesto (del detalle al regalo grande) y por perfil: quien empieza, fuerza, yoga y pilates o cardio. Con consejos para acertar con tallas, pesos y medidas.",
+    date: "2026-10-13",
+    category: "Guías de compra",
+    readTime: "8 min",
+    relatedProducts: [
+      "acupoint-pelotas-masaje-miofascial-set-2",
+      "portentum-gomas-set-10-anclaje-puerta",
+      "jupplies-mancuernas-15-niveles-24kg",
+      "proiron-kettlebell-neopreno-12kg",
+      "athleticpro-barra-dominadas-marco-puerta",
+      "divasya-esterilla-yoga-corcho-caucho-natural",
+      "bodymate-rodillo-miofascial-45cm-dureza-media",
+      "walkingpad-z1-cinta-andar-plegable",
+    ],
+    relatedPosts: [
+      "black-friday-fitness-en-casa",
+      "rodillo-espuma-foam-roller-como-usar",
+      "bandas-elasticas-musculacion-guia",
+      "mejor-esterilla-yoga-casa-2025",
+    ],
+    categoryCta: { href: "/tienda", text: "Ver todo el material para entrenar en casa →" },
+  },
   {
     slug: "mejor-cinta-correr-casa-2025",
     image: "/images/blog/mejor-cinta-correr-casa-2025.jpg",
