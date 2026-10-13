@@ -50,11 +50,22 @@ function richText(text: string): ReactNode {
   return out;
 }
 
-// productSlug (opcional) engancha un CTA de afiliado al final de la sección.
-type ArticleSection = { heading: string; body: string; productSlug?: string };
+// productSlug (opcional) engancha un CTA de afiliado al final de la sección;
+// productSlugs (opcional) añade un botón más por cada producto destacado en el texto.
+type ArticleSection = { heading: string; body: string; productSlug?: string; productSlugs?: string[] };
+
+// Bloque opcional de recomendaciones rápidas tras la intro (producto + una frase).
+type QuickPick = { productSlug: string; text: string };
+
+function availableProducts(slugs: (string | undefined)[]) {
+  return slugs
+    .map((s) => (s ? getProductBySlug(s) : undefined))
+    .filter((p): p is NonNullable<typeof p> => !!p && !p.unavailable);
+}
 
 const articleContent: Record<string, {
   intro: string;
+  quickPicks?: QuickPick[];
   sections: ArticleSection[];
   comparison?: { headers: string[]; rows: string[][] };
   comparisonHeading?: string;
@@ -67,6 +78,11 @@ const articleContent: Record<string, {
 }> = {
   "black-friday-fitness-en-casa": {
     intro: "El Black Friday cae este año el viernes 27 de noviembre de 2026 y el Cyber Monday, el lunes 30. Para quien entrena en casa es un buen momento para hacer la compra grande que lleva meses posponiendo (una cinta, una bicicleta, unas mancuernas ajustables) o para reponer los suplementos que ya toma. También es el momento en que más fácil resulta comprar algo que acaba sin usarse. En esta guía no vas a encontrar porcentajes ni precios: cambian cada día y lo que cuenta es el que veas en Amazon al comprar. Lo que sí encontrarás es qué material merece la pena, qué datos revisar en cada ficha y qué compras conviene evitar.",
+    quickPicks: [
+      { productSlug: "toputure-cinta-correr-plegable-12-inclinacion-16kmh", text: "Para correr de verdad en casa: hasta 16 km/h, inclinación regulable, 130 kg de carga y llega montada." },
+      { productSlug: "toputure-bicicleta-estatica-volante-15kg-app", text: "Bicicleta con volante de 15 kg, transmisión por correa y compatible con Zwift, Kinomap y FitShow." },
+      { productSlug: "jupplies-mancuernas-15-niveles-24kg", text: "Mancuernas ajustables de 2 a 24 kg por unidad en 15 niveles, con selector rápido y bloqueo de seguridad." },
+    ],
     sections: [
       {
         heading: "Cómo aprovechar el Black Friday sin comprar de más",
@@ -75,22 +91,26 @@ const articleContent: Record<string, {
       {
         heading: "Cintas de correr y de andar: primero decide si vas a correr",
         body: "Es la compra en la que más se acierta o se falla, porque una cinta de andar y una de correr no son intercambiables. Si quieres caminar mientras trabajas o sumar pasos en casa, una cinta de andar como la WalkingPad Z1 (de 1 a 6 km/h, plegado de 180°, menos de 45 dB y llega montada) o la MERACH T21 (de 2 a 6 km/h, 13 kg de peso y hasta 120 kg de usuario) cubren ese uso y ocupan poco. Si vas a correr de verdad, necesitas más velocidad y más banda: la TOPUTURE plegable llega a 16 km/h, tiene inclinación de hasta el 12 %, motor de 2,5 CV, banda de 104 × 42 cm y soporta 130 kg. Antes de comprar, compara la carga máxima con tu peso dejando margen y mide el sitio donde la vas a usar y donde la vas a guardar. Tienes más detalle en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025) y en [la de cintas de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio).",
-        productSlug: "toputure-cinta-correr-plegable-12-inclinacion-16kmh",
+        productSlug: "walkingpad-z1-cinta-andar-plegable",
+        productSlugs: ["merach-t21-cinta-andar-3-en-1"],
       },
       {
         heading: "Bicicletas estáticas: plegable o con volante pesado",
         body: "Aquí la decisión es entre espacio y sensación de pedaleo. Una bicicleta plegable tipo X-Bike como la VANNECT (16 niveles de resistencia magnética, pantalla LCD con pulso y soporte para tablet) se guarda en un rincón y es suficiente para cardio suave o moderado. Si vas a hacer sesiones largas o clases tipo spinning, una bicicleta con volante pesado da un pedaleo más continuo: la Toputure con volante de 15 kg, transmisión por correa y compatibilidad con Zwift, Kinomap y FitShow, o la MERACH con volante de hierro fundido, app propia gratuita y ajuste para alturas de 1,50 a 1,95 m. Comprueba siempre el rango de altura de usuario y si llega montada o hay que montarla. Más criterios en [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025) y en [ergómetro frente a bicicleta estática](/blog/ergometro-vs-bicicleta-estatica).",
-        productSlug: "toputure-bicicleta-estatica-volante-15kg-app",
+        productSlug: "vannect-bicicleta-estatica-plegable-16-niveles",
+        productSlugs: ["merach-bicicleta-estatica-volante-hierro-app"],
       },
       {
         heading: "Mancuernas ajustables y banco: la compra de fuerza con más recorrido",
         body: "Unas mancuernas ajustables sustituyen a varios pares fijos y son de lo que más uso da en casa, por eso suelen ser una compra sensata en estas fechas. Fíjate en el rango por unidad y en cómo se cambia el peso: las JUPPLIES van de 2 a 24 kg por unidad en 15 niveles con selector rápido y bloqueo de seguridad; las PowerBlock Sport 24, de 2,3 a 11 kg por unidad en 9 ajustes y estructura de acero; y el kit Yaheetech, con 16 discos y 2 barras cortas, llega a 30 kg en total con el formato clásico de rosca. Si ya tienes mancuernas, el siguiente paso lógico es un banco: el PASYOU es plegable, tiene 10 posiciones de respaldo y pesa 11 kg. Para elegir bien, consulta [mancuernas ajustables o fijas](/blog/mancuernas-ajustables-vs-fijas), [los tipos de pesas](/blog/tipos-de-pesas-cual-elegir-casa-gimnasio) y [el equipamiento mínimo para fuerza en casa](/blog/entrenamiento-fuerza-casa-equipamiento-minimo).",
-        productSlug: "jupplies-mancuernas-15-niveles-24kg",
+        productSlug: "powerblock-sport-24-mancuernas-ajustables",
+        productSlugs: ["pasyou-banco-pesas-plegable-10-posiciones"],
       },
       {
         heading: "Suplementos: reponer lo que ya tomas, no probar a lo grande",
         body: "Si ya tomas creatina o proteína y te sienta bien, el Black Friday es buen momento para reponer en formato grande. Si nunca la has probado, empieza por un formato pequeño. En creatina, busca monohidrato y mira la dosis por servicio: la HSN 200 mesh (500 g, 3 g de dosis diaria, sin aditivos y fabricada en España) o la Optimum Nutrition micronizada (634 g, 3,4 g por cacito, sin sabor). En proteína, la HSN Whey Protein Isolate de 2 kg es una aislada sin sabor con un 93 % de proteína y menos lactosa que una concentrada. Antes de comprar en cantidad, revisa la fecha de consumo preferente al recibirlo. Si tienes dudas sobre cuánto necesitas, lee [cuánta proteína tomar al día](/blog/cuanta-proteina-al-dia-segun-objetivo) y [la guía de creatina monohidrato](/blog/creatina-monohidrato-guia-completa), y consulta con un profesional sanitario si tienes alguna condición médica.",
         productSlug: "hsn-creatina-monohidrato-200-mesh-500g",
+        productSlugs: ["optimum-nutrition-creatina-micronizada-634g", "hsn-whey-protein-isolate-sin-sabor-2kg"],
       },
       {
         heading: "Qué conviene evitar estos días",
@@ -126,6 +146,11 @@ const articleContent: Record<string, {
   },
   "regalos-fitness-navidad": {
     intro: "Regalar material de deporte a alguien que entrena en casa parece fácil hasta que toca elegir: no sabes qué tiene, cuánto espacio le queda ni si de verdad lo va a usar. Esta guía reúne ideas para Navidad (25 de diciembre) y Reyes (6 de enero) ordenadas de dos formas: por presupuesto, del detalle pequeño al regalo grande, y por perfil, según la persona empiece, entrene fuerza, practique yoga o pilates o haga cardio. Todos los productos están en nuestro catálogo con su ficha y su enlace a Amazon.",
+    quickPicks: [
+      { productSlug: "portentum-gomas-set-10-anclaje-puerta", text: "Sirve para cualquier nivel: 10 piezas con asas, anclaje de puerta y bolsa, y 4 niveles de resistencia." },
+      { productSlug: "bodymate-rodillo-miofascial-45cm-dureza-media", text: "Rodillo de dureza media para iniciarse en el automasaje, con guía de ejercicios en PDF." },
+      { productSlug: "jupplies-mancuernas-15-niveles-24kg", text: "Para quien ya entrena fuerza: de 2 a 24 kg por unidad, con cambio de peso en segundos." },
+    ],
     sections: [
       {
         heading: "Antes de elegir: tres preguntas que evitan un regalo inútil",
@@ -135,26 +160,31 @@ const articleContent: Record<string, {
         heading: "Detalles pequeños que sí se usan",
         body: "Para un amigo invisible o un detalle, lo más seguro es material de recuperación y accesorios. El set de 2 pelotas de masaje Acupoint, del tamaño de una pelota de lacrosse, llega a zonas donde un rodillo no es práctico: planta del pie, glúteo medio y la zona entre los omóplatos. Los guantes flintronic tienen muñequera ajustable con velcro y se venden en varias tallas (M, L, NEW L y XL), así que conviene saber la talla. Y las mini bandas de tela PORTENTUM, un set de 3 niveles de resistencia, sirven para activar cadera y glúteo antes de entrenar. Si quieres saber cómo se usan, tienes [la guía del rodillo de espuma](/blog/rodillo-espuma-foam-roller-como-usar) y [las bandas de resistencia del catálogo](/tienda/bandas-resistencia).",
         productSlug: "acupoint-pelotas-masaje-miofascial-set-2",
+        productSlugs: ["flintronic-guantes-entrenamiento-munequeras", "portentum-cintas-elasticas-tela-set-3"],
       },
       {
         heading: "Para quien empieza: material versátil que ocupa poco",
         body: "Quien está empezando a entrenar en casa agradece material que sirva para muchos ejercicios. El set de 10 gomas PORTENTUM incluye asas, anclaje de puerta y bolsa, con 4 niveles de resistencia, y permite imitar ejercicios de polea de gimnasio. La esterilla YOGATI, de 6 mm, lleva líneas de alineación impresas que ayudan a colocar bien el cuerpo y se guarda con su correa. Y una kettlebell de 8 kg como la de Amazon Basics, de hierro fundido de una pieza con asa ancha, es un buen punto de partida. Para sacarles partido, lee [la guía de bandas elásticas para musculación](/blog/bandas-elasticas-musculacion-guia) y [qué peso de kettlebell elegir para empezar](/blog/kettlebell-para-empezar-peso).",
-        productSlug: "portentum-gomas-set-10-anclaje-puerta",
+        productSlug: "yogati-esterilla-lineas-alineacion",
+        productSlugs: ["amazon-basics-kettlebell-hierro-fundido-8kg"],
       },
       {
         heading: "Para quien entrena fuerza",
         body: "Si ya entrena con pesas, el regalo con más recorrido son unas mancuernas ajustables: las JUPPLIES van de 2 a 24 kg por unidad en 15 niveles, con selector rápido y bloqueo de seguridad. Si ya tiene mancuernas, el banco PASYOU, plegable y con 10 posiciones de respaldo, multiplica los ejercicios posibles. Para quien quiere hacer dominadas, la barra AthleticPro se cuelga del marco de la puerta sin taladrar, pero solo sirve para marcos de 70 a 92 cm: mídelo antes. Como regalo medio, la kettlebell PROIRON de 12 kg está forrada de neopreno, hace menos ruido y protege el suelo; y el chaleco lastrado PROIRON permite añadir hasta 10 kg con bolsitas extraíbles. Más contexto en [si merecen la pena las mancuernas ajustables](/blog/mancuernas-ajustables-merece-pena) y en [cómo conseguir la primera dominada](/blog/primera-dominada-banda-asistencia-progresion).",
-        productSlug: "jupplies-mancuernas-15-niveles-24kg",
+        productSlug: "pasyou-banco-pesas-plegable-10-posiciones",
+        productSlugs: ["athleticpro-barra-dominadas-marco-puerta", "proiron-kettlebell-neopreno-12kg"],
       },
       {
         heading: "Para yoga, pilates y movilidad",
         body: "Una buena esterilla es el regalo clásico, pero conviene elegir según el uso. Para pilates y ejercicios de suelo, la ProsourceFit de 13 mm de espuma NBR protege rodillas y columna. Para yoga, la DIVASYA de corcho natural y caucho, sin PVC ni TPE, tiene formato extra ancho de 183 × 66 cm y un agarre que mejora con el sudor. Y para completar, el rodillo BODYMATE de 45 × 15 cm y dureza media es una opción cómoda para iniciarse en el automasaje e incluye una guía de ejercicios en PDF. Compara modelos en [la guía de la mejor esterilla de yoga](/blog/mejor-esterilla-yoga-casa-2025) y en [la guía de pilates en casa para principiantes](/blog/pilates-casa-principiantes-guia).",
         productSlug: "divasya-esterilla-yoga-corcho-caucho-natural",
+        productSlugs: ["prosourcefit-esterilla-extra-gruesa-13mm"],
       },
       {
         heading: "Regalos grandes para hacer cardio en casa",
         body: "Una cinta o una bicicleta son regalos para hacer en común o con la persona al tanto, nunca por sorpresa: ocupan espacio y hay que elegirlas por medidas. Para caminar en casa o bajo el escritorio, la WalkingPad Z1 (de 1 a 6 km/h, plegado de 180°, menos de 45 dB y mando a distancia) o la MERACH T21, más ligera (13 kg) y con hasta 120 kg de usuario. Para pedalear, la VANNECT plegable con 16 niveles de resistencia magnética ocupa muy poco guardada, y la Toputure con volante de 15 kg y compatibilidad con Zwift y Kinomap está pensada para sesiones más exigentes. Antes de decidir, revisa [las cintas de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio), [la guía de bicicletas estáticas](/blog/mejor-bicicleta-estatica-casa-2025) y las categorías de [cintas](/tienda/cintas-correr) y [bicicletas](/tienda/bicicletas-estaticas).",
         productSlug: "walkingpad-z1-cinta-andar-plegable",
+        productSlugs: ["merach-t21-cinta-andar-3-en-1", "vannect-bicicleta-estatica-plegable-16-niveles"],
       },
       {
         heading: "Suplementos: mejor no como regalo sorpresa",
@@ -2744,22 +2774,58 @@ const AUTHOR = {
           <article>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">{richText(content.intro)}</p>
 
+            {content.quickPicks && (() => {
+              const picks = content.quickPicks
+                .map((qp) => ({ qp, product: getProductBySlug(qp.productSlug) }))
+                .filter((x) => x.product && !x.product.unavailable);
+              if (picks.length === 0) return null;
+              return (
+                <section className="mb-10 bg-orange-50 border border-orange-200 rounded-xl p-5">
+                  <h2 className="text-xl font-extrabold text-gray-900 mb-4">Nuestras {picks.length} recomendaciones rápidas</h2>
+                  <ul className="space-y-4">
+                    {picks.map(({ qp, product }) => (
+                      <li key={qp.productSlug} className="flex flex-col sm:flex-row sm:items-center gap-3 bg-white border border-orange-100 rounded-lg p-4">
+                        <div className="flex-1">
+                          <Link href={`/tienda/${product!.categorySlug}/${product!.slug}`} className="font-bold text-gray-900 hover:text-green-700">
+                            {product!.name}
+                          </Link>
+                          <p className="text-sm text-gray-600 mt-1">{qp.text}</p>
+                        </div>
+                        <a
+                          href={amazonLink(product!.asin)}
+                          target="_blank"
+                          rel="nofollow sponsored noopener noreferrer"
+                          className="shrink-0 text-center bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
+                        >
+                          Ver en Amazon →
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              );
+            })()}
+
             {content.sections.map((section) => {
-              const found = section.productSlug ? getProductBySlug(section.productSlug) : undefined;
-              const ctaProduct = found && !found.unavailable ? found : undefined;
+              const ctaProducts = availableProducts([section.productSlug, ...(section.productSlugs ?? [])]);
               return (
                 <section key={section.heading} className="mb-8">
                   <h2 className="text-xl font-extrabold text-gray-900 mb-3">{section.heading}</h2>
                   <p className="text-gray-700 leading-relaxed">{richText(section.body)}</p>
-                  {ctaProduct && (
-                    <a
-                      href={amazonLink(ctaProduct.asin)}
-                      target="_blank"
-                      rel="nofollow sponsored noopener noreferrer"
-                      className="inline-block mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
-                    >
-                      Ver {ctaProduct.name}
-                    </a>
+                  {ctaProducts.length > 0 && (
+                    <div className="mt-4 flex flex-wrap gap-3">
+                      {ctaProducts.map((ctaProduct) => (
+                        <a
+                          key={ctaProduct.slug}
+                          href={amazonLink(ctaProduct.asin)}
+                          target="_blank"
+                          rel="nofollow sponsored noopener noreferrer"
+                          className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
+                        >
+                          Ver {ctaProduct.name}
+                        </a>
+                      ))}
+                    </div>
                   )}
                 </section>
               );
