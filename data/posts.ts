@@ -515,7 +515,7 @@ export const posts: Post[] = [
     image: "/images/blog/entrenamiento-fuerza-casa-equipamiento-minimo.jpg",
     title: "Entrenamiento de fuerza en casa con equipamiento mínimo",
     excerpt:
-      "Cómo montar un home gym eficaz con menos de 100€: qué equipamiento necesitas realmente, qué es prescindible y cómo estructurar el entrenamiento.",
+      "Cómo montar un home gym eficaz con poco presupuesto: qué equipamiento necesitas realmente, qué es prescindible y cómo estructurar el entrenamiento.",
     date: "2025-07-17",
     category: "Fuerza",
     readTime: "8 min",
@@ -655,7 +655,7 @@ export const posts: Post[] = [
     image: "/images/blog/on-gold-standard-whey-analisis.jpg",
     title: "Optimum Nutrition Gold Standard Whey: análisis completo",
     excerpt:
-      "Análisis detallado del Gold Standard Whey de Optimum Nutrition: qué lo hace el más vendido del mundo, para quién es ideal y si justifica el precio.",
+      "Análisis detallado del Gold Standard Whey de Optimum Nutrition: qué lo ha convertido en una referencia, para quién es ideal y si justifica el precio.",
     date: "2025-07-25",
     category: "Nutrición",
     readTime: "8 min",
@@ -887,7 +887,7 @@ export const posts: Post[] = [
     slug: "mobiclinic-extenfit-mancuernas-analisis",
     title: "Mobiclinic ExtenFit: análisis completo de las mancuernas ajustables 2 en 1",
     excerpt:
-      "Analizamos el kit de mancuernas ajustables más valorado del catálogo: cómo funciona el sistema 2 en 1, para quién tiene sentido y sus limitaciones reales.",
+      "Analizamos el kit de mancuernas ajustables Mobiclinic ExtenFit: cómo funciona el sistema 2 en 1, para quién tiene sentido y sus limitaciones reales.",
     date: "2026-09-07",
     category: "Fuerza",
     readTime: "8 min",

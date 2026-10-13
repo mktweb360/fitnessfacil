@@ -11,26 +11,23 @@ import OffersSlider, { type OfferSlide } from "@/components/OffersSlider";
 const offerSlides: OfferSlide[] = [
   {
     image: "/images/products/walkingpad-r2-cinta-plegable.jpg",
-    badge: "Más vendida",
+    badge: "Plegable",
     title: "WalkingPad R2 Cinta Plegable",
     subtitle: "Cinta de andar plegable ideal para entrenar en casa",
-    price: "€399,00",
     href: "/tienda/cintas-correr/walkingpad-r2-cinta-plegable",
   },
   {
     image: "/images/products/lullax-neo36-mancuernas-ajustables.jpg",
-    badge: "Top calidad",
+    badge: "Ajustables",
     title: "Lullax Neo36 Mancuernas Ajustables",
     subtitle: "Set de mancuernas ajustables para entrenar con múltiples pesos",
-    price: "€349,00",
     href: "/tienda/pesas-mancuernas/lullax-neo36-mancuernas-ajustables",
   },
   {
     image: "/images/products/la-mente-es-maravillosa-esterilla-tpe.jpg",
-    badge: "Nº1 en ventas",
+    badge: "Para principiantes",
     title: "Esterilla de Yoga TPE",
     subtitle: "Antideslizante y cómoda para yoga, pilates y estiramientos",
-    price: "€29,99",
     href: "/tienda/esterillas-yoga/la-mente-es-maravillosa-esterilla-tpe",
   },
 ];
@@ -87,7 +84,7 @@ export default function HomePage() {
       {/* CATEGORIES + OFERTAS DESTACADAS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-2">Categorías y ofertas destacadas</h2>
-        <p className="text-gray-600 mb-8">Encuentra el equipamiento perfecto para tu objetivo o descubre lo mejor valorado</p>
+        <p className="text-gray-600 mb-8">Encuentra el equipamiento perfecto para tu objetivo o descubre nuestra selección</p>
         <div className="flex flex-col md:flex-row gap-6 items-stretch">
           {/* Menú vertical de categorías — 25% */}
           <aside className="w-full md:w-1/4 flex-shrink-0">
@@ -124,7 +121,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-8">
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900">Productos destacados</h2>
-              <p className="text-gray-600 mt-1">Los mejor valorados por nuestra comunidad</p>
+              <p className="text-gray-600 mt-1">Una selección de nuestro catálogo</p>
             </div>
             <Link href="/tienda" className="text-green-700 hover:text-green-900 font-semibold text-sm hidden sm:block">
               Ver todo →
@@ -191,7 +188,7 @@ export default function HomePage() {
             <div className="p-6">
               <div className="text-4xl mb-3">🇪🇸</div>
               <h3 className="font-bold text-lg mb-2">Para el mercado español</h3>
-              <p className="text-gray-600 text-sm">Precios en euros, productos disponibles online y envío rápido.</p>
+              <p className="text-gray-600 text-sm">Productos disponibles en Amazon.es y guías pensadas para entrenar en casa en España.</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-3">💯</div>

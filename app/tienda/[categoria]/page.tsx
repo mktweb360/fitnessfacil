@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const buyingGuides: Record<string, { intro: string; middle: string; conclusion: string }> = {
   "cintas-correr": {
     intro:
-      "Una cinta de correr en casa elimina la excusa del tiempo o el mal tiempo para salir a correr. El mercado español ofrece opciones desde 300€ hasta más de 1.000€, con diferencias significativas en motor, superficie y características. La elección correcta depende de tu peso, velocidad habitual de carrera y el espacio disponible.",
+      "Una cinta de correr en casa elimina la excusa del tiempo o el mal tiempo para salir a correr. El mercado español ofrece opciones de gama de entrada, media y alta, con diferencias significativas en motor, superficie y características. La elección correcta depende de tu peso, velocidad habitual de carrera y el espacio disponible.",
     middle:
       "Para uso doméstico moderado (30-45 min, 3-4 veces/semana, velocidad hasta 10-12 km/h), una cinta con motor de 1.5-2.0 CV y superficie de 40x110 cm es más que suficiente. Si corres regularmente a más de 12 km/h o pesas más de 90 kg, invierte en motor de 2.0+ CV y superficie de 50x140 cm mínimo. Las cintas plegables como la WalkingPad son perfectas para pisos pequeños: se guardan debajo de la cama y pesan menos de 30 kg.",
     conclusion:
@@ -33,7 +33,7 @@ const buyingGuides: Record<string, { intro: string; middle: string; conclusion: 
   },
   "bicicletas-estaticas": {
     intro:
-      "Las bicicletas estáticas son el equipamiento cardio más vendido en España para uso doméstico. Silenciosas, sin impacto y efectivas para quemar calorías, son ideales para pisos donde una cinta sería molesta para los vecinos. La elección entre bicicleta estática clásica, con app o mini-escritorio depende de tus objetivos y del espacio disponible.",
+      "Las bicicletas estáticas son uno de los equipos de cardio más habituales en casa. Silenciosas, sin impacto y efectivas para quemar calorías, son ideales para pisos donde una cinta sería molesta para los vecinos. La elección entre bicicleta estática clásica, con app o mini-escritorio depende de tus objetivos y del espacio disponible.",
     middle:
       "Para quemar calorías con cardio suave: la Sportstech X100-C (plegable, con LCD y cuerdas de fuerza integradas) o la MERACH (silenciosa con app y soporte hasta 136 kg). Para entrenamientos progresivos con 8 niveles de resistencia: la Sportstech X150. Si trabajas desde casa y quieres moverte mientras estás sentado sin interrumpir el trabajo, la Sportstech DFX70 mini-escritorio es una categoría aparte. El volante de inercia es el factor clave: más kg = movimiento más suave y natural.",
     conclusion:
@@ -59,7 +59,7 @@ const buyingGuides: Record<string, { intro: string; middle: string; conclusion: 
     intro:
       "Los suplementos deportivos pueden ayudarte a alcanzar tus objetivos de fitness, pero no son imprescindibles para la mayoría de personas. La proteína whey es el suplemento con mayor evidencia científica para recuperación muscular, y la creatina es el más estudiado para mejorar la fuerza. Antes de cualquier suplemento, consulta con tu médico.",
     middle:
-      "La proteína whey es útil si no alcanzas tu objetivo proteico solo con la dieta (1.6-2.2g por kg de peso corporal). Los concentrados de whey como Optimum Nutrition ofrecen sabor superior y mayor palatabilidad; los de Myprotein ofrecen la mejor relación gramos de proteína por euro. La creatina monohidrato es el suplemento más seguro y eficaz para mejorar rendimiento en ejercicios de alta intensidad de menos de 30 segundos.",
+      "La proteína whey es útil si no alcanzas tu objetivo proteico solo con la dieta (1.6-2.2g por kg de peso corporal). Los concentrados de whey como Optimum Nutrition ofrecen sabor superior y mayor palatabilidad; los de Myprotein destacan por un coste por ración contenido. La creatina monohidrato es el suplemento más seguro y eficaz para mejorar rendimiento en ejercicios de alta intensidad de menos de 30 segundos.",
     conclusion:
       "Para proteína, Optimum Nutrition Gold Standard 2.26 kg es la referencia mundial en sabor y calidad; Myprotein Impact Whey 1 kg es la mejor relación calidad-precio para consumo diario. Para creatina, Myprotein Creatina Monohidrato en polvo 250 g es una de las opciones más puras del mercado. Recuerda: los suplementos solo aportan valor sobre una base sólida de entrenamiento y nutrición.",
   },

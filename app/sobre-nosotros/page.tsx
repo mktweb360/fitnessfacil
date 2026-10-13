@@ -13,7 +13,7 @@ const personSchema = {
   "@type": "Organization",
   name: "Equipo Editorial de FitnessFácil.es",
   description:
-    "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones de compradores verificadas para recomendar equipamiento fitness, con apoyo de herramientas de IA en el proceso de investigación y redacción, siempre bajo revisión editorial.",
+    "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas y características para recomendar equipamiento fitness, con apoyo de herramientas de IA en el proceso de investigación y redacción, siempre bajo revisión editorial.",
   url: "https://www.fitnessfacil.es/sobre-nosotros",
   parentOrganization: {
     "@type": "Organization",
@@ -94,7 +94,7 @@ export default function SobreNosotrosPage() {
               Mkt Web 360 SLU
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-3">
-              Nuestro equipo compara especificaciones técnicas, precios y opiniones de compradores verificadas antes de recomendar cualquier producto. Usamos herramientas de inteligencia artificial como apoyo en la investigación y redacción, siempre con revisión editorial antes de publicar — nunca inventamos datos de producto ni resultados.
+              Nuestro equipo compara especificaciones técnicas y características antes de recomendar cualquier producto. Usamos herramientas de inteligencia artificial como apoyo en la investigación y redacción, siempre con revisión editorial antes de publicar — nunca inventamos datos de producto ni resultados.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">
@@ -137,7 +137,7 @@ export default function SobreNosotrosPage() {
           <ul className="space-y-2">
             <li>✓ Recomendaciones de entrenamiento basadas en fuentes citadas</li>
             <li>✓ Comparativas con datos de fabricante verificados</li>
-            <li>✓ Opiniones de compradores contrastadas antes de publicar</li>
+            <li>✓ Características y especificaciones contrastadas antes de publicar</li>
             <li>✓ Revisión periódica de disponibilidad de los productos</li>
             <li>✓ Sin recomendaciones de productos que no superen el estándar mínimo</li>
           </ul>
