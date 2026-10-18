@@ -6,7 +6,7 @@ import { getPostBySlug } from "@/data/posts";
 import { amazonLink } from "@/lib/amazon";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
 import ProductCard from "@/components/ProductCard";
-import { productTitle, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitle(product.name, "análisis y opinión") },
+    title: { absolute: productTitleUnique(product, products, "análisis y opinión") },
     description: `${product.shortDescription} Análisis con pros, contras, especificaciones y enlace para consultar el precio actual.`,
     alternates: { canonical: `https://www.fitnessfacil.es/tienda/${categoria}/${producto}` },
     openGraph: {
