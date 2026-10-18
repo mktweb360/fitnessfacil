@@ -26,8 +26,15 @@ if (pages.length < 10) errors.push(`solo ${pages.length} páginas HTML generadas
 
 let sinGa = 0, sinCanonical = 0, noindex = 0;
 const ejemplos = [];
+const imgRotas = new Set();
 for (const p of pages) {
   const h = readFileSync(p, "utf8");
+  // Imágenes locales que no existen en public/ (Semrush: «imágenes internas rotas»).
+  for (const m of h.matchAll(/<img[^>]+src="(\/[^"?#]+)"/g)) {
+    const src = decodeURIComponent(m[1]);
+    if (src.startsWith("/_next/")) continue;
+    if (!existsSync(join(root, "public", src))) imgRotas.add(src);
+  }
   // Las fichas marcadas como no disponibles llevan noindex o redirigen: no exigen canonical.
   const isNoindex = /<meta name="robots" content="[^"]*noindex/i.test(h);
   if (isNoindex) { noindex++; continue; }
@@ -36,6 +43,18 @@ for (const p of pages) {
 }
 if (sinGa) errors.push(`${sinGa} páginas sin la etiqueta GA4 ${gaId}`);
 if (sinCanonical) errors.push(`${sinCanonical} páginas sin canonical absoluto`);
+if (imgRotas.size) errors.push(`${imgRotas.size} imágenes locales no existen en public/: ${[...imgRotas].slice(0, 5).join(", ")}`);
+
+// Títulos duplicados entre páginas indexables (Semrush: «Duplicate title tag»).
+const titulos = new Map();
+for (const p of pages) {
+  const h = readFileSync(p, "utf8");
+  if (/<meta name="robots" content="[^"]*noindex/i.test(h)) continue;
+  const t = (h.match(/<title>([^<]*)<\/title>/) || [])[1];
+  if (t) titulos.set(t, [...(titulos.get(t) || []), p.slice(app.length)]);
+}
+const dup = [...titulos].filter(([, v]) => v.length > 1);
+if (dup.length) errors.push(`${dup.length} títulos duplicados, p. ej. «${dup[0][0]}» en ${dup[0][1].join(", ")}`);
 
 const sm = join(app, "sitemap.xml.body");
 if (!existsSync(sm)) errors.push("no se ha generado sitemap.xml");
