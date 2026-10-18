@@ -1476,6 +1476,7 @@ export const products: Product[] = [
     slug: "jowy-esterilla-yoga-nbr-plegable",
     name: "JOWY Esterilla Yoga Pilates Fitness Antideslizante NBR Plegable",
     asin: "B0DL3LP6Q5",
+    unavailable: "2026-10-18",
     categorySlug: "esterillas-yoga",
     categoryName: "Esterillas y yoga",
     price: "€16,95",
