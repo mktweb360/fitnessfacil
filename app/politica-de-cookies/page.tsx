@@ -72,6 +72,18 @@ export default function PoliticaCookiesPage() {
           </ul>
         </section>
 
+        <section>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">Cómo retirar el consentimiento y borrar las cookies</h2>
+          <p className="mb-2">Las cookies de analítica (_ga, _ga_*) y de publicidad solo se instalan si las aceptas. Si las rechazas, Google Analytics solo recibe señales sin cookies y sin identificadores persistentes. Para retirar o cambiar tu consentimiento, pulsa «Preferencias de cookies» en el pie de cualquier página, modifica tu elección y guárdala: desde ese momento dejaremos de usar esas cookies. Retirar el consentimiento no elimina las cookies que ya estén guardadas en tu dispositivo; para borrarlas, usa la configuración de tu navegador:</p>
+          <ul className="space-y-1">
+            <li><strong>Google Chrome:</strong> Configuración › Privacidad y seguridad › Eliminar datos de navegación</li>
+            <li><strong>Mozilla Firefox:</strong> Ajustes › Privacidad &amp; Seguridad › Cookies y datos del sitio › Limpiar datos</li>
+            <li><strong>Safari (Mac):</strong> Ajustes › Privacidad › Gestionar datos de sitios web</li>
+            <li><strong>Microsoft Edge:</strong> Configuración › Privacidad, búsqueda y servicios › Borrar datos de exploración</li>
+          </ul>
+          <p className="mt-2">Si bloqueas todas las cookies, el mensaje de consentimiento volverá a aparecer en cada visita, porque no podremos recordar tu decisión.</p>
+        </section>
+
         <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-green-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com. Los datos del titular del sitio figuran en el <Link href="/aviso-legal" className="text-green-700 hover:underline">aviso legal</Link>.</p>
         <p className="text-xs text-gray-400">Última actualización: octubre de 2026</p>
       </div>
