@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de privacidad",
+  title: "Política de privacidad y protección de datos",
   description: "Política de privacidad y protección de datos de FitnessFácil.es.",
   alternates: { canonical: "/politica-de-privacidad" },
 };

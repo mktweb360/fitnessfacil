@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de cookies",
+  title: "Política de cookies y cómo gestionarlas",
   description: "Qué cookies usamos en FitnessFácil.es y cómo gestionarlas.",
   alternates: { canonical: "/politica-de-cookies" },
 };
