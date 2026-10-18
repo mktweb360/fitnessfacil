@@ -235,7 +235,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Barras y discos",
-        body: "La barra larga permite mover más peso en ejercicios como sentadilla, peso muerto o press de banca. Hay dos sistemas que no son compatibles entre sí: las barras olímpicas, las de los gimnasios (la masculina pesa normalmente 20 kg), que usan discos con agujero de unos 50 mm, y las barras «estándar» para casa, que usan discos de agujero más pequeño. Antes de comprar discos sueltos, comprueba el diámetro de tu barra. Para entrenar con barra en casa con seguridad hace falta además espacio, un banco y, para sentadilla o press pesado, soportes o un rack.",
+        body: "La barra larga permite mover más peso en ejercicios como sentadilla, peso muerto o press de banca. Hay dos sistemas que no son compatibles entre sí: las barras olímpicas, las de los gimnasios (la masculina pesa normalmente 20 kg), que usan discos con agujero de unos 50 mm, y las barras «estándar» para casa, que usan discos de agujero más pequeño. Antes de comprar discos sueltos, comprueba el diámetro de tu barra. Para entrenar con barra en casa con seguridad hace falta además espacio, [un banco de pesas](/blog/banco-de-pesas-casa-como-elegir) y, para sentadilla o press pesado, soportes o un rack.",
       },
       {
         heading: "Kettlebells o pesas rusas",
@@ -272,6 +272,83 @@ const articleContent: Record<string, {
       { q: "¿Mancuernas o kettlebell para empezar?", a: "Para la mayoría, mancuernas: sirven para más ejercicios y la técnica es más sencilla. La kettlebell es un gran complemento para ejercicios balísticos como el swing." },
       { q: "¿Para qué sirven las mazas o clubbells?", a: "Para movimientos circulares y de rotación que trabajan hombros, agarre y estabilidad del tronco. Requieren técnica y espacio, por lo que suelen añadirse cuando ya se entrena con otro material." },
       { q: "¿Las tobilleras lastradas sirven para ganar músculo?", a: "Aportan poca carga, así que sirven más para variedad, tonificación y ejercicios de glúteo o movilidad que para ganar fuerza. Para progresar en fuerza necesitas mancuernas, kettlebells o barra." },
+    ],
+  },
+  "banco-de-pesas-casa-como-elegir": {
+    intro: "Un banco de pesas es la compra que más ejercicios añade a unas mancuernas: press plano e inclinado, remo con apoyo, press de hombro sentado o sentadilla búlgara. Pero no todos sirven para lo mismo ni caben en cualquier casa. Aquí verás los tipos que existen, qué datos de la ficha comprobar, cómo combinarlo con mancuernas ajustables, qué errores evitar y una comparativa de los bancos del catálogo con los datos que declara cada fabricante.",
+    quickPicks: [
+      { productSlug: "flybird-banco-pesas-ajustable-plegable-363kg", text: "El más completo: respaldo de -30° a 90°, 363 kg de carga máxima, respaldo de 76,7 cm y plegado de 23 cm de ancho." },
+      { productSlug: "yoleo-banco-pesas-plegable-7-posiciones", text: "Plegable y ligero: 10 kg, respaldo de 7 posiciones (plano, inclinado y declinado) y 300 kg de carga máxima." },
+      { productSlug: "flybird-banco-pesas-plano-plegable-300kg", text: "Banco plano estable de 300 kg, cojín de 104 × 28 cm, patas niveladoras y plegable." },
+    ],
+    sections: [
+      {
+        heading: "¿Necesitas un banco de pesas para entrenar en casa?",
+        body: "No es imprescindible para empezar. El press de suelo y el remo apoyado en una silla resuelven lo básico, como explicamos en [la guía de equipamiento mínimo para fuerza en casa](/blog/entrenamiento-fuerza-casa-equipamiento-minimo). El banco empieza a compensar cuando ya entrenas con mancuernas de forma regular y quieres más: press inclinado para la parte alta del pecho, más recorrido en el press, press de hombro sentado con la espalda apoyada, remo con apoyo o ejercicios de pierna como la búlgara o el step-up. A partir de ese punto, un banco para pesas multiplica los ejercicios posibles con el mismo material.",
+      },
+      {
+        heading: "Banco plano: el más estable y el más sencillo",
+        body: "El banco plano es un tablero fijo sobre patas, sin respaldo regulable. Al no tener articulaciones es el tipo más estable, y sirve para press de banca con mancuernas o barra, remo a una mano, step-up, hip thrust y fondos de tríceps. Su límite es que no permite press inclinado ni declinado. Encaja si entrenas sobre todo press plano o con barra. Un ejemplo es la banca plana FLYBIRD: el fabricante declara 300 kg de carga máxima, un cojín de 104,1 × 27,9 cm con 6,5 cm de grosor, una altura de 45,7 cm y cuatro taponeras que se giran para nivelarla en suelos irregulares. Además se pliega con un botón y un pasador a cada lado, algo poco habitual en los bancos planos.",
+        productSlug: "flybird-banco-pesas-plano-plegable-300kg",
+      },
+      {
+        heading: "Banco ajustable FID: plano, inclinado y declinado",
+        body: "FID son las siglas en inglés de flat, incline y decline: plano, inclinado y declinado. Es el banco más versátil para casa, porque con el respaldo inclinado haces press inclinado y press de hombro sentado, y con el declinado, abdominales y press declinado. A cambio tiene más piezas móviles, así que fíjate en el sistema de bloqueo y en el hueco entre asiento y respaldo, que no debe molestar en la zona lumbar. El FLYBIRD ajustable lleva el respaldo de -30° a 90° (13 ángulos sumando los del asiento), declara 363 kg de carga, tiene un respaldo de 76,7 cm y se pliega en tres pasos hasta 23 cm de ancho. El PASYOU de 10 posiciones es una alternativa más ligera, con 230 kg de carga, respaldo de 75 cm y recomendado para usuarios de hasta 185 cm.",
+        productSlug: "flybird-banco-pesas-ajustable-plegable-363kg",
+        productSlugs: ["pasyou-banco-pesas-plegable-10-posiciones"],
+      },
+      {
+        heading: "Banco de pesas plegable: para pisos donde cada metro cuenta",
+        body: "Un banco de pesas plegable reduce su huella cuando no lo usas y se guarda de pie contra la pared, bajo la cama o en un armario. Casi todos los ajustables domésticos se pliegan, así que la pregunta útil es otra: cuánto ocupa plegado, cuánto pesa para moverlo y si hay que quitar pasadores cada vez. El YOLEO es un buen ejemplo de banco plegable ligero: pesa 10 kg, el respaldo tiene 7 posiciones (plano, inclinado y declinado), declara 300 kg de carga e incluye cuerdas elásticas para trabajar brazos. Su fabricante no indica la medida plegado; el PASYOU sí la da: 90 × 40 × 25 cm.",
+        productSlug: "yoleo-banco-pesas-plegable-7-posiciones",
+      },
+      {
+        heading: "Banco con soporte de barra: solo si vas a entrenar con barra larga",
+        body: "Algunos bancos incorporan soportes para apoyar una barra larga y, a veces, un predicador para curl de bíceps y una palanca para extensión y curl de piernas. Son la versión doméstica del banco de press del gimnasio y tienen sentido si quieres hacer press de banca con barra. Ocupan y pesan bastante más que un banco suelto. El ManiBoom con soporte para barra es un ejemplo: el fabricante indica hasta 300 kg en la barra, 45 kg en el predicador y 50 kg en la palanca de piernas, un respaldo regulable de 145° a 180° (plano e inclinado, sin declinado) y un semiplegado para guardarlo; montado mide 168 × 135 × 125 cm y pesa 24 kg. La ficha no menciona barra ni discos incluidos, así que cuéntalos aparte. Y para press pesado con barra sin compañero, lo prudente es un rack con barras de seguridad.",
+        productSlug: "maniboom-banco-musculacion-soporte-barra",
+      },
+      {
+        heading: "Qué medir antes de comprar: carga máxima, posiciones y respaldo",
+        body: "La carga máxima es el peso total que soporta el banco, y tiene que cubrir tu peso corporal más el de las mancuernas o la barra, con margen: una persona de 80 kg con dos mancuernas de 24 kg ya pone 128 kg sobre el banco, sin contar el impulso al sentarse o levantarse. En cuanto a posiciones, más no siempre es mejor; lo útil es tener plano, un par de inclinaciones intermedias para press inclinado, vertical para press de hombro y declinado si quieres abdominales. Compara el ancho del cojín (el del FLYBIRD plano mide 27,9 cm), porque un respaldo estrecho sujeta peor los omóplatos en el press con carga. Mira también la longitud del respaldo si eres alto: los fabricantes que la indican, como FLYBIRD (76,7 cm) o PASYOU (75 cm, para usuarios de hasta 185 cm), te permiten comprobar que apoyas cabeza y espalda. Y revisa la altura del asiento, que debe dejarte apoyar los pies planos en el suelo.",
+      },
+      {
+        heading: "Estabilidad, plegado y espacio que ocupa",
+        body: "La estabilidad depende de la base, del grosor del tubo y de que el banco no baile en un suelo irregular. Busca patas anchas con tacos de goma y, si puede ser, niveladores regulables como los de los dos FLYBIRD. Cuando lo recibas, pruébalo antes de cargar peso: siéntate, túmbate y empuja de lado; si cojea, nivélalo o devuélvelo dentro de plazo. Para el espacio, mide dos zonas: la de uso, con holgura a los lados para bajar las mancuernas sin golpear muebles, y la de almacenaje, con la medida plegado. Un banco con soporte de barra necesita además el ancho de la barra.",
+      },
+      {
+        heading: "Cómo combinar el banco con mancuernas ajustables",
+        body: "Banco y mancuernas ajustables son la combinación más eficiente para entrenar fuerza en casa: entre los dos ocupan poco y cubren casi todos los patrones de movimiento. Para que encajen, comprueba tres cosas. Primera, que la carga máxima del banco cubra tu peso más las dos mancuernas a su máximo. Segunda, que tengas espacio a los lados: las ajustables de selector son más voluminosas que una fija del mismo peso. Tercera, que el cambio de peso sea rápido si alternas ejercicios en el banco: las JUPPLIES van de 2 a 24 kg por unidad en 15 niveles con selector, y las PowerBlock Sport 24, de 2,3 a 11 kg por unidad en 9 ajustes. Si aún no tienes mancuernas, lee [mancuernas ajustables o fijas](/blog/mancuernas-ajustables-vs-fijas) y [si merecen la pena las ajustables](/blog/mancuernas-ajustables-merece-pena).",
+        productSlugs: ["jupplies-mancuernas-15-niveles-24kg", "powerblock-sport-24-mancuernas-ajustables"],
+      },
+      {
+        heading: "Ejercicios básicos que permite un banco de pesas",
+        body: "Con banco y un par de mancuernas puedes entrenar el cuerpo entero. Para pecho: press plano, press inclinado y aperturas. Para hombro: press sentado con el respaldo vertical, que mantiene la espalda apoyada. Para espalda: remo a una mano apoyando rodilla y mano en el banco, y remo con el pecho apoyado en el respaldo inclinado. Para pierna y glúteo: sentadilla búlgara con el pie trasero sobre el banco, step-up y hip thrust con la espalda apoyada en el lateral. Para brazos y core: extensión de tríceps tumbado, curl inclinado, fondos de tríceps y abdominales en declinado. Para organizarlos en la semana, parte de [nuestra rutina de mancuernas en casa](/blog/rutina-mancuernas-casa-semana) y sustituye el press de suelo por el press en banco.",
+      },
+      {
+        heading: "Errores habituales al comprar un banco de pesas",
+        body: "Elegir por el número de posiciones sin mirar la carga máxima ni el bloqueo. Comparar la carga máxima con tu peso sin sumar el de las pesas. Comprar un banco con soporte de barra sin tener barra, discos ni espacio, cuando un ajustable cubre lo mismo con mancuernas. No medir dónde se guardará plegado. Elegir un respaldo corto siendo alto. Comprar bancos con pesas en pack sin mirar qué barra y discos incluyen: los estándar y los olímpicos no son compatibles, como explicamos en [los tipos de pesas](/blog/tipos-de-pesas-cual-elegir-casa-gimnasio). Y no revisar quién lo vende y lo envía ni las condiciones de devolución, clave en un producto voluminoso.",
+      },
+    ],
+    comparisonHeading: "Comparativa de los bancos de pesas del catálogo",
+    comparison: {
+      headers: ["Banco", "Tipo", "Carga máx.", "Ajustes", "Plegado", "Peso"],
+      rows: [
+        ["FLYBIRD ajustable", "FID (plano, inclinado, declinado)", "363 kg", "Respaldo de -30° a 90°, 13 ángulos", "Sí, 23 cm de ancho", "12,93 kg"],
+        ["PASYOU 10 posiciones", "FID (plano, inclinado, declinado)", "230 kg", "10 posiciones de respaldo", "Sí, 90 × 40 × 25 cm", "11 kg"],
+        ["YOLEO 7 posiciones", "FID plegable", "300 kg", "7 posiciones de respaldo", "Sí (medida no indicada)", "10 kg"],
+        ["FLYBIRD plano", "Plano", "300 kg", "Sin ajustes", "Sí", "8,48 kg"],
+        ["ManiBoom con soporte", "Con soporte de barra, predicador y piernas", "300 kg en la barra", "Respaldo de 145° a 180°", "Semiplegable", "24 kg"],
+      ],
+    },
+    conclusion: "Para la mayoría de personas que entrenan en casa con mancuernas, la mejor compra es un banco ajustable FID que se pliegue y cuya carga máxima cubra con margen tu peso más el de las pesas. En nuestro catálogo, el FLYBIRD ajustable es el más completo por rango de ángulos, carga y longitud de respaldo; el PASYOU y el YOLEO son alternativas más ligeras. Si solo vas a hacer press plano o entrenas con barra, un banco plano como el FLYBIRD es más estable y sencillo. El banco con soporte de barra solo compensa si ya tienes barra y discos, o vas a comprarlos, y dispones de espacio. Consulta el precio actual y quién lo vende en Amazon antes de decidir, y si quieres ver el resto del material de fuerza, entra en [la tienda de pesas y mancuernas](/tienda/pesas-mancuernas).",
+    conclusionHeading: "Nuestra valoración: qué banco de pesas elegir",
+    faqsHeading: "Preguntas frecuentes sobre bancos de pesas",
+    faqs: [
+      { q: "¿Qué banco de pesas comprar para casa?", a: "Para la mayoría, un banco ajustable FID (plano, inclinado y declinado) y plegable, con una carga máxima que cubra tu peso más el de las mancuernas con margen. Un banco plano basta si solo haces press plano." },
+      { q: "¿Cuánto peso debe soportar un banco de pesas?", a: "Suma tu peso corporal y el de las pesas que vas a usar y deja margen: 80 kg de persona y dos mancuernas de 24 kg ya son 128 kg. Los bancos del catálogo declaran entre 230 y 363 kg." },
+      { q: "¿Merece la pena un banco de pesas plegable?", a: "Sí, si entrenas en un piso y no puedes dejarlo montado. Antes de comprar, comprueba la medida plegado y el peso del banco, porque lo vas a mover a menudo." },
+      { q: "¿Es mejor comprar un banco con pesas incluidas?", a: "Solo si el pack encaja con lo que vas a entrenar. Muchos incluyen barra y discos de un sistema concreto: comprueba si son estándar u olímpicos, porque no son compatibles entre sí. Si entrenas con mancuernas, suele salir mejor comprar banco y mancuernas ajustables por separado." },
+      { q: "¿Banco de pesas o banca de pesas: es lo mismo?", a: "Sí. En España se dice sobre todo banco de pesas o banco de musculación, y banca de pesas o banca plana es habitual en otros países hispanohablantes y en algunas fichas de producto. Se refieren al mismo aparato." },
     ],
   },
   "mejor-cinta-correr-casa-2025": {
@@ -394,7 +471,7 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "Cuándo SÍ merece la pena una mancuerna ajustable",
-        body: "Hay tres escenarios donde la inversión se justifica sin discusión. El primero es la progresión: si vas a entrenar durante años, necesitarás pesos cada vez mayores, y comprar pares fijos sucesivos acaba costando más que un ajustable y llenando la casa de hierro que ya no usas. El segundo es el espacio: un par de ajustables ocupa lo que un par fijo y cubre el rango de quince, algo determinante en un piso. El tercero es la variedad: si entrenas cuerpo completo, necesitas cargas distintas para press de hombro y para remo o sentadilla, y cambiar de peso en segundos es lo que permite encadenar ejercicios sin romper el ritmo de la sesión.",
+        body: "Hay tres escenarios donde la inversión se justifica sin discusión. El primero es la progresión: si vas a entrenar durante años, necesitarás pesos cada vez mayores, y comprar pares fijos sucesivos acaba costando más que un ajustable y llenando la casa de hierro que ya no usas. El segundo es el espacio: un par de ajustables ocupa lo que un par fijo y cubre el rango de quince, algo determinante en un piso. El tercero es la variedad: si entrenas cuerpo completo, necesitas cargas distintas para press de hombro y para remo o sentadilla, y cambiar de peso en segundos es lo que permite encadenar ejercicios sin romper el ritmo de la sesión. Si además quieres press inclinado, remo con apoyo o sentadilla búlgara, súmales un banco; lo explicamos en [la guía para elegir banco de pesas](/blog/banco-de-pesas-casa-como-elegir).",
       },
       {
         heading: "Cuándo NO merece la pena",
@@ -1183,7 +1260,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cuándo las ajustables justifican el precio",
-        body: "Hay tres escenarios donde la inversión tiene sentido. El primero es la progresión a largo plazo: si vas a entrenar durante años, necesitarás pesos cada vez mayores, y comprar pares fijos sucesivos acaba costando más que un ajustable y llenando la casa de hierro. El segundo es el espacio limitado: un par de ajustables ocupa lo mismo que un par fijo y cubre el rango de quince. El tercero es la variedad de ejercicios: si entrenas cuerpo completo con cargas distintas para cada músculo, el cambio de peso en segundos es lo que permite encadenar ejercicios sin romper el ritmo de la sesión.",
+        body: "Hay tres escenarios donde la inversión tiene sentido. El primero es la progresión a largo plazo: si vas a entrenar durante años, necesitarás pesos cada vez mayores, y comprar pares fijos sucesivos acaba costando más que un ajustable y llenando la casa de hierro. El segundo es el espacio limitado: un par de ajustables ocupa lo mismo que un par fijo y cubre el rango de quince. El tercero es la variedad de ejercicios: si entrenas cuerpo completo con cargas distintas para cada músculo, el cambio de peso en segundos es lo que permite encadenar ejercicios sin romper el ritmo de la sesión. Cuando ya tengas las ajustables, el siguiente paso con más recorrido es un banco: en [cómo elegir un banco de pesas para casa](/blog/banco-de-pesas-casa-como-elegir) explicamos qué tipo encaja con ellas.",
         productSlug: "lullax-neo36-mancuernas-ajustables",
       },
       {

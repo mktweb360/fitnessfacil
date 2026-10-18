@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { categories, getProductsByCategory, products } from "@/data/products";
 import { posts } from "@/data/posts";
@@ -20,6 +21,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${cat.description}. Análisis completo con los mejores modelos, comparativa de precios y guía de compra para elegir el equipamiento perfecto.`,
     alternates: { canonical: `/tienda/${categoria}` },
   };
+}
+
+// Enlaces internos en la guía de compra: la sintaxis [texto](/ruta) se convierte en <Link>.
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+function richText(text: string): ReactNode {
+  const out: ReactNode[] = [];
+  let last = 0;
+  for (const m of text.matchAll(INTERNAL_LINK)) {
+    const i = m.index ?? 0;
+    if (i > last) out.push(text.slice(last, i));
+    out.push(
+      <Link key={i} href={m[2]} className="text-green-700 hover:text-green-900 underline underline-offset-2">
+        {m[1]}
+      </Link>,
+    );
+    last = i + m[0].length;
+  }
+  if (out.length === 0) return text;
+  if (last < text.length) out.push(text.slice(last));
+  return out;
 }
 
 const buyingGuides: Record<string, { intro: string; middle: string; conclusion: string }> = {
@@ -43,9 +64,9 @@ const buyingGuides: Record<string, { intro: string; middle: string; conclusion: 
     intro:
       "El entrenamiento de fuerza en casa requiere menos equipamiento del que parece. Con un set de mancuernas y suficiente espacio para moverte, puedes trabajar todos los grupos musculares. La decisión clave es entre mancuernas ajustables (más prácticas, mayor inversión inicial) y sets fijos (más baratos, ocupan más espacio).",
     middle:
-      "Las mancuernas ajustables como las LULLAX NEO36 (hasta 36 kg con base incluida) son perfectas si tienes poco espacio: múltiples pesos en el espacio de una. La inversión inicial es mayor pero se amortiza si entrenas con regularidad. Para cargas fijas sin mecanismos: las ManiBoom hexagonales antideslizantes de 15 kg son sólidas y seguras. Las kettlebells añaden versatilidad para ejercicios funcionales (swing, turkish get-up) que las mancuernas no cubren bien, y las bandas elásticas Fokky TPE complementan el trabajo de resistencia con mínimo espacio.",
+      "Las mancuernas ajustables, como las JUPPLIES de 15 niveles (hasta 24 kg por mancuerna) o el sistema PowerBlock, son perfectas si tienes poco espacio: múltiples pesos en el espacio de una. La inversión inicial es mayor pero se amortiza si entrenas con regularidad. Para cargas fijas sin mecanismos: las ManiBoom hexagonales antideslizantes de 15 kg son sólidas y seguras. Las kettlebells añaden versatilidad para ejercicios funcionales (swing, turkish get-up) que las mancuernas no cubren bien, y las bandas elásticas Fokky TPE complementan el trabajo de resistencia con mínimo espacio.",
     conclusion:
-      "Si tienes espacio limitado y buscas la mayor progresión posible, las LULLAX NEO36 son la mejor inversión a largo plazo. Para empezar sin gran desembolso, las ManiBoom 15 kg cubren la mayoría de ejercicios de tren superior. Completa el set con la kettlebell JOWY de 16 kg y las bandas Fokky para un home gym funcional y completo.",
+      "Si tienes espacio limitado y buscas la mayor progresión posible, unas mancuernas ajustables como las JUPPLIES son la mejor inversión a largo plazo. Para empezar sin gran desembolso, las ManiBoom 15 kg cubren la mayoría de ejercicios de tren superior. Completa el set con la kettlebell JOWY de 16 kg y las bandas Fokky para un home gym funcional y completo. Cuando ya tengas mancuernas, un banco multiplica los ejercicios posibles (press inclinado, remo con apoyo, sentadilla búlgara): te contamos qué tipo elegir y qué medir en [la guía del banco de pesas para casa](/blog/banco-de-pesas-casa-como-elegir).",
   },
   "esterillas-yoga": {
     intro:
@@ -224,9 +245,9 @@ export default async function CategoryPage({ params }: Props) {
                   Guía de compra: cómo elegir {cat.name.toLowerCase()}
                 </h2>
                 <div className="space-y-4 text-gray-700 text-sm leading-relaxed">
-                  <p>{guide.intro}</p>
-                  <p>{guide.middle}</p>
-                  <p>{guide.conclusion}</p>
+                  <p>{richText(guide.intro)}</p>
+                  <p>{richText(guide.middle)}</p>
+                  <p>{richText(guide.conclusion)}</p>
                 </div>
               </div>
             )}

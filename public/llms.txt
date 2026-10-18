@@ -21,7 +21,7 @@ URL: https://www.fitnessfacil.es/tienda
 Categorías disponibles con fichas de producto individuales:
 - Cintas de correr: https://www.fitnessfacil.es/tienda/cintas-correr — WalkingPad, Neezee, RUNIMON, Cecotec y más
 - Bicicletas estáticas: https://www.fitnessfacil.es/tienda/bicicletas-estaticas — Sportstech, MERACH, Cecotec, CURSOR y Toputure
-- Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas — LULLAX, ManiBoom, JOWY, Mobiclinic, Yaheetech y JUPPLIES; barra de dominadas de puerta AthleticPro
+- Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas — LULLAX, ManiBoom, JOWY, Mobiclinic, Yaheetech y JUPPLIES; barra de dominadas de puerta AthleticPro; bancos de pesas FLYBIRD (plano y ajustable), PASYOU, YOLEO y ManiBoom con soporte de barra
 - Esterillas y yoga: https://www.fitnessfacil.es/tienda/esterillas-yoga — TOPLUS, La Mente Es Maravillosa, Gaiam, YOGATI y DIVASYA/LAAR corcho; rodillos de espuma (TriggerPoint GRID, BODYMATE) y pelotas de masaje
 - Suplementos y proteínas: https://www.fitnessfacil.es/tienda/suplementos-proteinas — ON Gold Standard, Myprotein, HSN (whey y vegana), Bulk, BIG, BCAA, ZMA y omega-3
 - Bandas de resistencia: https://www.fitnessfacil.es/tienda/bandas-resistencia — Thera-Band, Fokky, GRIFEMA, PORTENTUM (anclaje puerta) y PULLUP & DIP
@@ -57,6 +57,7 @@ Categorías disponibles con fichas de producto individuales:
 - [PORTENTUM: análisis del kit de bandas con anclaje de puerta más completo](https://www.fitnessfacil.es/blog/portentum-bandas-anclaje-puerta-analisis) — Ejercicios tipo polea en casa, requisitos y limitaciones
 - [Entrenamiento de fuerza en casa con equipamiento mínimo](https://www.fitnessfacil.es/blog/entrenamiento-fuerza-casa-equipamiento-minimo) — Home gym completo con bandas, mancuernas y kettlebell
 - [Rutina de mancuernas en casa: plan semanal](https://www.fitnessfacil.es/blog/rutina-mancuernas-casa-semana) — 4 días, push/pull, progresión por semanas
+- [Banco de pesas para casa: tipos y cómo elegir](https://www.fitnessfacil.es/blog/banco-de-pesas-casa-como-elegir) — Plano, ajustable FID, plegable y con soporte de barra; carga máxima, posiciones, respaldo y comparativa
 - [Entrenamiento en casa sin equipamiento](https://www.fitnessfacil.es/blog/rutina-entrenamiento-casa-sin-equipamiento) — Rutina de 5 días con peso corporal
 
 ### Esterillas y yoga
