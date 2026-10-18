@@ -47,6 +47,12 @@ export default function PoliticaCookiesPage() {
                   <td className="px-3 py-2 border border-gray-200">Variable (Google)</td>
                 </tr>
                 <tr>
+                  <td className="px-3 py-2 border border-gray-200">_ga, _ga_*</td>
+                  <td className="px-3 py-2 border border-gray-200">Analítica (Google Analytics 4)</td>
+                  <td className="px-3 py-2 border border-gray-200">Medir de forma agregada las visitas y los clics a Amazon (Google Analytics 4; solo con consentimiento)</td>
+                  <td className="px-3 py-2 border border-gray-200">2 años</td>
+                </tr>
+                <tr>
                   <td className="px-3 py-2 border border-gray-200">Cookies Amazon</td>
                   <td className="px-3 py-2 border border-gray-200">Afiliados (terceros)</td>
                   <td className="px-3 py-2 border border-gray-200">Rastreo de conversiones de afiliado</td>
@@ -67,7 +73,7 @@ export default function PoliticaCookiesPage() {
         </section>
 
         <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-green-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com.</p>
-        <p className="text-xs text-gray-400">Última actualización: junio 2025</p>
+        <p className="text-xs text-gray-400">Última actualización: octubre de 2026</p>
       </div>
     </div>
   );

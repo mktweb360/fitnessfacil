@@ -12,6 +12,7 @@
 
 import type { Metadata } from "next";
 import Script from "next/script";
+import Analytics from "@/components/Analytics";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -99,6 +100,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        <Analytics />
         {/* AdSense: verificación de la propiedad del sitio */}
         <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
