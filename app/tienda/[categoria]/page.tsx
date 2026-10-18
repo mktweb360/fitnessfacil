@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     // ≤ 65 caracteres con el sufijo de marca (18 = " | FitnessFácil.es"): si no cabe «y comparativa», se omite.
     title: cat.name.length + 30 <= 47 ? `${cat.name}: guía de compra y comparativa` : `${cat.name}: guía de compra`,
-    description: `${cat.description}. Análisis completo con los mejores modelos, comparativa de precios y guía de compra para elegir el equipamiento perfecto.`,
+    description: `${cat.description}. Guía de compra y comparativa para elegir bien.`,
     alternates: { canonical: `/tienda/${categoria}` },
   };
 }
@@ -60,6 +60,14 @@ const buyingGuides: Record<string, { intro: string; middle: string; conclusion: 
       "Para quemar calorías con cardio suave: la Sportstech X100-C (plegable, con LCD y cuerdas de fuerza integradas) o la MERACH (silenciosa con app y soporte hasta 136 kg). Para entrenamientos progresivos con 8 niveles de resistencia: la Sportstech X150. Si trabajas desde casa y quieres moverte mientras estás sentado sin interrumpir el trabajo, la Sportstech DFX70 mini-escritorio es una categoría aparte. El volante de inercia es el factor clave: más kg = movimiento más suave y natural.",
     conclusion:
       "Para iniciarse siendo plegable y con el mayor número de extras por precio, la Sportstech X100-C es la opción más completa. Los que buscan silencio máximo y seguimiento por app apreciarán la MERACH. Para teletrabajar activo sin dejar la silla, la DFX70 no tiene competidor en su categoría.",
+  },
+  elipticas: {
+    intro:
+      "Una elíptica para casa trabaja piernas, glúteos y brazos a la vez sin que los pies se separen de los pedales, así que no hay impacto en rodillas, tobillos ni caderas. Por eso es la máquina de cardio que más se recomienda a quien viene de una lesión, tiene sobrepeso o simplemente no tolera correr. Antes de elegir modelo hay cuatro datos que mandan: la zancada, el peso del volante, el peso máximo de usuario y el espacio que tienes.",
+    middle:
+      "La zancada marca la comodidad: por debajo de 40 cm el paso se queda corto si mides más de 1,75 m, y entre 45 y 47 cm es cómoda para casi todo el mundo, como en la MERACH autoalimentada (47 cm) o la BH i.Quantum II (45 cm). El volante determina la suavidad: con 8 kg el movimiento es correcto para sesiones moderadas, y con 20 kg, como la BH i.Quantum II o la Capital Sports Helix Pro, el pedaleo es continuo incluso a ritmo lento. Si vives en un piso pequeño, la Niceday CT11 tiene una base de 114 × 54 cm y aguanta hasta 180 kg. Para entrenar con programas y app, la Sportstech CX700 ofrece 24 niveles de ajuste eléctrico, control por pulso y la app Sportstech Live.",
+    conclusion:
+      "Si buscas una elíptica equilibrada y sin enchufe, la MERACH autoalimentada combina zancada larga, 180 kg de carga y app. Para entrenar casi a diario, la BH i.Quantum II con volante de 20 kg es la más sólida del catálogo. Y si el espacio manda, la Niceday CT11 es la más compacta. Todos los criterios (zancada según tu altura, ruido, medidas, mantenimiento y errores frecuentes) están en [la guía para elegir elíptica para casa](/blog/mejor-eliptica-casa-2025). Si aún dudas entre aparatos, compara con [las bicicletas estáticas](/tienda/bicicletas-estaticas) y [las cintas de correr](/tienda/cintas-correr).",
   },
   "pesas-mancuernas": {
     intro:

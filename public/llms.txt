@@ -21,6 +21,7 @@ URL: https://www.fitnessfacil.es/tienda
 Categorías disponibles con fichas de producto individuales:
 - Cintas de correr: https://www.fitnessfacil.es/tienda/cintas-correr — WalkingPad, Neezee, RUNIMON, Cecotec y más
 - Bicicletas estáticas: https://www.fitnessfacil.es/tienda/bicicletas-estaticas — Sportstech, MERACH, Cecotec, CURSOR y Toputure
+- Elípticas: https://www.fitnessfacil.es/tienda/elipticas — MERACH (autoalimentada), BH (i.Quantum II y Munich), Sportstech CX700, Capital Sports Helix Pro y Niceday CT11 compacta
 - Pesas y mancuernas: https://www.fitnessfacil.es/tienda/pesas-mancuernas — LULLAX, ManiBoom, JOWY, Mobiclinic, Yaheetech y JUPPLIES; barra de dominadas de puerta AthleticPro; bancos de pesas FLYBIRD (plano y ajustable), PASYOU, YOLEO y ManiBoom con soporte de barra
 - Esterillas y yoga: https://www.fitnessfacil.es/tienda/esterillas-yoga — TOPLUS, La Mente Es Maravillosa, Gaiam, YOGATI y DIVASYA/LAAR corcho; rodillos de espuma (TriggerPoint GRID, BODYMATE) y pelotas de masaje
 - Suplementos y proteínas: https://www.fitnessfacil.es/tienda/suplementos-proteinas — ON Gold Standard, Myprotein, HSN (whey y vegana), Bulk, BIG, BCAA, ZMA y omega-3
@@ -85,7 +86,7 @@ Categorías disponibles con fichas de producto individuales:
 
 ### Pérdida de peso
 - [Cómo perder peso haciendo ejercicio en casa](https://www.fitnessfacil.es/blog/perder-peso-ejercicio-casa) — Plan completo cardio + fuerza + nutrición
-- [Mejor elíptica para casa: comparativa y guía de compra](https://www.fitnessfacil.es/blog/mejor-eliptica-casa-2025) — Zancada, resistencia, ruido y espacio
+- [Mejor elíptica para casa: guía de compra y comparativa de modelos](https://www.fitnessfacil.es/blog/mejor-eliptica-casa-2025) — Zancada según la altura, volante, resistencia magnética, peso máximo, medidas, ruido, app y comparativa de 6 elípticas
 - [Entrenamiento HIIT en casa para principiantes](https://www.fitnessfacil.es/blog/hiit-en-casa-principiantes) — Estructura básica, errores frecuentes y rutina de 20 minutos
 - [Entrenamiento para mujeres de 40 años en casa](https://www.fitnessfacil.es/blog/ejercicio-mujeres-40-anos-casa) — Qué cambia en el cuerpo y rutina semanal recomendada
 

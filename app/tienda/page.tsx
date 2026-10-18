@@ -6,7 +6,7 @@ import ProductCard from "@/components/ProductCard";
 export const metadata: Metadata = {
   title: "Material de fitness para entrenar en casa",
   description:
-    "Cintas de correr, bicicletas estáticas, mancuernas, esterillas y suplementos. Todo lo que necesitas para montar tu gym en casa.",
+    "Cintas de correr, bicicletas estáticas, elípticas, mancuernas, esterillas y suplementos. Todo lo que necesitas para montar tu gym en casa.",
   alternates: { canonical: "/tienda" },
 };
 
@@ -15,7 +15,7 @@ const collectionSchema = {
   "@type": "CollectionPage",
   name: "Tienda FitnessFácil — Equipamiento para Casa",
   description:
-    "Equipamiento fitness para entrenar en casa: cintas, bicicletas, pesas, esterillas y suplementos.",
+    "Equipamiento fitness para entrenar en casa: cintas, bicicletas, elípticas, pesas, esterillas y suplementos.",
   url: "https://www.fitnessfacil.es/tienda",
 };
 

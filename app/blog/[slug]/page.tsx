@@ -367,7 +367,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
-        body: "Si tu objetivo es caminar: sumar pasos mientras teletrabajas o hacer 30-40 minutos a ritmo tranquilo, la R1 Pro cubre todo lo que necesitas y cuesta menos. Si tu objetivo es correr, aunque sea de forma suave, la diferencia entre 10 y 12 km/h es más relevante de lo que parece: a 10 km/h ya vas al límite del aparato, y trabajar constantemente en el tope de una máquina acorta su vida útil. En ese caso, la R2 es la compra correcta. Si el factor decisivo es el espacio o el ruido, ambas cumplen, pero el motor brushless de la R2 tiene ventaja objetiva. Y si nunca has usado una cinta, empieza por la R1 Pro: sin montaje y con menos inversión, es la forma más barata de comprobar si el hábito se te queda.",
+        body: "Si tu objetivo es caminar: sumar pasos mientras teletrabajas o hacer 30-40 minutos a ritmo tranquilo, la R1 Pro cubre todo lo que necesitas y cuesta menos. Si tu objetivo es correr, aunque sea de forma suave, la diferencia entre 10 y 12 km/h es más relevante de lo que parece: a 10 km/h ya vas al límite del aparato, y trabajar constantemente en el tope de una máquina acorta su vida útil. En ese caso, la R2 es la compra correcta. Si el factor decisivo es el espacio o el ruido, ambas cumplen, pero el motor brushless de la R2 tiene ventaja objetiva. Y si nunca has usado una cinta, empieza por la R1 Pro: sin montaje y con menos inversión, es la forma más barata de comprobar si el hábito se te queda. Si lo que te frena de la cinta es el impacto en las rodillas o el ruido de las pisadas en un piso, valora una elíptica: lo explicamos en [cómo elegir una elíptica para casa](/blog/mejor-eliptica-casa-2025).",
       },
     ],
     comparison: {
@@ -408,7 +408,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "¿Cuál es la tuya?",
-        body: "Si eres principiante y tu objetivo es perder grasa o mejorar el fondo con sesiones de 30-45 minutos varias veces por semana, la MERACH es la elección: es la única de las tres que permite entrenar con intensidad progresiva y registrar la evolución. Si tu limitación principal es el espacio, y guardar el aparato entre sesión y sesión es condición para que el plan funcione, el ergómetro plegable X150 es la respuesta, aceptando que renuncias a la conectividad. Y si tu problema no es entrenar sino pasar demasiadas horas sentado, la DFX70 resuelve un problema distinto y no compite con las otras dos: con una inversión pequeña añade movimiento a la jornada laboral, pero no esperes de ella una sesión de cardio. Un error frecuente es comprar el pedalier esperando resultados de bicicleta estática; son categorías diferentes.",
+        body: "Si eres principiante y tu objetivo es perder grasa o mejorar el fondo con sesiones de 30-45 minutos varias veces por semana, la MERACH es la elección: es la única de las tres que permite entrenar con intensidad progresiva y registrar la evolución. Si tu limitación principal es el espacio, y guardar el aparato entre sesión y sesión es condición para que el plan funcione, el ergómetro plegable X150 es la respuesta, aceptando que renuncias a la conectividad. Y si tu problema no es entrenar sino pasar demasiadas horas sentado, la DFX70 resuelve un problema distinto y no compite con las otras dos: con una inversión pequeña añade movimiento a la jornada laboral, pero no esperes de ella una sesión de cardio. Un error frecuente es comprar el pedalier esperando resultados de bicicleta estática; son categorías diferentes. Y si además de las piernas quieres trabajar brazos y espalda sin impacto, la alternativa es una elíptica: te explicamos cómo elegirla en [la guía de la elíptica para casa](/blog/mejor-eliptica-casa-2025) y tienes los modelos en [la categoría de elípticas](/tienda/elipticas).",
       },
     ],
     comparison: {
@@ -605,7 +605,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Semanas 1-4: base cardiovascular y técnica",
-        body: "El primer bloque construye el hábito, no el resultado. Tres sesiones semanales de 30 minutos de cardio a intensidad moderada, entendiendo por moderada aquella en la que aún puedes mantener una conversación, más dos días de fuerza con peso corporal. Una cinta plegable resuelve bien esta fase porque elimina la variable meteorológica y la del horario: la WalkingPad R1 Pro permite caminar a 6 km/h bajo el escritorio o trotar hasta 10 km/h cuando toca sesión, y al no necesitar montaje está operativa desde el primer día. El objetivo de estas cuatro semanas es llegar a la quinta sin molestias articulares y con la rutina ya instalada en el calendario.",
+        body: "El primer bloque construye el hábito, no el resultado. Tres sesiones semanales de 30 minutos de cardio a intensidad moderada, entendiendo por moderada aquella en la que aún puedes mantener una conversación, más dos días de fuerza con peso corporal. Una cinta plegable resuelve bien esta fase porque elimina la variable meteorológica y la del horario: la WalkingPad R1 Pro permite caminar a 6 km/h bajo el escritorio o trotar hasta 10 km/h cuando toca sesión, y al no necesitar montaje está operativa desde el primer día. El objetivo de estas cuatro semanas es llegar a la quinta sin molestias articulares y con la rutina ya instalada en el calendario. Si tienes molestias de rodilla o mucho peso que perder, una [elíptica para casa](/blog/mejor-eliptica-casa-2025) permite hacer el mismo cardio sin impacto.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
@@ -1006,7 +1006,7 @@ const articleContent: Record<string, {
     sections: [
       {
         heading: "Qué tipo de bicicleta estática necesitas",
-        body: "Antes de mirar precios conviene identificar tu perfil, porque cada modelo resuelve un problema distinto y comprar el equivocado es la causa más frecuente de que la bicicleta acabe arrinconada. Hay tres perfiles claros. Si quieres entrenar de verdad y registrar tu progresión, la MERACH con app es tu opción. Si tu limitación es el espacio y necesitas guardarla entre sesiones, el Sportstech X150, un ergómetro plegable, resuelve eso. Y si lo que buscas es moverte sin interrumpir el trabajo, el Sportstech DFX70, una mini bicicleta de escritorio, juega en otra categoría y en una gama de precio más baja. Identifica el tuyo y la comparativa se simplifica sola.",
+        body: "Antes de mirar precios conviene identificar tu perfil, porque cada modelo resuelve un problema distinto y comprar el equivocado es la causa más frecuente de que la bicicleta acabe arrinconada. Hay tres perfiles claros. Si quieres entrenar de verdad y registrar tu progresión, la MERACH con app es tu opción. Si tu limitación es el espacio y necesitas guardarla entre sesiones, el Sportstech X150, un ergómetro plegable, resuelve eso. Y si lo que buscas es moverte sin interrumpir el trabajo, el Sportstech DFX70, una mini bicicleta de escritorio, juega en otra categoría y en una gama de precio más baja. Identifica el tuyo y la comparativa se simplifica sola. Si lo que buscas es cardio sin impacto que trabaje también brazos y espalda, compara antes con [la guía para elegir elíptica para casa](/blog/mejor-eliptica-casa-2025).",
       },
       {
         heading: "MERACH — para resultados serios",
@@ -2113,53 +2113,107 @@ const articleContent: Record<string, {
 
   "mejor-eliptica-casa-2025": {
     intro:
-      "La elíptica es la máquina de cardio con la mejor relación entre beneficio y sacrificio articular. Trabaja piernas, glúteos y brazos al mismo tiempo que el cardio, sin que ninguna articulación soporte impacto. Para alguien con problemas de rodilla, cadera o que simplemente no quiere los golpes de la cinta de correr, es el aparato que permite entrenar con intensidad sin pagar ese peaje físico. Esta guía explica qué mirar antes de comprar y compara los cinco modelos más relevantes del mercado para casa.",
+      "Una elíptica para casa es la máquina de cardio que mejor combina trabajo de cuerpo completo y cuidado de las articulaciones: los pies no se separan de los pedales, así que no hay impacto, y al empujar y tirar de los brazos trabajas también el tren superior. Pero no todas sirven para todo el mundo. La longitud de zancada, el peso del volante, el tipo de resistencia, el peso máximo de usuario y las medidas deciden si la usarás tres veces por semana durante años o si acabará de perchero. En esta guía te explicamos cómo elegir elíptica dato a dato y comparamos las seis de [nuestra categoría de elípticas](/tienda/elipticas), todas comprobadas en Amazon.es en octubre de 2026 y con las especificaciones de su ficha.",
+    quickPicks: [
+      { productSlug: "merach-eliptica-magnetica-autoalimentada-app", text: "La más equilibrada: zancada de 47 cm, 16 niveles magnéticos, hasta 180 kg, app por Bluetooth y sin enchufe." },
+      { productSlug: "bh-iquantum-ii-eliptica-volante-20kg-kinomap", text: "Para entrenar casi a diario: volante de 20 kg, zancada de 45 cm, 24 niveles y Kinomap. BH la indica para 7 a 20 horas semanales." },
+      { productSlug: "niceday-ct11-eliptica-compacta-180kg", text: "Para pisos pequeños: base de 114 × 54 cm, 16 niveles magnéticos y hasta 180 kg de usuario." },
+    ],
     sections: [
       {
-        heading: "Qué buscar en una elíptica para casa",
-        body: "Hay seis variables que determinan si una elíptica encaja contigo o acaba arrinconada. La primera es la zancada: para una persona de estatura media, el mínimo funcional son 40-45 cm; si superas el 1,80 m, busca 50 cm o más. Una zancada corta obliga a un movimiento antinatural que fuerza la rodilla. La segunda es la resistencia: como mínimo 8 niveles, y magnética mejor que mecánica, porque la magnética no genera fricción entre piezas y funciona en silencio. La tercera es la carga máxima: 100 kg es el mínimo para un uso estable; a partir de 120 kg, la máquina tiene el margen estructural que alarga su vida útil. La cuarta es la conectividad: Bluetooth con apps como Kinomap o Zwift convierte una sesión monótona en algo que engacha; si no te importa, ahorra ese extra. La quinta es el ruido: la resistencia magnética ya ayuda, pero en un piso lo decisivo es también el sistema de transmisión y la calidad de los rodamientos. La sexta es la forma: las elípticas plegables sacrifican peso y estabilidad; solo tienen sentido en pisos muy pequeños con uso ocasional.",
+        heading: "Para quién tiene sentido una elíptica en casa",
+        body: "La elíptica encaja en tres perfiles: quien tiene molestias de rodilla, cadera o espalda, o mucho peso que perder, y necesita cardio sin el golpe de cada zancada; quien quiere un trabajo más completo que el de la bicicleta, porque las palancas obligan a usar brazos, hombros y espalda; y quien vive en un piso, porque sin pisadas y con freno magnético es de las máquinas más silenciosas. No es la mejor opción si quieres preparar carreras ni si tienes muy poco espacio: ocupa más que una bicicleta y no suele plegarse.",
       },
       {
-        heading: "Los 5 modelos más relevantes",
-        body: "Sportstech ESX500: zancada de 43 cm, 24 niveles de resistencia magnética, compatible con Kinomap y Zwift vía Bluetooth. Es la opción más equilibrada para uso regular: suficiente zancada para la mayoría, rango de resistencia amplio y conectividad real. La mejor elección calidad-precio para alguien que va a usarla 3-5 días por semana.\n\nNordicTrack SpaceSaver SE7i: zancada de 46 cm, inclinación ajustable del stride para variar el grupo muscular trabajado, pantalla integrada de 7 pulgadas con iFit. Para usuarios comprometidos con el entrenamiento que quieren el estímulo de clases guiadas y métricas detalladas. La inclinación ajustable es un diferencial real que la mayoría de elípticas domésticas no tienen.\n\nCecotec E-Mex 3000: zancada de 40 cm, 16 niveles, plegable. El mejor equilibrio para un piso pequeño con uso moderado. La zancada de 40 cm es justa para personas por encima del 1,75 m, pero quien prioriza que el aparato no ocupe espacio lo tendrá en cuenta.\n\nProForm Carbon EL: zancada de 46 cm, 20 niveles de resistencia, compatible con iFit para clases online integradas. La alternativa a la NordicTrack en el rango medio-alto si quieres acceder al ecosistema de entrenamientos dirigidos sin el precio de la pantalla grande.\n\nSkandika Olymp II: zancada de 43 cm, 12 niveles. La entrada de gama más honesta: sin conectividad, sin extras, pero con una zancada correcta y resistencia suficiente para empezar y mantener un hábito. Para quien no ha tenido elíptica antes y quiere probar el formato sin una gran inversión.",
+        heading: "Zancada: el dato que más importa",
+        body: "La zancada es la distancia que recorre el pedal de delante atrás, y es lo primero que hay que mirar: si es corta, el paso se queda encogido y la sesión se vuelve incómoda. Como orientación, hasta 1,60 m de altura bastan 35-40 cm; entre 1,60 y 1,75 m, 40-45 cm; y por encima de 1,75-1,80 m, 45 cm o más. Si la van a usar varias personas, elige por la más alta. En el catálogo va de los 34 cm de la BH Munich a los 47 cm de la MERACH; en medio están la BH i.Quantum II (45 cm), la Sportstech CX700 (42 cm), la Niceday CT11 (40 cm) y la Capital Sports Helix Pro (38 cm). Mira también la distancia entre pedales: cuanto más juntos, más natural es el gesto; la BH i.Quantum II la deja en 16 cm.",
+        productSlug: "merach-eliptica-magnetica-autoalimentada-app",
       },
       {
-        heading: "Elíptica vs cinta de correr vs bicicleta estática",
-        body: "Cada aparato responde a un perfil distinto. En impacto articular, la elíptica es la opción de menor impacto de las tres: los pies no se separan de los pedales, por lo que no hay golpe. La cinta implica impacto en cada zancada, y la bici es también sin impacto pero no trabaja el tren superior. En músculos trabajados, la elíptica activa piernas, glúteos, lumbares y brazos simultáneamente; la cinta trabaja sobre todo el tren inferior; la bici principalmente cuádriceps y glúteos. En consumo calórico a intensidad equivalente, la cinta quema ligeramente más porque implica sostener el peso corporal, pero la diferencia es menor de lo que muchos suponen. En ruido, la elíptica magnética es la más silenciosa de las tres en condiciones reales. En precio medio de un modelo doméstico decente, los tres segmentos son similares: una opción con sentido está en la gama media.",
+        heading: "Peso del volante de inercia",
+        body: "El volante es el disco que gira mientras pedaleas y da continuidad al movimiento. Con uno ligero se nota un pequeño tirón en cada vuelta, sobre todo a ritmo lento; con uno pesado el movimiento es redondo. Como regla práctica, 6-8 kg sirven para sesiones moderadas, unos 12 kg ya dan una sensación fluida y 15-20 kg es lo propio de máquinas para uso diario. La BH i.Quantum II y la Capital Sports Helix Pro llevan 20 kg; la BH Munich, 12 kg, y la MERACH y la Niceday, 8 kg. La contrapartida es que la máquina pesa más, aunque muchas llevan ruedas de transporte.",
+        productSlug: "bh-iquantum-ii-eliptica-volante-20kg-kinomap",
       },
       {
-        heading: "Cuánto espacio necesitas",
-        body: "Una elíptica doméstica típica ocupa entre 150 y 180 cm de longitud y entre 55 y 65 cm de ancho en uso activo. A esas medidas hay que sumar al menos 50 cm por detrás para poder bajar sin tropezar y 30 cm a los lados para los brazos. En la práctica, necesitas una zona libre de unos 200 × 120 cm para usarla con comodidad. Las plegables reducen el espacio en reposo pero casi ninguna reduce el espacio necesario durante el uso: la zancada sigue siendo la misma. Si el salón o la habitación no te permite ese rectángulo, valora la bici estática o el ergómetro plegable, que ocupa bastante menos.",
+        heading: "Resistencia magnética frente a otros sistemas",
+        body: "Hay cuatro sistemas. La resistencia por fricción usa una zapata que roza el volante: es la más barata, pero se desgasta, hace más ruido y la intensidad cambia con el uso. La magnética manual acerca imanes al volante sin tocarlo y se regula con una rueda: es silenciosa, no se desgasta y es la habitual en gama media, como en la MERACH, la Niceday CT11 o la BH Munich. La magnética de ajuste eléctrico mueve los imanes con un pequeño motor, de modo que la consola cambia la resistencia sola dentro de un programa: es lo que hace la Sportstech CX700 y lo que permite entrenar por vatios o por pulso. Y en las autogeneradas, como la MERACH, el propio pedaleo alimenta la consola y no necesitan enchufe. Más niveles no significa más intensidad máxima, sino saltos más finos entre un nivel y otro.",
+      },
+      {
+        heading: "Peso máximo de usuario y estabilidad",
+        body: "El peso máximo de usuario es un límite, no un objetivo: una máquina que trabaja siempre cerca de su tope se desgasta antes y vibra más, así que deja un margen de 15 a 20 kg sobre tu peso. La MERACH y la Niceday CT11 llegan a 180 kg, la BH i.Quantum II a 150 kg, la Capital Sports Helix Pro a 130 kg y la Sportstech CX700 y la BH Munich a 120 kg. El peso de la propia máquina indica su estabilidad: la BH i.Quantum II pesa 57 kg y la MERACH, 59,6 kg.",
+        productSlug: "niceday-ct11-eliptica-compacta-180kg",
+      },
+      {
+        heading: "Espacio y medidas: qué medir antes de comprar",
+        body: "Las elípticas del catálogo miden entre 122 y 170 cm de largo, 46 y 64 cm de ancho y 157 y 167 cm de alto. A las medidas de la ficha suma unos 50 cm por detrás para subir y bajar y unos 30 cm a cada lado para los brazos. Mide también el techo: sobre los pedales estás bastante más alto que en el suelo. La más corta es la Sportstech CX700 (122 cm), la más estrecha la BH Munich (46 cm) y la más larga la BH i.Quantum II (170 cm); la Niceday CT11 anuncia una base de 114 × 54 cm. Las plegables ahorran sitio guardadas, pero durante el uso ocupan lo mismo.",
+      },
+      {
+        heading: "Ruido: cómo usar la elíptica en un piso",
+        body: "Con freno magnético, el freno apenas suena: lo que se oye es el roce de articulaciones y rodamientos y, sobre todo, la vibración que pasa al suelo. Para que no llegue al vecino de abajo, pon la máquina sobre una alfombrilla o base de goma, nivela las patas y aprieta los tornillos tras las primeras semanas. Un volante pesado también ayuda, porque el movimiento es más uniforme. La MERACH, por ejemplo, declara funcionar por debajo de 20 dB.",
+      },
+      {
+        heading: "App, consola y conectividad",
+        body: "La consola básica (tiempo, velocidad, distancia, calorías estimadas y pulso) basta para entrenar; la app aporta motivación con rutas en vídeo, clases y registro de sesiones. La BH i.Quantum II y la Capital Sports Helix Pro se conectan con Kinomap; la Sportstech CX700, con Sportstech Live, y la MERACH, con su propia app. La Niceday CT11 y la BH Munich no tienen app. Muchas apps de terceros son de pago, y el pulso de las empuñaduras es orientativo: para datos fiables, usa una banda de pecho.",
+        productSlug: "sportstech-cx700-eliptica-24-niveles-app",
+      },
+      {
+        heading: "Mantenimiento: poco, pero constante",
+        body: "Una elíptica magnética necesita poco mantenimiento, pero no ninguno. Limpia el sudor del manillar y la consola después de cada uso. Una vez al mes, aprieta los tornillos de articulaciones y palancas y limpia los raíles de los pedales, si los tiene. Un chirrido suele ser un tornillo flojo o un eje seco: consulta el manual antes de lubricar. Y antes de comprar, mira qué garantía y servicio técnico ofrece la marca en España, porque es una máquina pesada y difícil de devolver.",
+      },
+      {
+        heading: "Elíptica, bicicleta estática o cinta: cuál elegir",
+        body: "La elíptica no tiene impacto y trabaja a la vez brazos y piernas. La bicicleta estática tampoco tiene impacto, ocupa menos y es más cómoda para sesiones largas, pero apenas trabaja el tren superior: si dudas, revisa [los tipos de bicicleta estática](/blog/bicicleta-estatica-o-eliptica) y [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025). La cinta es la única que reproduce la carrera real, pero tiene impacto, necesita enchufe y las pisadas se oyen abajo; la analizamos en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025). En resumen: molestias articulares o trabajo de cuerpo completo, elíptica; poco espacio, bicicleta; objetivo correr, cinta.",
+      },
+      {
+        heading: "Las 6 elípticas del catálogo, por perfil",
+        body: "Para la mayoría, la MERACH autoalimentada es la más equilibrada (su punto débil, el volante de 8 kg). Para entrenar casi a diario o si sois varios en casa, la BH i.Quantum II es la más sólida, a cambio de 170 cm de largo. La Capital Sports Helix Pro también tiene volante de 20 kg y Kinomap, pero su zancada de 38 cm la limita a estaturas medias. La Sportstech CX700 es la de los programas, con ajuste eléctrico, modo vatios y app en 122 cm de largo. La BH Munich, con volante de 12 kg y 18 programas, es una opción sencilla para tallas medias que no necesitan app. Y la Niceday CT11 es la más compacta.",
+        productSlug: "capital-sports-helix-pro-eliptica-volante-20kg",
+        productSlugs: ["bh-munich-eliptica-magnetica-volante-12kg"],
+      },
+      {
+        heading: "Errores frecuentes al comprar una elíptica",
+        body: "El más común es elegir por precio sin mirar la zancada: 34-38 cm pueden ir bien a alguien de 1,60 m y resultar incómodos a alguien de 1,85 m. Otros: apurar el peso máximo de usuario sin dejar margen; medir solo la máquina y olvidar el espacio para subir y bajar y la altura del techo; pagar por programas y app cuando lo que sostiene la constancia es que el movimiento sea cómodo; no revisar quién vende y envía ni las condiciones de devolución, clave en un aparato de 40 a 60 kg; y empezar con sesiones largas y resistencia alta en vez de 15-20 minutos a ritmo suave.",
       },
     ],
+    comparisonHeading: "Comparativa de las elípticas del catálogo",
     comparison: {
-      headers: ["Modelo", "Zancada", "Resistencia", "Conectividad", "Mejor para"],
+      headers: ["Modelo", "Zancada", "Volante", "Resistencia", "Peso máx.", "App", "Medidas (cm)"],
       rows: [
-        ["Sportstech ESX500", "43 cm", "24 niveles magnética", "Bluetooth / apps", "Uso regular equilibrado"],
-        ["NordicTrack SpaceSaver SE7i", "46 cm", "Ajustable + inclinación", "iFit + pantalla", "Entrenadores comprometidos"],
-        ["Cecotec E-Mex 3000", "40 cm", "16 niveles magnética", "Sin conectividad", "Pisos pequeños, uso moderado"],
-        ["ProForm Carbon EL", "46 cm", "20 niveles magnética", "iFit", "Clases online integradas"],
-        ["Skandika Olymp II", "43 cm", "12 niveles magnética", "Sin conectividad", "Primera elíptica, entrada de gama"],
+        ["MERACH autoalimentada", "47 cm", "8 kg", "Magnética, 16 niveles", "180 kg", "Sí (Bluetooth)", "150 × 57 × 165"],
+        ["BH i.Quantum II", "45 cm", "20 kg", "Magnética, 24 niveles", "150 kg", "Kinomap", "170 × 64 × 167"],
+        ["Sportstech CX700", "42 cm", "No indicado", "Magnética, 24 niveles (eléctrica)", "120 kg", "Sportstech Live", "122 × 62 × 164"],
+        ["Niceday CT11", "40 cm", "8 kg", "Magnética, 16 niveles", "180 kg", "No", "122 × 63,5 × 157,5"],
+        ["Capital Sports Helix Pro", "38 cm", "20 kg", "Magnética, 32 niveles", "130 kg", "Kinomap", "154 × 60 × 167"],
+        ["BH Munich", "34 cm", "12 kg", "Magnética, 12 niveles", "120 kg", "No", "141 × 46 × 165"],
       ],
     },
     conclusion:
-      "La elíptica doméstica ideal no es la más cara: es la que tiene la zancada correcta para tu altura, la resistencia suficiente para que no te quedes sin retos en seis meses y el nivel de ruido adecuado para tu situación. Para la mayoría de usuarios, la Sportstech ESX500 cubre esos tres requisitos sin pagar extras que no se usan. Si el espacio manda y el uso va a ser moderado, la Cecotec E-Mex 3000 plegable es la respuesta. Y si quieres el empuje de clases guiadas para no desengancharte, la NordicTrack o la ProForm con iFit añaden ese componente. Cualquiera de las cinco es una herramienta seria para entrenar sin impacto articular desde casa.",
+      "La mejor elíptica para casa es la que tiene la zancada adecuada para la persona más alta que la va a usar, un peso máximo con margen sobre el tuyo y unas medidas que caben en tu habitación con espacio para subir y bajar. A partir de ahí, el volante y el tipo de resistencia marcan la suavidad, y la app es un extra. Para la mayoría, la MERACH autoalimentada es la elección más equilibrada; para uso casi diario, la BH i.Quantum II; y para pisos pequeños, la Niceday CT11. Puedes ver las seis con sus fichas completas en [la categoría de elípticas](/tienda/elipticas) y, si quieres un plan para sacarles partido, sigue con [cómo perder peso entrenando en casa](/blog/perder-peso-ejercicio-casa).",
+    conclusionHeading: "Qué elíptica para casa elegir",
+    faqsHeading: "Preguntas frecuentes sobre elípticas para casa",
+    sources: [
+      { label: "OMS — Actividad física: recomendaciones para adultos", url: "https://www.who.int/es/news-room/fact-sheets/detail/physical-activity" },
+    ],
     faqs: [
       {
-        q: "¿Cuántas calorías quema una elíptica?",
-        a: "A intensidad moderada, una persona de unos 75 kg quema entre 400 y 600 kcal por hora en elíptica. A ritmo suave se sitúa más cerca de las 300-350 kcal/hora. Los contadores de las consolas tienden a sobreestimar porque no conocen tu composición corporal real. Para una estimación más ajustada, usa un pulsómetro y calcula por frecuencia cardíaca media.",
+        q: "¿Qué zancada debe tener una elíptica para casa?",
+        a: "Depende de tu altura. Como orientación, de 35 a 40 cm hasta 1,60 m, de 40 a 45 cm entre 1,60 y 1,75 m, y 45 cm o más por encima de 1,75-1,80 m. Si la van a usar varias personas, elige según la más alta.",
       },
       {
-        q: "¿Cuánto tiempo al día recomiendas usar la elíptica?",
-        a: "Para mejorar la condición cardiovascular y gestionar el peso, 30-45 minutos a intensidad moderada-alta entre 3 y 5 días por semana es el rango con mejor respaldo. Empezar con 20 minutos y subir progresivamente es más sostenible que arrancar con 60 minutos y lesionarse o abandonar a las dos semanas.",
+        q: "¿Cuánto tiempo hay que usar la elíptica para notar resultados?",
+        a: "La OMS recomienda a los adultos entre 150 y 300 minutos semanales de actividad aeróbica moderada. En la práctica, 30-40 minutos de elíptica entre 4 y 5 días a la semana cubren esa recomendación. Si empiezas de cero, arranca con 15-20 minutos a ritmo suave y ve subiendo.",
       },
       {
         q: "¿La elíptica sirve para adelgazar?",
-        a: "Sí, dentro del contexto correcto: el ejercicio es una herramienta de gasto calórico, pero la pérdida de grasa requiere un déficit calórico total. La elíptica facilita ese gasto con bajo impacto articular, lo que permite mantener el hábito sin lesiones que lo interrumpan. Es especialmente útil para personas que no toleran el impacto de la cinta o el running.",
+        a: "Sí, como parte de un plan: el ejercicio aumenta el gasto de energía, pero perder grasa depende del balance total con la alimentación. La ventaja de la elíptica es que, al no tener impacto, permite entrenar con regularidad sin las molestias articulares que a veces provoca correr, y la regularidad es lo que da resultados.",
       },
       {
-        q: "¿Se puede usar la elíptica sin experiencia previa?",
-        a: "Sí, y es de hecho uno de los aparatos más recomendados para empezar. El movimiento es guiado, no hay que aprender técnica compleja como en la carrera, y el bajo impacto elimina el riesgo de sobrecarga articular que sí aparece en cinta con técnica deficiente. En las primeras sesiones, mejor empezar con resistencia baja y centrarse en el patrón de movimiento antes de subir la intensidad.",
+        q: "¿Qué es mejor, elíptica o bicicleta estática?",
+        a: "Ninguna de las dos tiene impacto. La elíptica trabaja también brazos y espalda y se parece más a caminar o correr; la bicicleta ocupa menos espacio y es más cómoda para sesiones largas. Si tienes poco sitio, bicicleta; si quieres un trabajo más completo, elíptica.",
+      },
+      {
+        q: "¿Se puede usar una elíptica en un piso sin molestar a los vecinos?",
+        a: "Sí, si es de resistencia magnética y la colocas sobre una alfombrilla o base de goma, bien nivelada y con los tornillos apretados. El ruido que llega abajo es sobre todo vibración, no el freno, así que la base y la estabilidad importan más que el número de niveles.",
       },
     ],
   },
