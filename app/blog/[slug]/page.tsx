@@ -276,7 +276,7 @@ const articleContent: Record<string, {
     ],
   },
   "banco-de-pesas-casa-como-elegir": {
-    intro: "Un banco de pesas es la compra que más ejercicios añade a unas mancuernas: press plano e inclinado, remo con apoyo, press de hombro sentado o sentadilla búlgara. Pero no todos sirven para lo mismo ni caben en cualquier casa. Aquí verás los tipos que existen, qué datos de la ficha comprobar, cómo combinarlo con mancuernas ajustables, qué errores evitar y una comparativa de los bancos del catálogo con los datos que declara cada fabricante.",
+    intro: "Un banco de pesas es la compra que más ejercicios añade a unas mancuernas: press plano e inclinado, remo con apoyo, press de hombro sentado o sentadilla búlgara. Pero no todos sirven para lo mismo ni caben en cualquier casa. Esta guía repasa los tipos, los datos de la ficha que conviene comprobar, cómo combinarlo con mancuernas ajustables y los errores de compra más comunes, y cierra con una comparativa de los bancos del catálogo con los datos que declara cada fabricante.",
     quickPicks: [
       { productSlug: "flybird-banco-pesas-ajustable-plegable-363kg", text: "El más completo: respaldo de -30° a 90°, 363 kg de carga máxima, respaldo de 76,7 cm y plegado de 23 cm de ancho." },
       { productSlug: "yoleo-banco-pesas-plegable-7-posiciones", text: "Plegable y ligero: 10 kg, respaldo de 7 posiciones (plano, inclinado y declinado) y 300 kg de carga máxima." },
@@ -289,7 +289,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Banco plano: el más estable y el más sencillo",
-        body: "El banco plano es un tablero fijo sobre patas, sin respaldo regulable. Al no tener articulaciones es el tipo más estable, y sirve para press de banca con mancuernas o barra, remo a una mano, step-up, hip thrust y fondos de tríceps. Su límite es que no permite press inclinado ni declinado. Encaja si entrenas sobre todo press plano o con barra. Un ejemplo es la banca plana FLYBIRD: el fabricante declara 300 kg de carga máxima, un cojín de 104,1 × 27,9 cm con 6,5 cm de grosor, una altura de 45,7 cm y cuatro taponeras que se giran para nivelarla en suelos irregulares. Además se pliega con un botón y un pasador a cada lado, algo poco habitual en los bancos planos.",
+        body: "El banco plano es un tablero fijo sobre patas, sin respaldo regulable. Al no tener articulaciones es el tipo más estable, y sirve para press de banca con mancuernas o barra, remo a una mano, step-up, hip thrust y fondos de tríceps. Su límite es que no permite press inclinado ni declinado. Encaja si entrenas sobre todo press plano o con barra. Un ejemplo es la banca plana FLYBIRD: el fabricante declara 300 kg de carga máxima, un cojín de 104,1 × 27,9 cm con 6,5 cm de grosor, una altura de 45,7 cm y cuatro taponeras que se giran para nivelarla en suelos irregulares. Se pliega con un botón y un pasador a cada lado, algo poco habitual en los bancos planos.",
         productSlug: "flybird-banco-pesas-plano-plegable-300kg",
       },
       {
@@ -310,7 +310,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Qué medir antes de comprar: carga máxima, posiciones y respaldo",
-        body: "La carga máxima es el peso total que soporta el banco, y tiene que cubrir tu peso corporal más el de las mancuernas o la barra, con margen: una persona de 80 kg con dos mancuernas de 24 kg ya pone 128 kg sobre el banco, sin contar el impulso al sentarse o levantarse. En cuanto a posiciones, más no siempre es mejor; lo útil es tener plano, un par de inclinaciones intermedias para press inclinado, vertical para press de hombro y declinado si quieres abdominales. Compara el ancho del cojín (el del FLYBIRD plano mide 27,9 cm), porque un respaldo estrecho sujeta peor los omóplatos en el press con carga. Mira también la longitud del respaldo si eres alto: los fabricantes que la indican, como FLYBIRD (76,7 cm) o PASYOU (75 cm, para usuarios de hasta 185 cm), te permiten comprobar que apoyas cabeza y espalda. Y revisa la altura del asiento, que debe dejarte apoyar los pies planos en el suelo.",
+        body: "La carga máxima es el peso total que soporta el banco, y tiene que cubrir tu peso corporal más el de las mancuernas o la barra, con margen: una persona de 80 kg con dos mancuernas de 24 kg ya pone 128 kg sobre el banco, sin contar el impulso al sentarse o levantarse. En cuanto a posiciones, lo útil es tener plano, un par de inclinaciones intermedias para press inclinado, vertical para press de hombro y declinado si quieres abdominales. Compara el ancho del cojín (el del FLYBIRD plano mide 27,9 cm), porque un respaldo estrecho sujeta peor los omóplatos en el press con carga. Mira también la longitud del respaldo si eres alto: los fabricantes que la indican, como FLYBIRD (76,7 cm) o PASYOU (75 cm, para usuarios de hasta 185 cm), te permiten comprobar que apoyas cabeza y espalda. Y revisa la altura del asiento, que debe dejarte apoyar los pies planos en el suelo.",
       },
       {
         heading: "Estabilidad, plegado y espacio que ocupa",
@@ -2140,7 +2140,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Peso máximo de usuario y estabilidad",
-        body: "El peso máximo de usuario es un límite, no un objetivo: una máquina que trabaja siempre cerca de su tope se desgasta antes y vibra más, así que deja un margen de 15 a 20 kg sobre tu peso. La MERACH y la Niceday CT11 llegan a 180 kg, la BH i.Quantum II a 150 kg, la Capital Sports Helix Pro a 130 kg y la Sportstech CX700 y la BH Munich a 120 kg. El peso de la propia máquina indica su estabilidad: la BH i.Quantum II pesa 57 kg y la MERACH, 59,6 kg.",
+        body: "El peso máximo de usuario conviene leerlo como un límite: una máquina que trabaja siempre cerca de su tope se desgasta antes y vibra más, así que deja un margen de 15 a 20 kg sobre tu peso. La MERACH y la Niceday CT11 llegan a 180 kg, la BH i.Quantum II a 150 kg, la Capital Sports Helix Pro a 130 kg y la Sportstech CX700 y la BH Munich a 120 kg. El peso de la propia máquina indica su estabilidad: la BH i.Quantum II pesa 57 kg y la MERACH, 59,6 kg.",
         productSlug: "niceday-ct11-eliptica-compacta-180kg",
       },
       {
@@ -2158,11 +2158,11 @@ const articleContent: Record<string, {
       },
       {
         heading: "Mantenimiento: poco, pero constante",
-        body: "Una elíptica magnética necesita poco mantenimiento, pero no ninguno. Limpia el sudor del manillar y la consola después de cada uso. Una vez al mes, aprieta los tornillos de articulaciones y palancas y limpia los raíles de los pedales, si los tiene. Un chirrido suele ser un tornillo flojo o un eje seco: consulta el manual antes de lubricar. Y antes de comprar, mira qué garantía y servicio técnico ofrece la marca en España, porque es una máquina pesada y difícil de devolver.",
+        body: "Una elíptica magnética necesita poco mantenimiento. Limpia el sudor del manillar y la consola después de cada uso. Una vez al mes, aprieta los tornillos de articulaciones y palancas y limpia los raíles de los pedales, si los tiene. Un chirrido suele ser un tornillo flojo o un eje seco: consulta el manual antes de lubricar. Y antes de comprar, mira qué garantía y servicio técnico ofrece la marca en España, porque es una máquina pesada y difícil de devolver.",
       },
       {
         heading: "Elíptica, bicicleta estática o cinta: cuál elegir",
-        body: "La elíptica no tiene impacto y trabaja a la vez brazos y piernas. La bicicleta estática tampoco tiene impacto, ocupa menos y es más cómoda para sesiones largas, pero apenas trabaja el tren superior: si dudas, revisa [los tipos de bicicleta estática](/blog/bicicleta-estatica-o-eliptica) y [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025). La cinta es la única que reproduce la carrera real, pero tiene impacto, necesita enchufe y las pisadas se oyen abajo; la analizamos en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025). En resumen: molestias articulares o trabajo de cuerpo completo, elíptica; poco espacio, bicicleta; objetivo correr, cinta.",
+        body: "La elíptica no tiene impacto y trabaja a la vez brazos y piernas. La bicicleta estática tampoco tiene impacto, ocupa menos y es más cómoda para sesiones largas, pero apenas trabaja el tren superior: si dudas, revisa [los tipos de bicicleta estática](/blog/bicicleta-estatica-o-eliptica) y [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025). La cinta es la única que reproduce la carrera real, pero tiene impacto, necesita enchufe y las pisadas se oyen abajo; la analizamos en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025). Con molestias articulares o si buscas trabajo de cuerpo completo, elíptica; con poco espacio, bicicleta; si el objetivo es correr, cinta.",
       },
       {
         heading: "Las 6 elípticas del catálogo, por perfil",

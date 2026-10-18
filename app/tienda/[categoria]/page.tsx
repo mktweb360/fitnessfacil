@@ -63,7 +63,7 @@ const buyingGuides: Record<string, { intro: string; middle: string; conclusion: 
   },
   elipticas: {
     intro:
-      "Una elíptica para casa trabaja piernas, glúteos y brazos a la vez sin que los pies se separen de los pedales, así que no hay impacto en rodillas, tobillos ni caderas. Por eso es la máquina de cardio que más se recomienda a quien viene de una lesión, tiene sobrepeso o simplemente no tolera correr. Antes de elegir modelo hay cuatro datos que mandan: la zancada, el peso del volante, el peso máximo de usuario y el espacio que tienes.",
+      "Una elíptica para casa trabaja piernas, glúteos y brazos a la vez sin que los pies se separen de los pedales, así que no hay impacto en rodillas, tobillos ni caderas. Por eso es la máquina de cardio que más se recomienda a quien viene de una lesión, tiene sobrepeso o no tolera correr. Antes de elegir modelo hay cuatro datos que mandan: la zancada, el peso del volante, el peso máximo de usuario y el espacio que tienes.",
     middle:
       "La zancada marca la comodidad: por debajo de 40 cm el paso se queda corto si mides más de 1,75 m, y entre 45 y 47 cm es cómoda para casi todo el mundo, como en la MERACH autoalimentada (47 cm) o la BH i.Quantum II (45 cm). El volante determina la suavidad: con 8 kg el movimiento es correcto para sesiones moderadas, y con 20 kg, como la BH i.Quantum II o la Capital Sports Helix Pro, el pedaleo es continuo incluso a ritmo lento. Si vives en un piso pequeño, la Niceday CT11 tiene una base de 114 × 54 cm y aguanta hasta 180 kg. Para entrenar con programas y app, la Sportstech CX700 ofrece 24 niveles de ajuste eléctrico, control por pulso y la app Sportstech Live.",
     conclusion:

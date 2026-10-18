@@ -77,7 +77,7 @@ export default function ContactoPage() {
             <li><strong>Dudas sobre una guía o un análisis:</strong> si algo de un artículo del <Link href="/blog" className="text-green-700 hover:underline">blog</Link> no queda claro o quieres que ampliemos un tema, cuéntanoslo e indícanos en qué página lo has leído.</li>
             <li><strong>Sugerencias de productos:</strong> si conoces una cinta, una bicicleta, unas mancuernas o un suplemento que crees que debería estar en las comparativas de la <Link href="/tienda" className="text-green-700 hover:underline">tienda</Link>, envíanos el nombre exacto del modelo.</li>
             <li><strong>Errores detectados:</strong> un dato técnico equivocado, un enlace roto o un producto que ya no está disponible. Revisamos cada aviso y corregimos la página cuando el error se confirma.</li>
-            <li><strong>Colaboraciones:</strong> propuestas de marcas o medios. Ten en cuenta que no aceptamos pagos por reseñas positivas.</li>
+            <li><strong>Colaboraciones:</strong> propuestas de marcas o medios. No aceptamos pagos por reseñas positivas.</li>
           </ul>
         </section>
         <section>
