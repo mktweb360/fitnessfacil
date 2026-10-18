@@ -2721,7 +2721,7 @@ const articleContent: Record<string, {
     conclusionHeading: "Nuestra valoración: cuánta proteína tomar",
     faqsHeading: "Preguntas sobre cuánta proteína tomar al día",
     sources: [
-      { label: "Morton R.W. et al. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. British Journal of Sports Medicine, 52:376-384", url: "https://bjsm.bmj.com/content/52/6/376" },
+      { label: "Morton R.W. et al. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. British Journal of Sports Medicine, 52:376-384", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/" },
       { label: "Jäger R. et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise. Journal of the International Society of Sports Nutrition, 14:20", url: "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8" },
       { label: "EFSA Panel on Dietetic Products, Nutrition and Allergies (2012). Scientific Opinion on Dietary Reference Values for protein. EFSA Journal, 10(2):2557", url: "https://www.efsa.europa.eu/en/efsajournal/pub/2557" },
     ],
