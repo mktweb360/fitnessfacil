@@ -70,6 +70,42 @@ else {
   if (/Disallow: \/\s*$/m.test(r)) errors.push("robots.txt bloquea todo el sitio");
 }
 
+// ── Cumplimiento de Amazon Associates (18/10/2026) ─────────────────────────────
+// Prohibido mostrar precios, reclamos de precio, «más vendido», valoraciones o nº de reseñas
+// de productos de Amazon escritos a mano. Se limpió el 13/10 y reapareció: por eso ahora bloquea el deploy.
+// Excepciones justificadas (p. ej. precios de SaaS/hosting que no son de Amazon) en scripts/compliance-allow.json:
+// { "paths": ["/blog/slug-con-precios-saas"], "phrases": ["texto exacto permitido"] }
+const allowFile = join(root, "scripts", "compliance-allow.json");
+const allow = existsSync(allowFile) ? JSON.parse(readFileSync(allowFile, "utf8")) : { paths: [], phrases: [] };
+const reglas = [
+  { id: "R1 precio en €", re: /\d[\d.,]*\s?€|€\s?\d/ },
+  { id: "R3 reclamo de precio o ventas", re: /mejor(es)? precios?|comparativa de precios|precio más bajo|más vendid[oa]s?|best ?seller|chollo/i },
+  { id: "R4 valoración", re: /★|☆|\d[.,]\d\s?(\/|de)\s?5\b|de 5 estrellas|valoraci[oó]n media|opiniones verificadas|calificaci[oó]n de (los )?clientes/i },
+  { id: "R5 nº de reseñas", re: /\d[\d.]*\s?(valoraciones|reseñas|opiniones|reviews)\b/i },
+];
+const infracciones = [];
+for (const p of pages) {
+  const ruta = p.slice(app.length).replace(/\\/g, "/").replace(/\.html$/, "").replace(/\/index$/, "") || "/";
+  if (allow.paths.includes(ruta)) continue;
+  let texto = readFileSync(p, "utf8")
+    .replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ");
+  for (const f of allow.phrases) texto = texto.split(f).join(" ");
+  for (const r of reglas) {
+    const m = texto.match(r.re);
+    if (m) infracciones.push(`${r.id}: «${texto.slice(Math.max(0, m.index - 40), m.index + 40).trim()}» en ${ruta}`);
+  }
+  // JSON-LD: sin Product, offers ni aggregateRating
+  const html = readFileSync(p, "utf8");
+  if (/"@type":\s*"Product"|"aggregateRating"|"offers"\s*:/.test(html)) infracciones.push(`R4 JSON-LD de producto/valoración en ${ruta}`);
+}
+const llms = join(root, "public", "llms.txt");
+if (existsSync(llms) && /€/.test(readFileSync(llms, "utf8"))) infracciones.push("R2 precio en € en public/llms.txt");
+if (infracciones.length) {
+  errors.push(`${infracciones.length} incumplimientos de Amazon Associates (precios, reclamos, valoraciones o reseñas)`);
+  ejemplos.unshift(...infracciones.slice(0, 15));
+}
+
 if (errors.length) {
   console.error("\n✖ verify-build: la build NO cumple los mínimos de SEO/medición:");
   for (const e of errors) console.error("  - " + e);
