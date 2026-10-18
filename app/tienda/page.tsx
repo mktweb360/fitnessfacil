@@ -4,7 +4,7 @@ import { categories, getFeaturedProducts, products } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Tienda de Fitness — Equipamiento para Entrenar en Casa",
+  title: "Material de fitness para entrenar en casa",
   description:
     "Cintas de correr, bicicletas estáticas, mancuernas, esterillas y suplementos. Todo lo que necesitas para montar tu gym en casa.",
   alternates: { canonical: "/tienda" },

@@ -1,6 +1,8 @@
 export type Post = {
   slug: string;
   title: string;
+  /** <title> SEO (sin la marca, que añade el layout). Distinto del H1 y ≤ 47 caracteres (≤ 65 con el sufijo de marca; nunca más de 70). */
+  seoTitle?: string;
   excerpt: string;
   date: string;
   category: string;
@@ -17,6 +19,7 @@ export const posts: Post[] = [
   {
     slug: "black-friday-fitness-en-casa",
     title: "Black Friday 2026 para entrenar en casa: qué comprar y qué evitar",
+    seoTitle: "Black Friday fitness en casa: qué comprar",
     excerpt:
       "Qué material de fitness en casa merece la pena comprar en el Black Friday del 27 de noviembre y el Cyber Monday del 30: cintas, bicicletas, mancuernas ajustables y suplementos que ya tomas, qué datos revisar en cada ficha y qué compras evitar.",
     date: "2026-10-13",
@@ -44,6 +47,7 @@ export const posts: Post[] = [
   {
     slug: "regalos-fitness-navidad",
     title: "Regalos para quien entrena en casa: ideas para Navidad y Reyes 2026",
+    seoTitle: "Regalos fitness para Navidad y Reyes 2026",
     excerpt:
       "Ideas de regalo para Navidad y Reyes para quien entrena en casa, ordenadas por presupuesto (del detalle al regalo grande) y por perfil: quien empieza, fuerza, yoga y pilates o cardio. Con consejos para acertar con tallas, pesos y medidas.",
     date: "2026-10-13",
@@ -71,6 +75,7 @@ export const posts: Post[] = [
     slug: "mejor-cinta-correr-casa-2025",
     image: "/images/blog/mejor-cinta-correr-casa-2025.jpg",
     title: "La mejor cinta de correr para casa — Análisis y comparativa",
+    seoTitle: "Mejor cinta de correr para casa: comparativa",
     excerpt:
       "Analizamos las mejores cintas de correr para usar en casa: desde opciones económicas hasta premium. Guía completa con comparativa.",
     date: "2025-05-01",
@@ -88,6 +93,7 @@ export const posts: Post[] = [
     slug: "bicicleta-estatica-o-eliptica",
     image: "/images/blog/bicicleta-estatica-o-eliptica.jpg",
     title: "Tipos de bicicleta estática para casa: cuál elegir según tu espacio",
+    seoTitle: "Tipos de bicicleta estática: cuál elegir",
     excerpt:
       "Bicicleta vertical, ergómetro plegable o mini bici de escritorio: los tres tipos comparados para que aciertes con el que encaja contigo.",
     date: "2025-05-08",
@@ -102,6 +108,8 @@ export const posts: Post[] = [
       "mejor-bicicleta-estatica-casa-2025",
       "ergometro-vs-bicicleta-estatica",
       "bicicleta-estatica-adelgazar-resultados",
+      "mejor-eliptica-casa-2025",
+      "toputure-bicicleta-respaldo-analisis",
     ],
     categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas para casa →" },
   },
@@ -109,6 +117,7 @@ export const posts: Post[] = [
     slug: "rutina-entrenamiento-casa-sin-equipamiento",
     image: "/images/blog/rutina-entrenamiento-casa-sin-equipamiento.jpg",
     title: "Rutina de entrenamiento en casa sin equipamiento — 4 semanas",
+    seoTitle: "Rutina en casa sin material: plan de 4 semanas",
     excerpt:
       "Plan de entrenamiento completo de 4 semanas para hacer en casa sin necesitar ningún equipo. Perfecto para principiantes.",
     date: "2025-05-15",
@@ -130,6 +139,7 @@ export const posts: Post[] = [
     slug: "mancuernas-ajustables-merece-pena",
     image: "/images/blog/mancuernas-ajustables-merece-pena.jpg",
     title: "Mancuernas ajustables: ¿merecen la pena? Análisis completo",
+    seoTitle: "¿Merecen la pena las mancuernas ajustables?",
     excerpt:
       "¿Vale la pena invertir en mancuernas ajustables o mejor comprar un set fijo? Analizamos pros, contras y cuándo comprar cada tipo.",
     date: "2025-05-22",
@@ -152,6 +162,7 @@ export const posts: Post[] = [
     slug: "proteina-whey-guia-completa",
     image: "/images/blog/proteina-whey-guia-completa.jpg",
     title: "Proteína whey: guía completa para principiantes",
+    seoTitle: "Proteína whey: guía para principiantes",
     excerpt:
       "Todo lo que necesitas saber sobre la proteína whey: para qué sirve, cuándo tomarla, cuánta necesitas y cuál comprar.",
     date: "2025-05-29",
@@ -173,6 +184,7 @@ export const posts: Post[] = [
     slug: "yoga-en-casa-principiantes",
     image: "/images/blog/yoga-en-casa-principiantes.jpg",
     title: "Yoga en casa para principiantes — Guía de inicio completa",
+    seoTitle: "Yoga en casa para principiantes: cómo empezar",
     excerpt:
       "Cómo empezar a practicar yoga en casa desde cero: posturas básicas, rutina para principiantes y qué material necesitas.",
     date: "2025-06-01",
@@ -193,6 +205,7 @@ export const posts: Post[] = [
     slug: "perder-peso-ejercicio-casa",
     image: "/images/blog/perder-peso-ejercicio-casa.jpg",
     title: "Cómo perder peso haciendo ejercicio en casa — Plan de 8 semanas",
+    seoTitle: "Perder peso en casa: plan de 8 semanas",
     excerpt:
       "Plan completo de pérdida de peso con ejercicio en casa. Cardio, fuerza y nutrición para resultados reales en 8 semanas.",
     date: "2025-06-05",
@@ -214,6 +227,7 @@ export const posts: Post[] = [
     slug: "creatina-para-que-sirve",
     image: "/images/blog/creatina-para-que-sirve.jpg",
     title: "Creatina: para qué sirve, cómo tomarla y si funciona de verdad",
+    seoTitle: "Creatina: para qué sirve y cómo tomarla",
     excerpt:
       "La guía definitiva sobre la creatina: qué dice la ciencia, cómo y cuándo tomarla, efectos secundarios y qué marca elegir.",
     date: "2025-06-09",
@@ -235,6 +249,7 @@ export const posts: Post[] = [
     slug: "walkingpad-r2-vs-r1-pro",
     image: "/images/blog/walkingpad-r2-vs-r1-pro.jpg",
     title: "WalkingPad R2 vs R1 Pro: cuál comprar",
+    seoTitle: "WalkingPad R2 vs R1 Pro: diferencias",
     excerpt:
       "Comparativa directa WalkingPad R2 vs R1 Pro: diferencias reales en velocidad, motor, precio y uso para ayudarte a elegir la tuya.",
     date: "2025-07-01",
@@ -252,6 +267,7 @@ export const posts: Post[] = [
     slug: "cinta-correr-plegable-piso-pequeno",
     image: "/images/blog/cinta-correr-plegable-piso-pequeno.jpg",
     title: "Cinta de correr plegable para piso pequeño: guía",
+    seoTitle: "Cinta de correr plegable para piso pequeño",
     excerpt:
       "Cómo elegir una cinta de correr plegable si vives en un piso pequeño: espacio, ruido, plegado y las mejores opciones del mercado.",
     date: "2025-07-02",
@@ -269,6 +285,7 @@ export const posts: Post[] = [
     slug: "cinta-andar-casa-bajo-escritorio",
     image: "/images/blog/cinta-andar-casa-bajo-escritorio.jpg",
     title: "Cinta de andar bajo el escritorio: guía completa",
+    seoTitle: "Cinta de andar bajo escritorio: cómo elegirla",
     excerpt:
       "Cómo usar una cinta de andar bajo el escritorio para trabajar y moverse al mismo tiempo. Qué modelos funcionan y cómo empezar.",
     date: "2025-07-03",
@@ -286,6 +303,7 @@ export const posts: Post[] = [
     slug: "walkingpad-opiniones-analisis",
     image: "/images/blog/walkingpad-opiniones-analisis.jpg",
     title: "WalkingPad: opiniones reales y análisis completo",
+    seoTitle: "WalkingPad: opiniones y análisis de la cinta",
     excerpt:
       "Análisis honesto de las WalkingPad en España: qué dicen los usuarios reales, pros y contras de cada modelo y si vale la pena el precio.",
     date: "2025-07-04",
@@ -303,6 +321,7 @@ export const posts: Post[] = [
     slug: "entrenar-caminando-casa-beneficios",
     image: "/images/blog/entrenar-caminando-casa-beneficios.jpg",
     title: "Beneficios de caminar en casa: por qué funciona mejor de lo que crees",
+    seoTitle: "Beneficios de caminar en casa: por qué funciona",
     excerpt:
       "Los beneficios reales de caminar en casa con una cinta: salud cardiovascular, pérdida de peso, productividad y cómo empezar desde hoy.",
     date: "2025-07-05",
@@ -320,6 +339,7 @@ export const posts: Post[] = [
     slug: "perder-peso-cinta-andar-casa-plan",
     image: "/images/blog/perder-peso-cinta-andar-casa-plan.jpg",
     title: "Plan de 8 semanas para perder peso caminando en cinta",
+    seoTitle: "Plan para perder peso con cinta de andar",
     excerpt:
       "Plan de entrenamiento de 8 semanas para perder peso caminando en cinta en casa. Progresión semana a semana, calorías y consejos prácticos.",
     date: "2025-07-06",
@@ -337,6 +357,7 @@ export const posts: Post[] = [
     slug: "mejor-bicicleta-estatica-casa-2025",
     image: "/images/blog/mejor-bicicleta-estatica-casa-2025.jpg",
     title: "Mejor bicicleta estática para casa — Comparativa completa",
+    seoTitle: "Mejor bicicleta estática para casa: comparativa",
     excerpt:
       "Comparativa de las mejores bicicletas estáticas para casa: MERACH, Sportstech X150 y X100-C. Guía de compra por perfil y presupuesto.",
     date: "2025-07-07",
@@ -351,6 +372,8 @@ export const posts: Post[] = [
       "sportstech-x100c-analisis",
       "merach-bicicleta-estatica-analisis",
       "ergometro-vs-bicicleta-estatica",
+      "toputure-bicicleta-respaldo-analisis",
+      "mini-bicicleta-escritorio-trabajar",
     ],
     categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
@@ -358,6 +381,7 @@ export const posts: Post[] = [
     slug: "sportstech-x100c-analisis",
     image: "/images/blog/sportstech-x100c-analisis.jpg",
     title: "Sportstech X100-C: análisis completo y opiniones",
+    seoTitle: "Sportstech X100-C: análisis y opiniones",
     excerpt:
       "Análisis honesto de la Sportstech X100-C: qué ofrece, para quién es ideal y si sus cuerdas de fuerza integradas realmente aportan valor.",
     date: "2025-07-08",
@@ -375,6 +399,7 @@ export const posts: Post[] = [
     slug: "merach-bicicleta-estatica-analisis",
     image: "/images/blog/merach-bicicleta-estatica-analisis.jpg",
     title: "MERACH bicicleta estática: análisis completo y opiniones",
+    seoTitle: "MERACH bicicleta estática: análisis y opiniones",
     excerpt:
       "Análisis detallado de la MERACH bicicleta estática con app: qué ofrece, para quién es la opción correcta y cómo se compara con otras bicis domésticas.",
     date: "2025-07-09",
@@ -392,6 +417,7 @@ export const posts: Post[] = [
     slug: "mini-bicicleta-escritorio-trabajar",
     image: "/images/blog/mini-bicicleta-escritorio-trabajar.jpg",
     title: "Mini bicicleta de escritorio: guía completa y análisis",
+    seoTitle: "Mini bicicleta de escritorio: análisis y guía",
     excerpt:
       "Todo sobre la mini bicicleta de escritorio: qué es, cómo funciona, si realmente sirve para algo y cuál comprar.",
     date: "2025-07-10",
@@ -409,6 +435,7 @@ export const posts: Post[] = [
     slug: "ergometro-vs-bicicleta-estatica",
     image: "/images/blog/ergometro-vs-bicicleta-estatica.jpg",
     title: "Ergómetro vs bicicleta estática: diferencias y cuál elegir",
+    seoTitle: "Ergómetro vs bicicleta estática: cuál elegir",
     excerpt:
       "Diferencias reales entre ergómetro y bicicleta estática para casa: postura, músculos trabajados, espacio y cuál comprar según tu objetivo.",
     date: "2025-07-11",
@@ -419,6 +446,7 @@ export const posts: Post[] = [
       "mejor-bicicleta-estatica-casa-2025",
       "merach-bicicleta-estatica-analisis",
       "bicicleta-estatica-adelgazar-resultados",
+      "mini-bicicleta-escritorio-trabajar",
     ],
     categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
@@ -426,6 +454,7 @@ export const posts: Post[] = [
     slug: "bicicleta-estatica-adelgazar-resultados",
     image: "/images/blog/bicicleta-estatica-adelgazar-resultados.jpg",
     title: "Bicicleta estática para adelgazar: resultados reales y cuánto tiempo lleva",
+    seoTitle: "Bicicleta estática para adelgazar: resultados",
     excerpt:
       "Cuánto se puede adelgazar con bicicleta estática, en cuánto tiempo y con qué frecuencia. Guía basada en evidencia para resultados reales.",
     date: "2025-07-12",
@@ -436,6 +465,7 @@ export const posts: Post[] = [
       "perder-peso-cinta-andar-casa-plan",
       "mejor-bicicleta-estatica-casa-2025",
       "suplementos-fitness-casa-necesarios",
+      "mejor-eliptica-casa-2025",
     ],
     categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas en tienda →" },
   },
@@ -443,6 +473,7 @@ export const posts: Post[] = [
     slug: "mancuernas-ajustables-vs-fijas",
     image: "/images/blog/mancuernas-ajustables-vs-fijas.jpg",
     title: "Mancuernas ajustables vs fijas: cuál comprar para casa",
+    seoTitle: "Mancuernas ajustables o fijas: cuál comprar",
     excerpt:
       "Comparativa honesta entre mancuernas ajustables y fijas para entrenar en casa: espacio, precio, durabilidad y para quién conviene cada una.",
     date: "2025-07-13",
@@ -465,6 +496,7 @@ export const posts: Post[] = [
     slug: "lullax-neo36-analisis-opinion",
     image: "/images/blog/lullax-neo36-analisis-opinion.jpg",
     title: "LULLAX NEO36 mancuernas ajustables: análisis y opiniones",
+    seoTitle: "LULLAX NEO36: análisis y opiniones",
     excerpt:
       "Análisis completo de las LULLAX NEO36: qué ofrecen, para quién son la compra correcta y cómo se comparan con otras mancuernas ajustables del mercado.",
     date: "2025-07-14",
@@ -482,6 +514,7 @@ export const posts: Post[] = [
     slug: "kettlebell-para-empezar-peso",
     image: "/images/blog/kettlebell-para-empezar-peso.jpg",
     title: "Kettlebell para principiantes: qué peso elegir y cómo empezar",
+    seoTitle: "Kettlebell para principiantes: qué peso elegir",
     excerpt:
       "Guía completa para empezar con kettlebell: qué peso elegir según sexo y objetivo, los ejercicios básicos y por qué la kettlebell es diferente a las mancuernas.",
     date: "2025-07-15",
@@ -499,6 +532,7 @@ export const posts: Post[] = [
     slug: "bandas-elasticas-musculacion-guia",
     image: "/images/blog/bandas-elasticas-musculacion-guia.jpg",
     title: "Bandas elásticas para musculación: guía completa",
+    seoTitle: "Guía de bandas elásticas para musculación",
     excerpt:
       "Guía completa sobre bandas elásticas para musculación: tipos, ejercicios, niveles de resistencia y cómo elegir las mejores para entrenar en casa.",
     date: "2025-07-16",
@@ -516,6 +550,7 @@ export const posts: Post[] = [
     slug: "entrenamiento-fuerza-casa-equipamiento-minimo",
     image: "/images/blog/entrenamiento-fuerza-casa-equipamiento-minimo.jpg",
     title: "Entrenamiento de fuerza en casa con equipamiento mínimo",
+    seoTitle: "Fuerza en casa con equipamiento mínimo",
     excerpt:
       "Cómo montar un home gym eficaz con poco presupuesto: qué equipamiento necesitas realmente, qué es prescindible y cómo estructurar el entrenamiento.",
     date: "2025-07-17",
@@ -537,6 +572,7 @@ export const posts: Post[] = [
     slug: "rutina-mancuernas-casa-semana",
     image: "/images/blog/rutina-mancuernas-casa-semana.jpg",
     title: "Rutina de mancuernas en casa: plan semanal completo",
+    seoTitle: "Rutina de mancuernas en casa: plan semanal",
     excerpt:
       "Plan semanal completo de entrenamiento con mancuernas en casa: rutina de 4 días, ejercicios por grupo muscular, series y repeticiones para principiantes e intermedios.",
     date: "2025-07-18",
@@ -554,6 +590,7 @@ export const posts: Post[] = [
     slug: "mejor-esterilla-yoga-casa-2025",
     image: "/images/blog/mejor-esterilla-yoga-casa-2025.jpg",
     title: "Mejor esterilla de yoga para casa — Comparativa y guía",
+    seoTitle: "Mejor esterilla de yoga para casa: comparativa",
     excerpt:
       "Comparativa de las mejores esterillas de yoga para casa: TOPLUS vs La Mente Es Maravillosa. Guía de compra por grosor, material y uso.",
     date: "2025-07-19",
@@ -571,6 +608,7 @@ export const posts: Post[] = [
     slug: "esterilla-tpe-vs-pvc-diferencias",
     image: "/images/blog/esterilla-tpe-vs-pvc-diferencias.jpg",
     title: "Esterilla TPE vs PVC: diferencias reales y cuál elegir",
+    seoTitle: "Esterilla TPE vs PVC: diferencias y cuál elegir",
     excerpt:
       "Diferencias reales entre esterillas de yoga de TPE y PVC: agarre, durabilidad, precio, toxicidad y cuál conviene según tu práctica.",
     date: "2025-07-20",
@@ -588,6 +626,7 @@ export const posts: Post[] = [
     slug: "toplus-esterilla-analisis",
     image: "/images/blog/toplus-esterilla-analisis.jpg",
     title: "TOPLUS esterilla de yoga: análisis completo y opiniones",
+    seoTitle: "Esterilla de yoga TOPLUS: análisis y opiniones",
     excerpt:
       "Análisis detallado de la TOPLUS esterilla yoga TPE 6mm: qué ofrece, para quién es la mejor opción y cómo se compara con otras esterillas del mercado.",
     date: "2025-07-21",
@@ -605,6 +644,7 @@ export const posts: Post[] = [
     slug: "pilates-casa-principiantes-guia",
     image: "/images/blog/pilates-casa-principiantes-guia.jpg",
     title: "Pilates en casa para principiantes: guía completa para empezar",
+    seoTitle: "Pilates en casa para principiantes",
     excerpt:
       "Guía completa de pilates en casa para principiantes: qué es, qué beneficios tiene, qué equipamiento necesitas y una rutina inicial de 20 minutos.",
     date: "2025-07-22",
@@ -622,6 +662,7 @@ export const posts: Post[] = [
     slug: "estiramientos-despues-ejercicio",
     image: "/images/blog/estiramientos-despues-ejercicio.jpg",
     title: "Estiramientos después del ejercicio: guía completa y rutina",
+    seoTitle: "Estiramientos después del ejercicio: rutina",
     excerpt:
       "Por qué estirar después de entrenar, cuánto tiempo, qué músculos priorizar y una rutina de 10 minutos para hacer en casa con esterilla.",
     date: "2025-07-23",
@@ -639,6 +680,7 @@ export const posts: Post[] = [
     slug: "yoga-adelgazar-funciona",
     image: "/images/blog/yoga-adelgazar-funciona.jpg",
     title: "¿El yoga adelgaza? Lo que dice la evidencia",
+    seoTitle: "Yoga para adelgazar: ¿funciona de verdad?",
     excerpt:
       "¿Se puede perder peso haciendo yoga? Lo que dice la evidencia científica sobre yoga y pérdida de peso, cuántas calorías quema y qué estilos son más efectivos.",
     date: "2025-07-24",
@@ -656,6 +698,7 @@ export const posts: Post[] = [
     slug: "on-gold-standard-whey-analisis",
     image: "/images/blog/on-gold-standard-whey-analisis.jpg",
     title: "Optimum Nutrition Gold Standard Whey: análisis completo",
+    seoTitle: "Optimum Nutrition Gold Standard Whey: análisis",
     excerpt:
       "Análisis detallado del Gold Standard Whey de Optimum Nutrition: qué lo ha convertido en una referencia, para quién es ideal y si justifica el precio.",
     date: "2025-07-25",
@@ -674,6 +717,7 @@ export const posts: Post[] = [
     slug: "proteina-whey-antes-despues-entreno",
     image: "/images/blog/proteina-whey-antes-despues-entreno.jpg",
     title: "Proteína whey: cuándo tomarla y si importa el momento",
+    seoTitle: "Proteína whey antes o después de entrenar",
     excerpt:
       "Cuándo tomar la proteína whey según la evidencia: antes, durante o después del entrenamiento. Lo que dice la ciencia sobre la ventana anabólica.",
     date: "2025-07-26",
@@ -692,6 +736,7 @@ export const posts: Post[] = [
     slug: "creatina-monohidrato-guia-completa",
     image: "/images/blog/creatina-monohidrato-guia-completa.jpg",
     title: "Creatina monohidrato: guía completa para principiantes",
+    seoTitle: "Creatina monohidrato: guía para principiantes",
     excerpt:
       "Todo sobre la creatina monohidrato: cómo funciona, cómo tomarla, cuándo se notan los efectos y por qué es el suplemento con más respaldo científico.",
     date: "2025-07-27",
@@ -710,6 +755,7 @@ export const posts: Post[] = [
     slug: "myprotein-impact-whey-opinion",
     image: "/images/blog/myprotein-impact-whey-opinion.jpg",
     title: "Myprotein Impact Whey: análisis y opiniones",
+    seoTitle: "Myprotein Impact Whey: opiniones y análisis",
     excerpt:
       "Análisis completo de la Myprotein Impact Whey: calidad real, sabores, comparativa con ON Gold Standard y para quién es la mejor opción.",
     date: "2025-07-28",
@@ -728,6 +774,7 @@ export const posts: Post[] = [
     slug: "suplementos-fitness-casa-necesarios",
     image: "/images/blog/suplementos-fitness-casa-necesarios.jpg",
     title: "¿Qué suplementos necesitas realmente para entrenar en casa?",
+    seoTitle: "Qué suplementos necesitas para entrenar en casa",
     excerpt:
       "Guía honesta sobre suplementos para fitness en casa: cuáles tienen respaldo científico, cuáles son marketing y cuál es el orden correcto de prioridades.",
     date: "2025-07-29",
@@ -750,6 +797,7 @@ export const posts: Post[] = [
     slug: "proteina-vegana-vs-whey",
     image: "/images/blog/proteina-vegana-vs-whey.jpg",
     title: "Proteína vegana vs whey: diferencias reales y cuál elegir",
+    seoTitle: "Proteína vegana vs whey: cuál elegir",
     excerpt:
       "Comparativa proteína vegana vs whey: perfil de aminoácidos, digestión, precio y cuál es mejor según tus objetivos y preferencias alimentarias.",
     date: "2025-07-30",
@@ -760,6 +808,7 @@ export const posts: Post[] = [
       "myprotein-impact-whey-opinion",
       "on-gold-standard-whey-analisis",
       "suplementos-fitness-casa-necesarios",
+      "proteina-soja-vegana-hsn-analisis",
     ],
     isSupplement: true,
     categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
@@ -768,6 +817,7 @@ export const posts: Post[] = [
     slug: "mejor-suplemento-pre-entreno",
     image: "/images/blog/mejor-suplemento-pre-entreno.jpg",
     title: "¿Merece la pena el suplemento pre-entreno? Guía completa",
+    seoTitle: "Pre-entreno: ¿merece la pena tomarlo?",
     excerpt:
       "Análisis honesto de los suplementos pre-entreno: qué ingredientes funcionan de verdad, cuáles son marketing y si merece la pena gastar dinero en ellos.",
     date: "2025-08-01",
@@ -791,6 +841,7 @@ export const posts: Post[] = [
     slug: "mejor-eliptica-casa-2025",
     image: "/images/blog/mejor-eliptica-casa-2025.jpg",
     title: "Mejor elíptica para casa: comparativa y guía de compra",
+    seoTitle: "Mejor elíptica para casa: comparativa y guía",
     excerpt:
       "Comparativa de las mejores elípticas para casa: zancada, resistencia, ruido y espacio. Guía de compra por perfil y presupuesto para acertar a la primera.",
     date: "2025-08-09",
@@ -807,6 +858,7 @@ export const posts: Post[] = [
     slug: "hiit-en-casa-principiantes",
     image: "/images/blog/hiit-en-casa-principiantes.jpg",
     title: "Entrenamiento HIIT en casa: qué es, cómo empezar y rutina para principiantes",
+    seoTitle: "HIIT en casa para principiantes: cómo empezar",
     excerpt:
       "Guía completa de HIIT en casa para principiantes: beneficios, estructura básica, errores frecuentes y rutina de 20 minutos sin material.",
     date: "2025-08-10",
@@ -827,6 +879,7 @@ export const posts: Post[] = [
     slug: "ejercicio-mujeres-40-anos-casa",
     image: "/images/blog/ejercicio-mujeres-40-anos-casa.jpg",
     title: "Entrenamiento para mujeres de 40 años en casa: guía completa",
+    seoTitle: "Ejercicio en casa para mujeres de 40 años",
     excerpt:
       "Cómo entrenar en casa a partir de los 40: qué cambia en el cuerpo, por qué el cardio solo no es suficiente y qué rutina semanal da mejores resultados.",
     date: "2025-08-11",
@@ -847,6 +900,7 @@ export const posts: Post[] = [
   {
     slug: "primera-dominada-banda-asistencia-progresion",
     title: "Cómo conseguir tu primera dominada: banda de asistencia y plan de progresión (2026)",
+    seoTitle: "Primera dominada con banda: plan de progresión",
     excerpt:
       "Guía práctica para llegar a tu primera dominada completa: cómo elegir el nivel de banda de asistencia, plan de progresión semana a semana y errores que frenan el avance.",
     date: "2026-09-02",
@@ -867,6 +921,7 @@ export const posts: Post[] = [
   {
     slug: "suplementos-recuperacion-muscular-magnesio-omega3-bcaa",
     title: "Suplementos para la recuperación muscular: magnesio, omega-3 y BCAA, qué funciona de verdad (2026)",
+    seoTitle: "Suplementos para la recuperación muscular",
     excerpt:
       "Comparativa honesta de los tres suplementos de recuperación más buscados: qué evidencia respalda a cada uno, cuándo tiene sentido tomarlos y cuándo el dinero rinde más en otra cosa.",
     date: "2026-09-07",
@@ -888,6 +943,7 @@ export const posts: Post[] = [
   {
     slug: "mobiclinic-extenfit-mancuernas-analisis",
     title: "Mobiclinic ExtenFit: análisis completo de las mancuernas ajustables 2 en 1",
+    seoTitle: "Mancuernas Mobiclinic ExtenFit 2 en 1: análisis",
     excerpt:
       "Analizamos el kit de mancuernas ajustables Mobiclinic ExtenFit: cómo funciona el sistema 2 en 1, para quién tiene sentido y sus limitaciones reales.",
     date: "2026-09-07",
@@ -908,6 +964,7 @@ export const posts: Post[] = [
   {
     slug: "proteina-soja-vegana-hsn-analisis",
     title: "Proteína de soja vegana HSN: análisis completo para quien no toma whey",
+    seoTitle: "Proteína de soja vegana HSN: análisis",
     excerpt:
       "Aminograma, digestión, sabor y cómo se compara con la whey tradicional: todo lo que hay que saber antes de elegir una proteína vegetal.",
     date: "2026-09-07",
@@ -929,6 +986,7 @@ export const posts: Post[] = [
   {
     slug: "toputure-bicicleta-respaldo-analisis",
     title: "Toputure con respaldo: análisis de la bicicleta estática más cómoda del catálogo",
+    seoTitle: "Toputure bicicleta con respaldo: análisis",
     excerpt:
       "Por qué una bicicleta con respaldo (tipo recumbent) puede ser mejor opción que una de spinning vertical si tienes molestias de espalda o buscas más comodidad.",
     date: "2026-09-07",
@@ -949,6 +1007,7 @@ export const posts: Post[] = [
   {
     slug: "portentum-bandas-anclaje-puerta-analisis",
     title: "PORTENTUM: análisis del kit de bandas con anclaje de puerta más completo",
+    seoTitle: "PORTENTUM bandas con anclaje: análisis",
     excerpt:
       "Cómo simular ejercicios de polea de gimnasio en casa con un kit de bandas, asas y anclaje de puerta. Qué ejercicios puedes hacer y qué esperar del material.",
     date: "2026-09-07",
@@ -969,6 +1028,7 @@ export const posts: Post[] = [
   {
     slug: "sobreentrenamiento-sintomas-como-recuperarte",
     title: "Sobreentrenamiento: síntomas reales y cómo recuperarte sin perder semanas",
+    seoTitle: "Sobreentrenamiento: síntomas y cómo recuperarte",
     excerpt:
       "Estancarte o rendir peor pese a entrenar más no es falta de disciplina: puede ser sobreentrenamiento. Señales para detectarlo a tiempo y plan de recuperación en 3 fases.",
     date: "2026-09-13",
@@ -990,6 +1050,7 @@ export const posts: Post[] = [
     slug: "rodillo-espuma-foam-roller-como-usar",
     image: "/images/blog/rodillo-espuma-foam-roller-como-usar.jpg",
     title: "Rodillo de espuma (foam roller): qué dice la evidencia, cómo usarlo y cuál elegir (2026)",
+    seoTitle: "Rodillo de espuma (foam roller): cómo usarlo",
     excerpt:
       "El rodillo de espuma mejora la movilidad de forma temporal y reduce la sensación de agujetas, con poco efecto sobre el rendimiento. Úsalo 30-60 s por zona antes de entrenar y 60-90 s después, con pasadas lentas.",
     date: "2026-09-27",
@@ -1010,6 +1071,7 @@ export const posts: Post[] = [
   {
     slug: "cuanta-proteina-al-dia-segun-objetivo",
     title: "¿Cuánta proteína necesitas al día? Cálculo según tu objetivo y peso (2026)",
+    seoTitle: "Cuánta proteína al día: cálculo por objetivo",
     excerpt:
       "Para ganar músculo, la evidencia sitúa el rendimiento máximo en torno a 1,6 g de proteína por kg de peso y día; en la práctica, entre 1,4 y 2,0 g/kg. Calcula tu cifra, repártela en 3-4 tomas y comprueba si necesitas batido.",
     date: "2026-10-11",
@@ -1026,12 +1088,14 @@ export const posts: Post[] = [
       "proteina-vegana-vs-whey",
       "proteina-whey-guia-completa",
       "suplementos-fitness-casa-necesarios",
+      "proteina-soja-vegana-hsn-analisis",
     ],
     categoryCta: { href: "/tienda/suplementos-proteinas", text: "Ver proteínas y suplementos →" },
   },
   {
     slug: "tipos-de-pesas-cual-elegir-casa-gimnasio",
     title: "Tipos de pesas: cuál elegir para entrenar en casa o en el gimnasio",
+    seoTitle: "Tipos de pesas: cuál elegir y para qué sirven",
     excerpt: "Mancuernas fijas y ajustables, barras y discos, kettlebells, mazas y lastres: qué es cada tipo de pesa, para qué sirve y cuál conviene según tu espacio, tu nivel y tu presupuesto.",
     date: "2026-10-12",
     category: "Fuerza",
@@ -1053,6 +1117,7 @@ export const posts: Post[] = [
   {
     slug: "banco-de-pesas-casa-como-elegir",
     title: "Banco de pesas para casa: tipos y cómo elegir (2026)",
+    seoTitle: "Banco de pesas para casa: cómo elegirlo",
     excerpt: "Cómo elegir un banco de pesas para casa: plano, ajustable, plegable o con soporte de barra; carga máxima, posiciones, respaldo y comparativa de modelos.",
     date: "2026-10-18",
     category: "Fuerza",

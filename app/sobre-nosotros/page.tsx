@@ -214,6 +214,9 @@ export default function SobreNosotrosPage() {
             <p>
               Mkt Web 360 SLU · CIF: B87679304 · Email: info@mktweb360.com
             </p>
+            <p className="mt-2">
+              Más información en el <Link href="/aviso-legal" className="text-green-700 hover:underline">aviso legal</Link>. Si detectas un error en una guía o quieres sugerirnos un producto, escríbenos desde la página de <Link href="/contacto" className="text-green-700 hover:underline">contacto</Link>.
+            </p>
           </div>
         </div>
       </div>

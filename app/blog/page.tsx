@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { posts } from "@/data/posts";
 
 export const metadata: Metadata = {
-  title: "Blog — Guías de Fitness y Ejercicio en Casa",
+  title: "Blog de fitness en casa: rutinas y guías",
   description:
     "Guías de entrenamiento, planes de pérdida de peso, análisis de equipamiento y consejos de nutrición para ponerte en forma en casa.",
   alternates: { canonical: "/blog" },

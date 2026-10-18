@@ -72,7 +72,7 @@ export default function PoliticaCookiesPage() {
           </ul>
         </section>
 
-        <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-green-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com.</p>
+        <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-green-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com. Los datos del titular del sitio figuran en el <Link href="/aviso-legal" className="text-green-700 hover:underline">aviso legal</Link>.</p>
         <p className="text-xs text-gray-400">Última actualización: octubre de 2026</p>
       </div>
     </div>

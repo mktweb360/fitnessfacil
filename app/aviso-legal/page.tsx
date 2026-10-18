@@ -25,7 +25,7 @@ export default function AvisoLegalPage() {
             <li><strong>Razón social:</strong> Mkt Web 360 SLU</li>
             <li><strong>CIF:</strong> B87679304</li>
             <li><strong>Domicilio social:</strong> España</li>
-            <li><strong>Email:</strong> info@mktweb360.com</li>
+            <li><strong>Email:</strong> info@mktweb360.com (también desde la página de <Link href="/contacto" className="text-green-700 hover:underline">contacto</Link>)</li>
             <li><strong>Sitio web:</strong> https://www.fitnessfacil.es</li>
           </ul>
         </section>
@@ -43,7 +43,7 @@ export default function AvisoLegalPage() {
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">5. Información sobre afiliados</h2>
-          <p>FitnessFácil.es participa en programas de afiliación con distintos proveedores. Los enlaces de afiliado pueden generar comisión sin coste adicional para el usuario. Consulta el detalle en nuestra política de privacidad.</p>
+          <p>FitnessFácil.es participa en programas de afiliación con distintos proveedores. Los enlaces de afiliado pueden generar comisión sin coste adicional para el usuario. Consulta el detalle en nuestra <Link href="/politica-de-privacidad" className="text-green-700 hover:underline">política de privacidad</Link> y, sobre las cookies que se usan, en la <Link href="/politica-de-cookies" className="text-green-700 hover:underline">política de cookies</Link>.</p>
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">6. Legislación aplicable</h2>

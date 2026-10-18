@@ -22,7 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return {};
   return {
-    title: post.title,
+    // <title> SEO propio (≤ 70 con la marca y distinto del H1); el H1 sigue usando post.title.
+    title: post.seoTitle ?? post.title,
     description: post.excerpt,
     alternates: { canonical: `/blog/${slug}` },
     openGraph: { title: post.title, description: post.excerpt, type: "article", publishedTime: post.date },

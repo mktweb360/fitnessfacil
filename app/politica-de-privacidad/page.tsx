@@ -33,8 +33,8 @@ export default function PoliticaPrivacidadPage() {
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">2. Datos que recopilamos</h2>
           <ul className="space-y-1">
-            <li><strong>Formulario de contacto:</strong> nombre y email cuando nos escribes</li>
-            <li><strong>Cookies analíticas y publicitarias:</strong> con tu consentimiento (ver política de cookies)</li>
+            <li><strong><Link href="/contacto" className="text-green-700 hover:underline">Formulario de contacto</Link>:</strong> nombre y email cuando nos escribes</li>
+            <li><strong>Cookies analíticas y publicitarias:</strong> con tu consentimiento (ver <Link href="/politica-de-cookies" className="text-green-700 hover:underline">política de cookies</Link>)</li>
             <li><strong>Google AdSense:</strong> con consentimiento, Google recopila datos para publicidad personalizada</li>
             <li><strong>Amazon Associates:</strong> cuando clicas en nuestros enlaces de Amazon, Amazon gestiona datos según su política propia</li>
           </ul>
