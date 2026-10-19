@@ -21,6 +21,7 @@ export default function Footer() {
               <li><Link href="/tienda/cintas-correr" className="hover:text-white transition-colors">Cintas de correr</Link></li>
               <li><Link href="/tienda/bicicletas-estaticas" className="hover:text-white transition-colors">Bicicletas estáticas</Link></li>
               <li><Link href="/tienda/elipticas" className="hover:text-white transition-colors">Elípticas</Link></li>
+              <li><Link href="/tienda/maquinas-remo" className="hover:text-white transition-colors">Máquinas de remo</Link></li>
               <li><Link href="/tienda/pesas-mancuernas" className="hover:text-white transition-colors">Pesas y mancuernas</Link></li>
               <li><Link href="/tienda/esterillas-yoga" className="hover:text-white transition-colors">Esterillas y yoga</Link></li>
               <li><Link href="/tienda/suplementos-proteinas" className="hover:text-white transition-colors">Suplementos y proteínas</Link></li>

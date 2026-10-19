@@ -605,7 +605,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Semanas 1-4: base cardiovascular y técnica",
-        body: "El primer bloque construye el hábito, no el resultado. Tres sesiones semanales de 30 minutos de cardio a intensidad moderada, entendiendo por moderada aquella en la que aún puedes mantener una conversación, más dos días de fuerza con peso corporal. Una cinta plegable resuelve bien esta fase porque elimina la variable meteorológica y la del horario: la WalkingPad R1 Pro permite caminar a 6 km/h bajo el escritorio o trotar hasta 10 km/h cuando toca sesión, y al no necesitar montaje está operativa desde el primer día. El objetivo de estas cuatro semanas es llegar a la quinta sin molestias articulares y con la rutina ya instalada en el calendario. Si tienes molestias de rodilla o mucho peso que perder, una [elíptica para casa](/blog/mejor-eliptica-casa-2025) permite hacer el mismo cardio sin impacto.",
+        body: "El primer bloque construye el hábito, no el resultado. Tres sesiones semanales de 30 minutos de cardio a intensidad moderada, entendiendo por moderada aquella en la que aún puedes mantener una conversación, más dos días de fuerza con peso corporal. Una cinta plegable resuelve bien esta fase porque elimina la variable meteorológica y la del horario: la WalkingPad R1 Pro permite caminar a 6 km/h bajo el escritorio o trotar hasta 10 km/h cuando toca sesión, y al no necesitar montaje está operativa desde el primer día. El objetivo de estas cuatro semanas es llegar a la quinta sin molestias articulares y con la rutina ya instalada en el calendario. Si tienes molestias de rodilla o mucho peso que perder, una [elíptica para casa](/blog/mejor-eliptica-casa-2025) permite hacer el mismo cardio sin impacto, y una [máquina de remo](/blog/maquina-de-remo-casa-como-elegir) también, con más trabajo de espalda y brazos.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
@@ -2162,7 +2162,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Elíptica, bicicleta estática o cinta: cuál elegir",
-        body: "La elíptica no tiene impacto y trabaja a la vez brazos y piernas. La bicicleta estática tampoco tiene impacto, ocupa menos y es más cómoda para sesiones largas, pero apenas trabaja el tren superior: si dudas, revisa [los tipos de bicicleta estática](/blog/bicicleta-estatica-o-eliptica) y [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025). La cinta es la única que reproduce la carrera real, pero tiene impacto, necesita enchufe y las pisadas se oyen abajo; la analizamos en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025). Con molestias articulares o si buscas trabajo de cuerpo completo, elíptica; con poco espacio, bicicleta; si el objetivo es correr, cinta.",
+        body: "La elíptica no tiene impacto y trabaja a la vez brazos y piernas. La bicicleta estática tampoco tiene impacto, ocupa menos y es más cómoda para sesiones largas, pero apenas trabaja el tren superior: si dudas, revisa [los tipos de bicicleta estática](/blog/bicicleta-estatica-o-eliptica) y [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025). La cinta es la única que reproduce la carrera real, pero tiene impacto, necesita enchufe y las pisadas se oyen abajo; la analizamos en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025). Con molestias articulares o si buscas trabajo de cuerpo completo, elíptica; con poco espacio, bicicleta; si el objetivo es correr, cinta. Hay una cuarta opción sin impacto que mete más espalda y brazos en cada repetición: el remo, que repasamos en [la guía para elegir máquina de remo para casa](/blog/maquina-de-remo-casa-como-elegir).",
       },
       {
         heading: "Las 6 elípticas del catálogo, por perfil",
@@ -2218,6 +2218,107 @@ const articleContent: Record<string, {
     ],
   },
 
+  "maquina-de-remo-casa-como-elegir": {
+    intro:
+      "Una máquina de remo para casa da un entrenamiento de cuerpo completo sin impacto: empujas con las piernas, abres la cadera y terminas tirando con la espalda y los brazos, todo sentado y con los pies sujetos. Antes de elegir modelo hay cinco datos que deciden la compra: el tipo de resistencia (agua, magnética, aire o hidráulica), el espacio que ocupa y si se pliega, la longitud del raíl según tu altura, el peso máximo de usuario y el ruido. En esta guía explicamos cada uno, cómo es la técnica básica de la remada y comparamos las seis máquinas de [nuestra categoría de máquinas de remo](/tienda/maquinas-remo), comprobadas en Amazon.es el 19 de octubre de 2026 y con los datos de su ficha.",
+    quickPicks: [
+      { productSlug: "merach-q1s-maquina-remo-magnetica-16-niveles-app", text: "Para un piso: remo magnético silencioso con 16 niveles, doble raíl de 165 cm apto hasta 1,93 m según la marca, hasta 158 kg y app." },
+      { productSlug: "concept2-remo-indoor-model-d-pm5", text: "El remo de aire de referencia: monitor PM5, hasta 227 kg y se separa en dos piezas para guardarlo. Necesita 274 × 122 cm de espacio de uso." },
+      { productSlug: "joroto-mr280pro-maquina-remo-agua-roble-plegable", text: "Remo de agua plegable: roble macizo, hasta 150 kg y, plegado en vertical, 54 × 44,5 × 91 cm." },
+    ],
+    sections: [
+      {
+        heading: "Qué músculos trabaja la máquina de remo",
+        body: "Cada remada empieza en las piernas: cuádriceps, glúteos e isquiotibiales empujan la plataforma y llevan el asiento hacia atrás. Después el tronco se abre ligeramente hacia atrás, con los extensores de la espalda y el abdomen manteniendo la postura, y al final los brazos tiran del agarre hacia las costillas: dorsales, romboides, trapecio, parte posterior del hombro, bíceps y antebrazos. Por eso el remo se considera ejercicio de cuerpo completo, a diferencia de la bicicleta estática. Es, sobre todo, ejercicio aeróbico: la OMS recomienda a los adultos entre 150 y 300 minutos semanales de actividad aeróbica moderada, o entre 75 y 150 de actividad intensa, y el remo sirve para cumplirlo sin el impacto de correr. La misma recomendación pide trabajo de fuerza al menos dos días por semana, algo que el remo no sustituye.",
+      },
+      {
+        heading: "Tipos de resistencia: remo de agua, magnético, de aire o hidráulico",
+        body: "En el remo de agua, unas palas giran dentro de un depósito: cuanto más fuerte y rápido remas, más resistencia notas, y la intensidad base se ajusta con la cantidad de agua. La sensación es la más parecida a un bote y el sonido es un chapoteo suave, como en la JOROTO MR280PRO. El remo magnético frena un volante con imanes que no lo tocan: es el más silencioso, se regula por niveles con una rueda o un botón y no tiene piezas que se desgasten, como la MERACH Q1s o la Cecotec DrumFit Rower 5500 Regatta. El remo de aire usa un ventilador que también responde a tu fuerza, da una tirada muy fluida y es el sistema de los remoergómetros de gimnasio y club, como el Concept2 Model D o la MERACH R50, pero se oye más. El remo hidráulico usa pistones: es el más compacto y ligero, como el Sunny Smart Rower de 10,2 kg, a cambio de una remada menos continua. Si entrenas de noche o tienes vecinos debajo, magnético; si buscas sensación de remo real, agua o aire.",
+        productSlug: "merach-q1s-maquina-remo-magnetica-16-niveles-app",
+      },
+      {
+        heading: "Espacio y plegado: qué medir antes de comprar",
+        body: "Una máquina de remo es larga: las del catálogo cuya ficha da la medida van de 148 cm (Sunny) a 244 cm (Concept2), y a eso hay que sumar sitio para sentarte y para que el agarre no choque con nada. Concept2 indica un espacio de uso de 274 × 122 cm, una buena referencia para cualquier modelo de raíl largo. Si no puedes dejarla montada, busca un remo plegable o que se guarde en vertical. La JOROTO se pliega 180° y queda en 54 × 44,5 × 91 cm, sin vaciar el depósito según la marca; la MERACH R50 se pliega en dos secciones; la Cecotec se apoya en vertical, y el Concept2 se separa en dos piezas. La MERACH Q1s no se pliega. Comprueba también que tenga ruedas y cuánto pesa, porque vas a moverla a menudo: de los 10,2 kg del Sunny a los 33,3 kg de la MERACH R50.",
+        productSlug: "joroto-mr280pro-maquina-remo-agua-roble-plegable",
+      },
+      {
+        heading: "Longitud del raíl según tu altura",
+        body: "El raíl tiene que dejarte estirar las piernas del todo al final de la remada sin que el asiento llegue al tope. Si es corto, acabas la remada con las rodillas dobladas o golpeando el final del carril. No hay una tabla universal, así que fíate de lo que declara el fabricante y compáralo con tu altura y con tu longitud de pierna (la entrepierna, medida descalzo desde el suelo). En el catálogo, la MERACH Q1s tiene una pista de 165 cm que la marca declara apta hasta 1,93 m; la Cecotec recomienda una altura máxima de 1,90 m, y la JOROTO está pensada para piernas de hasta 99 cm. La MERACH R50 anuncia una pista alargada para usuarios altos sin dar la cifra, y la ficha del Sunny no indica ni raíl ni altura. Si la vais a usar varias personas, elige por la más alta y deja margen.",
+      },
+      {
+        heading: "Peso máximo de usuario y estabilidad",
+        body: "El peso máximo de usuario es un límite de la estructura, no una meta: una máquina que trabaja siempre al tope vibra más y se desgasta antes, así que deja un margen de 15 a 20 kg sobre tu peso. El Concept2 admite 227 kg; la MERACH Q1s y la MERACH R50, 158 kg; la JOROTO, 150 kg; el Sunny, 300 libras (unos 136 kg), y la Cecotec, 120 kg. El raíl también cuenta: MERACH presenta el doble raíl de la Q1s como más estable y duradero que uno solo.",
+        productSlug: "concept2-remo-indoor-model-d-pm5",
+      },
+      {
+        heading: "Monitor, app y ruido",
+        body: "Para entrenar basta un monitor que muestre tiempo, distancia, ritmo por 500 m o remadas por minuto y calorías estimadas. El monitor PM5 del Concept2 da datos comparables entre sesiones, algo útil si quieres medir tu progreso con pruebas de 500 o 2.000 m. Las apps añaden recorridos y planes: la MERACH Q1s y la R50 usan la app de MERACH; la JOROTO se conecta a Kinomap, que incluye 30 días de prueba; el Sunny trae la app SunnyFit sin cuota, y la Cecotec no tiene app. En cuanto al ruido, el freno magnético es el más discreto, el agua suena a chapoteo y el ventilador del aire es el que más se oye a ritmo alto. En un piso, pon una alfombrilla de goma bajo la máquina para cortar la vibración.",
+        productSlug: "merach-r50-maquina-remo-aire-plegable-app",
+      },
+      {
+        heading: "Técnica básica: las fases de la remada",
+        body: "La remada tiene cuatro fases. En el ataque, sentado al principio del raíl, tienes las espinillas casi verticales, los brazos estirados y el tronco algo inclinado hacia delante desde la cadera, con la espalda recta. En el impulso empujas primero con las piernas, luego abres la cadera llevando el tronco un poco hacia atrás y solo al final tiras con los brazos. En el final, las piernas quedan estiradas, el agarre a la altura de las costillas bajas y los codos pegados al cuerpo. En la recuperación vuelves en orden inverso: brazos, tronco y, por último, piernas. Una revisión sistemática de 2021 en el British Journal of Sports Medicine encontró que, con el cansancio, la zona lumbar se flexiona más en el ataque, y más en el remoergómetro que en el agua. Por eso conviene empezar con sesiones cortas, cuidar la postura y no subir la resistencia hasta que el gesto sea fluido. Otra revisión, de 2020, señala que la potencia sale de las piernas y se transmite por la cadera y el tronco hasta el agarre.",
+      },
+      {
+        heading: "Errores frecuentes al comprar y al remar",
+        body: "Al comprar, el error más habitual es no medir: ni la longitud de la máquina con el espacio de uso ni tu entrepierna frente al raíl. También es frecuente elegir un remo de aire para un piso con vecinos y descubrir después cuánto suena, apurar el peso máximo y no mirar quién vende y envía el aparato ni las condiciones de devolución. Al remar, el fallo típico es tirar con los brazos antes de que las piernas terminen de empujar, encorvar la espalda en el ataque y poner la resistencia al máximo creyendo que así se entrena más. Con una intensidad media se aprende antes el gesto y se cuida la espalda.",
+      },
+      {
+        heading: "Máquina de remo, elíptica o bicicleta estática",
+        body: "Las tres son cardio sin impacto. El remo es la que más trabajo de espalda y brazos añade y la que más exige técnica; ocupa mucho de largo, pero varios modelos se pliegan o se guardan en vertical. La elíptica también mueve brazos y piernas, con un gesto parecido a caminar que casi no hay que aprender; la comparamos modelo a modelo en [la guía para elegir elíptica para casa](/blog/mejor-eliptica-casa-2025). La bicicleta estática es la que menos sitio ocupa y la más cómoda para sesiones largas, aunque apenas trabaja el tren superior; la tienes en [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025). Si te duele la espalda al flexionar el tronco, empieza por la elíptica o la bicicleta y consulta con un profesional antes de remar.",
+      },
+      {
+        heading: "Las 6 máquinas de remo del catálogo, por perfil",
+        body: "Para un piso donde el silencio manda, la MERACH Q1s es la opción más equilibrada: magnética, ligera, con doble raíl y app, aunque no se pliega. Si quieres el remoergómetro de los gimnasios y tienes sitio, el Concept2 Model D es la referencia, con el monitor PM5 y la carga máxima más alta del catálogo. Para quien busca la sensación del agua y poder guardarla en una esquina, la JOROTO MR280PRO de roble se pliega en vertical. La MERACH R50 ofrece resistencia de aire en un formato plegable. La Cecotec DrumFit Rower 5500 Regatta es la magnética sencilla, vendida por Amazon y sin app. Y el Sunny Smart Rower hidráulico es el más compacto y ligero, pensado para quien tiene muy poco espacio o quiere moverlo de habitación.",
+        productSlug: "sunny-smart-rower-remo-hidraulico-compacto",
+        productSlugs: ["cecotec-drumfit-rower-5500-regatta-remo-magnetico"],
+      },
+    ],
+    comparisonHeading: "Comparativa de las máquinas de remo del catálogo",
+    comparison: {
+      headers: ["Modelo", "Resistencia", "Peso máx.", "Altura o pierna máx.", "Plegado o almacenaje", "App", "Peso"],
+      rows: [
+        ["MERACH Q1s", "Magnética, 16 niveles", "158 kg", "1,93 m (pista de 165 cm)", "No se pliega", "MERACH", "19,49 kg"],
+        ["Concept2 Model D", "Aire", "227 kg", "No indicado en la ficha", "Se separa en dos piezas", "Monitor PM5", "26 kg"],
+        ["JOROTO MR280PRO", "Agua", "150 kg", "Pierna de 99 cm", "Plegable en vertical (54 × 44,5 × 91 cm)", "Kinomap", "24 kg"],
+        ["MERACH R50", "Aire, 10 niveles", "158 kg", "Pista alargada (sin cifra)", "Plegable en dos secciones", "MERACH", "33,3 kg"],
+        ["Cecotec DrumFit Rower 5500", "Magnética", "120 kg", "1,90 m", "En vertical, con ruedas", "No", "23,75 kg"],
+        ["Sunny Smart Rower", "Hidráulica, 12 niveles", "Unos 136 kg (300 lb)", "No indicado", "Compacta (148 × 51 × 63 cm)", "SunnyFit", "10,2 kg"],
+      ],
+    },
+    conclusion:
+      "La máquina de remo que conviene es la que cabe en tu casa con su espacio de uso, tiene un raíl suficiente para la persona más alta que la vaya a usar y un peso máximo con margen sobre el tuyo. Después decide el tipo de resistencia: magnética si importa el silencio, agua si buscas la sensación de un bote y aire si quieres el gesto de un remoergómetro de club. Para la mayoría, la MERACH Q1s es la compra más equilibrada; con espacio y sin problemas de ruido, el Concept2 Model D; y para guardarla plegada, la JOROTO MR280PRO. Tienes las seis con sus fichas en [la categoría de máquinas de remo](/tienda/maquinas-remo) y, si quieres un plan para usarla, sigue con [cómo perder peso entrenando en casa](/blog/perder-peso-ejercicio-casa).",
+    conclusionHeading: "Qué máquina de remo para casa elegir",
+    faqsHeading: "Preguntas frecuentes sobre máquinas de remo",
+    sources: [
+      { label: "OMS — Actividad física: recomendaciones para adultos", url: "https://www.who.int/es/news-room/fact-sheets/detail/physical-activity" },
+      { label: "Nugent FJ et al. (2021). The relationship between rowing-related low back pain and rowing biomechanics: a systematic review. Br J Sports Med (PubMed)", url: "https://pubmed.ncbi.nlm.nih.gov/33397675/" },
+      { label: "Arumugam S et al. (2020). Rowing Injuries in Elite Athletes: A Review of Incidence with Risk Factors and the Role of Biomechanics in Its Management. Indian J Orthop (PMC)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7205948/" },
+    ],
+    faqs: [
+      {
+        q: "¿Qué músculos trabaja la máquina de remo?",
+        a: "Las piernas (cuádriceps, glúteos e isquiotibiales) inician cada remada; el tronco (extensores de la espalda y abdomen) sostiene la postura y transmite la fuerza, y la espalda y los brazos (dorsales, romboides, hombro posterior, bíceps y antebrazos) terminan el tirón. Por eso se considera un ejercicio de cuerpo completo.",
+      },
+      {
+        q: "¿Qué es mejor, remo de agua o magnético?",
+        a: "El remo de agua da una sensación más parecida a remar en un bote y la resistencia crece con tu esfuerzo; suena a chapoteo. El magnético es más silencioso, se regula por niveles y casi no necesita mantenimiento. Para un piso con vecinos, magnético; si prima la sensación de remada, agua.",
+      },
+      {
+        q: "¿Cuánto espacio necesita una máquina de remo?",
+        a: "Más del que parece: las máquinas de raíl largo del catálogo miden entre 165 y 244 cm, y Concept2 indica un espacio de uso de 274 × 122 cm para el suyo. Si no puedes dejarla montada, elige un remo plegable o que se guarde en vertical, y comprueba que tenga ruedas.",
+      },
+      {
+        q: "¿Cuánto tiempo hay que remar al día?",
+        a: "La OMS recomienda a los adultos entre 150 y 300 minutos semanales de actividad aeróbica moderada. En la práctica, unos 30 minutos cinco días a la semana la cubren. Si empiezas de cero, arranca con 10-15 minutos a ritmo suave, cuidando la técnica, y ve alargando.",
+      },
+      {
+        q: "¿Es mala la máquina de remo para la espalda?",
+        a: "Con buena técnica, no tiene por qué. El riesgo aparece al encorvar la zona lumbar en el ataque, sobre todo con cansancio, como recoge una revisión de 2021 en el British Journal of Sports Medicine. Empuja primero con las piernas, mantén la espalda recta y no subas la resistencia hasta dominar el gesto. Si ya tienes dolor lumbar, consulta antes con un profesional.",
+      },
+    ],
+  },
+
   "hiit-en-casa-principiantes": {
     intro:
       "HIIT son las siglas de High Intensity Interval Training: entrenamiento que alterna períodos cortos de esfuerzo máximo con períodos de recuperación. La razón por la que funciona tan bien es el efecto EPOC — el cuerpo sigue quemando calorías a mayor ritmo durante horas después de terminar, no solo durante la sesión. En 20-30 minutos consigues el efecto cardiovascular de 45-60 minutos de cardio continuo, sin necesitar ninguna máquina. Pero hay una condición: hacerlo bien. El HIIT mal ejecutado es la forma más rápida de lesionarse en el entrenamiento doméstico.",
@@ -2241,7 +2342,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Cuándo tiene sentido añadir material",
-        body: "El HIIT sin material tiene un límite natural: llega un momento en que el cuerpo se adapta y la intensidad no sube más sin añadir resistencia externa. Las bandas elásticas son el primer paso más sensato: añaden resistencia a las sentadillas, flexiones y movimientos de tirón sin ocupar espacio ni costar mucho. Una esterilla de calidad, si aún no tienes una, debería ser la primera compra de cualquier entrenamiento doméstico: protege las muñecas en los apoyos, las rodillas en el suelo y reduce la vibración que se transmite al piso de abajo.",
+        body: "El HIIT sin material tiene un límite natural: llega un momento en que el cuerpo se adapta y la intensidad no sube más sin añadir resistencia externa. Las bandas elásticas son el primer paso más sensato: añaden resistencia a las sentadillas, flexiones y movimientos de tirón sin ocupar espacio ni costar mucho. Una esterilla de calidad, si aún no tienes una, debería ser la primera compra de cualquier entrenamiento doméstico: protege las muñecas en los apoyos, las rodillas en el suelo y reduce la vibración que se transmite al piso de abajo. Si más adelante quieres hacer intervalos sin saltos, el remo se presta bien a series cortas de esfuerzo y pausa; en [la guía para elegir máquina de remo en casa](/blog/maquina-de-remo-casa-como-elegir) tienes los tipos y la técnica.",
         productSlug: "fokky-bandas-elasticas-set-4-tpe",
       },
     ],
