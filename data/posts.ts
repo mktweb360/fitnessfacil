@@ -35,6 +35,10 @@ export const posts: Post[] = [
       "pasyou-banco-pesas-plegable-10-posiciones",
       "hsn-creatina-monohidrato-200-mesh-500g",
       "hsn-whey-protein-isolate-sin-sabor-2kg",
+      "domyos-run500-cinta-correr-plegable-compacta",
+      "domyos-eb520-bicicleta-estatica-autoalimentada",
+      "domyos-bench-500-banco-musculacion-plegable-inclinable",
+      "domyos-corength-kit-mancuernas-20kg-maletin",
     ],
     relatedPosts: [
       "regalos-fitness-navidad",
@@ -62,6 +66,9 @@ export const posts: Post[] = [
       "divasya-esterilla-yoga-corcho-caucho-natural",
       "bodymate-rodillo-miofascial-45cm-dureza-media",
       "walkingpad-z1-cinta-andar-plegable",
+      "corength-rueda-abdominal-doble-modo",
+      "domyos-chaleco-lastrado-ajustable-6-10kg",
+      "domyos-x-bike-100-v2-bicicleta-plegable",
     ],
     relatedPosts: [
       "black-friday-fitness-en-casa",
@@ -81,7 +88,7 @@ export const posts: Post[] = [
     date: "2025-05-01",
     category: "Cardio",
     readTime: "11 min",
-    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable", "domyos-run500-cinta-correr-plegable-compacta", "domyos-t520-cinta-correr-plegable", "domyos-t900d-cinta-correr-plegable-18kmh"],
     relatedPosts: [
       "walkingpad-r2-vs-r1-pro",
       "cinta-correr-plegable-piso-pequeno",
@@ -104,6 +111,9 @@ export const posts: Post[] = [
       "merach-bicicleta-estatica-app-136kg",
       "sportstech-x150-ergometro-plegable",
       "sportstech-x100c-bicicleta-cuerdas",
+      "domyos-x-bike-100-v2-bicicleta-plegable",
+      "domyos-eb520-bicicleta-estatica-autoalimentada",
+      "domyos-biking-500-bicicleta-ciclo-indoor",
     ],
     relatedPosts: [
       "mejor-bicicleta-estatica-casa-2025",
@@ -276,7 +286,7 @@ export const posts: Post[] = [
     date: "2025-07-02",
     category: "Cardio",
     readTime: "7 min",
-    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable"],
+    relatedProducts: ["walkingpad-r2-cinta-plegable", "walkingpad-r1-pro-cinta-plegable", "domyos-t520-cinta-correr-plegable", "domyos-run500-cinta-correr-plegable-compacta"],
     relatedPosts: [
       "walkingpad-r2-vs-r1-pro",
       "cinta-andar-casa-bajo-escritorio",
@@ -370,6 +380,9 @@ export const posts: Post[] = [
       "merach-bicicleta-estatica-app-136kg",
       "sportstech-x150-ergometro-plegable",
       "sportstech-x100c-bicicleta-cuerdas",
+      "domyos-eb520-bicicleta-estatica-autoalimentada",
+      "domyos-x-bike-100-v2-bicicleta-plegable",
+      "domyos-biking-500-bicicleta-ciclo-indoor",
     ],
     relatedPosts: [
       "sportstech-x100c-analisis",
@@ -487,6 +500,9 @@ export const posts: Post[] = [
       "lullax-neo36-mancuernas-ajustables",
       "maniboom-mancuernas-hexagonales-15kg",
       "fokky-bandas-elasticas-set-4-tpe",
+      "domyos-corength-kit-mancuernas-20kg-maletin",
+      "domyos-corength-kit-mancuerna-10kg",
+      "domyos-kit-musculacion-50kg-barra-mancuernas-discos",
     ],
     relatedPosts: [
       "lullax-neo36-analisis-opinion",
@@ -524,7 +540,7 @@ export const posts: Post[] = [
     date: "2025-07-15",
     category: "Fuerza",
     readTime: "8 min",
-    relatedProducts: ["jowy-kettlebell-pvc-16kg", "lullax-neo36-mancuernas-ajustables"],
+    relatedProducts: ["jowy-kettlebell-pvc-16kg", "lullax-neo36-mancuernas-ajustables", "domyos-corength-kettlebell-12kg", "domyos-corength-kettlebell-8kg", "domyos-corength-kettlebell-16kg"],
     relatedPosts: [
       "mancuernas-ajustables-vs-fijas",
       "entrenamiento-fuerza-casa-equipamiento-minimo",
@@ -542,7 +558,7 @@ export const posts: Post[] = [
     date: "2025-07-16",
     category: "Fuerza",
     readTime: "7 min",
-    relatedProducts: ["fokky-bandas-elasticas-set-4-tpe", "jowy-kettlebell-pvc-16kg"],
+    relatedProducts: ["fokky-bandas-elasticas-set-4-tpe", "jowy-kettlebell-pvc-16kg", "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg", "domyos-set-3-minibands", "corength-pack-3-bandas-elasticas-textiles-gluteos"],
     relatedPosts: [
       "entrenamiento-fuerza-casa-equipamiento-minimo",
       "kettlebell-para-empezar-peso",
@@ -600,7 +616,7 @@ export const posts: Post[] = [
     date: "2025-07-19",
     category: "Yoga",
     readTime: "7 min",
-    relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe"],
+    relatedProducts: ["toplus-esterilla-yoga-tpe-6mm", "la-mente-es-maravillosa-esterilla-tpe", "kimjaly-esterilla-yoga-suave-5mm", "kimjaly-esterilla-yoga-ultraadherente-4mm", "domyos-esterilla-pilates-500-15mm"],
     relatedPosts: [
       "toplus-esterilla-analisis",
       "esterilla-tpe-vs-pvc-diferencias",
@@ -858,6 +874,8 @@ export const posts: Post[] = [
       "capital-sports-helix-pro-eliptica-volante-20kg",
       "bh-munich-eliptica-magnetica-volante-12kg",
       "niceday-ct11-eliptica-compacta-180kg",
+      "domyos-el540-eliptica-autoalimentada-conectada",
+      "domyos-initial-elliptical-100-eliptica",
     ],
     relatedPosts: [
       "bicicleta-estatica-o-eliptica",
@@ -884,6 +902,9 @@ export const posts: Post[] = [
       "merach-r50-maquina-remo-aire-plegable-app",
       "cecotec-drumfit-rower-5500-regatta-remo-magnetico",
       "sunny-smart-rower-remo-hidraulico-compacto",
+      "domyos-500b-maquina-remo-plegable-autoalimentada",
+      "domyos-woodrower-maquina-remo-madera-autoalimentada",
+      "domyos-initial-rower-100-maquina-remo",
     ],
     relatedPosts: [
       "mejor-eliptica-casa-2025",
@@ -950,6 +971,7 @@ export const posts: Post[] = [
       "pullup-dip-banda-resistencia-elastica-media",
       "pullup-dip-banda-resistencia-elastica-ligera",
       "athleticpro-barra-dominadas-marco-puerta",
+      "domyos-barra-dominadas-puerta-105cm",
     ],
     relatedPosts: [
       "entrenamiento-fuerza-casa-equipamiento-minimo",
@@ -1100,6 +1122,7 @@ export const posts: Post[] = [
       "bodymate-rodillo-miofascial-45cm-dureza-media",
       "triggerpoint-grid-rodillo-espuma-33cm",
       "acupoint-pelotas-masaje-miofascial-set-2",
+      "decathlon-foam-roller-rodillo-masaje-blando",
     ],
     relatedPosts: [
       "estiramientos-despues-ejercicio",
@@ -1169,6 +1192,9 @@ export const posts: Post[] = [
       "pasyou-banco-pesas-plegable-10-posiciones",
       "maniboom-banco-musculacion-soporte-barra",
       "jupplies-mancuernas-15-niveles-24kg",
+      "domyos-bench-500-banco-musculacion-plegable-inclinable",
+      "domyos-bench-100-banco-musculacion-plegable",
+      "domyos-bench-900-banco-musculacion-inclinable-declinable",
     ],
     relatedPosts: [
       "mancuernas-ajustables-vs-fijas",

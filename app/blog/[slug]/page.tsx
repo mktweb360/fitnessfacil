@@ -108,6 +108,12 @@ const articleContent: Record<string, {
         productSlugs: ["pasyou-banco-pesas-plegable-10-posiciones"],
       },
       {
+        heading: "Decathlon también entra en la lista",
+        body: "Si comparas, mira también Decathlon, que vende material de su marca para todas estas categorías. Para correr en casa, la cinta Domyos Run500 llega a 16 km/h con inclinación motorizada del 10 % y viene montada. Para pedalear sin enchufe, la bicicleta EB520 B es autoalimentada, con 15 niveles de resistencia motorizada. Y para fuerza, el banco Bench 500 se pliega a 19 cm de alto con 4 posiciones de respaldo, y el kit Corength de 20 kg trae dos mancuernas de discos con maletín. Aplica los mismos criterios que en Amazon: mira el precio que veas el día que compres y comprueba que hay stock. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-run500-cinta-correr-plegable-compacta",
+        productSlugs: ["domyos-eb520-bicicleta-estatica-autoalimentada","domyos-bench-500-banco-musculacion-plegable-inclinable","domyos-corength-kit-mancuernas-20kg-maletin"],
+      },
+      {
         heading: "Suplementos: reponer lo que ya tomas, no probar a lo grande",
         body: "Si ya tomas creatina o proteína y te sienta bien, el Black Friday es buen momento para reponer en formato grande. Si nunca la has probado, empieza por un formato pequeño. En creatina, busca monohidrato y mira la dosis por servicio: la HSN 200 mesh (500 g, 3 g de dosis diaria, sin aditivos y fabricada en España) o la Optimum Nutrition micronizada (634 g, 3,4 g por cacito, sin sabor). En proteína, la HSN Whey Protein Isolate de 2 kg es una aislada sin sabor con un 93 % de proteína y menos lactosa que una concentrada. Antes de comprar en cantidad, revisa la fecha de consumo preferente al recibirlo. Si tienes dudas sobre cuánto necesitas, lee [cuánta proteína tomar al día](/blog/cuanta-proteina-al-dia-segun-objetivo) y [la guía de creatina monohidrato](/blog/creatina-monohidrato-guia-completa), y consulta con un profesional sanitario si tienes alguna condición médica.",
         productSlug: "hsn-creatina-monohidrato-200-mesh-500g",
@@ -186,6 +192,12 @@ const articleContent: Record<string, {
         body: "Una cinta o una bicicleta son regalos para hacer en común o con la persona al tanto, nunca por sorpresa: ocupan espacio y hay que elegirlas por medidas. Para caminar en casa o bajo el escritorio, la WalkingPad Z1 (de 1 a 6 km/h, plegado de 180°, menos de 45 dB y mando a distancia) o la MERACH T21, más ligera (13 kg) y con hasta 120 kg de usuario. Para pedalear, la VANNECT plegable con 16 niveles de resistencia magnética ocupa muy poco guardada, y la Toputure con volante de 15 kg y compatibilidad con Zwift y Kinomap está pensada para sesiones más exigentes. Antes de decidir, revisa [las cintas de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio), [la guía de bicicletas estáticas](/blog/mejor-bicicleta-estatica-casa-2025) y las categorías de [cintas](/tienda/cintas-correr) y [bicicletas](/tienda/bicicletas-estaticas).",
         productSlug: "walkingpad-z1-cinta-andar-plegable",
         productSlugs: ["merach-t21-cinta-andar-3-en-1", "vannect-bicicleta-estatica-plegable-16-niveles"],
+      },
+      {
+        heading: "Regalos de Decathlon para cada presupuesto",
+        body: "Decathlon tiene opciones de su marca para casi todos los apartados de esta guía. Como detalle pequeño, la rueda abdominal Corength (modo estable o inestable, desmontable y para usuarios de hasta 130 kg), el set de tres minibands de 5, 6 y 7 kg o un foam roller blando de 38 cm. Para quien entrena fuerza, una kettlebell Corength de 8 kg o el chaleco lastrado Domyos de 6 kg ampliable a 10 kg. Para yoga, la esterilla Kimjaly suave de 5 mm con líneas de alineación. Y como regalo grande, la bicicleta plegable X-Bike 100 V2, con 10 niveles magnéticos y Kinomap. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "corength-rueda-abdominal-doble-modo",
+        productSlugs: ["domyos-chaleco-lastrado-ajustable-6-10kg","domyos-x-bike-100-v2-bicicleta-plegable"],
       },
       {
         heading: "Suplementos: mejor no como regalo sorpresa",
@@ -309,6 +321,12 @@ const articleContent: Record<string, {
         productSlug: "maniboom-banco-musculacion-soporte-barra",
       },
       {
+        heading: "Los bancos de Decathlon: Bench 100, 500 y 900",
+        body: "Decathlon vende tres bancos de su marca Domyos que cubren el plano, el ajustable y el plegable. El Bench 100 es plano y plegable, llega montado, se despliega en unos 15 segundos y plegado mide 13 cm de alto; pesa 7 kg y soporta 200 kg. El Bench 500 también llega montado y se pliega a 19 cm de alto, pero añade 4 posiciones de respaldo, 2 de asiento y una declinada para abdominales, con 220 kg de carga. El Bench 900 es el más robusto: tiene 7 inclinaciones de –15° a 80°, ruedas y 300 kg de carga máxima, con un límite de 130 kg de usuario. En los tres, la carga máxima suma tu peso y el de las pesas. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-bench-500-banco-musculacion-plegable-inclinable",
+        productSlugs: ["domyos-bench-100-banco-musculacion-plegable","domyos-bench-900-banco-musculacion-inclinable-declinable"],
+      },
+      {
         heading: "Qué medir antes de comprar: carga máxima, posiciones y respaldo",
         body: "La carga máxima es el peso total que soporta el banco, y tiene que cubrir tu peso corporal más el de las mancuernas o la barra, con margen: una persona de 80 kg con dos mancuernas de 24 kg ya pone 128 kg sobre el banco, sin contar el impulso al sentarse o levantarse. En cuanto a posiciones, lo útil es tener plano, un par de inclinaciones intermedias para press inclinado, vertical para press de hombro y declinado si quieres abdominales. Compara el ancho del cojín (el del FLYBIRD plano mide 27,9 cm), porque un respaldo estrecho sujeta peor los omóplatos en el press con carga. Mira también la longitud del respaldo si eres alto: los fabricantes que la indican, como FLYBIRD (76,7 cm) o PASYOU (75 cm, para usuarios de hasta 185 cm), te permiten comprobar que apoyas cabeza y espalda. Y revisa la altura del asiento, que debe dejarte apoyar los pies planos en el suelo.",
       },
@@ -353,7 +371,7 @@ const articleContent: Record<string, {
     ],
   },
   "mejor-cinta-correr-casa-2025": {
-    intro: "Una cinta de correr plegable resuelve el problema real de entrenar en casa en España: el espacio. Antes de mirar marcas conviene tener claros cuatro criterios: cuánto ocupa plegada, cuánto ruido transmite al suelo (decisivo en un piso), qué velocidad máxima alcanza y qué peso máximo soporta. Esta guía compara las dos cintas plegables del catálogo, ambas de la gama WalkingPad, para que elijas según tu perfil y no según el marketing.",
+    intro: "Una cinta de correr plegable resuelve el problema real de entrenar en casa en España: el espacio. Antes de mirar marcas conviene tener claros cuatro criterios: cuánto ocupa plegada, cuánto ruido transmite al suelo (decisivo en un piso), qué velocidad máxima alcanza y qué peso máximo soporta. Esta guía compara las dos cintas plegables WalkingPad y repasa las tres de Decathlon para quien quiera correr más rápido, para que elijas según tu perfil y no según el marketing.",
     sections: [
       {
         heading: "WalkingPad R2: la más rápida de las dos",
@@ -364,6 +382,12 @@ const articleContent: Record<string, {
         heading: "WalkingPad R1 Pro: la más asequible",
         body: "La R1 Pro plantea un enfoque 2 en 1: con la barandilla plegada funciona como cinta de andar bajo el escritorio hasta 6 km/h, y desplegada como cinta de correr hasta 10 km/h. Su motor de 918 W mueve bien ambos modos. La diferencia práctica más útil frente a la R2 es que no requiere montaje: llega lista para usar, se pliega 180° y trae ruedas para moverla. A favor: un precio más contenido, el doble uso andar/correr y la ausencia de montaje. En contra: el tope de 10 km/h la deja corta si tu plan es correr series de velocidad, y su ficha no publica el dato de carga máxima, así que conviene consultarlo antes de comprar si superas los 100 kg.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+      {
+        heading: "Si quieres más velocidad: las cintas plegables de Decathlon",
+        body: "Las dos WalkingPad se quedan en 10 y 12 km/h y no tienen inclinación. Si vas a correr a ritmo o quieres entrenar en cuesta, Decathlon vende tres cintas plegables de su marca Domyos que cubren ese hueco, todas con inclinación motorizada de hasta el 10 % y 130 kg de peso máximo de usuario. La T520 llega a 13 km/h, tiene una superficie de carrera de 43 × 123 cm y se pliega en vertical (98 × 73 × 146 cm) con ruedas. La Run500 sube a 16 km/h, con superficie de 45 × 130 cm, consola táctil de 30 programas y Kinomap; llega montada y plegada queda tumbada con 27 cm de alto. La T900D es la más completa: 18 km/h, 50 × 143 cm de superficie y 32 programas, a cambio de pesar 89 kg y medir 185 cm de largo en uso. Los datos son de sus fichas en decathlon.es, comprobadas el 26 de octubre de 2026; están todas en [la categoría de cintas de correr](/tienda/cintas-correr).",
+        productSlug: "domyos-run500-cinta-correr-plegable-compacta",
+        productSlugs: ["domyos-t520-cinta-correr-plegable","domyos-t900d-cinta-correr-plegable-18kmh"],
       },
       {
         heading: "¿Cuál elegir según tu perfil?",
@@ -405,6 +429,12 @@ const articleContent: Record<string, {
         heading: "Sportstech DFX70: para trabajar y pedalear",
         body: "La DFX70 no es una bicicleta estática en sentido estricto: es un pedalier, un bloque de pedales que se coloca bajo el escritorio o delante de cualquier silla. Su propósito no es sustituir a una sesión de cardio, sino combatir el sedentarismo de ocho horas sentado. Su ángulo de pedaleo permite usarla con una mesa normal, sin necesidad de escritorio elevable, y la transmisión por correa es muy silenciosa, lo que la hace viable incluso en videollamada. Trae 8 niveles de resistencia magnética, asa integrada y ruedas. A favor: es de gama de entrada, ocupa muy poco y se usa mientras haces otra cosa. En contra: solo trabaja el tren inferior y no permite entrenamientos de intensidad real.",
         productSlug: "sportstech-dfx70-mini-bicicleta-escritorio",
+      },
+      {
+        heading: "Las equivalentes de Decathlon",
+        body: "Si prefieres comprar en Decathlon, su marca Domyos tiene una opción para cada perfil. Para espacios pequeños, la X-Bike 100 V2 es plegable (57 cm de largo plegada), con 10 niveles magnéticos y Kinomap, para estaturas de 1,45 a 1,78 m. Para entrenar en serio sin enchufe, la EB520 B es autoalimentada, con 15 niveles de resistencia motorizada y 12 programas. Y si lo tuyo son las clases de ciclo indoor, la Biking 500 lleva una rueda de inercia de 18 kg y transmisión por correa. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-x-bike-100-v2-bicicleta-plegable",
+        productSlugs: ["domyos-eb520-bicicleta-estatica-autoalimentada","domyos-biking-500-bicicleta-ciclo-indoor"],
       },
       {
         heading: "¿Cuál es la tuya?",
@@ -771,6 +801,12 @@ const articleContent: Record<string, {
         body: "La R1 Pro es la más fácil de mover y guardar: se pliega 180°, trae ruedas de transporte y llega lista para usar sin montaje, así que desde el minuto uno la puedes recolocar según la necesidad de cada día. Alcanza 10 km/h, suficiente para caminar y trotar de forma ligera, y es más económica que la R2. Para un piso donde la cinta tiene que aparecer y desaparecer constantemente entre sesiones, esa movilidad es su mayor argumento.",
         productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
+      {
+        heading: "Otra opción para pisos: Domyos T520 y Run500 de Decathlon",
+        body: "Si las WalkingPad se te quedan cortas para correr, Decathlon tiene dos cintas plegables de su marca Domyos que también se pueden guardar en un piso, aunque ocupan y pesan más. La T520 se pliega en vertical y queda en 98 × 73 × 146 cm, con ruedas para moverla; llega a 13 km/h, con inclinación motorizada del 10 % y una superficie de 43 × 123 cm. La Run500 se pliega en horizontal y queda en 162 × 75 × 27 cm, así que cabe en huecos bajos; llega a 16 km/h y su superficie es de 45 × 130 cm. Pesan 62 y 58 kg, así que antes de comprar decide dónde se va a quedar guardada y cómo llegará hasta allí. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-t520-cinta-correr-plegable",
+        productSlugs: ["domyos-run500-cinta-correr-plegable-compacta"],
+      },
     ],
     comparison: {
       headers: ["Criterio", "WalkingPad R2", "WalkingPad R1 Pro"],
@@ -1023,6 +1059,12 @@ const articleContent: Record<string, {
         body: "El X100-C es el más original de los tres y uno de los más asequibles. Es una bicicleta plegable con display LCD, pero su diferencial son las cuerdas de fuerza incluidas, que permiten trabajar el tren superior mientras pedaleas. No sustituyen a unas mancuernas para un trabajo de fuerza serio, pero añaden activación de brazos y hombros durante el cardio, útil para quien quiere aprovechar una sesión corta al máximo. Es la opción con más accesorios por menos dinero: cardio, algo de fuerza y plegado, todo en un solo aparato.",
         productSlug: "sportstech-x100c-bicicleta-cuerdas",
       },
+      {
+        heading: "Las bicicletas estáticas de Decathlon, por tipo",
+        body: "Decathlon vende bicicletas de su marca Domyos para cada uno de los tipos de esta guía. Para espacios pequeños, la X-Bike 100 V2 se pliega hasta 57 cm de largo, tiene 10 niveles de resistencia magnética y Bluetooth compatible con Kinomap; está pensada para estaturas de 1,45 a 1,78 m y hasta 110 kg. Para entrenar sin enchufe, la EB520 B es autoalimentada, con resistencia motorizada de 15 niveles, rueda de inercia de 6 kg, 12 programas y hasta 130 kg. Y para clases tipo spinning, la Biking 500 lleva una rueda de inercia de 18 kg, transmisión por correa y ajustes para estaturas de 1,55 a 1,90 m. Las Essential y Bike 120, con ruedas de 3 y 4 kg y resistencia manual, son de iniciación y se quedan cortas para sesiones largas. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-eb520-bicicleta-estatica-autoalimentada",
+        productSlugs: ["domyos-x-bike-100-v2-bicicleta-plegable","domyos-biking-500-bicicleta-ciclo-indoor"],
+      },
     ],
     comparison: {
       headers: ["Criterio", "MERACH", "X150 Ergómetro", "X100-C"],
@@ -1270,6 +1312,12 @@ const articleContent: Record<string, {
         productSlug: "maniboom-mancuernas-hexagonales-15kg",
       },
       {
+        heading: "Mancuernas de discos de Decathlon: el término medio",
+        body: "Entre las fijas y las de selector están las mancuernas de discos de toda la vida, y Decathlon vende varias de su marca Domyos. El kit Corength de 20 kg trae dos barras roscadas de 35 cm, 8 discos de 1 kg y 4 de 2 kg de hierro fundido y un maletín para guardarlo todo. Si prefieres ir por unidades, el kit de mancuerna de 10 kg es una sola mancuerna ajustable de 2 a 10 kg, así que para trabajar con las dos manos hay que comprar dos. Y el kit de 50 kg añade una barra larga de 1,55 m a las dos mancuernas, para quien también quiera hacer sentadilla o press con barra. Todos usan discos de 28 mm. La pega frente a las de selector es el tiempo: para cambiar de peso hay que quitar la tuerca y mover discos. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-corength-kit-mancuernas-20kg-maletin",
+        productSlugs: ["domyos-corength-kit-mancuerna-10kg","domyos-kit-musculacion-50kg-barra-mancuernas-discos"],
+      },
+      {
         heading: "La alternativa más económica: bandas elásticas",
         body: "Si ni siquiera quieres comprometerte con unas mancuernas, las bandas elásticas son el primer paso más barato posible. Con una inversión mínima, un set de bandas cubre press, remo, sentadilla y trabajo de glúteo, ocupa lo que un puño y no daña nada al usarse. No son lo mismo que unas mancuernas (no replican la sensación de peso libre ni su progresión precisa de carga), pero para arrancar y comprobar si el hábito se te queda son una inversión mínima e inteligente. Muchos home gyms empiezan exactamente aquí.",
         productSlug: "fokky-bandas-elasticas-set-4-tpe",
@@ -1359,6 +1407,12 @@ const articleContent: Record<string, {
         productSlug: "jowy-kettlebell-pvc-16kg",
       },
       {
+        heading: "Kettlebells Corength de Decathlon: 8, 12 y 16 kg",
+        body: "Si quieres elegir el peso con la orientación del principio, Decathlon vende la kettlebell Corength de su marca en los tres pesos de entrada: 8, 12 y 16 kg. Son de hierro fundido con base de goma, que protege el suelo, y fondo plano para que no rueden; las de 12 y 16 kg tienen un asa de 36 mm que se puede coger con una o dos manos. Así puedes empezar con una y añadir la siguiente cuando el swing se te quede corto. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-corength-kettlebell-12kg",
+        productSlugs: ["domyos-corength-kettlebell-8kg","domyos-corength-kettlebell-16kg"],
+      },
+      {
         heading: "Cuándo pasar a mancuernas ajustables",
         body: "La kettlebell y las mancuernas no compiten: se complementan. La kettlebell brilla en los movimientos funcionales y en el cardio integrado; las mancuernas, en la fuerza y la hipertrofia analítica, donde poder ajustar la carga con precisión para cada ejercicio marca la diferencia. Un home gym completo acaba teniendo las dos cosas. Si empiezas por la kettlebell, el momento de añadir unas mancuernas ajustables llega cuando quieras trabajar músculos concretos con progresión fina, algo que un solo peso fijo no permite.",
         productSlug: "lullax-neo36-mancuernas-ajustables",
@@ -1402,6 +1456,12 @@ const articleContent: Record<string, {
       {
         heading: "Ejercicios principales con bandas",
         body: "Cinco ejercicios cubren lo esencial. El curl de bíceps: pisa la banda con un pie y flexiona el brazo. El press de hombro: coloca la banda bajo ambos pies y empuja hacia arriba. El remo de pie: engancha la banda a una superficie fija a la altura del pecho y tira hacia ti. La sentadilla con resistencia: pasa la banda por debajo de los pies y por encima de los hombros para añadir carga al gesto. Y el hip thrust con banda: coloca la banda sobre las caderas con la espalda apoyada en un sofá. Con estos cinco tocas empuje, tracción, pierna y glúteo.",
+      },
+      {
+        heading: "Bandas de Decathlon: largas, minibands y de tela",
+        body: "Decathlon vende los tres formatos más habituales. El lote Domyos de bandas largas trae tres de látex de 10, 20 y 30 kg para tren superior e inferior. Las minibands Domyos son tres bandas cortas de látex de 5, 6 y 7 kg (25 × 4 cm cerradas) para glúteos, piernas y brazos. Y el pack Corength de bandas de tela, de 10, 14 y 22 kg, es antideslizante, no se enrolla en el muslo y trae 15 ejercicios en un código QR. Las tres llevan látex, así que no son una opción si tienes alergia. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg",
+        productSlugs: ["domyos-set-3-minibands","corength-pack-3-bandas-elasticas-textiles-gluteos"],
       },
       {
         heading: "Cuándo añadir kettlebell o mancuernas",
@@ -1537,7 +1597,7 @@ const articleContent: Record<string, {
   },
 
   "mejor-esterilla-yoga-casa-2025": {
-    intro: "Elegir una esterilla de yoga no es complicado si sabes qué criterios importan realmente. Esta guía compara las dos esterillas del catálogo — TOPLUS y La Mente Es Maravillosa — para que elijas según tu práctica, no según el precio.",
+    intro: "Elegir una esterilla de yoga no es complicado si sabes qué criterios importan realmente. Esta guía compara dos esterillas de Amazon — TOPLUS y La Mente Es Maravillosa — y las de yoga y pilates de Decathlon para que elijas según tu práctica, no según el precio.",
     sections: [
       {
         heading: "Los 4 criterios que determinan una buena esterilla",
@@ -1552,6 +1612,12 @@ const articleContent: Record<string, {
         heading: "La Mente Es Maravillosa — la más completa por precio",
         body: "La esterilla de La Mente Es Maravillosa está fabricada en TPE con certificación SGS (sin PVC, PER ni tóxicos), es antideslizante por ambas caras y de alta densidad. Incluye bolsa de transporte, correa y un e-book de ejercicios en español. El conjunto completo la convierte en la opción llave en mano para empezar.",
         productSlug: "la-mente-es-maravillosa-esterilla-tpe",
+      },
+      {
+        heading: "Esterillas de Decathlon para yoga y para pilates",
+        body: "Decathlon separa las esterillas de yoga de las de pilates, y conviene hacer lo mismo al elegir. Para yoga, la Kimjaly suave de 5 mm mide 185 × 61 cm, es de EVA, pesa 850 g y trae líneas de alineación y correa; la Kimjaly ultraadherente, de 4 mm y 185 × 65 cm, combina base de caucho natural y una capa de poliuretano que agarra más en yoga dinámico (si tienes alergia al látex, el caucho natural es un dato a tener en cuenta). Para pilates y ejercicios en el suelo, las Domyos de espuma son más gruesas: 15 mm en 170 × 58 cm o 10 mm en 160 × 55 cm, y están pensadas para usarlas descalzo. Una esterilla tan gruesa amortigua mejor rodillas y columna, pero resulta inestable en posturas de equilibrio. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "kimjaly-esterilla-yoga-suave-5mm",
+        productSlugs: ["kimjaly-esterilla-yoga-ultraadherente-4mm","domyos-esterilla-pilates-500-15mm"],
       },
     ],
     comparison: {
@@ -2113,7 +2179,7 @@ const articleContent: Record<string, {
 
   "mejor-eliptica-casa-2025": {
     intro:
-      "Una elíptica para casa es la máquina de cardio que mejor combina trabajo de cuerpo completo y cuidado de las articulaciones: los pies no se separan de los pedales, así que no hay impacto, y al empujar y tirar de los brazos trabajas también el tren superior. Pero no todas sirven para todo el mundo. La longitud de zancada, el peso del volante, el tipo de resistencia, el peso máximo de usuario y las medidas deciden si la usarás tres veces por semana durante años o si acabará de perchero. En esta guía te explicamos cómo elegir elíptica dato a dato y comparamos las seis de [nuestra categoría de elípticas](/tienda/elipticas), todas comprobadas en Amazon.es en octubre de 2026 y con las especificaciones de su ficha.",
+      "Una elíptica para casa es la máquina de cardio que mejor combina trabajo de cuerpo completo y cuidado de las articulaciones: los pies no se separan de los pedales, así que no hay impacto, y al empujar y tirar de los brazos trabajas también el tren superior. Pero no todas sirven para todo el mundo. La longitud de zancada, el peso del volante, el tipo de resistencia, el peso máximo de usuario y las medidas deciden si la usarás tres veces por semana durante años o si acabará de perchero. En esta guía te explicamos cómo elegir elíptica dato a dato y comparamos seis de [nuestra categoría de elípticas](/tienda/elipticas), todas comprobadas en Amazon.es en octubre de 2026 y con las especificaciones de su ficha.",
     quickPicks: [
       { productSlug: "merach-eliptica-magnetica-autoalimentada-app", text: "La más equilibrada: zancada de 47 cm, 16 niveles magnéticos, hasta 180 kg, app por Bluetooth y sin enchufe." },
       { productSlug: "bh-iquantum-ii-eliptica-volante-20kg-kinomap", text: "Para entrenar casi a diario: volante de 20 kg, zancada de 45 cm, 24 niveles y Kinomap. BH la indica para 7 a 20 horas semanales." },
@@ -2171,6 +2237,12 @@ const articleContent: Record<string, {
         productSlugs: ["bh-munich-eliptica-magnetica-volante-12kg"],
       },
       {
+        heading: "Las elípticas de Decathlon: EL540 e Initial Elliptical 100",
+        body: "Fuera de las seis de la comparativa, Decathlon vende dos elípticas de su marca Domyos. La EL540 es autoalimentada, como la MERACH, con volante de 9 kg, zancada de 39 cm, 15 niveles de resistencia, 24 programas y Kinomap, y mide 146 × 63 × 159 cm; por zancada, según la orientación de arriba, encaja mejor en estaturas de hasta 1,60-1,65 m. La Initial Elliptical 100 es de iniciación: resistencia manual de 10 niveles, zancada de 33 cm, volante equivalente a 4 kg y hasta 110 kg de usuario, así que sirve para sesiones suaves de personas de estatura baja. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-el540-eliptica-autoalimentada-conectada",
+        productSlugs: ["domyos-initial-elliptical-100-eliptica"],
+      },
+      {
         heading: "Errores frecuentes al comprar una elíptica",
         body: "El más común es elegir por precio sin mirar la zancada: 34-38 cm pueden ir bien a alguien de 1,60 m y resultar incómodos a alguien de 1,85 m. Otros: apurar el peso máximo de usuario sin dejar margen; medir solo la máquina y olvidar el espacio para subir y bajar y la altura del techo; pagar por programas y app cuando lo que sostiene la constancia es que el movimiento sea cómodo; no revisar quién vende y envía ni las condiciones de devolución, clave en un aparato de 40 a 60 kg; y empezar con sesiones largas y resistencia alta en vez de 15-20 minutos a ritmo suave.",
       },
@@ -2220,7 +2292,7 @@ const articleContent: Record<string, {
 
   "maquina-de-remo-casa-como-elegir": {
     intro:
-      "Una máquina de remo para casa da un entrenamiento de cuerpo completo sin impacto: empujas con las piernas, abres la cadera y terminas tirando con la espalda y los brazos, todo sentado y con los pies sujetos. Antes de elegir modelo hay cinco datos que deciden la compra: el tipo de resistencia (agua, magnética, aire o hidráulica), el espacio que ocupa y si se pliega, la longitud del raíl según tu altura, el peso máximo de usuario y el ruido. En esta guía explicamos cada uno, cómo es la técnica básica de la remada y comparamos las seis máquinas de [nuestra categoría de máquinas de remo](/tienda/maquinas-remo), comprobadas en Amazon.es el 19 de octubre de 2026 y con los datos de su ficha.",
+      "Una máquina de remo para casa da un entrenamiento de cuerpo completo sin impacto: empujas con las piernas, abres la cadera y terminas tirando con la espalda y los brazos, todo sentado y con los pies sujetos. Antes de elegir modelo hay cinco datos que deciden la compra: el tipo de resistencia (agua, magnética, aire o hidráulica), el espacio que ocupa y si se pliega, la longitud del raíl según tu altura, el peso máximo de usuario y el ruido. En esta guía explicamos cada uno, cómo es la técnica básica de la remada y comparamos seis máquinas de [nuestra categoría de máquinas de remo](/tienda/maquinas-remo), comprobadas en Amazon.es el 19 de octubre de 2026 y con los datos de su ficha.",
     quickPicks: [
       { productSlug: "merach-q1s-maquina-remo-magnetica-16-niveles-app", text: "Para un piso: remo magnético silencioso con 16 niveles, doble raíl de 165 cm apto hasta 1,93 m según la marca, hasta 158 kg y app." },
       { productSlug: "concept2-remo-indoor-model-d-pm5", text: "El remo de aire de referencia: monitor PM5, hasta 227 kg y se separa en dos piezas para guardarlo. Necesita 274 × 122 cm de espacio de uso." },
@@ -2272,6 +2344,12 @@ const articleContent: Record<string, {
         body: "Para un piso donde el silencio manda, la MERACH Q1s es la opción más equilibrada: magnética, ligera, con doble raíl y app, aunque no se pliega. Si quieres el remoergómetro de los gimnasios y tienes sitio, el Concept2 Model D es la referencia, con el monitor PM5 y la carga máxima más alta del catálogo. Para quien busca la sensación del agua y poder guardarla en una esquina, la JOROTO MR280PRO de roble se pliega en vertical. La MERACH R50 ofrece resistencia de aire en un formato plegable. La Cecotec DrumFit Rower 5500 Regatta es la magnética sencilla, vendida por Amazon y sin app. Y el Sunny Smart Rower hidráulico es el más compacto y ligero, pensado para quien tiene muy poco espacio o quiere moverlo de habitación.",
         productSlug: "sunny-smart-rower-remo-hidraulico-compacto",
         productSlugs: ["cecotec-drumfit-rower-5500-regatta-remo-magnetico"],
+      },
+      {
+        heading: "Las máquinas de remo de Decathlon",
+        body: "Decathlon tiene tres remos de su marca Domyos, los tres magnéticos y compatibles con Kinomap. El Initial Rower 100 es el de iniciación: 10 niveles, consola de 6 indicadores, hasta 110 kg y 184 × 40 × 53 cm en uso, y se guarda en vertical. El 500B no necesita enchufe: lleva volante de 6 kg, 15 niveles y 9 programas, y se pliega a 80 × 60 × 145 cm. El Woodrower es el de gama alta, de madera y también autoalimentado, con volante de 9 kg, 15 niveles, compatibilidad con Kinomap y Zwift, raíl para estaturas de 1,50 a 1,90 m y hasta 130 kg; en uso mide 210 cm de largo y plegado, 106 × 48 × 48 cm. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-500b-maquina-remo-plegable-autoalimentada",
+        productSlugs: ["domyos-woodrower-maquina-remo-madera-autoalimentada","domyos-initial-rower-100-maquina-remo"],
       },
     ],
     comparisonHeading: "Comparativa de las máquinas de remo del catálogo",
@@ -2457,6 +2535,11 @@ const articleContent: Record<string, {
       {
         heading: "Plan de progresión de 6 semanas",
         body: "Semanas 1-2: 4 series de 4-6 repeticiones con banda nivel medio, descanso de 90 segundos, dos sesiones por semana no consecutivas. Semanas 3-4: mismo volumen pero alternando una serie sin banda al fallo (aunque sea una negativa parcial) al final de cada sesión, para acostumbrar al sistema nervioso al peso completo. Semanas 5-6: cambio a banda extra ligera, 4 series de 4-6 repeticiones, y sustitución progresiva de series con banda por series sin banda a medida que el rendimiento lo permita. No es un calendario rígido: si en la semana 4 todavía te cuesta la negativa parcial sin banda, repite las semanas 3-4 una vez más antes de avanzar. La progresión de fuerza en un ejercicio nuevo raramente es lineal, y forzar el calendario suele provocar estancamiento o sobrecarga en hombro y codo.",
+      },
+      {
+        heading: "Dónde colgarte en casa: barra de puerta",
+        body: "Para seguir el plan en casa necesitas una barra. La barra de dominadas de puerta de Domyos (Decathlon) mide 105 cm, se apoya en el marco sin taladrar y tiene agarres martillo, ancho y estándar, para usuarios de hasta 130 kg. Antes de comprarla, mide tu puerta: vale para huecos de 60 a 90 cm y muros de 5,5 a 15,5 cm de grosor. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "domyos-barra-dominadas-puerta-105cm",
       },
       {
         heading: "Errores que frenan el progreso",
@@ -2807,6 +2890,11 @@ const articleContent: Record<string, {
         heading: "Qué rodillo elegir: densidad, textura y tamaño",
         body: "La variable que más importa es la dureza. Un rodillo liso de dureza media es la mejor elección para empezar y para piernas grandes, porque reparte la presión y permite dosificarla. Los rodillos texturizados y más firmes, con núcleo rígido, concentran la presión y suelen preferirlos quienes ya están habituados. El tamaño cuenta: un rodillo largo (unos 45 cm) es más estable para la espalda alta y permite trabajar ambas piernas, mientras que uno corto (unos 30-33 cm) es más fácil de guardar y transportar. Para zonas pequeñas o de difícil acceso, como la planta del pie, el glúteo medio o la zona entre omóplatos, una pelota de masaje llega donde el cilindro no alcanza.",
         productSlug: "acupoint-pelotas-masaje-miofascial-set-2",
+      },
+      {
+        heading: "Un rodillo blando para empezar",
+        body: "Si nunca has usado un rodillo, empieza por uno blando: molesta menos y te deja aprender la técnica. El foam roller blando de Decathlon mide 38 × 12 cm, pesa 510 g y es de espuma de poliuretano, un tamaño que sirve para muslos, gemelos, glúteos y espalda y que cabe en la bolsa del gimnasio. Datos de decathlon.es, comprobados el 26/10/2026.",
+        productSlug: "decathlon-foam-roller-rodillo-masaje-blando",
       },
     ],
     comparisonHeading: "Rodillo liso, texturizado o pelota: cuál elegir",
