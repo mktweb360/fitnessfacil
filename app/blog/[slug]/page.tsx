@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { posts, getPostBySlug } from "@/data/posts";
 import { getProductBySlug } from "@/data/products";
-import { amazonLink } from "@/lib/amazon";
+import { primaryOffer, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
 import AdSenseAd from "@/components/AdSenseAd";
@@ -61,7 +61,7 @@ type QuickPick = { productSlug: string; text: string };
 function availableProducts(slugs: (string | undefined)[]) {
   return slugs
     .map((s) => (s ? getProductBySlug(s) : undefined))
-    .filter((p): p is NonNullable<typeof p> => !!p && !p.unavailable);
+    .filter((p): p is NonNullable<typeof p> => !!p && !p.unavailable && !!primaryOffer(p));
 }
 
 const articleContent: Record<string, {
@@ -3010,7 +3010,7 @@ const AUTHOR = {
             {content.quickPicks && (() => {
               const picks = content.quickPicks
                 .map((qp) => ({ qp, product: getProductBySlug(qp.productSlug) }))
-                .filter((x) => x.product && !x.product.unavailable);
+                .filter((x) => x.product && !x.product.unavailable && primaryOffer(x.product));
               if (picks.length === 0) return null;
               return (
                 <section className="mb-10 bg-orange-50 border border-orange-200 rounded-xl p-5">
@@ -3025,12 +3025,12 @@ const AUTHOR = {
                           <p className="text-sm text-gray-600 mt-1">{qp.text}</p>
                         </div>
                         <a
-                          href={amazonLink(product!.asin)}
+                          href={offerUrl(primaryOffer(product!)!)}
                           target="_blank"
                           rel="nofollow sponsored noopener noreferrer"
                           className="shrink-0 text-center bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
                         >
-                          Ver en Amazon →
+                          Ver en {STORE_NAME[primaryOffer(product!)!.store]} →
                         </a>
                       </li>
                     ))}
@@ -3050,7 +3050,7 @@ const AUTHOR = {
                       {ctaProducts.map((ctaProduct) => (
                         <a
                           key={ctaProduct.slug}
-                          href={amazonLink(ctaProduct.asin)}
+                          href={offerUrl(primaryOffer(ctaProduct)!)}
                           target="_blank"
                           rel="nofollow sponsored noopener noreferrer"
                           className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"

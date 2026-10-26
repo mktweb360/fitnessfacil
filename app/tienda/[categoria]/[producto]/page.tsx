@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { categories, products, getProductsByCategory, getProductBySlug } from "@/data/products";
 import { getPostBySlug } from "@/data/posts";
-import { amazonLink } from "@/lib/amazon";
+import { offersOf, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
 import ProductCard from "@/components/ProductCard";
 import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
@@ -79,13 +79,15 @@ export default async function ProductPage({ params }: Props) {
   const { categoria, producto } = await params;
   const product = getProductBySlug(producto);
   if (!product || product.categorySlug !== categoria) notFound();
-  if (product.unavailable) redirect(`/tienda/${product.categorySlug}`);
+  const [mainOffer, ...otherOffers] = offersOf(product);
+  if (product.unavailable || !mainOffer) redirect(`/tienda/${product.categorySlug}`);
 
   const cat = categories.find((c) => c.slug === categoria);
   const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
   const faqs = categoryFaqs[categoria] ?? [];
-  const link = amazonLink(product.asin);
+  const link = offerUrl(mainOffer);
+  const storeName = STORE_NAME[mainOffer.store];
   const topSpecs = Object.entries(product.specs).slice(0, 4);
 
   const breadcrumbSchema = {
@@ -197,14 +199,27 @@ export default async function ProductPage({ params }: Props) {
               <a
                 href={link}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="nofollow noopener noreferrer sponsored"
                 className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-bold text-base py-4 px-6 rounded-xl transition-colors shadow-sm shadow-orange-200 mb-3"
               >
                 <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current shrink-0">
                   <path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-7.8-3.9L5.7 7H3c-.6 0-1-.4-1-1s.4-1 1-1h4c.5 0 .9.3 1 .8l.3 1.2h11c.7 0 1.2.7 1 1.4l-2 6c-.1.4-.5.6-.9.6H9.2c-.5 0-.9-.3-1-.9z"/>
                 </svg>
-                Comprar ahora →
+                Comprar en {storeName} →
               </a>
+
+              {/* Otros comercios, debajo del principal */}
+              {otherOffers.map((o) => (
+                <a
+                  key={o.store}
+                  href={offerUrl(o)}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer sponsored"
+                  className="flex items-center justify-center w-full border border-orange-300 hover:bg-orange-50 text-orange-700 font-semibold text-sm py-3 px-6 rounded-xl transition-colors bg-white mb-3"
+                >
+                  También disponible en {STORE_NAME[o.store]} →
+                </a>
+              ))}
 
               {/* Botón secundario */}
               <Link
@@ -343,10 +358,10 @@ export default async function ProductPage({ params }: Props) {
           <a
             href={link}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3.5 px-8 rounded-xl transition-colors shadow-md"
           >
-            🛒 Ir a la tienda →
+            🛒 Ir a {storeName} →
           </a>
           <p className="text-green-200 text-xs mt-3">Enlace de afiliado · Sin coste adicional para ti</p>
         </div>

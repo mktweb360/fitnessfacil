@@ -106,10 +106,33 @@ if (infracciones.length) {
   ejemplos.unshift(...infracciones.slice(0, 15));
 }
 
+// ── Enlaces de afiliado multicomercio (26/10/2026) ─────────────────────────────
+// Toda ficha de producto indexable tiene botón de compra; los enlaces de Decathlon llevan nuestro
+// programa (act=21712) y publisher (pub=43981) tal y como los genera el panel; ningún href con «undefined».
+const malEnlace = [];
+let enlacesDecathlon = 0;
+for (const p of pages) {
+  const html = readFileSync(p, "utf8");
+  const ruta = p.slice(app.length).replace(/\\/g, "/").replace(/\.html$/, "");
+  if (/href="[^"]*undefined[^"]*"/.test(html)) malEnlace.push(`href con undefined en ${ruta}`);
+  for (const m of html.matchAll(/href="(https:\/\/afiliacion\.decathlon\.es[^"]*)"/g)) {
+    enlacesDecathlon++;
+    const u = m[1].replace(/&amp;/g, "&");
+    if (!u.startsWith("https://afiliacion.decathlon.es/tracking/clk?act=21712&gel=233292&pub=43981&org=2615&url=https%3A%2F%2Fwww.decathlon.es%2Fes%2Fp%2F")) malEnlace.push(`enlace de Decathlon mal formado en ${ruta}`);
+  }
+  // Las fichas retiradas (unavailable) se prerenderizan como redirección a su categoría.
+  const esFicha = /^\/tienda\/[^/]+\/[^/]+$/.test(ruta) && !/<meta name="robots" content="[^"]*noindex/i.test(html) && !html.includes("NEXT_REDIRECT");
+  if (esFicha && !/href="https:\/\/(www\.amazon\.es\/dp\/|afiliacion\.decathlon\.es\/)/.test(html)) malEnlace.push(`ficha sin botón de compra: ${ruta}`);
+}
+if (malEnlace.length) {
+  errors.push(`${malEnlace.length} problemas en enlaces de afiliado`);
+  ejemplos.unshift(...malEnlace.slice(0, 10));
+}
+
 if (errors.length) {
   console.error("\n✖ verify-build: la build NO cumple los mínimos de SEO/medición:");
   for (const e of errors) console.error("  - " + e);
   for (const e of ejemplos.slice(0, 10)) console.error("    · " + e);
   process.exit(1);
 }
-console.log(`✔ verify-build: ${pages.length - noindex} páginas con GA4 ${gaId} y canonical; ${noindex} con noindex; sitemap y robots correctos.`);
+console.log(`✔ verify-build: ${pages.length - noindex} páginas con GA4 ${gaId} y canonical; ${noindex} con noindex; sitemap y robots correctos; ${enlacesDecathlon} enlaces de Decathlon bien formados.`);

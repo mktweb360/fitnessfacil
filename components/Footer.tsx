@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-10 pt-6 text-xs text-gray-500 space-y-2">
           <p>
-            <strong>Aviso de afiliados:</strong> FitnessFácil.es participa en el Programa de Afiliados de Amazon EU (ID: cclaserdepi01-21). Si compras a través de nuestros enlaces podemos ganar una comisión sin coste adicional para ti. Nuestras opiniones son siempre honestas e independientes.
+            <strong>Aviso de afiliados:</strong> FitnessFácil.es participa en el Programa de Afiliados de Amazon EU (ID: cclaserdepi01-21) y en el programa de afiliados de Decathlon España. Si compras a través de nuestros enlaces podemos ganar una comisión sin coste adicional para ti. Nuestras opiniones son siempre honestas e independientes.
           </p>
           <p>
             <strong>Aviso de salud:</strong> El contenido de este sitio es solo informativo. No sustituye al consejo médico profesional. Consulta con tu médico antes de iniciar un programa de ejercicio o tomar suplementos.

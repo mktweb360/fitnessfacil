@@ -3,7 +3,7 @@ import Script from "next/script";
 // GA4 (propiedad de la cuenta mktweb360@gmail.com) con Consent Mode v2: todo denegado por defecto.
 // El mensaje de consentimiento certificado de Google (AdSense > Privacidad y mensajes, TCF v2.2)
 // actualiza el estado cuando el usuario decide (gtag lee el TC string con gtag_enable_tcf_support); sin consentimiento GA4 envía pings sin cookies.
-// clic_amazon: mide los clics de afiliado (enlaces a Amazon) por página.
+// clic_amazon y clic_decathlon: miden los clics de afiliado a cada comercio por página.
 // NO QUITAR: scripts/verify-build.mjs hace fallar el build si este ID no aparece en el HTML.
 export const GA_ID = "G-7R62S0W0QD";
 
@@ -29,9 +29,10 @@ gtag('config', '${GA_ID}');
   });
 })(0);
 document.addEventListener('click', function (e) {
-  var a = e.target && e.target.closest ? e.target.closest('a[href*="amazon."]') : null;
+  var a = e.target && e.target.closest ? e.target.closest('a[href*="amazon."], a[href*="afiliacion.decathlon.es"]') : null;
   if (!a) return;
-  gtag('event', 'clic_amazon', { link_url: a.href, link_text: (a.innerText || '').trim().slice(0, 100), page_path: location.pathname });
+  var ev = a.href.indexOf('afiliacion.decathlon.es') > -1 ? 'clic_decathlon' : 'clic_amazon';
+  gtag('event', ev, { link_url: a.href, link_text: (a.innerText || '').trim().slice(0, 100), page_path: location.pathname });
 }, true);`}
       </Script>
       <Script id="ga4" src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />

@@ -39,6 +39,7 @@ export default function PoliticaPrivacidadPage() {
             <li><strong>Cookies analíticas y publicitarias:</strong> con tu consentimiento (ver <Link href="/politica-de-cookies" className="text-green-700 hover:underline">política de cookies</Link>)</li>
             <li><strong>Google AdSense:</strong> con consentimiento, Google recopila datos para publicidad personalizada</li>
             <li><strong>Amazon Associates:</strong> cuando clicas en nuestros enlaces de Amazon, Amazon gestiona datos según su política propia</li>
+            <li><strong>Decathlon España:</strong> cuando clicas en nuestros enlaces de Decathlon, Decathlon y su plataforma de afiliación (eMarketingSolutions) gestionan datos según su política propia</li>
           </ul>
         </section>
 
@@ -69,8 +70,9 @@ export default function PoliticaPrivacidadPage() {
         </section>
 
         <section>
-          <h2 className="text-lg font-extrabold text-gray-900 mb-2">6. Amazon Associates</h2>
+          <h2 className="text-lg font-extrabold text-gray-900 mb-2">6. Programas de afiliados (Amazon y Decathlon)</h2>
           <p>Somos afiliados del Programa de Amazon EU (ID: cclaserdepi01-21). Al hacer clic en nuestros enlaces, Amazon puede recopilar datos según su propia política de privacidad.</p>
+          <p className="mt-2">También somos afiliados del programa de Decathlon España. Sus enlaces pasan por afiliacion.decathlon.es antes de llevarte a decathlon.es, y Decathlon puede recopilar datos según su propia política de privacidad.</p>
         </section>
 
         <section>

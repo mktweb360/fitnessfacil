@@ -84,7 +84,7 @@ export default function ContactoPage() {
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">Lo que no hacemos</h2>
           <p>
             No vendemos productos directamente: FitnessFácil.es es una web de análisis y comparativas, y los productos se
-            compran en Amazon.es a través de nuestros enlaces. Por eso no podemos gestionar pedidos, envíos, devoluciones ni
+            compran en Amazon.es o en Decathlon.es a través de nuestros enlaces. Por eso no podemos gestionar pedidos, envíos, devoluciones ni
             garantías; para eso tienes que dirigirte a la tienda donde hiciste la compra.
           </p>
           <p className="mt-2">

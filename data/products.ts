@@ -1,7 +1,12 @@
+import type { Offer } from "@/lib/affiliate";
+
 export type Product = {
   slug: string;
   name: string;
-  asin: string;
+  /** ASIN de Amazon. Las fichas solo de Decathlon no lo llevan. */
+  asin?: string;
+  /** Comercios con enlace de afiliado, en orden de botón (el más barato primero). Sin `offers`, se usa `asin`. */
+  offers?: Offer[];
   categorySlug: string;
   categoryName: string;
   price: string;
@@ -17,7 +22,7 @@ export type Product = {
   badge?: string;
   isSupplement?: boolean;
   relatedPosts?: string[];
-  /** Fecha en que se comprobó que no se puede comprar en Amazon.es: se oculta de la web. */
+  /** Fecha en que se comprobó que no se puede comprar en ningún comercio: se oculta de la web. */
   unavailable?: string;
 };
 

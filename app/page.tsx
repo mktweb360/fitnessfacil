@@ -188,7 +188,7 @@ export default function HomePage() {
             <div className="p-6">
               <div className="text-4xl mb-3">🇪🇸</div>
               <h3 className="font-bold text-lg mb-2">Para el mercado español</h3>
-              <p className="text-gray-600 text-sm">Productos disponibles en Amazon.es y guías pensadas para entrenar en casa en España.</p>
+              <p className="text-gray-600 text-sm">Productos disponibles en Amazon.es y Decathlon.es, y guías pensadas para entrenar en casa en España.</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-3">💯</div>

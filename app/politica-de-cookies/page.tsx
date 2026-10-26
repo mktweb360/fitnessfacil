@@ -49,7 +49,7 @@ export default function PoliticaCookiesPage() {
                 <tr>
                   <td className="px-3 py-2 border border-gray-200">_ga, _ga_*</td>
                   <td className="px-3 py-2 border border-gray-200">Analítica (Google Analytics 4)</td>
-                  <td className="px-3 py-2 border border-gray-200">Medir de forma agregada las visitas y los clics a Amazon (Google Analytics 4; solo con consentimiento)</td>
+                  <td className="px-3 py-2 border border-gray-200">Medir de forma agregada las visitas y los clics a Amazon y Decathlon (Google Analytics 4; solo con consentimiento)</td>
                   <td className="px-3 py-2 border border-gray-200">2 años</td>
                 </tr>
                 <tr>
@@ -57,6 +57,12 @@ export default function PoliticaCookiesPage() {
                   <td className="px-3 py-2 border border-gray-200">Afiliados (terceros)</td>
                   <td className="px-3 py-2 border border-gray-200">Rastreo de conversiones de afiliado</td>
                   <td className="px-3 py-2 border border-gray-200">24 horas (Amazon)</td>
+                </tr>
+                <tr>
+                  <td className="px-3 py-2 border border-gray-200">Cookies Decathlon</td>
+                  <td className="px-3 py-2 border border-gray-200">Afiliados (terceros)</td>
+                  <td className="px-3 py-2 border border-gray-200">Atribuir a nuestro enlace la compra hecha en decathlon.es (las gestiona Decathlon con su plataforma de afiliación, eMarketingSolutions)</td>
+                  <td className="px-3 py-2 border border-gray-200">Según Decathlon</td>
                 </tr>
               </tbody>
             </table>
