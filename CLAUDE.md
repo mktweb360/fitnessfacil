@@ -40,9 +40,16 @@ Las excepciones justificadas van en `scripts/compliance-allow.json`, con el moti
 - **Amazon Associates:**
   - Sin precios, valoraciones ni número de reseñas escritos a mano.
   - Los enlaces siempre con `amazonLink(ASIN)`, que lleva el tag `cclaserdepi01-21`.
+- **Decathlon (desde el 26/10/2026):**
+  - Programa «Afiliacion ES especialistas» (21712), publisher 43981. Condiciones en OneDrive › Blogs monetización › AFILIACIONES (fila de Decathlon).
+  - Cada producto lleva `offers` (lib/affiliate.ts): `{ store: "decathlon", path, mc }` con la ruta y el código de modelo tal y como salen en el buscador «Mis productos» del panel, ruta sin codificar (p. ej. «×», no «%C3%97»). El enlace lo genera `offerUrl()`; nunca se escribe a mano ni se alteran sus parámetros (lo prohíbe el contrato).
+  - Varios comercios en una ficha: el orden de `offers` es el de los botones y va primero el más barato el día de la comprobación (regla de José), con un comentario que diga precios y fecha. Sin precios en la web.
+  - Sin stock en decathlon.es (la talla aparece como «Agotado»): `unavailable: "AAAA-MM-DD"` en la ficha, o en la oferta si hay otro comercio.
+  - Prohibido usar enlaces de Decathlon en SEM, Google Shopping, display, email o pujas de marca.
+  - decathlon.es corta con Cloudflare si se le hacen muchas peticiones seguidas: espaciarlas y no forzar la verificación.
   - En redes, nunca un enlace de afiliado directo: siempre la URL de la guía con UTM.
 - **Productos nuevos:**
-  - Solo con botón de compra en Amazon.es el día del alta.
+  - Solo con botón de compra en Amazon.es o en Decathlon.es (con stock) el día del alta.
   - Datos solo de la ficha de Amazon o del fabricante.
   - «Vendido por un tercero» en contras cuando corresponda.
   - Si el ASIN deja de venderse, se marca `unavailable: "AAAA-MM-DD"`; el slug no se borra.
@@ -61,7 +68,7 @@ Las excepciones justificadas van en `scripts/compliance-allow.json`, con el moti
 GA4 G-7R62S0W0QD (cuenta mktweb360@gmail.com) en `components/Analytics.tsx`:
 - Consent Mode v2 con todo denegado por defecto y `gtag_enable_tcf_support`.
 - La analítica se concede leyendo el TCF (propósito 1 + 8 o 9).
-- Evento `clic_amazon` en cada clic a Amazon.
+- Eventos `clic_amazon` y `clic_decathlon` en cada clic a cada comercio.
 - Las cookies `_ga` figuran en la política de cookies y el tratamiento, en la de privacidad.
 
 Search Console: propiedad https://www.fitnessfacil.es/ en la cuenta `/u/1/` (mktweb360@gmail.com).
