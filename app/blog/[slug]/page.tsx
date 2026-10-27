@@ -100,7 +100,7 @@ const articleContent: Record<string, {
       },
       {
         "heading": "Qué comprobar en la ficha antes de comprar",
-        "body": "Estos son los datos que separan una plegable que se usa de una que acaba en el trastero:\n\n- **Estatura del usuario.** Las plegables tienen menos recorrido de sillín. La Domyos X-Bike 100 V2, por ejemplo, está pensada para estaturas de 1,45 a 1,78 m. Si mides más, busca el dato en la ficha o elige una fija.\n- **Peso máximo.** Va de 110 kg en la Domyos a 136 kg en la MERACH. Es el límite del fabricante, no una recomendación: conviene quedar por debajo.\n- **Tipo de resistencia.** Magnética mejor que por fricción: no roza, apenas hace ruido y no se desgasta. Todas las de esta comparativa son magnéticas.\n- **Niveles.** De 8 a 16 en el catálogo. Más niveles no significa más dureza, sino saltos más pequeños entre uno y otro.\n- **Uso previsto.** Algunos fabricantes indican cuántas horas a la semana está pensada; la Domyos X-Bike 100 V2, hasta 3 horas.\n- **Medidas plegada y desplegada.** Mide el hueco donde la vas a guardar y el espacio para usarla, con margen para subir y bajar."
+        "body": "Estos son los datos que separan una plegable que se usa de una que acaba en el trastero. Primero, la estatura del usuario: las plegables tienen menos recorrido de sillín y la Domyos X-Bike 100 V2, por ejemplo, está pensada para estaturas de 1,45 a 1,78 m; si mides más, busca el dato en la ficha o elige una fija. Segundo, el peso máximo, que va de 110 kg en la Domyos a 136 kg en la MERACH; es el límite del fabricante, no una recomendación, así que conviene quedar por debajo. Tercero, el tipo de resistencia: magnética mejor que por fricción, porque no roza, apenas hace ruido y no se desgasta; todas las de esta comparativa son magnéticas. Cuarto, los niveles, de 8 a 16 en el catálogo: más niveles no significa más dureza, sino saltos más pequeños entre uno y otro. Quinto, el uso previsto: algunos fabricantes indican cuántas horas a la semana está pensada, y la Domyos X-Bike 100 V2 lo está para unas 3 horas. Y por último, las medidas plegada y desplegada: mide el hueco donde la vas a guardar y el espacio para usarla, con margen para subir y bajar."
       },
       {
         "heading": "Cuánto conviene pedalear",
@@ -133,7 +133,7 @@ const articleContent: Record<string, {
       },
       {
         "heading": "Errores frecuentes",
-        "body": "- Comprarla sin mirar la estatura máxima: si las rodillas suben demasiado, la acabarás dejando.\n- Ponerla sobre parqué sin alfombrilla: protege el suelo y reduce vibraciones.\n- Pedalear siempre en el nivel más bajo: si no notas esfuerzo, sube un nivel.\n- Plegarla y no volver a desplegarla: déjala a la vista los primeros meses, hasta que pedalear sea costumbre."
+        "body": "El primero es comprarla sin mirar la estatura máxima: si las rodillas suben demasiado, la acabarás dejando. El segundo, ponerla sobre parqué sin alfombrilla, que protege el suelo y reduce vibraciones. El tercero, pedalear siempre en el nivel más bajo: si no notas esfuerzo, sube un nivel. Y el cuarto, plegarla y no volver a desplegarla: déjala a la vista los primeros meses, hasta que pedalear sea costumbre."
       }
     ],
     "comparisonHeading": "Comparativa de bicicletas estáticas plegables del catálogo",
