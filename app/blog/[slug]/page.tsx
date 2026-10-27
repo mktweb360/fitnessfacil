@@ -77,6 +77,162 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "rack-o-multipower-casa-como-elegir": {
+    "intro": "Un rack, una jaula de potencia y un multipower sirven para lo mismo, entrenar con barra y mucho peso en casa, pero no se usan igual. En el rack y en la jaula la barra va libre y tú controlas el movimiento; en el multipower, o máquina Smith, la barra sube y baja guiada por dos raíles y se bloquea con un giro de muñeca. Esta guía explica qué cambia entre ellos, cuánto espacio y cuánto techo necesitas, qué mirar para entrenar solo con seguridad y compara los seis modelos del catálogo. Si todavía no tienes banco, empieza por [la guía de bancos de pesas para casa](/blog/banco-de-pesas-casa-como-elegir).",
+    "quickPicks": [
+      {
+        "productSlug": "yaheetech-soporte-sentadillas-250kg",
+        "text": "Para empezar con barra en poco espacio: dos soportes independientes de 102,5 a 167,5 cm y hasta 250 kg, vendidos por Amazon."
+      },
+      {
+        "productSlug": "ultrasport-power-rack-jalon-polea",
+        "text": "La jaula más completa: topes de seguridad para entrenar solo, dominadas, fondos y polea de jalón y remo."
+      },
+      {
+        "productSlug": "powerline-psm144x-maquina-smith-multipower",
+        "text": "Si prefieres barra guiada: multipower de Body-Solid con 14 bloqueos y topes de recorrido, que cabe con 203 cm de techo."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Soportes, jaula o multipower: la diferencia",
+        "body": "Los soportes de sentadillas son dos postes, sueltos o unidos por la base, donde apoyas la barra. Son baratos y ocupan poco, pero no tienen barras de seguridad. La jaula de potencia, o power rack, encierra la zona de trabajo entre cuatro postes y suele añadir topes de seguridad, barra de dominadas y, a veces, poleas: es lo más parecido a entrenar en un gimnasio. El multipower guía la barra en vertical, así que no tienes que estabilizarla y puedes bloquearla en cualquier punto del recorrido. A cambio, el movimiento siempre es recto, y en sentadilla y press de banca el cuerpo deja de trabajar el equilibrio que exige una barra libre."
+      },
+      {
+        "heading": "Cuánto espacio y cuánto techo necesitas",
+        "body": "Mide el techo antes que nada. La jaula SPORTNOW mide 215 cm de alto, la Ultrasport 213,5 cm, la Marcy 218 cm y el multipower Powerline 203 cm. Para hacer dominadas en una jaula necesitas además espacio para la cabeza por encima de la barra. A lo ancho, cuenta la barra: una olímpica mide unos 2,20 m, así que deja margen a los lados para cargar los discos. Y a lo largo, deja sitio para el banco si vas a hacer press. Los soportes independientes son la excepción: cada Yaheetech ocupa 54,5 × 50,5 cm y se guardan en un rincón."
+      },
+      {
+        "heading": "Seguridad para entrenar solo",
+        "body": "Si entrenas sin nadie que te ayude, el punto clave es poder soltar la barra sin que caiga sobre ti. En una jaula, eso lo hacen los topes de seguridad: colócalos justo por debajo del punto más bajo del ejercicio. La Ultrasport lleva dos topes regulables. En un multipower, la barra se bloquea con un giro en cualquiera de sus posiciones y los pines de tope limitan hasta dónde puede bajar; el Powerline tiene 14 bloqueos y la Marcy, 9. Con soportes independientes no hay topes: úsalos con cargas que puedas controlar o con alguien al lado."
+      },
+      {
+        "heading": "Carga máxima y discos",
+        "body": "La carga que da el fabricante es la de la estructura, no la que vas a levantar, pero conviene ir sobrados. Los soportes Yaheetech y K-Sport admiten 250 kg; la jaula SPORTNOW, 460 kg de carga estructural; la Ultrasport, 200 kg en los soportes; y la Marcy, 135 kg en el rack y 90 kg en las poleas. Comprueba también el diámetro de los discos: los estándar tienen agujero de 25 o 30 mm y los olímpicos, de 50 mm. La jaula SPORTNOW tiene perchas para los dos y el Powerline admite olímpicos con adaptadores que se venden aparte. Si todavía no tienes barra y discos, en [la guía de tipos de pesas](/blog/tipos-de-pesas-cual-elegir-casa-gimnasio) explicamos cuáles elegir."
+      },
+      {
+        "heading": "El suelo",
+        "body": "Una jaula cargada y una barra que cae al suelo concentran mucho peso en poco espacio. Pon losetas de caucho bajo la zona de trabajo: protegen el suelo, reducen el ruido y evitan que la estructura resbale. En un piso alto, piensa en los vecinos de abajo y evita soltar la barra desde arriba."
+      },
+      {
+        "heading": "Cuánto entrenar la fuerza",
+        "body": "La Organización Mundial de la Salud recomienda a los adultos actividades de fortalecimiento muscular que trabajen los grandes grupos musculares dos o más días a la semana, además de la actividad aeróbica. Con un rack y un banco puedes cubrirlo con tres o cuatro ejercicios básicos, como sentadilla, press de banca, remo y peso muerto. Si empiezas desde cero, en [la guía de entrenamiento de fuerza con equipamiento mínimo](/blog/entrenamiento-fuerza-casa-equipamiento-minimo) tienes una rutina para arrancar."
+      },
+      {
+        "heading": "Yaheetech: soportes para empezar",
+        "body": "Dos soportes independientes que se regulan en 14 alturas, de 102,5 a 167,5 cm, así que valen para sentadilla y para press de banca. El fabricante indica hasta 250 kg y los vende y envía Amazon. No tienen barras de seguridad.",
+        "productSlug": "yaheetech-soporte-sentadillas-250kg"
+      },
+      {
+        "heading": "K-Sport: el más compacto",
+        "body": "Soporte de acero con 7 alturas, de 94 a 153 cm, 250 kg de carga y una base de 44 × 51 cm. Lleva tacos de goma y apoyos que amortiguan el ruido. Como los Yaheetech, no tiene topes de seguridad.",
+        "productSlug": "k-sport-soporte-sentadillas-ajustable-250kg"
+      },
+      {
+        "heading": "SPORTNOW: jaula con dominadas y fondos",
+        "body": "Jaula de tubo de 50 × 50 mm con 460 kg de carga estructural, 11 alturas de 24 a 184 cm, barra de dominadas con varios agarres, estación de fondos y cuatro perchas para discos de 25 y 50 mm. Mide 160 × 112 × 215 cm. Es un modelo reciente y todavía tiene pocas opiniones.",
+        "productSlug": "sportnow-jaula-potencia-460kg"
+      },
+      {
+        "heading": "Ultrasport Power Rack: la más completa",
+        "body": "Dos topes de seguridad regulables, barra de dominadas, fondos y polea alta y baja para jalón al pecho y remo. Mide 145,5 × 141 × 213,5 cm por fuera y admite barra estándar u olímpica, con hasta 200 kg en los soportes. Barra y discos se compran aparte.",
+        "productSlug": "ultrasport-power-rack-jalon-polea"
+      },
+      {
+        "heading": "Powerline PSM144X: multipower de marca especializada",
+        "body": "Máquina Smith de Body-Solid con guías cromadas, 14 posiciones de bloqueo con giro de 15° y pines de tope. Mide 113 × 192,5 × 203 cm y pesa 72 kg. Es solo multipower: no tiene poleas ni barra de dominadas.",
+        "productSlug": "powerline-psm144x-maquina-smith-multipower"
+      },
+      {
+        "heading": "Marcy MD-9010G: el gimnasio entero",
+        "body": "Barra Smith con 9 bloqueos, poleas alta y baja independientes, banco y desarrollador de piernas. Es la opción si quieres una sola máquina para todo, pero ocupa 2,54 × 2,02 m, mide 2,18 m de alto y pesa 160 kg. El fabricante indica 135 kg en el rack.",
+        "productSlug": "marcy-md-9010g-maquina-smith-poleas"
+      },
+      {
+        "heading": "Errores frecuentes",
+        "body": "El primero es comprar la jaula sin medir el techo: hay que sumar la altura de la estructura y el espacio para la cabeza en dominadas. El segundo, entrenar solo sin topes de seguridad o con los topes demasiado bajos. El tercero, olvidar el diámetro de los discos que ya tienes. Y el cuarto, montar la estructura sobre un suelo blando sin losetas, que deja marcas y transmite el ruido."
+      }
+    ],
+    "comparisonHeading": "Comparativa de racks y multipower del catálogo",
+    "comparison": {
+      "headers": [
+        "Modelo",
+        "Tipo",
+        "Medidas (alto)",
+        "Carga según el fabricante",
+        "Seguridad"
+      ],
+      "rows": [
+        [
+          "Yaheetech",
+          "Soportes independientes",
+          "102,5-167,5 cm",
+          "250 kg",
+          "Sin topes"
+        ],
+        [
+          "K-Sport",
+          "Soporte de sentadillas",
+          "94-153 cm",
+          "250 kg",
+          "Sin topes"
+        ],
+        [
+          "SPORTNOW",
+          "Jaula con dominadas y fondos",
+          "215 cm",
+          "460 kg estructural",
+          "Consultar en la ficha"
+        ],
+        [
+          "Ultrasport",
+          "Power rack con polea",
+          "213,5 cm",
+          "200 kg en soportes",
+          "2 topes regulables"
+        ],
+        [
+          "Powerline PSM144X",
+          "Multipower",
+          "203 cm",
+          "No indicada en la ficha",
+          "14 bloqueos y pines de tope"
+        ],
+        [
+          "Marcy MD-9010G",
+          "Multipower con poleas y banco",
+          "218 cm",
+          "135 kg en el rack",
+          "9 bloqueos"
+        ]
+      ]
+    },
+    "conclusion": "Si empiezas y tienes poco espacio, unos soportes como los Yaheetech bastan para sentadilla y press de banca con cargas controladas. Si vas a entrenar solo con mucho peso, elige una jaula con topes de seguridad como la Ultrasport. Y si prefieres la barra guiada, el Powerline es el multipower más compacto del catálogo; la Marcy, el que trae más. Antes de comprar, mide el techo y el hueco con la barra puesta.",
+    "sources": [
+      {
+        "label": "Organización Mundial de la Salud — Actividad física (nota descriptiva)",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/physical-activity"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué es mejor para casa, un rack o un multipower?",
+        "a": "Depende de cómo entrenes. El rack o la jaula dejan la barra libre y trabajan también el equilibrio; el multipower guía la barra y se bloquea en cualquier punto, lo que da más tranquilidad entrenando solo. Para entrenar solo con barra libre, elige una jaula con topes de seguridad."
+      },
+      {
+        "q": "¿Cuánto techo necesito para una jaula de potencia?",
+        "a": "La altura de la jaula más el espacio para la cabeza si haces dominadas. Las del catálogo miden entre 203 y 218 cm."
+      },
+      {
+        "q": "¿Puedo entrenar solo en un rack?",
+        "a": "Sí, si tiene topes de seguridad y los colocas justo por debajo del punto más bajo del ejercicio. Con soportes independientes sin topes, usa cargas que puedas controlar."
+      },
+      {
+        "q": "¿Qué discos sirven en un rack o multipower?",
+        "a": "Depende del modelo. Los discos estándar tienen agujero de 25 o 30 mm y los olímpicos, de 50 mm. Comprueba en la ficha qué diámetro admite y si necesita adaptadores."
+      }
+    ]
+  },
   "bicicleta-estatica-plegable-como-elegir": {
     "intro": "Una bicicleta estática plegable es la que se cierra en forma de X o de V para guardarla detrás de una puerta o en un armario cuando no se usa. A cambio de ocupar poco, suele ser más ligera y menos robusta que una bicicleta fija, con un volante de inercia más pequeño y un límite de peso y de estatura más bajo. Esta guía explica cuándo compensa, qué datos de la ficha hay que comprobar antes de comprarla y compara las plegables del catálogo con los datos que da cada fabricante. Si todavía dudas entre tipos de bicicleta, empieza por [nuestra guía de tipos de bicicleta estática](/blog/bicicleta-estatica-o-eliptica).",
     "quickPicks": [

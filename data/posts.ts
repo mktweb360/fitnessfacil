@@ -16,6 +16,23 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "rack-o-multipower-casa-como-elegir",
+    title: "Rack o multipower para casa: cuál elegir según tu espacio y tu entrenamiento (2026)",
+    seoTitle: "Rack o multipower para casa: cuál elegir",
+    excerpt: "Rack, jaula de potencia o multipower para casa: qué diferencia hay, cuánto techo y suelo necesitas, seguridad para entrenar solo y comparativa de 6 modelos.",
+    date: "2026-10-27",
+    category: "Fuerza",
+    readTime: "9 min",
+    relatedProducts: ["yaheetech-soporte-sentadillas-250kg","k-sport-soporte-sentadillas-ajustable-250kg","sportnow-jaula-potencia-460kg","ultrasport-power-rack-jalon-polea","powerline-psm144x-maquina-smith-multipower","marcy-md-9010g-maquina-smith-poleas"],
+    relatedPosts: [
+      "banco-de-pesas-casa-como-elegir",
+      "tipos-de-pesas-cual-elegir-casa-gimnasio",
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+      "primera-dominada-banda-asistencia-progresion",
+    ],
+    categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver material de fuerza →" },
+  },
+  {
     slug: "bicicleta-estatica-plegable-como-elegir",
     title: "Bicicleta estática plegable: cómo elegirla para un piso pequeño (2026)",
     seoTitle: "Bicicleta estática plegable: cómo elegirla",
