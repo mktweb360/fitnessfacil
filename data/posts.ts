@@ -15,6 +15,30 @@ export type Post = {
 };
 
 export const posts: Post[] = [
+  {
+    slug: "bicicleta-estatica-plegable-como-elegir",
+    title: "Bicicleta estática plegable: cómo elegirla para un piso pequeño (2026)",
+    seoTitle: "Bicicleta estática plegable: cómo elegirla",
+    excerpt: "Cómo elegir una bicicleta estática plegable: qué sacrificas frente a una fija, estatura y peso máximo, resistencia magnética, ruido, medidas plegada y comparativa de las plegables del catálogo.",
+    date: "2026-10-27",
+    category: "Cardio",
+    readTime: "8 min",
+    relatedProducts: [
+      "vannect-bicicleta-estatica-plegable-16-niveles",
+      "merach-bicicleta-plegable-resistencia-magnetica",
+      "cecotec-bicicleta-xbike-plegable",
+      "sportstech-x150-ergometro-plegable",
+      "domyos-x-bike-100-v2-bicicleta-plegable",
+    ],
+    relatedPosts: [
+      "bicicleta-estatica-o-eliptica",
+      "mejor-bicicleta-estatica-casa-2025",
+      "bicicleta-estatica-adelgazar-resultados",
+      "mini-bicicleta-escritorio-trabajar",
+      "cinta-correr-plegable-piso-pequeno",
+    ],
+    categoryCta: { href: "/tienda/bicicletas-estaticas", text: "Ver bicicletas estáticas →" },
+  },
   // Temporada 2026: Black Friday (27/11), Cyber Monday (30/11), Navidad y Reyes.
   {
     slug: "black-friday-fitness-en-casa",

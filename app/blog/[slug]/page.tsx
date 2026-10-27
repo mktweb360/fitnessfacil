@@ -77,6 +77,132 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "bicicleta-estatica-plegable-como-elegir": {
+    "intro": "Una bicicleta estática plegable es la que se cierra en forma de X o de V para guardarla detrás de una puerta o en un armario cuando no se usa. A cambio de ocupar poco, suele ser más ligera y menos robusta que una bicicleta fija, con un volante de inercia más pequeño y un límite de peso y de estatura más bajo. Esta guía explica cuándo compensa, qué datos de la ficha hay que comprobar antes de comprarla y compara las plegables del catálogo con los datos que da cada fabricante. Si todavía dudas entre tipos de bicicleta, empieza por [nuestra guía de tipos de bicicleta estática](/blog/bicicleta-estatica-o-eliptica).",
+    "quickPicks": [
+      {
+        "productSlug": "vannect-bicicleta-estatica-plegable-16-niveles",
+        "text": "La más completa de las plegables: 16 niveles de resistencia magnética, pantalla con pulso, soporte para tableta y 5 años de garantía de piezas."
+      },
+      {
+        "productSlug": "merach-bicicleta-plegable-resistencia-magnetica",
+        "text": "Resistencia magnética silenciosa y 136 kg de peso máximo de usuario."
+      },
+      {
+        "productSlug": "domyos-x-bike-100-v2-bicicleta-plegable",
+        "text": "La de Decathlon: 10 niveles, Bluetooth compatible con Kinomap y 57 cm de largo plegada."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Plegable o fija: qué ganas y qué pierdes",
+        "body": "Ganas espacio: plegada, una bicicleta de este tipo se queda en una huella pequeña y se mueve con las ruedas delanteras. Pierdes estabilidad y suavidad: el volante de inercia suele ser ligero (en la Cecotec X-Bike, de 1,5 a 3 kg según la variante), así que el pedaleo es menos continuo que en una bicicleta de spinning, y el peso máximo y el rango de estaturas son más ajustados. Para pedalear a ritmo suave o moderado mientras ves una serie, sobra. Para series intensas de pie, mejor una bicicleta fija o de spinning, que comparamos en [la guía de la mejor bicicleta estática para casa](/blog/mejor-bicicleta-estatica-casa-2025)."
+      },
+      {
+        "heading": "Qué comprobar en la ficha antes de comprar",
+        "body": "Estos son los datos que separan una plegable que se usa de una que acaba en el trastero:\n\n- **Estatura del usuario.** Las plegables tienen menos recorrido de sillín. La Domyos X-Bike 100 V2, por ejemplo, está pensada para estaturas de 1,45 a 1,78 m. Si mides más, busca el dato en la ficha o elige una fija.\n- **Peso máximo.** Va de 110 kg en la Domyos a 136 kg en la MERACH. Es el límite del fabricante, no una recomendación: conviene quedar por debajo.\n- **Tipo de resistencia.** Magnética mejor que por fricción: no roza, apenas hace ruido y no se desgasta. Todas las de esta comparativa son magnéticas.\n- **Niveles.** De 8 a 16 en el catálogo. Más niveles no significa más dureza, sino saltos más pequeños entre uno y otro.\n- **Uso previsto.** Algunos fabricantes indican cuántas horas a la semana está pensada; la Domyos X-Bike 100 V2, hasta 3 horas.\n- **Medidas plegada y desplegada.** Mide el hueco donde la vas a guardar y el espacio para usarla, con margen para subir y bajar."
+      },
+      {
+        "heading": "Cuánto conviene pedalear",
+        "body": "La Organización Mundial de la Salud recomienda a los adultos al menos 150 minutos semanales de actividad física moderada. Una plegable lo pone fácil precisamente porque está a mano: tres o cuatro sesiones de 30 a 45 minutos a ritmo cómodo ya cubren esa cifra. Si tu objetivo es perder peso, en [la guía de bicicleta estática para adelgazar](/blog/bicicleta-estatica-adelgazar-resultados) explicamos qué resultados son realistas."
+      },
+      {
+        "heading": "VANNECT 16 niveles: la más completa",
+        "body": "Tipo X-Bike con 16 niveles de resistencia magnética, pantalla LCD con pulso en el manillar y soporte para tableta. Llega montada en un 70 % y el fabricante da 5 años de garantía de piezas. Como todas las plegables, es menos robusta que una de spinning, y el pulso del manillar es menos preciso que una banda de pecho.",
+        "productSlug": "vannect-bicicleta-estatica-plegable-16-niveles"
+      },
+      {
+        "heading": "MERACH plegable: silenciosa y para usuarios de hasta 136 kg",
+        "body": "Resistencia magnética silenciosa, sillín acolchado y un peso máximo de usuario de 136 kg, el más alto de las plegables del catálogo.",
+        "productSlug": "merach-bicicleta-plegable-resistencia-magnetica"
+      },
+      {
+        "heading": "Cecotec X-Bike: la de marca española",
+        "body": "Ocho niveles de resistencia magnética y un volante de inercia de 1,5 a 3 kg según la variante. Comprueba la versión exacta antes de comprar, porque cambian el volante y las prestaciones.",
+        "productSlug": "cecotec-bicicleta-xbike-plegable"
+      },
+      {
+        "heading": "Sportstech X150: ergómetro plegable",
+        "body": "Ocho niveles de resistencia magnética y asiento ajustable, en formato ergómetro. No tiene app, así que es para quien quiere pedalear sin pantallas ni suscripciones.",
+        "productSlug": "sportstech-x150-ergometro-plegable"
+      },
+      {
+        "heading": "Domyos X-Bike 100 V2: la de Decathlon",
+        "body": "Diez niveles de resistencia magnética, Bluetooth compatible con Kinomap y soporte para tableta. Desplegada mide 103 × 59 × 113 cm y plegada, 57 cm de largo. Está pensada para estaturas de 1,45 a 1,78 m, hasta 110 kg y unas 3 horas de uso a la semana.",
+        "productSlug": "domyos-x-bike-100-v2-bicicleta-plegable"
+      },
+      {
+        "heading": "Errores frecuentes",
+        "body": "- Comprarla sin mirar la estatura máxima: si las rodillas suben demasiado, la acabarás dejando.\n- Ponerla sobre parqué sin alfombrilla: protege el suelo y reduce vibraciones.\n- Pedalear siempre en el nivel más bajo: si no notas esfuerzo, sube un nivel.\n- Plegarla y no volver a desplegarla: déjala a la vista los primeros meses, hasta que pedalear sea costumbre."
+      }
+    ],
+    "comparisonHeading": "Comparativa de bicicletas estáticas plegables del catálogo",
+    "comparison": {
+      "headers": [
+        "Modelo",
+        "Resistencia",
+        "Dato destacado",
+        "Dónde se vende"
+      ],
+      "rows": [
+        [
+          "VANNECT 16 niveles",
+          "Magnética, 16 niveles",
+          "Pantalla con pulso, soporte para tableta, 5 años de garantía de piezas",
+          "Amazon"
+        ],
+        [
+          "MERACH plegable",
+          "Magnética",
+          "Hasta 136 kg",
+          "Amazon"
+        ],
+        [
+          "Cecotec X-Bike",
+          "Magnética, 8 niveles",
+          "Volante de 1,5 a 3 kg según variante",
+          "Amazon"
+        ],
+        [
+          "Sportstech X150",
+          "Magnética, 8 niveles",
+          "Ergómetro sin app",
+          "Amazon"
+        ],
+        [
+          "Domyos X-Bike 100 V2",
+          "Magnética, 10 niveles",
+          "Bluetooth y Kinomap; 1,45-1,78 m; hasta 110 kg; 57 cm plegada",
+          "Decathlon"
+        ]
+      ]
+    },
+    "conclusion": "Si el problema es el espacio y vas a pedalear a ritmo moderado, una plegable con resistencia magnética cumple. Antes de comprar, comprueba que tu estatura y tu peso están dentro de lo que indica el fabricante y mide dónde la vas a guardar. La VANNECT es la más completa del catálogo; la MERACH, la que admite más peso; y la Domyos, la opción si prefieres comprar en Decathlon.",
+    "sources": [
+      {
+        "label": "Organización Mundial de la Salud — Actividad física (nota descriptiva)",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/physical-activity"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Merece la pena una bicicleta estática plegable?",
+        "a": "Sí, si el espacio es el problema y vas a pedalear a ritmo suave o moderado. Para entrenamientos intensos o usuarios muy altos o pesados, mejor una bicicleta fija."
+      },
+      {
+        "q": "¿Cuánto peso aguanta una bicicleta plegable?",
+        "a": "Depende del modelo. En el catálogo va de 110 kg (Domyos X-Bike 100 V2) a 136 kg (MERACH plegable). Consulta siempre el dato del fabricante."
+      },
+      {
+        "q": "¿Hacen ruido las bicicletas estáticas plegables?",
+        "a": "Las de resistencia magnética son de las más silenciosas, porque la resistencia no se produce por rozamiento."
+      },
+      {
+        "q": "¿Qué estatura máxima admite una bicicleta plegable?",
+        "a": "Cada fabricante da su rango. La Domyos X-Bike 100 V2, por ejemplo, está pensada para estaturas de 1,45 a 1,78 m."
+      }
+    ]
+  },
   "black-friday-fitness-en-casa": {
     intro: "El Black Friday cae este año el viernes 27 de noviembre de 2026 y el Cyber Monday, el lunes 30. Para quien entrena en casa es un buen momento para hacer la compra grande que lleva meses posponiendo (una cinta, una bicicleta, unas mancuernas ajustables) o para reponer los suplementos que ya toma. También es el momento en que más fácil resulta comprar algo que acaba sin usarse. En esta guía no vas a encontrar porcentajes ni precios: cambian cada día y lo que cuenta es el que veas en Amazon al comprar. Lo que sí encontrarás es qué material merece la pena, qué datos revisar en cada ficha y qué compras conviene evitar.",
     quickPicks: [
