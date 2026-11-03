@@ -23,6 +23,7 @@ export const posts: Post[] = [
     date: "2026-12-14",
     category: "Entrenamiento",
     readTime: "8 min",
+    image: "/images/blog/entrenar-en-casa-enero-por-donde-empezar.jpg",
     relatedProducts: ["kimjaly-esterilla-yoga-suave-5mm","proiron-esterilla-nbr-10mm-lineas-alineacion","domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg","domyos-corength-kit-mancuernas-20kg-maletin","jupplies-mancuernas-15-niveles-24kg","domyos-bench-100-banco-musculacion-plegable","walkingpad-z1-cinta-andar-plegable","domyos-x-bike-100-v2-bicicleta-plegable"],
     relatedPosts: [
       "rutina-entrenamiento-casa-sin-equipamiento",
