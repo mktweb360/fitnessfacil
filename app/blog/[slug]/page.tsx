@@ -77,6 +77,155 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "entrenar-en-casa-enero-por-donde-empezar": {
+    "intro": "En enero mucha gente se apunta a entrenar en casa y en febrero el material está en un rincón. Casi nunca falla la motivación: falla que se compra demasiado, demasiado pronto o algo que no cabe ni se puede usar a las diez de la noche sin molestar. Esta guía ordena la compra por fases: primero lo mínimo para empezar, después fuerza y por último cardio, siempre con productos que ya tenemos en el catálogo y con la regla de no comprar el siguiente paso hasta haber usado el anterior durante unas semanas. Como referencia de cuánto moverse, la OMS recomienda a los adultos entre 150 y 300 minutos a la semana de actividad aeróbica de intensidad moderada y ejercicios de fortalecimiento muscular al menos dos días por semana.",
+    "quickPicks": [
+      {
+        "productSlug": "kimjaly-esterilla-yoga-suave-5mm",
+        "text": "Para empezar sin gastar de más: esterilla de 185 × 61 cm y 850 g, con líneas de alineación y correa de transporte."
+      },
+      {
+        "productSlug": "domyos-corength-kit-mancuernas-20kg-maletin",
+        "text": "Fuerza con poco espacio: dos mancuernas de disco con 12 discos de hierro fundido, 20 kg en total y maletín."
+      },
+      {
+        "productSlug": "walkingpad-z1-cinta-andar-plegable",
+        "text": "Cardio sin ruido para un piso: cinta de andar plegable de 1 a 6 km/h, menos de 45 dB según el fabricante y 23 kg."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Por qué se abandona en febrero y qué puedes hacer en la compra",
+        "body": "Los motivos más repetidos son tres: el material no cabe y hay que montarlo y desmontarlo cada vez, el ejercicio exige un horario que no tienes o el equipo es demasiado exigente para empezar. Se arreglan con decisiones de compra: elige material que puedas dejar a mano, que no necesite montaje y que admita ir de menos a más. Una esterilla y unas bandas que viven en un cajón ganan a una máquina grande que estorba en el salón."
+      },
+      {
+        "heading": "Tres preguntas antes de comprar nada",
+        "body": "Primera: cuánto espacio libre tienes de verdad, medido en suelo y en techo si piensas en dominadas. Segunda: a qué hora vas a entrenar, porque con vecinos debajo una cinta de correr o unas pesas que caen no sirven, y una cinta de andar o las bandas sí. Tercera: qué quieres que cambie, fuerza, resistencia o simplemente moverte más. Si no lo tienes claro, empieza por el nivel 1 y deja la decisión para dentro de un mes. Si llevas mucho tiempo sin hacer ejercicio o tienes alguna dolencia, consulta con tu médico antes de empezar."
+      },
+      {
+        "heading": "Nivel 1: esterilla y bandas, lo mínimo para empezar",
+        "body": "Con una esterilla y bandas elásticas puedes hacer una rutina completa de cuerpo entero, como la que explicamos en [la rutina de entrenamiento en casa sin equipamiento](/blog/rutina-entrenamiento-casa-sin-equipamiento). Entre las esterillas del catálogo, la Kimjaly de Decathlon mide 185 × 61 cm, tiene 5 mm de grosor y pesa 850 g; la PROIRON de caucho nitrilo tiene 10 mm y 183 × 66 cm, más cómoda si tienes las rodillas sensibles. Para las bandas, el lote de tres de Domyos trae resistencias de 10, 20 y 30 kg y el set de 4 de Fokky es de TPE sin látex, útil si el látex te da problemas. Si dudas entre tipos, lo explicamos en [la guía de bandas elásticas](/blog/bandas-elasticas-musculacion-guia).",
+        "productSlug": "kimjaly-esterilla-yoga-suave-5mm",
+        "productSlugs": [
+          "proiron-esterilla-nbr-10mm-lineas-alineacion",
+          "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg",
+          "fokky-bandas-elasticas-set-4-tpe"
+        ]
+      },
+      {
+        "heading": "Nivel 2: fuerza sin ocupar media habitación",
+        "body": "Cuando lleves unas semanas cumpliendo, la progresión llega con peso. El kit de mancuernas de Domyos suma 20 kg con discos de 1 y 2 kg: es fácil de guardar, aunque cambiar los discos lleva su tiempo. Las JUPPLIES de selector rápido van de 2 a 24 kg por unidad en 15 niveles y se ajustan en segundos; en [mancuernas ajustables o fijas](/blog/mancuernas-ajustables-vs-fijas) comparamos las dos opciones. Si añades un banco, el Domyos Bench 100 es plano, llega montado, mide 13 cm de alto plegado y soporta 200 kg entre usuario y cargas, según la ficha. Y la barra de dominadas de puerta de 105 cm necesita un marco de 60 a 90 cm de ancho y un muro de 5,5 a 15,5 cm de grosor: mídelo antes. Para elegir con cabeza, [el equipamiento mínimo para entrenar fuerza en casa](/blog/entrenamiento-fuerza-casa-equipamiento-minimo) ordena qué comprar primero.",
+        "productSlug": "domyos-corength-kit-mancuernas-20kg-maletin",
+        "productSlugs": [
+          "jupplies-mancuernas-15-niveles-24kg",
+          "domyos-bench-100-banco-musculacion-plegable",
+          "domyos-barra-dominadas-puerta-105cm"
+        ]
+      },
+      {
+        "heading": "Nivel 3: cardio en casa, cinta o bicicleta",
+        "body": "Es la compra que más espacio pide, así que va la última. Para caminar a diario, la WalkingPad Z1 se pliega 180°, va de 1 a 6 km/h y pesa 23 kg. Si quieres correr, la Domyos Run500 llega a 16 km/h con inclinación motorizada, pero pesa 58 kg y plegada mide 162 × 75 × 27 cm, así que necesita sitio y un suelo firme. En bicicleta, la Domyos X-Bike 100 V2 se pliega a 57 cm de largo y admite usuarios de 1,45 a 1,78 m según la ficha; la Domyos Essential no se pliega pero es la más sencilla de las bicicletas de Decathlon del catálogo. Para decidir con calma, mira [cinta de correr plegable para piso pequeño](/blog/cinta-correr-plegable-piso-pequeno) y [bicicleta estática plegable](/blog/bicicleta-estatica-plegable-como-elegir).",
+        "productSlug": "walkingpad-z1-cinta-andar-plegable",
+        "productSlugs": [
+          "domyos-run500-cinta-correr-plegable-compacta",
+          "domyos-x-bike-100-v2-bicicleta-plegable",
+          "domyos-essential-bicicleta-estatica"
+        ]
+      },
+      {
+        "heading": "Cómo repartir la compra a lo largo de enero",
+        "body": "Una pauta práctica es comprar el nivel 1 la primera semana, esperar tres o cuatro semanas con la rutina y solo entonces decidir si el siguiente paso es fuerza o cardio. Así no pagas por un material que acabarás sin usar, y si cambias de idea no tienes nada en el trastero. Si entrenas en pareja o en familia, compra primero lo que se pueda compartir, como mancuernas ajustables y bandas."
+      },
+      {
+        "heading": "Errores que se repiten cada enero",
+        "body": "Empezar con cinco días a la semana en lugar de tres, comprar una máquina sin medir el espacio plegado, elegir peso por lo que se ve bien en la foto en lugar de por la técnica y no dejar un día de descanso. Si notas que tu rendimiento baja y duermes peor, repasa [los síntomas de sobreentrenamiento](/blog/sobreentrenamiento-sintomas-como-recuperarte)."
+      }
+    ],
+    "comparisonHeading": "Qué comprar según tu espacio y tu objetivo",
+    "comparison": {
+      "headers": [
+        "Material",
+        "Espacio",
+        "Para qué sirve",
+        "Dato de la ficha"
+      ],
+      "rows": [
+        [
+          "Esterilla Kimjaly",
+          "Un rollo guardado en un armario",
+          "Suelo, estiramientos y core",
+          "185 × 61 cm, 5 mm, 850 g"
+        ],
+        [
+          "Bandas Domyos (lote de 3)",
+          "Cabe en un cajón",
+          "Fuerza de todo el cuerpo",
+          "10, 20 y 30 kg de resistencia"
+        ],
+        [
+          "Kit de mancuernas Domyos",
+          "Maletín en un rincón",
+          "Progresar en fuerza",
+          "20 kg en total, discos de 1 y 2 kg"
+        ],
+        [
+          "Banco Domyos Bench 100",
+          "Plegado, 13 cm de alto",
+          "Press y trabajo de brazo con apoyo",
+          "200 kg entre usuario y cargas"
+        ],
+        [
+          "Barra de puerta Domyos",
+          "Marco de puerta de 60 a 90 cm",
+          "Dominadas",
+          "Usuarios de hasta 130 kg"
+        ],
+        [
+          "WalkingPad Z1",
+          "Se guarda plegada, 23 kg",
+          "Caminar a diario",
+          "1-6 km/h, menos de 45 dB"
+        ],
+        [
+          "Domyos Run500",
+          "Plegada 162 × 75 × 27 cm, 58 kg",
+          "Correr en casa",
+          "Hasta 16 km/h, inclinación motorizada"
+        ],
+        [
+          "Domyos X-Bike 100 V2",
+          "57 cm de largo plegada",
+          "Cardio sentado y sin impacto",
+          "10 niveles de resistencia magnética"
+        ]
+      ]
+    },
+    "conclusion": "Si solo vas a comprar una cosa en enero, que sea el nivel 1: una esterilla y unas bandas. Si tras un mes sigues entrenando, escoge entre fuerza y cardio según tu espacio y tus horarios, y deja la máquina grande para el final. Antes de pagar, comprueba en cada ficha las medidas plegadas y el límite de peso del usuario, y mira si el producto está disponible el día que lo vayas a comprar.",
+    "sources": [
+      {
+        "label": "Organización Mundial de la Salud — Actividad física (nota descriptiva)",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/physical-activity"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué es lo mínimo que necesito para entrenar en casa?",
+        "a": "Una esterilla y unas bandas elásticas bastan para una rutina completa de cuerpo entero. Después puedes añadir mancuernas ajustables si quieres progresar en fuerza."
+      },
+      {
+        "q": "¿Cuánto ejercicio recomienda la OMS a un adulto?",
+        "a": "Entre 150 y 300 minutos semanales de actividad aeróbica moderada y fortalecimiento muscular al menos dos días a la semana. Si tienes dudas sobre tu estado de salud, consulta antes con tu médico."
+      },
+      {
+        "q": "¿Cinta de correr o bicicleta estática para un piso?",
+        "a": "La bicicleta suele ser más silenciosa y no impacta en las articulaciones; la cinta de andar plegable cabe bajo la cama o detrás de una puerta. Una cinta de correr grande exige sitio y un suelo que aguante su peso."
+      },
+      {
+        "q": "¿Cuándo es buen momento para comprar el material?",
+        "a": "Cuando sepas qué espacio tienes y cuándo vas a entrenar. Compra por fases y no el nivel siguiente hasta haber usado durante unas semanas el anterior."
+      }
+    ]
+  },
   "rack-o-multipower-casa-como-elegir": {
     "intro": "Un rack, una jaula de potencia y un multipower sirven para lo mismo, entrenar con barra y mucho peso en casa, pero no se usan igual. En el rack y en la jaula la barra va libre y tú controlas el movimiento; en el multipower, o máquina Smith, la barra sube y baja guiada por dos raíles y se bloquea con un giro de muñeca. Esta guía explica qué cambia entre ellos, cuánto espacio y cuánto techo necesitas, qué mirar para entrenar solo con seguridad y compara los seis modelos del catálogo. Si todavía no tienes banco, empieza por [la guía de bancos de pesas para casa](/blog/banco-de-pesas-casa-como-elegir).",
     "quickPicks": [
