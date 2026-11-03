@@ -2835,7 +2835,6 @@ export const products: Product[] = [
   },
   {
     slug: "domyos-initial-elliptical-300-eliptica-autoalimentada",
-    unavailable: "2026-10-26",
     name: "Domyos Initial Elliptical 300 Bicicleta Elíptica Autoalimentada",
     offers: [{ store: "decathlon", path: "bicicleta-eliptica-initial-elliptical-300-autoalimentada/_/R-p-329464", mc: "9016913" }],
     categorySlug: "elipticas",
