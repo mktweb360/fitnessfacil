@@ -77,6 +77,416 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "medir-intensidad-ejercicio-casa-sin-pulsometro": {
+    "intro": "Casi todas las recomendaciones de ejercicio hablan de intensidad moderada o vigorosa, y casi nadie en casa sabe qué significa eso en su salón. Sin pulsómetro ni gimnasio con monitor, se puede medir con dos herramientas que dan las propias autoridades sanitarias: el test del habla y una escala de esfuerzo de 0 a 10. Esta guía explica cómo usarlas, qué sensación corresponde a cada nivel y cómo convertir tus sesiones en minutos que cuentan para la recomendación de la OMS, que para adultos fija entre 150 y 300 minutos semanales de actividad aeróbica moderada, o entre 75 y 150 de vigorosa, o una combinación equivalente. Si tienes una enfermedad cardiaca, tomas medicación que afecta al pulso o llevas tiempo sin hacer ejercicio, consulta con tu médico antes de subir la intensidad.",
+    "sections": [
+      {
+        "heading": "Por qué importa la intensidad, no solo el tiempo",
+        "body": "Media hora de paseo tranquilo y media hora de carrera suave no son lo mismo para el cuerpo, y las guías lo reflejan: la OMS y los CDC estadounidenses cuentan un minuto de actividad vigorosa como equivalente a unos dos de actividad moderada. Por eso saber en qué nivel estás decide si una semana de ejercicio cumple o se queda corta. Hay un detalle que suele tranquilizar: la OMS eliminó en 2020 el requisito de que la actividad se acumulara en bloques de al menos diez minutos, así que cualquier minuto cuenta. Y para quien parte de cero, la propia guía insiste en empezar con poco y aumentar poco a poco la frecuencia, la intensidad y la duración."
+      },
+      {
+        "heading": "El test del habla: la regla que cabe en una frase",
+        "body": "Es la herramienta más simple y la describen igual los CDC y el NHS británico. En intensidad moderada puedes hablar pero no cantar la letra de una canción. En intensidad vigorosa no puedes decir más que unas pocas palabras sin parar a respirar. Para usarlo en casa, mientras caminas rápido en una cinta de andar o pedaleas, recita en voz alta una frase corta, como el principio de un poema o la lista de la compra. Si te sale con fluidez, estás por debajo de moderado; si la dices entera pero sin ganas de cantar, estás en moderado; si hay que trocearla, estás en vigoroso. Funciona mejor en ejercicios continuos de cardio que en series de fuerza, donde la respiración depende de la pausa entre repeticiones."
+      },
+      {
+        "heading": "La escala de esfuerzo de 0 a 10",
+        "body": "Los CDC proponen una escala en la que 0 es el esfuerzo de estar sentado y 10 es el esfuerzo máximo. Según su página, la intensidad moderada se sitúa en un 5 o 6 y la vigorosa empieza en un 7 u 8. Se pregunta uno a mitad de sesión: ¿en qué número estoy ahora? La escala tiene una ventaja sobre el pulso: refleja cómo vas hoy, con el sueño que traes, el calor de la habitación o los días acumulados de entreno. Si un trote que ayer era un 6 hoy te parece un 8, no es un fallo de la medición, es una señal para bajar el ritmo; si ese patrón se repite durante semanas, repasa [los síntomas de sobreentrenamiento](/blog/sobreentrenamiento-sintomas-como-recuperarte). Conviene practicarla un par de semanas hasta que tu 6 de hoy se parezca a tu 6 del mes que viene."
+      },
+      {
+        "heading": "Del esfuerzo a los minutos: cuánto cuenta cada sesión",
+        "body": "Con la equivalencia de uno a dos se puede hacer la cuenta sin hojas de cálculo. Cinco caminatas rápidas de 30 minutos suman 150 minutos moderados y cumplen el mínimo. Tres sesiones de 30 minutos de intensidad moderada más dos de 20 minutos vigorosas dan 90 minutos moderados más 40 vigorosos; como cada vigoroso vale por dos, son 90 más 80, es decir 170 minutos equivalentes, por encima de 150. Un [HIIT de principiante](/blog/hiit-en-casa-principiantes) con 15 minutos de trabajo vigoroso real, sin contar calentamiento ni descansos lentos, aporta el equivalente a 30 minutos moderados. La cuenta es orientativa, pero evita dos errores comunes: contar como vigoroso un ejercicio que en realidad es moderado y no contar los minutos de paseo rápido diario, que sumados a lo largo de la semana pesan más de lo que parece. Si lo tuyo es caminar, [entrenar caminando en casa](/blog/entrenar-caminando-casa-beneficios) explica cómo hacerlo con intensidad útil."
+      },
+      {
+        "heading": "Fuerza: dos días a la semana, también con criterio de intensidad",
+        "body": "La OMS pide fortalecimiento muscular al menos dos días a la semana, con intensidad moderada o mayor y trabajando todos los grandes grupos musculares. Los CDC dan una pauta de partida para casa: ocho a doce repeticiones de cada ejercicio, una serie, y ejemplos que no exigen máquinas: bandas elásticas, flexiones y sentadillas con el propio peso, posturas de yoga o pesas. Aquí la señal de intensidad es otra: si la serie de ocho a doce repeticiones sale sin esfuerzo, el peso es bajo; si no llegas a ocho con buena técnica, es alto. Cómo subir carga con método lo detallamos en [la progresión de cargas para principiantes](/blog/progresion-cargas-principiantes-peso-repeticiones-descanso), y puedes montar la semana con [la rutina de mancuernas en casa](/blog/rutina-mancuernas-casa-semana)."
+      },
+      {
+        "heading": "Cuando ayuda tener el ritmo controlado: el caso de la cinta de andar",
+        "body": "Si caminas en cinta, el mando fija un ritmo constante y es fácil relacionar la velocidad con tu número de esfuerzo. La WalkingPad Z1 del catálogo va de 1 a 6 km/h, pesa 23 kg y tiene un motor de menos de 45 dB según el fabricante, algo que importa en un piso. Prueba una velocidad durante cinco minutos y apunta dos datos: el número que le das de 0 a 10 y si pasas el test del habla. Con dos o tres sesiones tendrás una tabla personal: a tal velocidad, tal esfuerzo. Si buscas ese uso, mira también [la cinta de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio). Y recuerda: si notas dolor en el pecho, mareo o una falta de aire que no es normal para ti, para y consulta con un profesional sanitario.",
+        "productSlug": "walkingpad-z1-cinta-andar-plegable"
+      }
+    ],
+    "comparisonHeading": "Cómo se relacionan el esfuerzo, el habla y el recuento de minutos",
+    "comparison": {
+      "headers": [
+        "Escala 0 a 10",
+        "Test del habla",
+        "Ejemplo de la guía de los CDC",
+        "Cómo cuenta"
+      ],
+      "rows": [
+        [
+          "0",
+          "Hablas sin esfuerzo",
+          "Estar sentado",
+          "No suma como actividad"
+        ],
+        [
+          "5 a 6",
+          "Puedes hablar, no cantar",
+          "Caminar rápido o pedalear en llano",
+          "Minuto moderado: 1 minuto"
+        ],
+        [
+          "7 a 8",
+          "Solo unas pocas palabras seguidas",
+          "Correr o pedalear deprisa o en cuesta",
+          "Minuto vigoroso: vale por 2 moderados"
+        ],
+        [
+          "10",
+          "Esfuerzo máximo",
+          "Esfuerzo máximo según la escala",
+          "Se reserva para casos concretos y con control médico si hay dudas"
+        ]
+      ]
+    },
+    "conclusion": "Esta semana, elige una de tus sesiones habituales y al minuto diez hazte las dos preguntas: qué número de 0 a 10 le pongo y puedo cantar o solo hablar. Anota las respuestas durante dos semanas y suma los minutos con la equivalencia de uno a dos. Si te quedas por debajo de 150 minutos moderados equivalentes, añade diez minutos a las sesiones que ya haces antes de apuntarte a nada nuevo.",
+    "sources": [
+      {
+        "label": "OMS — Directrices sobre actividad física y comportamiento sedentario 2020 (Bull et al., British Journal of Sports Medicine; consultado el 4/11/2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+      },
+      {
+        "label": "CDC — Cómo medir la intensidad de la actividad física (consultado el 4/11/2026)",
+        "url": "https://www.cdc.gov/physical-activity-basics/measuring/index.html"
+      },
+      {
+        "label": "CDC — Qué cuenta como actividad física en adultos (consultado el 4/11/2026)",
+        "url": "https://www.cdc.gov/physical-activity-basics/adding-adults/what-counts.html"
+      },
+      {
+        "label": "NHS — Beneficios del ejercicio y cómo notar la intensidad (consultado el 4/11/2026)",
+        "url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Necesito un pulsómetro para saber si entreno a la intensidad correcta?",
+        "a": "No. El test del habla y la escala de esfuerzo de 0 a 10 que usan los CDC y el NHS permiten ubicarte sin aparatos. Un pulsómetro puede servir de apoyo, pero la sensación manda, sobre todo si tomas medicación que altera el pulso: en ese caso consulta con tu médico."
+      },
+      {
+        "q": "¿Cuántos minutos de ejercicio recomienda la OMS a un adulto?",
+        "a": "Entre 150 y 300 minutos semanales de actividad aeróbica moderada, o entre 75 y 150 de vigorosa, o una mezcla equivalente, más fortalecimiento muscular al menos dos días por semana."
+      },
+      {
+        "q": "¿Un minuto de HIIT vale por dos de caminata rápida?",
+        "a": "Como regla orientativa de la OMS y los CDC, un minuto de actividad vigorosa equivale a unos dos de moderada. Lo que cuenta es el tiempo en intensidad vigorosa, no la duración total de la sesión con descansos."
+      },
+      {
+        "q": "¿Tengo que acumular los minutos en bloques de diez?",
+        "a": "No. La OMS retiró ese requisito en sus directrices de 2020: toda actividad cuenta, incluso en tramos cortos."
+      }
+    ]
+  },
+  "calentamiento-vuelta-calma-entrenar-casa": {
+    "intro": "Cuando entrenas en casa y tienes veinte minutos libres, lo primero que se recorta es el calentamiento y la vuelta a la calma. Es comprensible, pero conviene saber qué se pierde. Harvard Health recomienda calentar entre cinco y diez minutos trabajando los grandes grupos musculares, y enfriar otros cinco a diez con movimientos lentos. El NHS británico ofrece incluso una rutina de vuelta a la calma de diez minutos pensada para todos los niveles. Aquí tienes cómo hacerlo sin material, cómo ajustarlo según vayas a hacer fuerza, HIIT, cardio en máquina o yoga, y qué errores se repiten cuando el tiempo aprieta. Si tienes una lesión o una dolencia, consulta con tu médico o fisioterapeuta qué movimientos te convienen.",
+    "sections": [
+      {
+        "heading": "Qué hace un calentamiento y qué no puedes pedirle",
+        "body": "Según Harvard Health, calentar aumenta el flujo de sangre a los músculos y sube poco a poco la frecuencia cardiaca y la respiración, y empezar con los músculos fríos puede llevar a lesiones. Conviene leerlo con cuidado: calentar reduce el riesgo, no lo elimina, y tampoco hace falta convertirlo en una sesión aparte. Su función práctica es otra que se nota enseguida: llegar a la primera serie con las articulaciones móviles y con la cabeza en el entrenamiento. Si notas una molestia que no desaparece al calentar, no es momento de entrenar esa zona."
+      },
+      {
+        "heading": "Un calentamiento de ocho minutos que sirve para casi todo",
+        "body": "Harvard propone empezar suave y subir la intensidad, con movimientos de cardio y de rango articular; una opción sencilla es caminar en el sitio moviendo los brazos. Con esa base se puede armar una secuencia dentro del rango de cinco a diez minutos: tres minutos de marcha en el sitio con balanceo de brazos, que suben de ritmo en el último minuto; tres minutos de movilidad articular con círculos de hombros, de cadera y de tobillos, rotaciones de tronco y bisagras de cadera con la espalda recta; y dos minutos con una versión ligera del primer ejercicio que vas a hacer, como sentadillas sin peso o flexiones inclinadas apoyando las manos en un sofá. Los tiempos son una propuesta práctica; lo que respaldan las fuentes es el rango total y la idea de trabajar todos los grandes grupos musculares."
+      },
+      {
+        "heading": "Según el entrenamiento: fuerza, HIIT, cardio y yoga",
+        "body": "Para fuerza, además del calentamiento general, es habitual hacer una o dos series de aproximación con poco peso del primer ejercicio, antes de la serie de trabajo; así la técnica se asienta con carga ligera. Si entrenas con [mancuernas](/blog/rutina-mancuernas-casa-semana), eso significa empezar con las más ligeras de tu juego. En un [HIIT](/blog/hiit-en-casa-principiantes), donde vas a pasar de golpe a esfuerzos altos, tiene sentido ir al extremo largo del rango, diez minutos, y terminar el calentamiento con una o dos progresiones cortas que se acerquen a la intensidad de los intervalos. En cardio con máquina, como una cinta de andar o una bicicleta, el propio ejercicio es el calentamiento: cinco minutos a un ritmo cómodo en el que puedas hablar sin esfuerzo. Para yoga o pilates basta con movilidad suave, como gato-vaca, círculos de columna y respiraciones amplias."
+      },
+      {
+        "heading": "La vuelta a la calma: cinco a diez minutos lentos",
+        "body": "Harvard aconseja dedicar entre cinco y diez minutos a enfriar con una secuencia de movimientos lentos, y explica que ayuda a bajar poco a poco la respiración y el pulso y a prevenir calambres y mareos. Tras una sesión de cardio, es tan fácil como pasar a caminar lento tres o cuatro minutos. Después de fuerza, camina por la habitación sacudiendo los brazos, respira hondo y reserva los últimos minutos para estirar. Pararte en seco y sentarte de golpe en el sofá es una de las formas más habituales de acabar mareado después de un esfuerzo fuerte."
+      },
+      {
+        "heading": "Estirar al final: cuánto mantener y cuándo",
+        "body": "La misma fuente recomienda estirar durante la vuelta a la calma y mantener cada estiramiento entre 10 y 30 segundos, sin rebotes y sin llegar al dolor. El NHS lo resume así: estirar después del ejercicio ayuda a enfriarse de forma gradual, a mejorar la flexibilidad y a prevenir lesiones. Escoge un estiramiento por cada grupo que hayas trabajado: cuádriceps, isquiotibiales, glúteos, pecho y espalda. En [la guía de estiramientos después del ejercicio](/blog/estiramientos-despues-ejercicio) hay una rutina completa. Sobre una esterilla de 185 × 61 cm, como la Kimjaly de 5 mm de grosor y 850 g que figura en la ficha, tienes sitio de sobra para las posturas tumbado, y si prefieres complementar con automasaje, el rodillo blando de 38 cm de Decathlon pesa 510 g y se guarda en cualquier armario; cómo usarlo lo explicamos en [la guía del foam roller](/blog/rodillo-espuma-foam-roller-como-usar).",
+        "productSlug": "kimjaly-esterilla-yoga-suave-5mm",
+        "productSlugs": [
+          "decathlon-foam-roller-rodillo-masaje-blando"
+        ]
+      },
+      {
+        "heading": "Si tienes poco espacio o poco tiempo",
+        "body": "En un salón pequeño, el calentamiento más práctico es el que no exige desplazarse: marcha en el sitio, círculos de brazos, bisagras de cadera y sentadillas sin peso caben en un metro cuadrado, y sin saltos no se oye en el piso de abajo. Si solo tienes veinte minutos, un reparto razonable son cinco de calentamiento, diez de parte principal y cinco de vuelta a la calma. Es preferible ese equilibrio a una sesión de quince minutos de trabajo seguidos sin transición. Y si entrenas por la mañana, antes de desayunar o recién levantado, dedica un par de minutos más a la movilidad, porque el cuerpo suele estar más rígido a primera hora."
+      },
+      {
+        "heading": "Cinco errores que se repiten cuando falta tiempo",
+        "body": "Estirar a fondo en frío, cuando lo que toca es empezar suave. Calentar con el mismo ejercicio pero con el peso de trabajo, sin series ligeras. Hacer un calentamiento eterno que te cansa antes de empezar: si pasa de diez minutos, recórtalo. Parar de golpe al acabar la última serie. Y saltarte la vuelta a la calma porque ya es tarde: si estás justo de tiempo, recorta la sesión principal cinco minutos antes que eliminar los dos extremos."
+      }
+    ],
+    "comparisonHeading": "Calentamiento y vuelta a la calma según el tipo de entrenamiento",
+    "comparison": {
+      "headers": [
+        "Entrenamiento",
+        "Calentamiento",
+        "Duración orientativa",
+        "Vuelta a la calma"
+      ],
+      "rows": [
+        [
+          "Fuerza con mancuernas o bandas",
+          "Marcha, movilidad y series ligeras del primer ejercicio",
+          "5 a 10 minutos",
+          "Caminar lento y estirar los grupos trabajados"
+        ],
+        [
+          "HIIT",
+          "Marcha, movilidad y progresiones cortas cercanas a los intervalos",
+          "Hacia los 10 minutos",
+          "Caminar lento hasta bajar el pulso y estirar"
+        ],
+        [
+          "Cardio en cinta o bicicleta",
+          "Los primeros minutos a ritmo cómodo",
+          "5 minutos",
+          "Reducir la velocidad poco a poco unos minutos"
+        ],
+        [
+          "Yoga o pilates",
+          "Movilidad suave y respiración",
+          "5 minutos",
+          "Postura final tumbado y estiramientos suaves"
+        ]
+      ]
+    },
+    "conclusion": "Prueba esta semana el esquema más corto posible: ocho minutos antes y cinco después de tu entrenamiento habitual, con el temporizador del móvil. Si el tiempo total te parece demasiado, recorta primero la parte principal y respeta los extremos. Y si tras calentar sigues notando dolor en una articulación, déjalo para otro día y consúltalo con un profesional sanitario.",
+    "sources": [
+      {
+        "label": "Harvard Health Publishing — Exercise 101: Don't skip the warm-up or cool-down (20/07/2020; consultado el 4/11/2026)",
+        "url": "https://www.health.harvard.edu/staying-healthy/exercise-101-dont-skip-the-warm-up-or-cool-down"
+      },
+      {
+        "label": "NHS — Body blast cool down, rutina de vuelta a la calma de 10 minutos (consultado el 4/11/2026)",
+        "url": "https://www.nhs.uk/live-well/exercise/strength-and-resistance/body-blast-cool-down/"
+      },
+      {
+        "label": "NHS — Beneficios del ejercicio y cómo notar la intensidad (consultado el 4/11/2026)",
+        "url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto debe durar un calentamiento antes de entrenar en casa?",
+        "a": "Harvard Health indica entre cinco y diez minutos, trabajando todos los grandes grupos musculares y empezando de forma suave. Cuanto más intenso sea el entrenamiento que sigue, más cerca del extremo largo del rango conviene quedarse."
+      },
+      {
+        "q": "¿Hay que estirar antes de entrenar?",
+        "a": "Las fuentes consultadas sitúan los estiramientos mantenidos en la vuelta a la calma, entre 10 y 30 segundos por postura. Antes del ejercicio es mejor la movilidad articular y los movimientos de rango suave."
+      },
+      {
+        "q": "¿Es obligatoria la vuelta a la calma si he hecho una sesión corta?",
+        "a": "No hay una regla que lo exija, pero Harvard y el NHS la recomiendan porque baja de forma gradual la respiración y el pulso y ayuda a evitar mareos y calambres. Con sesiones cortas bastan cinco minutos."
+      },
+      {
+        "q": "¿Qué hago si calentando noto dolor en una articulación?",
+        "a": "Detén ese ejercicio y no fuerces. Si el dolor persiste o se repite en varias sesiones, consúltalo con tu médico o fisioterapeuta antes de seguir entrenando esa zona."
+      }
+    ]
+  },
+  "rincon-entrenamiento-casa-poco-espacio-medidas-ruido": {
+    "intro": "Un rincón de entrenamiento no necesita una habitación libre: necesita un rectángulo de suelo bien medido, un par de objetos que se guarden rápido y un plan para no molestar al vecino de abajo. La clave es decidir primero el espacio y el horario, y solo después qué comprar. Esta guía parte de medidas reales de las fichas del catálogo para que puedas comprobar si tu salón, tu dormitorio o tu pasillo sirven, y reparte el material en tres niveles según el espacio que tengas. Como referencia de lo que necesitas para cumplir lo básico, los CDC citan como ejercicios de fortalecimiento válidos las bandas elásticas, los ejercicios con el propio peso, el yoga y las pesas, y la OMS pide trabajar la fuerza al menos dos días a la semana; ninguna de las dos fuentes exige una máquina.",
+    "sections": [
+      {
+        "heading": "Mide primero: el rectángulo mínimo y la altura libre",
+        "body": "Tumba una esterilla en el suelo, o usa cinta de carrocero, y marca el hueco. Las esterillas del catálogo miden entre 183 y 185 centímetros de largo y entre 61 y 66 de ancho, de modo que un rectángulo libre de unos 2,2 por 1,2 metros te da una esterilla entera y margen para los brazos abiertos. Es una propuesta práctica, no una norma: lo que importa es que puedas tumbarte, extender brazos y piernas y girar sin tocar muebles. Después mira hacia arriba. Si vas a hacer press sobre la cabeza con mancuernas, ponte de pie con los brazos estirados y comprueba que queda holgura hasta el techo o la lámpara. Y si el rincón está junto a una puerta, que abra sin chocar con tu material."
+      },
+      {
+        "heading": "El suelo: esterilla, grosor y protección",
+        "body": "La esterilla hace tres trabajos: amortigua el apoyo de rodillas y espalda, evita que resbales y reparte el peso sobre el suelo. La Kimjaly de Decathlon mide 185 × 61 cm, tiene 5 mm de grosor y pesa 850 g, con líneas de alineación y correa; la propia ficha avisa de que 5 mm pueden quedarse cortos si tienes las rodillas sensibles. La PROIRON de caucho nitrilo mide 183 × 66 cm y 10 mm, con bordes reforzados y textura antideslizante por las dos caras, aunque la ficha señala que es menos estable para posturas de equilibrio y que la vende y envía un vendedor externo. Si dudas entre materiales, [la comparativa de esterillas TPE y PVC](/blog/esterilla-tpe-vs-pvc-diferencias) y [la guía de la mejor esterilla de yoga](/blog/mejor-esterilla-yoga-casa-2025) explican las diferencias. Para parquet o tarima flotante, coloca la esterilla bajo cualquier peso que apoyes en el suelo y deja siempre el material pesado sobre ella.",
+        "productSlug": "kimjaly-esterilla-yoga-suave-5mm",
+        "productSlugs": [
+          "proiron-esterilla-nbr-10mm-lineas-alineacion"
+        ]
+      },
+      {
+        "heading": "Ruido y vecinos: dónde está el problema de verdad",
+        "body": "Lo que se oye abajo no es el ejercicio, son los impactos: saltos, pesas que se sueltan en el suelo, una cinta de correr con zancada fuerte. Por eso la primera regla es elegir ejercicios sin salto y bajar el peso con control en lugar de soltarlo. Con bandas, mancuernas bien controladas y movimientos de suelo el ruido es mínimo. Si piensas en cardio, una cinta de andar silenciosa encaja mejor que una de correr: la WalkingPad Z1 declara menos de 45 dB según el fabricante, mientras que las de correr necesitan [revisar sus medidas y su impacto en un piso pequeño](/blog/cinta-correr-plegable-piso-pequeno). Además, antes de fijar horarios, consulta los estatutos de tu comunidad y la ordenanza de tu ayuntamiento sobre ruidos, que varían de un sitio a otro, y valora avisar a los vecinos. Y entrena a una hora razonable: lo que pesa para ellos son las noches y los domingos por la mañana."
+      },
+      {
+        "heading": "Guardar sin montar: plegable, maletín y a la vista",
+        "body": "Un rincón se mantiene si recoger no cuesta más de un minuto. El banco Domyos Bench 100 llega montado, se despliega en 15 segundos y plegado mide 13 centímetros de alto, así que cabe bajo un sofá o tras una puerta; la ficha lo da para 200 kg entre usuario y carga y avisa de que es solo plano, sin inclinación ni soporte para barra. El kit de mancuernas de Domyos suma 20 kilos con 12 discos de hierro fundido y viene con maletín, lo que permite guardarlo cerrado en un armario; el contrapunto, según la ficha, es que cambiar los discos lleva más tiempo que en una mancuerna de selector. Para decidir con calma qué banco necesitas, está [la guía del banco de pesas para casa](/blog/banco-de-pesas-casa-como-elegir), y para elegir el tipo de peso, [los tipos de pesas para casa y gimnasio](/blog/tipos-de-pesas-cual-elegir-casa-gimnasio).",
+        "productSlug": "domyos-bench-100-banco-musculacion-plegable",
+        "productSlugs": [
+          "domyos-corength-kit-mancuernas-20kg-maletin"
+        ]
+      },
+      {
+        "heading": "Tres rincones según el espacio que tengas",
+        "body": "Rincón mínimo, para un pasillo o un dormitorio: una esterilla y bandas elásticas, con las que se puede hacer una rutina completa, como la de [entrenamiento sin equipamiento](/blog/rutina-entrenamiento-casa-sin-equipamiento). Rincón medio, para un salón: esterilla, mancuernas y un banco plegable, que se despliegan cuando entrenas y desaparecen después. Rincón amplio, para una habitación libre: añade una cinta o una bicicleta, pero solo si has medido el espacio plegado y has comprobado que el suelo aguanta el peso. Si estás empezando, el primer nivel basta durante unas semanas, y [el equipamiento mínimo para entrenar fuerza en casa](/blog/entrenamiento-fuerza-casa-equipamiento-minimo) te ayuda a ordenar lo siguiente."
+      },
+      {
+        "heading": "Seguridad: antes de colocar el primer peso",
+        "body": "Practica los movimientos sin carga y comprueba que no tocas nada. Deja el suelo despejado a los lados por si tienes que soltar el peso. Revisa la iluminación y evita entrenar en una zona de paso o donde los niños o las mascotas puedan cruzarse. Respeta siempre el límite de peso que dice la ficha de cada aparato. Si tienes una lesión, problemas de espalda o de rodillas, o llevas tiempo sin hacer ejercicio, consulta con tu médico o con un fisioterapeuta antes de empezar y empieza con cargas muy ligeras."
+      }
+    ],
+    "comparisonHeading": "Qué cabe en cada nivel de rincón",
+    "comparison": {
+      "headers": [
+        "Nivel",
+        "Material",
+        "Espacio libre orientativo",
+        "Dato de la ficha"
+      ],
+      "rows": [
+        [
+          "Mínimo",
+          "Esterilla y bandas elásticas",
+          "Unos 2,2 × 1,2 m, recogible en un cajón",
+          "Esterilla Kimjaly: 185 × 61 cm, 850 g"
+        ],
+        [
+          "Medio",
+          "Esterilla, kit de mancuernas y banco plegable",
+          "El mismo rectángulo más un hueco de 13 cm de altura para el banco plegado",
+          "Banco Domyos Bench 100: 13 cm plegado, 200 kg entre usuario y carga"
+        ],
+        [
+          "Medio con más almohadilla",
+          "Esterilla gruesa de 10 mm",
+          "El mismo rectángulo",
+          "PROIRON: 183 × 66 cm, 10 mm"
+        ],
+        [
+          "Amplio",
+          "Lo anterior más cardio plegable",
+          "Suelo firme y medidas plegadas comprobadas",
+          "WalkingPad Z1: 23 kg, menos de 45 dB según el fabricante"
+        ]
+      ]
+    },
+    "conclusion": "Antes de comprar nada, haz esta tarea de diez minutos: marca con cinta un rectángulo de 2,2 por 1,2 metros en el rincón candidato, tiéndete dentro, haz tres sentadillas y levanta los brazos. Si todo cabe, empieza por la esterilla y las bandas, y solo añade banco y mancuernas cuando lleves unas semanas cumpliendo. Si hay vecinos debajo, deja los saltos para otra ocasión y revisa las normas de tu comunidad.",
+    "sources": [
+      {
+        "label": "OMS — Directrices sobre actividad física y comportamiento sedentario 2020 (Bull et al., British Journal of Sports Medicine; consultado el 4/11/2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+      },
+      {
+        "label": "CDC — Qué cuenta como actividad física en adultos (consultado el 4/11/2026)",
+        "url": "https://www.cdc.gov/physical-activity-basics/adding-adults/what-counts.html"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto espacio mínimo hace falta para entrenar en casa?",
+        "a": "Para una rutina de suelo conviene un rectángulo libre algo mayor que una esterilla. Las del catálogo miden entre 183 y 185 cm de largo, así que unos 2,2 por 1,2 metros dan margen para tumbarse y mover brazos y piernas."
+      },
+      {
+        "q": "¿Se puede entrenar fuerza en casa sin hacer ruido?",
+        "a": "Sí, si evitas saltos y no sueltas las pesas. Las bandas elásticas, los ejercicios con el propio peso y las mancuernas bien controladas sobre una esterilla generan muy poco ruido de impacto."
+      },
+      {
+        "q": "¿Qué esterilla va mejor para un rincón pequeño?",
+        "a": "Una esterilla ligera y fácil de enrollar, de entre 5 y 10 mm según lo sensibles que tengas las rodillas. Las fichas del catálogo recogen grosor, largo y peso para comparar."
+      },
+      {
+        "q": "¿Necesito permiso de la comunidad para entrenar en casa?",
+        "a": "Depende de los estatutos de tu comunidad y de la ordenanza municipal sobre ruidos, que pueden fijar horarios o límites. Revisa ambos y, si tienes dudas, consulta con el administrador de fincas."
+      }
+    ]
+  },
+  "progresion-cargas-principiantes-peso-repeticiones-descanso": {
+    "intro": "Entrenar con peso sin una regla de progresión suele acabar en una de dos situaciones: te quedas meses con las mismas mancuernas porque nunca te atreves a subir, o subes tanto de golpe que la técnica se deshace. La guía del American College of Sports Medicine sobre progresión en entrenamiento de fuerza para adultos sanos ofrece una regla concreta, y vale la pena traducirla a lo que de verdad tienes en casa: unas mancuernas con discos, bandas o una kettlebell. Aquí tienes qué repeticiones, cuántas series, cuánto descanso y cuándo subir el peso, con un ejemplo con números. Si tienes alguna enfermedad, una lesión o llevas tiempo sin entrenar, consulta con tu médico antes de empezar.",
+    "sections": [
+      {
+        "heading": "Qué dicen las guías para empezar",
+        "body": "La OMS recomienda a los adultos fortalecimiento muscular al menos dos días por semana, con intensidad moderada o mayor y trabajando todos los grandes grupos. Los CDC dan una pauta de entrada de ocho a doce repeticiones por ejercicio, con una serie. El ACSM concreta algo más para principiantes: dos o tres días por semana con entrenamientos de cuerpo entero, cargas en torno al 60 y el 70 por ciento de la repetición máxima para entre ocho y doce repeticiones, y una a tres series por ejercicio, dando prioridad a los ejercicios que mueven varias articulaciones, como sentadillas, press y remos. Dicho en llano: pesos con los que puedas completar ocho a doce repeticiones con buena técnica, sin llegar al límite."
+      },
+      {
+        "heading": "Frecuencia y descanso entre sesiones",
+        "body": "El ACSM señala que dos o tres días por semana, alternos, son una frecuencia eficaz de partida en personas sin experiencia previa. En la práctica: lunes, miércoles y viernes con entrenamiento de cuerpo entero, o dos sesiones si la semana viene apretada. Si quieres una semana tipo, está en [la rutina de mancuernas en casa](/blog/rutina-mancuernas-casa-semana). Y presta atención a las señales de fatiga acumulada: [el artículo sobre sobreentrenamiento](/blog/sobreentrenamiento-sintomas-como-recuperarte) explica cuándo conviene bajar el ritmo."
+      },
+      {
+        "heading": "Descanso entre series: más largo de lo que parece",
+        "body": "El ACSM recomienda descansos de al menos dos o tres minutos entre series en los ejercicios principales con cargas más pesadas, como la sentadilla o el press de banca, y apunta que en ejercicios de asistencia, los que complementan a los principales, puede bastar entre uno y dos minutos. Muchos principiantes descansan treinta segundos para ahorrar tiempo y ven que en la tercera serie hacen cinco repeticiones en lugar de diez. Si el tiempo es limitado, es mejor hacer menos ejercicios con descansos adecuados que muchos con prisa. Un truco útil: aprovecha el descanso del ejercicio grande para hacer una movilidad o un estiramiento suave, sin que sea otro esfuerzo."
+      },
+      {
+        "heading": "La regla para subir peso: dos sesiones seguidas con repeticiones de sobra",
+        "body": "Aquí está el criterio más útil del documento: cuando puedas hacer la carga actual una o dos repeticiones por encima del número que te habías marcado en dos sesiones consecutivas, súbela entre un 2 y un 10 por ciento, con porcentajes más bajos en los ejercicios de músculos pequeños y más altos en los de músculos grandes. Un ejemplo: tu objetivo en la sentadilla goblet es diez repeticiones con 12 kg. Si en una sesión haces once o doce y en la siguiente también, toca subir. Un 10 por ciento de 12 kg son 1,2 kg: el salto real depende de lo que permita tu material. Si no llegas a las diez repeticiones, no subas; repite hasta que lo consigas."
+      },
+      {
+        "heading": "El problema del material: saltos de peso demasiado grandes",
+        "body": "La regla del 2 al 10 por ciento choca con la realidad de las pesas. El kit de mancuernas Domyos de 20 kg se ajusta de 2 en 2 kg según la ficha, con 12 discos de hierro fundido y maletín. En un ejercicio de brazos con 6 kg por mancuerna, dos kilos más es un 33 por ciento: demasiado. Ahí progresas primero en repeticiones, de ocho a doce, y solo después en peso, o añades una serie. Para piernas, donde las cargas son mayores, 2 kg sobre 14 es un 14 por ciento, más razonable. Si buscas una sola mancuerna que crezca con tu fuerza, el kit individual de Domyos va de 2 a 10 kg y admite discos de 28 mm hasta 30 kg por barra, aunque la ficha recuerda que para un par hay que comprar dos. Para ejercicios con bandas, el lote de tres de Domyos ofrece resistencias de 10, 20 y 30 kg según la ficha: los escalones son grandes, así que acércate a ellos con tempo lento, pausas o más repeticiones. Para valorar qué peso conviene en cada ejercicio, mira también [mancuernas ajustables o fijas](/blog/mancuernas-ajustables-vs-fijas).",
+        "productSlug": "domyos-corength-kit-mancuernas-20kg-maletin",
+        "productSlugs": [
+          "domyos-corength-kit-mancuerna-10kg",
+          "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg"
+        ]
+      },
+      {
+        "heading": "Un registro de cuatro columnas y un plan de ocho semanas",
+        "body": "Apunta en el móvil, para cada ejercicio, el peso, las series, las repeticiones y una nota de esfuerzo; para esa nota te sirve [la escala de 0 a 10 que explicamos en la guía de intensidad](/blog/medir-intensidad-ejercicio-casa-sin-pulsometro). Un esquema razonable para el primer mes y medio: semanas uno y dos, una serie por ejercicio con peso cómodo; semanas tres y cuatro, dos series; semanas cinco a ocho, hasta tres series y revisión del peso con la regla anterior. Cuando un ejercicio como las dominadas es el objetivo, [el plan de progresión de la primera dominada](/blog/primera-dominada-banda-asistencia-progresion) aplica la misma lógica con bandas. Si llegas a un estancamiento de varias semanas, revisa antes el sueño, el descanso y la técnica que el material."
+      }
+    ],
+    "comparisonHeading": "Resumen de la pauta para principiantes",
+    "comparison": {
+      "headers": [
+        "Variable",
+        "Pauta del ACSM o de las guías",
+        "Cómo aplicarlo en casa"
+      ],
+      "rows": [
+        [
+          "Frecuencia",
+          "2 o 3 días por semana, cuerpo entero (ACSM); al menos 2 (OMS)",
+          "Lunes, miércoles y viernes, o dos sesiones si la semana es corta"
+        ],
+        [
+          "Repeticiones",
+          "8 a 12 con cargas de alrededor del 60 al 70 % de la repetición máxima",
+          "Un peso que te deje 8 a 12 repeticiones con buena técnica"
+        ],
+        [
+          "Series",
+          "1 a 3 por ejercicio",
+          "Empieza con 1 y sube a 2 o 3 en las semanas siguientes"
+        ],
+        [
+          "Descanso",
+          "2 a 3 minutos en ejercicios principales; 1 a 2 en los de asistencia",
+          "Cronometra el descanso en la sentadilla y el press"
+        ],
+        [
+          "Subir peso",
+          "2 a 10 % tras 1 o 2 repeticiones de sobra en dos sesiones seguidas",
+          "Si el salto de tu material es mayor, sube antes las repeticiones"
+        ]
+      ]
+    },
+    "conclusion": "Elige tres ejercicios de cuerpo entero, fija un número objetivo de repeticiones entre ocho y doce y apunta tus resultados las próximas dos semanas. Cuando en dos sesiones seguidas te sobren una o dos repeticiones, sube el peso lo que permita tu material; si el salto es demasiado grande, sube antes las repeticiones. Revisa el progreso a las ocho semanas y, si tienes dudas sobre tu estado de salud, consúltalas antes con tu médico.",
+    "sources": [
+      {
+        "label": "ACSM — Progression models in resistance training for healthy adults, Medicine & Science in Sports & Exercise 2009;41(3):687-708 (consultado el 4/11/2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+      },
+      {
+        "label": "OMS — Directrices sobre actividad física y comportamiento sedentario 2020 (Bull et al., British Journal of Sports Medicine; consultado el 4/11/2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+      },
+      {
+        "label": "CDC — Qué cuenta como actividad física en adultos (consultado el 4/11/2026)",
+        "url": "https://www.cdc.gov/physical-activity-basics/adding-adults/what-counts.html"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuántas repeticiones debe hacer un principiante?",
+        "a": "El ACSM recomienda entre ocho y doce repeticiones con cargas de alrededor del 60 al 70 por ciento de la repetición máxima, y los CDC dan la misma horquilla de ocho a doce para empezar. Lo importante es terminar la serie con buena técnica."
+      },
+      {
+        "q": "¿Cuánto descanso necesito entre series?",
+        "a": "En los ejercicios principales con más carga, el ACSM recomienda al menos dos o tres minutos; en los complementarios, uno o dos pueden bastar. Descansar poco suele reducir las repeticiones de las series siguientes."
+      },
+      {
+        "q": "¿Cuándo toca subir el peso?",
+        "a": "Cuando puedas hacer el peso actual una o dos repeticiones por encima de tu objetivo en dos sesiones consecutivas. Entonces el ACSM sugiere subir entre un 2 y un 10 por ciento, según el tamaño del músculo."
+      },
+      {
+        "q": "¿Cuántos días a la semana debo entrenar fuerza al empezar?",
+        "a": "La OMS pide al menos dos días por semana, y el ACSM habla de dos o tres días no consecutivos en principiantes. Más días no son necesariamente mejores si no te recuperas."
+      }
+    ]
+  },
   "rack-o-multipower-casa-como-elegir": {
     "intro": "Un rack, una jaula de potencia y un multipower sirven para lo mismo, entrenar con barra y mucho peso en casa, pero no se usan igual. En el rack y en la jaula la barra va libre y tú controlas el movimiento; en el multipower, o máquina Smith, la barra sube y baja guiada por dos raíles y se bloquea con un giro de muñeca. Esta guía explica qué cambia entre ellos, cuánto espacio y cuánto techo necesitas, qué mirar para entrenar solo con seguridad y compara los seis modelos del catálogo. Si todavía no tienes banco, empieza por [la guía de bancos de pesas para casa](/blog/banco-de-pesas-casa-como-elegir).",
     "quickPicks": [
