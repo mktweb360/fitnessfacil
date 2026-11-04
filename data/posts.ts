@@ -16,6 +16,24 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "entrenar-en-casa-enero-por-donde-empezar",
+    title: "Empezar a entrenar en casa en enero: qué comprar primero y qué esperar",
+    seoTitle: "Entrenar en casa en enero: qué comprar primero",
+    excerpt: "Cómo empezar a entrenar en casa en enero sin gastar de más: material por fases, esterilla y bandas, fuerza, cardio y qué medir antes de comprar.",
+    date: "2026-11-04",
+    category: "Entrenamiento",
+    readTime: "8 min",
+    image: "/images/blog/entrenar-en-casa-enero-por-donde-empezar.jpg",
+    relatedProducts: ["kimjaly-esterilla-yoga-suave-5mm","proiron-esterilla-nbr-10mm-lineas-alineacion","domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg","domyos-corength-kit-mancuernas-20kg-maletin","jupplies-mancuernas-15-niveles-24kg","domyos-bench-100-banco-musculacion-plegable","walkingpad-z1-cinta-andar-plegable","domyos-x-bike-100-v2-bicicleta-plegable"],
+    relatedPosts: [
+      "rutina-entrenamiento-casa-sin-equipamiento",
+      "entrenamiento-fuerza-casa-equipamiento-minimo",
+      "bandas-elasticas-musculacion-guia",
+      "cinta-correr-plegable-piso-pequeno",
+    ],
+    categoryCta: { href: "/tienda/esterillas-yoga", text: "Ver esterillas y material para empezar →" },
+  },
+  {
     slug: "medir-intensidad-ejercicio-casa-sin-pulsometro",
     title: "Cómo medir la intensidad del ejercicio en casa sin pulsómetro: test del habla y escala de 0 a 10 (2026)",
     seoTitle: "Medir intensidad del ejercicio sin pulsómetro",
