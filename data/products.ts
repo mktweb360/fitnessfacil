@@ -231,7 +231,6 @@ export const products: Product[] = [
   // PESAS Y MANCUERNAS
   {
     slug: "lullax-neo36-mancuernas-ajustables",
-    unavailable: "2026-10-12",
     name: "LULLAX NEO36 Mancuernas Ajustables Par hasta 36kg con Base",
     asin: "B0B34VV7JJ",
     image: "/images/products/lullax-neo36-mancuernas-ajustables.jpg",
