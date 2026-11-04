@@ -23,6 +23,7 @@ export const posts: Post[] = [
     date: "2026-10-27",
     category: "Fuerza",
     readTime: "9 min",
+    image: "/images/blog/rack-o-multipower-casa-como-elegir.jpg",
     relatedProducts: ["yaheetech-soporte-sentadillas-250kg","k-sport-soporte-sentadillas-ajustable-250kg","sportnow-jaula-potencia-460kg","ultrasport-power-rack-jalon-polea","powerline-psm144x-maquina-smith-multipower","marcy-md-9010g-maquina-smith-poleas"],
     relatedPosts: [
       "banco-de-pesas-casa-como-elegir",
@@ -40,6 +41,7 @@ export const posts: Post[] = [
     date: "2026-10-27",
     category: "Cardio",
     readTime: "8 min",
+    image: "/images/blog/bicicleta-estatica-plegable-como-elegir.jpg",
     relatedProducts: [
       "vannect-bicicleta-estatica-plegable-16-niveles",
       "merach-bicicleta-plegable-resistencia-magnetica",
@@ -66,6 +68,7 @@ export const posts: Post[] = [
     date: "2026-10-13",
     category: "Guías de compra",
     readTime: "8 min",
+    image: "/images/blog/black-friday-fitness-en-casa.jpg",
     isSupplement: true,
     relatedProducts: [
       "toputure-cinta-correr-plegable-12-inclinacion-16kmh",
@@ -98,6 +101,7 @@ export const posts: Post[] = [
     date: "2026-10-13",
     category: "Guías de compra",
     readTime: "8 min",
+    image: "/images/blog/regalos-fitness-navidad.jpg",
     relatedProducts: [
       "acupoint-pelotas-masaje-miofascial-set-2",
       "portentum-gomas-set-10-anclaje-puerta",
@@ -936,6 +940,7 @@ export const posts: Post[] = [
     date: "2026-10-19",
     category: "Cardio",
     readTime: "12 min",
+    image: "/images/blog/maquina-de-remo-casa-como-elegir.jpg",
     relatedProducts: [
       "merach-q1s-maquina-remo-magnetica-16-niveles-app",
       "concept2-remo-indoor-model-d-pm5",
@@ -1008,6 +1013,7 @@ export const posts: Post[] = [
     date: "2026-09-02",
     category: "Fuerza",
     readTime: "9 min",
+    image: "/images/blog/primera-dominada-banda-asistencia-progresion.jpg",
     relatedProducts: [
       "pullup-dip-banda-resistencia-elastica-media",
       "pullup-dip-banda-resistencia-elastica-ligera",
@@ -1030,6 +1036,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     category: "Nutrición",
     readTime: "10 min",
+    image: "/images/blog/suplementos-recuperacion-muscular-magnesio-omega3-bcaa.jpg",
     isSupplement: true,
     relatedProducts: [
       "hsn-evozma-magnesio-zinc-b6-120caps",
@@ -1052,6 +1059,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     category: "Fuerza",
     readTime: "8 min",
+    image: "/images/blog/mobiclinic-extenfit-mancuernas-analisis.jpg",
     relatedProducts: [
       "mobiclinic-extenfit-mancuernas-2en1",
       "yaheetech-kit-mancuernas-16-discos",
@@ -1073,6 +1081,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     category: "Nutrición",
     readTime: "8 min",
+    image: "/images/blog/proteina-soja-vegana-hsn-analisis.jpg",
     isSupplement: true,
     relatedProducts: [
       "hsn-proteina-soja-vegana-2kg",
@@ -1095,6 +1104,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     category: "Cardio",
     readTime: "7 min",
+    image: "/images/blog/toputure-bicicleta-respaldo-analisis.jpg",
     relatedProducts: [
       "toputure-bicicleta-5en1-respaldo",
       "merach-bicicleta-plegable-resistencia-magnetica",
@@ -1116,6 +1126,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     category: "Entrenamiento",
     readTime: "7 min",
+    image: "/images/blog/portentum-bandas-anclaje-puerta-analisis.jpg",
     relatedProducts: [
       "portentum-gomas-set-10-anclaje-puerta",
       "fokky-gomas-elasticas-set-5-latex",
@@ -1137,6 +1148,7 @@ export const posts: Post[] = [
     date: "2026-09-13",
     category: "Entrenamiento",
     readTime: "9 min",
+    image: "/images/blog/sobreentrenamiento-sintomas-como-recuperarte.jpg",
     relatedProducts: [
       "hsn-evozma-magnesio-zinc-b6-120caps",
       "amix-super-omega-3-90-capsulas",
@@ -1181,6 +1193,7 @@ export const posts: Post[] = [
     date: "2026-10-11",
     category: "Nutrición",
     readTime: "9 min",
+    image: "/images/blog/cuanta-proteina-al-dia-segun-objetivo.jpg",
     isSupplement: true,
     relatedProducts: [
       "hsn-evowhey-protein-2kg",
@@ -1204,6 +1217,7 @@ export const posts: Post[] = [
     date: "2026-10-12",
     category: "Fuerza",
     readTime: "8 min",
+    image: "/images/blog/tipos-de-pesas-cual-elegir-casa-gimnasio.jpg",
     relatedProducts: [
       "yaheetech-kit-mancuernas-16-discos",
       "amazonbasics-mancuernas-hexagonales-10kg",
@@ -1226,6 +1240,7 @@ export const posts: Post[] = [
     date: "2026-10-18",
     category: "Fuerza",
     readTime: "9 min",
+    image: "/images/blog/banco-de-pesas-casa-como-elegir.jpg",
     relatedProducts: [
       "flybird-banco-pesas-ajustable-plegable-363kg",
       "yoleo-banco-pesas-plegable-7-posiciones",
