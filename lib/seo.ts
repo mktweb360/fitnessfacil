@@ -47,3 +47,15 @@ export function productTitleUnique(
   const corto = productTitle(base, suffix, max - propio.length - 1).slice(0, -(suffix.length + 2));
   return `${corto} ${propio}: ${suffix}`;
 }
+
+/** Descripción larga apta para mostrar: quita notas internas, frases de gestión del catálogo y afirmaciones comerciales sin verificar (precio, «más vendido»). */
+export function publicDescription(text?: string): string {
+  if (!text) return "";
+  const limpio = text.replace(/^Verificado en vivo[^)]*no se muestra\)\.\s*/, "").trim();
+  if (/^Nota de catálogo/i.test(limpio)) return "";
+  return limpio
+    .split(/(?<=\.)\s+/)
+    .filter((f) => !/catálogo|ASIN|verificad[oa]|[Ss]ustituye|[Ss]e sustituye|precio|más vendid|líder|referencia del mercado|reseñ|valoracion|★|estrellas|\d,\d\/5/.test(f))
+    .join(" ")
+    .trim();
+}
