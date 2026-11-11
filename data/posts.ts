@@ -20,6 +20,7 @@ export const posts: Post[] = [
     title: "Piernas y glúteos en casa con mancuernas y bandas: 5 ejercicios y plan de 6 semanas",
     seoTitle: "Piernas y glúteos en casa: mancuernas y bandas",
     excerpt: "Cinco ejercicios de piernas y glúteos con mancuernas y bandas, técnica según fuentes del NHS y plan de seis semanas con dos sesiones por semana.",
+    image: "/images/blog/piernas-gluteos-casa-mancuernas-bandas.jpg",
     date: "2026-11-11",
     category: "Entrenamiento",
     readTime: "9 min",
