@@ -24,7 +24,7 @@ export const posts: Post[] = [
     date: "2026-11-11",
     category: "Entrenamiento",
     readTime: "9 min",
-    relatedProducts: ["domyos-corength-kit-mancuernas-20kg-maletin", "jupplies-mancuernas-15-niveles-24kg", "domyos-corength-kettlebell-12kg", "corength-pack-3-bandas-elasticas-textiles-gluteos", "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg", "domyos-bench-100-banco-musculacion-plegable"],
+    relatedProducts: ["domyos-corength-kit-mancuernas-20kg-maletin", "jupplies-mancuernas-15-niveles-24kg", "domyos-corength-kettlebell-12kg", "corength-pack-3-bandas-elasticas-textiles-gluteos", "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg", "domyos-bench-100-banco-musculacion-plegable", "amazon-basics-tobilleras-ajustables-1-13kg"],
     relatedPosts: ["rutina-mancuernas-casa-semana", "progresion-cargas-principiantes-peso-repeticiones-descanso", "calentamiento-vuelta-calma-entrenar-casa", "bandas-elasticas-musculacion-guia"],
     categoryCta: {"href": "/tienda/pesas-mancuernas", "text": "Ver pesas y mancuernas →"},
   },
