@@ -96,7 +96,14 @@ export default async function ProductPage({ params }: Props) {
     { q: `¿Qué inconvenientes tiene ${product.name}?`, a: product.cons.length ? `${product.cons.join(". ")}.` : "Consulta la ficha del fabricante." },
     { q: "¿Con qué otros productos se puede comparar?", a: related.length ? `En la categoría ${cat?.name ?? ""} tienes también ${related.map((r) => r.name).join(", ")}; más abajo los comparamos.` : "Consulta el resto de la categoría." },
   ];
-  const faqs = [...faqsProducto, ...(categoryFaqs[categoria] ?? [])];
+  // De las FAQ de la categoría se muestran dos, distintas según el producto, para que las fichas hermanas no repitan el mismo bloque.
+  const faqsCategoria = categoryFaqs[categoria] ?? [];
+  const hash = [...product.slug].reduce((a, c) => a + c.charCodeAt(0), 0);
+  const n = faqsCategoria.length;
+  const faqsCategoriaElegidas = n > 2
+    ? [faqsCategoria[hash % n], faqsCategoria[((hash % n) + 1 + (Math.floor(hash / n) % (n - 1))) % n]]
+    : faqsCategoria;
+  const faqs = [...faqsProducto, ...faqsCategoriaElegidas];
   const link = offerUrl(mainOffer);
   const storeName = STORE_NAME[mainOffer.store];
   const topSpecs = Object.entries(product.specs).slice(0, 4);
