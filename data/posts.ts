@@ -16,6 +16,18 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "piernas-gluteos-casa-mancuernas-bandas",
+    title: "Piernas y glúteos en casa con mancuernas y bandas: 5 ejercicios y plan de 6 semanas",
+    seoTitle: "Piernas y glúteos en casa: mancuernas y bandas",
+    excerpt: "Cinco ejercicios de piernas y glúteos con mancuernas y bandas, técnica según fuentes del NHS y plan de seis semanas con dos sesiones por semana.",
+    date: "2026-11-11",
+    category: "Entrenamiento",
+    readTime: "9 min",
+    relatedProducts: ["domyos-corength-kit-mancuernas-20kg-maletin", "jupplies-mancuernas-15-niveles-24kg", "domyos-corength-kettlebell-12kg", "corength-pack-3-bandas-elasticas-textiles-gluteos", "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg", "domyos-bench-100-banco-musculacion-plegable"],
+    relatedPosts: ["rutina-mancuernas-casa-semana", "progresion-cargas-principiantes-peso-repeticiones-descanso", "calentamiento-vuelta-calma-entrenar-casa", "bandas-elasticas-musculacion-guia"],
+    categoryCta: {"href": "/tienda/pesas-mancuernas", "text": "Ver pesas y mancuernas →"},
+  },
+  {
     slug: "entrenar-en-casa-enero-por-donde-empezar",
     title: "Empezar a entrenar en casa en enero: qué comprar primero y qué esperar",
     seoTitle: "Entrenar en casa en enero: qué comprar primero",

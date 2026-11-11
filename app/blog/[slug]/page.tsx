@@ -77,6 +77,186 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "piernas-gluteos-casa-mancuernas-bandas": {
+      "intro": "Las piernas y los glúteos concentran los músculos más grandes del cuerpo y, aun así, son lo que más se descuida cuando se entrena en casa con unas mancuernas ligeras. La OMS pide fortalecimiento muscular al menos dos días por semana y los CDC incluyen expresamente piernas y caderas entre los grupos que hay que trabajar. Esta guía recoge cinco movimientos que cubren el tren inferior con material básico, explica en qué se fija la técnica según material clínico de hospitales públicos del Reino Unido, qué papel tiene cada banda o mancuerna y propone un plan de seis semanas con dos sesiones por semana que puedes ajustar a tu nivel.",
+      "quickPicks": [
+          {
+              "productSlug": "domyos-corength-kit-mancuernas-20kg-maletin",
+              "text": "Para cargar sentadillas y peso muerto rumano: dos mancuernas de disco de 28 mm, 20 kg en total, ajustables de 2 en 2 kg."
+          },
+          {
+              "productSlug": "corength-pack-3-bandas-elasticas-textiles-gluteos",
+              "text": "Para glúteo medio y caminatas laterales: tres bandas cortas de tela de 10, 14 y 22 kg, antideslizantes."
+          },
+          {
+              "productSlug": "domyos-corength-kettlebell-12kg",
+              "text": "Para la sentadilla goblet: pesa rusa de 12 kg con asa de 36 mm y base de goma."
+          }
+      ],
+      "sections": [
+          {
+              "heading": "Qué músculos trabajas y por qué no basta con caminar",
+              "body": "El tren inferior reúne cuádriceps, glúteos, isquiotibiales y gemelos. Caminar o pedalear los activa, pero no los carga lo suficiente como para sustituir al trabajo de fuerza: la OMS recomienda actividades de fortalecimiento muscular de intensidad moderada o mayor que trabajen todos los grandes grupos musculares al menos dos días por semana, y los CDC citan las piernas y las caderas en esa lista. Si ya sigues [la rutina de mancuernas de cuatro días](/blog/rutina-mancuernas-casa-semana), esta guía amplía el día de piernas; si empiezas de cero, es un buen punto de partida porque los movimientos son sencillos y escalables."
+          },
+          {
+              "heading": "Calentamiento y condiciones previas",
+              "body": "Antes de cargar, dedica cinco minutos a movilizar caderas, rodillas y tobillos y a hacer una serie ligera del primer ejercicio; en [esta guía de calentamiento y vuelta a la calma](/blog/calentamiento-vuelta-calma-entrenar-casa) tienes una secuencia completa. Los folletos de fisioterapia que hemos consultado advierten, con razón, de que no todos los ejercicios son adecuados para todas las personas: si tienes dolor de rodilla, de cadera o de espalda, o una lesión reciente, consulta antes con tu médico o fisioterapeuta."
+          },
+          {
+              "heading": "Sentadilla goblet y sentadilla a silla: la base",
+              "body": "Los materiales de fisioterapia del Wrightington Hospital (NHS) describen la sentadilla con los pies algo más separados que la anchura de la cadera, las puntas hacia delante o giradas unos pocos grados hacia fuera, y empujando la pelvis hacia atrás como si te fueras a sentar. En la versión con peso, el folleto indica sujetar la carga a la altura del pecho y mantener la columna neutra mientras bajas, sin dejar que la espalda se redondee. Esa es la sentadilla goblet: una mancuerna o una kettlebell pegada al pecho. Si te cuesta controlar la bajada, empieza con la variante a silla, que el RNOH (hospital ortopédico de Londres) describe como levantarse con control y con las rodillas alineadas sobre el dedo gordo del pie. Repite despacio y sin rebotar abajo.",
+              "productSlug": "domyos-corength-kettlebell-12kg",
+              "productSlugs": [
+                  "domyos-corength-kit-mancuernas-20kg-maletin"
+              ]
+          },
+          {
+              "heading": "Peso muerto rumano: isquiotibiales y glúteo mayor",
+              "body": "Es una bisagra de cadera: con una mancuerna en cada mano, las rodillas ligeramente flexionadas y la espalda recta, llevas la cadera hacia atrás hasta notar tensión en la parte posterior del muslo y vuelves empujando la cadera hacia delante. La carga se mantiene pegada a las piernas y el rango lo marca la movilidad de tus isquiotibiales, no la profundidad a toda costa. Es el ejercicio donde antes se queda corto un par de mancuernas ligeras, porque los isquiotibiales y los glúteos tienen mucha fuerza: ahí se nota tener un kit con discos o unas mancuernas de selector para subir peso poco a poco.",
+              "productSlug": "jupplies-mancuernas-15-niveles-24kg",
+              "productSlugs": [
+                  "domyos-corength-kit-mancuernas-20kg-maletin"
+              ]
+          },
+          {
+              "heading": "Zancada estática: una pierna cada vez",
+              "body": "El RNOH describe la zancada estática como dar un paso largo hacia delante y flexionar las dos rodillas, bajando hacia el suelo. Trabajar una pierna cada vez corrige diferencias entre un lado y otro y obliga a estabilizar la cadera. Empieza sin peso, con una mano en una pared o una silla si pierdes el equilibrio, y añade mancuernas cuando completes las repeticiones con control. Mantén el tronco erguido y la rodilla delantera alineada con el pie."
+          },
+          {
+              "heading": "Puente de glúteo y caminata lateral con banda",
+              "body": "El puente de glúteo (hip lift en los folletos del Wrightington) y la caminata de glúteo con banda figuran entre los ejercicios del nivel 2 de su programa de rodilla. Para el puente basta con tumbarte boca arriba, pies en el suelo y elevar la cadera sin arquear la zona lumbar; con una mancuerna sobre la pelvis o con la espalda apoyada en un banco plano se carga más. En la caminata lateral, la banda corta va sobre las rodillas o los tobillos y das pasos laterales manteniendo la tensión. Las bandas de tela no se enrollan al deslizarse, algo que agradeces en este ejercicio.",
+              "productSlug": "corength-pack-3-bandas-elasticas-textiles-gluteos",
+              "productSlugs": [
+                  "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg",
+                  "domyos-bench-100-banco-musculacion-plegable"
+              ]
+          },
+          {
+              "heading": "Cómo elegir entre bandas cortas, bandas largas y mancuernas",
+              "body": "Las bandas cortas de tela son cómodas para glúteo medio y caminatas laterales; las largas de látex, como las de 10, 20 y 30 kg de Domyos, permiten sentadillas con resistencia, peso muerto con banda pisada o remos, pero no tienen asas. Las resistencias que indican los fabricantes son orientativas: la tensión real cambia con lo que estires la banda, por eso conviene probar en casa y mirar [la guía de bandas elásticas](/blog/bandas-elasticas-musculacion-guia). Las mancuernas, en cambio, dan una carga constante y fácil de medir, que es lo que permite aplicar la progresión de [esta guía de progresión de cargas](/blog/progresion-cargas-principiantes-peso-repeticiones-descanso). Si dudas entre fijas y ajustables, mira [mancuernas ajustables: si merecen la pena](/blog/mancuernas-ajustables-merece-pena)."
+          },
+          {
+              "heading": "Cuántas series, repeticiones y descanso",
+              "body": "El ACSM (2009) propone para principiantes de ocho a doce repeticiones por serie con cargas moderadas y al menos dos o tres minutos de descanso en los ejercicios principales, que aquí serían la sentadilla y el peso muerto rumano; en los complementarios, como la caminata lateral, pueden bastar uno o dos minutos. Es un punto de partida, no una norma rígida: lo importante es terminar cada serie con buena técnica. Para subir peso, aplica la regla de la guía de progresión: cuando te sobren una o dos repeticiones en dos sesiones seguidas, sube carga o, si el salto de tu material es grande, sube antes las repeticiones."
+          },
+          {
+              "heading": "Errores que más se repiten",
+              "body": "Bajar demasiado rápido y rebotar abajo, dejar que las rodillas se vayan hacia dentro en lugar de alinearlas con el dedo gordo del pie, redondear la espalda al cargar peso, usar una banda con el látex agrietado y subir peso antes de dominar la técnica. Tampoco conviene encadenar dos sesiones de piernas en días consecutivos: con dos sesiones semanales separadas por al menos un día, cumples el mínimo de la OMS y recuperas entre ambas."
+          }
+      ],
+      "comparisonHeading": "Qué aporta cada material al entrenamiento de piernas",
+      "comparison": {
+          "headers": [
+              "Material",
+              "Para qué sirve",
+              "Limitación a tener en cuenta"
+          ],
+          "rows": [
+              [
+                  "Bandas cortas de tela (10, 14 y 22 kg)",
+                  "Caminatas laterales, puente de glúteo y sentadilla con banda sobre las rodillas",
+                  "Solo tren inferior; contienen látex"
+              ],
+              [
+                  "Bandas largas de látex (10, 20 y 30 kg)",
+                  "Sentadilla y peso muerto con resistencia, y también tren superior",
+                  "Sin asas; contienen látex"
+              ],
+              [
+                  "Kit de mancuernas de disco (20 kg en total)",
+                  "Sentadilla goblet, peso muerto rumano y zancadas",
+                  "Cambiar los discos lleva tiempo y 20 kg se quedan cortos con experiencia"
+              ],
+              [
+                  "Mancuernas de selector (2 a 24 kg por unidad)",
+                  "Cambiar de peso entre ejercicios en segundos",
+                  "Mayor inversión que un kit de discos"
+              ],
+              [
+                  "Kettlebell de 12 kg",
+                  "Sentadilla goblet y balanceos",
+                  "Peso fijo; mejor sobre esterilla"
+              ],
+              [
+                  "Banco plano plegable",
+                  "Apoyo para el puente de glúteo con la espalda elevada",
+                  "No se inclina y no tiene soporte para barra"
+              ]
+          ]
+      },
+      "plan": [
+          {
+              "week": "Semanas 1-2: aprender los movimientos",
+              "description": "Dos sesiones por semana separadas por al menos un día, con un peso que te deje dos repeticiones de margen. Propuesta de esta web basada en las referencias de arriba.",
+              "sessions": [
+                  "Sesión A: sentadilla goblet 2×10, peso muerto rumano 2×10, puente de glúteo 2×12",
+                  "Sesión B: zancada estática 2×8 por pierna, sentadilla a silla 2×10, caminata lateral con banda 2×10 pasos por lado",
+                  "Descanso entre series: 2 minutos en sentadilla y peso muerto; 1 minuto en los demás"
+              ]
+          },
+          {
+              "week": "Semanas 3-4: más volumen",
+              "description": "Añade una serie a cada ejercicio manteniendo la técnica.",
+              "sessions": [
+                  "Sesión A: sentadilla goblet 3×10, peso muerto rumano 3×10, puente de glúteo 3×12",
+                  "Sesión B: zancada estática 3×8 por pierna, sentadilla a silla 3×10, caminata lateral con banda 3×10 pasos por lado"
+              ]
+          },
+          {
+              "week": "Semanas 5-6: subir carga",
+              "description": "Aplica la regla de progresión: sube el peso o la resistencia cuando te sobren una o dos repeticiones en dos sesiones seguidas.",
+              "sessions": [
+                  "Sesión A: igual que semanas 3-4 con más peso en la sentadilla y el peso muerto",
+                  "Sesión B: igual que semanas 3-4; pasa a una banda más dura o añade mancuernas en la zancada"
+              ]
+          }
+      ],
+      "conclusion": "Empieza con dos sesiones por semana, elige un solo material y aprende bien la sentadilla y la bisagra de cadera antes de añadir peso. Apunta qué haces cada día y revisa a las seis semanas si puedes subir carga siguiendo la regla de progresión. Si notas dolor al cargar la rodilla o la cadera, para y consulta con un profesional sanitario antes de seguir.",
+      "sources": [
+          {
+              "label": "Wrightington, Wigan and Leigh NHS Foundation Trust — Knee Exercises Level 2, folleto de fisioterapia, versión 2, diciembre de 2023 (consultado el 11/11/2026)",
+              "url": "https://wwl.nhs.uk/media/.leaflets/65783270d55bc9.24254424.pdf"
+          },
+          {
+              "label": "Wrightington, Wigan and Leigh NHS Foundation Trust — Knee Exercises Level 3, folleto de fisioterapia (consultado el 11/11/2026)",
+              "url": "https://wwl.nhs.uk/leaflets/download/wwl-61e134c85ab258.71469371"
+          },
+          {
+              "label": "Royal National Orthopaedic Hospital NHS Trust — Functional Fitness Exercise Pack (página actualizada el 16/07/2025; consultado el 11/11/2026)",
+              "url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/functional-fitness-exercise-pack"
+          },
+          {
+              "label": "ACSM — Progression models in resistance training for healthy adults, Medicine & Science in Sports & Exercise 2009;41(3):687-708 (consultado el 4/11/2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+          },
+          {
+              "label": "OMS — Directrices sobre actividad física y comportamiento sedentario 2020 (Bull et al., British Journal of Sports Medicine; consultado el 4/11/2026)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
+          },
+          {
+              "label": "CDC — Qué cuenta como actividad física en adultos (consultado el 4/11/2026)",
+              "url": "https://www.cdc.gov/physical-activity-basics/adding-adults/what-counts.html"
+          }
+      ],
+      "faqs": [
+          {
+              "q": "¿Cuántos días a la semana debo entrenar piernas?",
+              "a": "La OMS pide fortalecimiento muscular al menos dos días por semana con trabajo de los grandes grupos musculares. Dos sesiones de piernas separadas por uno o más días de descanso cumplen ese mínimo y permiten recuperar."
+          },
+          {
+              "q": "¿Puedo trabajar glúteos y piernas solo con bandas?",
+              "a": "Sí, sobre todo para empezar: caminatas laterales, puentes de glúteo y sentadillas con banda. Con el tiempo, la carga constante de unas mancuernas facilita medir y aplicar la progresión."
+          },
+          {
+              "q": "¿Qué hago si siento dolor de rodilla al sentarme en la sentadilla?",
+              "a": "Reduce el recorrido, usa la variante a silla y comprueba que las rodillas siguen la línea del dedo gordo del pie. Si el dolor persiste, para y consulta con tu médico o fisioterapeuta; no es un ejercicio que haya que aguantar con molestia."
+          },
+          {
+              "q": "¿Necesito un banco para el puente de glúteo?",
+              "a": "No: se puede hacer tumbado en el suelo. Un banco plano permite apoyar la espalda en alto y aumentar el recorrido, pero es un extra, no un requisito."
+          }
+      ]
+  },
   "entrenar-en-casa-enero-por-donde-empezar": {
     "intro": "En enero mucha gente se apunta a entrenar en casa y en febrero el material está en un rincón. Casi nunca falla la motivación: falla que se compra demasiado, demasiado pronto o algo que no cabe ni se puede usar a las diez de la noche sin molestar. Esta guía ordena la compra por fases: primero lo mínimo para empezar, después fuerza y por último cardio, siempre con productos que ya tenemos en el catálogo y con la regla de no comprar el siguiente paso hasta haber usado el anterior durante unas semanas. Como referencia de cuánto moverse, la OMS recomienda a los adultos entre 150 y 300 minutos a la semana de actividad aeróbica de intensidad moderada y ejercicios de fortalecimiento muscular al menos dos días por semana.",
     "quickPicks": [
