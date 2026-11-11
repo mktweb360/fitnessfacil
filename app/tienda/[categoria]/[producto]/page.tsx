@@ -6,7 +6,7 @@ import { getPostBySlug } from "@/data/posts";
 import { offersOf, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
 import ProductCard from "@/components/ProductCard";
-import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
 import { isFeaturedProduct } from "@/lib/indexable";
 
 export async function generateStaticParams() {
@@ -87,7 +87,16 @@ export default async function ProductPage({ params }: Props) {
   const cat = categories.find((c) => c.slug === categoria);
   const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
-  const faqs = categoryFaqs[categoria] ?? [];
+  const analisis = publicDescription(product.fullDescription);
+  const especificaciones = Object.entries(product.specs).map(([k, v]) => `${k}: ${v}`).join("; ");
+  const clavesComparativa = Object.keys(product.specs).slice(0, 3);
+  // Preguntas propias de la ficha (datos reales del producto) antes de las de la categoría.
+  const faqsProducto = [
+    { q: `¿Qué características tiene ${product.name}?`, a: especificaciones ? `Según los datos del fabricante: ${especificaciones}.` : "Consulta la ficha del fabricante." },
+    { q: `¿Qué inconvenientes tiene ${product.name}?`, a: product.cons.length ? `${product.cons.join(". ")}.` : "Consulta la ficha del fabricante." },
+    { q: "¿Con qué otros productos se puede comparar?", a: related.length ? `En la categoría ${cat?.name ?? ""} tienes también ${related.map((r) => r.name).join(", ")}; más abajo los comparamos.` : "Consulta el resto de la categoría." },
+  ];
+  const faqs = [...faqsProducto, ...(categoryFaqs[categoria] ?? [])];
   const link = offerUrl(mainOffer);
   const storeName = STORE_NAME[mainOffer.store];
   const topSpecs = Object.entries(product.specs).slice(0, 4);
@@ -239,6 +248,14 @@ export default async function ProductPage({ params }: Props) {
           </div>
         </div>
 
+        {analisis && (
+          <section className="mb-8">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-3">Qué ofrece este producto</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">{analisis}</p>
+            <p className="text-xs text-gray-400 mt-2">Resumen basado en la información del fabricante. No hemos probado personalmente el producto.</p>
+          </section>
+        )}
+
         {/* ══════════════════════════════════════════
             SECCIÓN: Pros & Cons
         ══════════════════════════════════════════ */}
@@ -315,6 +332,33 @@ export default async function ProductPage({ params }: Props) {
         {/* ══════════════════════════════════════════
             SECCIÓN: Guías relacionadas
         ══════════════════════════════════════════ */}
+        {related.length > 0 && clavesComparativa.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-3">Comparado con otras opciones de la categoría</h2>
+            <div className="overflow-x-auto rounded-2xl border border-gray-100">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-50 text-left text-gray-600">
+                  <tr>
+                    <th className="px-4 py-3">Producto</th>
+                    {clavesComparativa.map((k) => (<th key={k} className="px-4 py-3 capitalize">{k}</th>))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {[product, ...related].map((p) => (
+                    <tr key={p.slug} className={p.slug === product.slug ? "bg-green-50 font-semibold" : "border-t border-gray-100"}>
+                      <td className="px-4 py-3">
+                        {p.slug === product.slug ? p.name : <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="text-green-700 hover:underline">{p.name}</Link>}
+                      </td>
+                      {clavesComparativa.map((k) => (<td key={k} className="px-4 py-3 text-gray-600">{p.specs[k] ?? "—"}</td>))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-400 mt-2">Datos del fabricante. «—» indica que ese dato no figura en la ficha del otro producto.</p>
+          </section>
+        )}
+
         {relatedGuides.length > 0 && (
           <div className="mb-8">
             <h2 className="text-xl font-extrabold text-gray-900 mb-4">Guías relacionadas</h2>
