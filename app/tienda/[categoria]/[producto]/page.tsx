@@ -7,6 +7,7 @@ import { offersOf, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
 import ProductCard from "@/components/ProductCard";
 import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
+import { isFeaturedProduct } from "@/lib/indexable";
 
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -19,11 +20,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitleUnique(product, products, "análisis y opinión") },
-    description: `${product.shortDescription} Análisis con pros, contras, especificaciones y enlace para consultar el precio actual.`,
+    title: { absolute: productTitleUnique(product, products, "guía de compra") },
+    robots: isFeaturedProduct(product.slug) ? { index: true, follow: true } : { index: false, follow: true },
+    description: `${product.shortDescription} Pros, contras, especificaciones y enlace para consultar el precio actual.`,
     alternates: { canonical: `https://www.fitnessfacil.es/tienda/${categoria}/${producto}` },
     openGraph: {
-      title: `${product.name} — Análisis completo`,
+      title: `${product.name} — Ficha y opciones de compra`,
       description: product.shortDescription,
       images: [{ url: product.image ? `https://www.fitnessfacil.es${product.image}` : `https://www.fitnessfacil.es/images/products/${product.categorySlug}.jpg` }],
     },

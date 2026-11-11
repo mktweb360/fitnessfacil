@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { categories, products } from "@/data/products";
 import { posts } from "@/data/posts";
+import { isFeaturedProduct } from "@/lib/indexable";
 
 const BASE = "https://www.fitnessfacil.es";
 
@@ -22,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const productPages: MetadataRoute.Sitemap = products.filter((p) => !p.unavailable).map((p) => ({
+  const productPages: MetadataRoute.Sitemap = products.filter((p) => !p.unavailable && isFeaturedProduct(p.slug)).map((p) => ({
     url: `${BASE}/tienda/${p.categorySlug}/${p.slug}`,
     changeFrequency: "weekly",
     priority: 0.7,

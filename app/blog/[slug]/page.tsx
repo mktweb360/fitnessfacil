@@ -3841,10 +3841,12 @@ export default async function BlogPostPage({ params }: Props) {
     .slice(0, 6);
 
 const AUTHOR = {
-  "@type": "Organization",
-  name: "Equipo Editorial de FitnessFácil.es",
+  "@type": "Person",
+  name: "José Marcos Galindo Sánchez",
+  jobTitle: "Editor responsable",
+  worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
   url: "https://www.fitnessfacil.es/sobre-nosotros",
-  description: "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas y características antes de recomendar equipamiento fitness, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+  description: "Editor responsable de FitnessFácil.es (Mkt Web 360 SLU). Compara especificaciones técnicas y fuentes citadas antes de recomendar equipamiento fitness, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: ["entrenamiento en casa", "equipamiento fitness", "cintas de correr", "nutrición deportiva", "pérdida de peso", "suplementación deportiva"],
 };
 
@@ -3923,7 +3925,7 @@ const AUTHOR = {
             <span>·</span>
             <span className="flex items-center gap-1">
               <span>✍️</span>
-              <Link href="/sobre-nosotros" className="font-medium text-green-300 hover:text-white">Equipo Editorial de FitnessFácil.es</Link>
+              <Link href="/sobre-nosotros" className="font-medium text-green-300 hover:text-white">José Marcos Galindo Sánchez · Editor responsable</Link>
             </span>
           </div>
         </div>
