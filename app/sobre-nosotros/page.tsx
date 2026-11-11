@@ -4,22 +4,19 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sobre nosotros",
   description:
-    "El equipo editorial de FitnessFácil.es, parte de Mkt Web 360 SLU: cómo investigamos y comparamos equipamiento fitness, y nuestra política de afiliación.",
+    "Quién está detrás de FitnessFácil.es (Mkt Web 360 SLU): cómo investigamos y comparamos equipamiento fitness, y nuestra política de afiliación.",
   alternates: { canonical: "/sobre-nosotros" },
 };
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Equipo Editorial de FitnessFácil.es",
+  "@type": "Person",
+  name: "José Marcos Galindo Sánchez",
+  jobTitle: "Editor responsable",
+  worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
   description:
-    "Equipo editorial de FitnessFácil.es (Mkt Web 360 SLU). Comparamos especificaciones técnicas y características para recomendar equipamiento fitness, con apoyo de herramientas de IA en el proceso de investigación y redacción, siempre bajo revisión editorial.",
+    "Editor responsable de FitnessFácil.es y fundador de Mkt Web 360 SLU, agencia de marketing digital (SEO, analítica y desarrollo web) con sede en El Viso de San Juan (Toledo). No es entrenador personal ni profesional sanitario: compara especificaciones y fuentes citadas, con apoyo de IA bajo revisión editorial. El contenido es informativo y no sustituye el consejo de un profesional.",
   url: "https://www.fitnessfacil.es/sobre-nosotros",
-  parentOrganization: {
-    "@type": "Organization",
-    name: "FitnessFácil.es",
-    url: "https://www.fitnessfacil.es",
-  },
   knowsAbout: [
     "entrenamiento en casa",
     "cintas de correr",
@@ -86,15 +83,15 @@ export default function SobreNosotrosPage() {
         <div className="bg-green-50 border border-green-200 rounded-2xl p-6 mb-10 flex gap-5 items-start">
           {/* Initials avatar */}
           <div className="flex-shrink-0 w-16 h-16 rounded-full bg-green-700 text-white flex items-center justify-center text-xl font-extrabold select-none">
-            FF
+            JG
           </div>
           <div>
-            <p className="text-lg font-extrabold text-gray-900 leading-tight">Equipo Editorial de FitnessFácil.es</p>
+            <p className="text-lg font-extrabold text-gray-900 leading-tight">José Marcos Galindo Sánchez</p>
             <p className="text-sm font-semibold text-green-700 mb-2">
-              Mkt Web 360 SLU
+              Editor responsable · Fundador de Mkt Web 360 SLU
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-3">
-              Nuestro equipo compara especificaciones técnicas y características antes de recomendar cualquier producto. Usamos herramientas de inteligencia artificial como apoyo en la investigación y redacción, siempre con revisión editorial antes de publicar — nunca inventamos datos de producto ni resultados.
+              No soy entrenador personal ni profesional sanitario, y no pruebo personalmente cada producto. Mi trabajo es editorial: comparo especificaciones técnicas y características antes de recomendar cualquier producto. Uso herramientas de inteligencia artificial como apoyo en la investigación y redacción, siempre con revisión editorial antes de publicar — nunca inventamos datos de producto ni resultados.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">
