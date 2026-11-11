@@ -535,19 +535,19 @@ const articleContent: Record<string, {
     ]
   },
   "progresion-cargas-principiantes-peso-repeticiones-descanso": {
-    "intro": "Entrenar con peso sin una regla de progresión suele acabar en una de dos situaciones: te quedas meses con las mismas mancuernas porque nunca te atreves a subir, o subes tanto de golpe que la técnica se deshace. La guía del American College of Sports Medicine sobre progresión en entrenamiento de fuerza para adultos sanos ofrece una regla concreta, y vale la pena traducirla a lo que de verdad tienes en casa: unas mancuernas con discos, bandas o una kettlebell. Aquí tienes qué repeticiones, cuántas series, cuánto descanso y cuándo subir el peso, con un ejemplo con números. Si tienes alguna enfermedad, una lesión o llevas tiempo sin entrenar, consulta con tu médico antes de empezar.",
+    "intro": "Entrenar con peso sin una regla de progresión suele acabar en una de dos situaciones: te quedas meses con las mismas mancuernas porque nunca te atreves a subir, o subes tanto de golpe que la técnica se deshace. La guía de 2009 del American College of Sports Medicine sobre progresión en entrenamiento de fuerza para adultos sanos ofrece una regla concreta, y vale la pena traducirla a lo que de verdad tienes en casa: unas mancuernas con discos, bandas o una kettlebell. Aquí tienes qué repeticiones, cuántas series, cuánto descanso y cuándo subir el peso, con un ejemplo con números. También recogemos qué cambió con la posición del ACSM de 2026. Si tienes alguna enfermedad, una lesión o llevas tiempo sin entrenar, consulta con tu médico antes de empezar.",
     "sections": [
       {
         "heading": "Qué dicen las guías para empezar",
-        "body": "La OMS recomienda a los adultos fortalecimiento muscular al menos dos días por semana, con intensidad moderada o mayor y trabajando todos los grandes grupos. Los CDC dan una pauta de entrada de ocho a doce repeticiones por ejercicio, con una serie. El ACSM concreta algo más para principiantes: dos o tres días por semana con entrenamientos de cuerpo entero, cargas en torno al 60 y el 70 por ciento de la repetición máxima para entre ocho y doce repeticiones, y una a tres series por ejercicio, dando prioridad a los ejercicios que mueven varias articulaciones, como sentadillas, press y remos. Dicho en llano: pesos con los que puedas completar ocho a doce repeticiones con buena técnica, sin llegar al límite."
+        "body": "La OMS recomienda a los adultos fortalecimiento muscular al menos dos días por semana, con intensidad moderada o mayor y trabajando todos los grandes grupos. Los CDC dan una pauta de entrada de ocho a doce repeticiones por ejercicio, con una serie. La posición del ACSM de 2009 concreta algo más para principiantes: dos o tres días por semana con entrenamientos de cuerpo entero, cargas en torno al 60 y el 70 por ciento de la repetición máxima para entre ocho y doce repeticiones, y una a tres series por ejercicio, dando prioridad a los ejercicios que mueven varias articulaciones, como sentadillas, press y remos. Dicho en llano: pesos con los que puedas completar ocho a doce repeticiones con buena técnica, sin llegar al límite."
       },
       {
         "heading": "Frecuencia y descanso entre sesiones",
-        "body": "El ACSM señala que dos o tres días por semana, alternos, son una frecuencia eficaz de partida en personas sin experiencia previa. En la práctica: lunes, miércoles y viernes con entrenamiento de cuerpo entero, o dos sesiones si la semana viene apretada. Si quieres una semana tipo, está en [la rutina de mancuernas en casa](/blog/rutina-mancuernas-casa-semana). Y presta atención a las señales de fatiga acumulada: [el artículo sobre sobreentrenamiento](/blog/sobreentrenamiento-sintomas-como-recuperarte) explica cuándo conviene bajar el ritmo."
+        "body": "El ACSM (2009) señala que dos o tres días por semana, alternos, son una frecuencia eficaz de partida en personas sin experiencia previa. En la práctica: lunes, miércoles y viernes con entrenamiento de cuerpo entero, o dos sesiones si la semana viene apretada. Si quieres una semana tipo, está en [la rutina de mancuernas en casa](/blog/rutina-mancuernas-casa-semana). Y presta atención a las señales de fatiga acumulada: [el artículo sobre sobreentrenamiento](/blog/sobreentrenamiento-sintomas-como-recuperarte) explica cuándo conviene bajar el ritmo."
       },
       {
         "heading": "Descanso entre series: más largo de lo que parece",
-        "body": "El ACSM recomienda descansos de al menos dos o tres minutos entre series en los ejercicios principales con cargas más pesadas, como la sentadilla o el press de banca, y apunta que en ejercicios de asistencia, los que complementan a los principales, puede bastar entre uno y dos minutos. Muchos principiantes descansan treinta segundos para ahorrar tiempo y ven que en la tercera serie hacen cinco repeticiones en lugar de diez. Si el tiempo es limitado, es mejor hacer menos ejercicios con descansos adecuados que muchos con prisa. Un truco útil: aprovecha el descanso del ejercicio grande para hacer una movilidad o un estiramiento suave, sin que sea otro esfuerzo."
+        "body": "El ACSM (2009) recomienda descansos de al menos dos o tres minutos entre series en los ejercicios principales con cargas más pesadas, como la sentadilla o el press de banca, y apunta que en ejercicios de asistencia, los que complementan a los principales, puede bastar entre uno y dos minutos. Muchos principiantes descansan treinta segundos para ahorrar tiempo y ven que en la tercera serie hacen cinco repeticiones en lugar de diez. Si el tiempo es limitado, es mejor hacer menos ejercicios con descansos adecuados que muchos con prisa. Un truco útil: aprovecha el descanso del ejercicio grande para hacer una movilidad o un estiramiento suave, sin que sea otro esfuerzo."
       },
       {
         "heading": "La regla para subir peso: dos sesiones seguidas con repeticiones de sobra",
@@ -563,6 +563,10 @@ const articleContent: Record<string, {
         ]
       },
       {
+        "heading": "Qué cambió con la posición del ACSM de 2026",
+        "body": "Las pautas de arriba salen de la posición del ACSM de 2009. En 2026 el ACSM publicó otra que la actualiza, basada en una revisión de revisiones: 137 revisiones sistemáticas con más de 30.000 participantes. Conviene leerla con matices, porque no sustituye cifra por cifra a la anterior. Recomienda entrenar con esfuerzo alto al menos dos veces por semana, con todos los grandes grupos musculares, y no da un bloque de recomendaciones aparte para principiantes. Para ganar músculo encuentra más efecto con volúmenes de al menos 10 series por grupo muscular a la semana. Sobre el fallo muscular, indica que llegar al límite en cada serie no mejora las ganancias de fuerza ni de hipertrofia, así que no necesitas acabar cada serie sin poder hacer una repetición más. Entre los métodos que mejoran la fuerza recoge el entrenamiento en casa y con bandas elásticas, aunque con poca evidencia detrás. Y sobre la progresión, no propone ningún porcentaje de subida: señala que no hace falta para obtener beneficios, pero sí probablemente para seguir avanzando a largo plazo. Por eso la regla del 2 al 10 por ciento de este artículo es una referencia práctica de 2009, no una norma de la posición actual: úsala como punto de partida y ajusta el salto según cómo responda tu cuerpo y qué permita tu material."
+      },
+      {
         "heading": "Un registro de cuatro columnas y un plan de ocho semanas",
         "body": "Apunta en el móvil, para cada ejercicio, el peso, las series, las repeticiones y una nota de esfuerzo; para esa nota te sirve [la escala de 0 a 10 que explicamos en la guía de intensidad](/blog/medir-intensidad-ejercicio-casa-sin-pulsometro). Un esquema razonable para el primer mes y medio: semanas uno y dos, una serie por ejercicio con peso cómodo; semanas tres y cuatro, dos series; semanas cinco a ocho, hasta tres series y revisión del peso con la regla anterior. Cuando un ejercicio como las dominadas es el objetivo, [el plan de progresión de la primera dominada](/blog/primera-dominada-banda-asistencia-progresion) aplica la misma lógica con bandas. Si llegas a un estancamiento de varias semanas, revisa antes el sueño, el descanso y la técnica que el material."
       }
@@ -571,7 +575,7 @@ const articleContent: Record<string, {
     "comparison": {
       "headers": [
         "Variable",
-        "Pauta del ACSM o de las guías",
+        "Pauta del ACSM (2009) o de las guías",
         "Cómo aplicarlo en casa"
       ],
       "rows": [
@@ -609,6 +613,10 @@ const articleContent: Record<string, {
         "url": "https://pubmed.ncbi.nlm.nih.gov/19204579/"
       },
       {
+        "label": "ACSM — Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews, Medicine & Science in Sports & Exercise 2026;58(4):851-872 (consultado el 11/11/2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/"
+      },
+      {
         "label": "OMS — Directrices sobre actividad física y comportamiento sedentario 2020 (Bull et al., British Journal of Sports Medicine; consultado el 4/11/2026)",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/"
       },
@@ -620,19 +628,19 @@ const articleContent: Record<string, {
     "faqs": [
       {
         "q": "¿Cuántas repeticiones debe hacer un principiante?",
-        "a": "El ACSM recomienda entre ocho y doce repeticiones con cargas de alrededor del 60 al 70 por ciento de la repetición máxima, y los CDC dan la misma horquilla de ocho a doce para empezar. Lo importante es terminar la serie con buena técnica."
+        "a": "El ACSM (2009) recomienda entre ocho y doce repeticiones con cargas de alrededor del 60 al 70 por ciento de la repetición máxima, y los CDC dan la misma horquilla de ocho a doce para empezar. Lo importante es terminar la serie con buena técnica."
       },
       {
         "q": "¿Cuánto descanso necesito entre series?",
-        "a": "En los ejercicios principales con más carga, el ACSM recomienda al menos dos o tres minutos; en los complementarios, uno o dos pueden bastar. Descansar poco suele reducir las repeticiones de las series siguientes."
+        "a": "En los ejercicios principales con más carga, el ACSM (2009) recomienda al menos dos o tres minutos; en los complementarios, uno o dos pueden bastar. Descansar poco suele reducir las repeticiones de las series siguientes."
       },
       {
         "q": "¿Cuándo toca subir el peso?",
-        "a": "Cuando puedas hacer el peso actual una o dos repeticiones por encima de tu objetivo en dos sesiones consecutivas. Entonces el ACSM sugiere subir entre un 2 y un 10 por ciento, según el tamaño del músculo."
+        "a": "Cuando puedas hacer el peso actual una o dos repeticiones por encima de tu objetivo en dos sesiones consecutivas. Entonces el ACSM (2009) sugiere subir entre un 2 y un 10 por ciento, una referencia que su posición de 2026 ya no fija como porcentaje, según el tamaño del músculo."
       },
       {
         "q": "¿Cuántos días a la semana debo entrenar fuerza al empezar?",
-        "a": "La OMS pide al menos dos días por semana, y el ACSM habla de dos o tres días no consecutivos en principiantes. Más días no son necesariamente mejores si no te recuperas."
+        "a": "La OMS pide al menos dos días por semana, y el ACSM coincide en ese mínimo: en 2009 hablaba de dos o tres días no consecutivos en principiantes y en 2026 pide entrenar al menos dos veces por semana con esfuerzo alto. Más días no son necesariamente mejores si no te recuperas."
       }
     ]
   },
