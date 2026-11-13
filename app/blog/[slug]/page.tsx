@@ -32,17 +32,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Enlaces internos en bloques de texto: la sintaxis [texto](/ruta) se convierte en <Link>.
 // Solo rutas internas (empiezan por "/"); los artículos que no la usan se pintan igual que antes.
-const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*|https:\/\/clk\.tradedoubler\.com\/click[^)\s]*)\)/g;
 function richText(text: string): ReactNode {
   const out: ReactNode[] = [];
   let last = 0;
   for (const m of text.matchAll(INTERNAL_LINK)) {
     const i = m.index ?? 0;
     if (i > last) out.push(text.slice(last, i));
+    const cls = "text-green-700 hover:text-green-900 underline underline-offset-2";
     out.push(
-      <Link key={i} href={m[2]} className="text-green-700 hover:text-green-900 underline underline-offset-2">
-        {m[1]}
-      </Link>,
+      m[2].startsWith("http") ? (
+        <a key={i} href={m[2]} target="_blank" rel="sponsored noopener" className={cls}>
+          {m[1]}
+        </a>
+      ) : (
+        <Link key={i} href={m[2]} className={cls}>
+          {m[1]}
+        </Link>
+      ),
     );
     last = i + m[0].length;
   }
@@ -2516,6 +2523,61 @@ const articleContent: Record<string, {
     ],
   },
 
+  "regalos-fitness-navidad-entrenar-en-casa": {
+    intro: "Acertar con un regalo para alguien que entrena en casa es más fácil si piensas en cómo entrena y no en el aparato más llamativo. Aquí van cinco ideas del catálogo, con quién encaja cada una y qué conviene comprobar antes de comprar. Ninguno de los productos ha sido probado por nosotros: los datos proceden de la descripción del fabricante en Amazon, y en cada ficha puedes ver la disponibilidad actual.",
+    quickPicks: [
+      { productSlug: "lullax-neo36-mancuernas-ajustables", text: "Par de mancuernas ajustables de 2,5 a 36 kg con base, para quien ya entrena fuerza." },
+      { productSlug: "jowy-kettlebell-pvc-16kg", text: "Kettlebell de 16 kg de PVC relleno de arena de acero, que no daña los suelos." },
+      { productSlug: "fokky-bandas-elasticas-set-4-tpe", text: "Set de 4 bandas elásticas de TPE, un regalo económico y fácil de guardar." },
+      { productSlug: "la-mente-es-maravillosa-esterilla-tpe", text: "Esterilla de TPE para yoga, estiramientos y trabajo de suelo." },
+      { productSlug: "walkingpad-r1-pro-cinta-plegable", text: "Cinta plegable para andar bajo el escritorio, hasta 6 km/h, con control por app o mando." },
+    ],
+    sections: [
+      {
+        heading: "Cómo elegir el regalo según cómo entrena la persona",
+        body: "Antes de comprar, tres preguntas ayudan a acertar. Primera: ¿dónde entrena y de cuánto espacio dispone? Una cinta o unas mancuernas con base ocupan más que unas bandas. Segunda: ¿qué material tiene ya? Regalar algo que ya posee es el error más habitual, así que merece la pena preguntar de forma discreta. Tercera: ¿cuál es su nivel? A quien empieza le conviene algo sencillo y versátil; a quien lleva tiempo entrenando le sirve más un complemento que le permita progresar. Si dudas, un regalo pequeño y útil suele funcionar mejor que uno grande y poco adecuado.",
+      },
+      {
+        heading: "Para quien entrena fuerza: mancuernas ajustables y kettlebell",
+        body: "Las mancuernas ajustables LULLAX NEO36 cubren, según el fabricante, un rango de 2,5 a 36 kg en 14 posiciones, vienen en par y con base, y equivalen a varias parejas de mancuernas tradicionales en un solo espacio. Son una opción para quien quiere progresar sin llenar la casa de pesas. La kettlebell JOWY de 16 kg es de PVC relleno de arena de acero, con mango ergonómico y sin dañar los suelos; encaja en quien ya tiene una base de fuerza y quiere ejercicios de cuerpo completo. Antes de regalar una kettlebell, conviene que la persona sepa qué peso maneja con comodidad.",
+        productSlugs: ["lullax-neo36-mancuernas-ajustables", "jowy-kettlebell-pvc-16kg"],
+      },
+      {
+        heading: "Regalos pequeños y fáciles de guardar: bandas y esterilla",
+        body: "Un set de bandas elásticas es una idea económica para quien empieza o para quien viaja, porque ocupa muy poco y sirve para trabajo de fuerza y movilidad. La esterilla de TPE es un clásico útil para yoga, estiramientos y ejercicios de suelo. En ambos casos conviene fijarse en que el material y el grosor se ajusten al uso que va a tener, y en que la persona no tenga ya una.",
+        productSlugs: ["fokky-bandas-elasticas-set-4-tpe", "la-mente-es-maravillosa-esterilla-tpe"],
+      },
+      {
+        heading: "Para quien pasa el día sentado: cinta plegable bajo el escritorio",
+        body: "La cinta plegable WalkingPad C2 está pensada para andar, no para correr: llega hasta 6 km/h, monta un motor de 2,0 HP, se controla con la app KS Fit o con mando a distancia, no necesita montaje y pesa 25 kg. Es una opción para quien teletrabaja y quiere moverse más durante el día. Es un regalo de mayor tamaño, así que comprueba que haya sitio para guardarla y que la persona la vaya a usar.",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+    ],
+    comparisonHeading: "Comparativa rápida de los cinco regalos",
+    comparison: {
+      headers: ["Regalo", "Para quién encaja", "Espacio que ocupa", "Qué comprobar"],
+      rows: [
+        ["LULLAX NEO36 mancuernas ajustables", "Quien entrena fuerza y quiere progresar", "Medio: par con base", "Que no tenga ya mancuernas ajustables"],
+        ["JOWY kettlebell 16 kg", "Quien ya tiene base de fuerza", "Pequeño", "Que el peso se ajuste a su nivel"],
+        ["FOKKY set de 4 bandas", "Quien empieza o viaja", "Muy pequeño", "Que no tenga ya bandas"],
+        ["Esterilla de TPE", "Yoga, estiramientos y suelo", "Pequeño (enrollada)", "Grosor y tamaño adecuados"],
+        ["WalkingPad C2 plegable", "Quien teletrabaja y quiere moverse", "Grande: plegada ocupa menos", "Sitio para guardarla y uso real"],
+      ],
+    },
+    conclusionHeading: "Conclusión",
+    conclusion: "El mejor regalo es el que encaja con cómo y dónde entrena la persona. Si dudas, una opción pequeña y versátil como las bandas o la esterilla acierta con más facilidad que un aparato grande. Antes de comprar, comprueba en Amazon la disponibilidad, los plazos de entrega y las valoraciones de otros compradores, porque nosotros no hemos probado estos productos.",
+    faqsHeading: "Preguntas frecuentes",
+    sources: [
+      { label: "ACSM — American College of Sports Medicine", url: "https://www.acsm.org/" },
+      { label: "ACE — American Council on Exercise", url: "https://www.acefitness.org/" },
+    ],
+    faqs: [
+      { q: "¿Qué regalo fitness es más seguro si no sé qué tiene ya la persona?", a: "Una opción pequeña y versátil, como un set de bandas elásticas o una esterilla, suele ser la más segura. Si puedes, pregunta de forma discreta qué material usa." },
+      { q: "¿Conviene regalar una cinta de andar plegable?", a: "Solo si la persona la va a usar y tiene sitio para guardarla. Es un regalo de mayor tamaño y la cinta que revisamos está pensada para andar, no para correr." },
+      { q: "¿Las mancuernas ajustables sirven para principiantes?", a: "Sí, porque permiten empezar con poco peso y subir poco a poco. Aun así, conviene que la persona aprenda primero la técnica de los ejercicios." },
+      { q: "¿Dónde comprobar si el producto está disponible y llega a tiempo?", a: "En la ficha de Amazon de cada producto, donde aparecen la disponibilidad y la fecha estimada de entrega en ese momento." },
+    ],
+  },
   "entrenamiento-fuerza-casa-equipamiento-minimo": {
     intro: "Un home gym eficaz no requiere mucho espacio ni mucho dinero. Requiere elegir bien. Con tres piezas de equipamiento bien seleccionadas, con un presupuesto total contenido, puedes cubrir todos los patrones de movimiento fundamentales y entrenar durante años sin necesitar nada más. Esta guía explica qué comprar y por qué esa combinación concreta funciona.",
     sections: [
@@ -3073,7 +3135,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La whey económica para completar la proteína diaria",
-        body: "Si el objetivo es simplemente llegar a la ingesta proteica sin gastar de más, la Myprotein Impact Whey cumple sobradamente con un coste por servicio contenido. Cualquier whey de calidad sirve para este propósito; lo que determina el resultado no es la marca, sino llegar al total de proteína del día.",
+        body: "Si el objetivo es simplemente llegar a la ingesta proteica sin gastar de más, la Myprotein Impact Whey cumple sobradamente con un coste por servicio contenido. Cualquier whey de calidad sirve para este propósito; lo que determina el resultado no es la marca, sino llegar al total de proteína del día. Si prefieres comparar con otra tienda especializada, también puedes mirar el catálogo de [Sportlive Nutrition](https://clk.tradedoubler.com/click?p=362254&a=3505836). Sea cual sea la marca, fíjate en lo mismo: los gramos de proteína por ración, la lista de ingredientes y el tamaño del envase. Como dice el apartado anterior, lo importante no es la marca, sino llegar al total de proteína del día.",
         productSlug: "myprotein-impact-whey-1kg-galletas",
       },
       {
@@ -3609,6 +3671,54 @@ const articleContent: Record<string, {
         q: "¿Es necesario un anclaje de puerta si no tengo barra de dominadas?",
         a: "Sí, si no dispones de una barra fija o un marco de dominadas, necesitas un anclaje de puerta compatible o cualquier estructura firme por encima de tu altura capaz de soportar tu peso corporal más la tensión de la banda. Nunca uses un soporte no diseñado para carga dinámica: el riesgo de caída es real.",
       },
+    ],
+  },
+  "guantes-gimnasio-como-elegir-alternativas": {
+    intro: "Los guantes de gimnasio dividen opiniones: hay quien no entrena sin ellos y quien los considera un estorbo. La respuesta honesta depende de lo que te moleste al entrenar y de los ejercicios que hagas. Aquí repasamos cuándo tienen sentido, qué mirar antes de comprar y qué alternativas existen, con cuatro modelos para comparar. Ninguno de los productos ha sido probado por nosotros: los datos proceden de la descripción del fabricante en Amazon.",
+    quickPicks: [
+      { productSlug: "atercel-guantes-gimnasio-transpirables", text: "Guante ligero y ajustado, pensado para pesas y entrenamiento general." },
+      { productSlug: "fitgriff-guantes-gimnasio-acolchados", text: "Guante con acolchado en la palma, para quien lo que más le molesta son las rozaduras." },
+      { productSlug: "adidas-guantes-entrenamiento-esenciales", text: "Guante unisex de una marca deportiva conocida, de uso general." },
+      { productSlug: "pullup-dip-grip-pads-agarre-fitness", text: "Almohadillas de agarre: alternativa para quien no quiere cubrir toda la mano." },
+    ],
+    sections: [
+      {
+        heading: "Cuándo sirven los guantes y cuándo estorban",
+        body: "Los guantes tienen sentido sobre todo para proteger la palma de las manos: reducen las rozaduras y las callosidades que aparecen al agarrar barras, mancuernas o la barra de dominadas con frecuencia. También pueden dar algo más de comodidad en sesiones largas de tracción. En cambio, estorban cuando restan sensibilidad con la barra, cuando se humedecen con el sudor o cuando se usan en ejercicios en los que necesitas notar bien el agarre, como el peso muerto pesado. Si no tienes molestias en las manos, puedes entrenar sin ellos sin ningún problema. Si entrenas con cargas que te exigen mucho agarre, la referencia habitual de las guías de entrenamiento de fuerza es trabajar el agarre con el propio contacto directo y recurrir a accesorios específicos solo cuando haga falta.",
+      },
+      {
+        heading: "Qué mirar al elegir unos guantes",
+        body: "Hay cuatro criterios prácticos. Primero, la talla: un guante grande se desplaza y pierde agarre, y uno pequeño aprieta y molesta, así que conviene seguir la tabla de tallas del fabricante. Segundo, la palma: más acolchado protege más, pero resta tacto con la barra; menos acolchado da más sensibilidad pero protege menos. Tercero, la ventilación: un tejido transpirable ayuda a que la mano no se humedezca tanto durante la sesión. Cuarto, el cierre: algunos modelos incluyen muñequera o cierre ajustable, que aporta sujeción pero no sustituye a una buena técnica. Elige según tu uso: pesas libres, dominadas o entrenamiento mixto.",
+        productSlugs: ["atercel-guantes-gimnasio-transpirables", "fitgriff-guantes-gimnasio-acolchados", "adidas-guantes-entrenamiento-esenciales"],
+      },
+      {
+        heading: "Alternativas a los guantes: almohadillas de agarre",
+        body: "Si los guantes completos no te convencen, las almohadillas de agarre se colocan solo entre la palma y la barra. Protegen la zona de presión y dejan los dedos y el dorso de la mano libres, lo que algunas personas prefieren en dominadas y ejercicios de tracción. Requieren un poco de práctica para colocarlas bien y no son tan versátiles como un guante, pero son una opción razonable. Otras alternativas habituales son las muñequeras de sujeción y las correas de agarre, que se usan sobre todo cuando el agarre es el factor limitante en tracciones con carga alta; son accesorios distintos y se eligen por separado.",
+        productSlug: "pullup-dip-grip-pads-agarre-fitness",
+      },
+    ],
+    comparisonHeading: "Comparativa rápida de los cuatro modelos",
+    comparison: {
+      headers: ["Modelo", "Tipo", "Lo que destaca según el fabricante", "Para quién encaja"],
+      rows: [
+        ["ATERCEL transpirables", "Guante completo", "Tejido transpirable y ajuste ajustado", "Quien busca un guante ligero para pesas y entrenamiento"],
+        ["Fitgriff acolchados", "Guante con acolchado", "Acolchado en la palma", "Quien sufre rozaduras en la palma"],
+        ["adidas esenciales", "Guante unisex", "Marca deportiva conocida, uso general", "Quien prefiere un modelo sencillo de marca conocida"],
+        ["PULLUP & DIP grip pads", "Almohadillas de agarre", "Protegen solo la zona de presión", "Quien prefiere no cubrir toda la mano"],
+      ],
+    },
+    conclusionHeading: "Conclusión",
+    conclusion: "Los guantes no son imprescindibles: sirven si te molestan las manos al entrenar y estorban si te quitan sensibilidad. Elige la talla con cuidado, decide cuánto acolchado necesitas y, si no te convence un guante completo, prueba unas almohadillas de agarre. Antes de comprar, comprueba en la ficha de Amazon la talla, la disponibilidad y las valoraciones de otros compradores, porque nosotros no hemos probado estos productos.",
+    faqsHeading: "Preguntas frecuentes",
+    sources: [
+      { label: "NSCA — National Strength and Conditioning Association", url: "https://www.nsca.com/" },
+      { label: "ACE — American Council on Exercise", url: "https://www.acefitness.org/" },
+    ],
+    faqs: [
+      { q: "¿Son necesarios los guantes para entrenar con pesas?", a: "No. Son un accesorio opcional que puede ayudar a evitar rozaduras y callosidades. Si no tienes molestias en las manos, puedes entrenar sin ellos." },
+      { q: "¿Los guantes quitan fuerza de agarre?", a: "Pueden restar sensibilidad con la barra, sobre todo si son muy acolchados. Si el agarre es clave en tu ejercicio, puede convenir un modelo fino o entrenar sin guantes." },
+      { q: "¿Cómo elijo la talla de unos guantes de gimnasio?", a: "Sigue la tabla de tallas del fabricante, normalmente basada en la medida de la mano. Un guante que se mueve pierde agarre y uno demasiado ajustado resulta incómodo." },
+      { q: "¿Qué diferencia hay entre guantes y almohadillas de agarre?", a: "El guante cubre la mano; la almohadilla se coloca solo entre la palma y la barra. La almohadilla deja los dedos libres, pero requiere algo de práctica." },
     ],
   },
   "suplementos-recuperacion-muscular-magnesio-omega3-bcaa": {
