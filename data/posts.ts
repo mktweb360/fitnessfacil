@@ -15,6 +15,23 @@ export type Post = {
 };
 
 export const posts: Post[] = [
+{
+slug: "guantes-gimnasio-como-elegir-alternativas",
+title: "Guantes de gimnasio: cuándo merecen la pena, cómo elegirlos y qué alternativas hay (2026)",
+seoTitle: "Guantes de gimnasio: cómo elegirlos",
+excerpt: "Guantes de gimnasio para entrenar con pesas: cuándo sirven y cuándo estorban, qué mirar al elegir (palma, muñequera, ventilación y talla), alternativas como las almohadillas de agarre y 4 modelos para comparar.",
+date: "2026-11-13",
+category: "Fuerza",
+readTime: "7 min",
+relatedProducts: ["atercel-guantes-gimnasio-transpirables","fitgriff-guantes-gimnasio-acolchados","adidas-guantes-entrenamiento-esenciales","pullup-dip-grip-pads-agarre-fitness"],
+relatedPosts: [
+"entrenamiento-fuerza-casa-equipamiento-minimo",
+"primera-dominada-banda-asistencia-progresion",
+"rutina-mancuernas-casa-semana",
+"bandas-elasticas-musculacion-guia",
+],
+categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gimnasio →" },
+},
   {
     slug: "entrenar-en-casa-enero-por-donde-empezar",
     title: "Empezar a entrenar en casa en enero: qué comprar primero y qué esperar",
