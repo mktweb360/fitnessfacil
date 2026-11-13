@@ -3329,6 +3329,24 @@ export const products: Product[] = [
     image: "/images/products/domyos-set-3-minibands.jpg",
     relatedPosts: ["bandas-elasticas-musculacion-guia","entrenamiento-fuerza-casa-equipamiento-minimo"],
   },
+  {
+    slug: "amazon-basics-tobilleras-ajustables-1-13kg",
+    name: "Amazon Basics Tobilleras Ajustables de 1 a 13 kg",
+    asin: "B0DMDT1KYZ",
+    image: "/images/products/amazon-basics-tobilleras-ajustables-1-13kg.jpg",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Tobilleras con peso ajustable de Amazon Basics, para sumar carga en ejercicios de piernas y glúteos.",
+    fullDescription: "Verificado en vivo en Amazon.es el 11/11/2026 (ASIN B0DMDT1KYZ; dato interno, no se muestra). Tobilleras con peso ajustable de Amazon Basics, con rango indicado en el título de la ficha de 1 a 13 kg. Sirven para añadir carga en patadas de glúteo, elevaciones laterales o abducciones, siempre con peso bajo y técnica controlada. No se ha probado el producto: consulta medidas, peso por unidad y condiciones en la ficha de Amazon antes de comprar.",
+    pros: ["Peso ajustable","Útiles para trabajo de glúteos y piernas desde casa","Marca Amazon Basics"],
+    cons: ["Se llega a cargas altas solo si el modelo lo permite: revisa el peso por unidad en la ficha","No sustituyen a las mancuernas en ejercicios de fuerza pesada"],
+    specs: { "Peso ajustable": "1 a 13 kg (según título de la ficha)", "Marca": "Amazon Basics" },
+    relatedPosts: ["piernas-gluteos-casa-mancuernas-bandas"],
+  },
 
 // ACCESORIOS DE GIMNASIO
 {
