@@ -715,6 +715,16 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
     categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver bandas elásticas en tienda →" },
   },
   {
+slug: "regalos-fitness-navidad-entrenar-en-casa",
+title: "Regalos de Navidad para quien entrena en casa: 5 ideas útiles (2026)",
+seoTitle: "Regalos fitness para entrenar en casa",
+excerpt: "Ideas de regalo para quien entrena en casa estas Navidades: mancuernas ajustables, kettlebell, bandas elásticas, esterilla y cinta plegable, con quién encaja cada una y qué conviene comprobar antes de comprar.",
+date: "2026-11-13", category: "Guías de compra", readTime: "6 min",
+relatedProducts: ["lullax-neo36-mancuernas-ajustables","jowy-kettlebell-pvc-16kg","fokky-bandas-elasticas-set-4-tpe","la-mente-es-maravillosa-esterilla-tpe","walkingpad-r1-pro-cinta-plegable"],
+relatedPosts: ["entrenamiento-fuerza-casa-equipamiento-minimo","rutina-mancuernas-casa-semana","bandas-elasticas-musculacion-guia"],
+categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
+},
+{
     slug: "entrenamiento-fuerza-casa-equipamiento-minimo",
     image: "/images/blog/entrenamiento-fuerza-casa-equipamiento-minimo.jpg",
     title: "Entrenamiento de fuerza en casa con equipamiento mínimo",
