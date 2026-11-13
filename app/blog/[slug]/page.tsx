@@ -3438,6 +3438,54 @@ const articleContent: Record<string, {
       },
     ],
   },
+  "guantes-gimnasio-como-elegir-alternativas": {
+    intro: "Los guantes de gimnasio dividen opiniones: hay quien no entrena sin ellos y quien los considera un estorbo. La respuesta honesta depende de lo que te moleste al entrenar y de los ejercicios que hagas. Aquí repasamos cuándo tienen sentido, qué mirar antes de comprar y qué alternativas existen, con cuatro modelos para comparar. Ninguno de los productos ha sido probado por nosotros: los datos proceden de la descripción del fabricante en Amazon.",
+    quickPicks: [
+      { productSlug: "atercel-guantes-gimnasio-transpirables", text: "Guante ligero y ajustado, pensado para pesas y entrenamiento general." },
+      { productSlug: "fitgriff-guantes-gimnasio-acolchados", text: "Guante con acolchado en la palma, para quien lo que más le molesta son las rozaduras." },
+      { productSlug: "adidas-guantes-entrenamiento-esenciales", text: "Guante unisex de una marca deportiva conocida, de uso general." },
+      { productSlug: "pullup-dip-grip-pads-agarre-fitness", text: "Almohadillas de agarre: alternativa para quien no quiere cubrir toda la mano." },
+    ],
+    sections: [
+      {
+        heading: "Cuándo sirven los guantes y cuándo estorban",
+        body: "Los guantes tienen sentido sobre todo para proteger la palma de las manos: reducen las rozaduras y las callosidades que aparecen al agarrar barras, mancuernas o la barra de dominadas con frecuencia. También pueden dar algo más de comodidad en sesiones largas de tracción. En cambio, estorban cuando restan sensibilidad con la barra, cuando se humedecen con el sudor o cuando se usan en ejercicios en los que necesitas notar bien el agarre, como el peso muerto pesado. Si no tienes molestias en las manos, puedes entrenar sin ellos sin ningún problema. Si entrenas con cargas que te exigen mucho agarre, la referencia habitual de las guías de entrenamiento de fuerza es trabajar el agarre con el propio contacto directo y recurrir a accesorios específicos solo cuando haga falta.",
+      },
+      {
+        heading: "Qué mirar al elegir unos guantes",
+        body: "Hay cuatro criterios prácticos. Primero, la talla: un guante grande se desplaza y pierde agarre, y uno pequeño aprieta y molesta, así que conviene seguir la tabla de tallas del fabricante. Segundo, la palma: más acolchado protege más, pero resta tacto con la barra; menos acolchado da más sensibilidad pero protege menos. Tercero, la ventilación: un tejido transpirable ayuda a que la mano no se humedezca tanto durante la sesión. Cuarto, el cierre: algunos modelos incluyen muñequera o cierre ajustable, que aporta sujeción pero no sustituye a una buena técnica. Elige según tu uso: pesas libres, dominadas o entrenamiento mixto.",
+        productSlugs: ["atercel-guantes-gimnasio-transpirables", "fitgriff-guantes-gimnasio-acolchados", "adidas-guantes-entrenamiento-esenciales"],
+      },
+      {
+        heading: "Alternativas a los guantes: almohadillas de agarre",
+        body: "Si los guantes completos no te convencen, las almohadillas de agarre se colocan solo entre la palma y la barra. Protegen la zona de presión y dejan los dedos y el dorso de la mano libres, lo que algunas personas prefieren en dominadas y ejercicios de tracción. Requieren un poco de práctica para colocarlas bien y no son tan versátiles como un guante, pero son una opción razonable. Otras alternativas habituales son las muñequeras de sujeción y las correas de agarre, que se usan sobre todo cuando el agarre es el factor limitante en tracciones con carga alta; son accesorios distintos y se eligen por separado.",
+        productSlug: "pullup-dip-grip-pads-agarre-fitness",
+      },
+    ],
+    comparisonHeading: "Comparativa rápida de los cuatro modelos",
+    comparison: {
+      headers: ["Modelo", "Tipo", "Lo que destaca según el fabricante", "Para quién encaja"],
+      rows: [
+        ["ATERCEL transpirables", "Guante completo", "Tejido transpirable y ajuste ajustado", "Quien busca un guante ligero para pesas y entrenamiento"],
+        ["Fitgriff acolchados", "Guante con acolchado", "Acolchado en la palma", "Quien sufre rozaduras en la palma"],
+        ["adidas esenciales", "Guante unisex", "Marca deportiva conocida, uso general", "Quien prefiere un modelo sencillo de marca conocida"],
+        ["PULLUP & DIP grip pads", "Almohadillas de agarre", "Protegen solo la zona de presión", "Quien prefiere no cubrir toda la mano"],
+      ],
+    },
+    conclusionHeading: "Conclusión",
+    conclusion: "Los guantes no son imprescindibles: sirven si te molestan las manos al entrenar y estorban si te quitan sensibilidad. Elige la talla con cuidado, decide cuánto acolchado necesitas y, si no te convence un guante completo, prueba unas almohadillas de agarre. Antes de comprar, comprueba en la ficha de Amazon la talla, la disponibilidad y las valoraciones de otros compradores, porque nosotros no hemos probado estos productos.",
+    faqsHeading: "Preguntas frecuentes",
+    sources: [
+      { label: "NSCA — National Strength and Conditioning Association", url: "https://www.nsca.com/" },
+      { label: "ACE — American Council on Exercise", url: "https://www.acefitness.org/" },
+    ],
+    faqs: [
+      { q: "¿Son necesarios los guantes para entrenar con pesas?", a: "No. Son un accesorio opcional que puede ayudar a evitar rozaduras y callosidades. Si no tienes molestias en las manos, puedes entrenar sin ellos." },
+      { q: "¿Los guantes quitan fuerza de agarre?", a: "Pueden restar sensibilidad con la barra, sobre todo si son muy acolchados. Si el agarre es clave en tu ejercicio, puede convenir un modelo fino o entrenar sin guantes." },
+      { q: "¿Cómo elijo la talla de unos guantes de gimnasio?", a: "Sigue la tabla de tallas del fabricante, normalmente basada en la medida de la mano. Un guante que se mueve pierde agarre y uno demasiado ajustado resulta incómodo." },
+      { q: "¿Qué diferencia hay entre guantes y almohadillas de agarre?", a: "El guante cubre la mano; la almohadilla se coloca solo entre la palma y la barra. La almohadilla deja los dedos libres, pero requiere algo de práctica." },
+    ],
+  },
   "suplementos-recuperacion-muscular-magnesio-omega3-bcaa": {
     intro:
       "La sección de suplementos de cualquier tienda de nutrición deportiva está llena de productos con promesas de \"recuperación acelerada\". La mayoría no tiene evidencia sólida detrás. Este artículo se centra en tres que sí la tienen en distinto grado —magnesio, omega-3 y BCAA— y en ser honestos sobre qué puede esperarse realmente de cada uno, para qué perfil de persona tiene sentido y en qué orden de prioridad conviene comprarlos si el presupuesto es limitado.",
