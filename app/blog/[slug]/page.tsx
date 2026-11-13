@@ -32,17 +32,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Enlaces internos en bloques de texto: la sintaxis [texto](/ruta) se convierte en <Link>.
 // Solo rutas internas (empiezan por "/"); los artículos que no la usan se pintan igual que antes.
-const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+const INTERNAL_LINK = /\[([^\]]+)\]\((\/[^)\s]*|https:\/\/clk\.tradedoubler\.com\/click[^)\s]*)\)/g;
 function richText(text: string): ReactNode {
   const out: ReactNode[] = [];
   let last = 0;
   for (const m of text.matchAll(INTERNAL_LINK)) {
     const i = m.index ?? 0;
     if (i > last) out.push(text.slice(last, i));
+    const cls = "text-green-700 hover:text-green-900 underline underline-offset-2";
     out.push(
-      <Link key={i} href={m[2]} className="text-green-700 hover:text-green-900 underline underline-offset-2">
-        {m[1]}
-      </Link>,
+      m[2].startsWith("http") ? (
+        <a key={i} href={m[2]} target="_blank" rel="sponsored noopener" className={cls}>
+          {m[1]}
+        </a>
+      ) : (
+        <Link key={i} href={m[2]} className={cls}>
+          {m[1]}
+        </Link>
+      ),
     );
     last = i + m[0].length;
   }
@@ -2893,7 +2900,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "La whey económica para completar la proteína diaria",
-        body: "Si el objetivo es simplemente llegar a la ingesta proteica sin gastar de más, la Myprotein Impact Whey cumple sobradamente con un coste por servicio contenido. Cualquier whey de calidad sirve para este propósito; lo que determina el resultado no es la marca, sino llegar al total de proteína del día.",
+        body: "Si el objetivo es simplemente llegar a la ingesta proteica sin gastar de más, la Myprotein Impact Whey cumple sobradamente con un coste por servicio contenido. Cualquier whey de calidad sirve para este propósito; lo que determina el resultado no es la marca, sino llegar al total de proteína del día. Si prefieres comparar con otra tienda especializada, también puedes mirar el catálogo de [Sportlive Nutrition](https://clk.tradedoubler.com/click?p=362254&a=3505836). Sea cual sea la marca, fíjate en lo mismo: los gramos de proteína por ración, la lista de ingredientes y el tamaño del envase. Como dice el apartado anterior, lo importante no es la marca, sino llegar al total de proteína del día.",
         productSlug: "myprotein-impact-whey-1kg-galletas",
       },
       {
