@@ -3125,7 +3125,7 @@ const articleContent: Record<string, {
       },
       {
         heading: "Nivel 1 — creatina: el único suplemento con evidencia sólida para fuerza",
-        body: "La creatina es el suplemento con mayor respaldo científico para mejorar el rendimiento en fuerza y potencia. Es barata, segura y efectiva. Si solo vas a tomar un suplemento, que sea este: su relación entre coste y beneficio no la iguala ningún otro producto.",
+        body: "La creatina es el suplemento con mayor respaldo científico para mejorar el rendimiento en fuerza y potencia. Es barata, segura y efectiva. Si solo vas a tomar un suplemento, que sea este: su relación entre coste y beneficio no la iguala ningún otro producto. Si quieres comparar con otra marca especializada en suplementación deportiva, puedes mirar también la creatina de [Vitastrong](https://clk.tradedoubler.com/click?p=405503&a=3505836). Sea cual sea la marca, comprueba que el envase indique los gramos de creatina monohidrato por ración y que la lista de ingredientes no incluya añadidos innecesarios.",
         productSlug: "myprotein-creatina-monohidrato-250g",
       },
       {
