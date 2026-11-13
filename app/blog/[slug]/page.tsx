@@ -2343,6 +2343,61 @@ const articleContent: Record<string, {
     ],
   },
 
+  "regalos-fitness-navidad-entrenar-en-casa": {
+    intro: "Acertar con un regalo para alguien que entrena en casa es más fácil si piensas en cómo entrena y no en el aparato más llamativo. Aquí van cinco ideas del catálogo, con quién encaja cada una y qué conviene comprobar antes de comprar. Ninguno de los productos ha sido probado por nosotros: los datos proceden de la descripción del fabricante en Amazon, y en cada ficha puedes ver la disponibilidad actual.",
+    quickPicks: [
+      { productSlug: "lullax-neo36-mancuernas-ajustables", text: "Par de mancuernas ajustables de 2,5 a 36 kg con base, para quien ya entrena fuerza." },
+      { productSlug: "jowy-kettlebell-pvc-16kg", text: "Kettlebell de 16 kg de PVC relleno de arena de acero, que no daña los suelos." },
+      { productSlug: "fokky-bandas-elasticas-set-4-tpe", text: "Set de 4 bandas elásticas de TPE, un regalo económico y fácil de guardar." },
+      { productSlug: "la-mente-es-maravillosa-esterilla-tpe", text: "Esterilla de TPE para yoga, estiramientos y trabajo de suelo." },
+      { productSlug: "walkingpad-r1-pro-cinta-plegable", text: "Cinta plegable para andar bajo el escritorio, hasta 6 km/h, con control por app o mando." },
+    ],
+    sections: [
+      {
+        heading: "Cómo elegir el regalo según cómo entrena la persona",
+        body: "Antes de comprar, tres preguntas ayudan a acertar. Primera: ¿dónde entrena y de cuánto espacio dispone? Una cinta o unas mancuernas con base ocupan más que unas bandas. Segunda: ¿qué material tiene ya? Regalar algo que ya posee es el error más habitual, así que merece la pena preguntar de forma discreta. Tercera: ¿cuál es su nivel? A quien empieza le conviene algo sencillo y versátil; a quien lleva tiempo entrenando le sirve más un complemento que le permita progresar. Si dudas, un regalo pequeño y útil suele funcionar mejor que uno grande y poco adecuado.",
+      },
+      {
+        heading: "Para quien entrena fuerza: mancuernas ajustables y kettlebell",
+        body: "Las mancuernas ajustables LULLAX NEO36 cubren, según el fabricante, un rango de 2,5 a 36 kg en 14 posiciones, vienen en par y con base, y equivalen a varias parejas de mancuernas tradicionales en un solo espacio. Son una opción para quien quiere progresar sin llenar la casa de pesas. La kettlebell JOWY de 16 kg es de PVC relleno de arena de acero, con mango ergonómico y sin dañar los suelos; encaja en quien ya tiene una base de fuerza y quiere ejercicios de cuerpo completo. Antes de regalar una kettlebell, conviene que la persona sepa qué peso maneja con comodidad.",
+        productSlugs: ["lullax-neo36-mancuernas-ajustables", "jowy-kettlebell-pvc-16kg"],
+      },
+      {
+        heading: "Regalos pequeños y fáciles de guardar: bandas y esterilla",
+        body: "Un set de bandas elásticas es una idea económica para quien empieza o para quien viaja, porque ocupa muy poco y sirve para trabajo de fuerza y movilidad. La esterilla de TPE es un clásico útil para yoga, estiramientos y ejercicios de suelo. En ambos casos conviene fijarse en que el material y el grosor se ajusten al uso que va a tener, y en que la persona no tenga ya una.",
+        productSlugs: ["fokky-bandas-elasticas-set-4-tpe", "la-mente-es-maravillosa-esterilla-tpe"],
+      },
+      {
+        heading: "Para quien pasa el día sentado: cinta plegable bajo el escritorio",
+        body: "La cinta plegable WalkingPad C2 está pensada para andar, no para correr: llega hasta 6 km/h, monta un motor de 2,0 HP, se controla con la app KS Fit o con mando a distancia, no necesita montaje y pesa 25 kg. Es una opción para quien teletrabaja y quiere moverse más durante el día. Es un regalo de mayor tamaño, así que comprueba que haya sitio para guardarla y que la persona la vaya a usar.",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
+      },
+    ],
+    comparisonHeading: "Comparativa rápida de los cinco regalos",
+    comparison: {
+      headers: ["Regalo", "Para quién encaja", "Espacio que ocupa", "Qué comprobar"],
+      rows: [
+        ["LULLAX NEO36 mancuernas ajustables", "Quien entrena fuerza y quiere progresar", "Medio: par con base", "Que no tenga ya mancuernas ajustables"],
+        ["JOWY kettlebell 16 kg", "Quien ya tiene base de fuerza", "Pequeño", "Que el peso se ajuste a su nivel"],
+        ["FOKKY set de 4 bandas", "Quien empieza o viaja", "Muy pequeño", "Que no tenga ya bandas"],
+        ["Esterilla de TPE", "Yoga, estiramientos y suelo", "Pequeño (enrollada)", "Grosor y tamaño adecuados"],
+        ["WalkingPad C2 plegable", "Quien teletrabaja y quiere moverse", "Grande: plegada ocupa menos", "Sitio para guardarla y uso real"],
+      ],
+    },
+    conclusionHeading: "Conclusión",
+    conclusion: "El mejor regalo es el que encaja con cómo y dónde entrena la persona. Si dudas, una opción pequeña y versátil como las bandas o la esterilla acierta con más facilidad que un aparato grande. Antes de comprar, comprueba en Amazon la disponibilidad, los plazos de entrega y las valoraciones de otros compradores, porque nosotros no hemos probado estos productos.",
+    faqsHeading: "Preguntas frecuentes",
+    sources: [
+      { label: "ACSM — American College of Sports Medicine", url: "https://www.acsm.org/" },
+      { label: "ACE — American Council on Exercise", url: "https://www.acefitness.org/" },
+    ],
+    faqs: [
+      { q: "¿Qué regalo fitness es más seguro si no sé qué tiene ya la persona?", a: "Una opción pequeña y versátil, como un set de bandas elásticas o una esterilla, suele ser la más segura. Si puedes, pregunta de forma discreta qué material usa." },
+      { q: "¿Conviene regalar una cinta de andar plegable?", a: "Solo si la persona la va a usar y tiene sitio para guardarla. Es un regalo de mayor tamaño y la cinta que revisamos está pensada para andar, no para correr." },
+      { q: "¿Las mancuernas ajustables sirven para principiantes?", a: "Sí, porque permiten empezar con poco peso y subir poco a poco. Aun así, conviene que la persona aprenda primero la técnica de los ejercicios." },
+      { q: "¿Dónde comprobar si el producto está disponible y llega a tiempo?", a: "En la ficha de Amazon de cada producto, donde aparecen la disponibilidad y la fecha estimada de entrega en ese momento." },
+    ],
+  },
   "entrenamiento-fuerza-casa-equipamiento-minimo": {
     intro: "Un home gym eficaz no requiere mucho espacio ni mucho dinero. Requiere elegir bien. Con tres piezas de equipamiento bien seleccionadas, con un presupuesto total contenido, puedes cubrir todos los patrones de movimiento fundamentales y entrenar durante años sin necesitar nada más. Esta guía explica qué comprar y por qué esa combinación concreta funciona.",
     sections: [
