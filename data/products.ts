@@ -3582,7 +3582,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     shortDescription: "Mochila de 35 litros de Quechua con cinturón acolchado, espalda ventilada AirCooling, bolsillos seguros y compartimento para bolsa de agua.",
     fullDescription: "Mochila de montaña y trekking de Quechua (Decathlon), modelo MH100 de 35 litros en negro ahumado. Según la ficha, ofrece confort con cinturón acolchado y espalda ventilada con tecnología AirCooling, bolsillos seguros y un compartimento para bolsa de agua. No se ha probado el producto.",
     pros: ["Vendida y enviada por Decathlon", "Cinturón acolchado", "Espalda ventilada AirCooling, según la ficha", "Compartimento para bolsa de agua"],
-    cons: ["35 litros pueden quedarse justos o sobrar según la ruta, la época y lo que lleves: conviene probar con el equipaje real", "La ficha no incluye una funda de lluvia: se vende aparte"],
+    cons: ["35 litros pueden quedarse justos o sobrar según la ruta, la época y lo que lleves: conviene probar con el equipaje real"],
     specs: {"Marca": "Quechua", "Modelo": "MH100", "Capacidad": "35 L", "Espalda": "Ventilada AirCooling", "Cinturón": "Acolchado"},
     relatedPosts: ["que-llevar-camino-de-santiago-lista-mochila"],
   },
