@@ -3471,6 +3471,24 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     specs: {"Capacidad": "600 ml", "Mezclador": "Bola de alambre", "Tapa": "Segura, antifugas", "Uso": "Batidos de proteínas y bebidas de entreno"},
     relatedPosts: ["proteina-whey-antes-despues-entreno", "proteina-whey-guia-completa", "regalos-fitness-navidad"],
   },
+  {
+    slug: "domyos-comba-velocidad-cross-training-negra",
+    name: "Domyos Comba de velocidad Cross Training Speed Jump Rope",
+    offers: [{ store: "decathlon", path: "comba-velocidad-cross-training-speed-jump-rope-domyos-negra/331971/c381c109m8641821" }],
+    // Comprobada en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendida y enviada por Decathlon.
+    categorySlug: "accesorios-gimnasio",
+    categoryName: "Accesorios de gimnasio",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Comba de velocidad de Domyos para cross training, pensada para aprender o perfeccionar los saltos dobles, con rodamiento de bolas y longitud ajustable.",
+    fullDescription: "Comba de velocidad de Domyos (Decathlon) para cross training, que el fabricante presenta como ideal para aprender o perfeccionar los saltos dobles (double under) en entrenamientos y WODs. Según la ficha, lleva un rodamiento de bolas de gran velocidad de rotación, empuñaduras largas para acelerar el giro y una longitud de cuerda ajustable. Color negro grafito y verde caqui. Garantía de 2 años. No se ha probado el producto.",
+    pros: ["Vendida y enviada por Decathlon","Rodamiento de bolas pensado para giro rápido","Longitud de cuerda ajustable","Orientada a saltos dobles y cross training"],
+    cons: ["Está pensada para velocidad y saltos dobles: para un calentamiento básico puede ser más de lo necesario"],
+    specs: { "Marca": "Domyos", "Uso": "Cross training, saltos dobles", "Rodamiento": "Bolas", "Longitud": "Ajustable", "Garantía": "2 años" },
+    relatedPosts: ["hiit-en-casa-principiantes","rutina-entrenamiento-casa-sin-equipamiento","regalos-fitness-navidad"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
