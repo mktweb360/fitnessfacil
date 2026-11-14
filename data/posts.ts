@@ -1424,8 +1424,9 @@ categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
     date: "2026-11-14",
     category: "Running",
     readTime: "8 min",
+    relatedProducts: ["kiprun-jogflow-100-1-zapatillas-running-hombre", "kiprun-jogflow-100-1-zapatillas-running-mujer"],
     relatedPosts: ["calentamiento-vuelta-calma-entrenar-casa", "medir-intensidad-ejercicio-casa-sin-pulsometro", "estiramientos-despues-ejercicio", "cinta-correr-plegable-piso-pequeno"],
-    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas de correr →" },
+    categoryCta: { href: "/tienda/running", text: "Ver zapatillas de iniciación →" },
   },
 ];
 
