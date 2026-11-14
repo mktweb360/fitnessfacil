@@ -1414,6 +1414,19 @@ categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
     relatedPosts: ["calzado-camino-de-santiago-como-elegir", "entrenar-caminando-casa-beneficios", "estiramientos-despues-ejercicio"],
     categoryCta: { href: "/tienda/senderismo", text: "Ver calzado y equipo de senderismo →" },
   },
+  {
+    slug: "primera-10k-san-silvestre-plan-7-semanas",
+    image: "/images/blog/primera-10k-san-silvestre-plan-7-semanas.jpg",
+    title: "Tu primera 10K en la San Silvestre: plan de 7 semanas, salud y material básico",
+    seoTitle: "Primera 10K San Silvestre: plan de 7 semanas",
+    excerpt:
+      "Cómo preparar tu primera 10K antes del 31 de diciembre: chequeo previo, plan orientativo de 7 semanas, fuerza y recuperación, con fuentes del Ministerio de Sanidad.",
+    date: "2026-11-14",
+    category: "Running",
+    readTime: "8 min",
+    relatedPosts: ["calentamiento-vuelta-calma-entrenar-casa", "medir-intensidad-ejercicio-casa-sin-pulsometro", "estiramientos-despues-ejercicio", "cinta-correr-plegable-piso-pequeno"],
+    categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas de correr →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
