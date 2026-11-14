@@ -84,6 +84,154 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "primera-10k-san-silvestre-plan-7-semanas": {
+    "intro": "El 31 de diciembre es la fecha de las San Silvestres, y desde mediados de noviembre queda algo menos de siete semanas: poco para quien parte de cero, suficiente para quien ya camina o trota con regularidad. La San Silvestre Vallecana de Madrid, según la agenda oficial de turismo de la ciudad, se celebra cada 31 de diciembre desde 1964 y en 2026 cumple su 62ª edición. Esta guía no promete marcas: explica qué recomienda el Ministerio de Sanidad sobre actividad física, propone un plan orientativo de siete semanas que es nuestro, no una pauta oficial, y señala qué comprobar antes de inscribirte. Si tienes alguna enfermedad crónica o dudas sobre tu corazón o tus articulaciones, empieza por tu médico.",
+    "sections": [
+      {
+        "heading": "Primero, comprueba si estás en condiciones de empezar",
+        "body": "El Ministerio de Sanidad señala que para mejorar la salud los adultos deben acumular al menos 150 minutos a la semana de actividad moderada, que se pueden sumar en periodos de 10 minutos o más, y que su folleto más reciente da como referencia de 150 a 300 minutos de actividad moderada, de 75 a 150 de vigorosa o una combinación equivalente. Si ahora mismo no llegas a esos 150 minutos, el objetivo de las primeras semanas es llegar a ellos caminando o trotando suave, no entrenar para la carrera. La American Heart Association recomienda, en caso de afección crónica o discapacidad, hablar con un profesional de la salud sobre qué tipo y cantidad de actividad es adecuada antes de hacer cambios importantes."
+      },
+      {
+        "heading": "Qué es la San Silvestre Vallecana y dónde inscribirte",
+        "body": "Es una prueba de 10 km que se corre en Madrid cada 31 de diciembre. La agenda de esMadrid la describe como la prueba atlética más multitudinaria de España y recuerda que existen la modalidad popular y la internacional, además de una versión infantil. Las inscripciones se gestionan en la web oficial de la carrera, donde debes comprobar si quedan dorsales, el plazo, el precio y el reglamento vigente, porque cambian cada edición. El Ayuntamiento de Madrid informó de que en la edición anterior se alcanzó la cifra de 42.000 inscritos, así que no conviene dejarlo para el último día. Si no vives en Madrid, muchas ciudades organizan su propia San Silvestre; por ejemplo, la de Zaragoza publica su reglamento en la web de la Federación Aragonesa de Atletismo. Busca la de tu zona en el calendario de tu federación autonómica."
+      },
+      {
+        "heading": "Un plan orientativo de siete semanas (propuesta nuestra)",
+        "body": "Es un plan para alguien que ya puede caminar 30 minutos seguidos sin molestias y quiere correr o trotar los 10 km sin batir ningún récord. No procede de una fuente oficial: es un esquema progresivo con tres sesiones por semana, basado en minutos y no en kilómetros, con una semana final de descarga. Los tiempos de cada sesión y las pausas caminando son orientativos y deben ajustarse a cómo te sientas; si una sesión te deja con dolor que no cede, repite la semana anterior o consulta a un profesional. La tabla siguiente resume el plan. Antes de cada sesión haz un calentamiento breve y después estira, como explican nuestras guías de [calentamiento y vuelta a la calma](/blog/calentamiento-vuelta-calma-entrenar-casa) y de [estiramientos después del ejercicio](/blog/estiramientos-despues-ejercicio)."
+      },
+      {
+        "heading": "Cómo medir el esfuerzo sin reloj",
+        "body": "En las sesiones suaves deberías poder hablar con frases cortas. Si no puedes, bajas el ritmo o intercalas más pausas caminando. Tenemos una guía para [medir la intensidad sin pulsómetro](/blog/medir-intensidad-ejercicio-casa-sin-pulsometro) que sirve igual para correr en la calle."
+      },
+      {
+        "heading": "Fuerza, descanso y frío",
+        "body": "Dos sesiones breves de fuerza a la semana con el peso corporal, como sentadillas, zancadas y planchas, complementan el trabajo de carrera; es una recomendación nuestra de entrenamiento, no una cifra de las fuentes citadas. Distribuye los días para no correr dos seguidos al empezar. A finales de diciembre hace frío: sal con capas que puedas quitar, protege manos y cabeza y calienta más tiempo. Si el tiempo o la luz te impiden salir, una [cinta de correr plegable](/blog/cinta-correr-plegable-piso-pequeno) en casa permite mantener las sesiones, aunque no es imprescindible para correr 10 km."
+      },
+      {
+        "heading": "El día de la carrera",
+        "body": "Sal con un ritmo que te permita acabar con energía, sin seguir a quienes te adelantan en el primer kilómetro. Lleva ropa que ya hayas usado en tus entrenamientos y no estrenes nada ese día, ni calzado ni comida. Comprueba en el reglamento oficial qué se permite llevar, cómo es la recogida del dorsal y los horarios de salida, porque dependen de la edición. Al acabar, camina un rato y toma algo caliente."
+      }
+    ],
+    "plan": [
+      {
+        "week": "Semana 1 (16–22 nov)",
+        "description": "Construir la base: caminar con trote muy suave.",
+        "sessions": [
+          "Caminar 30 min a paso ligero",
+          "Caminar 30 min con 5 bloques de 1 min de trote suave",
+          "Caminar 35 min con 5 bloques de 1 min de trote suave"
+        ]
+      },
+      {
+        "week": "Semana 2 (23–29 nov)",
+        "description": "Más trote, siempre conversando.",
+        "sessions": [
+          "Alternar 2 min de trote y 2 min caminando, 25 min",
+          "Caminar 30 min con 6 bloques de 2 min de trote",
+          "Alternar 3 min de trote y 2 min caminando, 30 min"
+        ]
+      },
+      {
+        "week": "Semana 3 (30 nov–6 dic)",
+        "description": "Trote continuo corto.",
+        "sessions": [
+          "Trote suave 15 min seguidos con calentamiento caminando",
+          "Alternar 5 min de trote y 1 min caminando, 30 min",
+          "Trote suave 20 min seguidos"
+        ]
+      },
+      {
+        "week": "Semana 4 (7–13 dic)",
+        "description": "Subir el tiempo de la sesión larga.",
+        "sessions": [
+          "Trote suave 20 min",
+          "Alternar 8 min de trote y 1 min caminando, 36 min",
+          "Trote suave 30 min"
+        ]
+      },
+      {
+        "week": "Semana 5 (14–20 dic)",
+        "description": "Semana de mayor volumen.",
+        "sessions": [
+          "Trote suave 25 min",
+          "Alternar 10 min de trote y 1 min caminando, 44 min",
+          "Trote suave 40 a 50 min, con pausas caminando si las necesitas"
+        ]
+      },
+      {
+        "week": "Semana 6 (21–27 dic)",
+        "description": "Empezar a descargar.",
+        "sessions": [
+          "Trote suave 25 min",
+          "Trote suave 30 min",
+          "Sesión larga más corta que la de la semana 5"
+        ]
+      },
+      {
+        "week": "Semana 7 (28–31 dic)",
+        "description": "Semana de carrera: poco volumen y descanso.",
+        "sessions": [
+          "Trote suave 20 min el lunes o martes",
+          "Descanso o caminar 20 min",
+          "31 de diciembre: carrera"
+        ]
+      }
+    ],
+    "conclusion": "Siete semanas dan para llegar a la línea de salida con una base razonable si partes de caminar con regularidad, y no dan para improvisar si partes de cero absoluto. Lo prudente es confirmar con tu médico que puedes empezar, inscribirte en la web oficial antes de que se agoten los dorsales y tratar el plan de esta guía como un esquema orientativo, que ajustas a cómo respondes. Esta guía es informativa y no sustituye la valoración de un profesional sanitario o de un entrenador.",
+    "faqsHeading": "Preguntas frecuentes sobre la primera 10K",
+    "sources": [
+      {
+        "label": "esMadrid (Ayuntamiento de Madrid): San Silvestre Vallecana (consultado el 14/11/2026)",
+        "url": "https://www.esmadrid.com/agenda/sansilvestre-madrid"
+      },
+      {
+        "label": "Diario de Madrid, Puente de Vallecas: San Silvestre Vallecana, la carrera de todos (29/12/2025; consultado el 14/11/2026)",
+        "url": "https://diario.madrid.es/puentevallecas/2025/12/29/san-silvestre-vallecana-la-carrera-de-todos/"
+      },
+      {
+        "label": "Ministerio de Sanidad: recomendaciones de actividad física (estilos de vida saludable; consultado el 14/11/2026)",
+        "url": "https://estilosdevidasaludable.sanidad.gob.es/eu/actividadFisica/docs/ActividadFisica.pdf"
+      },
+      {
+        "label": "Ministerio de Sanidad: folleto de actividad física, 150-300 minutos de actividad moderada o 75-150 de vigorosa (consultado el 14/11/2026)",
+        "url": "https://wwwtest.sanidad.gob.es/areas/promocionPrevencion/estrategiaSNS/materialesDeRefuerzo/docs/Folleto_ActividadFisica.pdf"
+      },
+      {
+        "label": "American Heart Association: recomendaciones de actividad física para adultos (consultado el 14/11/2026)",
+        "url": "https://goredforwomen.org/es/healthy-living/fitness/fitness-basics/aha-recs-for-physical-activity-in-adults"
+      },
+      {
+        "label": "Federación Aragonesa de Atletismo: reglamento San Silvestre Zaragoza 2025 (consultado el 14/11/2026)",
+        "url": "https://www.federacionaragonesadeatletismo.com/wp-content/uploads/2025/12/Reglamento-San-Silvestre-Zaragoza-2025.pdf"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuándo es la San Silvestre Vallecana 2026?",
+        "a": "El 31 de diciembre, según la agenda de esMadrid, que indica que se celebra cada 31 de diciembre desde 1964 y que en 2026 es su 62ª edición. Los horarios y las modalidades están en la web oficial de la carrera."
+      },
+      {
+        "q": "¿Puedo preparar una 10K en siete semanas?",
+        "a": "Depende de tu punto de partida. Si ya caminas 30 minutos seguidos, el plan orientativo de esta guía es una opción; si no, conviene ir más despacio o marcarte otra carrera. No es una pauta oficial."
+      },
+      {
+        "q": "¿Cuánta actividad física recomienda Sanidad a un adulto?",
+        "a": "El Ministerio de Sanidad indica un mínimo de 150 minutos semanales de actividad moderada, y en su material más reciente habla de 150 a 300 minutos moderados o 75 a 150 vigorosos, o una combinación equivalente."
+      },
+      {
+        "q": "¿Necesito un chequeo médico antes de empezar a correr?",
+        "a": "Si tienes una afección crónica o dudas sobre tu salud, la American Heart Association recomienda hablar antes con un profesional sanitario. Esta guía no puede valorar tu caso."
+      },
+      {
+        "q": "¿Qué hago si no consigo dorsal en Madrid?",
+        "a": "Muchas ciudades organizan su San Silvestre; consulta el calendario de tu federación autonómica. La preparación de esta guía sirve para cualquier 10K."
+      },
+      {
+        "q": "¿Hace falta una cinta de correr?",
+        "a": "No. Puede ayudar a mantener las sesiones cuando hace mal tiempo, pero se puede preparar una 10K en la calle."
+      }
+    ]
+  },
   "que-llevar-camino-de-santiago-lista-mochila": {
     "intro": "Quien busca qué llevar al Camino de Santiago suele querer una lista cerrada, pero las fuentes oficiales dan pautas y no un inventario con kilos. La guía de emergencias de Protección Civil de la Xunta de Galicia (2018) recuerda que cuantas más cosas se transportan, más peso hay que soportar, propone entrenar con el equipo o un peso equivalente y da una referencia de trayectos de unos 20 o 25 km al día. Esta guía ordena el equipaje por bloques con esas pautas y las de los podólogos, y presenta cinco productos de Decathlon con stock el 14/11/2026. Para el calzado hay una [guía propia](/blog/calzado-camino-de-santiago-como-elegir).",
     "quickPicks": [
