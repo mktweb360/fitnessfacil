@@ -84,6 +84,142 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "que-llevar-camino-de-santiago-lista-mochila": {
+    "intro": "Quien busca qué llevar al Camino de Santiago suele querer una lista cerrada, pero las fuentes oficiales dan pautas y no un inventario con kilos. La guía de emergencias de Protección Civil de la Xunta de Galicia (2018) recuerda que cuantas más cosas se transportan, más peso hay que soportar, propone entrenar con el equipo o un peso equivalente y da una referencia de trayectos de unos 20 o 25 km al día. Esta guía ordena el equipaje por bloques con esas pautas y las de los podólogos, y presenta cinco productos de Decathlon con stock el 14/11/2026. Para el calzado hay una [guía propia](/blog/calzado-camino-de-santiago-como-elegir).",
+    "quickPicks": [
+      {
+        "productSlug": "quechua-mh100-mochila-trekking-35l",
+        "text": "Mochila de 35 litros con cinturón acolchado, espalda ventilada y compartimento para bolsa de agua, según la ficha."
+      },
+      {
+        "productSlug": "quechua-funda-lluvia-mochila-20-40l",
+        "text": "Funda de poliéster revestido para mochilas de 20 a 40 litros, con funda de guardado impermeable."
+      },
+      {
+        "productSlug": "forclaz-mt50-poncho-impermeable-montana",
+        "text": "Poncho ligero y compacto para guardar en la mochila, en tallas S/M y L/XL."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Primero el peso: lo que dice la Xunta y lo que no",
+        "body": "La guía de la Xunta no fija ningún porcentaje del peso corporal ni un máximo en kilos para la mochila, así que cualquier cifra que circule por ahí no viene de esa fuente. Lo que sí dice es que conviene entrenar al menos una semana con el equipo o con un peso equivalente. En la práctica, mete en la mochila lo que piensas llevar, cárgala unos días en tus paseos largos y quita lo que no hayas usado. Si no tienes rutina de caminar, [entrenar caminando](/blog/entrenar-caminando-casa-beneficios) puede servir de base."
+      },
+      {
+        "heading": "La mochila",
+        "body": "Elige una que se ajuste bien al cuerpo y prueba el ajuste con carga. La Quechua MH100 de 35 litros tiene, según la ficha, cinturón acolchado, espalda ventilada con tecnología AirCooling, bolsillos seguros y compartimento para bolsa de agua. Cuántos litros hacen falta depende de la época, la ruta y lo que lleves: una guía de peregrinos, Albergues del Camino, apunta que a muchos les basta una mochila de tamaño medio y que una demasiado grande invita a cargar de más. Prueba el volumen con tu equipaje real antes de decidir.",
+        "productSlug": "quechua-mh100-mochila-trekking-35l"
+      },
+      {
+        "heading": "Documentación y credencial",
+        "body": "Lleva tu documentación personal y la credencial del peregrino. La Oficina del Peregrino exige haber recorrido al menos los últimos 100 kilómetros a pie o a caballo, o 200 en bicicleta, acreditados con la credencial sellada. Protégela de la humedad."
+      },
+      {
+        "heading": "Ropa y lluvia",
+        "body": "La Xunta aconseja ropa ligera de algodón y gorra para el sol en verano, y ropa de abrigo, guantes, lana e impermeable en invierno, y sitúa la ropa de abrigo y para la lluvia entre el material imprescindible. Para el agua tienes dos piezas distintas: el poncho cubre a la persona y, según Decathlon, es ligero y compacto; la funda de lluvia protege solo la mochila, de 20 a 40 litros según la ficha. Cada una resuelve un problema diferente, y la decisión depende de la época en la que vayas.",
+        "productSlugs": [
+          "forclaz-mt50-poncho-impermeable-montana",
+          "quechua-funda-lluvia-mochila-20-40l"
+        ]
+      },
+      {
+        "heading": "Pies: calzado, calcetines y chanclas",
+        "body": "El calzado merece su propia guía: [calzado para el Camino de Santiago](/blog/calzado-camino-de-santiago-como-elegir) explica por qué no hay que estrenarlo, qué piden los podólogos y cómo elegir entre bota y zapatilla. En el equipaje, el Colegio de Podólogos de Castilla y León añade chanclas de baño para las duchas colectivas y calcetines que absorban la humedad, y una rutina de cuidado de los pies al terminar la etapa. Lleva más de un par de calcetines y lava y seca los usados cada día.",
+        "productSlug": "quechua-hike-50-calcetines-altos-trekking-2-pares"
+      },
+      {
+        "heading": "Agua, botiquín y protección",
+        "body": "La Xunta pide llevar cantimplora con agua en las etapas y beber solo agua apta para el consumo o envasada. Para el botiquín propone uno ligero con analgésicos, tiritas y gasas, aguja e hilo y vaselina, y menciona también agua oxigenada, alcohol, povidona yodada, antiinflamatorio, antidiarreico, protector solar y repelente de insectos. Si tomas medicación, consúltala con tu médico antes de salir."
+      },
+      {
+        "heading": "Bastones: opcional",
+        "body": "Los bastones son una decisión personal; las fuentes oficiales consultadas no los incluyen entre lo imprescindible. El Forclaz MT100 de Decathlon se vende por unidad, tiene ajuste push-pin según la ficha y 3 años de garantía. Si quieres usar dos, tienes que añadir dos unidades.",
+        "productSlug": "forclaz-mt100-baston-telescopico-1-unidad"
+      },
+      {
+        "heading": "Qué dejar en casa",
+        "body": "Lo que no sea imprescindible, se queda en casa. Albergues del Camino señala que todo lo accesorio se puede comprar en tiendas y farmacias a lo largo del trayecto, así que no hace falta cargar \"por si acaso\". Un buen ejercicio es hacer la lista, separar lo imprescindible de lo cómodo y llevar solo lo primero."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Producto",
+        "Qué dice la ficha",
+        "Ojo"
+      ],
+      "rows": [
+        [
+          "Quechua MH100 mochila 35 L",
+          "Cinturón acolchado; espalda AirCooling; compartimento para bolsa de agua",
+          "Probar el volumen con el equipaje real"
+        ],
+        [
+          "Funda de lluvia 20/40 L",
+          "Poliéster revestido; funda de guardado impermeable",
+          "Solo protege la mochila"
+        ],
+        [
+          "Forclaz MT50 poncho",
+          "Ligero y compacto; tallas S/M y L/XL",
+          "Ventila peor que una chaqueta técnica"
+        ],
+        [
+          "Forclaz MT100 bastón",
+          "Ajuste push-pin; garantía de 3 años; 1 unidad",
+          "Para un par hay que comprar dos"
+        ],
+        [
+          "Quechua Hike 50 calcetines",
+          "Pack de 2 pares; costuras planas; refuerzo en talón y puntera",
+          "Llevar más de dos pares o lavarlos a diario"
+        ]
+      ]
+    },
+    "comparisonHeading": "Resumen de los productos de esta guía",
+    "conclusion": "Lo que las fuentes oficiales respaldan es poco y claro: lleva solo lo necesario, entrena con tu equipaje, protégete de la lluvia y del sol, bebe agua apta y lleva un botiquín ligero. El resto depende de la época y de ti. Haz la lista, cárgala en la mochila y recorta. Esta guía es informativa: si tienes una enfermedad o tomas medicación, consulta a tu médico antes de planificar el Camino.",
+    "faqsHeading": "Preguntas frecuentes sobre qué llevar al Camino de Santiago",
+    "sources": [
+      {
+        "label": "Protección Civil de la Xunta de Galicia — Guía de emergencias para la peregrinación por los Caminos de Santiago (2018; consultado el 14/11/2026)",
+        "url": "https://www.turismo.gal/docs/mdaw/mzmx/~edisp/turga331848.pdf"
+      },
+      {
+        "label": "Colegio Oficial de Podólogos de Castilla y León — Que tus pies no te dejen a medio Camino (consultado el 14/11/2026)",
+        "url": "https://www.saludcastillayleon.es/en/camino-santiago/consejos-preventivos/pies-dejen-medio-camino"
+      },
+      {
+        "label": "Oficina del Peregrino de Santiago de Compostela — requisitos de la Compostela (consultado el 14/11/2026)",
+        "url": "https://oficinadelperegrino.com/en/?p=292"
+      },
+      {
+        "label": "Albergues del Camino de Santiago — Guía de equipamiento y mochila (guía privada, consultada el 14/11/2026)",
+        "url": "https://www.alberguescaminosantiago.com/consejos/equipamiento-mochila/"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto debe pesar la mochila del Camino de Santiago?",
+        "a": "La guía de emergencias de la Xunta no da una cifra. Lo que recomienda es entrenar al menos una semana con el equipo o con un peso equivalente. Prueba tu mochila cargada en caminatas largas y quita lo que no uses."
+      },
+      {
+        "q": "¿Qué es imprescindible llevar?",
+        "a": "La Xunta incluye entre el material imprescindible la ropa de abrigo y para la lluvia, y pide llevar cantimplora con agua. Añade la credencial del peregrino, el calzado probado y un botiquín ligero."
+      },
+      {
+        "q": "¿Qué lleva el botiquín de un peregrino?",
+        "a": "Según la Xunta, uno ligero con analgésicos, tiritas y gasas, aguja e hilo y vaselina, y también agua oxigenada, alcohol, povidona yodada, antiinflamatorio, antidiarreico, protector solar y repelente de insectos."
+      },
+      {
+        "q": "¿Hacen falta bastones?",
+        "a": "No figuran entre el material imprescindible de las fuentes oficiales consultadas. Son una decisión personal: pruébalos en tus caminatas de preparación antes de comprarlos."
+      },
+      {
+        "q": "¿Poncho o funda de lluvia para la mochila?",
+        "a": "Cumplen funciones distintas: el poncho cubre a la persona y la funda protege solo la mochila y su contenido. Si vas en una época de lluvias, puedes llevar ambos."
+      }
+    ]
+  },
+
   "calzado-camino-de-santiago-como-elegir": {
     "intro": "El Camino de Santiago se hace a pie y casi todo depende de lo que llevas en los pies. Los datos que mejor lo ilustran son los de un estudio de la Universidad Miguel Hernández de Elche, difundido por el Consejo General de Colegios Oficiales de Podólogos: en 315 peregrinos atendidos en dos albergues de la provincia de León, el 74 % tenía ampollas en los pies. Esta guía reúne lo que recomiendan los podólogos y la Xunta de Galicia sobre calzado, calcetines y cuidado de los pies, explica cómo decidir entre bota y zapatilla y presenta cuatro productos de Decathlon con stock el 14/11/2026.",
     "quickPicks": [
