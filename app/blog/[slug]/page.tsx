@@ -84,6 +84,132 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "calzado-camino-de-santiago-como-elegir": {
+    "intro": "El Camino de Santiago se hace a pie y casi todo depende de lo que llevas en los pies. Los datos que mejor lo ilustran son los de un estudio de la Universidad Miguel Hernández de Elche, difundido por el Consejo General de Colegios Oficiales de Podólogos: en 315 peregrinos atendidos en dos albergues de la provincia de León, el 74 % tenía ampollas en los pies. Esta guía reúne lo que recomiendan los podólogos y la Xunta de Galicia sobre calzado, calcetines y cuidado de los pies, explica cómo decidir entre bota y zapatilla y presenta cuatro productos de Decathlon con stock el 14/11/2026.",
+    "quickPicks": [
+      {
+        "productSlug": "quechua-mh500-zapatillas-impermeables-hombre",
+        "text": "Zapatilla de trekking impermeable con tacos de 5 mm y refuerzos en puntera y talón, según la ficha."
+      },
+      {
+        "productSlug": "quechua-mh500-botas-impermeables-hombre-gris",
+        "text": "Bota de caña media con ganchos autobloqueantes y tacos de 5 mm; pensada para barro y terreno técnico."
+      },
+      {
+        "productSlug": "quechua-hike-50-calcetines-altos-trekking-2-pares",
+        "text": "Pack de dos pares con costuras planas, tejido de rizo y refuerzos en talón y puntera."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Lo primero: no estrenes calzado en el Camino",
+        "body": "Es el consejo en el que coinciden las dos fuentes oficiales consultadas. El Colegio Oficial de Podólogos de Castilla y León lo pone como primer punto de su decálogo para peregrinos, y la guía de emergencias de Protección Civil de la Xunta de Galicia pide calzado usado, cómodo, transpirable y no muy apretado. El Consejo General de Colegios de Podólogos añade, en declaraciones recogidas por EFE, que no conviene llevar botas de montaña nuevas, sino algo usadas por el propio peregrino para que se adapten. En la práctica: compra el calzado con semanas de margen y haz con él caminatas largas antes de la salida. Si necesitas una rutina para empezar, [entrenar caminando en casa](/blog/entrenar-caminando-casa-beneficios) sirve de base. La Xunta aconseja además entrenar al menos una semana con el equipo o con un peso equivalente."
+      },
+      {
+        "heading": "Bota o zapatilla de trekking: cómo decidir",
+        "body": "Las fuentes no zanjan el debate con una sola respuesta. El Consejo General de Colegios de Podólogos ha recomendado zapatillas de trekking con suela amortiguadora y más altura en el talón que en el antepié para evitar sobrecargas en las piernas, mientras que algunas guías de peregrinos prefieren la bota de media caña por la sujeción del tobillo. Lo que sí piden los podólogos de Castilla y León es una suela gruesa y flexible, sin contrafuertes duros o muy curvados ni punteras duras, y que ninguna goma o plástico quede en contacto con la piel. Para elegir, ten en cuenta la época, la lluvia prevista y el firme: la guía de la Xunta da trayectos de referencia de unos 20 o 25 km al día, lo que suma muchas horas de pisada, sobre todo en pista y asfalto. Si prefieres la sujeción del tobillo, la Quechua MH500 en bota tiene caña media y ganchos autobloqueantes; si prefieres un calzado bajo, la MH500 en zapatilla lleva puntera y talón reforzados. Ambas tienen tacos de 5 mm pensados para terreno de montaña, así que en un Camino mayoritariamente llano pueden ser más calzado del necesario: es una valoración nuestra, no un dato de la ficha. Prueba las dos tallas con los calcetines que vayas a usar.",
+        "productSlugs": [
+          "quechua-mh500-zapatillas-impermeables-hombre",
+          "quechua-mh500-botas-impermeables-hombre-gris"
+        ]
+      },
+      {
+        "heading": "Calcetines: el otro calzado",
+        "body": "Los podólogos de Castilla y León piden calcetines de hilo, lana o algodón que acolchen el tobillo, absorban la humedad y transpiren, y la Xunta recomienda lo mismo. Fíjate también en las costuras: unas costuras planas reducen el roce. Los Quechua Hike 50 vienen en pack de dos pares, con costuras planas, tejido de rizo y refuerzo en talón y puntera, según la ficha; comprueba la composición en la ficha de Decathlon antes de comprar. En una ruta de varios días lava y seca los calcetines cada día y lleva siempre un par seco de recambio.",
+        "productSlug": "quechua-hike-50-calcetines-altos-trekking-2-pares"
+      },
+      {
+        "heading": "Cuidado de los pies durante el Camino",
+        "body": "El decálogo del Colegio de Podólogos de Castilla y León propone una rutina sencilla: cortar las uñas rectas, evitar cordones muy apretados, llevar chanclas de baño para las duchas colectivas, sumergir los pies cinco minutos en agua templada con sal (una cucharada sopera por litro), secarlos muy bien, sobre todo entre los dedos, y masajearlos desde los dedos hacia el talón. Ante una ampolla, hay que tratarla con limpieza; ante una lesión complicada, acudir a un podólogo. El propio colegio recuerda que estas precauciones son especialmente importantes con pie de riesgo, diabetes o enfermedades neurológicas o vasculares: si es tu caso, consulta antes de empezar. Para la recuperación muscular al final de la jornada, [los estiramientos tras el ejercicio](/blog/estiramientos-despues-ejercicio) y el [rodillo de espuma](/blog/rodillo-espuma-foam-roller-como-usar) ayudan a soltar las piernas."
+      },
+      {
+        "heading": "Lluvia: un poncho en la mochila",
+        "body": "La guía de la Xunta incluye la ropa de abrigo y para la lluvia entre el material imprescindible y pide llevar agua en la etapa. Un poncho como el Forclaz MT50 es ligero y compacto según la ficha y se guarda en la mochila; ventila peor que una chaqueta técnica y no abriga, así que sirve como complemento y no como sustituto del abrigo en invierno.",
+        "productSlug": "forclaz-mt50-poncho-impermeable-montana"
+      },
+      {
+        "heading": "Cuántos kilómetros y qué se exige para la Compostela",
+        "body": "La Oficina del Peregrino de Santiago exige haber recorrido al menos los últimos 100 kilómetros a pie o a caballo (200 en bicicleta), acreditados con la credencial sellada. Para el primer Camino, muchas personas eligen un tramo corto con el que probar el calzado antes de plantearse una ruta más larga; esa decisión es tuya y depende de tu forma física."
+      }
+    ],
+    "comparison": {
+      "headers": [
+        "Opción",
+        "Qué dice la ficha",
+        "Ojo"
+      ],
+      "rows": [
+        [
+          "Quechua MH500 zapatilla",
+          "Tacos de 5 mm; puntera y talón reforzados; impermeable",
+          "No sujeta el tobillo como una bota"
+        ],
+        [
+          "Quechua MH500 bota",
+          "Caña media; ganchos autobloqueantes; tacos de 5 mm; impermeable",
+          "Pensada para montaña; más bota de la necesaria en tramos llanos"
+        ],
+        [
+          "Quechua Hike 50 calcetines",
+          "Pack de 2 pares; costuras planas; refuerzo en talón y puntera",
+          "Comprobar la composición; llevar más de dos pares"
+        ],
+        [
+          "Forclaz MT50 poncho",
+          "Ligero y compacto; tallas S/M y L/XL",
+          "Ventila peor que una chaqueta; no abriga"
+        ]
+      ]
+    },
+    "comparisonHeading": "Resumen de los productos de esta guía",
+    "conclusion": "Para el calzado del Camino hay tres reglas con respaldo de las fuentes oficiales: nada de estrenar, calcetines que absorban la humedad y una suela gruesa y flexible que no apriete. Entre bota y zapatilla no hay una respuesta única, y lo más útil es probar el calzado en tramos largos antes de salir. Esta guía no sustituye la valoración de un podólogo: si tienes dolor, deformidades o una enfermedad que afecte a los pies, consúltalo antes de planificar la ruta.",
+    "faqsHeading": "Preguntas frecuentes sobre el calzado para el Camino de Santiago",
+    "sources": [
+      {
+        "label": "Colegio Oficial de Podólogos de Castilla y León — Que tus pies no te dejen a medio Camino (decálogo para peregrinos; consultado el 14/11/2026)",
+        "url": "https://www.saludcastillayleon.es/en/camino-santiago/consejos-preventivos/pies-dejen-medio-camino"
+      },
+      {
+        "label": "Protección Civil de la Xunta de Galicia — Guía de emergencias para la peregrinación por los Caminos de Santiago (2018; consultado el 14/11/2026)",
+        "url": "https://www.turismo.gal/docs/mdaw/mzmx/~edisp/turga331848.pdf"
+      },
+      {
+        "label": "Que.es — El 74 % de los peregrinos presenta ampollas en el pie (estudio de la Universidad Miguel Hernández difundido por el Consejo General de Colegios Oficiales de Podólogos, 2021; consultado el 14/11/2026)",
+        "url": "https://www.que.es/2021/06/21/peregrinos-camino-santiago-ampollas-pie/"
+      },
+      {
+        "label": "Alicante Plaza (EFE) — Podólogos recomiendan usar zapatillas de trekking a los peregrinos (Consejo General de Colegios Oficiales de Podólogos; consultado el 14/11/2026)",
+        "url": "https://alicanteplaza.es/alicanteplaza/PodlogosrecomiendanusarzapatillasdetrekkingalosperegrinosdelCaminodeSantiago"
+      },
+      {
+        "label": "Oficina del Peregrino de Santiago de Compostela — requisitos de la Compostela (consultado el 14/11/2026)",
+        "url": "https://oficinadelperegrino.com/en/?p=292"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Es mejor bota o zapatilla para el Camino de Santiago?",
+        "a": "Las fuentes consultadas no dan una única respuesta. El Consejo General de Colegios de Podólogos ha recomendado zapatillas de trekking con suela amortiguadora; algunas guías de peregrinos prefieren la bota de media caña. Lo importante es que sea cómoda, no se estrene en la ruta y se haya probado en caminatas largas."
+      },
+      {
+        "q": "¿Cuánto antes hay que comprar el calzado?",
+        "a": "Con semanas de margen. Los podólogos y la Xunta piden no estrenar calzado al empezar el Camino, así que conviene usarlo en caminatas largas antes de salir. La Xunta aconseja además entrenar al menos una semana con el equipo o un peso equivalente."
+      },
+      {
+        "q": "¿Qué calcetines son mejores para el Camino?",
+        "a": "Los podólogos de Castilla y León piden calcetines de hilo, lana o algodón que acolchen el tobillo, absorban la humedad y transpiren. Evita los que tengan costuras gruesas y lleva siempre un par seco de recambio."
+      },
+      {
+        "q": "¿Qué hago si me sale una ampolla?",
+        "a": "Tratarla con especial limpieza y no manipularla sin higiene. El colegio de podólogos indica que, ante lesiones o heridas complicadas, hay que acudir a un podólogo."
+      },
+      {
+        "q": "¿Cuántos kilómetros hay que hacer para la Compostela?",
+        "a": "La Oficina del Peregrino exige haber recorrido al menos los últimos 100 km a pie o a caballo, o 200 km en bicicleta, con la credencial sellada."
+      }
+    ]
+  },
+
   "piernas-gluteos-casa-mancuernas-bandas": {
       "intro": "Las piernas y los glúteos concentran los músculos más grandes del cuerpo y, aun así, son lo que más se descuida cuando se entrena en casa con unas mancuernas ligeras. La OMS pide fortalecimiento muscular al menos dos días por semana y los CDC incluyen expresamente piernas y caderas entre los grupos que hay que trabajar. Esta guía recoge cinco movimientos que cubren el tren inferior con material básico, explica en qué se fija la técnica según material clínico de hospitales públicos del Reino Unido, qué papel tiene cada banda o mancuerna y propone un plan de seis semanas con dos sesiones por semana que puedes ajustar a tu nivel.",
       "quickPicks": [

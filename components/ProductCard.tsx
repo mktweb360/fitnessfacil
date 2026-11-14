@@ -9,6 +9,7 @@ const CATEGORY_IMAGES: Record<string, string> = {
   "suplementos-proteinas": "/images/products/suplementos-proteinas.jpg",
   "elipticas": "/images/products/elipticas.jpg",
   "bandas-resistencia": "/images/products/bandas-resistencia.jpg",
+  "senderismo": "/images/products/senderismo.jpg",
 };
 
 export default function ProductCard({ product }: { product: Product }) {
