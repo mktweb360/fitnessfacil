@@ -9,6 +9,7 @@ const CATEGORY_IMAGES: Record<string, string> = {
   "suplementos-proteinas": "/images/products/suplementos-proteinas.jpg",
   "elipticas": "/images/products/elipticas.jpg",
   "bandas-resistencia": "/images/products/bandas-resistencia.jpg",
+  "running": "/images/products/running.jpg",
   "senderismo": "/images/products/senderismo.jpg",
 };
 

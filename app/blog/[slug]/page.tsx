@@ -108,6 +108,11 @@ const articleContent: Record<string, {
         "body": "Dos sesiones breves de fuerza a la semana con el peso corporal, como sentadillas, zancadas y planchas, complementan el trabajo de carrera; es una recomendación nuestra de entrenamiento, no una cifra de las fuentes citadas. Distribuye los días para no correr dos seguidos al empezar. A finales de diciembre hace frío: sal con capas que puedas quitar, protege manos y cabeza y calienta más tiempo. Si el tiempo o la luz te impiden salir, una [cinta de correr plegable](/blog/cinta-correr-plegable-piso-pequeno) en casa permite mantener las sesiones, aunque no es imprescindible para correr 10 km."
       },
       {
+        "heading": "Zapatillas para empezar: qué mirar",
+        "body": "No hace falta material caro para empezar, pero sí calzado de running que no esté gastado. Las zapatillas de iniciación de Decathlon que hemos comprobado hoy (Jogflow 100.1, en versión de hombre y de mujer) tienen botón de compra activo. Según sus fichas, la de hombre se plantea para unos 10 km semanales y la de mujer para hasta 20 km semanales. Si tu plan va a superar ese volumen, tenlo en cuenta, y si tienes molestias previas, una pisada particular o dudas de talla, consulta a un podólogo. No las hemos probado.",
+        "productSlugs": ["kiprun-jogflow-100-1-zapatillas-running-hombre", "kiprun-jogflow-100-1-zapatillas-running-mujer"]
+      },
+      {
         "heading": "El día de la carrera",
         "body": "Sal con un ritmo que te permita acabar con energía, sin seguir a quienes te adelantan en el primer kilómetro. Lleva ropa que ya hayas usado en tus entrenamientos y no estrenes nada ese día, ni calzado ni comida. Comprueba en el reglamento oficial qué se permite llevar, cómo es la recogida del dorsal y los horarios de salida, porque dependen de la edición. Al acabar, camina un rato y toma algo caliente."
       }

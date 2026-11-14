@@ -28,6 +28,13 @@ export type Product = {
 
 export const categories = [
   {
+    slug: "running",
+    name: "Running: zapatillas de iniciación",
+    description: "Zapatillas para empezar a correr, de Decathlon, comprobadas con stock",
+    icon: "👟",
+    priceRange: "Consultar precio",
+  },
+  {
     slug: "senderismo",
     name: "Senderismo y Camino de Santiago",
     description: "Calzado, calcetines y equipo básico para caminar largas distancias, como el Camino de Santiago",
@@ -3621,6 +3628,42 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     cons: ["Se vende por unidad: para usar un par hay que comprar dos"],
     specs: {"Marca": "Forclaz", "Modelo": "MT100", "Unidades": "1", "Ajuste": "Push-pin", "Garantía": "3 años"},
     relatedPosts: ["que-llevar-camino-de-santiago-lista-mochila"],
+  },
+  {
+    slug: "kiprun-jogflow-100-1-zapatillas-running-hombre",
+    name: "Kiprun Jogflow 100.1 zapatillas de running hombre (negro y gris)",
+    offers: [{ store: "decathlon", path: "zapatillas-running-jogflow-100-1-hombre-negro-y-gris/337693/c382c227m8733464" }],
+    // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
+    categorySlug: "running",
+    categoryName: "Running: zapatillas de iniciación",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Zapatillas de iniciación al running de Decathlon, con espuma EVA y ranuras de flexión, que según la ficha están pensadas para unos 10 km a la semana.",
+    fullDescription: "Zapatillas de running para hombre Jogflow 100.1 de Decathlon, en negro y gris. Según la ficha, la espuma EVA y las ranuras de flexión buscan una pisada natural, ligera y protegida, y el modelo se presenta como ideal para unos 10 km a la semana. Tallas del 39 al 47 en la ficha el día de la comprobación. No se ha probado el producto: si tienes dudas de talla o de pisada, consulta la guía de tallas de Decathlon o a un profesional.",
+    pros: ["Pensadas para iniciarse en el running, según la ficha", "Espuma EVA y ranuras de flexión", "Gama amplia de tallas (39 a 47) el día de la comprobación"],
+    cons: ["La ficha las plantea para unos 10 km semanales, menos que el volumen de las últimas semanas del plan de la guía", "No sustituyen la valoración de un podólogo si tienes molestias o una pisada particular"],
+    specs: {"Marca": "Kiprun (Decathlon)", "Modelo": "Jogflow 100.1", "Uso según la ficha": "Iniciación, unos 10 km a la semana", "Tallas": "39 a 47"},
+    relatedPosts: ["primera-10k-san-silvestre-plan-7-semanas"],
+  },
+  {
+    slug: "kiprun-jogflow-100-1-zapatillas-running-mujer",
+    name: "Kiprun Jogflow 100.1 zapatillas de running mujer (negro)",
+    offers: [{ store: "decathlon", path: "zapatillas-running-mujer-jogflow-100-1-negro/337743/c382c183c349m8733480" }],
+    // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
+    categorySlug: "running",
+    categoryName: "Running: zapatillas de iniciación",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Zapatillas de running de mujer de Decathlon con amortiguación contra el impacto, que según la ficha están pensadas para salidas de hasta 20 km a la semana.",
+    fullDescription: "Zapatillas de running para mujer Jogflow 100.1 de Decathlon, en negro. Según la ficha, ofrecen amortiguación contra el impacto y buscan ligereza, agarre y desarrollo del pie para salidas de hasta 20 km a la semana. Tallas del 36 al 42 en la ficha el día de la comprobación. No se ha probado el producto: si tienes dudas de talla o de pisada, consulta la guía de tallas de Decathlon o a un profesional.",
+    pros: ["Amortiguación contra el impacto, según la ficha", "Pensadas para hasta 20 km a la semana, según la ficha", "Tallas del 36 al 42 el día de la comprobación"],
+    cons: ["Rango de tallas más corto que en la versión de hombre", "No sustituyen la valoración de un podólogo si tienes molestias o una pisada particular"],
+    specs: {"Marca": "Kiprun (Decathlon)", "Modelo": "Jogflow 100.1", "Uso según la ficha": "Hasta 20 km a la semana", "Tallas": "36 a 42"},
+    relatedPosts: ["primera-10k-san-silvestre-plan-7-semanas"],
   },
 ];
 
