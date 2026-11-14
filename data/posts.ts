@@ -1417,7 +1417,7 @@ categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
   {
     slug: "primera-10k-san-silvestre-plan-7-semanas",
     image: "/images/blog/primera-10k-san-silvestre-plan-7-semanas.jpg",
-    title: "Tu primera 10K en la San Silvestre: plan de 7 semanas, salud y material básico",
+    title: "Tu primera 10K en la San Silvestre: plan de 7 semanas y qué comprobar antes de empezar",
     seoTitle: "Primera 10K San Silvestre: plan de 7 semanas",
     excerpt:
       "Cómo preparar tu primera 10K antes del 31 de diciembre: chequeo previo, plan orientativo de 7 semanas, fuerza y recuperación, con fuentes del Ministerio de Sanidad.",
