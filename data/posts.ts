@@ -1386,6 +1386,20 @@ categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
     ],
     categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver bancos, pesas y mancuernas →" },
   },
+  {
+    slug: "calzado-camino-de-santiago-como-elegir",
+    image: "/images/blog/calzado-camino-de-santiago-como-elegir.jpg",
+    title: "Calzado para el Camino de Santiago: bota o zapatilla, calcetines y cuidado de los pies",
+    seoTitle: "Calzado para el Camino de Santiago: cómo elegir",
+    excerpt:
+      "Qué calzado llevar al Camino de Santiago: bota o zapatilla de trekking, calcetines, cómo no estrenar y cómo cuidar los pies según los podólogos y la Xunta.",
+    date: "2026-11-14",
+    category: "Senderismo",
+    readTime: "9 min",
+    relatedProducts: ["quechua-mh500-botas-impermeables-hombre-gris", "quechua-mh500-zapatillas-impermeables-hombre", "quechua-hike-50-calcetines-altos-trekking-2-pares", "forclaz-mt50-poncho-impermeable-montana"],
+    relatedPosts: ["estiramientos-despues-ejercicio", "entrenar-caminando-casa-beneficios", "rodillo-espuma-foam-roller-como-usar"],
+    categoryCta: { href: "/tienda/senderismo", text: "Ver calzado y equipo de senderismo →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
