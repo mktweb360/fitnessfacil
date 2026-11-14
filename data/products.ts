@@ -3665,6 +3665,42 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     specs: {"Marca": "Kiprun (Decathlon)", "Modelo": "Jogflow 100.1", "Uso según la ficha": "Hasta 20 km a la semana", "Tallas": "36 a 42"},
     relatedPosts: ["primera-10k-san-silvestre-plan-7-semanas"],
   },
+  {
+    slug: "kiprun-run500-calcetines-running-finos-media-cana-2-pares",
+    name: "Kiprun Run500 calcetines de running finos, media caña (lote de 2, blancos)",
+    offers: [{ store: "decathlon", path: "lote-de-2-pares-de-calcetines-de-running-run500-finos-media-cana-blancos/348159/c227c227c382m8810971" }],
+    // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
+    categorySlug: "running",
+    categoryName: "Running: zapatillas de iniciación",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Lote de 2 pares de calcetines finos de running de Decathlon, de media caña, con zona de ventilación en el empeine.",
+    fullDescription: "Lote de 2 pares de calcetines de running Run500 de Decathlon, finos y de media caña, en blanco. Según la ficha, el hilo de poliamida y la zona de ventilación del empeine ayudan a evacuar el sudor, el tricotado es fino y sin rizo, y la altura queda justo por encima del tobillo. No se ha probado el producto.",
+    pros: ["Dos pares por lote", "Tricotado fino sin rizo y ventilación en el empeine, según la ficha", "Altura justo por encima del tobillo"],
+    cons: ["Al ser finos, dan menos acolchado que otros calcetines de running", "Para tiradas largas conviene probarlos antes en entrenamientos, no estrenarlos el día de la carrera"],
+    specs: {"Marca": "Kiprun (Decathlon)", "Modelo": "Run500", "Unidades": "Lote de 2 pares", "Altura": "Media caña", "Grosor": "Fino"},
+    relatedPosts: ["primera-10k-san-silvestre-plan-7-semanas"],
+  },
+  {
+    slug: "kiprun-dry-500-camiseta-running-transpirable-hombre",
+    name: "Kiprun Dry 500 camiseta de running transpirable hombre (negro)",
+    offers: [{ store: "decathlon", path: "camiseta-running-transpirable-hombre-kiprun-dry-500-negro/339765/c382m8861547" }],
+    // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
+    categorySlug: "running",
+    categoryName: "Running: zapatillas de iniciación",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Camiseta de running para hombre de Decathlon, de tejido extensible, con evacuación del sudor y secado rápido.",
+    fullDescription: "Camiseta de running transpirable para hombre Kiprun Dry 500 de Decathlon, en negro. Según la ficha, el tejido absorbe y evacúa el sudor, seca rápido, es extensible y la prenda pesa 130 gramos en talla M. No se ha probado el producto: consulta la guía de tallas de Decathlon antes de elegir.",
+    pros: ["Evacuación del sudor y secado rápido, según la ficha", "Tejido extensible", "130 g en talla M, según la ficha"],
+    cons: ["Solo versión de hombre en esta ficha", "Para entrenar con frío necesitarás una capa adicional"],
+    specs: {"Marca": "Kiprun (Decathlon)", "Modelo": "Dry 500", "Uso": "Running", "Peso según la ficha": "130 g en talla M"},
+    relatedPosts: ["primera-10k-san-silvestre-plan-7-semanas"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
