@@ -1,33 +1,33 @@
 // Promoción propia de Mkt Web 360 en la barra lateral: una por página, rotando según el artículo.
-// Ofertas tomadas de https://www.mktweb360.com/ (15/11/2026). Sin precios en la web del blog.
+// Textos verificados en las páginas de cada oferta de mktweb360.com (16/11/2026). Sin precios en la web del blog (regla de cumplimiento).
 export type Promo = { id: string; title: string; text: string; cta: string; href: string };
 
 export const MKT360_PROMOS: Promo[] = [
   {
     id: "seo-geo-gbp",
     title: "SEO + GEO + Google Maps",
-    text: "Visibilidad en Google, en asistentes de IA y en Maps con un servicio mensual.",
+    text: "Un solo servicio mensual para aparecer en Google, en las respuestas de la IA y en el mapa.",
     cta: "Ver la oferta",
     href: "https://www.mktweb360.com/oferta-seo-geo-gbp/",
   },
   {
     id: "web-corporativa",
-    title: "Web corporativa en WordPress",
-    text: "Una web a medida que puedes gestionar tú mismo, sin permanencia.",
+    title: "Web profesional en WordPress",
+    text: "Diseño a medida que gestionas tú mismo, sin permanencia.",
     cta: "Ver la oferta",
     href: "https://www.mktweb360.com/oferta-web-seo-organico/",
   },
   {
     id: "tienda-online",
-    title: "Tienda online con SEO técnico",
-    text: "Diseño propio y SEO técnico desde el primer día, sin comisiones por venta.",
+    title: "Tienda online sin comisiones",
+    text: "Diseño 100 % personalizado, SEO técnico incluido y sin comisión por venta.",
     cta: "Ver la oferta",
     href: "https://www.mktweb360.com/landing/tienda-online-490/",
   },
   {
     id: "auditoria",
     title: "Auditoría SEO gratuita",
-    text: "Revisamos tu SEO, tu visibilidad en IA y tu ficha de Google Business Profile.",
+    text: "Diagnóstico gratuito de SEO, visibilidad en IA y ficha de Google, en 24 horas laborables.",
     cta: "Pedir la auditoría",
     href: "https://www.mktweb360.com/auditoria-digital/",
   },
