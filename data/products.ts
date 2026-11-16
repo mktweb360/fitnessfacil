@@ -3487,6 +3487,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "domyos-comba-velocidad-cross-training-negra",
+    image: "https://contents.mediadecathlon.com/p1913642/k$e8870be647c68efb53ef51fb2b15216c/picture.jpg?f=800x800",
     name: "Domyos Comba de velocidad Cross Training Speed Jump Rope",
     offers: [{ store: "decathlon", path: "comba-velocidad-cross-training-speed-jump-rope-domyos-negra/331971/c381c109m8641821" }],
     // Comprobada en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendida y enviada por Decathlon.
@@ -3559,6 +3560,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "forclaz-mt50-poncho-impermeable-montana",
+    image: "https://contents.mediadecathlon.com/p2393309/k$966d9acbce8e559977cf3c42ce6b3177/picture.jpg?f=800x800",
     name: "Forclaz MT50 poncho chubasquero impermeable de montaña",
     offers: [{ store: "decathlon", path: "poncho-chubasquero-impermeable-de-montana-adulto-forclaz-mt50/339021/c231m8737843" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendido y enviado por Decathlon.
@@ -3577,6 +3579,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "quechua-mh100-mochila-trekking-35l",
+    image: "https://contents.mediadecathlon.com/p2579576/k$5b964f5a51b63b0d6949152a6b340b8a/picture.jpg?f=800x800",
     name: "Quechua MH100 mochila de montaña y trekking 35 L",
     offers: [{ store: "decathlon", path: "mochila-de-montana-y-trekking-35-l-quechua-mh100/331005/c382m8786727" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendido y enviado por Decathlon.
@@ -3595,6 +3598,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "quechua-funda-lluvia-mochila-20-40l",
+    image: "https://contents.mediadecathlon.com/p2572835/k$53ecec3289de7f91a3ae44e50f57bd85/picture.jpg?f=800x800",
     name: "Funda para la lluvia de mochila de senderismo 20/40 L",
     offers: [{ store: "decathlon", path: "funda-para-la-lluvia-mochila-de-senderismo-20-40-l/337980/c34m8734213" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendido y enviado por Decathlon.
@@ -3613,6 +3617,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "forclaz-mt100-baston-telescopico-1-unidad",
+    image: "https://contents.mediadecathlon.com/p2439600/k$7c045ba875f008bd2de09cbcd2d67f40/picture.jpg?f=800x800",
     name: "Forclaz MT100 bastón telescópico de trekking (1 unidad)",
     offers: [{ store: "decathlon", path: "baston-telescopico-de-trekking-1-unidad-forclaz-mt100/122861/c443m8807204" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendido y enviado por Decathlon.
@@ -3631,6 +3636,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "kiprun-jogflow-100-1-zapatillas-running-hombre",
+    image: "https://contents.mediadecathlon.com/p3064124/k$5a12c1f04f2ce9af51262a6bb2c9a896/picture.jpg?f=800x800",
     name: "Kiprun Jogflow 100.1 zapatillas de running hombre (negro y gris)",
     offers: [{ store: "decathlon", path: "zapatillas-running-jogflow-100-1-hombre-negro-y-gris/337693/c382c227m8733464" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
@@ -3649,6 +3655,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "kiprun-jogflow-100-1-zapatillas-running-mujer",
+    image: "https://contents.mediadecathlon.com/p3064099/k$106047b7aa45994ac945a104a75729a9/picture.jpg?f=800x800",
     name: "Kiprun Jogflow 100.1 zapatillas de running mujer (negro)",
     offers: [{ store: "decathlon", path: "zapatillas-running-mujer-jogflow-100-1-negro/337743/c382c183c349m8733480" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
@@ -3667,6 +3674,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "kiprun-run500-calcetines-running-finos-media-cana-2-pares",
+    image: "https://contents.mediadecathlon.com/p2590702/k$29d5d95995c4d10bbbdcd808b8ebf356/picture.jpg?f=800x800",
     name: "Kiprun Run500 calcetines de running finos, media caña (lote de 2, blancos)",
     offers: [{ store: "decathlon", path: "lote-de-2-pares-de-calcetines-de-running-run500-finos-media-cana-blancos/348159/c227c227c382m8810971" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
