@@ -1992,6 +1992,7 @@ export const products: Product[] = [
     slug: "merach-t21-cinta-andar-3-en-1",
     name: "MERACH T21 Cinta de Andar 3 en 1 Walking Pad 2,5 CV",
     asin: "B0DSBC1FNZ",
+    unavailable: "2026-11-16",
     categorySlug: "cintas-correr",
     categoryName: "Cintas de correr",
     price: "Consultar precio",
