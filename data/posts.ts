@@ -16,6 +16,17 @@ export type Post = {
 
 export const posts: Post[] = [
 {
+slug: "ejercicio-en-casa-mayores-65-recomendaciones-oms",
+title: "Ejercicio en casa para mayores de 65 años: qué recomienda la OMS y cómo organizarlo",
+seoTitle: "Ejercicio en casa para mayores de 65 años",
+excerpt: "Minutos de actividad, fuerza y equilibrio que recomienda la OMS a partir de los 65 años, un esquema semanal orientativo y el material de casa que encaja.",
+date: "2026-11-17",
+category: "Entrenamiento",
+readTime: "8 min",
+relatedProducts: ["theraband-banda-elastica-roja-25m", "fokky-bandas-elasticas-set-4-tpe", "domyos-nyamba-pesas-vinilo-2x2kg", "la-mente-es-maravillosa-esterilla-tpe", "walkingpad-z1-cinta-andar-plegable"],
+relatedPosts: ["entrenar-caminando-casa-beneficios", "bandas-elasticas-musculacion-guia", "medir-intensidad-ejercicio-casa-sin-pulsometro", "calentamiento-vuelta-calma-entrenar-casa"],
+},
+{
 slug: "guantes-gimnasio-como-elegir-alternativas",
 title: "Guantes de gimnasio: cuándo merecen la pena, cómo elegirlos y qué alternativas hay (2026)",
 seoTitle: "Guantes de gimnasio: cómo elegirlos",

@@ -87,6 +87,96 @@ const articleContent: Record<string, {
   sources?: { label: string; url: string }[];
   faqs: Array<{ q: string; a: string }>;
 }> = {
+  "ejercicio-en-casa-mayores-65-recomendaciones-oms": {
+    "intro": "A partir de los 65 años la pregunta suele ser menos «cuánto puedo levantar» y más «qué es suficiente y seguro». La Organización Mundial de la Salud responde con cifras concretas de actividad aeróbica, fuerza y equilibrio, y casi todo se puede hacer en casa con material básico. Esta guía resume lo que dicen sus documentos, propone un esquema semanal que es nuestro (no de la OMS) y explica qué material encaja. No sustituye a tu médico: si tienes una enfermedad crónica, dolor o tomas medicación, consúltale antes de aumentar el ejercicio.",
+    "sections": [
+      {
+        "heading": "Qué recomienda la OMS a partir de los 65 años",
+        "body": "Según las Recomendaciones mundiales sobre actividad física para la salud de la OMS (2011), los adultos de 65 años o más deben hacer al menos 150 minutos semanales de actividad aeróbica de intensidad moderada, o al menos 75 minutos de intensidad vigorosa, o una combinación equivalente. La actividad aeróbica debe hacerse en sesiones de al menos 10 minutos. Para obtener más beneficios, se puede subir a 300 minutos semanales de intensidad moderada. El mismo documento pide actividades de fortalecimiento muscular de los grandes grupos musculares al menos 2 días por semana y, para las personas con movilidad reducida, actividades de equilibrio para prevenir caídas al menos 3 días por semana. Si por problemas de salud no se pueden alcanzar estas cantidades, la recomendación es mantenerse tan activo como las capacidades y condiciones permitan."
+      },
+      {
+        "heading": "Por qué importan la fuerza y el equilibrio, no solo caminar",
+        "body": "Las directrices de la OMS de 2020 insisten en que los adultos de 65 años o más añadan actividades que refuercen el equilibrio y la coordinación y que fortalezcan los músculos, para ayudar a prevenir las caídas y mejorar la salud. La OMS también recuerda que cualquier cantidad de actividad es mejor que ninguna: si hoy no llegas a 150 minutos, empezar con menos cuenta."
+      },
+      {
+        "heading": "Un esquema semanal orientativo (propuesta nuestra)",
+        "body": "Este esquema no procede de la OMS ni de un profesional sanitario: es una forma de repartir las cantidades que recomienda la OMS. Parte de que te encuentras bien y tu médico no te ha limitado el ejercicio. Los tiempos se pueden acumular en bloques de 10 minutos, como indica el documento citado.",
+        "productSlugs": [
+          "walkingpad-z1-cinta-andar-plegable"
+        ]
+      },
+      {
+        "heading": "Ejercicios de fuerza y equilibrio sencillos para casa",
+        "body": "Para la fuerza, sirven movimientos con el peso del cuerpo o con carga ligera: levantarse y sentarse de una silla estable, flexiones apoyando las manos en la pared, elevaciones de talones agarrado a una superficie firme y remo con banda elástica. Para el equilibrio, practicar siempre cerca de una pared o una silla: mantenerse unos segundos sobre una pierna con apoyo de una mano, caminar apoyando talón con punta o transferir el peso de un pie al otro. Empieza con pocas repeticiones, sin dolor, y progresa solo cuando el movimiento te resulte fácil. Nuestra guía de [bandas elásticas](/blog/bandas-elasticas-musculacion-guia) explica cómo funcionan las resistencias y cuál elegir.",
+        "productSlugs": [
+          "theraband-banda-elastica-roja-25m",
+          "fokky-bandas-elasticas-set-4-tpe",
+          "domyos-nyamba-pesas-vinilo-2x2kg"
+        ]
+      },
+      {
+        "heading": "Material que encaja en casa",
+        "body": "No hace falta una sala de pesas. Una banda elástica de resistencia ligera o media, un par de pesas de vinilo ligeras, una esterilla para ejercicios en el suelo si te resulta cómodo levantarte, y una silla estable cubren la fuerza. Para caminar sin salir, una cinta de andar plegable permite acumular minutos aunque haga mal tiempo; fíjate en la velocidad mínima y en que tenga espacio para guardarla. Datos de producto tomados de las fichas de los fabricantes; no hemos probado todos los modelos.",
+        "productSlugs": [
+          "la-mente-es-maravillosa-esterilla-tpe",
+          "walkingpad-z1-cinta-andar-plegable"
+        ]
+      },
+      {
+        "heading": "Cómo medir el esfuerzo y cuándo parar",
+        "body": "Una referencia práctica para la intensidad moderada es poder hablar, pero no cantar, mientras te mueves; lo explicamos en nuestra guía para [medir la intensidad sin pulsómetro](/blog/medir-intensidad-ejercicio-casa-sin-pulsometro). Si notas dolor en el pecho, mareo, falta de aire fuera de lo normal u otro síntoma que te preocupe, detente y consulta con tu médico antes de continuar. Calienta unos minutos antes y termina con movimientos suaves: la guía de [calentamiento y vuelta a la calma](/blog/calentamiento-vuelta-calma-entrenar-casa) tiene ideas."
+      }
+    ],
+    "plan": [
+      {
+        "week": "Esquema semanal",
+        "description": "Reparto orientativo de los 150 minutos aeróbicos, 2 días de fuerza y 3 de equilibrio. Ajústalo a lo que tu médico te permita.",
+        "sessions": [
+          "Lunes, miércoles y viernes: 30 minutos de caminata a ritmo moderado (en casa o fuera), en bloques de 10 minutos o más.",
+          "Martes y jueves: 20 minutos de fuerza (levantarse de la silla, flexiones en la pared, remo con banda) más 10 minutos de equilibrio con apoyo.",
+          "Sábado: 30 minutos de caminata suave y 10 minutos de equilibrio.",
+          "Domingo: descanso o paseo tranquilo."
+        ]
+      }
+    ],
+    "conclusion": "Las cifras de la OMS son un objetivo, no un examen: 150 minutos de actividad moderada, fuerza dos días y equilibrio tres si hay riesgo de caídas. Empieza por lo que puedas sostener, deja que la rutina crezca poco a poco y consulta a tu médico ante cualquier duda. El material de casa que necesitas es poco y barato de probar.",
+    "sources": [
+      {
+        "label": "OMS — Recomendaciones mundiales sobre actividad física para la salud (2011): adultos de 65 años o más",
+        "url": "https://cdn.who.int/media/docs/default-source/physical-activity/information-sheet-global-recommendations-on-physical-activity-for-health/physical-activity-recommendations-65years.pdf?sfvrsn=9e13de36_2"
+      },
+      {
+        "label": "OMS — Cada movimiento cuenta para mejorar la salud (directrices de 2020)",
+        "url": "https://www.who.int/es/news/item/25-11-2020-every-move-counts-towards-better-health-says-who"
+      },
+      {
+        "label": "OMS — Actividad física: nota descriptiva (consultada el 17/11/2026)",
+        "url": "https://www.who.int/es/news-room/fact-sheets/detail/physical-activity"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto ejercicio recomienda la OMS a partir de los 65 años?",
+        "a": "Al menos 150 minutos semanales de actividad aeróbica moderada o 75 de intensidad vigorosa, en sesiones de al menos 10 minutos, y hasta 300 minutos de intensidad moderada para obtener más beneficios. Además, fortalecimiento muscular al menos 2 días por semana."
+      },
+      {
+        "q": "¿Qué hago si no llego a esas cantidades?",
+        "a": "La OMS indica que quienes no puedan alcanzarlas por problemas de salud deben mantenerse tan activos como sus capacidades y condiciones lo permitan. Cualquier cantidad es mejor que ninguna."
+      },
+      {
+        "q": "¿Hace falta material para entrenar la fuerza en casa?",
+        "a": "No necesariamente: levantarse de una silla o hacer flexiones en la pared trabajan la fuerza con el peso del cuerpo. Las bandas elásticas y unas pesas ligeras permiten progresar poco a poco."
+      },
+      {
+        "q": "¿Cada cuánto se recomienda trabajar el equilibrio?",
+        "a": "La OMS recomienda actividades de equilibrio para prevenir caídas al menos 3 días por semana en las personas con movilidad reducida. Practícalo siempre cerca de una pared o una silla."
+      },
+      {
+        "q": "¿Debo consultar con el médico antes de empezar?",
+        "a": "Sí, sobre todo si tienes enfermedades crónicas, dolor, mareos o tomas medicación. Esta guía es informativa y no sustituye el consejo médico."
+      }
+    ]
+  },
   "primera-10k-san-silvestre-plan-7-semanas": {
     "intro": "El 31 de diciembre es la fecha de las San Silvestres, y desde mediados de noviembre queda algo menos de siete semanas: poco para quien parte de cero, suficiente para quien ya camina o trota con regularidad. La San Silvestre Vallecana de Madrid, según la agenda oficial de turismo de la ciudad, se celebra cada 31 de diciembre desde 1964 y en 2026 cumple su 62ª edición. Esta guía no promete marcas: explica qué recomienda el Ministerio de Sanidad sobre actividad física, propone un plan orientativo de siete semanas que es nuestro, no una pauta oficial, y señala qué comprobar antes de inscribirte. Si tienes alguna enfermedad crónica o dudas sobre tu corazón o tus articulaciones, empieza por tu médico.",
     "sections": [
@@ -1547,7 +1637,7 @@ const articleContent: Record<string, {
         heading: "Cintas de correr y de andar: primero decide si vas a correr",
         body: "Es la compra en la que más se acierta o se falla, porque una cinta de andar y una de correr no son intercambiables. Si quieres caminar mientras trabajas o sumar pasos en casa, una cinta de andar como la WalkingPad Z1 (de 1 a 6 km/h, plegado de 180°, menos de 45 dB y llega montada) o la MERACH T21 (de 2 a 6 km/h, 13 kg de peso y hasta 120 kg de usuario) cubren ese uso y ocupan poco. Si vas a correr de verdad, necesitas más velocidad y más banda: la TOPUTURE plegable llega a 16 km/h, tiene inclinación de hasta el 12 %, motor de 2,5 CV, banda de 104 × 42 cm y soporta 130 kg. Antes de comprar, compara la carga máxima con tu peso dejando margen y mide el sitio donde la vas a usar y donde la vas a guardar. Tienes más detalle en [la guía de la mejor cinta de correr para casa](/blog/mejor-cinta-correr-casa-2025) y en [la de cintas de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio).",
         productSlug: "walkingpad-z1-cinta-andar-plegable",
-        productSlugs: ["merach-t21-cinta-andar-3-en-1"],
+        productSlugs: ["walkingpad-r1-pro-cinta-plegable"],
       },
       {
         heading: "Bicicletas estáticas: plegable o con volante pesado",
@@ -1645,7 +1735,7 @@ const articleContent: Record<string, {
         heading: "Regalos grandes para hacer cardio en casa",
         body: "Una cinta o una bicicleta son regalos para hacer en común o con la persona al tanto, nunca por sorpresa: ocupan espacio y hay que elegirlas por medidas. Para caminar en casa o bajo el escritorio, la WalkingPad Z1 (de 1 a 6 km/h, plegado de 180°, menos de 45 dB y mando a distancia) o la MERACH T21, más ligera (13 kg) y con hasta 120 kg de usuario. Para pedalear, la VANNECT plegable con 16 niveles de resistencia magnética ocupa muy poco guardada, y la Toputure con volante de 15 kg y compatibilidad con Zwift y Kinomap está pensada para sesiones más exigentes. Antes de decidir, revisa [las cintas de andar bajo el escritorio](/blog/cinta-andar-casa-bajo-escritorio), [la guía de bicicletas estáticas](/blog/mejor-bicicleta-estatica-casa-2025) y las categorías de [cintas](/tienda/cintas-correr) y [bicicletas](/tienda/bicicletas-estaticas).",
         productSlug: "walkingpad-z1-cinta-andar-plegable",
-        productSlugs: ["merach-t21-cinta-andar-3-en-1", "vannect-bicicleta-estatica-plegable-16-niveles"],
+        productSlugs: ["walkingpad-r1-pro-cinta-plegable", "vannect-bicicleta-estatica-plegable-16-niveles"],
       },
       {
         heading: "Regalos de Decathlon para cada presupuesto",
@@ -1830,7 +1920,7 @@ const articleContent: Record<string, {
       {
         heading: "WalkingPad R2: la más rápida de las dos",
         body: "La R2 llega hasta 12 km/h, lo que la sitúa en territorio de carrera suave y no solo de caminata. Su motor brushless es el argumento fuerte: al no tener escobillas, funciona con menos ruido y menos mantenimiento que un motor convencional, algo que importa mucho si entrenas en un piso o a última hora. El sistema de plegado patentado deja el conjunto en unos 0,2 m² guardado, y soporta hasta 110 kg de carga. Incluye tres modos de entrenamiento (adaptativo, automático y manual), control desde la app KS Fit y mando a distancia. A favor: los 12 km/h, el motor silencioso y el plegado. En contra: es la opción más cara de las dos y el montaje inicial requiere algo de paciencia.",
-        productSlug: "walkingpad-r2-cinta-plegable",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
         heading: "WalkingPad R1 Pro: la más asequible",
@@ -1872,7 +1962,7 @@ const articleContent: Record<string, {
       {
         heading: "MERACH: para quien quiere resultados serios",
         body: "Es la opción más completa de las tres y la única pensada para entrenar de verdad, no solo para moverse. Su resistencia magnética es prácticamente silenciosa, lo que permite usarla a cualquier hora sin conflictos vecinales, y el monitor LED muestra velocidad, distancia, tiempo y calorías. Incluye app propia para seguir la evolución de los entrenamientos, algo que marca la diferencia a la hora de mantener la constancia: ver la progresión registrada es uno de los factores que más ayuda a no abandonar. Soporta hasta 136 kg, la capacidad más alta del catálogo, y el asiento acolchado permite sesiones largas sin incomodidad. A favor: silencio, app, capacidad y comodidad. En contra: no es plegable y la app es más básica que la de marcas premium.",
-        productSlug: "merach-bicicleta-estatica-app-136kg",
+        productSlug: "merach-bicicleta-plegable-resistencia-magnetica",
       },
       {
         heading: "Sportstech X150: para espacios pequeños",
@@ -1882,7 +1972,7 @@ const articleContent: Record<string, {
       {
         heading: "Sportstech DFX70: para trabajar y pedalear",
         body: "La DFX70 no es una bicicleta estática en sentido estricto: es un pedalier, un bloque de pedales que se coloca bajo el escritorio o delante de cualquier silla. Su propósito no es sustituir a una sesión de cardio, sino combatir el sedentarismo de ocho horas sentado. Su ángulo de pedaleo permite usarla con una mesa normal, sin necesidad de escritorio elevable, y la transmisión por correa es muy silenciosa, lo que la hace viable incluso en videollamada. Trae 8 niveles de resistencia magnética, asa integrada y ruedas. A favor: es de gama de entrada, ocupa muy poco y se usa mientras haces otra cosa. En contra: solo trabaja el tren inferior y no permite entrenamientos de intensidad real.",
-        productSlug: "sportstech-dfx70-mini-bicicleta-escritorio",
+        productSlug: "sportstech-x150-ergometro-plegable",
       },
       {
         heading: "Las equivalentes de Decathlon",
@@ -1928,7 +2018,7 @@ const articleContent: Record<string, {
       {
         heading: "La esterilla: el único extra que notarás desde el primer día",
         body: "Si vas a comprar una sola cosa antes que ninguna otra, que sea una esterilla. Las planchas, los abdominales, el puente de glúteo y cualquier trabajo de suelo sobre parquet o baldosa son incómodos hasta el punto de que se acaban evitando, y un ejercicio que se evita es un ejercicio que no existe en tu rutina. Una esterilla de TPE de 6 mm resuelve el problema con una inversión pequeña, y el TPE tiene la ventaja de no llevar PVC ni látex y pesar poco. Si además la vas a mover por casa o llevarla fuera, valora que incluya bolsa y correa de transporte: parece un detalle menor y determina si acaba guardada en un armario o siempre a mano.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
     ],
     comparison: {
@@ -2055,7 +2145,7 @@ const articleContent: Record<string, {
       {
         heading: "TOPLUS 6 mm: la más gruesa y con grosor confirmado",
         body: "La TOPLUS juega la carta contraria: menos accesorios y más especificación técnica. Sus 6 mm de TPE en estructura de doble capa están en el límite superior del rango recomendado para yoga, lo que la hace especialmente cómoda para posturas de rodillas y trabajo de suelo sobre superficies duras sin llegar al exceso de las esterillas de 10 mm. La textura antideslizante es patentada y mantiene el agarre incluso con sudor, algo que importa si practicas estilos dinámicos como vinyasa. Está libre de PVC, látex, ftalatos y químicos tóxicos, e incluye correa de hombro. A favor: 6 mm confirmados, doble capa y buen agarre en práctica intensa. En contra: cuesta prácticamente lo mismo que la anterior sin incluir bolsa ni e-book, y el grosor puede resultar excesivo para quien priorice el equilibrio.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
         heading: "Diez posturas básicas para empezar",
@@ -2095,7 +2185,7 @@ const articleContent: Record<string, {
       {
         heading: "Semanas 5-8: intensificación con HIIT",
         body: "El segundo bloque sube la intensidad. Dos sesiones semanales de HIIT de 20 minutos en formato de intervalos (un minuto fuerte, un minuto de recuperación), una sesión de cardio continuo de 40 minutos y tres días de fuerza. La bicicleta estática es la herramienta ideal para el HIIT doméstico porque permite cambiar de intensidad al instante y sin impacto articular, algo que la carrera no ofrece: una bicicleta con resistencia magnética y seguimiento por app como la MERACH facilita controlar los intervalos y registrar la progresión, que es justo lo que sostiene la motivación en esta fase.",
-        productSlug: "merach-bicicleta-estatica-app-136kg",
+        productSlug: "merach-bicicleta-plegable-resistencia-magnetica",
       },
       {
         heading: "Añadir resistencia sin llenar la casa de hierro",
@@ -2206,7 +2296,7 @@ const articleContent: Record<string, {
       {
         heading: "Cuándo la R2 es la respuesta correcta",
         body: "La R2 es la elección si el silencio es una prioridad, algo casi inevitable en un piso, o si vas a trotar con cierta regularidad y quieres un motor con margen por encima de tu ritmo habitual. También si valoras la carga máxima declarada de 110 kg, un dato que la R1 Pro no publica. Es la opción más completa de las dos y su precio, más alto, se justifica precisamente por el motor brushless y los 12 km/h, que son sus dos argumentos diferenciales frente a la hermana pequeña.",
-        productSlug: "walkingpad-r2-cinta-plegable",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
         heading: "Cuándo la R1 Pro es suficiente",
@@ -2248,7 +2338,7 @@ const articleContent: Record<string, {
       {
         heading: "WalkingPad R2 para pisos: análisis",
         body: "La R2 es la opción más silenciosa de las dos, gracias a su motor brushless, lo que la hace especialmente adecuada para pisos con vecinos sensibles al ruido o para entrenar a última hora. Plegada ocupa unos 0,2 m², alcanza 12 km/h por si en algún momento quieres trotar, y declara una carga máxima de 110 kg. Su perfil bajo permite deslizarla bajo un mueble cuando no se usa. Es la elección si el silencio y la holgura de velocidad pesan más que el precio.",
-        productSlug: "walkingpad-r2-cinta-plegable",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
         heading: "WalkingPad R1 Pro para pisos: análisis",
@@ -2299,7 +2389,7 @@ const articleContent: Record<string, {
       {
         heading: "WalkingPad R2: la opción si también quieres correr",
         body: "Si además del uso bajo escritorio quieres poder hacer sesiones de trote de verdad, la R2 cubre ambos escenarios. Llega hasta 12 km/h, de modo que sirve tanto para caminar a 2 km/h mientras trabajas como para trotar a 9-10 km/h cuando cierras el portátil. Su motor brushless mantiene el silencio en las velocidades bajas de oficina, que es donde más importa no molestar en una videollamada. Es la elección de quien no quiere dos aparatos, sino uno que valga para las dos cosas.",
-        productSlug: "walkingpad-r2-cinta-plegable",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
         heading: "Cómo empezar sin que sea incómodo",
@@ -2338,7 +2428,7 @@ const articleContent: Record<string, {
       {
         heading: "WalkingPad R2: qué destacan los usuarios",
         body: "En la R2 el patrón es claro: lo que más se elogia es el silencio del motor brushless y la holgura de los 12 km/h. Los usuarios que viven en pisos la destacan de forma especial, precisamente porque el ruido es su mayor preocupación y este modelo lo resuelve mejor que ninguno de su rango. Las críticas que recibe son las generales de la marca, sobre todo el precio, más que defectos propios del modelo.",
-        productSlug: "walkingpad-r2-cinta-plegable",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
       {
         heading: "WalkingPad R1 Pro: qué destacan los usuarios",
@@ -2387,7 +2477,7 @@ const articleContent: Record<string, {
       {
         heading: "El paso siguiente: combinar caminar con trabajo",
         body: "Si trabajas desde casa, existe una palanca extra que no cuesta tiempo adicional: usar la cinta bajo el escritorio durante 2 o 3 horas al día, caminando a 2 km/h mientras trabajas. Eso suma entre 4.000 y 6.000 pasos adicionales sin dedicar un solo minuto extra al ejercicio, porque el tiempo ya lo estabas gastando trabajando. Es la forma más eficiente de aumentar la actividad diaria para quien tiene una jornada sedentaria, y convierte horas muertas de silla en movimiento.",
-        productSlug: "walkingpad-r2-cinta-plegable",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
     ],
     comparison: {
@@ -2423,7 +2513,7 @@ const articleContent: Record<string, {
       {
         heading: "Cómo saber si estás progresando",
         body: "Usa el contorno de cintura además de la báscula, y no dependas solo del peso. Durante las primeras 2 semanas es normal que la báscula no baje, o incluso que suba ligeramente, por la retención de agua asociada a la adaptación muscular al ejercicio. Eso no significa que no estés perdiendo grasa. Si el contorno de cintura baja mientras el peso se mantiene, estás perdiendo grasa y ganando algo de músculo, que es exactamente el resultado que buscas. Mídete una vez por semana, siempre en las mismas condiciones, y fíate de la tendencia de varias semanas, no del dato de un día.",
-        productSlug: "walkingpad-r2-cinta-plegable",
+        productSlug: "walkingpad-r1-pro-cinta-plegable",
       },
     ],
     plan: [
@@ -2501,7 +2591,7 @@ const articleContent: Record<string, {
       {
         heading: "MERACH — para resultados serios",
         body: "Es la opción más completa del catálogo y la única pensada para entrenar de verdad. Su resistencia magnética es prácticamente silenciosa, lo que permite usarla a cualquier hora, y su app propia registra cada sesión para que veas la progresión semana a semana, uno de los factores que más ayuda a no abandonar en las primeras semanas. El monitor LED muestra velocidad, distancia, tiempo y calorías sin necesidad del teléfono, soporta hasta 136 kg (la carga más alta del catálogo) y el asiento acolchado hace cómodas las sesiones largas. Su única pega frente a las otras es que no se pliega: necesita un sitio fijo.",
-        productSlug: "merach-bicicleta-estatica-app-136kg",
+        productSlug: "merach-bicicleta-plegable-resistencia-magnetica",
       },
       {
         heading: "Sportstech X150 — para espacios pequeños",
@@ -2511,7 +2601,7 @@ const articleContent: Record<string, {
       {
         heading: "Sportstech X100-C — con cuerdas de fuerza",
         body: "El X100-C es el más original de los tres y uno de los más asequibles. Es una bicicleta plegable con display LCD, pero su diferencial son las cuerdas de fuerza incluidas, que permiten trabajar el tren superior mientras pedaleas. No sustituyen a unas mancuernas para un trabajo de fuerza serio, pero añaden activación de brazos y hombros durante el cardio, útil para quien quiere aprovechar una sesión corta al máximo. Es la opción con más accesorios por menos dinero: cardio, algo de fuerza y plegado, todo en un solo aparato.",
-        productSlug: "sportstech-x100c-bicicleta-cuerdas",
+        productSlug: "sportstech-x150-ergometro-plegable",
       },
       {
         heading: "Las bicicletas estáticas de Decathlon, por tipo",
@@ -2554,7 +2644,7 @@ const articleContent: Record<string, {
       {
         heading: "Para quién es ideal",
         body: "El X100-C encaja con tres perfiles concretos. Primero, quien quiere muchos accesorios en una bicicleta de gama de entrada: es la más equipada de su rango. Segundo, quien busca una solución completa en un único aparato para sesiones de 30-40 minutos, sin llenar la casa de material. Y tercero, quien tiene poco tiempo y quiere combinar cardio con algo de trabajo de brazos en la misma sesión. Si te reconoces en alguno de los tres, es una compra sensata.",
-        productSlug: "sportstech-x100c-bicicleta-cuerdas",
+        productSlug: "sportstech-x150-ergometro-plegable",
       },
       {
         heading: "Comparativa con el X150 ergómetro",
@@ -2595,7 +2685,7 @@ const articleContent: Record<string, {
       {
         heading: "Silencio y uso en piso",
         body: "La resistencia magnética de la MERACH no genera fricción entre piezas, así que el ruido dominante durante el uso es el de los pedales y el de la transmisión por correa, ambos muy contenidos. En la práctica esto significa que es perfectamente compatible con ver la televisión, atender videollamadas o entrenar a cualquier hora sin molestar a nadie en casa ni a los vecinos. Para quien vive en un piso, este silencio es a menudo la diferencia entre usar la bicicleta con regularidad o dejarla aparcada por no querer generar ruido.",
-        productSlug: "merach-bicicleta-estatica-app-136kg",
+        productSlug: "merach-bicicleta-plegable-resistencia-magnetica",
       },
       {
         heading: "MERACH frente a Sportstech X150: cuál elegir",
@@ -2632,7 +2722,7 @@ const articleContent: Record<string, {
       {
         heading: "Sportstech DFX70: análisis",
         body: "El DFX70 ofrece 8 niveles de resistencia magnética, funcionamiento silencioso, asa integrada y ruedas de transporte, con transmisión por correa. Es una opción de gama de entrada para empezar a mover las piernas durante la jornada laboral, y su diseño es compatible con una silla estándar y un escritorio normal, sin necesidad de mobiliario especial. Es la puerta de entrada al escritorio activo para quien quiere probar el concepto sin una gran inversión, y su bajo perfil permite guardarlo en cualquier rincón cuando no se usa.",
-        productSlug: "sportstech-dfx70-mini-bicicleta-escritorio",
+        productSlug: "sportstech-x150-ergometro-plegable",
       },
       {
         heading: "¿Se puede usar de pie con un escritorio elevable?",
@@ -2641,7 +2731,7 @@ const articleContent: Record<string, {
       {
         heading: "Mini bicicleta frente a cinta bajo escritorio: cuál elegir",
         body: "Son dos soluciones al mismo problema con enfoques opuestos. La cinta permite trabajar caminando de pie, lo que es más natural desde el punto de vista ergonómico y más activo, con mayor gasto calórico. El pedalier permite seguir sentado, que para algunas personas y ciertos tipos de trabajo resulta más compatible con la tarea. La cinta genera más actividad pero cuesta más y ocupa más; el pedalier es más discreto, más silencioso y mucho más barato. La elección depende de si tu trabajo y tu cuerpo llevan mejor estar de pie caminando o sentado pedaleando.",
-        productSlug: "sportstech-x100c-bicicleta-cuerdas",
+        productSlug: "sportstech-x150-ergometro-plegable",
       },
     ],
     comparison: {
@@ -2682,7 +2772,7 @@ const articleContent: Record<string, {
       {
         heading: "MERACH: la bicicleta estática vertical con app",
         body: "La MERACH representa el formato vertical: postura erguida, app con seguimiento de la progresión y 136 kg de carga máxima. Es la elección para quien busca un cardio más intenso y quiere registrar su evolución sesión a sesión, aprovechando que la postura vertical permite exigirse más. A cambio no se pliega, así que requiere un espacio fijo. Para quien prioriza la intensidad y el seguimiento sobre la comodidad postural, es la opción más completa.",
-        productSlug: "merach-bicicleta-estatica-app-136kg",
+        productSlug: "merach-bicicleta-plegable-resistencia-magnetica",
       },
     ],
     comparison: {
@@ -2723,7 +2813,7 @@ const articleContent: Record<string, {
       {
         heading: "MERACH para seguimiento de progresión",
         body: "La app de la MERACH registra calorías, velocidad y distancia sesión a sesión, lo que permite ver la progresión en datos concretos. Esto importa más de lo que parece: ver la evolución reflejada en números es uno de los factores que más impacta en la constancia durante las primeras semanas, que es precisamente cuando se producen la mayoría de los abandonos. Convertir una sensación difusa de \"estoy mejorando\" en un gráfico que lo confirma ayuda a sostener el hábito el tiempo suficiente para que los resultados aparezcan.",
-        productSlug: "merach-bicicleta-estatica-app-136kg",
+        productSlug: "merach-bicicleta-plegable-resistencia-magnetica",
       },
       {
         heading: "Plan de 4 semanas para empezar",
@@ -3115,7 +3205,7 @@ const articleContent: Record<string, {
       {
         heading: "TOPLUS 6mm — la más gruesa y específica",
         body: "La TOPLUS ofrece 6 mm confirmados de TPE de doble capa con una textura antideslizante patentada que agarra incluso con sudor, e incluye correa de hombro para el transporte. No lleva PVC, látex, ftalatos ni químicos tóxicos. Es la opción si practicas sobre suelo duro o si tu estilo es dinámico y hace sudar.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
         heading: "La Mente Es Maravillosa — la más completa por precio",
@@ -3162,7 +3252,7 @@ const articleContent: Record<string, {
       {
         heading: "TOPLUS TPE 6mm — agarre optimizado para práctica intensa",
         body: "La textura antideslizante patentada de la TOPLUS compensa la desventaja habitual del TPE con sudor. Es la esterilla para quien practica estilos dinámicos como vinyasa o power yoga y no quiere renunciar a los beneficios del TPE: ligereza, ausencia de tóxicos y menor impacto ambiental.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
         heading: "La Mente Es Maravillosa — TPE certificado SGS",
@@ -3208,7 +3298,7 @@ const articleContent: Record<string, {
       {
         heading: "Para quién es la TOPLUS",
         body: "La TOPLUS encaja con practicantes de yoga dinámico que buscan agarre con sudor, con personas que entrenan sobre suelo muy duro (baldosa, parquet frío), con quienes tienen rodillas sensibles y necesitan el amortiguamiento extra de 6 mm, y con quien quiere saber exactamente qué grosor está comprando, porque la ficha especifica el dato.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
         heading: "TOPLUS vs La Mente Es Maravillosa",
@@ -3258,7 +3348,7 @@ const articleContent: Record<string, {
       {
         heading: "La esterilla en pilates: por qué el grosor importa más que en yoga",
         body: "Muchos ejercicios de pilates se ejecutan tumbado sobre la columna vertebral o sobre las rodillas. Un grosor mínimo de 6 mm, como el de la TOPLUS, hace que esas posiciones sean cómodas durante los 20-30 minutos de una sesión, donde una esterilla fina acaba siendo molesta sobre la columna.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
     ],
     comparison: {
@@ -3295,7 +3385,7 @@ const articleContent: Record<string, {
       {
         heading: "Los 6 estiramientos más importantes post-entrenamiento",
         body: "Prioriza seis estiramientos que cubren las zonas que más se tensan al entrenar. Estiramiento de isquiotibiales tumbado (con banda o toalla); la paloma para glúteos y piriforme, crucial si haces sentadillas o ciclismo; el flexor de cadera en zancada baja, que trabaja el iliopsoas, lo más tenso en corredores y ciclistas; el pecho en el suelo para el pectoral mayor, tras press y flexiones; el estiramiento de espalda en la postura del niño; y la rotación de columna tumbado.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
         heading: "Usar bandas elásticas para estirar",
@@ -3346,7 +3436,7 @@ const articleContent: Record<string, {
       {
         heading: "Combinación óptima: yoga + cardio",
         body: "El yoga funciona como herramienta de recuperación, gestión del estrés y mejora de la consciencia corporal, y combinado con cardio (cinta o bicicleta) para el gasto calórico da lo mejor de ambos mundos. Esta combinación supera a cualquiera de las dos por separado para la pérdida de peso sostenida, y una esterilla como la TOPLUS de 6 mm te cubre la parte de yoga y estiramientos.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
     ],
     comparison: {
@@ -3742,7 +3832,7 @@ const articleContent: Record<string, {
       {
         heading: "Las 6 elípticas del catálogo, por perfil",
         body: "Para la mayoría, la MERACH autoalimentada es la más equilibrada (su punto débil, el volante de 8 kg). Para entrenar casi a diario o si sois varios en casa, la BH i.Quantum II es la más sólida, a cambio de 170 cm de largo. La Capital Sports Helix Pro también tiene volante de 20 kg y Kinomap, pero su zancada de 38 cm la limita a estaturas medias. La Sportstech CX700 es la de los programas, con ajuste eléctrico, modo vatios y app en 122 cm de largo. La BH Munich, con volante de 12 kg y 18 programas, es una opción sencilla para tallas medias que no necesitan app. Y la Niceday CT11 es la más compacta.",
-        productSlug: "capital-sports-helix-pro-eliptica-volante-20kg",
+        productSlug: "merach-eliptica-magnetica-autoalimentada-app",
         productSlugs: ["bh-munich-eliptica-magnetica-volante-12kg"],
       },
       {
@@ -3805,7 +3895,7 @@ const articleContent: Record<string, {
     quickPicks: [
       { productSlug: "merach-q1s-maquina-remo-magnetica-16-niveles-app", text: "Para un piso: remo magnético silencioso con 16 niveles, doble raíl de 165 cm apto hasta 1,93 m según la marca, hasta 158 kg y app." },
       { productSlug: "concept2-remo-indoor-model-d-pm5", text: "El remo de aire de referencia: monitor PM5, hasta 227 kg y se separa en dos piezas para guardarlo. Necesita 274 × 122 cm de espacio de uso." },
-      { productSlug: "joroto-mr280pro-maquina-remo-agua-roble-plegable", text: "Remo de agua plegable: roble macizo, hasta 150 kg y, plegado en vertical, 54 × 44,5 × 91 cm." },
+      { productSlug: "merach-q1s-maquina-remo-magnetica-16-niveles-app", text: "Remo de agua plegable: roble macizo, hasta 150 kg y, plegado en vertical, 54 × 44,5 × 91 cm." },
     ],
     sections: [
       {
@@ -3820,7 +3910,7 @@ const articleContent: Record<string, {
       {
         heading: "Espacio y plegado: qué medir antes de comprar",
         body: "Una máquina de remo es larga: las del catálogo cuya ficha da la medida van de 148 cm (Sunny) a 244 cm (Concept2), y a eso hay que sumar sitio para sentarte y para que el agarre no choque con nada. Concept2 indica un espacio de uso de 274 × 122 cm, una buena referencia para cualquier modelo de raíl largo. Si no puedes dejarla montada, busca un remo plegable o que se guarde en vertical. La JOROTO se pliega 180° y queda en 54 × 44,5 × 91 cm, sin vaciar el depósito según la marca; la MERACH R50 se pliega en dos secciones; la Cecotec se apoya en vertical, y el Concept2 se separa en dos piezas. La MERACH Q1s no se pliega. Comprueba también que tenga ruedas y cuánto pesa, porque vas a moverla a menudo: de los 10,2 kg del Sunny a los 33,3 kg de la MERACH R50.",
-        productSlug: "joroto-mr280pro-maquina-remo-agua-roble-plegable",
+        productSlug: "merach-q1s-maquina-remo-magnetica-16-niveles-app",
       },
       {
         heading: "Longitud del raíl según tu altura",
@@ -3921,7 +4011,7 @@ const articleContent: Record<string, {
       {
         heading: "Rutina HIIT de 20 minutos para principiantes (sin material)",
         body: "Calentamiento 5 min: marcha en el sitio + rotaciones de cadera + círculos de hombros + movilidad de tobillos.\n\nBloque de trabajo — 4 rondas de los siguientes 5 ejercicios (20 s trabajo / 40 s descanso). Descansa 90 segundos entre rondas.\n\n1. Sentadillas: pies a la anchura de los hombros, rodillas en la dirección de los pies, sin que el talón se levante. Baja hasta que los muslos queden paralelos al suelo. No dejes que las rodillas se vayan hacia dentro.\n\n2. Flexiones de rodillas: manos a la anchura de los hombros, cuerpo en línea recta desde rodillas hasta cabeza. Si son demasiado fáciles, pasa a flexiones completas. Si son demasiado difíciles con rodillas, hazlas contra la pared.\n\n3. Mountain climbers: posición de plancha alta, lleva las rodillas alternando al pecho a la máxima velocidad posible manteniendo la cadera baja. El error más frecuente es subir la cadera; mantén el abdomen activo.\n\n4. Jumping jacks: versión de bajo impacto si vives en un piso: pasos laterales alternados en lugar de saltos. Mueve los brazos igual para mantener la intensidad cardiovascular.\n\n5. Plancha: posición de plancha sobre antebrazos, caderas en línea con el cuerpo. Si el tiempo se hace muy largo, aguanta lo que puedas y descansa brevemente sin salir de posición.\n\nVuelta a la calma 5 min: estiramiento de cuádriceps, isquiotibiales, gemelos, pecho y hombros. 30 segundos por posición.",
-        productSlug: "toplus-esterilla-yoga-tpe-6mm",
+        productSlug: "la-mente-es-maravillosa-esterilla-tpe",
       },
       {
         heading: "Errores que lesionan a principiantes",
