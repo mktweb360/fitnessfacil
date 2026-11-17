@@ -199,7 +199,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
     category: "Guías de compra",
     readTime: "8 min",
     image: "/images/blog/regalos-fitness-navidad.jpg",
-    relatedProducts: ["acupoint-pelotas-masaje-miofascial-set-2", "portentum-gomas-set-10-anclaje-puerta", "jupplies-mancuernas-15-niveles-24kg", "proiron-kettlebell-neopreno-12kg", "athleticpro-barra-dominadas-marco-puerta", "divasya-esterilla-yoga-corcho-caucho-natural", "bodymate-rodillo-miofascial-45cm-dureza-media", "walkingpad-z1-cinta-andar-plegable", "corength-rueda-abdominal-doble-modo", "domyos-chaleco-lastrado-ajustable-6-10kg", "domyos-x-bike-100-v2-bicicleta-plegable", "warrior-shaker-proteinas-600ml", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada"],
+    relatedProducts: ["acupoint-pelotas-masaje-miofascial-set-2", "portentum-gomas-set-10-anclaje-puerta", "jupplies-mancuernas-15-niveles-24kg", "proiron-kettlebell-neopreno-12kg", "athleticpro-barra-dominadas-marco-puerta", "divasya-esterilla-yoga-corcho-caucho-natural", "bodymate-rodillo-miofascial-45cm-dureza-media", "walkingpad-z1-cinta-andar-plegable", "corength-rueda-abdominal-doble-modo", "domyos-chaleco-lastrado-ajustable-6-10kg", "domyos-x-bike-100-v2-bicicleta-plegable", "warrior-shaker-proteinas-600ml", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada", "corength-comba-velocidad-pro-cross-training"],
     relatedPosts: [
       "black-friday-fitness-en-casa",
       "rodillo-espuma-foam-roller-como-usar",
@@ -257,7 +257,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
     date: "2025-05-15",
     category: "Entrenamiento",
     readTime: "12 min",
-    relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "fokky-bandas-elasticas-set-4-tpe", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada"],
+    relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "fokky-bandas-elasticas-set-4-tpe", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada", "corength-comba-velocidad-pro-cross-training"],
     relatedPosts: [
       "entrenamiento-fuerza-casa-equipamiento-minimo",
       "bandas-elasticas-musculacion-guia",
@@ -992,7 +992,7 @@ categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
     date: "2025-08-10",
     category: "Entrenamiento",
     readTime: "10 min",
-    relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "fokky-bandas-elasticas-set-4-tpe", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada"],
+    relatedProducts: ["la-mente-es-maravillosa-esterilla-tpe", "fokky-bandas-elasticas-set-4-tpe", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada", "corength-comba-velocidad-pro-cross-training"],
     relatedPosts: [
       "rutina-entrenamiento-casa-sin-equipamiento",
       "perder-peso-ejercicio-casa",
