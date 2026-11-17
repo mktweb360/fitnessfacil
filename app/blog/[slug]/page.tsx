@@ -4556,9 +4556,13 @@ export default async function BlogPostPage({ params }: Props) {
   const promoHref = promoUrl(promo, "fitnessfacil.es", slug);
   const sidebarProducts = relatedProducts.map((p) => p && ({ slug: p.slug, name: p.name, href: `/tienda/${p.categorySlug}/${p.slug}`, image: p.image })).filter(Boolean) as { slug: string; name: string; href: string; image?: string }[];
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
-  const sameCategoryPosts = posts
-    .filter((p) => p.category === post.category && !relatedSlugs.has(p.slug))
-    .slice(0, 6);
+  // Ventana circular desde la posición del artículo: así todos los artículos de la categoría reciben enlaces entrantes (antes todos enlazaban a los mismos 6).
+  const postIdx = posts.findIndex((p) => p.slug === post.slug);
+  const circular = [...posts.slice(postIdx + 1), ...posts.slice(0, Math.max(postIdx, 0))].filter((p) => !relatedSlugs.has(p.slug));
+  const sameCategoryPosts = [
+    ...circular.filter((p) => p.category === post.category),
+    ...circular.filter((p) => p.category !== post.category),
+  ].slice(0, 6);
 
 const AUTHOR = {
   "@type": "Person",
