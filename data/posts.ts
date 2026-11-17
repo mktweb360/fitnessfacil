@@ -230,7 +230,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
       "corength-rueda-abdominal-doble-modo",
       "domyos-chaleco-lastrado-ajustable-6-10kg",
       "domyos-x-bike-100-v2-bicicleta-plegable",
-    "warrior-shaker-proteinas-600ml", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra"],
+    "warrior-shaker-proteinas-600ml", "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada"],
     relatedPosts: [
       "black-friday-fitness-en-casa",
       "rodillo-espuma-foam-roller-como-usar",
@@ -299,7 +299,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
       "toplus-esterilla-yoga-tpe-6mm",
       "la-mente-es-maravillosa-esterilla-tpe",
       "fokky-bandas-elasticas-set-4-tpe",
-    "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra"],
+    "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada"],
     relatedPosts: [
       "entrenamiento-fuerza-casa-equipamiento-minimo",
       "bandas-elasticas-musculacion-guia",
@@ -1099,7 +1099,7 @@ categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
     relatedProducts: [
       "toplus-esterilla-yoga-tpe-6mm",
       "fokky-bandas-elasticas-set-4-tpe",
-    "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra"],
+    "picsil-comba-rapida-abs-doble-rodamiento", "domyos-comba-velocidad-cross-training-negra", "domyos-comba-700-lastrada"],
     relatedPosts: [
       "rutina-entrenamiento-casa-sin-equipamiento",
       "perder-peso-ejercicio-casa",
