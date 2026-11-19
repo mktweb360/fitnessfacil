@@ -3435,7 +3435,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   {
     slug: "grifema-ga5004-comba-cuerda-acero-rodamientos",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
-    name: "GRIFEMA GA5004 Comba para Saltar con Cuerda de Acero y Rodamientos 2,8 m",
+    name: "GRIFEMA GA5004 Comba con Rodamientos 2,8 m",
     asin: "B0D1QCBPP7",
     categorySlug: "accesorios-gimnasio",
     categoryName: "Accesorios de gimnasio",
@@ -3471,7 +3471,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   {
     slug: "walkingpad-z1-cinta-plegable-121x40",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "WalkingPad Z1 Cinta de Andar Plegable 121x40 cm para Casa",
+    name: "WalkingPad Z1 Cinta de Andar Plegable 121x40",
     asin: "B0G8DHGSWL",
     categorySlug: "cintas-correr",
     categoryName: "Cintas de correr",
@@ -3490,7 +3490,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   {
     slug: "westwood-fox-guantes-gimnasio-antideslizantes",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "WESTWOOD FOX Guantes de Gimnasio Antideslizantes con Muñequera",
+    name: "WESTWOOD FOX Guantes de Gimnasio Antideslizantes",
     asin: "B09VQ76FDW",
     categorySlug: "accesorios-gimnasio",
     categoryName: "Accesorios de gimnasio",
@@ -3509,7 +3509,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   {
     slug: "sawans-guantes-gimnasio-levantamiento-pesas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "SAWANS Guantes de Gimnasio para Levantamiento de Pesas con Muñequera",
+    name: "SAWANS Guantes de Gimnasio con Muñequera",
     asin: "B08VD715Q9",
     categorySlug: "accesorios-gimnasio",
     categoryName: "Accesorios de gimnasio",
