@@ -251,6 +251,24 @@ export const products: Product[] = [
 
   // PESAS Y MANCUERNAS
   {
+    slug: "amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte",
+    // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Mancuernas de Neopreno 1, 2 y 3 kg",
+    asin: "B0DNHRW9CR",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Seis mancuernas de neopreno (3 pares de 1, 2 y 3 kg) con soporte, forma hexagonal y código de color por peso.",
+    fullDescription: "Set de mancuernas de neopreno de Amazon Basics. Según la ficha, incluye 3 pares de 1, 2 y 3 kg (6 mancuernas en total) y un soporte para guardarlas. El neopreno da un agarre fácil y seguro, el número de peso va impreso en cada extremo con código de color para identificarlas rápido y la forma hexagonal evita que rueden.",
+    pros: ["3 pares de 1, 2 y 3 kg con soporte incluido", "Neopreno para un agarre seguro", "Peso impreso en cada extremo y código de color", "Forma hexagonal que evita que rueden", "Vendidas y enviadas por Amazon"],
+    cons: ["No las hemos probado: la información procede de la ficha de Amazon", "Pesos ligeros: sirven para empezar o para movilidad, no para progresar en fuerza", "Conviene revisar en Amazon qué variante de peso es la que compras"],
+    specs: {"Material": "Neopreno", "Contenido": "3 pares: 1, 2 y 3 kg", "Forma": "Hexagonal", "Extras": "Soporte para guardarlas"},
+    relatedPosts: ["rutina-mancuernas-casa-semana", "mancuernas-ajustables-vs-fijas", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
+  },
+  {
     slug: "lullax-neo36-mancuernas-ajustables",
     name: "LULLAX NEO36 Mancuernas Ajustables Par hasta 36kg con Base",
     asin: "B0B34VV7JJ",
@@ -343,6 +361,24 @@ export const products: Product[] = [
   },
 
   // ESTERILLAS Y YOGA
+  {
+    slug: "narwhal-esterilla-yoga-tpe-6mm-183x61",
+    // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Narwhal Esterilla de Yoga TPE 6 mm 183x61",
+    asin: "B098K2P2MF",
+    categorySlug: "esterillas-yoga",
+    categoryName: "Esterillas y yoga",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Esterilla de TPE de 6 mm y 183 x 61 cm con doble textura antideslizante y correa de transporte.",
+    fullDescription: "Esterilla de yoga de TPE de alta densidad y sin olor, de 183 x 61 cm y 6 mm de grosor. Según la ficha, tiene doble textura de agarre antideslizante, una amortiguación equilibrada para yoga, Pilates y entrenamiento en casa, y es ligera, con correa de transporte para enrollarla y llevarla.",
+    pros: ["TPE de alta densidad y sin olor, según la ficha", "Doble textura antideslizante", "6 mm de grosor, equilibrado para yoga y Pilates", "Incluye correa de transporte", "Vendida y enviada por Amazon"],
+    cons: ["No la hemos probado: la información procede de la ficha de Amazon", "6 mm es un grosor medio: con rodillas o muñecas sensibles puede quedarse corta"],
+    specs: {"Material": "TPE", "Medidas": "183 x 61 cm", "Grosor": "6 mm", "Extras": "Correa de transporte"},
+    relatedPosts: ["mejor-esterilla-yoga-casa-2025", "esterilla-tpe-vs-pvc-diferencias", "pilates-casa-principiantes-guia"],
+  },
   {
     slug: "la-mente-es-maravillosa-esterilla-tpe",
     name: "LA MENTE ES MARAVILLOSA Esterilla Yoga TPE 183x61cm + Bolsa + E-Book",
