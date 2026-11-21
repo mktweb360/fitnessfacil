@@ -4229,6 +4229,65 @@ const articleContent: Record<string, {
       { q: "¿Qué diferencia hay entre guantes y almohadillas de agarre?", a: "El guante cubre la mano; la almohadilla se coloca solo entre la palma y la barra. La almohadilla deja los dedos libres, pero requiere algo de práctica." },
     ],
   },
+  "accesorios-gimnasio-cuales-merecen-la-pena": {
+    intro: "Casi todo lo que se vende como accesorio de gimnasio es opcional, y algunos productos prometen más de lo que hacen. Aquí repasamos cuatro de los más buscados (cinturón lumbar, guantes, rueda abdominal y comba), qué se sabe de cada uno y en qué orden tiene sentido comprarlos. Para el cinturón nos apoyamos en la revisión que la NSCA encargó al biomecánico Stuart McGill. Ninguno de los productos ha sido probado por nosotros: los datos proceden de las fichas de Amazon.",
+    quickPicks: [
+      { productSlug: "fitgriff-cinturon-lumbar-gimnasio-neopreno", text: "Cinturón de neopreno con malla y velcro, para quien ya levanta cargas altas y quiere probarlo." },
+      { productSlug: "atercel-guantes-gimnasio-transpirables", text: "Guantes ligeros, si las manos se te rozan al agarrar barras y mancuernas." },
+      { productSlug: "amonax-rueda-abdominales-alfombrilla", text: "Rueda abdominal con alfombrilla para las rodillas: poco espacio y poco coste." },
+      { productSlug: "grifema-ga5004-comba-cuerda-acero-rodamientos", text: "Comba con rodamientos para calentar o añadir trabajo cardiovascular en casa." },
+    ],
+    sections: [
+      {
+        heading: "Cinturón lumbar: útil con cargas muy altas, prescindible casi siempre",
+        body: "El cinturón es el accesorio sobre el que más se ha discutido. La revisión que McGill escribió en 2005 para la NSCA concluye que los cinturones no se recomiendan a personas sanas en el ejercicio rutinario, porque sus desventajas pesan más que sus ventajas. La excepción que admite son los levantamientos atléticos extremos, donde un cinturón puede aumentar la estabilidad del tronco, y aun así deja la decisión al deportista. Entre las desventajas cita que dan una falsa sensación de seguridad y pueden llevar a cargar más peso (un estudio que recoge habla de un 19 % más), que elevan la presión arterial y que su uso continuado puede dificultar volver a entrenar sin él. Por eso recomienda cribado cardiovascular antes de usarlo y trabajar el tronco como alternativa. Otro estudio de biomecánica publicado en Spine midió que un cinturón rígido, con una inspiración previa al levantamiento, reduce la carga sobre la columna, y lo atribuye al propio cinturón más que a la presión abdominal. En resumen: si empiezas, no lo necesitas; si ya levantas cargas muy altas, puede tener sentido en las series más pesadas y no en todas.",
+        productSlug: "fitgriff-cinturon-lumbar-gimnasio-neopreno",
+      },
+      {
+        heading: "Guantes y agarre: según lo que te moleste",
+        body: "Los guantes sirven para evitar rozaduras y callos, y estorban cuando restan sensibilidad con la barra. Si no tienes molestias en las manos, puedes entrenar sin ellos. Si te molesta la palma pero no quieres cubrir toda la mano, existen almohadillas de agarre. Tienes la comparación completa, con cuatro modelos, en nuestra guía de guantes de gimnasio.",
+        productSlugs: ["atercel-guantes-gimnasio-transpirables", "fitgriff-guantes-gimnasio-acolchados"],
+      },
+      {
+        heading: "Rueda abdominal: barata, pero exige control del tronco",
+        body: "La rueda es un accesorio sencillo y ocupa poco, y por eso aparece en casi todas las listas de material básico para entrenar en casa. Pide más control del tronco de lo que parece: conviene empezar rodando una distancia corta e ir aumentando, y mantener la zona lumbar firme. Si tienes dolor lumbar o has tenido lesiones de espalda, consúltalo antes con un profesional sanitario. La ficha que hemos consultado incluye una alfombrilla para apoyar las rodillas.",
+        productSlug: "amonax-rueda-abdominales-alfombrilla",
+      },
+      {
+        heading: "Comba: la más versátil para calentar y para cardio",
+        body: "Una comba cuesta poco, no ocupa nada y sirve para calentar o para añadir trabajo cardiovascular a una rutina de fuerza. Hay dos tipos de uso. Para saltos básicos basta una comba sencilla con cuerda ajustable. Si quieres practicar saltos rápidos o dobles, tiene sentido un modelo con rodamientos y mangos largos. Elige la longitud de cuerda según tu altura y empieza con series cortas para que las pantorrillas se adapten.",
+        productSlugs: ["grifema-ga5004-comba-cuerda-acero-rodamientos", "domyos-comba-velocidad-cross-training-negra"],
+      },
+      {
+        heading: "En qué orden comprarlos",
+        body: "Si solo vas a gastar en un accesorio, la comba es la compra con más usos para el menor gasto y espacio. Los guantes van después, solo si notas rozaduras. La rueda abdominal es útil si ya controlas planchas y quieres una progresión. El cinturón es el último: tiene sentido únicamente si ya trabajas con cargas altas y tu técnica está consolidada. En la guía de progresión de cargas explicamos cómo subir peso sin saltarse pasos.",
+      },
+    ],
+    comparisonHeading: "Comparativa rápida de los cuatro accesorios",
+    comparison: {
+      headers: ["Accesorio", "Para qué sirve", "Cuándo tiene sentido", "Cuándo puedes saltártelo"],
+      rows: [
+        ["Cinturón lumbar", "Estabilidad del tronco con cargas muy altas", "Series pesadas de sentadilla o peso muerto con técnica consolidada", "Si empiezas o entrenas con cargas moderadas"],
+        ["Guantes", "Evitar rozaduras y callos", "Si se te irrita la palma con barras y mancuernas", "Si no tienes molestias en las manos"],
+        ["Rueda abdominal", "Trabajo de tronco con poco espacio", "Si ya dominas las planchas y quieres progresar", "Si tienes dolor lumbar sin valoración previa"],
+        ["Comba", "Calentamiento y cardio", "Casi siempre: es el accesorio más versátil", "Si tienes problemas de rodilla o tobillo que lo desaconsejen"],
+      ],
+    },
+    conclusionHeading: "Conclusión",
+    conclusion: "De los cuatro, el único que cuenta con una revisión científica que desaconseja el uso rutinario es el cinturón, que queda para cargas muy altas. El resto son opcionales y dependen de lo que te moleste o de lo que busques: la comba es la compra más versátil, los guantes son para quien se roza, y la rueda abdominal exige una técnica que conviene aprender poco a poco. Antes de comprar, comprueba en la ficha de Amazon la talla, las medidas y quién vende el producto, porque nosotros no los hemos probado.",
+    faqsHeading: "Preguntas frecuentes",
+    sources: [
+      { label: "McGill, S. — On the Use of Weight Belts (revisión invitada por la NSCA, 2005)", url: "https://www.backfitpro.com/medical-scientific-articles/2007/NSCA-weight-belt-use.pdf" },
+      { label: "Effect of a stiff lifting belt on spine compression during lifting (Spine), PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/17047531/" },
+      { label: "NSCA — National Strength and Conditioning Association", url: "https://www.nsca.com/" },
+    ],
+    faqs: [
+      { q: "¿Es necesario un cinturón para hacer sentadillas o peso muerto?", a: "No. La revisión de McGill para la NSCA no lo recomienda a personas sanas en el ejercicio rutinario y lo deja como opción en levantamientos extremos. Si estás empezando, trabaja primero la técnica y la fuerza del tronco." },
+      { q: "¿El cinturón puede dar problemas de tensión arterial?", a: "La misma revisión señala que el cinturón aumenta la presión arterial y la frecuencia cardiaca durante el ejercicio, y recomienda cribado cardiovascular antes de usarlo. Si tienes hipertensión o problemas cardiovasculares, consúltalo con tu médico." },
+      { q: "¿Me sirve una rueda abdominal si tengo dolor de espalda?", a: "Consulta antes con un profesional sanitario. Es un ejercicio que exige mucho control del tronco y no es el más indicado para empezar con una molestia lumbar sin valorar." },
+      { q: "¿Qué accesorio compro primero?", a: "La comba es la más versátil para el espacio y el coste: sirve para calentar y para cardio. Los demás dependen de lo que busques." },
+    ],
+  },
   "suplementos-recuperacion-muscular-magnesio-omega3-bcaa": {
     intro:
       "La sección de suplementos de cualquier tienda de nutrición deportiva está llena de productos con promesas de \"recuperación acelerada\". La mayoría no tiene evidencia sólida detrás. Este artículo se centra en tres que sí la tienen en distinto grado —magnesio, omega-3 y BCAA— y en ser honestos sobre qué puede esperarse realmente de cada uno, para qué perfil de persona tiene sentido y en qué orden de prioridad conviene comprarlos si el presupuesto es limitado.",
