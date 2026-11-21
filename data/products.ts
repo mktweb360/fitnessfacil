@@ -251,6 +251,24 @@ export const products: Product[] = [
 
   // PESAS Y MANCUERNAS
   {
+    slug: "yoleo-banco-pesas-ajustable-plegable",
+    // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por YOLEO GYM (la marca). Datos solo de la ficha de Amazon.
+    name: "YOLEO Banco de Pesas Ajustable y Plegable",
+    asin: "B0C8F62KNJ",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Banco de musculación plegable de acero, con 10 posiciones de ajuste, reposacabezas extendido y 10,4 kg de peso.",
+    fullDescription: "Banco de pesas ajustable y plegable de YOLEO, de acero, para posición plana, inclinada y declinada. Según la ficha, indica una carga máxima de 375 kg, tiene 10 posiciones de ajuste con un ángulo real de 90 grados, un reposacabezas extendido que da soporte a cabeza y columna, y pesa 10,4 kg con asa de transporte para plegarlo y guardarlo.",
+    pros: ["Plano, inclinado y declinado con 10 posiciones de ajuste", "Plegable, de 10,4 kg y con asa de transporte", "Reposacabezas extendido para cabeza y columna", "Estructura de acero"],
+    cons: ["Vendido por un tercero (la marca YOLEO GYM)", "No lo hemos probado: la información, incluida la carga máxima, procede de la ficha de Amazon", "Un banco plegable ligero puede ser menos estable con cargas altas que uno fijo"],
+    specs: { "Marca": "YOLEO", "Posiciones": "10", "Peso": "10,4 kg", "Material": "Acero", "Plegable": "Sí" },
+    relatedPosts: ["banco-de-pesas-casa-como-elegir", "rutina-mancuernas-casa-semana", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
+  },
+  {
     slug: "amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Mancuernas de Neopreno 1, 2 y 3 kg",
