@@ -14,7 +14,8 @@ Antes de tocar nada, lee el HISTORIAL vigente del proyecto, que es la fuente de 
 6. Tras el deploy, verifica en vivo, en modo lectura:
    - `curl` de las URLs tocadas;
    - si se tocó el layout, el consentimiento o los scripts, un hit en GA4 Tiempo real;
-   - rastreo con `C:Usersadmoneposscanseo-tecnico.mjs fitnessfacil.es`, `imagenes.mjs` y `enlaces-externos.mjs`.
+   - rastreo con `C:Usersadmon
+eposscanseo-tecnico.mjs fitnessfacil.es`, `imagenes.mjs` y `enlaces-externos.mjs`.
 7. Registra lo hecho en el HISTORIAL (fecha, commits y verificación). Una tarea puntual se cierra con su guarda automática (principio 28 del CORE); una recurrente se convierte en skill o en tarea programada.
 
 Los commits se firman con la identidad del repo (José Marcos), sin líneas de coautoría de herramientas de IA.
@@ -52,7 +53,7 @@ Las excepciones justificadas van en `scripts/compliance-allow.json`, con el moti
   - Solo con botón de compra en Amazon.es o en Decathlon.es (con stock) el día del alta.
   - Datos solo de la ficha de Amazon o del fabricante.
   - «Vendido por un tercero» en contras cuando corresponda.
-  - Si el ASIN deja de venderse, se marca `unavailable: "AAAA-MM-DD"`; el slug no se borra.
+  - Si el ASIN deja de venderse, se marca `unavailable: "AAAA-MM-DD"` y se añade un 301 a una URL permanente temáticamente cercana (otra ficha viva del mismo tipo o, si no la hay, la categoría de la tienda) en next.config.ts o data/redirects.ts; verify-build falla si falta o si el destino no existe o está retirado. El slug no se borra de data/products.ts.
   - Desde Node, Amazon devuelve captcha. Para verificar usa `fetch` + `DOMParser` en una pestaña de amazon.es.
 - **Title:**
   - El `<title>` final, con la marca, mide 70 caracteres o menos y no puede ser igual al H1. En artículos se usa `seoTitle`.
