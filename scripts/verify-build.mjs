@@ -129,6 +129,39 @@ if (malEnlace.length) {
   ejemplos.unshift(...malEnlace.slice(0, 10));
 }
 
+// ── Fichas retiradas: 301 obligatorio a una URL permanente (22/11/2026) ───────────────────────
+// Toda ficha con `unavailable` debe tener un 301 (next.config.ts o data/redirects.ts) a una categoría
+// de la tienda o a otra ficha que siga disponible. Evita 404 en URLs que Google ya conoce y cadenas de redirecciones.
+{
+  const prodSrc = readFileSync(join(root, "data", "products.ts"), "utf8");
+  let redirSrc = readFileSync(join(root, "next.config.ts"), "utf8");
+  if (existsSync(join(root, "data", "redirects.ts"))) redirSrc += readFileSync(join(root, "data", "redirects.ts"), "utf8");
+  const fichas = new Map();
+  for (const b of prodSrc.split(/\n  \{\n    slug:/).slice(1)) {
+    const slug = (b.match(/^\s*"([^"]+)"/) || [])[1];
+    const cat = (b.match(/categorySlug: "([^"]+)"/) || [])[1];
+    if (slug && cat) fichas.set(`/tienda/${cat}/${slug}`, /\n    unavailable: "/.test(b));
+  }
+  const categorias = new Set([...fichas.keys()].map((k) => k.split("/")[2]));
+  const destinos = new Map();
+  for (const m of redirSrc.matchAll(/source:\s*"([^"]+)",\s*destination:\s*"([^"]+)"/g)) destinos.set(m[1], m[2]);
+  const malRedir = [];
+  for (const [ruta, retirada] of fichas) {
+    if (!retirada) continue;
+    const d = destinos.get(ruta);
+    if (!d) { malRedir.push(`ficha retirada sin 301: ${ruta}`); continue; }
+    const partes = d.split("/").filter(Boolean);
+    if (partes[0] !== "tienda") continue;
+    if (partes.length === 2 && !categorias.has(partes[1])) malRedir.push(`destino inexistente: ${ruta} → ${d}`);
+    if (partes.length === 3 && !fichas.has(d)) malRedir.push(`destino inexistente: ${ruta} → ${d}`);
+    if (partes.length === 3 && fichas.get(d)) malRedir.push(`destino también retirado: ${ruta} → ${d}`);
+  }
+  if (malRedir.length) {
+    errors.push(`${malRedir.length} problemas en redirecciones de fichas retiradas`);
+    ejemplos.unshift(...malRedir.slice(0, 10));
+  }
+}
+
 if (errors.length) {
   console.error("\n✖ verify-build: la build NO cumple los mínimos de SEO/medición:");
   for (const e of errors) console.error("  - " + e);
