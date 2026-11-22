@@ -17,6 +17,7 @@ export type Post = {
 export const posts: Post[] = [
 {
 slug: "ejercicio-en-casa-mayores-65-recomendaciones-oms",
+categoryCta: { href: "/tienda/bandas-resistencia", text: "Ver bandas de resistencia →" },
 title: "Ejercicio en casa para mayores de 65 años: qué recomienda la OMS y cómo organizarlo",
 seoTitle: "Ejercicio en casa para mayores de 65 años",
 excerpt: "Minutos de actividad, fuerza y equilibrio que recomienda la OMS a partir de los 65 años, un esquema semanal orientativo y el material de casa que encaja.",
