@@ -111,6 +111,7 @@ export default async function CategoryPage({ params }: Props) {
   const catProducts = getProductsByCategory(categoria);
   const guide = buyingGuides[categoria];
   const relatedPosts = posts.filter((p) =>
+    p.categoryCta?.href === `/tienda/${categoria}` ||
     p.relatedProducts?.some((rp) => catProducts.some((cp) => cp.slug === rp))
   );
   const hasSupplement = catProducts.some((p) => p.isSupplement);
@@ -225,7 +226,7 @@ export default async function CategoryPage({ params }: Props) {
                 <span className="text-4xl">{cat.icon}</span>
                 <div>
                   <h1 className="text-2xl font-extrabold text-gray-900 leading-tight">
-                    {cat.name} — Guía de compra 2025
+                    {cat.name} — Guía de compra
                   </h1>
                   <p className="text-gray-600 text-sm mt-0.5">{cat.description}</p>
                 </div>
