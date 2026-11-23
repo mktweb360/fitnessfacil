@@ -3849,6 +3849,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "domyos-comba-700-lastrada",
+    image: "https://contents.mediadecathlon.com/p2568848/k$d7de18d61794fbbe188cefdc8d8e8cef/picture.jpg?f=800x800",
     name: "Domyos Comba 700 lastrada",
     offers: [{ store: "decathlon", path: "comba-700-lastrada/309955/m8810330" }],
     // Comprobada en decathlon.es el 17/11/2026: botón «Añadir a la cesta» activo, vendida y enviada por Decathlon.
@@ -3867,6 +3868,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "corength-comba-velocidad-pro-cross-training",
+    image: "https://contents.mediadecathlon.com/p1913664/k$98d4a2f04ffd2ddfc8e1ec64c3ed7caf/picture.jpg?f=800x800",
     name: "Corength Comba de velocidad Pro Cross Training",
     offers: [{ store: "decathlon", path: "comba-velocidad-pro-speed-jump-rope-pro-cross-training-corength-negro/311896/c1c1m8558694" }],
     // Comprobada en decathlon.es el 17/11/2026: botón «Añadir a la cesta» activo, vendida y enviada por Decathlon.
@@ -3885,6 +3887,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "decathlon-bolsa-mochila-deportes-combate-900-60l",
+    image: "https://contents.mediadecathlon.com/p2116639/k$943c962193b0c80c35097bbcd975a244/picture.jpg?f=800x800",
     name: "Outshock Bolsa/mochila para deportes de combate 900 (60 L, negra)",
     offers: [{ store: "decathlon", path: "bolsa-mochila-para-deportes-de-combate-900-60-l-negra/302841/c382m8510131" }],
     // Comprobada en decathlon.es el 17/11/2026: botón «Añadir a la cesta» activo, vendida y enviada por Decathlon.
@@ -3903,6 +3906,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "quechua-mh500-botas-impermeables-hombre-gris",
+    image: "https://contents.mediadecathlon.com/p3017099/k$368139ebe624ec9538da25a30ed8d1ae/picture.jpg?f=800x800",
     name: "Quechua MH500 botas de montaña y trekking impermeables (hombre, gris)",
     offers: [{ store: "decathlon", path: "botas-de-montana-y-trekking-impermeables-hombre-mh500-gris/361229/c93c169m8928619" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendido y enviado por Decathlon.
@@ -3921,6 +3925,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "quechua-mh500-zapatillas-impermeables-hombre",
+    image: "https://contents.mediadecathlon.com/p2315782/k$e8ab64202c4453d4f3662ae6455c0dfc/picture.jpg?f=800x800",
     name: "Quechua MH500 zapatillas de montaña y trekking impermeables (hombre)",
     offers: [{ store: "decathlon", path: "zapatillas-de-montana-y-trekking-impermeables-hombre-quechua-mh500/330812/c246c383m8618759" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendido y enviado por Decathlon.
@@ -3939,6 +3944,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "quechua-hike-50-calcetines-altos-trekking-2-pares",
+    image: "https://contents.mediadecathlon.com/p2621200/k$1df65460b81e6141fd7e6a589ab95a64/picture.jpg?f=800x800",
     name: "Quechua Hike 50 calcetines altos de montaña y trekking (2 pares)",
     offers: [{ store: "decathlon", path: "calcetines-altos-de-montana-y-trekking-2-pares-adulto-quechua-hike-50/334348/c251m8649539" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo, vendido y enviado por Decathlon.
@@ -4090,6 +4096,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "kiprun-dry-500-camiseta-running-transpirable-hombre",
+    image: "https://contents.mediadecathlon.com/p3278747/k$b7d3045faa0591f87459f08cc064b945/picture.jpg?f=800x800",
     name: "Kiprun Dry 500 camiseta de running transpirable hombre (negro)",
     offers: [{ store: "decathlon", path: "camiseta-running-transpirable-hombre-kiprun-dry-500-negro/339765/c382m8861547" }],
     // Comprobado en decathlon.es el 14/11/2026: botón «Añadir a la cesta» activo y sin «Agotado» en la ficha.
