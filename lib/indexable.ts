@@ -1,8 +1,8 @@
-// Fichas de producto indexables (revisado 22/11/2026).
-// Criterio: ficha viva (sin `unavailable`), citada al menos por un artículo del blog y con contenido propio
-// (descripción de 300 caracteres o más, 3 ventajas o más y 2 contras o más). Las 15 primeras son las ya
-// indexables antes de esta revisión. El resto de fichas siguen accesibles con noindex,follow y fuera del
-// sitemap. Si Google AdSense vuelve a señalar contenido de poco valor, se reduce esta lista.
+// Fichas de producto indexables (revisado 23/11/2026, decisión de José: sin indexación no hay tráfico).
+// Criterio: ficha viva (sin `unavailable`) y con contenido propio (descripción de 300 caracteres o más,
+// 3 ventajas o más y 2 contras o más). Ya no hace falta que un artículo la cite. Las fichas retiradas
+// redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
+// se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "optimum-nutrition-gold-standard-whey-226kg",
   "sportstech-x150-ergometro-plegable",
@@ -110,6 +110,35 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "kiprun-jogflow-100-1-zapatillas-running-hombre",
   "kiprun-jogflow-100-1-zapatillas-running-mujer",
   "kiprun-run500-calcetines-running-finos-media-cana-2-pares",
+  "yoleo-banco-pesas-ajustable-plegable",
+  "amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte",
+  "nordictrack-t65s-cinta-correr",
+  "manduka-pro-yoga-mat-6mm",
+  "gaiam-premium-esterilla-yoga-6mm",
+  "jade-harmony-esterilla-yoga-natural",
+  "myprotein-impact-whey-2-5kg",
+  "theraband-banda-elastica-azul-extra",
+  "charonfit-cinta-correr-inclinacion-automatica-18",
+  "mobvoi-home-treadmill-se-cinta-plegable-3en1",
+  "runimon-cinta-correr-6en1-rgb",
+  "cecotec-drumfit-wayhome-1000-runner",
+  "big-proteina-whey-cacaolat-500g",
+  "hsn-creatina-excell-creapure-120caps",
+  "hsn-cafeina-anhidra-200mg-120tabs",
+  "amonax-rueda-abdominal-con-alfombrilla",
+  "proiron-chaleco-lastrado-10kg",
+  "merach-remo-agua-madera-plegable",
+  "domyos-bike-120-bicicleta-estatica",
+  "domyos-initial-elliptical-300-eliptica-autoalimentada",
+  "domyos-esterilla-pilates-100-10mm",
+  "domyos-fitball-pelota-pilates-65cm",
+  "fitgriff-straps-gym-correas-levantamiento",
+  "amazon-basics-par-mancuernas-neopreno-2kg",
+  "superun-cinta-correr-inclinacion-10-app-pitpat",
+  "merach-bicicleta-estatica-correa-resistencia-continua",
+  "walkingpad-z1-cinta-plegable-121x40",
+  "westwood-fox-guantes-gimnasio-antideslizantes",
+  "decathlon-bolsa-mochila-deportes-combate-900-60l",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
