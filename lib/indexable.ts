@@ -4,6 +4,15 @@
 // redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
 // se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
+  "cecotec-drumfit-indoor-bicicleta-estatica",
+  "songmics-mancuernas-hexagonales-neopreno-5kg",
+  "unycos-mancuernas-neopreno-1-10kg",
+  "suright-gomas-elasticas-3-niveles",
+  "techstone-bandas-resistencia-5-niveles",
+  "edifit-pelota-pilates-fitball-hinchador",
+  "proiron-pelota-pilates-antiestallido",
+  "mercuryal-straps-gym-powerlifting",
+  "beast-rage-guantes-fitness-transpirables",
   "optimum-nutrition-gold-standard-whey-226kg",
   "sportstech-x150-ergometro-plegable",
   "walkingpad-r1-pro-cinta-plegable",
