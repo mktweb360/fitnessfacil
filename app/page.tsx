@@ -81,6 +81,25 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Campaña de temporada: enlaza desde la portada las guías de Black Friday y Navidad (23/11/2026) */}
+      <section aria-label="Campaña de temporada" className="bg-emerald-50 border-y border-emerald-100 py-8 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-xl font-extrabold text-gray-900 mb-1">Black Friday y Navidad: guías para comprar con criterio</h2>
+          <p className="text-sm text-gray-600 mb-4">Lo que conviene mirar antes de comprar para entrenar en casa. El precio actual lo ves en la ficha de la tienda.</p>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Link href="/blog/black-friday-fitness-en-casa" className="block rounded-xl bg-white p-4 shadow-sm hover:shadow-md transition-shadow">
+              <span className="font-bold text-gray-900">Black Friday 2026 para entrenar en casa</span>
+              <span className="block text-sm text-gray-600">qué comprar y qué evitar</span>
+            </Link>
+            <Link href="/blog/regalos-fitness-navidad" className="block rounded-xl bg-white p-4 shadow-sm hover:shadow-md transition-shadow">
+              <span className="font-bold text-gray-900">Regalos para quien entrena en casa</span>
+              <span className="block text-sm text-gray-600">ideas para Navidad y Reyes</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+
       {/* CATEGORIES + OFERTAS DESTACADAS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-2">Categorías y ofertas destacadas</h2>
