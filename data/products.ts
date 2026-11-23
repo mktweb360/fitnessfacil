@@ -252,6 +252,7 @@ export const products: Product[] = [
   // PESAS Y MANCUERNAS
   {
     slug: "yoleo-banco-pesas-ajustable-plegable",
+    image: "/images/products/yoleo-banco-pesas-ajustable-plegable.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por YOLEO GYM (la marca). Datos solo de la ficha de Amazon.
     name: "YOLEO Banco de Pesas Ajustable y Plegable",
     asin: "B0C8F62KNJ",
@@ -270,6 +271,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte",
+    image: "/images/products/amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Mancuernas de Neopreno 1, 2 y 3 kg",
     asin: "B0DNHRW9CR",
@@ -381,6 +383,7 @@ export const products: Product[] = [
   // ESTERILLAS Y YOGA
   {
     slug: "narwhal-esterilla-yoga-tpe-6mm-183x61",
+    image: "/images/products/narwhal-esterilla-yoga-tpe-6mm-183x61.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Narwhal Esterilla de Yoga TPE 6 mm 183x61",
     asin: "B098K2P2MF",
@@ -1061,6 +1064,7 @@ export const products: Product[] = [
   // AMPLIACIÓN CATÁLOGO — sesión loop 02/09/2026 (rotación fitnessfacil.es)
   {
     slug: "pullup-dip-banda-resistencia-elastica-media",
+    image: "/images/products/pullup-dip-banda-resistencia-elastica-media.jpg",
     name: "PULLUP & DIP Banda Elástica de Resistencia para Dominadas Asistidas — Nivel Medio (Azul)",
     asin: "B07357333W",
     categorySlug: "bandas-resistencia",
@@ -1083,6 +1087,7 @@ export const products: Product[] = [
   },
   {
     slug: "pullup-dip-banda-resistencia-elastica-ligera",
+    image: "/images/products/pullup-dip-banda-resistencia-elastica-ligera.jpg",
     name: "PULLUP & DIP Banda Elástica de Resistencia para Dominadas — Nivel Extra Ligero (Rojo)",
     asin: "B07B3GCK88",
     categorySlug: "bandas-resistencia",
@@ -1127,6 +1132,7 @@ export const products: Product[] = [
   },
   {
     slug: "divasya-esterilla-yoga-corcho-caucho-natural",
+    image: "/images/products/divasya-esterilla-yoga-corcho-caucho-natural.jpg",
     name: "DIVASYA Esterilla de Yoga Premium de Corcho y Caucho Natural 183x66cm",
     asin: "B0C1CB1T54",
     categorySlug: "esterillas-yoga",
@@ -1148,6 +1154,7 @@ export const products: Product[] = [
   },
   {
     slug: "charonfit-cinta-correr-inclinacion-automatica-18",
+    image: "/images/products/charonfit-cinta-correr-inclinacion-automatica-18.jpg",
     name: "Neezee Cinta de Correr Plegable con Inclinación Eléctrica 20 %, 1-18 km/h",
     asin: "B0H2HHKF7G",
     categorySlug: "cintas-correr",
@@ -1166,6 +1173,7 @@ export const products: Product[] = [
   },
   {
     slug: "best-protein-bcaa-glutamina-500g-sandia",
+    image: "/images/products/best-protein-bcaa-glutamina-500g-sandia.jpg",
     name: "BEST PROTEIN Aminoácidos BCAA + Glutamina en Polvo KYOWA QUALITY 500g Sandía",
     asin: "B07GRKGZDW",
     categorySlug: "suplementos-proteinas",
@@ -1188,6 +1196,7 @@ export const products: Product[] = [
   },
   {
     slug: "hsn-evozma-magnesio-zinc-b6-120caps",
+    image: "/images/products/hsn-evozma-magnesio-zinc-b6-120caps.jpg",
     name: "HSN EvoZMA Magnesio, Zinc y Vitamina B6 con Ácido D-Aspártico 120 Cápsulas",
     asin: "B01BE56ZKS",
     categorySlug: "suplementos-proteinas",
@@ -1210,6 +1219,7 @@ export const products: Product[] = [
   },
   {
     slug: "amix-super-omega-3-90-capsulas",
+    image: "/images/products/amix-super-omega-3-90-capsulas.jpg",
     name: "AMIX Super Omega 3 con Aceite de Pescado 90 Cápsulas",
     asin: "B00JKJCXXY",
     categorySlug: "suplementos-proteinas",
@@ -1254,6 +1264,7 @@ export const products: Product[] = [
   },
   {
     slug: "flintronic-guantes-entrenamiento-munequeras",
+    image: "/images/products/flintronic-guantes-entrenamiento-munequeras.jpg",
     name: "flintronic Guantes de Gimnasio con Muñequeras Antideslizantes",
     asin: "B0DHXHPTRP",
     categorySlug: "pesas-mancuernas",
@@ -1297,6 +1308,7 @@ export const products: Product[] = [
   },
   {
     slug: "mobvoi-home-treadmill-se-cinta-plegable-3en1",
+    image: "/images/products/mobvoi-home-treadmill-se-cinta-plegable-3en1.jpg",
     // Alta 27/10/2026 (sustituye a la Zeporix 3 en 1, sin compra). Verificada en amazon.es el 27/10: vendida y enviada por Amazon.
     name: "Mobvoi Home Treadmill SE Cinta de Correr Plegable 3 en 1",
     asin: "B0CRK93TG9",
@@ -1315,6 +1327,7 @@ export const products: Product[] = [
   },
   {
     slug: "cursor-cinta-correr-inclinacion-5-niveles",
+    image: "/images/products/cursor-cinta-correr-inclinacion-5-niveles.jpg",
     name: "CURSOR Cinta de Correr Plegable con Inclinación 5 Niveles (0-40%)",
     asin: "B0H9QYR49N",
     categorySlug: "cintas-correr",
@@ -1350,6 +1363,7 @@ export const products: Product[] = [
   },
   {
     slug: "runimon-cinta-correr-6en1-rgb",
+    image: "/images/products/runimon-cinta-correr-6en1-rgb.jpg",
     name: "RUNIMON Cinta de Correr Plegable 6 en 1 con Manillar Extensible",
     asin: "B0H6JSRN4G",
     categorySlug: "cintas-correr",
@@ -1367,6 +1381,7 @@ export const products: Product[] = [
   },
   {
     slug: "cecotec-drumfit-wayhome-1000-runner",
+    image: "/images/products/cecotec-drumfit-wayhome-1000-runner.jpg",
     name: "Cecotec DrumFit WayHome 1000 Runner Sprint",
     asin: "B0BQ1CPKXK",
     categorySlug: "cintas-correr",
@@ -1386,6 +1401,7 @@ export const products: Product[] = [
   // BICICLETAS ESTÁTICAS
   {
     slug: "cecotec-bicicleta-xbike-plegable",
+    image: "/images/products/cecotec-bicicleta-xbike-plegable.jpg",
     name: "Cecotec Bicicleta Estática Plegable X-Bike",
     asin: "B0BQ1Y86P1",
     categorySlug: "bicicletas-estaticas",
@@ -1403,6 +1419,7 @@ export const products: Product[] = [
   },
   {
     slug: "ffitness-bicicleta-estatica-camara",
+    image: "/images/products/ffitness-bicicleta-estatica-camara.jpg",
     name: "FFitness Bicicleta Estática con Sensores Cardio y Pantalla LCD",
     asin: "B0GJTN8XH2",
     categorySlug: "bicicletas-estaticas",
@@ -1420,6 +1437,7 @@ export const products: Product[] = [
   },
   {
     slug: "cursor-bicicleta-spinning-16-niveles",
+    image: "/images/products/cursor-bicicleta-spinning-16-niveles.jpg",
     name: "CURSOR Bicicleta Estática de Spinning con Monitor de Frecuencia Cardíaca",
     asin: "B0DS5VY269",
     categorySlug: "bicicletas-estaticas",
@@ -1437,6 +1455,7 @@ export const products: Product[] = [
   },
   {
     slug: "merach-bicicleta-plegable-resistencia-magnetica",
+    image: "/images/products/merach-bicicleta-plegable-resistencia-magnetica.jpg",
     name: "MERACH Bicicleta Estática Plegable con Resistencia Magnética",
     asin: "B0F4QV2BV1",
     categorySlug: "bicicletas-estaticas",
@@ -1455,6 +1474,7 @@ export const products: Product[] = [
   },
   {
     slug: "toputure-bicicleta-5en1-respaldo",
+    image: "/images/products/toputure-bicicleta-5en1-respaldo.jpg",
     name: "Toputure Bicicleta Estática Plegable 5 en 1 con Respaldo",
     asin: "B0FX9TTMFH",
     categorySlug: "bicicletas-estaticas",
@@ -1475,6 +1495,7 @@ export const products: Product[] = [
   // PESAS Y MANCUERNAS
   {
     slug: "mobiclinic-extenfit-mancuernas-2en1",
+    image: "/images/products/mobiclinic-extenfit-mancuernas-2en1.jpg",
     name: "Mobiclinic ExtenFit Mancuernas Ajustables 2 en 1 (2-30kg)",
     asin: "B0CQP9F2J9",
     categorySlug: "pesas-mancuernas",
@@ -1492,6 +1513,7 @@ export const products: Product[] = [
   },
   {
     slug: "yaheetech-kit-mancuernas-16-discos",
+    image: "/images/products/yaheetech-kit-mancuernas-16-discos.jpg",
     name: "Yaheetech Kit de Mancuernas Ajustables con 16 Discos y 2 Barras",
     asin: "B09YTXX7TK",
     categorySlug: "pesas-mancuernas",
@@ -1527,6 +1549,7 @@ export const products: Product[] = [
   },
   {
     slug: "jupplies-mancuernas-15-niveles-24kg",
+    image: "/images/products/jupplies-mancuernas-15-niveles-24kg.jpg",
     name: "JUPPLIES Mancuernas Ajustables 15 Niveles (2-24kg) con Bloqueo de Seguridad",
     asin: "B0GJ5M7MQM",
     categorySlug: "pesas-mancuernas",
@@ -1545,6 +1568,7 @@ export const products: Product[] = [
   },
   {
     slug: "eigfoh-mancuernas-10kg-impermeables",
+    image: "/images/products/eigfoh-mancuernas-10kg-impermeables.jpg",
     name: "EIGFOH Mancuernas Ajustables 10kg Impermeables Ahorro de Espacio",
     asin: "B0DBY1JFVP",
     categorySlug: "pesas-mancuernas",
@@ -1564,6 +1588,7 @@ export const products: Product[] = [
   // ESTERILLAS Y YOGA
   {
     slug: "la-mente-es-maravillosa-esterilla-mandala",
+    image: "/images/products/la-mente-es-maravillosa-esterilla-mandala.jpg",
     name: "LA MENTE ES MARAVILLOSA Esterilla Yoga TPE Mandala 183x61cm",
     asin: "B0BH4ZHP9R",
     categorySlug: "esterillas-yoga",
@@ -1599,6 +1624,7 @@ export const products: Product[] = [
   },
   {
     slug: "yogati-esterilla-lineas-alineacion",
+    image: "/images/products/yogati-esterilla-lineas-alineacion.jpg",
     name: "YOGATI Esterilla Yoga con Líneas de Alineación",
     asin: "B0CJ39LHNX",
     categorySlug: "esterillas-yoga",
@@ -1617,6 +1643,7 @@ export const products: Product[] = [
   },
   {
     slug: "smallrun-esterilla-yoga-10mm",
+    image: "/images/products/smallrun-esterilla-yoga-10mm.jpg",
     name: "smallrun Esterilla Yoga Antideslizante 10mm",
     asin: "B0CVNM5375",
     categorySlug: "esterillas-yoga",
@@ -1634,6 +1661,7 @@ export const products: Product[] = [
   },
   {
     slug: "laar-esterilla-corcho-caucho-ecologica",
+    image: "/images/products/laar-esterilla-corcho-caucho-ecologica.jpg",
     name: "LAAR Yoga Essentials Esterilla de Corcho Natural y Caucho Ecológico",
     asin: "B0F4FSBRZ7",
     categorySlug: "esterillas-yoga",
@@ -1653,6 +1681,7 @@ export const products: Product[] = [
   // SUPLEMENTOS Y PROTEÍNAS
   {
     slug: "healthy-fusion-whey-colageno-1kg",
+    image: "/images/products/healthy-fusion-whey-colageno-1kg.jpg",
     name: "Healthy Fusion Whey Protein con Colágeno, Magnesio y Vitamina B6",
     asin: "B08YP1LPF5",
     categorySlug: "suplementos-proteinas",
@@ -1671,6 +1700,7 @@ export const products: Product[] = [
   },
   {
     slug: "optimum-nutrition-gold-standard-899g",
+    image: "/images/products/optimum-nutrition-gold-standard-899g.jpg",
     name: "Optimum Nutrition Gold Standard 100% Whey 899g Double Rich Chocolate",
     asin: "B002DYIZH6",
     categorySlug: "suplementos-proteinas",
@@ -1690,6 +1720,7 @@ export const products: Product[] = [
   },
   {
     slug: "bulk-pure-whey-sin-sabor-500g",
+    image: "/images/products/bulk-pure-whey-sin-sabor-500g.jpg",
     name: "Bulk Pure Whey Proteína en Polvo sin Sabor 500g",
     asin: "B00SP30A1I",
     categorySlug: "suplementos-proteinas",
@@ -1708,6 +1739,7 @@ export const products: Product[] = [
   },
   {
     slug: "big-proteina-whey-cacaolat-500g",
+    image: "/images/products/big-proteina-whey-cacaolat-500g.jpg",
     name: "BIG Proteína Whey Materia Prima Premium Sin Lactosa Sabor Cacaolat",
     asin: "B0DS6CH23J",
     categorySlug: "suplementos-proteinas",
@@ -1726,6 +1758,7 @@ export const products: Product[] = [
   },
   {
     slug: "hsn-proteina-soja-vegana-2kg",
+    image: "/images/products/hsn-proteina-soja-vegana-2kg.jpg",
     name: "HSN Proteína de Soja Aislada 100% Vegana",
     asin: "B06XRFPMS5",
     categorySlug: "suplementos-proteinas",
@@ -1747,6 +1780,7 @@ export const products: Product[] = [
   // BANDAS DE RESISTENCIA
   {
     slug: "fokky-gomas-elasticas-set-5-latex",
+    image: "/images/products/fokky-gomas-elasticas-set-5-latex.jpg",
     name: "Fokky Gomas Elásticas Musculación Set de 5 en Látex Natural",
     asin: "B09CTVQWK8",
     categorySlug: "bandas-resistencia",
@@ -1764,6 +1798,7 @@ export const products: Product[] = [
   },
   {
     slug: "grifema-bandas-elasticas-set-4-tpe",
+    image: "/images/products/grifema-bandas-elasticas-set-4-tpe.jpg",
     name: "GRIFEMA Bandas Elásticas Fitness Set de 4, TPE 1.8m",
     asin: "B0CPSD21L4",
     categorySlug: "bandas-resistencia",
@@ -1781,6 +1816,7 @@ export const products: Product[] = [
   },
   {
     slug: "portentum-gomas-set-10-anclaje-puerta",
+    image: "/images/products/portentum-gomas-set-10-anclaje-puerta.jpg",
     name: "PORTENTUM Gomas Elásticas Set de 10 con Asas y Anclaje de Puerta",
     asin: "B0FP5CCR66",
     categorySlug: "bandas-resistencia",
@@ -1799,6 +1835,7 @@ export const products: Product[] = [
   },
   {
     slug: "pleasion-bandas-tela-set-5",
+    image: "/images/products/pleasion-bandas-tela-set-5.jpg",
     name: "PLEASION Bandas Elásticas de Tela Set de 5 Antideslizantes",
     asin: "B08BJJ8SMD",
     categorySlug: "bandas-resistencia",
@@ -1816,6 +1853,7 @@ export const products: Product[] = [
   },
   {
     slug: "panathletic-bandas-set-5-guia",
+    image: "/images/products/panathletic-bandas-set-5-guia.jpg",
     name: "Panathletic Bandas Elásticas Set de 5 con Guía de Ejercicios",
     asin: "B016A9IUWY",
     categorySlug: "bandas-resistencia",
@@ -1834,6 +1872,7 @@ export const products: Product[] = [
   },
   {
     slug: "hsn-creatina-excell-creapure-120caps",
+    image: "/images/products/hsn-creatina-excell-creapure-120caps.jpg",
     name: "HSN Creatina Excell 1000mg Creapure® 120 Cápsulas Vegetales",
     asin: "B07JWJY6GQ",
     categorySlug: "suplementos-proteinas",
@@ -1856,6 +1895,7 @@ export const products: Product[] = [
   },
   {
     slug: "hsn-cafeina-anhidra-200mg-120tabs",
+    image: "/images/products/hsn-cafeina-anhidra-200mg-120tabs.jpg",
     name: "HSN Cafeína Anhidra 200mg — Efecto Rápido, 120 Tabletas",
     asin: "B079PYZH1M",
     categorySlug: "suplementos-proteinas",
@@ -1878,6 +1918,7 @@ export const products: Product[] = [
   },
   {
     slug: "portentum-cintas-elasticas-tela-set-3",
+    image: "/images/products/portentum-cintas-elasticas-tela-set-3.jpg",
     name: "PORTENTUM Cintas Elásticas de Tela — Set de 3, 3 Niveles de Resistencia",
     asin: "B0C1NJ4LYQ",
     categorySlug: "bandas-resistencia",
@@ -1899,6 +1940,7 @@ export const products: Product[] = [
   },
   {
     slug: "triggerpoint-grid-rodillo-espuma-33cm",
+    image: "/images/products/triggerpoint-grid-rodillo-espuma-33cm.jpg",
     name: "TriggerPoint GRID Rodillo de Espuma 33 cm — Superficie Texturizada, Dureza Extrafirme",
     asin: "B0040EGNIU",
     categorySlug: "esterillas-yoga",
@@ -1920,6 +1962,7 @@ export const products: Product[] = [
   },
   {
     slug: "bodymate-rodillo-miofascial-45cm-dureza-media",
+    image: "/images/products/bodymate-rodillo-miofascial-45cm-dureza-media.jpg",
     name: "BODYMATE Rodillo Miofascial Standard 45 x 15 cm — Dureza Media, Superficie Lisa",
     asin: "B07F9V3ZYB",
     categorySlug: "esterillas-yoga",
@@ -1941,6 +1984,7 @@ export const products: Product[] = [
   },
   {
     slug: "acupoint-pelotas-masaje-miofascial-set-2",
+    image: "/images/products/acupoint-pelotas-masaje-miofascial-set-2.jpg",
     name: "Acupoint Set de 2 Pelotas de Masaje Miofascial — Tamaño Pelota de Lacrosse",
     asin: "B01IL7SKUU",
     categorySlug: "esterillas-yoga",
@@ -1962,6 +2006,7 @@ export const products: Product[] = [
   },
   {
     slug: "athleticpro-barra-dominadas-marco-puerta",
+    image: "/images/products/athleticpro-barra-dominadas-marco-puerta.jpg",
     name: "AthleticPro Barra de Dominadas para Marco de Puerta sin Taladrar — Puertas de 70 a 92 cm",
     asin: "B08XY4DQ9D",
     categorySlug: "pesas-mancuernas",
@@ -1983,6 +2028,7 @@ export const products: Product[] = [
   },
   {
     slug: "merach-bicicleta-estatica-volante-hierro-app",
+    image: "/images/products/merach-bicicleta-estatica-volante-hierro-app.jpg",
     name: "MERACH Bicicleta Estática con Resistencia Magnética, Monitor LED y App",
     asin: "B0DTYFYZ21",
     categorySlug: "bicicletas-estaticas",
@@ -2004,6 +2050,7 @@ export const products: Product[] = [
   },
   {
     slug: "toputure-bicicleta-estatica-volante-15kg-app",
+    image: "/images/products/toputure-bicicleta-estatica-volante-15kg-app.jpg",
     name: "Toputure Bicicleta Estática Profesional con Volante de 15 kg, Pulsómetro y App",
     asin: "B0F9F9T5ZV",
     categorySlug: "bicicletas-estaticas",
@@ -2024,6 +2071,7 @@ export const products: Product[] = [
   },
   {
     slug: "vannect-bicicleta-estatica-plegable-16-niveles",
+    image: "/images/products/vannect-bicicleta-estatica-plegable-16-niveles.jpg",
     name: "VANNECT Bicicleta Estática Plegable con 16 Niveles de Resistencia Magnética",
     asin: "B0F3T7Y569",
     categorySlug: "bicicletas-estaticas",
@@ -2066,6 +2114,7 @@ export const products: Product[] = [
   },
   {
     slug: "walkingpad-z1-cinta-andar-plegable",
+    image: "/images/products/walkingpad-z1-cinta-andar-plegable.jpg",
     name: "WalkingPad Z1 Cinta de Andar Plegable 1-6 km/h con Mando a Distancia",
     asin: "B0G8DHGSWL",
     categorySlug: "cintas-correr",
@@ -2087,6 +2136,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-kettlebell-hierro-fundido-8kg",
+    image: "/images/products/amazon-basics-kettlebell-hierro-fundido-8kg.jpg",
     name: "Amazon Basics Kettlebell de Hierro Fundido 8 kg con Asa Ancha Texturizada",
     asin: "B076QHF4MJ",
     categorySlug: "pesas-mancuernas",
@@ -2108,6 +2158,7 @@ export const products: Product[] = [
   },
   {
     slug: "proiron-kettlebell-neopreno-12kg",
+    image: "/images/products/proiron-kettlebell-neopreno-12kg.jpg",
     name: "PROIRON Kettlebell de Hierro Fundido 12 kg con Revestimiento de Neopreno",
     asin: "B09T9MY8L3",
     categorySlug: "pesas-mancuernas",
@@ -2128,6 +2179,7 @@ export const products: Product[] = [
   },
   {
     slug: "optimum-nutrition-creatina-micronizada-634g",
+    image: "/images/products/optimum-nutrition-creatina-micronizada-634g.jpg",
     name: "Optimum Nutrition Creatina Monohidrato Micronizada en Polvo 634 g Sin Sabor",
     asin: "B00T7L20EC",
     categorySlug: "suplementos-proteinas",
@@ -2149,6 +2201,7 @@ export const products: Product[] = [
   },
   {
     slug: "hsn-creatina-monohidrato-200-mesh-500g",
+    image: "/images/products/hsn-creatina-monohidrato-200-mesh-500g.jpg",
     name: "HSN Creatina Monohidrato en Polvo 200 Mesh Sin Sabor 500 g",
     asin: "B071W264LM",
     categorySlug: "suplementos-proteinas",
@@ -2170,6 +2223,7 @@ export const products: Product[] = [
   },
   {
     slug: "prosourcefit-esterilla-extra-gruesa-13mm",
+    image: "/images/products/prosourcefit-esterilla-extra-gruesa-13mm.jpg",
     name: "ProsourceFit Esterilla Extra Gruesa 13 mm para Pilates y Yoga con Correa",
     asin: "B00FY0GWEE",
     categorySlug: "esterillas-yoga",
@@ -2190,6 +2244,7 @@ export const products: Product[] = [
   },
   {
     slug: "proiron-esterilla-nbr-10mm-lineas-alineacion",
+    image: "/images/products/proiron-esterilla-nbr-10mm-lineas-alineacion.jpg",
     name: "PROIRON Esterilla NBR de 10 mm 183x66 cm con Líneas de Alineación",
     asin: "B07BKQRWHT",
     categorySlug: "esterillas-yoga",
@@ -2210,6 +2265,7 @@ export const products: Product[] = [
   },
   {
     slug: "toputure-cinta-correr-plegable-12-inclinacion-16kmh",
+    image: "/images/products/toputure-cinta-correr-plegable-12-inclinacion-16kmh.jpg",
     name: "TOPUTURE Cinta de Correr Plegable 6 en 1 con 12 % de Inclinación y 16 km/h",
     asin: "B0GGGPQ9KR",
     categorySlug: "cintas-correr",
@@ -2230,6 +2286,7 @@ export const products: Product[] = [
   },
   {
     slug: "amonax-rueda-abdominal-con-alfombrilla",
+    image: "/images/products/amonax-rueda-abdominal-con-alfombrilla.jpg",
     name: "Amonax Rueda Abdominal Doble con Alfombrilla para Rodillas",
     asin: "B081Z7BBMB",
     categorySlug: "pesas-mancuernas",
@@ -2249,6 +2306,7 @@ export const products: Product[] = [
   },
   {
     slug: "pasyou-banco-pesas-plegable-10-posiciones",
+    image: "/images/products/pasyou-banco-pesas-plegable-10-posiciones.jpg",
     name: "PASYOU Banco de Pesas Plegable y Ajustable de 10 Posiciones",
     asin: "B07S7NRZL4",
     categorySlug: "pesas-mancuernas",
@@ -2270,6 +2328,7 @@ export const products: Product[] = [
   },
   {
     slug: "proiron-chaleco-lastrado-10kg",
+    image: "/images/products/proiron-chaleco-lastrado-10kg.jpg",
     name: "PROIRON Chaleco Lastrado Ajustable 10 kg",
     asin: "B09QXGQNFC",
     categorySlug: "pesas-mancuernas",
@@ -2289,6 +2348,7 @@ export const products: Product[] = [
   },
   {
     slug: "hsn-whey-protein-isolate-sin-sabor-2kg",
+    image: "/images/products/hsn-whey-protein-isolate-sin-sabor-2kg.jpg",
     name: "HSN 100% Whey Protein Isolate (WPI) Sin Sabor 2 kg",
     asin: "B07BF77V2S",
     categorySlug: "suplementos-proteinas",
@@ -2310,6 +2370,7 @@ export const products: Product[] = [
   },
   {
     slug: "flybird-banco-pesas-plano-plegable-300kg",
+    image: "/images/products/flybird-banco-pesas-plano-plegable-300kg.jpg",
     name: "FLYBIRD Banco de Pesas Plano Plegable (300 kg)",
     asin: "B09ZP9TMW6",
     categorySlug: "pesas-mancuernas",
@@ -2330,6 +2391,7 @@ export const products: Product[] = [
   },
   {
     slug: "flybird-banco-pesas-ajustable-plegable-363kg",
+    image: "/images/products/flybird-banco-pesas-ajustable-plegable-363kg.jpg",
     name: "FLYBIRD Banco de Pesas Ajustable y Plegable (363 kg)",
     asin: "B07DNYSJ8W",
     categorySlug: "pesas-mancuernas",
@@ -2350,6 +2412,7 @@ export const products: Product[] = [
   },
   {
     slug: "yoleo-banco-pesas-plegable-7-posiciones",
+    image: "/images/products/yoleo-banco-pesas-plegable-7-posiciones.jpg",
     name: "YOLEO Banco de Pesas Plegable y Ajustable de 7 Posiciones",
     asin: "B09V8BNQSZ",
     categorySlug: "pesas-mancuernas",
@@ -2370,6 +2433,7 @@ export const products: Product[] = [
   },
   {
     slug: "maniboom-banco-musculacion-soporte-barra",
+    image: "/images/products/maniboom-banco-musculacion-soporte-barra.jpg",
     name: "ManiBoom Banco de Musculación Plegable con Soporte para Barra",
     asin: "B0G264VB8V",
     categorySlug: "pesas-mancuernas",
@@ -2391,6 +2455,7 @@ export const products: Product[] = [
   // 27/10/2026: racks y multipower (guía /blog/rack-o-multipower-casa-como-elegir)
   {
     slug: "yaheetech-soporte-sentadillas-250kg",
+    image: "/images/products/yaheetech-soporte-sentadillas-250kg.jpg",
     name: "Yaheetech Soportes para Sentadillas y Press de Banca (250 kg)",
     asin: "B08B4JCDW6",
     categorySlug: "pesas-mancuernas",
@@ -2408,6 +2473,7 @@ export const products: Product[] = [
   },
   {
     slug: "k-sport-soporte-sentadillas-ajustable-250kg",
+    image: "/images/products/k-sport-soporte-sentadillas-ajustable-250kg.jpg",
     name: "K-Sport Soporte para Sentadillas Ajustable (250 kg)",
     asin: "B08B59YQN3",
     categorySlug: "pesas-mancuernas",
@@ -2425,6 +2491,7 @@ export const products: Product[] = [
   },
   {
     slug: "sportnow-jaula-potencia-460kg",
+    image: "/images/products/sportnow-jaula-potencia-460kg.jpg",
     name: "SPORTNOW Jaula de Potencia con Dominadas y Fondos (460 kg)",
     asin: "B0GTK7XRX5",
     categorySlug: "pesas-mancuernas",
@@ -2442,6 +2509,7 @@ export const products: Product[] = [
   },
   {
     slug: "ultrasport-power-rack-jalon-polea",
+    image: "/images/products/ultrasport-power-rack-jalon-polea.jpg",
     name: "Ultrasport Power Rack Multifuncional con Polea de Jalón",
     asin: "B085YTVKGP",
     categorySlug: "pesas-mancuernas",
@@ -2459,6 +2527,7 @@ export const products: Product[] = [
   },
   {
     slug: "powerline-psm144x-maquina-smith-multipower",
+    image: "/images/products/powerline-psm144x-maquina-smith-multipower.jpg",
     name: "Powerline PSM144X Máquina Smith Multipower",
     asin: "B000VLNUQE",
     categorySlug: "pesas-mancuernas",
@@ -2476,6 +2545,7 @@ export const products: Product[] = [
   },
   {
     slug: "marcy-md-9010g-maquina-smith-poleas",
+    image: "/images/products/marcy-md-9010g-maquina-smith-poleas.jpg",
     name: "Marcy Deluxe MD-9010G Máquina Smith con Poleas y Banco",
     asin: "B000WOQIM8",
     categorySlug: "pesas-mancuernas",
@@ -2494,6 +2564,7 @@ export const products: Product[] = [
   // ELÍPTICAS (18/10/2026)
   {
     slug: "merach-eliptica-magnetica-autoalimentada-app",
+    image: "/images/products/merach-eliptica-magnetica-autoalimentada-app.jpg",
     name: "MERACH Elíptica Magnética Autoalimentada con Zancada de 47 cm y App",
     asin: "B0F184B99Q",
     categorySlug: "elipticas",
@@ -2512,6 +2583,7 @@ export const products: Product[] = [
   },
   {
     slug: "bh-iquantum-ii-eliptica-volante-20kg-kinomap",
+    image: "/images/products/bh-iquantum-ii-eliptica-volante-20kg-kinomap.jpg",
     name: "BH i.Quantum II Elíptica Magnética con Volante de 20 kg y Zancada de 45 cm",
     asin: "B0FDQCT5XB",
     categorySlug: "elipticas",
@@ -2530,6 +2602,7 @@ export const products: Product[] = [
   },
   {
     slug: "sportstech-cx700-eliptica-24-niveles-app",
+    image: "/images/products/sportstech-cx700-eliptica-24-niveles-app.jpg",
     name: "Sportstech CX700 Elíptica con Freno Magnético, 24 Niveles y App",
     asin: "B09NY7KLTJ",
     categorySlug: "elipticas",
@@ -2566,6 +2639,7 @@ export const products: Product[] = [
   },
   {
     slug: "bh-munich-eliptica-magnetica-volante-12kg",
+    image: "/images/products/bh-munich-eliptica-magnetica-volante-12kg.jpg",
     name: "BH Munich Elíptica Magnética con Volante de 12 kg y 18 Programas",
     asin: "B0DHZFYF8P",
     categorySlug: "elipticas",
@@ -2583,6 +2657,7 @@ export const products: Product[] = [
   },
   {
     slug: "niceday-ct11-eliptica-compacta-180kg",
+    image: "/images/products/niceday-ct11-eliptica-compacta-180kg.jpg",
     name: "Niceday CT11 Elíptica Compacta para Pisos con 16 Niveles Magnéticos",
     asin: "B0FH62WGPL",
     categorySlug: "elipticas",
@@ -3400,6 +3475,7 @@ export const products: Product[] = [
   },
   {
     slug: "fitgriff-cinturon-lumbar-gimnasio-neopreno",
+    image: "/images/products/fitgriff-cinturon-lumbar-gimnasio-neopreno.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo; la ficha no muestra el vendedor. Datos solo de la ficha de Amazon.
     name: "Fitgriff Cinturón Lumbar de Gimnasio Neopreno",
     asin: "B07111JR8J",
@@ -3418,6 +3494,7 @@ export const products: Product[] = [
   },
   {
     slug: "fitgriff-straps-gym-correas-levantamiento",
+    image: "/images/products/fitgriff-straps-gym-correas-levantamiento.jpg",
     // Comprobada en amazon.es el 22/11/2026: botón de compra activo; aparece entre los más vendidos de Deportes. Datos solo de la ficha de Amazon.
     name: "Fitgriff Straps Gym Correas de Levantamiento de Pesas",
     asin: "B01F2OGJQM",
@@ -3436,6 +3513,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-par-mancuernas-neopreno-2kg",
+    image: "/images/products/amazon-basics-par-mancuernas-neopreno-2kg.jpg",
     // Comprobada en amazon.es el 22/11/2026: botón de compra activo, vendida y enviada por Amazon; aparece entre los más vendidos de Deportes. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Par de Mancuernas de Neopreno 2 kg",
     asin: "B078XXP3RH",
@@ -3454,6 +3532,7 @@ export const products: Product[] = [
   },
   {
     slug: "superun-cinta-correr-inclinacion-10-app-pitpat",
+    image: "/images/products/superun-cinta-correr-inclinacion-10-app-pitpat.jpg",
     // Comprobada en amazon.es el 22/11/2026: botón de compra activo, vendida por Superun Store (tercero); aparece entre los más vendidos de Fitness. Datos solo de la ficha de Amazon.
     name: "Superun Cinta de Correr con Inclinación 2,5 CV y Control por App",
     asin: "B0H6FCLGX3",
@@ -3472,6 +3551,7 @@ export const products: Product[] = [
   },
   {
     slug: "merach-bicicleta-estatica-correa-resistencia-continua",
+    image: "/images/products/merach-bicicleta-estatica-correa-resistencia-continua.jpg",
     // Comprobada en amazon.es el 22/11/2026: botón de compra activo, vendida por MERACH Direct EU (tercero); aparece entre los más vendidos de Fitness. Datos solo de la ficha de Amazon.
     name: "MERACH Bicicleta Estática con Resistencia Ajustable y Transmisión por Correa",
     asin: "B0DZ1SKZGJ",
@@ -3578,6 +3658,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
 },
   {
     slug: "grifema-ga5004-comba-cuerda-acero-rodamientos",
+    image: "/images/products/grifema-ga5004-comba-cuerda-acero-rodamientos.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "GRIFEMA GA5004 Comba con Rodamientos 2,8 m",
     asin: "B0D1QCBPP7",
@@ -3596,6 +3677,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "amazon-basics-kettlebell-hierro-fundido-10kg",
+    image: "/images/products/amazon-basics-kettlebell-hierro-fundido-10kg.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Kettlebell de Hierro Fundido 10 kg",
     asin: "B076QJY2FN",
@@ -3614,6 +3696,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "walkingpad-z1-cinta-plegable-121x40",
+    image: "/images/products/walkingpad-z1-cinta-plegable-121x40.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "WalkingPad Z1 Cinta de Andar Plegable 121x40",
     asin: "B0G8DHGSWL",
@@ -3633,6 +3716,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "westwood-fox-guantes-gimnasio-antideslizantes",
+    image: "/images/products/westwood-fox-guantes-gimnasio-antideslizantes.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "WESTWOOD FOX Guantes de Gimnasio Antideslizantes",
     asin: "B09VQ76FDW",
@@ -3652,6 +3736,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "sawans-guantes-gimnasio-levantamiento-pesas",
+    image: "/images/products/sawans-guantes-gimnasio-levantamiento-pesas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "SAWANS Guantes de Gimnasio con Muñequera",
     asin: "B08VD715Q9",
@@ -3671,6 +3756,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "amonax-rueda-abdominales-alfombrilla",
+    image: "/images/products/amonax-rueda-abdominales-alfombrilla.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "Amonax Rueda para Abdominales con Alfombrilla",
     asin: "B081Z7BBMB",
