@@ -12,6 +12,8 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "edifit-pelota-pilates-fitball-hinchador",
   "proiron-pelota-pilates-antiestallido",
   "mercuryal-straps-gym-powerlifting",
+  "bowflex-selecttech-mancuerna-ajustable-2-24kg",
+  "pasyou-pw100-banco-de-pesas-plano",
   "beast-rage-guantes-fitness-transpirables",
   "optimum-nutrition-gold-standard-whey-226kg",
   "sportstech-x150-ergometro-plegable",

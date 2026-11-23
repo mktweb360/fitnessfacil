@@ -4189,6 +4189,42 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     specs: {"Marca": "Beast Rage", "Material": "Malla de microfibra con silicona", "Diseño": "Unisex", "Uso": "Pesas, CrossFit, entrenamiento funcional y ciclismo"},
     relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "accesorios-gimnasio-cuales-merecen-la-pena"],
   },
+  {
+    slug: "bowflex-selecttech-mancuerna-ajustable-2-24kg",
+    name: "Bowflex SelectTech mancuerna ajustable 2-24 kg con bandeja",
+    asin: "B07X64MXBS",
+    // Comprobado en amazon.es el 23/11/2026: botón «Añadir a la cesta» activo; datos de la ficha de Amazon.
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Mancuerna ajustable de 2 a 24 kg en 15 niveles con dial de cambio rápido y bandeja de almacenaje.",
+    fullDescription: "Mancuerna ajustable Bowflex SelectTech que, según la ficha de Amazon, concentra 15 pesos en una sola unidad, de 2 a 24 kg, con un dial de selección rápida para cambiar de carga en segundos en superseries, circuitos o HIIT. La ficha indica placas metálicas, un sistema de bloqueo reforzado, empuñadura antideslizante y una bandeja incluida para guardarla. Importante: se vende individualmente, así que para una pareja de mancuernas hay que pedir dos unidades. Incluye 2 meses de prueba de la aplicación JRNY. No se ha probado el producto.",
+    pros: ["15 pesos de 2 a 24 kg en una sola mancuerna, según la ficha", "Cambio de peso con dial en segundos, útil en circuitos y HIIT", "Incluye bandeja que ahorra espacio", "Empuñadura antideslizante, según la ficha"],
+    cons: ["Se vende por unidad: para el par hay que comprar dos", "Para cargas altas, el límite de 24 kg por mano puede quedarse corto", "Al tener mecanismo de dial, tiene más piezas móviles que una mancuerna fija"],
+    specs: {"Marca": "Bowflex", "Rango de peso": "2-24 kg en 15 niveles", "Unidades": "Se vende individualmente", "Incluye": "Bandeja y 2 meses de prueba de JRNY"},
+    relatedPosts: ["mancuernas-ajustables-merece-pena", "mancuernas-ajustables-vs-fijas"],
+  },
+  {
+    slug: "pasyou-pw100-banco-de-pesas-plano",
+    name: "PASYOU PW100 banco de pesas plano de musculación",
+    asin: "B0C9TFRW3G",
+    // Comprobado en amazon.es el 23/11/2026: botón «Añadir a la cesta» activo, vendido por JOROTO Sport & Fitness (tercero); datos de la ficha de Amazon.
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Banco plano de acero con acolchado de 9 cm, tapas antideslizantes ajustables y montaje en dos pasos.",
+    fullDescription: "Banco de pesas plano PASYOU PW100 de estructura de tubo de acero. Según la ficha de Amazon, lleva un acolchado de 9 cm de espuma de alta densidad en 6 capas, tapas antideslizantes ajustables para dar estabilidad en suelos irregulares y se monta en dos pasos con las piezas y las instrucciones incluidas. El título de la ficha indica una capacidad de carga de 660 kg y la ficha ofrece 1 año de garantía. Sirve para press de banca y ejercicios con mancuernas, y también para usarlo con bastidores de barras. No se ha probado el producto.",
+    pros: ["Estructura de tubo de acero, según la ficha", "Acolchado de 9 cm en 6 capas", "Tapas antideslizantes ajustables", "Montaje en dos pasos y fácil de mover", "1 año de garantía, según la ficha"],
+    cons: ["Vendido por un tercero, no por Amazon", "Es un banco plano: sin respaldo inclinable para ejercicios inclinados", "La capacidad de carga indicada es la de la ficha, no está comprobada"],
+    specs: {"Marca": "PASYOU", "Modelo": "PW100", "Tipo": "Banco plano", "Acolchado": "9 cm", "Garantía": "1 año, según la ficha"},
+    relatedPosts: ["banco-de-pesas-casa-como-elegir", "entrenamiento-fuerza-casa-equipamiento-minimo"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
