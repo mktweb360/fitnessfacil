@@ -150,6 +150,10 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "walkingpad-z1-cinta-plegable-121x40",
   "westwood-fox-guantes-gimnasio-antideslizantes",
   "decathlon-bolsa-mochila-deportes-combate-900-60l",
+  "concept2-bikeerg-monitor-pm5-bicicleta-aire",
+  "toputure-bicicleta-estatica-electromagnetica-32-niveles-app",
+  "hometro-cinta-correr-plegable-inclinacion-3-7-motor-3hp",
+  "adidas-rueda-abdominales",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
