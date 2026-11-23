@@ -4203,7 +4203,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     shortDescription: "Mancuerna ajustable de 2 a 24 kg en 15 niveles con dial de cambio rápido y bandeja de almacenaje.",
     fullDescription: "Mancuerna ajustable Bowflex SelectTech que, según la ficha de Amazon, concentra 15 pesos en una sola unidad, de 2 a 24 kg, con un dial de selección rápida para cambiar de carga en segundos en superseries, circuitos o HIIT. La ficha indica placas metálicas, un sistema de bloqueo reforzado, empuñadura antideslizante y una bandeja incluida para guardarla. Importante: se vende individualmente, así que para una pareja de mancuernas hay que pedir dos unidades. Incluye 2 meses de prueba de la aplicación JRNY. No se ha probado el producto.",
     pros: ["15 pesos de 2 a 24 kg en una sola mancuerna, según la ficha", "Cambio de peso con dial en segundos, útil en circuitos y HIIT", "Incluye bandeja que ahorra espacio", "Empuñadura antideslizante, según la ficha"],
-    cons: ["Se vende por unidad: para el par hay que comprar dos", "Para cargas altas, el límite de 24 kg por mano puede quedarse corto", "Es un producto de gama alta frente a mancuernas fijas básicas"],
+    cons: ["Se vende por unidad: para el par hay que comprar dos", "Para cargas altas, el límite de 24 kg por mano puede quedarse corto", "Al tener mecanismo de dial, tiene más piezas móviles que una mancuerna fija"],
     specs: {"Marca": "Bowflex", "Rango de peso": "2-24 kg en 15 niveles", "Unidades": "Se vende individualmente", "Incluye": "Bandeja y 2 meses de prueba de JRNY"},
     relatedPosts: ["mancuernas-ajustables-merece-pena", "mancuernas-ajustables-vs-fijas"],
   },
