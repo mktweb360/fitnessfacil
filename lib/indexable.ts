@@ -155,6 +155,8 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "decathlon-bolsa-mochila-deportes-combate-900-60l",
   "decathlon-comba-500-espuma-rodamientos",
   "decathlon-saco-boxeo-air-gel-colgante-90cm",
+  "decathlon-soporte-saco-boxeo-acero-autoportante",
+  "decathlon-punching-ball-negro-base-lastrada",
   "everlast-bolsa-deportes-combate-60-litros",
   "concept2-bikeerg-monitor-pm5-bicicleta-aire",
   "toputure-bicicleta-estatica-electromagnetica-32-niveles-app",
