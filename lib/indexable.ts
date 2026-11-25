@@ -124,6 +124,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "kiprun-jogflow-100-1-zapatillas-running-hombre",
   "kiprun-jogflow-100-1-zapatillas-running-mujer",
   "kiprun-run500-calcetines-running-finos-media-cana-2-pares",
+  "compressport-pro-racing-socks-v3-run-high",
   "yoleo-banco-pesas-ajustable-plegable",
   "amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte",
   "nordictrack-t65s-cinta-correr",
