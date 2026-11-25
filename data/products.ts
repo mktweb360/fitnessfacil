@@ -3435,6 +3435,24 @@ export const products: Product[] = [
     relatedPosts: ["accesorios-gimnasio-cuales-merecen-la-pena", "progresion-cargas-principiantes-peso-repeticiones-descanso", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
   },
   {
+    slug: "amazon-basics-3-pares-mancuernas-neopreno-1-5-3-5kg",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics 3 pares de mancuernas de neopreno de 1,5, 3 y 5 kg con soporte",
+    asin: "B0DNHY2J5P",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Seis mancuernas hexagonales de neopreno (tres pares de 1,5, 3 y 5 kg) con soporte para guardarlas.",
+    fullDescription: "Set de Amazon Basics con tres pares de mancuernas de neopreno de 1,5, 3 y 5 kg, seis en total, y un soporte para guardarlas. Según la ficha de Amazon, el neopreno da un agarre fácil y seguro, cada extremo lleva el peso impreso y un código de color para identificarlas rápido, y la forma hexagonal evita que rueden. Con tres pesos se pueden combinar ejercicios de brazo y hombro con otros de más carga, sin comprar sets sueltos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Tres pesos en un solo set: 1,5, 3 y 5 kg", "Soporte para guardarlas incluido", "Peso impreso y código de color en cada extremo"],
+    cons: ["Los pesos son fijos: no se pueden ajustar", "5 kg por mano se quedan cortos para el trabajo de piernas cuando se progresa", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Pesos": "3 pares: 1,5, 3 y 5 kg", "Piezas": "6 mancuernas y soporte", "Material": "Neopreno", "Forma": "Hexagonal", "Vendido por": "Amazon" },
+    relatedPosts: ["entrenamiento-fuerza-casa-equipamiento-minimo", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
+  },
+  {
     slug: "amazon-basics-par-mancuernas-neopreno-2kg",
     // Comprobada en amazon.es el 22/11/2026: botón de compra activo, vendida y enviada por Amazon; aparece entre los más vendidos de Deportes. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Par de Mancuernas de Neopreno 2 kg",
