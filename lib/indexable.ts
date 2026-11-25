@@ -149,6 +149,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "domyos-fitball-pelota-pilates-65cm",
   "fitgriff-straps-gym-correas-levantamiento",
   "amazon-basics-par-mancuernas-neopreno-2kg",
+  "amazon-basics-3-pares-mancuernas-neopreno-1-5-3-5kg",
   "superun-cinta-correr-inclinacion-10-app-pitpat",
   "merach-bicicleta-estatica-correa-resistencia-continua",
   "walkingpad-z1-cinta-plegable-121x40",
