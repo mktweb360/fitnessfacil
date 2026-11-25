@@ -203,7 +203,7 @@ const articleContent: Record<string, {
       {
         "heading": "Zapatillas y ropa para empezar: qué mirar",
         "body": "No hace falta material caro para empezar, pero sí calzado de running que no esté gastado. Las zapatillas de iniciación de Decathlon que hemos comprobado hoy (Jogflow 100.1, en versión de hombre y de mujer) tienen botón de compra activo. Según sus fichas, la de hombre se plantea para unos 10 km semanales y la de mujer para hasta 20 km semanales. Si tu plan va a superar ese volumen, tenlo en cuenta, y si tienes molestias previas, una pisada particular o dudas de talla, consulta a un podólogo. No las hemos probado. Para completar el equipo, también tienen botón de compra activo unos calcetines finos Kiprun Run500 (lote de 2 pares) y una camiseta transpirable de hombre Kiprun Dry 500; recuerda no estrenar ropa el día de la carrera.",
-        "productSlugs": ["kiprun-jogflow-100-1-zapatillas-running-hombre", "kiprun-jogflow-100-1-zapatillas-running-mujer", "kiprun-run500-calcetines-running-finos-media-cana-2-pares", "kiprun-dry-500-camiseta-running-transpirable-hombre"]
+        "productSlugs": ["kiprun-jogflow-100-1-zapatillas-running-hombre", "kiprun-jogflow-100-1-zapatillas-running-mujer", "kiprun-run500-calcetines-running-finos-media-cana-2-pares", "compressport-pro-racing-socks-v3-run-high", "kiprun-dry-500-camiseta-running-transpirable-hombre"]
       },
       {
         "heading": "El día de la carrera",
