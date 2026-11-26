@@ -1,5 +1,1678 @@
 {
- "generatedAt": null,
+ "generatedAt": "2026-11-26",
  "marketplace": "www.amazon.es",
- "items": {}
+ "items": {
+  "B000EC9LMM": {
+   "status": "ok",
+   "title": "Jade Yoga Harmony Professional - Midnight Blue",
+   "image": "https://m.media-amazon.com/images/I/31sfwStCr4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "greenyogashop",
+   "checkedAt": "2026-11-26"
+  },
+  "B000QSNYGI": {
+   "status": "ok",
+   "title": "Optimum Nutrition Gold Standard 100% Whey Proteína en Polvo, 2.26kg | Double Rich Chocolate, 73 Servings, 24 g de Proteína,BCAA,Bajo en azúcares,Favorece el Crecimiento y la Recuperación Muscular",
+   "image": "https://m.media-amazon.com/images/I/41CVhwzQFbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Optimum Nutrition ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B000VLNUQE": {
+   "status": "ok",
+   "title": "Powerline Máquina Smith PSM144X Multipower Musculación Discos 25 y 50mm | 14 Posiciones De Bloqueo, Estructura De Acero Calibre 12, Peso 72 kg, 113 x 192,5 x 203,2 cm",
+   "image": "https://m.media-amazon.com/images/I/31NJ9D+d01L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "fitnessdigital.",
+   "checkedAt": "2026-11-26"
+  },
+  "B000WOQIM8": {
+   "status": "ok",
+   "title": "Marcy Deluxe MD-9010G - Máquina Smith Multifunción - Barra Smith con Sistema Poleas (Discos no Incluidos) - Estación Musculación con Banco Multiposición Independiente - Peso Usuario 135kg - Negro",
+   "image": "https://m.media-amazon.com/images/I/41ZLwpSagIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "fitnessdigital.",
+   "checkedAt": "2026-11-26"
+  },
+  "B001ARYU58": {
+   "status": "ok",
+   "title": "Bowflex 552i - Mancuernas ajustables de 2 kg hasta 24 kg, negro",
+   "image": "https://m.media-amazon.com/images/I/31n7vF7CGXL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B002DYIZH6": {
+   "status": "ok",
+   "title": "Optimum Nutrition Gold Standard 100% Whey Proteína en Polvo, 899g | Double Rich Chocolate, 29 Servings,24 g de Proteína,BCAA,Bajo en azúcares,Favorece el Crecimiento y la Recuperación Muscular",
+   "image": "https://m.media-amazon.com/images/I/41guqAOAXIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Optimum Nutrition ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0040EGNIU": {
+   "status": "ok",
+   "title": "TRIGGERPOINT Rodillo de Espuma Grid vídeos tutoriales Gratis en línea | Negro; 84 x 36 cm; aumenta circulación; mejora movilidad; patrón GRID; resistente; antiolor",
+   "image": "https://m.media-amazon.com/images/I/41QKBgaeyHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B004IZKPJ4": {
+   "status": "ok",
+   "title": "PowerBlock Sport 24 Mancuernas Ajustables | Juego de Pesas de 1,5 kg a 11 kg | Modelo 2020",
+   "image": "https://m.media-amazon.com/images/I/41tBy90h2xL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MEIJERS",
+   "checkedAt": "2026-11-26"
+  },
+  "B00C4UQOB8": {
+   "status": "ok",
+   "title": "Warrior Shaker para batidos de proteínas, botella de 600 ml - Perfecto para mezclar batidos nutricionales en polvo - sin BPA, apto para lavavajillas",
+   "image": "https://m.media-amazon.com/images/I/31WyzfViM7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00EVNXN6K": {
+   "status": "ok",
+   "title": "adidas Rueda de Abdominales | Superficie de goma de alta tracción para mayor estabilidad. Ideal para fortalecer el núcleo y mejorar la postura corporal.",
+   "image": "https://m.media-amazon.com/images/I/41ojm61+TIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "XTREM Toys & Sports",
+   "checkedAt": "2026-11-26"
+  },
+  "B00EZTKXYU": {
+   "status": "ok",
+   "title": "Myprotein Impact Proteína de suero en polvo | 23 gramos de proteína por porción | Galletas y Nata 1 Kilogramo | Bajo en azúcar, bajo en grasas | Crecimiento y la recuperación muscular",
+   "image": "https://m.media-amazon.com/images/I/31bO8OtsuIL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B00FY0GWEE": {
+   "status": "ok",
+   "title": "ProsourceFit Extra Thick Yoga and Pilates Mat 1/2” (13mm), 71-Inch Long High Density Exercise Mat with Comfort Foam and Carrying Strap, Black",
+   "image": "https://m.media-amazon.com/images/I/31AwZN6L4AL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00HN8LE7A": {
+   "status": "ok",
+   "title": "Myprotein Creatina Monohidrato en Polvo, Sin Sabor, 250g | 3 g de creatina por porción; mejora el rendimiento y la potencia en ejercicios de alta intensidad",
+   "image": "https://m.media-amazon.com/images/I/41lnN2GEbxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Myprotein ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B00JKJCXXY": {
+   "status": "ok",
+   "title": "AMIX - Complemento Alimenticio con Omega 3 - Súper Omega 3 en Formato de 90 Cápsulas - Con Aceite de Pescado - Mejora la Circulación Sanguínea y Protege las Células del Estrés Oxidativo",
+   "image": "https://m.media-amazon.com/images/I/41two4jI+WL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00KIMHCY2": {
+   "status": "ok",
+   "title": "Thera-Band – Banda elástica para entrenamiento, 2,5 m – incluye libro de ejercicios original de 24 páginas – producto Thera-Band original , Blau / Extra Stark",
+   "image": "https://m.media-amazon.com/images/I/41jLQCICJ8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Change for sport",
+   "checkedAt": "2026-11-26"
+  },
+  "B00KIMHEU4": {
+   "status": "ok",
+   "title": "Thera-Band – Banda elástica para entrenamiento, 2,5 m – incluye libro de ejercicios original de 24 páginas – producto Thera-Band original , Rot / Mittelstark",
+   "image": "https://m.media-amazon.com/images/I/413h5cBQRQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Change for sport",
+   "checkedAt": "2026-11-26"
+  },
+  "B00MGN8GUA": {
+   "status": "ok",
+   "title": "Myprotein Impact Proteína de suero en polvo | 23 gramos de proteína por porción | Vainilla 2.5 Kilogramo | Bajo en azúcar, bajo en grasas | Crecimiento y la recuperación muscular",
+   "image": "https://m.media-amazon.com/images/I/31BuzyJyRQL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B00NH9WEUA": {
+   "status": "ok",
+   "title": "Remo Indoor Modelo D Negro",
+   "image": "https://m.media-amazon.com/images/I/31v8qFAXPJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00SP30A1I": {
+   "status": "ok",
+   "title": "Bulk Pure Whey Proteína en Polvo, Unflavoured, 500g | 23g Proteína y 5g BCAA por ración, Batido de Whey Concentrado, Bajo en azúcar",
+   "image": "https://m.media-amazon.com/images/I/319EUYr+fsL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00T7L20EC": {
+   "status": "ok",
+   "title": "Optimum Nutrition Creatina Monohidrato Micronizada en Polvo, 634g | Sin Sabor,186 Porciones,Suplemento para Favorece la Fuerza y la Potencia Muscular, Pre y Post-Entrenamiento",
+   "image": "https://m.media-amazon.com/images/I/41N08AGx1YL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Optimum Nutrition ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B016A9IUWY": {
+   "status": "ok",
+   "title": "Panathletic Bandas Elasticas Fitness, Set de 5 Gomas – 5 Niveles de Resistencia, Guía de Ejercicios, eBook en Español y Bolsa – 5X Banda musculacion, Cintas para gluteos, Goma Elastica",
+   "image": "https://m.media-amazon.com/images/I/51oteu2EA4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Panathletic EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B01BE56ZKS": {
+   "status": "ok",
+   "title": "HSN ZMA Zinc Magnesio Vitamina B6 EvoZMA | 120 Cápsulas Vegetales | con 1000 mg Ácido D-Aspártico | Suplemento Deportivo Vegano y Sin Gluten | No-GMO",
+   "image": "https://m.media-amazon.com/images/I/31DvifBVveL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HSNstore",
+   "checkedAt": "2026-11-26"
+  },
+  "B01CSUMUUM": {
+   "status": "ok",
+   "title": "Manduka Pro - Alfombra de yoga recomendada por instructores, textura adherente, 6 mm, ultra densa, para yoga, estudio en casa y pilates",
+   "image": "https://m.media-amazon.com/images/I/418WNYHAdXL._SL500_.jpg",
+   "checkedAt": "2026-11-26"
+  },
+  "B01DPHA1US": {
+   "status": "ok",
+   "title": "PICSIL ABS, Comba Rápida, Alta Velocidad y Precisión - Black | 80 gr de peso para un manejo sin esfuerzo. Cable de acero con PVC y sistema giratorio para transiciones suaves.",
+   "image": "https://m.media-amazon.com/images/I/41BOC23HYbL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B01DPT6SJ4": {
+   "status": "ok",
+   "title": "Sportstech SX400 - Bicicleta estática profesional para interior con control mediante aplicación de smartphone y Google Street View, volante de inercia de 22 kg, reposabrazos, correa de pulsómetro compatible, bicicleta de velocidad con accionamiento por correa silencioso, ergómetro de bicicleta de hasta 150 kg",
+   "image": "https://m.media-amazon.com/images/I/51gre93nvKL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B01F2OGJQM": {
+   "status": "ok",
+   "title": "Fitgriff® Straps Gym, Correas Levantamiento de Pesas, Powerlifting, Agarraderas Gimnasio - Lifting Straps - Mujeres y Hombres (Estándar (más de 16cm muñeca), Original Black)",
+   "image": "https://m.media-amazon.com/images/I/41oF6yJtWgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Fitgriff",
+   "checkedAt": "2026-11-26"
+  },
+  "B01IL7SKUU": {
+   "status": "ok",
+   "title": "Acupoint Set de 2 Pelotas de Masaje - Liberación Miofascial, Puntos Gatillo y Tejido Profundo - Pelota Lacrosse para Espalda, Cuello, Pies y Fascitis Plantar",
+   "image": "https://m.media-amazon.com/images/I/41RpQRUD0IL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "WNG Brands ltd",
+   "checkedAt": "2026-11-26"
+  },
+  "B01L22XMZY": {
+   "status": "ok",
+   "title": "HSN Evowhey Protein | Chocolate 2Kg = 67 Tomas por Envase Concentrado de Proteína de Suero | 100% Whey Protein Concentrate (WPC) | No-GMO, Vegetariano, Sin Gluten ni Soja",
+   "image": "https://m.media-amazon.com/images/I/314ljSHZyqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HSNstore",
+   "checkedAt": "2026-11-26"
+  },
+  "B06XFPYGQ6": {
+   "status": "ok",
+   "title": "COMPRESSPORT Running-Pro Racing Socks V3 Run High-Prevenci³n de ampollas-Amortiguaci³n y transpirabilidad-Correr y triatl³n-para Entrenamiento y competici³n-Ligeros",
+   "image": "https://m.media-amazon.com/images/I/41qpYHPoHLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B06XRFPMS5": {
+   "status": "ok",
+   "title": "HSN Proteína de Soja Aislada - Sin Sabor 2Kg | 100% Vegana. Alternativa Vegana a la Whey. Aminograma Completo. Libre de OGM, Sin Gluten ni Lactosa. No Incluye Dosificador",
+   "image": "https://m.media-amazon.com/images/I/41bjY4dtEtL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HSNstore",
+   "checkedAt": "2026-11-26"
+  },
+  "B07111JR8J": {
+   "status": "ok",
+   "title": "Fitgriff® Cinturón Gym V1 - Cinturon Gimnasio, Musculación, Halterofilia, Crossfit, Levantamiento Pesas, Fitness - Mujeres y Hombres - Black Medium",
+   "image": "https://m.media-amazon.com/images/I/41Mfp2Oi3pL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Fitgriff",
+   "checkedAt": "2026-11-26"
+  },
+  "B071P2MQ5D": {
+   "status": "ok",
+   "title": "Amazon Basics Rodillo de espuma de alta densidad, Negro - 60 cm",
+   "image": "https://m.media-amazon.com/images/I/41QVnbtlFHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B071W264LM": {
+   "status": "ok",
+   "title": "HSN Creatina Monohidrato en Polvo (200 mesh) Sin Sabor 500 g | 100% Puro Monohidrato de Creatina. Sin Añadidos. Libre de DCD o DHT. Incluye Dosificador.",
+   "image": "https://m.media-amazon.com/images/I/41aftfF8JIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HSNstore",
+   "checkedAt": "2026-11-26"
+  },
+  "B07357333W": {
+   "status": "ok",
+   "title": "PULLUP & DIP Banda Elástica de Resistencia, Banda de Dominadas, Bandas Fitness, Pull-up Bands (Medio (Azul))",
+   "image": "https://m.media-amazon.com/images/I/41BU20knfOL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FT Fitness Technology",
+   "checkedAt": "2026-11-26"
+  },
+  "B076QHF4MJ": {
+   "status": "ok",
+   "title": "Amazon Basics Pesa rusa de hierro fundido, 8 kg, Negro",
+   "image": "https://m.media-amazon.com/images/I/41XPh2YaMZL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B076QJY2FN": {
+   "status": "ok",
+   "title": "Amazon Basics Pesa rusa de hierro fundido, 10 kg, Negro",
+   "image": "https://m.media-amazon.com/images/I/41xgcHZLTJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0775PGLD7": {
+   "status": "ok",
+   "title": "SONGMICS Juego de 2 Mancuernas Hexagonales, 2 x 5 kg | Mancuernas con Superficie de Plástico PVC, para Fitness, para Gimnasia en Casa, Negro, Colección Stefan SYL60BK",
+   "image": "https://m.media-amazon.com/images/I/41AWXGNQ7-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SONGMICS HOME ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B078XXP3RH": {
+   "status": "ok",
+   "title": "Amazon Basics - Par de mancuernas de neopreno, 2 kg, Azul",
+   "image": "https://m.media-amazon.com/images/I/41PZ3Y4B6zL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B079PYZH1M": {
+   "status": "ok",
+   "title": "HSN Cafeína Anhidra 200mg - Efecto Rápido - 120 Tabletas | Suplemento Energético para 4 Meses. Estudiantes y Deportistas. Alta Pureza y Absorción. Vegano, Sin Gluten ni Lactosa",
+   "image": "https://m.media-amazon.com/images/I/31ZXqMOWNIS._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HSNstore",
+   "checkedAt": "2026-11-26"
+  },
+  "B07B3GCK88": {
+   "status": "ok",
+   "title": "PULLUP & DIP Banda Elástica de Resistencia, Banda de Dominadas, Bandas Fitness, Pull-up Bands (Extra Ligero (Rojo))",
+   "image": "https://m.media-amazon.com/images/I/414YGoTXuXL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FT Fitness Technology",
+   "checkedAt": "2026-11-26"
+  },
+  "B07BF77V2S": {
+   "status": "ok",
+   "title": "HSN 100% Whey Protein Isolate WPI Sin Sabor 500 g | Proteína de suero aislada 93% proteínas. Sin añadidos. Sin soja ni gluten. Apta vegetarianos. No Incluye dosificador",
+   "image": "https://m.media-amazon.com/images/I/310dKZDwhHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HSNstore",
+   "checkedAt": "2026-11-26"
+  },
+  "B07BKQRWHT": {
+   "status": "ok",
+   "title": "PROIRON Esterilla Yoga Gruesa - Colchoneta Antideslizante NBR para Pilates Ejercicios Fitness Gimnasia Estiramientos",
+   "image": "https://m.media-amazon.com/images/I/31nAdptJy7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Regent Works",
+   "checkedAt": "2026-11-26"
+  },
+  "B07DNYSJ8W": {
+   "status": "ok",
+   "title": "FLYBIRD Banco de pesas regulable,profesional, sistema de regulación rápida,fácil de plegar y guardar,respaldo extendido adecuado para press de banca, montado al 90%",
+   "image": "https://m.media-amazon.com/images/I/416rx9ZKqgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Flybird Fitness-EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B07F9V3ZYB": {
+   "status": "ok",
+   "title": "BODYMATE Rodillo Standard para Tejido fascial | Dureza Media | Longitud 45 cm diámetro 15 cm | con Libro electrónico Gratuito | Rodillo miofascial Profesional",
+   "image": "https://m.media-amazon.com/images/I/51wSQIooo6L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AllMates",
+   "checkedAt": "2026-11-26"
+  },
+  "B07FPRYTSK": {
+   "status": "ok",
+   "title": "HORIZON Fitness T101-05 - Cinta de Correr Plegable, Color Negro",
+   "image": "https://m.media-amazon.com/images/I/41EM7I1p5jL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B07GRKGZDW": {
+   "status": "ok",
+   "title": "BEST PROTEIN Aminoácidos BCAA + GLUTAMINE | Aminoacidos ramificados con glutamina KYOWA QUALITY® | Retrasa aparición fatiga | Reduce el daño muscular | 500 g = 33 servings (Sandía)",
+   "image": "https://m.media-amazon.com/images/I/41NxbPgzTAL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "LESS WASTE",
+   "checkedAt": "2026-11-26"
+  },
+  "B07HB1JXF3": {
+   "status": "ok",
+   "title": "Gaiam Essentials Premium - Esterilla de Yoga Con Soporte, Color Negro, 72 Pulgadas de Largo x 24 de Ancho x 1/4 de Grosor",
+   "image": "https://m.media-amazon.com/images/I/31tBTmhZ1FL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon US",
+   "checkedAt": "2026-11-26"
+  },
+  "B07JWJY6GQ": {
+   "status": "ok",
+   "title": "HSN Creatina Excell 1000mg Creapure® - 120 Cápsulas Vegetales | 100% Puro Monohidrato de Creatina. Sello de Calidad Creapure®. Código HSN 18HR11. Nos puedes encontrar en la web oficial",
+   "image": "https://m.media-amazon.com/images/I/313SK8yZIRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "HSNstore",
+   "checkedAt": "2026-11-26"
+  },
+  "B07KXB25DB": {
+   "status": "ok",
+   "title": "Concept2 BikeErg con monitor PM5",
+   "image": "https://m.media-amazon.com/images/I/41Uq0SK5J1L._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07QK6QBF9": {
+   "status": "ok",
+   "title": "Bandas Ejercicio, Bandas de Resistencia, 5 Cintas Elastica Set, Loop Resistance Bands para Fitness Crossfit Pilates Fuerza Fisioterapia Movilidad Recuperación, Entrenar a Su Corporal Piernas Glúteos",
+   "image": "https://m.media-amazon.com/images/I/41min2niNdL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B07RL2N3YN": {
+   "status": "ok",
+   "title": "TOPLUS Esterilla Yoga Antideslizante Nivel Profesional Alfombrilla de Yoga Esterilla Pilates Esterilla Deporte- con Correa de Hombro 183cm x 61cm (Violeta)",
+   "image": "https://m.media-amazon.com/images/I/31V1gsDWCrL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B07S7NRZL4": {
+   "status": "ok",
+   "title": "PASYOU Banco de Pesas Musculación, Banco Abdominales Plegable 10 en 1, Banco Pesas Ajustable adecuado para el hogar y el gimnasio, Capacidad de peso 230KG",
+   "image": "https://m.media-amazon.com/images/I/41xD+W4SqlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "JOROTO Sport & Fitness",
+   "checkedAt": "2026-11-26"
+  },
+  "B07TFW2G6N": {
+   "status": "ok",
+   "title": "Amazon Basics Comba estándar, 300 cm, color negro",
+   "image": "https://m.media-amazon.com/images/I/41v+avO1OoL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07X64MXBS": {
+   "status": "ok",
+   "title": "Bowflex SelectTech 840 Kettlebell Ajustable 3,5–18 kg | Mancuerna Rusa Compacta con Selector de Peso | Entrenamiento de Fuerza y Cardio en Casa | Sustituye 6 Pesas en 1",
+   "image": "https://m.media-amazon.com/images/I/31fFOzW3L4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B081Z7BBMB": {
+   "status": "ok",
+   "title": "Rodillo abdominal convertible Amonax con esterilla para rodillas | Ejercicio de rodillo para el core, set de doble rueda con modos duales de entrenamiento de fuerza para casa o gimnasio",
+   "image": "https://m.media-amazon.com/images/I/5112UOxuWNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amonax",
+   "checkedAt": "2026-11-26"
+  },
+  "B085YTVKGP": {
+   "status": "ok",
+   "title": "Ultrasport Power Rack, Rejilla multifuncional para entrenamiento efectivo todo cuerpo, construcción acero, perfecto principiantes y pros, multigimnasio con barra, torre Aptitud, Negro/Rojo",
+   "image": "https://m.media-amazon.com/images/I/41wyw4Yc-xL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B088DZWSF6": {
+   "status": "ok",
+   "title": "TechStone Bandas De Resistencia para Entrenamiento Mujeres Y Hombres – Pack De 5 Niveles Diferentes Bandas Elásticas De Alta Resistencia para Gimnasio En Casa Y Oficina",
+   "image": "https://m.media-amazon.com/images/I/41ToXq+u81L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "TechStone Shop",
+   "checkedAt": "2026-11-26"
+  },
+  "B08B4JCDW6": {
+   "status": "ok",
+   "title": "Yaheetech Soporte para Pesas Sentadillas Soporte Barra Pesas MAX 250 KG | 14 Niveles de Altura Ajustables，para Gimnasio y Casa, Color Negro",
+   "image": "https://m.media-amazon.com/images/I/319n09UnuHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08B59YQN3": {
+   "status": "ok",
+   "title": "K-Sport - Soporte olímpico para sentadillas - Soporte para pesas ajustable, para entrenar en casa",
+   "image": "https://m.media-amazon.com/images/I/31cIA6dTgVL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "K-Sport GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B08BJJ8SMD": {
+   "status": "ok",
+   "title": "PLEASION Bandas Elasticas Musculacion Fitness, Set de 5 Gomas Elasticas Musculacion Antideslizantes de Tela, Cintas elasticas musculacion de Resistencia para Crossfit Yoga Pilates Glúteos Piernas",
+   "image": "https://m.media-amazon.com/images/I/61SrK+wAoML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PLEASION-EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B08HQPQ253": {
+   "status": "ok",
+   "title": "HxG.Pesa Rusa o Pesa Kettlebell 16kg, PVC rellena de fina arena de acero, ideal para ejercicios y entrenamientos de musculación o crosstraining. Tu casa es tu gimnasio.",
+   "image": "https://m.media-amazon.com/images/I/311xxOjzq1L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08NC5BSCC": {
+   "status": "ok",
+   "title": "unycos - Par de Mancuernas Hexagonales de Neopreno, 5 kg, Verde | Con Revestimiento de Neopreno, Agarre Cómodo y E-book de Ejercicios para Entrenamiento de Fuerza, Fitness y Tonificación",
+   "image": "https://m.media-amazon.com/images/I/31YjOXoU5eL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Grupo MContigo S.L.",
+   "checkedAt": "2026-11-26"
+  },
+  "B08P5RYCNN": {
+   "status": "ok",
+   "title": "Sportstech Mini Bicicleta Estática con App | Stepper para Ejercicio en Oficina & Casa | Pedales Estáticos para Trabajar con Salud | para Cualquier Tipo de Mesa | DFX70 Minibicicleta",
+   "image": "https://m.media-amazon.com/images/I/511XctnBnQL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08RDRYTL6": {
+   "status": "ok",
+   "title": "Sportstech Bicicleta Estática de Elite | Marca Alemana de Calidad | Eventos en Vivo & App Multijugador | Sistema Freno Magnético controlado por Ordenador | Volante de 26Kg | Manillar Deportivo | SX600",
+   "image": "https://m.media-amazon.com/images/I/41GDYQnluEL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08VD715Q9": {
+   "status": "ok",
+   "title": "SAWANS Guantes de Gimnasio para Entrenamiento de Levantamiento de Pesas para Hombres y Mujeres, Soporte de muñeca Acolchados, Agarre Extra, protección de la Palma (Correa de muñeca Larga, L)",
+   "image": "https://m.media-amazon.com/images/I/414zTXSkdwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SAWANS",
+   "checkedAt": "2026-11-26"
+  },
+  "B08XBF3HFF": {
+   "status": "ok",
+   "title": "Bandas Elasticas de Fitness, 5 Tipos de Resistencia, Loop Bandas de Resistencia Látex Natural, Cintas Elásticas Fitness y Musculación Bandas para Yoga, Ejercicio de Cuerpo Completo",
+   "image": "https://m.media-amazon.com/images/I/41rsBASPkXL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08XY4DQ9D": {
+   "status": "ok",
+   "title": "AthleticPro - El original - Marco de la puerta de la barra de tiro - Barra de tracción resistente [200 KG] - Barra de puerta sin superestructura - 20cm más alto - También para los dips & push ups",
+   "image": "https://m.media-amazon.com/images/I/41ESmTkwwrL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "Kronenburg Handel GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B08YP1LPF5": {
+   "status": "ok",
+   "title": "Whey Protein Healthy Fusion | Proteína pura con Colágeno, Magnesio y Vitamina B6 | 43g proteína + 9g BCAA | Mejora tus entrenamientos, aumenta masa muscular y fortalece articulaciones | 1 kg",
+   "image": "https://m.media-amazon.com/images/I/41XHKMYXy+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B097Y9LH1L": {
+   "status": "ok",
+   "title": "WalkingPad R2 Cinta de Correr Plegable Electrica 0,5-12 km/h Silenciosa con Aplicación Mando a Distancia para Oficina y Hogar",
+   "image": "https://m.media-amazon.com/images/I/41wNLjBRDaL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B098K2P2MF": {
+   "status": "ok",
+   "title": "Narwhal Esterilla Yoga Fitness TPE Antideslizante 6 mm, 183 x 61 cm | Doble Textura de Agarre, Esterilla Pilates para Meditación y Entrenamiento, con Correa de Transporte",
+   "image": "https://m.media-amazon.com/images/I/312atQcrNEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09CTVQWK8": {
+   "status": "ok",
+   "title": "Fokky Gomas Elasticas Musculacion [Set de 5], Látex Natural | Bandas Elasticas Musculacion con Bolsa de Transporte, Cintas Elasticas Musculacion para Piernas,Glúteos,Brazos,Yoga,Pilates",
+   "image": "https://m.media-amazon.com/images/I/31hFQ-2TA1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Quickzy Marwa",
+   "checkedAt": "2026-11-26"
+  },
+  "B09GRM4STB": {
+   "status": "ok",
+   "title": "NordicTrack T Series: Cintas de Correr óptimas para Uso doméstico, Cinta para Caminar con inclinación, Bluetooth habilitado, Capacidad de Usuario de 137 kg",
+   "image": "https://m.media-amazon.com/images/I/31theQg10XL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09KVHHGZJ": {
+   "status": "ok",
+   "title": "Kraftfit Bicicleta elíptica, Stepper para casa, Aparato de Fitness para casa, Elíptica con Volante de inercia de 20 kg, Silencioso con 12 programas, App Kinomap y Bluetooth, Negro",
+   "image": "https://m.media-amazon.com/images/I/41DmhfXfy0L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09MJ1Q8ST": {
+   "status": "ok",
+   "title": "Sportstech - X150 Ergómetro Bicicleta Estatica, Bicicleta Estatica Plegable, 8 Niveles de Resistencia, Ajustable Bicicleta Spinning para Gimnasio en Casa, Bici Estatica para Cardio Ejercicio en Casa",
+   "image": "https://m.media-amazon.com/images/I/41P-bs5tzpL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09MKR6KSV": {
+   "status": "ok",
+   "title": "EDIFIT, Pelota de Pilates, 55,65 y 75, Ejercicio en Casa, Incluye Hinchador, Fitball, Embarazadas, Accesorios Yoga, Gimnasio, Varios Tamaños (65cm, Azul)",
+   "image": "https://m.media-amazon.com/images/I/41kmkWYxWfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09N6QDPNK": {
+   "status": "ok",
+   "title": "Suright Gomas Elasticas Musculacion, Bandas Elasticas Musculacion Antideslizantes de Tela, Cintas Elasticas Musculacion 3Niveles de Ejercicios para Gluteos,Cadera,Piernas,Yoga,Pilates,Crossfit,Fitness",
+   "image": "https://m.media-amazon.com/images/I/51u4seZcvkL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "REVIESAVVY",
+   "checkedAt": "2026-11-26"
+  },
+  "B09N9TCS44": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B09NY7KLTJ": {
+   "status": "ok",
+   "title": "Sportstech - CX700 Eliptica Entrenador, Profesional Elipticas Fitness casa Bicicleta, Inteligente Bicicleta Eliptica para Casa con Freno Magnético y Sistema LED, 12 Programas + HRC y Modo Watt",
+   "image": "https://m.media-amazon.com/images/I/41W6Et0xdKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Sportstech ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B09Q3BRQLT": {
+   "status": "ok",
+   "title": "ACTIVEWEIGHT Banco de pesas ajustable plegable | 90 grados, pendiente, inclinado | Premontado | Juego de pesas | Bancos de gimnasio negros | Entrenamiento de cuerpo completo",
+   "image": "https://m.media-amazon.com/images/I/31tR6QE9I2L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09QXGQNFC": {
+   "status": "ok",
+   "title": "PROIRON Chaleco Lastrado 10 kg, Incluido 20 paquetes de peso, Lastre Ajustable, chaleco con peso con banda reflectante para entrenamiento de fuerza, jogging, casa, gimnasio, cardio, crossfit",
+   "image": "https://m.media-amazon.com/images/I/41GtLZ9JZeL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Regent Works",
+   "checkedAt": "2026-11-26"
+  },
+  "B09S6TL9HP": {
+   "status": "ok",
+   "title": "KETTLER Bicicleta estática Avior M | Sistema de frenado magnético | 6 kg de inercia | 8 niveles de resistencia | Pantalla LCD clara",
+   "image": "https://m.media-amazon.com/images/I/3138wz+NXnL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09T9MY8L3": {
+   "status": "ok",
+   "title": "PROIRON Pesa Rusa, Kettlebell Hierro Fundido con Revestimiento de Neopreno para fisicoculturismo y Entrenamiento con Pesas 12kg",
+   "image": "https://m.media-amazon.com/images/I/41axB7VJnfL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09V8BNQSZ": {
+   "status": "ok",
+   "title": "YOLEO Banco de Pesas Ajustable Plegable, Banco de Musculación Plano, Inclinado y Declinado, Banco de Ejercicios para Entrenamiento de Cuerpo Completo, Fitness para Casa",
+   "image": "https://m.media-amazon.com/images/I/41d1G5WRwUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "YOLEO GYM",
+   "checkedAt": "2026-11-26"
+  },
+  "B09VQ76FDW": {
+   "status": "ok",
+   "title": "WESTWOOD FOX Guantes de Gimnasio para Entrenamiento de Fitness, Antideslizantes, con absorción de Golpes, Guantes de Levantamiento de Pesas, Agarre Acolchado (Long Wristband, L)",
+   "image": "https://m.media-amazon.com/images/I/41GoemUmT+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SAWANS",
+   "checkedAt": "2026-11-26"
+  },
+  "B09YTXX7TK": {
+   "status": "ok",
+   "title": "Yaheetech Mancuernas Ajustables 2x15 kg Pesos Fitness Entrenamiento con Barras de Acero y Discos Juego de Pesas Musculacion con Cerraduras de Estrella",
+   "image": "https://m.media-amazon.com/images/I/41UsKbxx2bL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09ZP9TMW6": {
+   "status": "ok",
+   "title": "Banca Plana FLYBIRD, Banca Plana Plegable para Pesas, Estable para Todo Tipo de Entrenamiento de Fuerza y Press de Banca, Fácil de Montar para Ejercicios en Casa, Capacidad Máxima de Carga 300 kg",
+   "image": "https://m.media-amazon.com/images/I/41Iqj3jSP4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Flybird Fitness-EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B34VV7JJ": {
+   "status": "ok",
+   "title": "LULLAX - MANCUERNAS AJUSTABLES (NEO36, 2 X 36 KG)",
+   "image": "https://m.media-amazon.com/images/I/31+xcRHOVWL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0B68K9LRS": {
+   "status": "ok",
+   "title": "PROIRON, Pelota de Pilates, Fitness, Yoga, Embarazo, Deporte, Fitball para Ejercicios Gimnasia, Verde 65cm, Anti-pinchazos, Incluye Inflador",
+   "image": "https://m.media-amazon.com/images/I/31fnk+Cqw1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Regent Works",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B9KGKXSX": {
+   "status": "ok",
+   "title": "WalkingPad R1Pro Cinta de Correr Plegable de 10km/h Cinta de Andar 110kg | 918W, Cinta de Andar para Oficina y Hogar Gris",
+   "image": "https://m.media-amazon.com/images/I/31weuIIazML._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0BFF4VSBS": {
+   "status": "ok",
+   "title": "MERCURYAL Straps Gym - Straps Powerlifting - Complemento para el Gimnasio - Accesorios para Gym - Lifting Straps - Agarraderas Gimnasio - Peso Muerto (Negro)",
+   "image": "https://m.media-amazon.com/images/I/41-zLYUfG1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MERCURYAL",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BH4ZHP9R": {
+   "status": "ok",
+   "title": "LA MENTE ES MARAVILLOSA - Esterilla Yoga, 183x61 cm, Mandala, Morado/Negro | Colchoneta Antideslizante Grosor 6 mm para Fitness, Pilates y Gimnasio en Casa, con E-Book, Bolsa y Correa de Hombro",
+   "image": "https://m.media-amazon.com/images/I/41YpGmHSo6L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0BPYVXGKL": {
+   "status": "ok",
+   "title": "Cecotec Máquina de Remo Plegable DrumFit Rower 5500 Regatta. Sistema de Resistencia Magnética y Diferentes Niveles de Intensidad, Volante de Inercia de 5,5Kg, Display LCD, Reposapiés y Ruedas",
+   "image": "https://m.media-amazon.com/images/I/31OL2r+WjuL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BQ194WS3": {
+   "status": "ok",
+   "title": "Cecotec Bicicleta Estática Indoor Compacta con Volante de Inercia 6Kg DrumFit Indoor 6000 Compact. Pantalla LCD, Soporte Dispositivos, Ruedas, Resistencia Ajustable, Sillín y Manillar Ajustables",
+   "image": "https://m.media-amazon.com/images/I/41Jl8gZRovL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BQ1CPKXK": {
+   "status": "ok",
+   "title": "Cecotec Cinta de Correr Plegable DrumFit WayHome 1000 Runner Sprint. 600 W, De 1 a 10 Km/h, 12 Programas, Panel de Control LED, Superficie de Carrera de 100x40 cm, Ruedas y Soporte Dispositivos",
+   "image": "https://m.media-amazon.com/images/I/41Lj48amJ9L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BQ1Y86P1": {
+   "status": "ok",
+   "title": "Cecotec Bicicleta estática plegable DrumFit X-Bike Neo, Sillín y manillar lateral, Sistema de plegado fácil y compacto, Soporte para dispositivos, 8 niveles de resistencia, 1,5 Kg volante de inercia.",
+   "image": "https://m.media-amazon.com/images/I/41jeDQPBWmL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BSNND1XL": {
+   "status": "ok",
+   "title": "LA MENTE ES MARAVILLOSA - Esterilla, 183x61 cm, Flores, Morado/Negro | Colchoneta Antideslizante Grosor 6 mm para Yoga, Fitness, Pilates y Gimnasio en Casa, con E-Book, Bolsa y Correa de Hombro",
+   "image": "https://m.media-amazon.com/images/I/41TnUGA+tjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Grupo MContigo S.L.",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BX5Y5HLN": {
+   "status": "ok",
+   "title": "PROIRON Rueda Abdominal, 8.5cm Ancho Rodillo para Abdominales con Mangos Algodón NBR y Alfombrilla para Rodillas, para Flexiones,Ejercicio en casa, Rueda Abdominal,Carga máxima de 200 Kg",
+   "image": "https://m.media-amazon.com/images/I/51Pm4p2TsKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Regent Works",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C1CB1T54": {
+   "status": "ok",
+   "title": "DIVASYA Esterilla de yoga premium de corcho antideslizante: de caucho natural antideslizante y corcho natural | alta adherencia | extra ancha y extra gruesa (183 x 66 x 0,4 cm) | correa de transporte",
+   "image": "https://m.media-amazon.com/images/I/51ILVe9oV+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "LVI Life & Vision",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C1NJ4LYQ": {
+   "status": "ok",
+   "title": "PORTENTUM Cintas elasticas musculacion, Set de 3 Bandas elásticas Fitness Antideslizantes de Tela. 3 Niveles de Resistencia para Crossfit, Yoga, Glúteos y Otros Deportes y Bolsa de Almacenamiento",
+   "image": "https://m.media-amazon.com/images/I/61LyR3RYuwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C1S7GWKN": {
+   "status": "ok",
+   "title": "MERACH Máquina de Remo para Casa, 16 Niveles de Resistencia, Remo Magnético Silencioso con App Exclusiva, Rieles Dobles Mejorados para Mayor Estabilidad(Gris)",
+   "image": "https://m.media-amazon.com/images/I/41jshim96PL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MERACH Direct EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C8342FMM": {
+   "status": "ok",
+   "title": "Sunny Health & Fitness Inteligente Remo Hidráulico Compacto para Cuerpo | Cardio de Cuerpo Completo, Suave con las Articulaciones, Ligero y Portátil, Silencioso y Suave Ride, Montaje Fácil",
+   "image": "https://m.media-amazon.com/images/I/4190ZKWBeaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C8F62KNJ": {
+   "status": "ok",
+   "title": "YOLEO Banco de Pesas Ajustable Plegable, Banco de Musculación Plano, Inclinado y Declinado, Banco de Ejercicios para Entrenamiento de Cuerpo Completo, Fitness para Casa (Metalico)",
+   "image": "https://m.media-amazon.com/images/I/41EbgGTI6iL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "YOLEO GYM",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C9TFRW3G": {
+   "status": "ok",
+   "title": "PASYOU PW100 Banco de Pesas Musculacion, Capacidad de Carga Extrema 660 KG, Banco de Entrenamiento Banco de Fitness Para el Hogar Para el Entrenamiento Total del Cuerpo",
+   "image": "https://m.media-amazon.com/images/I/41EhtGTW+aL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "JOROTO Sport & Fitness",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CH8DZGLQ": {
+   "status": "ok",
+   "title": "Sportstech Cyclette Professional SX200 - Marca alemana - Videos y aplicaciones, volante 22 kg, soporte para brazos, transmisión por correa, hasta 125 kg",
+   "image": "https://m.media-amazon.com/images/I/518S5pxO90L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CJ39LHNX": {
+   "status": "ok",
+   "title": "YOGATI Esterilla de yoga con líneas de alineación. Tapetes de yoga con correa de transporte perfecta para pilates y entrenamiento de fitness, esterillas de yoga gruesas antideslizantes ecológicas para",
+   "image": "https://m.media-amazon.com/images/I/41xYUJtQhEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "YOGATI",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CJJNSM9V": {
+   "status": "ok",
+   "title": "Amazon Basics Esterilla de yoga, antideslizante, extragruesa, colchoneta para ejercicios de pilates, 183 x 61 x 1 cm, Negro",
+   "image": "https://m.media-amazon.com/images/I/3185ooP1J0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CJM3NQK7": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CK5VXLMJ": {
+   "status": "ok",
+   "title": "Myprotein Alpha Pre-Workout Polvo con Beta Alanina y Cafeína - Manzana Agria - 600g",
+   "image": "https://m.media-amazon.com/images/I/418cVo5NqHL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CP9PS9DB": {
+   "status": "ok",
+   "title": "BEAST RAGE Guantes de Fitness Transpirables para Hombres y Mujeres Guantes de Levantamiento de Pesas de Entrenamiento de Gimnasia Antideslizante Crossfit Musculation Cycling (M, Negro)",
+   "image": "https://m.media-amazon.com/images/I/41bvoxi7VRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SAWANS",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CPSD21L4": {
+   "status": "ok",
+   "title": "GRIFEMA GA5002 Bandas Elasticas Fitness Set de 4-1.8M | Cintas Elasticas con 4 Niveles de Resistencia para Entrenamiento de Fuerza, Yoga, Pilates",
+   "image": "https://m.media-amazon.com/images/I/41hqYRDx1HL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CQP9F2J9": {
+   "status": "ok",
+   "title": "Mobiclinic® fitness, Mancuernas ajustables, 2 en 1, Extenfit, Peso de 2-20 kg, Incluye y barra extensión acolchada, Tuercas antideslizantes, Acero resistente, Gym casa",
+   "image": "https://m.media-amazon.com/images/I/41s2TBzH4QL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CRHPKR86": {
+   "status": "ok",
+   "title": "ManiBoom Mancuernas Ajustables 10kg 15kg 20kg 30kg 40kg 50kg - Kit de Pesas y Mancuernas 3 en 1 con Rosca de Seguridad, Barra Acolchada y Guía de Ejercicios - Gimnasio en Casa",
+   "image": "https://m.media-amazon.com/images/I/413e2PSC-PL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "TaniMarc",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CRK93TG9": {
+   "status": "ok",
+   "title": "Mobvoi Home Treadmill SE Cinta de Correr Plegable 3 en 1 2.5 HP Compact Portable Under Desk Running Walking Machine con Control Remoto Pantalla LED para el hogar y la Oficina 120KG 12 KM/H",
+   "image": "https://m.media-amazon.com/images/I/41bmDLCUxQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Mobvoi Official Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CVNM5375": {
+   "status": "ok",
+   "title": "smallrun Esterilla Yoga y Pilates NBR Antideslizante 10 mm, Bolsa con 2 Asas, Goma de Sujeción y Banda Elástica, 183x61 cm (Morado)",
+   "image": "https://m.media-amazon.com/images/I/41spKhp5ESL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SMALLRUN",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D1QCBPP7": {
+   "status": "ok",
+   "title": "GRIFEMA GA5004 Comba para Saltar – Cuerda 2.8M Adultos y Niños, Negro | Cuerda para Crossfit y Boxeo, Mango Antideslizante, Ideal para Ejercicio en Casa",
+   "image": "https://m.media-amazon.com/images/I/418AlRRRiqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DBY1JFVP": {
+   "status": "ok",
+   "title": "EIGFOH Mancuernas Ajustables 10KG (2 * 5KG), Gris | Impermeable, Ahorrar Espacio, Fácil de Ajustar, Ideales para Entrenamiento Gimnasio en Casa",
+   "image": "https://m.media-amazon.com/images/I/41XzZ1WomuL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ECOMER FIT TECH",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DD7KJXG3": {
+   "status": "ok",
+   "title": "Fokky Gomas Elasticas Musculacion [Set de 4], 1.8M Bandas Elasticas Fitness | Bandas Elasticas Musculacion con Bolsa de Transporte, Cintas Elasticas Musculacion para Crossfit Musculación Yoga Pilates",
+   "image": "https://m.media-amazon.com/images/I/41-TmFxy9TL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Quickzy Marwa",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DGWX5YPJ": {
+   "status": "ok",
+   "title": "Cinta de Correr Plegable Andar - Caminadora Electrica para Casa con Pantalla LCD Treadmill for Home 3 en 1 Walking Pad Compact Portable Under Desk Running para el hogar y la Oficina Sliders de Fitness",
+   "image": "https://m.media-amazon.com/images/I/41edwOg86KL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Yiwu Hongzhi E-Commerce Co., Ltd",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DHXHPTRP": {
+   "status": "ok",
+   "title": "Flintronic Guantes de Gimnasio, Guantes Crossfit con Muñequeras Gym, Guantillas Gym Transpirable Antideslizantes, Válidos para Gimnasio, Calistenia, Mancuernas, Kettlebell, Dominadas Fitness (Negro,M)",
+   "image": "https://m.media-amazon.com/images/I/41zrLS2a9nL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "flintronic",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DHZFYF8P": {
+   "status": "ok",
+   "title": "BH Bicicleta Elíptica Munich E100 Magnética Volante 12kg Monitor LCD | Usuario Máximo 120 kg, Zancada 34 cm, 18 Programas, Dimensiones 141 x 46 x 165 cm",
+   "image": "https://m.media-amazon.com/images/I/41ltIbXExEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "fitnessdigital.",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DL3LP6Q5": {
+   "status": "ok",
+   "title": "HxG. Esterillas de Yoga Pilates Fitness para gimnasio en casa antideslizante, alfombra suave y cómoda para hacer ejercicio (Negro NBR)",
+   "image": "https://m.media-amazon.com/images/I/31xTi+nqLuL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "JOWY ORIGINALS",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DMDNLJH9": {
+   "status": "ok",
+   "title": "Amazon Basics Set de mancuernas hexagonales con recubrimiento de goma, 10 kg, Negro",
+   "image": "https://m.media-amazon.com/images/I/31FXIPfnZ0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DMDT1KYZ": {
+   "status": "ok",
+   "title": "Amazon Basics Pesas ajustables para tobillo y muñeca para mujeres y hombres, 1.13kg cada una, juego de 2",
+   "image": "https://m.media-amazon.com/images/I/31VkvALIrVL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DNHRW9CR": {
+   "status": "ok",
+   "title": "Amazon Basics Neoprene Dumbbell Weights Set with Stand, 1, 2, 3 kg Pairs",
+   "image": "https://m.media-amazon.com/images/I/41iu81DNWqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DNHY2J5P": {
+   "status": "ok",
+   "title": "Amazon Basics Neoprene Dumbbell Weights Set with Stand, 1.5, 3, 5 kg Pairs",
+   "image": "https://m.media-amazon.com/images/I/41YLO5Knd9L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DNQ1BV41": {
+   "status": "ok",
+   "title": "Amazon Basics Bandas de Resistencia para Hacer Ejercicio, Juego de 5",
+   "image": "https://m.media-amazon.com/images/I/31GpMAtniQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DQK1KB18": {
+   "status": "ok",
+   "title": "Mancuernas con mancuernas para hombre, equipo de Fitness para el hogar, combinación de peso ajustable, par de recubiertas de goma (10, Kilogramos)",
+   "image": "https://m.media-amazon.com/images/I/41yLweeun0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Mi Ko Mi Ka",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DS5VY269": {
+   "status": "ok",
+   "title": "CURSOR Bicicleta estática plegable, 5 en 1 Bicicleta spinning profesional | con Resistencia Magnética de 16 Niveles, Bicicleta estatica plegable para el hogar Bici de Sala con Asiento Cómodo, 136 kg",
+   "image": "https://m.media-amazon.com/images/I/41IJLEfumQL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0DS6CH23J": {
+   "status": "ok",
+   "title": "BIG - Proteinas Whey - Proteina en Polvo para Desarrollo de Masa Muscular y Recuperación - Materia Prima Premium - Whey Protein Sin Lactosa, Sin Azúcar, Sin Grumos (500g, Cacaolat)",
+   "image": "https://m.media-amazon.com/images/I/51taOMRJ8IL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0DSBC1FNZ": {
+   "status": "ok",
+   "title": "MERACH Walking Pad - Cinta de correr 3 en 1 para escritorio | Motor silencioso de 2,5 CV, cinta de correr ligera y compacta para casa y oficina, mando a distancia, control de aplicación",
+   "image": "https://m.media-amazon.com/images/I/41-S6jz5klL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0DTYFYZ21": {
+   "status": "ok",
+   "title": "MERACH Bicicleta Estática en Casa, Bicicleta Spinning con Monitor LED, Transmisión Silenciosa por Cinturón y Cómodo Cojín de Asiento, App Propia, Capacidad de 136 kg, Entrenamiento Aeróbico",
+   "image": "https://m.media-amazon.com/images/I/41qf8oIA4gL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MERACH Direct EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DZ1SKZGJ": {
+   "status": "ok",
+   "title": "Bicicleta MERACH para casa, Resistencia Magnética, Silenciosa, App, 136 kg | Bicicleta de Ejercicio Silenciosa para el Hogar con Aplicación Exclusiva y Pantalla LCD Mejorada, Resistencia Ajustable para",
+   "image": "https://m.media-amazon.com/images/I/410b5FcqbrL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MERACH Direct EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F184B99Q": {
+   "status": "ok",
+   "title": "MERACH Bicicleta Elíptica para Casa, Elíptica Magnética Silenciosa con Autoalimentación, Zancada 42-47 cm, 8-16 Niveles de Resistencia, Monitor LCD, App Bluetooth y Sensor de Pulso, hasta 180 kg",
+   "image": "https://m.media-amazon.com/images/I/418trIpxh7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "MERACH Direct EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F3T7Y569": {
+   "status": "ok",
+   "title": "VANNECT Bicicleta Estatica Plegable con 16 Niveles de Resistencia, Monitor LCD y Medición de Pulso Manual, Soporte Plano, Ahorro de Espaci, Estática Silenciosa Magnética Bicicleta Estatica para Casa",
+   "image": "https://m.media-amazon.com/images/I/41ruFeaiexL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0F4FSBRZ7": {
+   "status": "ok",
+   "title": "LAAR Yoga Essentials – Esterilla de Yoga de Corcho Natural y Caucho Ecológico (183×66×5 cm) | Antideslizante, Resistente, con Cinta de Transporte | Esterilla Premium para Yoga, Pilates y Fitness",
+   "image": "https://m.media-amazon.com/images/I/41+oNKl1fYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Laar yoga essentials",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F4QV2BV1": {
+   "status": "ok",
+   "title": "MERACH Bicicleta Estática Plegable, Bicicleta Estatica con Pantalla LCD, Bicicleta de Fitness Magnética para Casa con Asiento Cómodo, Ahorro de Espacio, Entrenamiento Cardio, Capacidad Máxima 136KG",
+   "image": "https://m.media-amazon.com/images/I/41EYZkGUxLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MERACH Direct EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F9F9T5ZV": {
+   "status": "ok",
+   "title": "2026 Versión Toputure Bicicleta Estatica con Pulsómetro y APP, Bici Estatica Profesional Ultra Silenciosa y Estable, Asiento Cómodo, Soporte para Tableta y Portabotellas, Volante 15 KG, MAX 160KG",
+   "image": "https://m.media-amazon.com/images/I/41JKn5yR4cL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FloatYU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FDQCT5XB": {
+   "status": "ok",
+   "title": "BH Bicicleta Elíptica i.Quantum II Magnética 20kg Zancada 45cm 24 Niveles | Usuario Máximo 150 kg, Peso 63 kg, Uso Hasta 20 h Semanales, Bluetooth Smart 5 kHz",
+   "image": "https://m.media-amazon.com/images/I/41WvJWG0sqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "fitnessdigital.",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FH62WGPL": {
+   "status": "ok",
+   "title": "Bicicleta Elíptica para Casa, Compacta y Soporta 180 KG, Ideal para Pisos | Zancada suave de 40 cm que protege tus articulaciones. Ultrasilenciosa con 16 niveles de resistencia. Ahorra espacio total.",
+   "image": "https://m.media-amazon.com/images/I/41hvdo7xvHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "NICEDAY FITNESS",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FP5CCR66": {
+   "status": "ok",
+   "title": "PORTENTUM Gomas elasticas musculacion Set de 10 – Bandas de Resistencia 4 Niveles Intensidad – Asas, Anclaje Puerta, Fundas y Bolsa – Gimnasio en casa Hombres y Mujeres – Fuerza Fitness Crossfit Yoga",
+   "image": "https://m.media-amazon.com/images/I/513EPXaclLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FPFFC5DK": {
+   "status": "ok",
+   "title": "Amazon Basics Bastones de Trekking para Senderismo, Bastones Plegables, Aluminio Ligero, 134,6cm, Negros",
+   "image": "https://m.media-amazon.com/images/I/31Oe18u2eDL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FX9TTMFH": {
+   "status": "ok",
+   "title": "2026 Toputure Bicicleta Estática Plegable 5 en 1 con APP, Bici Estática con Respaldo, Pulsómetro, LCD y 16 Niveles de Resistencia para Casa, Base Ancha y Estable, Bandas de Resistencia, Máx140KG",
+   "image": "https://m.media-amazon.com/images/I/412DSiyfiRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FloatYU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0G264VB8V": {
+   "status": "ok",
+   "title": "ManiBoom Banco de Musculación Multifuncional con Soporte para Barra, Carga Máxima 300 kg, Estructura 24 kg, Respaldo Inclinable, Predicador y Extensión de Piernas, Semiplegable para Gimnasio en Casa",
+   "image": "https://m.media-amazon.com/images/I/414g3TS-S3L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "TaniMarc",
+   "checkedAt": "2026-11-26"
+  },
+  "B0G8DHGSWL": {
+   "status": "ok",
+   "title": "WalkingPad Z1 Cinta de Correr Plegable Walking Pad 121×40cm para Casa 6KM/H | Walking Pad Cinta de Andar 1-6 KM/H con Mando a Distancia y Display LED",
+   "image": "https://m.media-amazon.com/images/I/31xyH0nNjFL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "WalkingPad Official Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GGGPQ9KR": {
+   "status": "ok",
+   "title": "TOPUTURE 12% Inclinación Cinta de Correr Plegable, 6 en 1 Cinta de Correr Electrica, Frecuencia Cardíaca, Dual Pantalla,16KM/H Under Desk Walking Pad, Bocina Bluetooth, App",
+   "image": "https://m.media-amazon.com/images/I/41gKK96vHgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Lisnowy",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GHY153V3": {
+   "status": "ok",
+   "title": "MERACH R50 Máquina de Remo para casa con Resistencia de Aire, 10 Niveles Ajustables con App Exclusiva, Máquina de Remo Profesional para Interiores, Asiento Ergonómico y Cómodo",
+   "image": "https://m.media-amazon.com/images/I/41PgSZkJmfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MERACH Direct EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GJ5M7MQM": {
+   "status": "ok",
+   "title": "JUPPLIES Mancuerna Ajustable Hasta 15 kg/24 kg (2, 24, Kilogramos) | Pesas Regulables 12/15 Niveles 2–15 kg/2-24 kg con Ajuste Rápido, Bloqueo de Seguridad y Base Antideslizante",
+   "image": "https://m.media-amazon.com/images/I/51qOovQzgaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "JUPPLIES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GJTN8XH2": {
+   "status": "ok",
+   "title": "Bicicleta estática de cámara para adelgazar y tonificar glúteos y piernas, resistencia ajustable sensores cardiovasculares pantalla LCD sillín ajustable entrenamiento fitness",
+   "image": "https://m.media-amazon.com/images/I/31Vl7DYZy1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GJZNL2RD": {
+   "status": "ok",
+   "title": "Toputure Bicicleta Estática Electromagnética con APP, 32 Niveles Precisos | Control de resistencia por APP, Pantalla LCD táctil, Potencia y RPM, Pulso, Adaptador incluido, Altura 150-185 cm, Máx 150 kg",
+   "image": "https://m.media-amazon.com/images/I/41sIzyhnkJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FloatYU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GT9B61X4": {
+   "status": "ok",
+   "title": "Hometro Cinta de Correr Plegable,Cinta de Andar Plegable con Inclinación 7% | Motor Silencioso 3.0 CV, Velocidad hasta 12 KM/H, Pantalla Dual, Soporta hasta 120kg, para Hogar/Oficina",
+   "image": "https://m.media-amazon.com/images/I/41eHWXEkvSL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "STEFMO",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GTK7XRX5": {
+   "status": "ok",
+   "title": "SPORTNOW Jaula de Potencia Musculación, Rack para Sentadillas, Carga 460 kg | Barra de Dominadas, Estación de Fondos Ajustable en Altura 24-184 cm, Soporte de Barra Regulable, para Casa Gimnasio",
+   "image": "https://m.media-amazon.com/images/I/41TxjCAmHmL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Spanish Aosom, S.L. (EU)",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H2HHKF7G": {
+   "status": "ok",
+   "title": "Neezee Cinta de Correr 20% Inclinación,1-18 km/h,6.0 CV,Carga 150 kg | Cinta de Correr Plegable con Pantalla LED,Sensor Pulso,App-Compatible,36 Programas,Soporte tablet,para Casa y Oficina",
+   "image": "https://m.media-amazon.com/images/I/51ojQSNEh9L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "BAISHATU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H6FCLGX3": {
+   "status": "ok",
+   "title": "Superun Cinta de Correr con Inclinación, 2,5-3 CV, 1-6/12km/h, Control App | 2.5 HP Walking Pad con Inclinación, Pantalla LED, Carga 136 kg, Apta para Apartamentos, con App, 90 cm, con Pasamanos",
+   "image": "https://m.media-amazon.com/images/I/41lcU-s1SJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Superun Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H6JSRN4G": {
+   "status": "ok",
+   "title": "RUNIMON Cinta de Correr Plegable para el Hogar, 6 en 1 Cinta de Caminar con 9% de Inclinación y Asa, 2.5HP para Debajo del Escritorio, Velocidad de 1-12KM/H con Pantalla LED, Control Remoto y App",
+   "image": "https://m.media-amazon.com/images/I/41j1sSF8I3L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CHYNNE",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H71BHPLW": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H87SKKFV": {
+   "status": "ok",
+   "title": "MERACH Máquina de remo de agua plegable de madera, material de goma y asiento cómodo, con aplicación exclusiva que proporciona experiencia de navegación interactiva, experiencia de remo inmersiva",
+   "image": "https://m.media-amazon.com/images/I/41dOqgL2g5L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MERACH Direct EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H9QYR49N": {
+   "status": "ok",
+   "title": "CURSOR Cinta de Correr Plegable con Inclinación,1-10KM/H | Caminadora Electrica Para Casa Equipado con Motor Silencioso 3,0 HP y Pantalla LED,130CM Manillar Extendido,Máxima 159 kg",
+   "image": "https://m.media-amazon.com/images/I/41ZSIQnVGpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CURSOR EU",
+   "checkedAt": "2026-11-26"
+  }
+ }
 }
