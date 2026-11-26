@@ -1015,7 +1015,7 @@ categoryCta: { href: "/tienda", text: "Ver toda la tienda →" },
     date: "2026-09-27",
     category: "Entrenamiento",
     readTime: "8 min",
-    relatedProducts: ["bodymate-rodillo-miofascial-45cm-dureza-media", "triggerpoint-grid-rodillo-espuma-33cm", "acupoint-pelotas-masaje-miofascial-set-2", "decathlon-foam-roller-rodillo-masaje-blando"],
+    relatedProducts: ["bodymate-rodillo-miofascial-45cm-dureza-media", "triggerpoint-grid-rodillo-espuma-33cm", "acupoint-pelotas-masaje-miofascial-set-2", "decathlon-foam-roller-rodillo-masaje-blando", "amazon-basics-rodillo-espuma-moteada-60cm-negro"],
     relatedPosts: [
       "estiramientos-despues-ejercicio",
       "sobreentrenamiento-sintomas-como-recuperarte",
