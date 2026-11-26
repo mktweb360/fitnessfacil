@@ -162,6 +162,23 @@ if (malEnlace.length) {
   }
 }
 
+// ── Aviso (no bloquea): fichas vivas sin ninguna imagen real ───────────────────────────────────
+// Sin `image` propia existente ni imagen en data/amazon-sync.json, la ficha cae a la imagen genérica de categoría.
+{
+  const src = readFileSync(join(root, "data", "products.ts"), "utf8").replace(/\r\n/g, "\n");
+  const sync = existsSync(join(root, "data", "amazon-sync.json")) ? JSON.parse(readFileSync(join(root, "data", "amazon-sync.json"), "utf8")).items ?? {} : {};
+  const sinImg = [];
+  for (const b of src.slice(src.indexOf("export const products")).split(/\n  \{\n    slug:/).slice(1)) {
+    if (/\n    unavailable: "/.test(b)) continue;
+    const slug = (b.match(/^\s*"([^"]+)"/) || [])[1];
+    const img = /\n    image:\s*"([^"]+)"/.exec(b)?.[1];
+    const propia = img && (/^https:/.test(img) || existsSync(join(root, "public", img)));
+    const asins = [...b.matchAll(/asin:\s*"([A-Z0-9]{10})"/g)].map((m) => m[1]);
+    if (slug && !propia && !asins.some((a) => sync[a]?.image)) sinImg.push(slug);
+  }
+  if (sinImg.length) console.warn(`⚠ verify-build: ${sinImg.length} fichas vivas sin imagen real (usarán la de categoría): ${sinImg.slice(0, 8).join(", ")}${sinImg.length > 8 ? "…" : ""}`);
+}
+
 if (errors.length) {
   console.error("\n✖ verify-build: la build NO cumple los mínimos de SEO/medición:");
   for (const e of errors) console.error("  - " + e);
