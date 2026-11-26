@@ -55,6 +55,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "toputure-bicicleta-estatica-volante-15kg-app",
   "vannect-bicicleta-estatica-plegable-16-niveles",
   "amazon-basics-kettlebell-hierro-fundido-8kg",
+  "amazon-basics-kettlebell-hierro-fundido-16kg",
   "proiron-kettlebell-neopreno-12kg",
   "optimum-nutrition-creatina-micronizada-634g",
   "hsn-creatina-monohidrato-200-mesh-500g",
