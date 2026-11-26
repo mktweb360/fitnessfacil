@@ -4429,6 +4429,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "decathlon-rueda-abdominal-compacta-desmontable",
+    image: "https://contents.mediadecathlon.com/p3148968/k$3713ed42b9db5792fbe0f6311f7a4311/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Decathlon Rueda Abdominal Negra Compacta y Desmontable",
     offers: [{ store: "decathlon", path: "rueda-abdominal-negro-compacta-desmontable/370735/m8957877" }],
@@ -4448,6 +4449,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "decathlon-hip-thrust-bench-banco-gluteos-plegable",
+    image: "https://contents.mediadecathlon.com/p2443588/k$f9fdba8987ed6188753e5e35a528a7ae/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Decathlon Hip Thrust Bench, Banco de Glúteos Plegable",
     offers: [{ store: "decathlon", path: "banco-musculacion-gluteos-parte-inferior-cuerpo-hip-thrust-bench/330453/m8616811" }],
@@ -4467,6 +4469,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "corength-banco-musculacion-rack-plegable",
+    image: "https://contents.mediadecathlon.com/p2490479/k$4b227ee411bcb73e9cd5a8b1825aec91/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Corength Banco de Musculación con Rack Plegable",
     offers: [{ store: "decathlon", path: "banco-musculacion-con-rack-plegable-corength/312284/c1m8595564" }],
@@ -4486,6 +4489,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "decathlon-comba-500-espuma-rodamientos",
+    image: "https://contents.mediadecathlon.com/p2568403/k$c5b41e542049dc902c5a3bb23a35fc77/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Decathlon Comba 500 Espuma, Cuerda para Saltar Ajustable",
     offers: [{ store: "decathlon", path: "comba-500-espuma/328357/c295m8828295" }],
@@ -4505,6 +4509,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "decathlon-saco-boxeo-air-gel-colgante-90cm",
+    image: "https://contents.mediadecathlon.com/p2733985/k$7770d349d5e3701d4932a443a5a4dbcb/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Decathlon Saco de Boxeo Air Gel Colgante para Adultos, 90 cm",
     offers: [{ store: "decathlon", path: "saco-boxeo-air-gel-adultos-beis-negro/341562/c394c382m8751099" }],
@@ -4524,6 +4529,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "everlast-bolsa-deportes-combate-60-litros",
+    image: "https://contents.mediadecathlon.com/p3190550/k$b4b411c4d8e43528e7acbc5b5cf79906/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Everlast Bolsa Deportes Combate Negro 60 Litros",
     offers: [{ store: "decathlon", path: "bolsa-deportes-combate-negro-60-litros/382162/c1m9004510" }],
@@ -4543,6 +4549,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "decathlon-soporte-saco-boxeo-acero-autoportante",
+    image: "https://contents.mediadecathlon.com/p3149091/k$de3a922f6761deb294b2bd14dbc3fa3b/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Decathlon Soporte de Saco de Boxeo de Acero Autoportante",
     offers: [{ store: "decathlon", path: "soporte-saco-boxeo-acero-autoportante/363086/m8937361" }],
@@ -4562,6 +4569,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "decathlon-punching-ball-negro-base-lastrada",
+    image: "https://contents.mediadecathlon.com/p2735294/k$b705c1a95676062461b630913f2e5734/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Decathlon Punching Ball Negro para Adultos con Base Lastrada",
     offers: [{ store: "decathlon", path: "punching-ball-negro-adulto-base-lastrada/357674/c382c230c251m8911151" }],
