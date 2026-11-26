@@ -49,7 +49,7 @@ const tagSrc = readFileSync(join(root, "lib", "amazon.ts"), "utf8");
 const partnerTag = (tagSrc.match(/(?:AMAZON_TAG|ASSOCIATE_TAG)\s*=\s*"([^"]+)"/) || [])[1];
 if (!partnerTag) { console.error("No se encuentra la constante del tag en lib/amazon.ts"); process.exit(1); }
 
-const prodSrc = readFileSync(join(root, "data", "products.ts"), "utf8");
+const prodSrc = readFileSync(join(root, "data", "products.ts"), "utf8").replace(/\r\n/g, "\n"); // Windows: CRLF
 const catalogo = new Map(); // asin -> { slug, unavailable }
 for (const b of prodSrc.split(/\n  \{\n    slug:/).slice(1)) {
   const slug = (b.match(/^\s*"([^"]+)"/) || [])[1];
