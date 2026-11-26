@@ -4042,6 +4042,24 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     relatedPosts: ["mejor-esterilla-yoga-casa-2025", "pilates-casa-principiantes-guia"],
   },
   {
+    slug: "amazon-basics-bandas-resistencia-set-5-latex",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Bandas de resistencia, juego de 5 niveles de caucho natural",
+    asin: "B0DNQ1BV41",
+    categorySlug: "bandas-resistencia",
+    categoryName: "Bandas de resistencia",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de 5 bandas de caucho natural codificadas por colores, con resistencias de 2,37 a 56,70 kg para progresar en fuerza, estiramientos y pilates.",
+    fullDescription: "Juego de 5 bandas de resistencia de Amazon Basics, de caucho 100 % natural y codificadas por colores. Según la ficha de Amazon, las resistencias van de 2,37 a 6,80 kg, de 6,80 a 15,87 kg, de 11,34 a 29,48 kg, de 15,87 a 38,55 kg y de 22,68 a 56,70 kg, lo que permite progresar de forma gradual. La ficha las propone para fuerza, estiramientos, pilates, flexibilidad y coordinación, y las presenta como un set ligero y compacto para casa, gimnasio o viaje. El caucho lleva certificación FSC. No las hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendidas y enviadas por Amazon", "5 niveles de resistencia, de 2,37 a 56,70 kg según la ficha", "Caucho 100 % natural, codificadas por colores", "Ligeras y compactas para llevar de viaje"],
+    cons: ["La ficha no detalla longitud ni anchura de cada banda: conviene comprobarlo antes de comprar", "El caucho natural puede no convenir a quien tenga alergia al látex", "Las bandas más fuertes son para usuarios avanzados: empieza por las ligeras", "No las hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Unidades": "5 bandas", "Material": "Caucho 100 % natural", "Resistencias": "De 2,37 a 56,70 kg en 5 niveles", "Uso": "Fuerza, estiramientos y pilates", "Vendido por": "Amazon" },
+    relatedPosts: ["bandas-elasticas-musculacion-guia", "piernas-gluteos-casa-mancuernas-bandas"],
+  },
+  {
     slug: "compressport-pro-racing-socks-v3-run-high",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Compressport Pro Racing Socks V3 Run High, calcetines de running",
