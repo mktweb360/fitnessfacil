@@ -169,6 +169,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-bastones-trekking-plegables-aluminio-134cm",
   "amazon-basics-esterilla-yoga-extragruesa-183x61",
   "amazon-basics-rodillo-espuma-moteada-60cm-negro",
+  "amazon-basics-minipelota-pilates-22-9cm-aguamarina",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
