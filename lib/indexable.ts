@@ -9,6 +9,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "unycos-mancuernas-neopreno-1-10kg",
   "suright-gomas-elasticas-3-niveles",
   "techstone-bandas-resistencia-5-niveles",
+  "amazon-basics-bandas-resistencia-set-5-latex",
   "edifit-pelota-pilates-fitball-hinchador",
   "proiron-pelota-pilates-antiestallido",
   "mercuryal-straps-gym-powerlifting",

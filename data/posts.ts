@@ -553,7 +553,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
     date: "2025-07-16",
     category: "Fuerza",
     readTime: "7 min",
-    relatedProducts: ["fokky-bandas-elasticas-set-4-tpe", "jowy-kettlebell-pvc-16kg", "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg", "domyos-set-3-minibands", "corength-pack-3-bandas-elasticas-textiles-gluteos"],
+    relatedProducts: ["fokky-bandas-elasticas-set-4-tpe", "jowy-kettlebell-pvc-16kg", "domyos-lote-3-bandas-elasticas-musculacion-10-20-30kg", "domyos-set-3-minibands", "corength-pack-3-bandas-elasticas-textiles-gluteos", "amazon-basics-bandas-resistencia-set-5-latex"],
     relatedPosts: ["entrenamiento-fuerza-casa-equipamiento-minimo", "kettlebell-para-empezar-peso", "rutina-entrenamiento-casa-sin-equipamiento", "piernas-gluteos-casa-mancuernas-bandas", "portentum-bandas-anclaje-puerta-analisis"],
     categoryCta: { href: "/tienda/bandas-resistencia", text: "Ver bandas de resistencia →" },
   },
