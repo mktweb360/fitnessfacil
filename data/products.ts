@@ -4060,6 +4060,24 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     relatedPosts: ["mejor-esterilla-yoga-casa-2025", "pilates-casa-principiantes-guia"],
   },
   {
+    slug: "amazon-basics-bandas-resistencia-tpe-1500mm-x3",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Bandas de resistencia de elastómero termoplástico (TPE), 1500 mm, juego de 3",
+    asin: "B07R9VDP64",
+    categorySlug: "bandas-resistencia",
+    categoryName: "Bandas de resistencia",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de 3 bandas de resistencia de TPE sin látex, de 1.500 mm de largo, compactas y ligeras, para ejercicios diarios y estiramientos.",
+    fullDescription: "Juego de 3 bandas de resistencia de Amazon Basics fabricadas en elastómero termoplástico (TPE) sin látex, de gran flexibilidad. Según la ficha de Amazon, son aptas para ejercicios diarios, estiramientos y entrenamiento de fuerza, y su tamaño compacto y su poco peso permiten guardarlas en un bolsillo, un cajón o la bolsa de gimnasio. La ficha da 1.500 mm de largo y un peso del conjunto de unos 286 g. Al no llevar látex, son una opción para quien no tolera el caucho natural. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendidas y enviadas por Amazon", "TPE sin látex, para quien no tolera el caucho natural", "Juego de 3 bandas multicolor", "Ligeras y compactas: unos 286 g el conjunto"],
+    cons: ["La ficha no indica la resistencia de cada banda en kilos: no se sabe qué nivel es cada una", "La ficha no detalla la anchura de cada banda", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Unidades": "3 bandas, multicolor", "Material": "Elastómero termoplástico (TPE), sin látex", "Longitud": "1.500 mm", "Peso del conjunto": "Unos 286 g", "Modelo": "TPERB-1500", "Vendido por": "Amazon" },
+    relatedPosts: ["bandas-elasticas-musculacion-guia", "piernas-gluteos-casa-mancuernas-bandas"],
+  },
+  {
     slug: "amazon-basics-bandas-resistencia-set-5-latex",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Bandas de resistencia, juego de 5 niveles de caucho natural",

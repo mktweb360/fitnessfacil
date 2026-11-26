@@ -10,6 +10,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "suright-gomas-elasticas-3-niveles",
   "techstone-bandas-resistencia-5-niveles",
   "amazon-basics-bandas-resistencia-set-5-latex",
+  "amazon-basics-bandas-resistencia-tpe-1500mm-x3",
   "edifit-pelota-pilates-fitball-hinchador",
   "proiron-pelota-pilates-antiestallido",
   "mercuryal-straps-gym-powerlifting",
