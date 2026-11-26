@@ -187,19 +187,23 @@ writeFileSync(outPath, JSON.stringify(salida, null, 1) + "\n");
 const lista = (f) => asins.filter((a) => f(items[a], catalogo.get(a)));
 const sinOferta = lista((d, c) => d?.status === "sin-oferta" && !c.unavailable);
 const noAcc = lista((d, c) => d?.status === "no-accesible" && !c.unavailable);
-const vuelven = lista((d, c) => d?.status === "ok" && c.unavailable);
+// «Comprable» = la API devuelve un listado con stock (IN_STOCK, IN_STOCK_SCARCE). OUT_OF_STOCK, LEADTIME u otros no cuentan.
+const comprable = (d) => d?.status === "ok" && /^IN_STOCK/.test(d.availability?.type ?? "");
+const sinStock = lista((d, c) => d?.status === "ok" && !comprable(d) && !c.unavailable);
+const vuelven = lista((d, c) => comprable(d) && c.unavailable);
 const conImagen = lista((d) => d?.image).length;
 const terceros = lista((d) => d?.merchant && !/amazon/i.test(d.merchant));
 
 console.log(`\nResumen ${hoy}: ${asins.length} consultados, ${conImagen} con imagen, ${lotesFallidos} lotes fallidos.`);
-const bloque = (titulo, arr) => {
+const bloque = (titulo, arr, extra = () => "") => {
   if (!arr.length) return;
   console.log(`\n${titulo} (${arr.length}):`);
-  for (const a of arr) console.log(`  ${a}  ${catalogo.get(a).slug}`);
+  for (const a of arr) console.log(`  ${a}  ${catalogo.get(a).slug}${extra(a)}`);
 };
 bloque("SIN OFERTA en Amazon.es y no marcadas como unavailable: revisar y, si procede, marcar `unavailable` + 301", sinOferta);
 bloque("NO ACCESIBLES por la API y no marcadas como unavailable: comprobar a mano", noAcc);
-bloque("MARCADAS unavailable pero la API devuelve oferta: valorar reactivar", vuelven);
+bloque("SIN STOCK o con plazo según la API y NO marcadas unavailable (enlaces que quizá no se pueden comprar): comprobar a mano", sinStock, (a) => `  [${items[a].availability?.type ?? "sin dato"}]`);
+bloque("MARCADAS unavailable pero la API devuelve stock: comprobar a mano y valorar reactivar (hay que quitar su 301)", vuelven, (a) => `  [${items[a].availability?.type}] ${items[a].merchant ?? ""}`);
 bloque("Vendidas por un tercero según la API: recordar «Vendido por un tercero» en contras", terceros);
 console.log("\nNo se ha modificado data/products.ts. Revisa el informe, aplica los cambios y ejecuta pnpm build.");
 if (lotesFallidos === Math.ceil(asins.length / BATCH)) process.exit(1);
