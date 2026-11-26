@@ -11,6 +11,8 @@
 //   node scripts/sync-amazon.mjs --dry      lista los ASIN y sale (sin credenciales ni red)
 //   node scripts/sync-amazon.mjs --raw      además imprime la primera respuesta cruda de la API
 //   node scripts/sync-amazon.mjs --only=B0DRW8WDB1,B07MZPPVMZ
+//   node scripts/sync-amazon.mjs --build    modo despliegue (pnpm build): solo los ASIN sin datos (o no accesibles desde hace
+//                                           más de 7 días); sin credenciales o ante cualquier error NO falla: conserva el JSON
 //
 // Credenciales: variables de entorno o fichero .env.local (ignorado por git):
 //   CREATORS_CLIENT_ID, CREATORS_CLIENT_SECRET
@@ -61,6 +63,27 @@ for (const b of prodSrc.split(/\n  \{\n    slug:/).slice(1)) {
 let asins = [...catalogo.keys()];
 const only = opt("only");
 if (only) asins = asins.filter((a) => only.split(",").includes(a));
+
+// Modo --build (despliegue en Vercel): solo consulta los ASIN que aún no tienen datos y NUNCA hace fallar la build.
+const BUILD = flag("build");
+if (BUILD) {
+  let previoBuild = { items: {} };
+  try { previoBuild = JSON.parse(readFileSync(join(root, "data", "amazon-sync.json"), "utf8")); } catch { /* sin JSON previo */ }
+  const hace7d = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+  asins = asins.filter((a) => {
+    const d = previoBuild.items?.[a];
+    return !d || (d.status === "no-accesible" && (d.checkedAt ?? "") < hace7d);
+  });
+  const sinImagen = [...catalogo].filter(([a, c]) => !c.unavailable && !previoBuild.items?.[a]?.image).length;
+  if (!asins.length) { console.log(`sync-amazon: nada que sincronizar (${sinImagen} fichas vivas sin imagen sincronizada).`); process.exit(0); }
+  if (!process.env.CREATORS_CLIENT_ID || !process.env.CREATORS_CLIENT_SECRET) {
+    console.log(`sync-amazon: ${asins.length} fichas sin datos y sin CREATORS_CLIENT_ID/CREATORS_CLIENT_SECRET en el entorno; se omite (usarán la imagen de categoría).`);
+    process.exit(0);
+  }
+  const abortarSinRomper = (e) => { console.error("sync-amazon: error, se conserva data/amazon-sync.json y la build continúa:", e?.message ?? e); process.exit(0); };
+  process.on("uncaughtException", abortarSinRomper);
+  process.on("unhandledRejection", abortarSinRomper);
+}
 
 console.log(`Catálogo: ${catalogo.size} fichas; a consultar: ${asins.length}; tag: ${partnerTag}; marketplace: ${CREATORS_MARKETPLACE}`);
 if (flag("dry")) { console.log(asins.join("\n")); process.exit(0); }
@@ -182,6 +205,11 @@ const ordenado = {};
 for (const a of [...catalogo.keys()].sort()) if (items[a]) ordenado[a] = items[a];
 const salida = { generatedAt: hoy, marketplace: CREATORS_MARKETPLACE, items: ordenado };
 writeFileSync(outPath, JSON.stringify(salida, null, 1) + "\n");
+if (BUILD) {
+  const sinImg = Object.keys(ordenado).filter((a) => !ordenado[a]?.image && !catalogo.get(a)?.unavailable).length;
+  console.log(`sync-amazon: ${asins.length} fichas consultadas, ${lotesFallidos} lotes fallidos; ${sinImg} fichas vivas siguen sin imagen sincronizada.`);
+  process.exit(0);
+}
 
 // ── Informe ───────────────────────────────────────────────────────────────────
 const lista = (f) => asins.filter((a) => f(items[a], catalogo.get(a)));
