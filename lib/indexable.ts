@@ -169,6 +169,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "hometro-cinta-correr-plegable-inclinacion-3-7-motor-3hp",
   "adidas-rueda-abdominales",
   "amazon-basics-bastones-trekking-plegables-aluminio-134cm",
+  "amazon-basics-botella-agua-acero-inoxidable-568ml-gris",
   "amazon-basics-esterilla-yoga-extragruesa-183x61",
   "amazon-basics-rodillo-espuma-moteada-60cm-negro",
   "amazon-basics-minipelota-pilates-22-9cm-aguamarina",

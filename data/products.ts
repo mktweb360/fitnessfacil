@@ -4042,6 +4042,24 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     relatedPosts: ["que-llevar-camino-de-santiago-lista-mochila"],
   },
   {
+    slug: "amazon-basics-botella-agua-acero-inoxidable-568ml-gris",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Botella de Agua Aislante de Acero Inoxidable, 568 ml, Gris Lino",
+    asin: "B0F2SJJDQQ",
+    categorySlug: "senderismo",
+    categoryName: "Senderismo y Camino de Santiago",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Botella térmica de acero inoxidable de 568 ml, sin BPA y con cierre a prueba de fugas, pensada para viajes, gimnasio y uso diario.",
+    fullDescription: "Botella de agua aislante de Amazon Basics, de acero inoxidable y sin BPA, con una capacidad de 568 ml. Según la ficha de Amazon, está pensada para llevarla de viaje, al gimnasio o en el día a día, tiene un diseño a prueba de fugas y un tamaño que cabe en los portavasos. Mide 7,11 x 7,11 x 26,09 cm y pesa 332 g. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Acero inoxidable con aislamiento y sin BPA", "Diseño a prueba de fugas según la ficha", "Cabe en portavasos"],
+    cons: ["No la hemos probado: la información procede de la ficha de Amazon", "La ficha no indica cuántas horas mantiene frío o calor", "568 ml puede quedarse corto en etapas largas"],
+    specs: { "Marca": "Amazon Basics", "Material": "Acero inoxidable", "Capacidad": "568 ml", "Dimensiones": "7,11 x 7,11 x 26,09 cm", "Peso": "332 g", "Vendido por": "Amazon" },
+    relatedPosts: ["que-llevar-camino-de-santiago-lista-mochila"],
+  },
+  {
     slug: "amazon-basics-bastones-trekking-plegables-aluminio-134cm",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Bastones de Trekking Plegables de Aluminio, 134,6 cm",
