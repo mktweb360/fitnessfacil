@@ -181,6 +181,7 @@ export const products: Product[] = [
 
   {
     slug: "sportstech-x150-ergometro-plegable",
+    unavailable: "2026-11-26",
     name: "Sportstech X150 Ergómetro Bicicleta Estática Plegable 8 Niveles",
     asin: "B09MJ1Q8ST",
     image: "/images/products/sportstech-x150-ergometro-plegable.jpg",
@@ -550,6 +551,7 @@ export const products: Product[] = [
   },
   {
     slug: "nordictrack-t65s-cinta-correr",
+    unavailable: "2026-11-26",
     name: "NordicTrack T 6.5 S Cinta de Correr",
     asin: "B09GRM4STB",
     image: "/images/products/nordictrack-t65s-cinta-correr.jpg",
@@ -911,6 +913,7 @@ export const products: Product[] = [
 // ─── suplementos-proteinas ───────────────────────────────────
   {
     slug: "myprotein-impact-whey-2-5kg",
+    unavailable: "2026-11-26",
     name: "MyProtein Impact Whey Protein 2,5 kg",
     asin: "B00MGN8GUA",
     image: "/images/products/myprotein-impact-whey-2-5kg.jpg",
@@ -1280,7 +1283,6 @@ export const products: Product[] = [
     slug: "zeporix-cinta-correr-plegable-3en1",
     name: "Zeporix Cinta de Correr Plegable Andar - Caminadora Eléctrica 3 en 1",
     asin: "B0DGWX5YPJ",
-    unavailable: "2026-10-27",
     categorySlug: "cintas-correr",
     categoryName: "Cintas de correr",
     price: "€129,99",
@@ -1290,7 +1292,7 @@ export const products: Product[] = [
     shortDescription: "Cinta de correr plegable de entrada, formato 3 en 1 (andar bajo escritorio, correr y modo manual), pantalla LCD y capacidad de 100kg.",
     fullDescription: "La Zeporix es la opción de entrada más económica del catálogo para quien solo quiere probar si le compensa tener una cinta en casa antes de invertir en un modelo de gama media o alta. Formato 3 en 1 que combina modo andar bajo escritorio, modo correr y modo manual (sin motor), con pantalla LCD y estructura plegable. Capacidad de usuario de 100kg.",
     pros: ["Precio de entrada muy accesible", "Formato 3 en 1 versátil", "Plegable para espacios pequeños", "Buena opción para probar el hábito antes de invertir más"],
-    cons: ["Capacidad de usuario limitada a 100kg", "Motor y prestaciones más básicas que las cintas de gama media"],
+    cons: ["Capacidad de usuario limitada a 100kg", "Motor y prestaciones más básicas que las cintas de gama media", "Vendido por un tercero"],
     specs: { "Capacidad máx.": "100 kg", "Formato": "3 en 1 (andar/correr/manual)", "Pantalla": "LCD", "Plegable": "Sí" },
     badge: "Precio de entrada",
     relatedPosts: ["mejor-cinta-correr-casa-2025", "cinta-andar-casa-bajo-escritorio"],
@@ -1509,7 +1511,6 @@ export const products: Product[] = [
   },
   {
     slug: "miko-mika-mancuernas-goma-ajustable",
-    unavailable: "2026-10-12",
     name: "Mi Ko Mi Ka Par de Mancuernas Recubiertas de Goma Ajustables",
     asin: "B0DQK1KB18",
     categorySlug: "pesas-mancuernas",
@@ -1521,7 +1522,7 @@ export const products: Product[] = [
     shortDescription: "Par de mancuernas ajustables recubiertas de goma, la opción más económica de kit ajustable del catálogo.",
     fullDescription: "El kit Mi Ko Mi Ka es la puerta de entrada más económica al formato ajustable dentro del catálogo, con discos recubiertos de goma para proteger el suelo y reducir ruido. Disponible en varias combinaciones de peso total según la variante elegida.",
     pros: ["Precio de entrada muy accesible para un kit ajustable", "Recubrimiento de goma que protege el suelo"],
-    cons: ["El peso máximo real depende de la variante comprada — revisar bien la opción"],
+    cons: ["El peso máximo real depende de la variante comprada — revisar bien la opción", "Vendido por un tercero"],
     specs: { "Material": "Goma sobre núcleo metálico", "Formato": "Par ajustable" },
     relatedPosts: ["mancuernas-ajustables-vs-fijas", "rutina-mancuernas-casa-semana"],
   },
@@ -1583,7 +1584,6 @@ export const products: Product[] = [
     slug: "jowy-esterilla-yoga-nbr-plegable",
     name: "JOWY Esterilla Yoga Pilates Fitness Antideslizante NBR Plegable",
     asin: "B0DL3LP6Q5",
-    unavailable: "2026-10-18",
     categorySlug: "esterillas-yoga",
     categoryName: "Esterillas y yoga",
     price: "€16,95",
@@ -1593,7 +1593,7 @@ export const products: Product[] = [
     shortDescription: "Esterilla de yoga JOWY en NBR (caucho nitrilo), antideslizante y plegable — misma marca española ya presente en el catálogo con su kettlebell.",
     fullDescription: "JOWY, la marca española ya presente en el catálogo con su kettlebell de PVC, ofrece también esta esterilla en NBR (caucho nitrilo), un material distinto al TPE de las otras esterillas del catálogo, con buena amortiguación y capacidad de plegado (a diferencia de las esterillas que solo se enrollan).",
     pros: ["Material NBR, alternativa real al TPE del resto del catálogo", "Se puede plegar, no solo enrollar — más compacta para guardar", "Marca española ya de confianza en el catálogo", "Precio accesible"],
-    cons: ["El NBR puede marcar pliegues con el tiempo si se guarda siempre doblada de la misma forma"],
+    cons: ["El NBR puede marcar pliegues con el tiempo si se guarda siempre doblada de la misma forma", "Vendido por un tercero"],
     specs: { "Material": "NBR (caucho nitrilo)", "Formato": "Plegable", "Antideslizante": "Sí" },
     relatedPosts: ["mejor-esterilla-yoga-casa-2025", "pilates-casa-principiantes-guia"],
   },
@@ -2024,6 +2024,7 @@ export const products: Product[] = [
   },
   {
     slug: "vannect-bicicleta-estatica-plegable-16-niveles",
+    unavailable: "2026-11-26",
     name: "VANNECT Bicicleta Estática Plegable con 16 Niveles de Resistencia Magnética",
     asin: "B0F3T7Y569",
     categorySlug: "bicicletas-estaticas",
@@ -3744,6 +3745,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "picsil-comba-rapida-abs-doble-rodamiento",
+    unavailable: "2026-11-26",
     name: "PICSIL Comba Rápida ABS con Doble Rodamiento y Cable Ajustable",
     asin: "B01DPHA1US",
     image: "/images/products/picsil-comba-rapida-abs-doble-rodamiento.jpg",
