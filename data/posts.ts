@@ -84,7 +84,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
     date: "2026-11-04",
     category: "Entrenamiento",
     readTime: "8 min",
-    relatedProducts: ["walkingpad-z1-cinta-andar-plegable"],
+    relatedProducts: ["walkingpad-z1-cinta-andar-plegable", "google-fitbit-charge-6-pulsera-actividad"],
     relatedPosts: ["hiit-en-casa-principiantes", "entrenar-caminando-casa-beneficios", "sobreentrenamiento-sintomas-como-recuperarte", "rutina-entrenamiento-casa-sin-equipamiento", "primera-10k-san-silvestre-plan-7-semanas"],
     categoryCta: { href: "/tienda/cintas-correr", text: "Ver cintas de andar y de correr →" },
   },

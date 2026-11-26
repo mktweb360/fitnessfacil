@@ -4663,6 +4663,25 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     badge: "Para casa",
     relatedPosts: ["accesorios-gimnasio-cuales-merecen-la-pena"],
   },
+  {
+    slug: "google-fitbit-charge-6-pulsera-actividad",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Google Fitbit Charge 6 Pulsera de actividad y salud",
+    asin: "B0CHN4BDYF",
+    image: "https://m.media-amazon.com/images/I/61q3X9VBABL._SL500_.jpg",
+    categorySlug: "accesorios-gimnasio",
+    categoryName: "Accesorios de gimnasio",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Pulsera de actividad con GPS integrado, más de 40 modos de ejercicio, frecuencia cardiaca continua, resistencia al agua hasta 50 metros y hasta 7 días de batería, según la ficha.",
+    fullDescription: "Pulsera de actividad y salud de Google Fitbit. Según la ficha de Amazon, integra GPS, más de 40 modos de ejercicio, monitorización continua de la frecuencia cardiaca, nivel de recuperación diario, minutos en zona activa y un mapa de intensidad del entrenamiento; también puede mostrar la frecuencia cardiaca en máquinas de entrenamiento conectadas por Bluetooth. Tiene pantalla a color, temporizador y cronómetro, notificaciones de llamadas y mensajes, y es resistente al agua hasta 50 metros con una batería de hasta 7 días. Es compatible con dispositivos iOS 15 y Android 9.0 o superiores. La caja incluye dos correas (tallas S, para muñecas de 140 a 180 mm, y L, de 180 a 220 mm) y el cargador. Las funciones de salud de la ficha, como la saturación de oxígeno o el electrocardiograma, son orientativas y no sustituyen la consulta con un profesional sanitario. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "GPS integrado y más de 40 modos de ejercicio, según la ficha", "Frecuencia cardiaca continua para ver cuánto tiempo pasas en zona activa", "Resistente al agua hasta 50 metros y hasta 7 días de batería", "Incluye correas en tallas S y L"],
+    cons: ["Las funciones de salud son orientativas y no sustituyen a un profesional sanitario", "El cargador incluido solo es válido para Fitbit Charge 5 según la ficha, no para otros modelos", "Requiere un móvil iOS 15 o Android 9.0 o superior", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Google Fitbit", "Modelo": "Charge 6", "GPS": "Integrado", "Modos de ejercicio": "Más de 40", "Resistencia al agua": "Hasta 50 metros", "Batería": "Hasta 7 días", "Correas incluidas": "Tallas S y L", "Compatibilidad": "iOS 15 y Android 9.0 o superiores", "Vendido por": "Amazon" },
+    relatedPosts: ["medir-intensidad-ejercicio-casa-sin-pulsometro"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
