@@ -3633,6 +3633,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "amazon-basics-kettlebell-hierro-fundido-16kg",
+    image: "https://m.media-amazon.com/images/I/71swRJOYtoL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Kettlebell de Hierro Fundido 16 kg con Agarre Ancho Texturizado",
     asin: "B076QDSYCH",
@@ -3763,6 +3764,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "amazon-basics-minipelota-pilates-22-9cm-aguamarina",
+    image: "https://m.media-amazon.com/images/I/71eQhdlnbKL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon (variante aguamarina).
     name: "Amazon Basics Minipelota de pilates antiexplosión de 22,9 cm, aguamarina",
     asin: "B0DN5JJ1RC",
@@ -4045,6 +4047,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "amazon-basics-botella-agua-acero-inoxidable-568ml-gris",
+    image: "https://m.media-amazon.com/images/I/51vitNW1VdL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Botella de Agua Aislante de Acero Inoxidable, 568 ml, Gris Lino",
     asin: "B0F2SJJDQQ",
@@ -4099,6 +4102,7 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
   },
   {
     slug: "amazon-basics-bandas-resistencia-tpe-1500mm-x3",
+    image: "https://m.media-amazon.com/images/I/71vrRiJyG4L._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Bandas de resistencia de elastómero termoplástico (TPE), 1500 mm, juego de 3",
     asin: "B07R9VDP64",
