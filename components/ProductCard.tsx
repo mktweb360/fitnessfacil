@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Product } from "@/data/products";
+import { syncedImage } from "@/lib/amazon-sync";
 
 const CATEGORY_IMAGES: Record<string, string> = {
   "cintas-correr": "/images/products/cintas-correr.jpg",
@@ -14,7 +15,7 @@ const CATEGORY_IMAGES: Record<string, string> = {
 };
 
 export default function ProductCard({ product }: { product: Product }) {
-  const imgSrc = product.image ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/cintas-correr.jpg";
+  const imgSrc = product.image ?? syncedImage(product) ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/cintas-correr.jpg";
   return (
     <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
       <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">

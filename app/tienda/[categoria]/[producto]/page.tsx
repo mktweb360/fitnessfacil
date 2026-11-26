@@ -6,6 +6,7 @@ import { getPostBySlug } from "@/data/posts";
 import { offersOf, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import SupplementDisclaimer from "@/components/SupplementDisclaimer";
 import ProductCard from "@/components/ProductCard";
+import { syncedImage } from "@/lib/amazon-sync";
 import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
 import { isFeaturedProduct } from "@/lib/indexable";
 
@@ -159,7 +160,7 @@ export default async function ProductPage({ params }: Props) {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-green-50 to-gray-50 border border-gray-100 aspect-square flex items-center justify-center">
               <img
-                src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
+                src={product.image ?? syncedImage(product) ?? `/images/products/${product.categorySlug}.jpg`}
                 alt={product.name}
                 className="w-full h-full object-cover"
                 loading="eager"

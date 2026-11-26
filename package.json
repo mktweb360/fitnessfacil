@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && node scripts/verify-build.mjs",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:amazon": "node scripts/sync-amazon.mjs"
   },
   "dependencies": {
     "next": "16.2.7",
