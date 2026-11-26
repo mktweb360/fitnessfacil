@@ -1,3 +1,4 @@
+import { syncedImage } from "@/lib/amazon-sync";
 import Link from "next/link";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
@@ -4866,15 +4867,18 @@ const AUTHOR = {
                   {ctaProducts.length > 0 && (
                     <div className="mt-4 flex flex-wrap gap-3">
                       {ctaProducts.map((ctaProduct) => (
-                        <a
-                          key={ctaProduct.slug}
-                          href={offerUrl(primaryOffer(ctaProduct)!)}
-                          target="_blank"
-                          rel="nofollow sponsored noopener noreferrer"
-                          className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
-                        >
-                          Ver {ctaProduct.name}
-                        </a>
+                        <div key={ctaProduct.slug} className="flex items-center gap-3 rounded-xl border border-gray-100 bg-white p-2.5 shadow-sm">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={ctaProduct.image ?? syncedImage(ctaProduct) ?? `/images/products/${ctaProduct.categorySlug}.jpg`} alt={ctaProduct.name} width={64} height={64} loading="lazy" className="h-16 w-16 shrink-0 rounded-lg bg-gray-50 object-contain" />
+                          <a
+                            href={offerUrl(primaryOffer(ctaProduct)!)}
+                            target="_blank"
+                            rel="nofollow sponsored noopener noreferrer"
+                            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-5 py-2.5 rounded-lg transition-colors"
+                          >
+                            Ver {ctaProduct.name}
+                          </a>
+                        </div>
                       ))}
                     </div>
                   )}
