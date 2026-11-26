@@ -4,6 +4,7 @@
 // redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
 // se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
+  "google-fitbit-charge-6-pulsera-actividad",
   "cecotec-drumfit-indoor-bicicleta-estatica",
   "songmics-mancuernas-hexagonales-neopreno-5kg",
   "unycos-mancuernas-neopreno-1-10kg",
