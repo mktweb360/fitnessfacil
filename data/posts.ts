@@ -539,7 +539,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
     date: "2025-07-15",
     category: "Fuerza",
     readTime: "8 min",
-    relatedProducts: ["jowy-kettlebell-pvc-16kg", "lullax-neo36-mancuernas-ajustables", "domyos-corength-kettlebell-12kg", "domyos-corength-kettlebell-8kg", "domyos-corength-kettlebell-16kg"],
+    relatedProducts: ["jowy-kettlebell-pvc-16kg", "lullax-neo36-mancuernas-ajustables", "domyos-corength-kettlebell-12kg", "domyos-corength-kettlebell-8kg", "domyos-corength-kettlebell-16kg", "amazon-basics-kettlebell-hierro-fundido-16kg"],
     relatedPosts: ["mancuernas-ajustables-vs-fijas", "entrenamiento-fuerza-casa-equipamiento-minimo", "bandas-elasticas-musculacion-guia", "guantes-gimnasio-como-elegir-alternativas"],
     categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver kettlebells y pesas en tienda →" },
   },
