@@ -3651,6 +3651,25 @@ relatedPosts: ["guantes-gimnasio-como-elegir-alternativas", "primera-dominada-ba
     relatedPosts: ["kettlebell-para-empezar-peso", "entrenamiento-fuerza-casa-equipamiento-minimo", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
   },
   {
+    slug: "amazon-basics-kettlebell-hierro-fundido-20kg",
+    image: "https://m.media-amazon.com/images/I/71lUg5z-F-L._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Kettlebell de Hierro Fundido 20 kg con Agarre Ancho Texturizado",
+    asin: "B076QDZ71T",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Pesa rusa de hierro fundido de 20 kg con asa ancha texturizada, acabado pintado en negro y dimensiones de unos 22,2 x 14,6 x 26,7 cm.",
+    fullDescription: "Pesa rusa de Amazon Basics de 20 kg, de hierro fundido sólido y con superficie pintada como protección frente a la corrosión. Según la ficha de Amazon, el asa amplia y con relieve da un agarre seguro y se puede usar con una o con dos manos, y la pesa sirve para una gran variedad de ejercicios de resistencia. Mide unos 22,2 x 14,6 x 26,7 cm. Esta ficha corresponde a la versión de 20 kg, la más pesada de las que tenemos de esta serie.",
+    pros: ["Vendida y enviada por Amazon", "Hierro fundido macizo con acabado pintado", "Asa ancha con relieve, para una o dos manos", "20 kg: un peso con el que seguir progresando tras las versiones de 8, 10 y 16 kg"],
+    cons: ["Peso fijo de 20 kg: es mucha carga para empezar, y para movimientos balísticos exige técnica previa", "Pesa 20 kg y es voluminosa: conviene tener sitio donde guardarla", "La ficha no detalla el diámetro del asa", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Material": "Hierro fundido", "Peso": "20 kg", "Asa": "Ancha y texturizada", "Acabado": "Pintado, negro", "Medidas": "22,2 x 14,6 x 26,7 cm", "Modelo": "CK-20KG", "Vendido por": "Amazon" },
+    relatedPosts: ["kettlebell-para-empezar-peso", "entrenamiento-fuerza-casa-equipamiento-minimo", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
+  },
+  {
     slug: "walkingpad-z1-cinta-plegable-121x40",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "WalkingPad Z1 Cinta de Andar Plegable 121x40",
