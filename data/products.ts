@@ -3472,6 +3472,25 @@ export const products: Product[] = [
     relatedPosts: ["entrenamiento-fuerza-casa-equipamiento-minimo", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
   },
   {
+    slug: "amazon-basics-par-mancuernas-neopreno-5kg",
+    image: "https://m.media-amazon.com/images/I/61iMYXNppRL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Par de Mancuernas de Neopreno 5 kg",
+    asin: "B078XXSXRX",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Set de dos mancuernas hexagonales de neopreno de 5 kg cada una, con el peso impreso y código de color en cada extremo.",
+    fullDescription: "Set de dos mancuernas de Amazon Basics, de 5 kg cada una según la ficha, con recubrimiento de neopreno que da un agarre fácil y seguro. Llevan el peso impreso en cada extremo y un código de color para identificarlas rápido, y su forma hexagonal evita que rueden por el suelo. La ficha las orienta a clases de fitness y rutinas de entrenamiento en casa. Cada mancuerna mide unos 22,4 x 10,6 x 9,7 cm. Esta ficha corresponde al set de 5 kg por mancuerna.",
+    pros: ["Vendida y enviada por Amazon", "Neopreno con agarre fácil y seguro", "Peso impreso y código de color en cada extremo", "Forma hexagonal que evita que rueden", "5 kg por mano: un paso más allá de las mancuernas de 1 a 3 kg"],
+    cons: ["El peso es fijo: para progresar hay que comprar otro par más pesado", "La ficha indica a la vez 5 kg cada una y un peso del producto de 4,54 kg: conviene comprobar el peso exacto en Amazon antes de comprar", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "NPDBP5KG", "Peso": "5 kg cada una, set de 2", "Material": "Neopreno", "Forma": "Hexagonal", "Medidas": "22,4 x 10,6 x 9,7 cm", "Vendido por": "Amazon" },
+    relatedPosts: ["entrenamiento-fuerza-casa-equipamiento-minimo", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
+  },
+  {
     slug: "superun-cinta-correr-inclinacion-10-app-pitpat",
     // Comprobada en amazon.es el 22/11/2026: botón de compra activo, vendida por Superun Store (tercero); aparece entre los más vendidos de Fitness. Datos solo de la ficha de Amazon.
     name: "Superun Cinta de Correr con Inclinación 2,5 CV y Control por App",
