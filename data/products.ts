@@ -270,6 +270,25 @@ export const products: Product[] = [
     relatedPosts: ["banco-de-pesas-casa-como-elegir", "rutina-mancuernas-casa-semana", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
   },
   {
+    slug: "amazon-basics-banco-pesas-ajustable-plegable-7-posiciones",
+    image: "https://m.media-amazon.com/images/I/61ioOndBfjL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Banco de Pesas Ajustable y Plegable, 7 Posiciones",
+    asin: "B0DPHXXW29",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Banco de pesas plegable con respaldo de 7 posiciones y asiento de 3, de 135 x 38 x 116 cm y 13,8 kg.",
+    fullDescription: "Banco de pesas ajustable y plegable de Amazon Basics para el gimnasio en casa. Según la ficha de Amazon, tiene respaldo ajustable de 7 posiciones, asiento de 3 posiciones y una capacidad indicada de 299 kg. Mide 135 x 38 x 116 cm, pesa 13,8 kg y se pliega para guardarlo en espacios pequeños. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Respaldo de 7 posiciones y asiento de 3", "Plegable para guardarlo en espacios pequeños", "Capacidad indicada de 299 kg"],
+    cons: ["No lo hemos probado: la información, incluida la capacidad, procede de la ficha de Amazon", "Un banco plegable de 13,8 kg puede ser menos estable con cargas altas que uno fijo"],
+    specs: { "Marca": "Amazon Basics", "Posiciones respaldo": "7", "Posiciones asiento": "3", "Medidas": "135 x 38 x 116 cm", "Peso": "13,8 kg", "Vendido por": "Amazon" },
+    relatedPosts: ["banco-de-pesas-casa-como-elegir"],
+  },
+  {
     slug: "amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Mancuernas de Neopreno 1, 2 y 3 kg",

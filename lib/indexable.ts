@@ -131,6 +131,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "kiprun-run500-calcetines-running-finos-media-cana-2-pares",
   "compressport-pro-racing-socks-v3-run-high",
   "yoleo-banco-pesas-ajustable-plegable",
+  "amazon-basics-banco-pesas-ajustable-plegable-7-posiciones",
   "amazon-basics-mancuernas-neopreno-1-2-3-kg-soporte",
   "nordictrack-t65s-cinta-correr",
   "manduka-pro-yoga-mat-6mm",
