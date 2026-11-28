@@ -511,7 +511,7 @@ categoryCta: { href: "/tienda/accesorios-gimnasio", text: "Ver accesorios de gim
     date: "2025-07-13",
     category: "Fuerza",
     readTime: "8 min",
-    relatedProducts: ["lullax-neo36-mancuernas-ajustables", "maniboom-mancuernas-hexagonales-15kg", "fokky-bandas-elasticas-set-4-tpe", "domyos-corength-kit-mancuernas-20kg-maletin", "domyos-corength-kit-mancuerna-10kg", "domyos-kit-musculacion-50kg-barra-mancuernas-discos"],
+    relatedProducts: ["lullax-neo36-mancuernas-ajustables", "maniboom-mancuernas-hexagonales-15kg", "fokky-bandas-elasticas-set-4-tpe", "domyos-corength-kit-mancuernas-20kg-maletin", "domyos-corength-kit-mancuerna-10kg", "domyos-kit-musculacion-50kg-barra-mancuernas-discos", "songmics-mancuernas-ajustables-2-en-1-20kg"],
     relatedPosts: ["lullax-neo36-analisis-opinion", "mancuernas-ajustables-merece-pena", "entrenamiento-fuerza-casa-equipamiento-minimo", "banco-de-pesas-casa-como-elegir", "rincon-entrenamiento-casa-poco-espacio-medidas-ruido", "mobiclinic-extenfit-mancuernas-analisis"],
     categoryCta: { href: "/tienda/pesas-mancuernas", text: "Ver mancuernas y pesas en tienda →" },
   },
