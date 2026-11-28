@@ -3491,6 +3491,25 @@ export const products: Product[] = [
     relatedPosts: ["entrenamiento-fuerza-casa-equipamiento-minimo", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
   },
   {
+    slug: "songmics-mancuernas-ajustables-2-en-1-20kg",
+    image: "https://m.media-amazon.com/images/I/71Siv2KT5jL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "SONGMICS Mancuernas ajustables 2 en 1, set de 20 kg",
+    asin: "B07GSVQGKF",
+    categorySlug: "pesas-mancuernas",
+    categoryName: "Pesas y mancuernas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Set de 20 kg con dos barras de mancuerna, collares y una barra de extensión que lo convierte en una barra de 20 kg.",
+    fullDescription: "Set de mancuernas ajustables de SONGMICS que, según la ficha de Amazon, pesa 20 kg en total con los accesorios e incluye dos barras de mancuerna, cuatro collares con forma de estrella y una barra de extensión de 20 cm. Con la extensión se pueden montar dos mancuernas de 10 kg o una barra de 20 kg. Los discos llevan una cubierta de plástico PE con relleno de cemento y arena, y las barras tienen un mango de 12 cm con moleteado antideslizante y cuatro cierres de rosca que sujetan los discos. Mide 42 x 21,5 x 21,5 cm y su número de modelo es SYL20HBK. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Se usa como dos mancuernas de 10 kg o como una barra de 20 kg", "Mango de 12 cm con moleteado antideslizante y cierres de rosca", "Discos con cubierta de plástico, pensados para uso en casa"],
+    cons: ["Los 20 kg son el total con accesorios: para progresar hará falta un set mayor", "Las mancuernas de 10 kg quedan cortas para trabajo de piernas o espalda con cargas altas", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "SONGMICS", "Modelo": "SYL20HBK", "Peso total": "20 kg con accesorios", "Incluye": "2 barras de mancuerna, 4 collares y barra de extensión de 20 cm", "Mango": "12 cm, moleteado antideslizante", "Medidas": "42 x 21,5 x 21,5 cm", "Vendido por": "Amazon" },
+    relatedPosts: ["mancuernas-ajustables-vs-fijas", "tipos-de-pesas-cual-elegir-casa-gimnasio"],
+  },
+  {
     slug: "superun-cinta-correr-inclinacion-10-app-pitpat",
     // Comprobada en amazon.es el 22/11/2026: botón de compra activo, vendida por Superun Store (tercero); aparece entre los más vendidos de Fitness. Datos solo de la ficha de Amazon.
     name: "Superun Cinta de Correr con Inclinación 2,5 CV y Control por App",

@@ -155,6 +155,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "fitgriff-straps-gym-correas-levantamiento",
   "amazon-basics-par-mancuernas-neopreno-2kg",
   "amazon-basics-par-mancuernas-neopreno-5kg",
+  "songmics-mancuernas-ajustables-2-en-1-20kg",
   "amazon-basics-comba-estandar-negra",
   "amazon-basics-3-pares-mancuernas-neopreno-1-5-3-5kg",
   "superun-cinta-correr-inclinacion-10-app-pitpat",
